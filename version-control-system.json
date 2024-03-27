@@ -1,0 +1,1680 @@
+{
+    "skill": {
+        "VersionControlSystem": {
+            "id": "version-control-system",
+            "description": "There are different repository hosting services with the most famous one being GitHub, GitLab and BitBucket. I would recommend creating an account on GitHub because that is where most of the OpenSource work is done and most of the developers are. Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "GitHub: Where the world builds software",
+                    "link": "https://github.com/"
+                },
+                {
+                    "name": "GitLab: Iterate faster, innovate together",
+                    "link": "https://gitlab.com/"
+                },
+                {
+                    "name": "BitBucket: The Git solution for professional teams",
+                    "link": "https://bitbucket.com/"
+                }
+            ],
+            "parents": [
+                "frontend"
+            ],
+            "children": [
+                "git"
+            ],
+            "questions": [
+                {
+                    "id": "ab8c4af6-ec2d-4d7c-80f8-e16d7e4f9297",
+                    "question": "What is the primary purpose of version control systems in software development?",
+                    "description": "Explain the main role of version control systems and how they benefit software development.",
+                    "hint": "Consider how version control systems help track changes, enable collaboration, and provide the ability to revert to previous code versions.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "To permanently stop the development of a software project.",
+                            "description": "Incorrect. Version control systems do not aim to stop development; their purpose is to track changes, enable collaboration, and facilitate version management.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "To track changes to codebase/files over time and facilitate collaboration among developers.",
+                            "description": "Correct! The primary purpose of version control systems is to track changes over time and enable collaboration among developers.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of version control systems in tracking changes and facilitating collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "To randomly select and merge code changes without any structure.",
+                            "description": "Incorrect. Version control systems aim to provide a structured way to track and manage code changes, not to perform random selections and merges.",
+                            "points": 0,
+                            "explanation": "Understanding the structured nature of version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "To replace the need for collaboration in software development.",
+                            "description": "Incorrect. Version control systems enhance collaboration; their purpose is not to replace collaboration but to facilitate it.",
+                            "points": 0,
+                            "explanation": "Understanding the collaborative role of version control systems is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a024f142-6eb5-438a-9d1c-75c075e7292c",
+                    "question": "How do version control systems contribute to collaboration in software development?",
+                    "description": "Explain the collaborative benefits of using version control systems in a software development environment.",
+                    "hint": "Consider how version control systems help manage code changes, avoid conflicts, and provide a history of code modifications.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "By preventing any changes to the codebase, ensuring a single, unchangeable version.",
+                            "description": "Incorrect. Version control systems do not prevent changes; their purpose is to track and manage changes while facilitating collaboration.",
+                            "points": 0,
+                            "explanation": "Understanding that version control systems allow changes is crucial for this question."
+                        },
+                        {
+                            "label": "By enabling developers to work independently without sharing their code changes.",
+                            "description": "Incorrect. Version control systems enhance collaboration by allowing independent work but also provide mechanisms for sharing and integrating code changes.",
+                            "points": 0,
+                            "explanation": "Understanding that version control systems facilitate collaboration, not isolation, is crucial for this question."
+                        },
+                        {
+                            "label": "By tracking changes, avoiding conflicts, and providing a history of code modifications.",
+                            "description": "Correct! Version control systems contribute to collaboration by tracking changes, avoiding conflicts, and providing a history of code modifications.",
+                            "points": 3,
+                            "explanation": "Recognizing the collaborative benefits of version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "By restricting access to the codebase, allowing only one developer to work at a time.",
+                            "description": "Incorrect. Version control systems do not restrict access; they provide mechanisms for multiple developers to work collaboratively on the codebase.",
+                            "points": 0,
+                            "explanation": "Understanding that version control systems support simultaneous collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c184984f-2f9e-4655-bac6-e9d1a66c4701",
+                    "question": "What problem do version control systems help solve when collaborating on code changes?",
+                    "description": "Explain the specific issue that version control systems address when multiple developers collaborate on code.",
+                    "hint": "Consider the challenges related to merging changes, avoiding conflicts, and maintaining a coherent codebase.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "The problem of forcing developers to work on separate, isolated projects.",
+                            "description": "Incorrect. Version control systems do not force isolation; they provide tools for collaborative work on the same project.",
+                            "points": 0,
+                            "explanation": "Understanding that version control systems support collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "The problem of tracking changes and maintaining a history of code modifications.",
+                            "description": "Incorrect. While version control systems address this aspect, the specific problem discussed here is related to collaboration and code changes.",
+                            "points": 0,
+                            "explanation": "Understanding the collaborative focus of version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "The problem of merging changes made by multiple developers and avoiding conflicts.",
+                            "description": "Correct! Version control systems help solve the problem of merging changes and avoiding conflicts when multiple developers collaborate on code.",
+                            "points": 3,
+                            "explanation": "Recognizing the collaborative challenges addressed by version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "The problem of restricting access to codebase, allowing only one developer to work at a time.",
+                            "description": "Incorrect. Version control systems do not restrict access; they provide mechanisms for multiple developers to work collaboratively on the codebase.",
+                            "points": 0,
+                            "explanation": "Understanding that version control systems support simultaneous collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "22b6a76b-95de-4f03-a09c-5c6ce57d67af",
+                    "question": "What capability do version control systems offer in terms of codebase history?",
+                    "description": "Explain how version control systems handle the history of changes made to a codebase over time.",
+                    "hint": "Consider the ability of version control systems to maintain a chronological record of code modifications and facilitate reverting to previous versions.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "They erase the history of code changes to ensure a clean slate for each project.",
+                            "description": "Incorrect. Version control systems do not erase history; they maintain a chronological record of code changes over time.",
+                            "points": 0,
+                            "explanation": "Understanding the historical tracking feature of version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "They only record the most recent code changes and ignore previous versions.",
+                            "description": "Incorrect. Version control systems record the entire history of code changes, not just the most recent ones.",
+                            "points": 0,
+                            "explanation": "Understanding the comprehensive historical tracking of version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "They maintain a chronological record of code modifications, allowing developers to revert to previous versions.",
+                            "description": "Correct! Version control systems maintain a chronological record of code modifications, enabling developers to revert to previous versions when needed.",
+                            "points": 3,
+                            "explanation": "Recognizing the historical tracking capability of version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "They limit the history to only major releases and ignore minor code changes.",
+                            "description": "Incorrect. Version control systems typically capture all code changes, both major and minor, in their history.",
+                            "points": 0,
+                            "explanation": "Understanding the comprehensive historical tracking of version control systems is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f46cdebc-44d3-42bf-b0f5-7e6bb24d57f1",
+                    "question": "What is the significance of 'reverting' in version control systems?",
+                    "description": "Explain the role of 'reverting' in version control systems and how it affects the codebase.",
+                    "hint": "Consider how 'reverting' allows developers to undo specific changes, restoring the codebase to a previous state.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "It is a feature that permanently deletes code changes without any trace.",
+                            "description": "Incorrect. 'Reverting' in version control systems does not permanently delete changes; it allows developers to selectively undo specific modifications.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'reverting' is crucial for this question."
+                        },
+                        {
+                            "label": "It is a process that isolates a developer's changes, preventing them from collaborating with others.",
+                            "description": "Incorrect. 'Reverting' does not isolate changes; it selectively undoes specific modifications while maintaining collaboration with others.",
+                            "points": 0,
+                            "explanation": "Understanding that 'reverting' does not isolate changes is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to selectively undo specific changes, restoring the codebase to a previous state.",
+                            "description": "Correct! 'Reverting' in version control systems allows developers to selectively undo specific changes, reverting the codebase to a previous state.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'reverting' in version control systems is crucial for this question."
+                        },
+                        {
+                            "label": "It is a mechanism for permanently locking code, preventing any future modifications.",
+                            "description": "Incorrect. 'Reverting' does not permanently lock code; it selectively undoes specific changes while allowing for future modifications.",
+                            "points": 0,
+                            "explanation": "Understanding that 'reverting' does not lock code is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "17b6e754-1f15-4917-aaf6-e29ffaa86557",
+                    "question": "How does a 'branch' contribute to effective version control?",
+                    "description": "Explain the role of 'branching' in version control systems and how it facilitates parallel development.",
+                    "hint": "Consider how 'branching' allows developers to work on separate features or fixes without affecting the main codebase until changes are ready.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to work at a time.",
+                            "description": "Incorrect. 'Branching' in version control systems does not restrict access; it provides a mechanism for multiple developers to work simultaneously on different features or fixes.",
+                            "points": 0,
+                            "explanation": "Understanding that 'branching' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is a process that permanently separates a developer's changes from the main codebase.",
+                            "description": "Incorrect. 'Branching' temporarily separates changes to allow for parallel development, but it does not permanently separate them.",
+                            "points": 0,
+                            "explanation": "Understanding that 'branching' is a temporary separation is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to work on separate features or fixes without affecting the main codebase until changes are ready.",
+                            "description": "Correct! 'Branching' in version control systems allows developers to work on separate features or fixes without affecting the main codebase until changes are ready to be merged.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'branching' in facilitating parallel development is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'branching' may involve tracking contributions, its primary purpose is to support parallel development.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'branching' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7a2a84a7-8ba6-4764-8f94-82ef13b042b0",
+                    "question": "How does 'merging' contribute to the version control process?",
+                    "description": "Explain the role of 'merging' in version control systems and how it brings together changes from different branches.",
+                    "hint": "Consider how 'merging' combines changes made in separate branches, allowing for a unified codebase.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "It is a process that permanently separates code changes, preventing any collaboration.",
+                            "description": "Incorrect. 'Merging' in version control systems combines code changes from different branches, facilitating collaboration rather than preventing it.",
+                            "points": 0,
+                            "explanation": "Understanding the collaborative nature of 'merging' is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to work at a time.",
+                            "description": "Incorrect. 'Merging' does not restrict access; it combines changes to create a unified codebase that multiple developers can work on simultaneously.",
+                            "points": 0,
+                            "explanation": "Understanding that 'merging' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It allows the combination of changes made in separate branches, creating a unified codebase.",
+                            "description": "Correct! 'Merging' in version control systems allows for the combination of changes made in separate branches, creating a unified codebase.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'merging' in bringing together changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'merging' may involve tracking contributions, its primary purpose is to unify code changes.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'merging' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a5364ee9-c6bf-4822-b4aa-d198b5a5a8b5",
+                    "question": "What is the purpose of a 'commit' in the context of version control systems?",
+                    "description": "Explain the role of a 'commit' in version control systems and how it represents a snapshot of the codebase.",
+                    "hint": "Consider how 'commits' record changes, provide a history of modifications, and serve as snapshots in the version control timeline.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "It is a process that permanently erases the entire history of code changes.",
+                            "description": "Incorrect. 'Commits' in version control systems do not erase history; they record changes and provide a history of code modifications.",
+                            "points": 0,
+                            "explanation": "Understanding that 'commits' maintain history is crucial for this question."
+                        },
+                        {
+                            "label": "It is a snapshot of the codebase at a specific point in time, recording changes made up to that moment.",
+                            "description": "Correct! 'Commits' in version control systems represent snapshots of the codebase at specific points in time, recording changes made up to those moments.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'commits' as snapshots in the version control timeline is crucial for this question."
+                        },
+                        {
+                            "label": "It is a process that prevents any further code changes from being made.",
+                            "description": "Incorrect. 'Commits' do not prevent further changes; they represent specific points in the version control timeline and allow for continued development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'commits' do not prevent changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'commits' contribute to tracking contributions, their primary purpose is to represent snapshots of the codebase.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'commits' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "bd9e52e1-10f3-49e8-b54c-6d0da2c1f24a",
+                    "question": "How does 'pull request' facilitate collaboration in version control systems?",
+                    "description": "Explain the role of a 'pull request' in version control systems and how it contributes to collaborative development.",
+                    "hint": "Consider how 'pull requests' allow developers to propose changes, review code, and integrate modifications into the main codebase.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to propose changes at a time.",
+                            "description": "Incorrect. 'Pull requests' do not restrict access; they provide a mechanism for multiple developers to propose changes simultaneously.",
+                            "points": 0,
+                            "explanation": "Understanding that 'pull requests' support simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is a process that permanently separates proposed changes from the main codebase.",
+                            "description": "Incorrect. 'Pull requests' are temporary proposals; they do not permanently separate changes but provide a review and integration process.",
+                            "points": 0,
+                            "explanation": "Understanding that 'pull requests' are temporary proposals is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to propose changes, receive feedback, and integrate modifications into the main codebase.",
+                            "description": "Correct! 'Pull requests' in version control systems allow developers to propose changes, receive feedback, and integrate modifications into the main codebase.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'pull requests' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'pull requests' contribute to tracking contributions, their primary purpose is to facilitate collaboration and code review.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'pull requests' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "eb234441-11ad-4480-800d-38a33e16b51c",
+                    "question": "What is the significance of 'code review' in the context of version control systems?",
+                    "description": "Explain the role of 'code review' in version control systems and how it improves code quality.",
+                    "hint": "Consider how 'code reviews' provide a collaborative process for examining, improving, and ensuring the quality of proposed code changes.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "It is a process that permanently separates proposed changes from the main codebase.",
+                            "description": "Incorrect. 'Code review' is a collaborative process for examining proposed changes, not a mechanism for permanent separation.",
+                            "points": 0,
+                            "explanation": "Understanding that 'code review' is a collaborative examination process is crucial for this question."
+                        },
+                        {
+                            "label": "It is a mechanism for preventing any changes to the codebase until thoroughly reviewed.",
+                            "description": "Incorrect. 'Code review' does not prevent changes; it provides a collaborative process to review and improve proposed code modifications.",
+                            "points": 0,
+                            "explanation": "Understanding that 'code review' is a collaborative examination process is crucial for this question."
+                        },
+                        {
+                            "label": "It is a collaborative process for examining, improving, and ensuring the quality of proposed code changes.",
+                            "description": "Correct! 'Code review' in version control systems is a collaborative process that involves examining, improving, and ensuring the quality of proposed code changes.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'code review' in improving code quality is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'code review' may involve tracking contributions, its primary purpose is to improve the quality of code changes.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'code review' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "12bdc20a-cd87-4727-978d-d48ffae16f6c",
+                    "question": "How does 'forking' contribute to collaborative development in version control systems?",
+                    "description": "Explain the role of 'forking' in version control systems and how it enables developers to work on their copies of a repository.",
+                    "hint": "Consider how 'forking' allows developers to create independent copies of a repository, fostering collaborative development without direct access to the original project.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently merges changes from one repository into another.",
+                            "description": "Incorrect. 'Forking' does not involve permanent merging; it allows developers to create independent copies of a repository.",
+                            "points": 0,
+                            "explanation": "Understanding that 'forking' is about creating independent copies is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to work on a repository at a time.",
+                            "description": "Incorrect. 'Forking' does not restrict access; it allows multiple developers to work on independent copies of a repository simultaneously.",
+                            "points": 0,
+                            "explanation": "Understanding that 'forking' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It enables developers to create independent copies of a repository, fostering collaborative development.",
+                            "description": "Correct! 'Forking' in version control systems enables developers to create independent copies of a repository, fostering collaborative development without direct access to the original project.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'forking' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'forking' may involve tracking contributions, its primary purpose is to enable collaborative development with independent copies.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'forking' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6e3ba3ff-f2c5-4b1c-b13a-d3f348a5f55b",
+                    "question": "What is the purpose of a 'clone' operation in version control systems?",
+                    "description": "Explain the role of 'cloning' in version control systems and how it allows developers to obtain a local copy of a repository.",
+                    "hint": "Consider how 'cloning' creates a local copy of a remote repository, providing developers with the entire project history and files for collaboration.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently removes a repository from version control, making it inaccessible to others.",
+                            "description": "Incorrect. 'Cloning' does not permanently remove a repository; it creates a local copy for collaboration.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cloning' creates a local copy is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to work on a repository at a time.",
+                            "description": "Incorrect. 'Cloning' does not restrict access; it allows multiple developers to obtain local copies for collaboration.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cloning' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to obtain a local copy of a remote repository, providing access to the project history and files.",
+                            "description": "Correct! 'Cloning' in version control systems allows developers to obtain a local copy of a remote repository, providing access to the entire project history and files for collaboration.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'cloning' in obtaining local copies is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'cloning' may involve tracking contributions, its primary purpose is to allow developers to collaborate with local copies.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'cloning' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "80d62a4f-bbbf-4b6b-88c7-4f3e6e3b9d0a",
+                    "question": "How does 'branch merging' contribute to the version control process?",
+                    "description": "Explain the role of 'branch merging' in version control systems and how it combines changes from different branches.",
+                    "hint": "Consider how 'branch merging' combines changes made in separate branches, integrating them into a unified codebase.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It is a process that permanently separates code changes, preventing any collaboration.",
+                            "description": "Incorrect. 'Branch merging' does not permanently separate changes; it combines them into a unified codebase for collaboration.",
+                            "points": 0,
+                            "explanation": "Understanding the collaborative nature of 'branch merging' is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to work at a time.",
+                            "description": "Incorrect. 'Branch merging' does not restrict access; it allows multiple developers to work on separate branches that can be merged later.",
+                            "points": 0,
+                            "explanation": "Understanding that 'branch merging' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It combines changes made in separate branches, integrating them into a unified codebase.",
+                            "description": "Correct! 'Branch merging' in version control systems combines changes made in separate branches, integrating them into a unified codebase.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'branch merging' in combining changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'branch merging' may involve tracking contributions, its primary purpose is to unify code changes.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'branch merging' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "930f88f5-523c-44d3-af5a-bf6a13ff4a50",
+                    "question": "What is the purpose of a 'pull' operation in version control systems?",
+                    "description": "Explain the role of a 'pull' operation in version control systems and how it updates a local repository with changes from a remote repository.",
+                    "hint": "Consider how a 'pull' operation fetches changes from a remote repository and merges them into the local repository, ensuring it stays up-to-date.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently removes changes from a local repository, making it identical to the remote repository.",
+                            "description": "Incorrect. A 'pull' operation does not remove changes; it fetches and merges updates from a remote repository.",
+                            "points": 0,
+                            "explanation": "Understanding that 'pull' updates a local repository is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to pull changes at a time.",
+                            "description": "Incorrect. 'Pull' does not restrict access; multiple developers can pull changes simultaneously to update their local repositories.",
+                            "points": 0,
+                            "explanation": "Understanding that 'pull' supports simultaneous updates is crucial for this question."
+                        },
+                        {
+                            "label": "It updates a local repository with changes from a remote repository, ensuring it stays up-to-date.",
+                            "description": "Correct! A 'pull' operation in version control systems updates a local repository with changes from a remote repository, ensuring it stays up-to-date.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of a 'pull' operation in updating local repositories is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'pull' may involve tracking contributions, its primary purpose is to update local repositories with remote changes.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of a 'pull' operation is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ed4aef7a-1a3d-43af-b3e7-9d4a5b785c8f",
+                    "question": "What is the purpose of a 'push' operation in version control systems?",
+                    "description": "Explain the role of a 'push' operation in version control systems and how it uploads local changes to a remote repository.",
+                    "hint": "Consider how a 'push' operation sends changes from a local repository to a remote repository, allowing collaboration and sharing of modifications.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently removes changes from a remote repository, making it identical to the local repository.",
+                            "description": "Incorrect. A 'push' operation does not remove changes; it sends local changes to a remote repository for collaboration.",
+                            "points": 0,
+                            "explanation": "Understanding that 'push' uploads changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to push changes at a time.",
+                            "description": "Incorrect. 'Push' does not restrict access; multiple developers can push changes simultaneously to collaborate on a remote repository.",
+                            "points": 0,
+                            "explanation": "Understanding that 'push' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It uploads local changes to a remote repository, allowing collaboration and sharing of modifications.",
+                            "description": "Correct! A 'push' operation in version control systems uploads local changes to a remote repository, facilitating collaboration and sharing of modifications.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of a 'push' operation in collaborating on remote repositories is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'push' may involve tracking contributions, its primary purpose is to upload local changes to a remote repository.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of a 'push' operation is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a1230b0b-e3ea-4d07-b547-59c348a1c409",
+                    "question": "What is the significance of the 'commit' operation in version control systems?",
+                    "description": "Explain the role of the 'commit' operation in version control systems and how it records changes made to a local repository.",
+                    "hint": "Consider how 'commit' captures changes, creating a snapshot in the version control timeline, and allows developers to track modifications.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently removes changes from a local repository, erasing the version control history.",
+                            "description": "Incorrect. 'Commit' does not remove changes; it records modifications and contributes to the version control history.",
+                            "points": 0,
+                            "explanation": "Understanding that 'commit' records changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to commit changes at a time.",
+                            "description": "Incorrect. 'Commit' does not restrict access; multiple developers can commit changes simultaneously to record modifications.",
+                            "points": 0,
+                            "explanation": "Understanding that 'commit' supports simultaneous recording is crucial for this question."
+                        },
+                        {
+                            "label": "It records changes made to a local repository, creating a snapshot in the version control timeline.",
+                            "description": "Correct! The 'commit' operation in version control systems records changes, creating a snapshot in the version control timeline for tracking modifications.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'commit' in capturing changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'commit' may involve tracking contributions, its primary purpose is to record changes in the version control history.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'commit' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7e6c6285-3d85-45a8-90a7-d2f92f70042d",
+                    "question": "How does 'revert' contribute to version control processes?",
+                    "description": "Explain the role of the 'revert' operation in version control systems and how it allows developers to undo changes in a repository.",
+                    "hint": "Consider how 'revert' enables developers to roll back to a previous state, undoing specific changes in the version control history.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently removes all changes from a repository, erasing the version control history.",
+                            "description": "Incorrect. 'Revert' does not permanently remove all changes; it selectively undoes specific modifications in the version control history.",
+                            "points": 0,
+                            "explanation": "Understanding that 'revert' selectively undoes changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to revert changes at a time.",
+                            "description": "Incorrect. 'Revert' does not restrict access; multiple developers can revert changes simultaneously to undo specific modifications.",
+                            "points": 0,
+                            "explanation": "Understanding that 'revert' supports simultaneous undoing is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to undo specific changes in a repository, rolling back to a previous state.",
+                            "description": "Correct! The 'revert' operation in version control systems allows developers to undo specific changes, rolling back to a previous state in the version control history.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'revert' in undoing specific modifications is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'revert' may involve tracking contributions, its primary purpose is to selectively undo changes in the version control history.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'revert' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "72c0d178-d2b5-44b7-9c27-998dd59a36d4",
+                    "question": "What is the purpose of 'blame' in version control systems?",
+                    "description": "Explain the role of the 'blame' operation in version control systems and how it helps identify the author of specific code changes.",
+                    "hint": "Consider how 'blame' annotates the source code, associating each line with the contributor who made the corresponding modification.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently removes all authorship information from the source code, making it anonymous.",
+                            "description": "Incorrect. 'Blame' does not remove authorship information; it annotates the source code, associating each line with the contributor who made the modification.",
+                            "points": 0,
+                            "explanation": "Understanding that 'blame' annotates source code is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'blame' at a time.",
+                            "description": "Incorrect. 'Blame' does not restrict access; multiple developers can use 'blame' simultaneously to identify code authorship.",
+                            "points": 0,
+                            "explanation": "Understanding that 'blame' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It helps identify the author of specific code changes by annotating the source code.",
+                            "description": "Correct! The 'blame' operation in version control systems helps identify the author of specific code changes by annotating the source code.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'blame' in identifying code authorship is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'blame' may involve tracking contributions, its primary purpose is to identify code authorship.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'blame' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "4c06319e-5587-4eb4-8b43-e8b038a8a3a1",
+                    "question": "How does 'stash' contribute to the version control process?",
+                    "description": "Explain the role of the 'stash' operation in version control systems and how it allows developers to temporarily save changes.",
+                    "hint": "Consider how 'stash' enables developers to save changes without committing them, providing flexibility to switch between tasks.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently removes all changes from a local repository, erasing the version control history.",
+                            "description": "Incorrect. 'Stash' does not permanently remove changes; it allows developers to temporarily save modifications without committing them.",
+                            "points": 0,
+                            "explanation": "Understanding that 'stash' temporarily saves changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'stash' at a time.",
+                            "description": "Incorrect. 'Stash' does not restrict access; multiple developers can use 'stash' simultaneously to save changes temporarily.",
+                            "points": 0,
+                            "explanation": "Understanding that 'stash' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to temporarily save changes without committing them, providing flexibility to switch between tasks.",
+                            "description": "Correct! The 'stash' operation in version control systems allows developers to temporarily save changes without committing them, providing flexibility to switch between tasks.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'stash' in temporarily saving changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'stash' may involve tracking contributions, its primary purpose is to temporarily save changes.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'stash' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e8fbb69f-571b-417d-899e-95ec7dd0ebcc",
+                    "question": "What is the significance of the 'merge conflict' in version control processes?",
+                    "description": "Explain the role of a 'merge conflict' in version control systems and how it occurs when changes cannot be automatically merged.",
+                    "hint": "Consider how a 'merge conflict' arises when the version control system cannot automatically merge changes, requiring manual resolution by developers.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It permanently removes changes from a local repository, making it identical to the remote repository.",
+                            "description": "Incorrect. A 'merge conflict' does not permanently remove changes; it indicates a situation where manual resolution is needed.",
+                            "points": 0,
+                            "explanation": "Understanding that 'merge conflict' requires manual resolution is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to resolve a 'merge conflict' at a time.",
+                            "description": "Incorrect. 'Merge conflict' does not restrict access; multiple developers can collaborate on resolving conflicts simultaneously.",
+                            "points": 0,
+                            "explanation": "Understanding that 'merge conflict' supports simultaneous resolution is crucial for this question."
+                        },
+                        {
+                            "label": "It occurs when changes cannot be automatically merged, requiring manual resolution by developers.",
+                            "description": "Correct! A 'merge conflict' in version control systems occurs when changes cannot be automatically merged, necessitating manual resolution by developers.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'merge conflict' in requiring manual resolution is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'merge conflict' may involve tracking contributions, its primary purpose is to highlight situations where manual resolution is needed.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'merge conflict' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1c648ae5-53ed-488a-8f2d-bfe4b64e8b8f",
+                    "question": "How does branching contribute to effective version control?",
+                    "description": "Explain the role of branching in version control systems and how it facilitates parallel development and isolation of features.",
+                    "hint": "Consider how branching allows developers to work on separate features or fixes independently, promoting parallel development and code isolation.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It permanently removes changes from a local repository, making it identical to the remote repository.",
+                            "description": "Incorrect. Branching does not permanently remove changes; it enables parallel development and isolation of features.",
+                            "points": 0,
+                            "explanation": "Understanding that branching facilitates parallel development is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to create branches at a time.",
+                            "description": "Incorrect. Branching does not restrict access; multiple developers can create branches simultaneously for independent work.",
+                            "points": 0,
+                            "explanation": "Understanding that branching supports simultaneous creation is crucial for this question."
+                        },
+                        {
+                            "label": "It enables parallel development and isolation of features by allowing developers to work on separate branches.",
+                            "description": "Correct! Branching in version control systems enables parallel development and isolation of features by allowing developers to work on separate branches.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of branching in facilitating independent work on features is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While branching may involve tracking contributions, its primary purpose is to facilitate parallel development and feature isolation.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of branching is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c9b7607e-f3e7-4f41-b64c-ae54a366c3f2",
+                    "question": "What is the purpose of a 'merge' operation in version control systems?",
+                    "description": "Explain the role of a 'merge' operation in version control and how it combines changes from different branches into a single branch.",
+                    "hint": "Consider how 'merge' integrates changes from one branch into another, allowing collaboration and combining feature developments.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It permanently removes changes from a local repository, making it identical to the remote repository.",
+                            "description": "Incorrect. A 'merge' operation does not permanently remove changes; it combines modifications from different branches.",
+                            "points": 0,
+                            "explanation": "Understanding that 'merge' integrates changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to perform a 'merge' at a time.",
+                            "description": "Incorrect. 'Merge' does not restrict access; multiple developers can collaborate on merging changes from different branches.",
+                            "points": 0,
+                            "explanation": "Understanding that 'merge' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It combines changes from different branches into a single branch, facilitating collaboration and feature integration.",
+                            "description": "Correct! A 'merge' operation in version control combines changes from different branches into a single branch, facilitating collaboration and feature integration.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'merge' in integrating changes from multiple branches is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'merge' may involve tracking contributions, its primary purpose is to combine changes from different branches.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of a 'merge' operation is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "42f3ff88-f6ea-4a5e-bca8-0a7c28f32c99",
+                    "question": "How does 'rebase' differ from 'merge' in version control?",
+                    "description": "Explain the differences between the 'rebase' and 'merge' operations in version control, highlighting their effects on branch history.",
+                    "hint": "Consider how 'rebase' modifies the branch history by incorporating changes from one branch into another, providing a linear history.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Both 'rebase' and 'merge' have the same effect on branch history, combining changes from different branches.",
+                            "description": "Incorrect. 'Rebase' and 'merge' have different effects on branch history; 'rebase' provides a linear history by incorporating changes.",
+                            "points": 0,
+                            "explanation": "Understanding the difference in effects on branch history is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'rebase' modifies branch history, providing a linear history by incorporating changes from one branch into another.",
+                            "description": "Correct! 'Rebase' modifies branch history by incorporating changes, providing a linear history compared to the branching structure resulting from 'merge'.",
+                            "points": 3,
+                            "explanation": "Recognizing the difference in effects between 'rebase' and 'merge' on branch history is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'merge' modifies branch history, providing a linear history by incorporating changes from one branch into another.",
+                            "description": "Incorrect. 'Merge' and 'rebase' have different effects; 'merge' creates a branching structure, while 'rebase' provides a linear history.",
+                            "points": 0,
+                            "explanation": "Understanding the difference in effects on branch history is crucial for this question."
+                        },
+                        {
+                            "label": "Neither 'rebase' nor 'merge' affects branch history; they serve the same purpose.",
+                            "description": "Incorrect. Both 'rebase' and 'merge' affect branch history differently, providing distinct approaches to incorporating changes.",
+                            "points": 0,
+                            "explanation": "Understanding the different effects of 'rebase' and 'merge' on branch history is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b222dcd4-2671-4d5f-8260-1b314bb0e32b",
+                    "question": "What is the purpose of 'cherry-pick' in version control systems?",
+                    "description": "Explain the role of the 'cherry-pick' operation in version control and how it allows developers to apply specific commits to another branch.",
+                    "hint": "Consider how 'cherry-pick' selects and applies specific commits to another branch, enabling the incorporation of specific changes.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control history.",
+                            "description": "Incorrect. 'Cherry-pick' does not permanently remove commits; it selects and applies specific commits to another branch.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cherry-pick' applies specific commits is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to perform a 'cherry-pick' at a time.",
+                            "description": "Incorrect. 'Cherry-pick' does not restrict access; multiple developers can apply specific commits simultaneously to another branch.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cherry-pick' supports simultaneous application is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to apply specific commits to another branch, enabling the incorporation of specific changes.",
+                            "description": "Correct! The 'cherry-pick' operation in version control allows developers to apply specific commits to another branch, facilitating the incorporation of specific changes.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'cherry-pick' in applying specific commits is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'cherry-pick' may involve tracking contributions, its primary purpose is to apply specific commits to another branch.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'cherry-pick' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1d6de3c2-3f3f-4d5d-83fb-96be01df93fe",
+                    "question": "What is the purpose of 'squash' in version control systems?",
+                    "description": "Explain the role of the 'squash' operation in version control and how it combines multiple commits into a single, cohesive commit.",
+                    "hint": "Consider how 'squash' condenses multiple commits into a single commit, promoting a cleaner version history.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control history.",
+                            "description": "Incorrect. 'Squash' does not permanently remove commits; it combines multiple commits into a single, cohesive commit.",
+                            "points": 0,
+                            "explanation": "Understanding that 'squash' condenses commits is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to perform a 'squash' at a time.",
+                            "description": "Incorrect. 'Squash' does not restrict access; multiple developers can collaborate on squashing commits into a single, cohesive commit.",
+                            "points": 0,
+                            "explanation": "Understanding that 'squash' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It combines multiple commits into a single, cohesive commit, promoting a cleaner version history.",
+                            "description": "Correct! The 'squash' operation in version control combines multiple commits into a single, cohesive commit, promoting a cleaner version history.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'squash' in condensing commits is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'squash' may involve tracking contributions, its primary purpose is to combine commits for a cleaner version history.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'squash' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0bb1631b-52f2-4b34-81f7-f325d0e12c6a",
+                    "question": "How does 'submodule' contribute to version control processes?",
+                    "description": "Explain the role of 'submodule' in version control systems and how it allows the inclusion of external repositories within a parent repository.",
+                    "hint": "Consider how 'submodule' enables the incorporation of external repositories as components of a larger project, maintaining modularity.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It permanently removes external repositories from a parent repository, isolating them completely.",
+                            "description": "Incorrect. 'Submodule' does not permanently remove external repositories; it includes them as components within a parent repository.",
+                            "points": 0,
+                            "explanation": "Understanding that 'submodule' incorporates external repositories is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to manage 'submodules' at a time.",
+                            "description": "Incorrect. 'Submodule' does not restrict access; multiple developers can collaborate on managing 'submodules' simultaneously.",
+                            "points": 0,
+                            "explanation": "Understanding that 'submodule' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It allows the inclusion of external repositories as components within a parent repository, maintaining modularity.",
+                            "description": "Correct! 'Submodule' in version control systems allows the inclusion of external repositories as components within a parent repository, maintaining modularity.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'submodule' in incorporating external repositories is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'submodule' may involve tracking contributions, its primary purpose is to incorporate external repositories for modularity.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'submodule' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "848228e0-63e3-4c88-8717-0a62ccf335c7",
+                    "question": "What is the purpose of 'tagging' in version control?",
+                    "description": "Explain the role of 'tagging' in version control systems and how it allows developers to assign meaningful names to specific points in the project's history.",
+                    "hint": "Consider how 'tagging' provides a way to mark and reference specific points in the project's history, such as releases.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific points in the project's history, erasing them from version control records.",
+                            "description": "Incorrect. 'Tagging' does not permanently remove points in history; it marks and references specific points for easy retrieval.",
+                            "points": 0,
+                            "explanation": "Understanding that 'tagging' marks specific points is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to assign 'tags' at a time.",
+                            "description": "Incorrect. 'Tagging' does not restrict access; multiple developers can collaboratively assign 'tags' to specific points in the project's history.",
+                            "points": 0,
+                            "explanation": "Understanding that 'tagging' supports collaborative assignment is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to assign meaningful names to specific points in the project's history, such as releases.",
+                            "description": "Correct! 'Tagging' in version control systems allows developers to assign meaningful names (tags) to specific points in the project's history, aiding in reference and retrieval.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'tagging' in marking specific points is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'tagging' may involve tracking contributions, its primary purpose is to assign meaningful names to specific points in history.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'tagging' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d6fc2d80-ae14-46a1-9929-dcd92bfdb58c",
+                    "question": "What is the purpose of the 'git blame' command in version control?",
+                    "description": "Explain the role of the 'git blame' command in version control and how it helps identify the author and changes made to specific lines of code.",
+                    "hint": "Consider how 'git blame' provides a way to trace the history of changes for specific lines of code, aiding in accountability.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific lines of code from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. 'Git blame' does not permanently remove lines of code; it helps identify the author and changes made to specific lines in the project's history.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git blame' traces the history of code changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'git blame' at a time.",
+                            "description": "Incorrect. 'Git blame' does not restrict access; multiple developers can use it simultaneously to trace the history of code changes.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git blame' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It helps identify the author and changes made to specific lines of code in the project's history, aiding in accountability.",
+                            "description": "Correct! The 'git blame' command in version control helps identify the author and changes made to specific lines of code, aiding in accountability and traceability.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'git blame' in tracing code history is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git blame' may involve tracking contributions, its primary purpose is to identify authors and changes for specific lines of code.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'git blame' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "688ee7d7-fdb1-40d5-8c24-7ce5d177007b",
+                    "question": "How does 'git revert' differ from 'git reset' in version control?",
+                    "description": "Explain the differences between the 'git revert' and 'git reset' commands in version control, highlighting their effects on commit history.",
+                    "hint": "Consider how 'git revert' creates a new commit to reverse changes, while 'git reset' can remove commits by changing the branch reference.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Both 'git revert' and 'git reset' have the same effect on commit history, creating new commits to reverse changes.",
+                            "description": "Incorrect. 'Git revert' and 'git reset' have different effects; 'revert' creates new commits to reverse changes, while 'reset' can remove commits by changing branch references.",
+                            "points": 0,
+                            "explanation": "Understanding the difference in effects on commit history is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'git revert' modifies commit history, creating new commits to reverse changes.",
+                            "description": "Correct! 'Git revert' creates new commits to reverse changes in commit history, while 'git reset' can have different effects, including removing commits.",
+                            "points": 3,
+                            "explanation": "Recognizing the difference in effects between 'revert' and 'reset' on commit history is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'git reset' modifies commit history, creating new commits to reverse changes.",
+                            "description": "Incorrect. 'Git revert' and 'git reset' have different effects; 'revert' creates new commits to reverse changes, while 'reset' can remove commits by changing branch references.",
+                            "points": 0,
+                            "explanation": "Understanding the difference in effects on commit history is crucial for this question."
+                        },
+                        {
+                            "label": "Neither 'git revert' nor 'git reset' affects commit history; they serve the same purpose.",
+                            "description": "Incorrect. Both 'git revert' and 'git reset' affect commit history differently, providing distinct approaches to handling changes.",
+                            "points": 0,
+                            "explanation": "Understanding the different effects of 'revert' and 'reset' on commit history is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e3b2599d-69f4-47da-b4c5-b7f960a4bb89",
+                    "question": "What is the purpose of 'git fetch' in version control?",
+                    "description": "Explain the role of the 'git fetch' command in version control and how it retrieves changes from a remote repository without merging them.",
+                    "hint": "Consider how 'git fetch' allows you to view changes from a remote repository without automatically merging them into your local branch.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. 'Git fetch' does not permanently remove commits; it retrieves changes from a remote repository without automatically merging them.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git fetch' retrieves changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'git fetch' at a time.",
+                            "description": "Incorrect. 'Git fetch' does not restrict access; multiple developers can use it simultaneously to retrieve changes from a remote repository.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git fetch' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It retrieves changes from a remote repository without automatically merging them into the local branch.",
+                            "description": "Correct! 'Git fetch' in version control retrieves changes from a remote repository without automatically merging them into the local branch, allowing you to view and decide whether to merge.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'git fetch' in retrieving changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git fetch' may involve tracking contributions, its primary purpose is to retrieve changes from a remote repository without automatic merging.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'git fetch' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c30ffcdc-4ec8-4e68-a164-c6e8c2000057",
+                    "question": "What is a 'rebase' operation in version control?",
+                    "description": "Explain the 'rebase' operation in version control and how it allows developers to integrate changes from one branch into another by applying each commit from the source branch onto the destination branch.",
+                    "hint": "Consider how 'rebase' differs from merging by applying individual commits, resulting in a linear project history.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. 'Rebase' does not permanently remove commits; it integrates changes by applying each commit from one branch onto another.",
+                            "points": 0,
+                            "explanation": "Understanding that 'rebase' integrates changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to perform a 'rebase' at a time.",
+                            "description": "Incorrect. 'Rebase' does not restrict access; multiple developers can collaborate on rebasing changes from one branch into another.",
+                            "points": 0,
+                            "explanation": "Understanding that 'rebase' supports simultaneous collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to integrate changes from one branch into another by applying each commit from the source branch onto the destination branch.",
+                            "description": "Correct! The 'rebase' operation in version control integrates changes by applying individual commits from one branch onto another, resulting in a linear project history.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'rebase' in integrating changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'rebase' may involve tracking contributions, its primary purpose is to integrate changes from one branch into another.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'rebase' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "534623a2-5be1-4d9d-9c2d-b72a40b7d69e",
+                    "question": "What is the significance of the 'git bisect' command in version control?",
+                    "description": "Explain how the 'git bisect' command helps identify the commit where a bug was introduced by performing a binary search through the commit history.",
+                    "hint": "Consider how 'git bisect' automates the process of finding the commit introducing a bug by narrowing down potential ranges.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. 'Git bisect' does not permanently remove commits; it helps identify the commit introducing a bug by performing a binary search.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git bisect' identifies the bug-introducing commit is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'git bisect' at a time.",
+                            "description": "Incorrect. 'Git bisect' does not restrict access; multiple developers can collaborate on identifying the bug-introducing commit using binary search.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git bisect' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It helps identify the commit where a bug was introduced by performing a binary search through the commit history.",
+                            "description": "Correct! The 'git bisect' command in version control automates the process of finding the commit introducing a bug by performing a binary search through the commit history.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'git bisect' in identifying bug-introducing commits is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git bisect' may involve tracking contributions, its primary purpose is to automate the identification of bug-introducing commits.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'git bisect' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "8c4c8a44-9a60-4ad9-918b-61af81e6a1a9",
+                    "question": "How does the 'cherry-pick' operation differ from 'merge' in version control?",
+                    "description": "Explain the differences between the 'cherry-pick' and 'merge' operations in version control, highlighting their effects on commit history and code integration.",
+                    "hint": "Consider how 'cherry-pick' selects and applies specific commits, while 'merge' combines changes from one branch into another.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Both 'cherry-pick' and 'merge' have the same effect on commit history and code integration, selecting and applying specific commits.",
+                            "description": "Incorrect. 'Cherry-pick' and 'merge' have different effects; 'cherry-pick' applies specific commits, while 'merge' combines changes from one branch into another.",
+                            "points": 0,
+                            "explanation": "Understanding the difference in effects on commit history and code integration is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'cherry-pick' modifies commit history and code integration, selecting and applying specific commits.",
+                            "description": "Correct! 'Cherry-pick' selects and applies specific commits, introducing them into a different branch, while 'merge' combines changes from one branch into another.",
+                            "points": 3,
+                            "explanation": "Recognizing the difference in effects between 'cherry-pick' and 'merge' is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'merge' modifies commit history and code integration, selecting and applying specific commits.",
+                            "description": "Incorrect. 'Cherry-pick' and 'merge' have different effects; 'cherry-pick' applies specific commits, while 'merge' combines changes from one branch into another.",
+                            "points": 0,
+                            "explanation": "Understanding the difference in effects on commit history and code integration is crucial for this question."
+                        },
+                        {
+                            "label": "Neither 'cherry-pick' nor 'merge' affects commit history and code integration; they serve the same purpose.",
+                            "description": "Incorrect. 'Cherry-pick' and 'merge' affect commit history and code integration differently, providing distinct approaches to incorporating changes.",
+                            "points": 0,
+                            "explanation": "Understanding the different effects of 'cherry-pick' and 'merge' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "9249d93f-146a-4d5d-b788-cb5cfacda960",
+                    "question": "What is the purpose of 'git reflog' in version control?",
+                    "description": "Explain the role of the 'git reflog' command in version control and how it helps recover lost commits or branches by displaying a log of reference updates.",
+                    "hint": "Consider how 'git reflog' provides a record of reference updates, aiding in the recovery of lost commits or branches.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. 'Git reflog' does not permanently remove commits; it helps recover lost commits or branches by displaying a log of reference updates.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git reflog' aids in recovery is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'git reflog' at a time.",
+                            "description": "Incorrect. 'Git reflog' does not restrict access; multiple developers can use it simultaneously to recover lost commits or branches.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git reflog' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It helps recover lost commits or branches by displaying a log of reference updates, aiding in the restoration process.",
+                            "description": "Correct! 'Git reflog' in version control provides a log of reference updates, helping recover lost commits or branches by displaying their history.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'git reflog' in recovery is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git reflog' may involve tracking contributions, its primary purpose is to aid in the recovery of lost commits or branches.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'git reflog' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7a68d2eb-bbd2-4e8f-865d-5a4bc011ea0e",
+                    "question": "What is the purpose of the 'squash' option in a Git merge commit?",
+                    "description": "Explain the role of the 'squash' option during a Git merge commit and how it allows combining multiple commits into a single, more readable commit.",
+                    "hint": "Consider how 'squash' condenses multiple commits into one, providing a cleaner project history.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. The 'squash' option in a Git merge commit does not permanently remove commits; it combines them into a single, more readable commit.",
+                            "points": 0,
+                            "explanation": "Understanding that 'squash' condenses commits is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use the 'squash' option during a merge commit.",
+                            "description": "Incorrect. The 'squash' option during a Git merge commit does not restrict access; multiple developers can collaborate on squashing commits into a single commit.",
+                            "points": 0,
+                            "explanation": "Understanding that 'squash' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It allows combining multiple commits into a single, more readable commit during a Git merge.",
+                            "description": "Correct! The 'squash' option in a Git merge commit allows developers to combine multiple commits into a single, more readable commit, providing a cleaner project history.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'squash' in condensing commits is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor during a merge commit.",
+                            "description": "Incorrect. While 'squash' may involve tracking contributions, its primary purpose during a Git merge commit is to combine multiple commits for a cleaner project history.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'squash' during a merge commit is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "32ccae3f-d0b1-4fbd-8a6d-9d8a88c5aaab",
+                    "question": "How does the 'git rebase -i' command differ from a standard 'rebase' in version control?",
+                    "description": "Explain the differences between the 'git rebase -i' command and a standard 'rebase' in version control, highlighting the interactive nature of 'git rebase -i'.",
+                    "hint": "Consider how 'git rebase -i' allows developers to interactively choose, edit, and reorder commits during the rebase process.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Both 'git rebase -i' and standard 'rebase' have the same effect, allowing developers to choose, edit, and reorder commits interactively.",
+                            "description": "Incorrect. 'Git rebase -i' and standard 'rebase' differ; 'rebase -i' provides an interactive way to choose, edit, and reorder commits during the rebase process.",
+                            "points": 0,
+                            "explanation": "Understanding the interactive nature of 'rebase -i' is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'git rebase -i' modifies commit history, allowing developers to interactively choose, edit, and reorder commits during the rebase process.",
+                            "description": "Correct! 'Git rebase -i' provides an interactive way to modify commit history by allowing developers to choose, edit, and reorder commits during the rebase process.",
+                            "points": 3,
+                            "explanation": "Recognizing the interactive nature of 'rebase -i' is crucial for this question."
+                        },
+                        {
+                            "label": "Only standard 'rebase' modifies commit history, allowing developers to interactively choose, edit, and reorder commits during the rebase process.",
+                            "description": "Incorrect. 'Git rebase -i' and standard 'rebase' differ; 'rebase -i' provides an interactive way to choose, edit, and reorder commits during the rebase process.",
+                            "points": 0,
+                            "explanation": "Understanding the interactive nature of 'rebase -i' is crucial for this question."
+                        },
+                        {
+                            "label": "Neither 'git rebase -i' nor standard 'rebase' affects commit history; they serve the same purpose.",
+                            "description": "Incorrect. 'Git rebase -i' and standard 'rebase' affect commit history differently, with 'rebase -i' providing an interactive approach.",
+                            "points": 0,
+                            "explanation": "Understanding the difference in effects between 'rebase -i' and standard 'rebase' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "9c26524a-3ce7-41f8-a13b-e3c559997d05",
+                    "question": "What is the significance of 'git stash' in version control?",
+                    "description": "Explain how the 'git stash' command helps developers temporarily save changes that are not ready to be committed, allowing them to switch branches or perform other tasks.",
+                    "hint": "Consider how 'git stash' provides a way to save changes without committing, facilitating branch switching or other tasks.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. 'Git stash' does not permanently remove commits; it temporarily saves changes that are not ready to be committed.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git stash' temporarily saves changes is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'git stash' at a time.",
+                            "description": "Incorrect. 'Git stash' does not restrict access; multiple developers can use it simultaneously to temporarily save changes.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git stash' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It helps developers temporarily save changes that are not ready to be committed, facilitating branch switching or other tasks.",
+                            "description": "Correct! 'Git stash' allows developers to temporarily save changes that are not ready to be committed, providing flexibility for branch switching or other tasks.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'git stash' in temporarily saving changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git stash' may involve tracking contributions, its primary purpose is to temporarily save changes without committing.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'git stash' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2e0968b4-943c-4a66-82ef-5ffdfcb54572",
+                    "question": "What is the purpose of the 'git submodule' command in version control?",
+                    "description": "Explain the role of the 'git submodule' command and how it allows developers to include external repositories within a main repository, enabling the management of dependencies.",
+                    "hint": "Consider how 'git submodule' facilitates the inclusion of external repositories as dependencies within a main repository.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. 'Git submodule' does not permanently remove commits; it enables the inclusion of external repositories within a main repository.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git submodule' facilitates inclusion is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'git submodule' at a time.",
+                            "description": "Incorrect. 'Git submodule' does not restrict access; multiple developers can collaborate on including external repositories as dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git submodule' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It allows developers to include external repositories within a main repository, enabling the management of dependencies.",
+                            "description": "Correct! 'Git submodule' facilitates the inclusion of external repositories as dependencies within a main repository, aiding in dependency management.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'git submodule' in dependency management is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor during submodule inclusion.",
+                            "description": "Incorrect. While 'git submodule' may involve tracking contributions, its primary purpose is to enable the inclusion of external repositories as dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'git submodule' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d1bf4ea2-8123-431b-9b50-9a4d46e7ed8d",
+                    "question": "What is the significance of 'git revert' in version control?",
+                    "description": "Explain how the 'git revert' command helps developers undo a specific commit or a range of commits by creating new commits that reverse the changes introduced by the specified commits.",
+                    "hint": "Consider how 'git revert' creates new commits that undo changes, allowing developers to selectively revert specific commits or a range of commits.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It permanently removes specific commits from a local repository, erasing them from version control records.",
+                            "description": "Incorrect. 'Git revert' does not permanently remove commits; it creates new commits that undo changes introduced by specified commits.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git revert' creates new commits is crucial for this question."
+                        },
+                        {
+                            "label": "It restricts access to the codebase, allowing only one developer to use 'git revert' at a time.",
+                            "description": "Incorrect. 'Git revert' does not restrict access; multiple developers can collaborate on selectively reverting specific commits or a range of commits.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git revert' supports simultaneous use is crucial for this question."
+                        },
+                        {
+                            "label": "It helps developers undo a specific commit or a range of commits by creating new commits that reverse the changes introduced by the specified commits.",
+                            "description": "Correct! 'Git revert' in version control creates new commits that undo changes, allowing developers to selectively revert specific commits or a range of commits.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'git revert' in selectively undoing changes is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor during the reversion process.",
+                            "description": "Incorrect. While 'git revert' may involve tracking contributions, its primary purpose is to selectively undo changes introduced by specific commits.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'git revert' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a2de3a85-e07f-4d2d-9f80-98a7e50768e6",
+                    "question": "How does the 'git cherry-pick' command differ from 'git revert' in version control?",
+                    "description": "Explain the differences between the 'git cherry-pick' and 'git revert' commands, highlighting their effects on commit history and code integration.",
+                    "hint": "Consider how 'git cherry-pick' copies specific commits to the current branch, while 'git revert' creates new commits to selectively undo changes.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Both 'git cherry-pick' and 'git revert' have the same effect, allowing developers to selectively undo changes introduced by specific commits.",
+                            "description": "Incorrect. 'Git cherry-pick' and 'git revert' differ; 'cherry-pick' copies specific commits, while 'revert' creates new commits to selectively undo changes.",
+                            "points": 0,
+                            "explanation": "Understanding the differences in effects is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'git cherry-pick' modifies commit history, allowing developers to selectively copy specific commits to the current branch.",
+                            "description": "Correct! 'Git cherry-pick' copies specific commits to the current branch, affecting commit history by integrating specific changes.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'git cherry-pick' in copying commits is crucial for this question."
+                        },
+                        {
+                            "label": "Only 'git revert' modifies commit history, allowing developers to selectively undo changes introduced by specific commits.",
+                            "description": "Incorrect. 'Git cherry-pick' and 'git revert' differ; 'revert' creates new commits to selectively undo changes, while 'cherry-pick' copies specific commits.",
+                            "points": 0,
+                            "explanation": "Understanding the differences in effects is crucial for this question."
+                        },
+                        {
+                            "label": "Neither 'git cherry-pick' nor 'git revert' affects commit history; they serve the same purpose.",
+                            "description": "Incorrect. 'Git cherry-pick' and 'git revert' affect commit history differently, with 'cherry-pick' copying specific commits and 'revert' selectively undoing changes.",
+                            "points": 0,
+                            "explanation": "Understanding the difference in effects between 'cherry-pick' and 'revert' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "dd0d3fc8-02a7-4c89-a570-53050c9c731d",
+                    "question": "Explain the purpose and potential risks of force-pushing in Git version control.",
+                    "description": "Elaborate on the purpose of force-pushing in Git and discuss the potential risks associated with this operation, emphasizing its impact on shared repositories and collaboration.",
+                    "hint": "Consider how force-pushing can rewrite commit history, potentially causing conflicts and disruptions in collaborative environments.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Force-pushing in Git has no impact on commit history, and there are no potential risks associated with this operation.",
+                            "description": "Incorrect. Force-pushing in Git can significantly impact commit history, and there are potential risks, including conflicts and disruptions in collaboration.",
+                            "points": 0,
+                            "explanation": "Understanding the potential risks of force-pushing is crucial for this question."
+                        },
+                        {
+                            "label": "Force-pushing is a risk-free operation in Git that allows developers to update remote repositories without any concerns.",
+                            "description": "Incorrect. Force-pushing in Git carries potential risks, including rewriting commit history and causing disruptions in shared repositories.",
+                            "points": 0,
+                            "explanation": "Understanding that force-pushing is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "Force-pushing in Git is a powerful operation that allows rewriting commit history, and potential risks include conflicts and disruptions in collaborative environments.",
+                            "description": "Correct! Force-pushing in Git is powerful, allowing the rewriting of commit history, and potential risks include conflicts and disruptions in collaborative environments.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose and potential risks of force-pushing is crucial for this question."
+                        },
+                        {
+                            "label": "Force-pushing is only useful for individual developers and has no impact on collaborative workflows in Git.",
+                            "description": "Incorrect. Force-pushing in Git can impact collaborative workflows, and it is not limited to individual developers.",
+                            "points": 0,
+                            "explanation": "Understanding that force-pushing can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "90bf5f34-4171-4b62-9a15-1d9cb7bc46e0",
+                    "question": "Explain the concept of 'rebasing' in Git version control and its potential benefits and drawbacks.",
+                    "description": "Provide an explanation of the 'rebasing' operation in Git, outlining its potential benefits and drawbacks, and how it differs from other version control operations like merging.",
+                    "hint": "Consider how 'rebasing' can streamline commit history but may introduce challenges in collaborative environments.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Rebasing in Git has no potential benefits and only introduces drawbacks, making it an operation to be avoided.",
+                            "description": "Incorrect. Rebasing in Git has potential benefits, but it also introduces challenges, and its use depends on the specific context.",
+                            "points": 0,
+                            "explanation": "Understanding that rebasing has both benefits and drawbacks is crucial for this question."
+                        },
+                        {
+                            "label": "Rebasing is a risk-free operation in Git that allows developers to update remote repositories without any concerns.",
+                            "description": "Incorrect. Rebasing in Git carries potential drawbacks, including the risk of conflicts and disruptions in collaborative workflows.",
+                            "points": 0,
+                            "explanation": "Understanding that rebasing is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "Rebasing in Git is an operation that streamlines commit history, potentially providing a cleaner project history, but it may introduce challenges in collaborative environments.",
+                            "description": "Correct! Rebasing in Git can streamline commit history, offering a cleaner project history, but it may introduce challenges, such as conflicts, in collaborative environments.",
+                            "points": 3,
+                            "explanation": "Recognizing the concept, benefits, and drawbacks of rebasing is crucial for this question."
+                        },
+                        {
+                            "label": "Rebasing is only useful for individual developers and has no impact on collaborative workflows in Git.",
+                            "description": "Incorrect. Rebasing in Git can impact collaborative workflows, and its usefulness extends beyond individual developers.",
+                            "points": 0,
+                            "explanation": "Understanding that rebasing can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "746e8fbd-4bd8-4e64-9870-5979945568c2",
+                    "question": "Explain the role of 'git bisect' in version control and how it aids in identifying the commit introducing a bug.",
+                    "description": "Elaborate on the role of the 'git bisect' command in Git version control, detailing how it assists developers in efficiently identifying the specific commit that introduced a bug in the codebase.",
+                    "hint": "Consider how 'git bisect' performs a binary search to locate the commit introducing a bug, narrowing down the search range with each step.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Git bisect is not a useful command in version control and does not aid in identifying the commit introducing a bug.",
+                            "description": "Incorrect. 'Git bisect' is a valuable command that efficiently helps identify the commit introducing a bug through a binary search approach.",
+                            "points": 0,
+                            "explanation": "Understanding the usefulness of 'git bisect' is crucial for this question."
+                        },
+                        {
+                            "label": "Git bisect is a risk-free operation in version control that allows developers to identify the commit introducing a bug without any concerns.",
+                            "description": "Incorrect. While 'git bisect' is useful, it may involve risks, and its success depends on the accuracy of the provided bisecting points.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git bisect' is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "Git bisect performs a binary search to efficiently locate the commit introducing a bug, narrowing down the search range with each step.",
+                            "description": "Correct! 'Git bisect' in version control performs a binary search to efficiently identify the commit introducing a bug, narrowing down the search range with each step.",
+                            "points": 3,
+                            "explanation": "Recognizing the role and approach of 'git bisect' in bug identification is crucial for this question."
+                        },
+                        {
+                            "label": "Git bisect is only useful for individual developers and has no impact on collaborative workflows in version control.",
+                            "description": "Incorrect. 'Git bisect' is useful for both individual developers and collaborative workflows, aiding in bug identification.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git bisect' can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2b2de72e-6bb6-4a1c-8e11-8f4be2226e85",
+                    "question": "Explain the concept of 'git reflog' in Git version control and its role in repository history.",
+                    "description": "Provide an explanation of the 'git reflog' command in Git, outlining its role in maintaining a log of reference updates, and how it can be useful in repository history.",
+                    "hint": "Consider how 'git reflog' maintains a record of reference updates, allowing developers to recover lost commits and navigate through repository history.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Git reflog has no significant role in version control, and it does not contribute to maintaining repository history.",
+                            "description": "Incorrect. 'Git reflog' plays a crucial role in version control by maintaining a log of reference updates and aiding in repository history.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git reflog' in version control is crucial for this question."
+                        },
+                        {
+                            "label": "Git reflog is a risk-free operation in version control that allows developers to recover lost commits without any concerns.",
+                            "description": "Incorrect. While 'git reflog' is useful for recovering lost commits, its success depends on the availability of reflog entries.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git reflog' is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "Git reflog maintains a log of reference updates, allowing developers to recover lost commits and navigate through repository history.",
+                            "description": "Correct! 'Git reflog' in version control keeps a record of reference updates, enabling developers to recover lost commits and explore repository history.",
+                            "points": 3,
+                            "explanation": "Recognizing the concept and role of 'git reflog' in maintaining repository history is crucial for this question."
+                        },
+                        {
+                            "label": "Git reflog is only useful for individual developers and has no impact on collaborative workflows in version control.",
+                            "description": "Incorrect. 'Git reflog' is useful for both individual developers and collaborative workflows, contributing to repository history.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git reflog' can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f2d03c5a-767d-4a79-8df1-5dd8c89d86bb",
+                    "question": "Explain the concept of 'git squash' and its role in version control.",
+                    "description": "Provide an explanation of the 'git squash' operation in Git, outlining its purpose and how it impacts commit history, particularly in the context of streamlining multiple commits into a single commit.",
+                    "hint": "Consider how 'git squash' combines multiple commits into a single commit, helping maintain a cleaner and more focused commit history.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Git squash is a risk-free operation in version control that allows developers to combine commits without any concerns.",
+                            "description": "Incorrect. While 'git squash' is useful, its use may involve risks, and developers should carefully consider its impact on commit history.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git squash' is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "Git squash has no impact on commit history in version control, and it is not a recommended practice.",
+                            "description": "Incorrect. 'Git squash' does impact commit history by combining multiple commits into a single commit, and it can be a recommended practice in certain scenarios.",
+                            "points": 0,
+                            "explanation": "Understanding the impact of 'git squash' on commit history is crucial for this question."
+                        },
+                        {
+                            "label": "Git squash combines multiple commits into a single commit, streamlining commit history and providing a cleaner and more focused project history.",
+                            "description": "Correct! 'Git squash' in version control streamlines commit history by combining multiple commits into a single commit, contributing to a cleaner and more focused project history.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose and impact of 'git squash' on commit history is crucial for this question."
+                        },
+                        {
+                            "label": "Git squash is only useful for individual developers and has no impact on collaborative workflows in version control.",
+                            "description": "Incorrect. 'Git squash' is useful for both individual developers and collaborative workflows, particularly in maintaining a focused project history.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git squash' can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7ea781b4-12ec-4e21-8796-3d60a42e3ac6",
+                    "question": "What is the purpose of the 'git filter-branch' command in Git version control?",
+                    "description": "Explain the role and purpose of the 'git filter-branch' command, highlighting how it can be used to rewrite commit history and apply various filters to the content.",
+                    "hint": "Consider how 'git filter-branch' allows developers to rewrite commit history and apply specified filters to repository content.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Git filter-branch has no impact on commit history in version control, and it is not a recommended practice.",
+                            "description": "Incorrect. 'Git filter-branch' does impact commit history by rewriting it and applying specified filters to repository content.",
+                            "points": 0,
+                            "explanation": "Understanding the impact of 'git filter-branch' on commit history is crucial for this question."
+                        },
+                        {
+                            "label": "Git filter-branch is a risk-free operation in version control that allows developers to rewrite commit history without any concerns.",
+                            "description": "Incorrect. 'Git filter-branch' involves rewriting commit history and applying filters, and its use may carry risks.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git filter-branch' is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "Git filter-branch allows developers to rewrite commit history and apply specified filters to repository content, providing a powerful tool for repository maintenance.",
+                            "description": "Correct! 'Git filter-branch' in version control is a powerful tool that allows developers to rewrite commit history and apply specified filters to repository content, aiding in repository maintenance.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose and power of 'git filter-branch' in repository maintenance is crucial for this question."
+                        },
+                        {
+                            "label": "Git filter-branch is only useful for individual developers and has no impact on collaborative workflows in version control.",
+                            "description": "Incorrect. 'Git filter-branch' is useful for both individual developers and collaborative workflows, particularly in repository maintenance.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git filter-branch' can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "bf179b99-3d9c-4d94-8445-8940f9ab7f6d",
+                    "question": "Explain the concept of 'git blame' in Git version control and its role in code attribution.",
+                    "description": "Provide an explanation of the 'git blame' command in Git, outlining how it aids in code attribution by associating each line of code with the commit and author responsible for its introduction.",
+                    "hint": "Consider how 'git blame' associates each line of code with commit and author information, aiding in understanding code history and responsibility.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Git blame has no impact on code attribution in version control, and it is not a recommended practice.",
+                            "description": "Incorrect. 'Git blame' does impact code attribution by associating each line of code with commit and author information, aiding in understanding code history.",
+                            "points": 0,
+                            "explanation": "Understanding the impact of 'git blame' on code attribution is crucial for this question."
+                        },
+                        {
+                            "label": "Git blame is a risk-free operation in version control that allows developers to attribute code without any concerns.",
+                            "description": "Incorrect. While 'git blame' is useful, its use may involve considerations related to code responsibility and understanding.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git blame' is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "Git blame associates each line of code with commit and author information, aiding in code attribution and providing insights into code history and responsibility.",
+                            "description": "Correct! 'Git blame' in version control associates each line of code with commit and author information, aiding in code attribution and offering insights into code history and responsibility.",
+                            "points": 3,
+                            "explanation": "Recognizing the concept and role of 'git blame' in code attribution is crucial for this question."
+                        },
+                        {
+                            "label": "Git blame is only useful for individual developers and has no impact on collaborative workflows in version control.",
+                            "description": "Incorrect. 'Git blame' is useful for both individual developers and collaborative workflows, particularly in understanding code responsibility.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git blame' can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f3f0c544-8f71-45b8-a04a-7d39ef13242a",
+                    "question": "Explain the purpose and potential risks of using 'git force-with-lease' in version control.",
+                    "description": "Elaborate on the purpose of 'git force-with-lease' in Git version control and discuss the potential risks associated with its use, particularly in comparison to 'git push --force'.",
+                    "hint": "Consider how 'git force-with-lease' helps prevent overwriting changes in shared branches, and contrast its behavior with 'git push --force'.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Git force-with-lease' has no impact on version control, and there are no potential risks associated with its use.",
+                            "description": "Incorrect. 'Git force-with-lease' does impact version control by helping prevent overwriting changes, and there are potential risks to consider.",
+                            "points": 0,
+                            "explanation": "Understanding the impact and risks of 'git force-with-lease' is crucial for this question."
+                        },
+                        {
+                            "label": "'Git force-with-lease' is a risk-free operation in version control that allows developers to update shared branches without any concerns.",
+                            "description": "Incorrect. While 'git force-with-lease' is a safer alternative to 'git push --force', it still involves considerations, and its use depends on the specific context.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git force-with-lease' is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "'Git force-with-lease' helps prevent overwriting changes in shared branches, offering a safer alternative to 'git push --force', but developers should be aware of potential risks.",
+                            "description": "Correct! 'Git force-with-lease' in version control helps prevent overwriting changes in shared branches and provides a safer alternative to 'git push --force', but developers should be aware of potential risks.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose and potential risks of 'git force-with-lease' is crucial for this question."
+                        },
+                        {
+                            "label": "'Git force-with-lease' is only useful for individual developers and has no impact on collaborative workflows in version control.",
+                            "description": "Incorrect. 'Git force-with-lease' is useful for both individual developers and collaborative workflows, particularly in preventing accidental overwrites in shared branches.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git force-with-lease' can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7c9a2ad0-70a7-4c0a-b0a4-d89f48f0d9d5",
+                    "question": "Explain the role of 'git cherry-pick' in Git version control and its potential benefits and drawbacks.",
+                    "description": "Provide an explanation of the 'git cherry-pick' operation in Git, outlining its role in copying specific commits to another branch and highlighting its potential benefits and drawbacks.",
+                    "hint": "Consider how 'git cherry-pick' copies specific commits, allowing developers to apply changes selectively, but also be aware of potential challenges.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Git cherry-pick' has no impact on version control, and there are no potential benefits or drawbacks associated with its use.",
+                            "description": "Incorrect. 'Git cherry-pick' does impact version control by copying specific commits, and there are potential benefits and drawbacks to consider.",
+                            "points": 0,
+                            "explanation": "Understanding the impact and considerations of 'git cherry-pick' is crucial for this question."
+                        },
+                        {
+                            "label": "'Git cherry-pick' is a risk-free operation in version control that allows developers to copy commits without any concerns.",
+                            "description": "Incorrect. While 'git cherry-pick' is useful, its use may involve risks, and developers should be aware of potential challenges.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git cherry-pick' is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "'Git cherry-pick' copies specific commits to another branch, allowing selective application of changes, but developers should be aware of potential challenges, such as conflicts.",
+                            "description": "Correct! 'Git cherry-pick' in version control copies specific commits to another branch, enabling selective application of changes, but developers should be aware of potential challenges, such as conflicts.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose and potential challenges of 'git cherry-pick' is crucial for this question."
+                        },
+                        {
+                            "label": "'Git cherry-pick' is only useful for individual developers and has no impact on collaborative workflows in version control.",
+                            "description": "Incorrect. 'Git cherry-pick' is useful for both individual developers and collaborative workflows, particularly when selectively applying changes from one branch to another.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git cherry-pick' can impact collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "4c28c108-1aa6-407b-aeec-bd0a90634c7a",
+                    "question": "Explain the purpose and potential risks of using 'git rebase' in version control.",
+                    "description": "Elaborate on the purpose of 'git rebase' in Git version control and discuss the potential risks associated with its use, particularly in comparison to 'git merge'.",
+                    "hint": "Consider how 'git rebase' helps reorganize commit history and integrates changes from one branch to another, but also be aware of potential challenges.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Git rebase' has no impact on version control, and there are no potential risks associated with its use.",
+                            "description": "Incorrect. 'Git rebase' does impact version control by reorganizing commit history, and there are potential risks to consider.",
+                            "points": 0,
+                            "explanation": "Understanding the impact and risks of 'git rebase' is crucial for this question."
+                        },
+                        {
+                            "label": "'Git rebase' is a risk-free operation in version control that allows developers to integrate changes without any concerns.",
+                            "description": "Incorrect. While 'git rebase' is a powerful tool, its use may involve risks, and developers should be aware of potential challenges.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git rebase' is not risk-free is crucial for this question."
+                        },
+                        {
+                            "label": "'Git rebase' helps reorganize commit history and integrates changes from one branch to another, providing a powerful tool for maintaining a clean history, but developers should be aware of potential risks, such as conflicts.",
+                            "description": "Correct! 'Git rebase' in version control helps reorganize commit history and integrates changes, offering a powerful tool for maintaining a clean history, but developers should be aware of potential risks, such as conflicts.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose and potential risks of 'git rebase' is crucial for this question."
+                        },
+                        {
+                            "label": "'Git rebase' is only useful for individual developers and has no impact on collaborative workflows in version control.",
+                            "description": "Incorrect. 'Git rebase' is useful for both individual developers and collaborative workflows, particularly in maintaining a clean commit history.",
+                            "points": 0,
+                            "explanation": "Understanding that 'git rebase' can impact collaboration is crucial for this question."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

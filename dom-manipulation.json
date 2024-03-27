@@ -1,0 +1,1702 @@
+{
+    "skill": {
+        "DomManipulation": {
+            "id": "dom-manipulation",
+            "description": "The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style. With DOM, we can easily access and manipulate tags, IDs, classes, attributes, etc.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "DOM Tree",
+                    "link": "https://javascript.info/dom-nodes"
+                },
+                {
+                    "name": "GeeksForGeeks - DOM (Document Object Model)",
+                    "link": "https://www.geeksforgeeks.org/dom-document-object-model/"
+                },
+                {
+                    "name": "What is the DOM?",
+                    "link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
+                },
+                {
+                    "name": "Eloquent JavaScript, 3rd Edition: The Document Object Model",
+                    "link": "https://eloquentjavascript.net/14_dom.html"
+                },
+                {
+                    "name": "JavaScript HTML DOM",
+                    "link": "https://www.w3schools.com/js/js_htmldom.asp"
+                },
+                {
+                    "name": "JavaScript DOM",
+                    "link": "https://www.javascripttutorial.net/javascript-dom/"
+                },
+                {
+                    "name": "Learn the HTML DOM with Exercises - CodeGuage",
+                    "link": "https://www.codeguage.com/courses/js/html-dom-introduction"
+                },
+                {
+                    "name": "What is DOM, Shadow DOM and Virtual DOM?",
+                    "link": "https://www.youtube.com/watch?v=7Tok22qxPzQ"
+                },
+                {
+                    "name": "JavaScript DOM Crash Course",
+                    "link": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
+                }
+            ],
+            "parents": [
+                "javascript"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "1fb1da4d-6bf2-4e11-a5c4-25ee8b9b9cc4",
+                    "question": "What does DOM stand for in web development?",
+                    "description": "Test your basic understanding of the commonly used acronym in web development.",
+                    "hint": "Consider the words 'Document' and 'Object' in the acronym.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Document Orientation Model",
+                            "description": "Incorrect. The correct expansion of DOM does not include 'Orientation'.",
+                            "points": 0,
+                            "explanation": "DOM stands for 'Document Object Model', emphasizing the representation of a document's structure as an object."
+                        },
+                        {
+                            "label": "Document Object Model",
+                            "description": "Correct! DOM stands for 'Document Object Model', representing the document's structure as an object that can be manipulated.",
+                            "points": 3,
+                            "explanation": "Understanding the Document Object Model is fundamental for dynamically updating web page content and structure."
+                        },
+                        {
+                            "label": "Dynamic Object Management",
+                            "description": "Incorrect. The expansion 'Dynamic Object Management' is not the correct interpretation of DOM.",
+                            "points": 0,
+                            "explanation": "DOM primarily represents the document's structure, not dynamic object management."
+                        },
+                        {
+                            "label": "Data Object Manipulation",
+                            "description": "Incorrect. The expansion 'Data Object Manipulation' is not the correct interpretation of DOM.",
+                            "points": 0,
+                            "explanation": "DOM is more focused on the representation and manipulation of a document's structure."
+                        }
+                    ]
+                },
+                {
+                    "id": "4267a727-2f36-4e36-890b-8a8382cf487d",
+                    "question": "What type of documents is DOM built for in web development?",
+                    "description": "Test your knowledge of the context in which DOM is commonly used.",
+                    "hint": "Consider the types of documents involved in web development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Text documents",
+                            "description": "Incorrect. DOM is not specifically built for text documents but for a specific type of documents commonly used in web development.",
+                            "points": 0,
+                            "explanation": "DOM is designed for HTML and XML documents commonly used on the web, not generic text documents."
+                        },
+                        {
+                            "label": "Spreadsheet documents",
+                            "description": "Incorrect. DOM is not designed for spreadsheet documents but for a specific type of documents used in web development.",
+                            "points": 0,
+                            "explanation": "DOM is tailored for HTML and XML documents, not spreadsheet formats."
+                        },
+                        {
+                            "label": "HTML and XML documents",
+                            "description": "Correct! DOM is built for HTML and XML documents, providing a programming interface to interact with and manipulate their structure.",
+                            "points": 3,
+                            "explanation": "Understanding DOM allows developers to dynamically update the content, structure, and style of HTML and XML documents."
+                        },
+                        {
+                            "label": "PDF documents",
+                            "description": "Incorrect. DOM is not designed for PDF documents but for a specific type of documents commonly used in web development.",
+                            "points": 0,
+                            "explanation": "DOM is focused on HTML and XML documents, not PDF format."
+                        }
+                    ]
+                },
+                {
+                    "id": "1b9c7e54-19b3-4b84-9a7d-2295f8ea85a8",
+                    "question": "What does the DOM allow programs and scripts to do?",
+                    "description": "Test your understanding of the capabilities provided by DOM.",
+                    "hint": "Consider the dynamic aspects of web page manipulation.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Only read document content",
+                            "description": "Incorrect. The DOM allows more than just reading; it enables dynamic updates to the document structure, content, and style.",
+                            "points": 0,
+                            "explanation": "DOM provides a programming interface for both reading and dynamically updating document content."
+                        },
+                        {
+                            "label": "Read and write document content",
+                            "description": "Correct! The DOM allows programs and scripts to both read and dynamically update the content, structure, and style of a document.",
+                            "points": 3,
+                            "explanation": "Being able to read and write document content is a fundamental capability provided by the DOM."
+                        },
+                        {
+                            "label": "Only write document content",
+                            "description": "Incorrect. The DOM allows more than just writing; it enables both reading and dynamic updates to document content.",
+                            "points": 0,
+                            "explanation": "DOM provides a programming interface for both reading and dynamically updating document content."
+                        },
+                        {
+                            "label": "Perform server-side operations",
+                            "description": "Incorrect. DOM operations are client-side and relate to the dynamic manipulation of document content, not server-side operations.",
+                            "points": 0,
+                            "explanation": "DOM is focused on client-side operations for manipulating document structure, content, and style."
+                        }
+                    ]
+                },
+                {
+                    "id": "f6e2f66d-06cc-4ad3-b3cd-1457a19bb174",
+                    "question": "What can be manipulated using the DOM?",
+                    "description": "Test your understanding of the elements that can be affected by DOM manipulation.",
+                    "hint": "Consider various components of a web page.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Only text content",
+                            "description": "Incorrect. DOM manipulation extends beyond text content to include various elements and attributes of a web page.",
+                            "points": 0,
+                            "explanation": "DOM allows manipulation of text content as well as other elements and attributes in a document."
+                        },
+                        {
+                            "label": "Only images",
+                            "description": "Incorrect. DOM manipulation is not limited to images but includes a wide range of elements and attributes in a web page.",
+                            "points": 0,
+                            "explanation": "DOM enables manipulation of various elements, not just images, within a document."
+                        },
+                        {
+                            "label": "Tags, IDs, classes, attributes, etc.",
+                            "description": "Correct! The DOM allows manipulation of tags, IDs, classes, attributes, and other components of a web page.",
+                            "points": 3,
+                            "explanation": "Understanding DOM manipulation involves working with various elements and attributes to dynamically update the document."
+                        },
+                        {
+                            "label": "Only hyperlinks",
+                            "description": "Incorrect. DOM manipulation is not restricted to hyperlinks but includes manipulation of various elements and attributes in a web page.",
+                            "points": 0,
+                            "explanation": "DOM enables manipulation of hyperlinks as well as other components within a document."
+                        }
+                    ]
+                },
+                {
+                    "id": "1625c757-5aa2-4e16-8c1f-15d390d95a15",
+                    "question": "Which programming interface does the DOM provide for manipulating documents?",
+                    "description": "Test your knowledge of the type of programming interface offered by DOM.",
+                    "hint": "Consider the term used to describe the interface provided by DOM.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "CSS Interface",
+                            "description": "Incorrect. The DOM provides a programming interface, but it is not specifically referred to as the 'CSS Interface'.",
+                            "points": 0,
+                            "explanation": "The DOM programming interface is distinct from the Cascading Style Sheets (CSS) interface."
+                        },
+                        {
+                            "label": "JavaScript Interface",
+                            "description": "Correct! The DOM provides a JavaScript programming interface for dynamically interacting with and manipulating documents.",
+                            "points": 3,
+                            "explanation": "The DOM can be accessed and manipulated using JavaScript, providing a powerful programming interface for web developers."
+                        },
+                        {
+                            "label": "HTML Interface",
+                            "description": "Incorrect. The DOM provides a programming interface, but it is not specifically referred to as the 'HTML Interface'.",
+                            "points": 0,
+                            "explanation": "While the DOM involves HTML elements, the programming interface is generally referred to as the 'JavaScript Interface'."
+                        },
+                        {
+                            "label": "Java Interface",
+                            "description": "Incorrect. The DOM provides a programming interface, but it is not specifically referred to as the 'Java Interface'.",
+                            "points": 0,
+                            "explanation": "The programming interface for DOM manipulation is distinct from the Java programming interface."
+                        }
+                    ]
+                },
+                {
+                    "id": "df786c19-c8a7-4a14-aa4f-03289dce0d2b",
+                    "question": "What aspect of a document does DOM represent?",
+                    "description": "Test your understanding of the main aspect of a document that is represented by DOM.",
+                    "hint": "Consider the fundamental structure of a document.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Only text content",
+                            "description": "Incorrect. DOM represents more than just text content; it represents the entire structure of a document.",
+                            "points": 0,
+                            "explanation": "DOM represents the structure, content, and style of a document, not just the text content."
+                        },
+                        {
+                            "label": "Style and formatting",
+                            "description": "Incorrect. While DOM represents style, it encompasses the entire structure, content, and style of a document.",
+                            "points": 0,
+                            "explanation": "DOM represents the holistic view of a document, including structure, content, and style."
+                        },
+                        {
+                            "label": "Structure, content, and style",
+                            "description": "Correct! DOM represents the structure, content, and style of a document, providing a comprehensive model for manipulation.",
+                            "points": 3,
+                            "explanation": "Understanding DOM involves recognizing its representation of the entire document, including structure, content, and style."
+                        },
+                        {
+                            "label": "Only hyperlinks",
+                            "description": "Incorrect. DOM represents more than just hyperlinks; it encompasses the entire structure, content, and style of a document.",
+                            "points": 0,
+                            "explanation": "DOM represents the holistic view of a document, including structure, content, and style."
+                        }
+                    ]
+                },
+                {
+                    "id": "e09e7337-888a-4ec3-a083-c3015a8e53a7",
+                    "question": "In web development, what is a common use of DOM manipulation?",
+                    "description": "Test your understanding of why developers frequently employ DOM manipulation.",
+                    "hint": "Consider user interactions and real-time updates on web pages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Only for server-side operations",
+                            "description": "Incorrect. DOM manipulation is typically a client-side operation for dynamic updates to web page content, structure, and style.",
+                            "points": 0,
+                            "explanation": "DOM manipulation is more commonly associated with client-side operations than server-side operations."
+                        },
+                        {
+                            "label": "Only for handling server requests",
+                            "description": "Incorrect. While DOM manipulation can be influenced by server requests, its primary use is for dynamic client-side updates.",
+                            "points": 0,
+                            "explanation": "DOM manipulation is more about client-side interaction and updates rather than handling server requests alone."
+                        },
+                        {
+                            "label": "For dynamic updates to web page content, structure, and style",
+                            "description": "Correct! A common use of DOM manipulation is for dynamically updating various aspects of a web page, enhancing user interactions and real-time updates.",
+                            "points": 3,
+                            "explanation": "DOM manipulation is a key technique for creating interactive and dynamic web pages by updating content, structure, and style on the client side."
+                        },
+                        {
+                            "label": "Only for server-side rendering",
+                            "description": "Incorrect. DOM manipulation is more associated with client-side rendering for dynamic updates, rather than server-side rendering alone.",
+                            "points": 0,
+                            "explanation": "DOM manipulation is a client-side operation commonly used for real-time updates in web development."
+                        }
+                    ]
+                },
+                {
+                    "id": "2d8c051f-9d01-4cc1-b4e1-91de3c905d38",
+                    "question": "Which of the following can be dynamically changed using DOM manipulation?",
+                    "description": "Test your knowledge of the elements that can be dynamically altered using DOM manipulation.",
+                    "hint": "Consider the various components that make up a web page.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Only the background color",
+                            "description": "Incorrect. DOM manipulation allows dynamic changes to various elements, not limited to just the background color.",
+                            "points": 0,
+                            "explanation": "DOM manipulation enables dynamic alterations to multiple elements, including text, images, and more."
+                        },
+                        {
+                            "label": "Only images",
+                            "description": "Incorrect. DOM manipulation extends beyond images to include various elements and attributes on a web page.",
+                            "points": 0,
+                            "explanation": "DOM manipulation enables dynamic changes to a wide range of elements, not limited to images alone."
+                        },
+                        {
+                            "label": "Text content, images, and other elements",
+                            "description": "Correct! DOM manipulation allows dynamic changes to text content, images, and various other elements within a web page.",
+                            "points": 3,
+                            "explanation": "Understanding DOM manipulation involves recognizing its capability to dynamically alter different elements and attributes on a web page."
+                        },
+                        {
+                            "label": "Only hyperlinks",
+                            "description": "Incorrect. DOM manipulation is not restricted to hyperlinks; it includes dynamic changes to various elements and attributes.",
+                            "points": 0,
+                            "explanation": "DOM manipulation enables dynamic alterations to hyperlinks as well as other components within a document."
+                        }
+                    ]
+                },
+                {
+                    "id": "aa1b8e14-b3b7-4a25-a1e2-529128c06d54",
+                    "question": "What role does the DOM play in enhancing user interactions on web pages?",
+                    "description": "Test your understanding of the impact of DOM on user interactions.",
+                    "hint": "Consider how dynamic updates influence user experience.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "It has no impact on user interactions",
+                            "description": "Incorrect. DOM manipulation significantly impacts user interactions by enabling dynamic updates and real-time changes on web pages.",
+                            "points": 0,
+                            "explanation": "DOM plays a crucial role in enhancing user interactions through dynamic updates and real-time changes on web pages."
+                        },
+                        {
+                            "label": "It only impacts server-side interactions",
+                            "description": "Incorrect. DOM manipulation primarily affects client-side interactions, enhancing the user experience through dynamic updates.",
+                            "points": 0,
+                            "explanation": "DOM manipulation is more associated with client-side interactions for dynamic updates, not server-side interactions alone."
+                        },
+                        {
+                            "label": "It enhances user interactions through dynamic updates",
+                            "description": "Correct! DOM manipulation enhances user interactions by allowing dynamic updates, real-time changes, and interactive features on web pages.",
+                            "points": 3,
+                            "explanation": "Understanding the role of DOM in enhancing user interactions is fundamental to creating dynamic and engaging web pages."
+                        },
+                        {
+                            "label": "It only impacts static content",
+                            "description": "Incorrect. DOM manipulation goes beyond static content, enabling dynamic changes and interactions on web pages.",
+                            "points": 0,
+                            "explanation": "DOM plays a key role in handling dynamic content and interactions on the client side."
+                        }
+                    ]
+                },
+                {
+                    "id": "85e29f3d-356e-4cfe-a115-2558b689a2d0",
+                    "question": "What does the DOM allow scripts to dynamically update?",
+                    "description": "Test your knowledge of the dynamic aspects of a document that can be updated using DOM.",
+                    "hint": "Consider the dynamic nature of web page interactions.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Only the document structure",
+                            "description": "Incorrect. The DOM allows dynamic updates to more than just the document structure; it includes content and style.",
+                            "points": 0,
+                            "explanation": "DOM facilitates dynamic updates to the entire document, including structure, content, and style."
+                        },
+                        {
+                            "label": "Only text content",
+                            "description": "Incorrect. DOM allows dynamic updates to more than just text content; it includes the entire document structure, content, and style.",
+                            "points": 0,
+                            "explanation": "DOM enables dynamic updates to various aspects of a document, not limited to text content alone."
+                        },
+                        {
+                            "label": "Structure, content, and style",
+                            "description": "Correct! DOM allows scripts to dynamically update the structure, content, and style of a document, providing a dynamic and interactive user experience.",
+                            "points": 3,
+                            "explanation": "The dynamic nature of web pages is enhanced by the ability of scripts to update the document's structure, content, and style using the DOM."
+                        },
+                        {
+                            "label": "Only hyperlinks",
+                            "description": "Incorrect. DOM manipulation is not restricted to hyperlinks but includes dynamic updates to various elements and attributes.",
+                            "points": 0,
+                            "explanation": "DOM manipulation enables dynamic alterations to hyperlinks as well as other components within a document."
+                        }
+                    ]
+                },
+                {
+                    "id": "fa9b1c59-c567-4191-8b86-2ec32e9f4f74",
+                    "question": "How is the DOM related to HTML in web development?",
+                    "description": "Test your understanding of the relationship between the Document Object Model (DOM) and HTML.",
+                    "hint": "Consider the role of DOM in representing and interacting with HTML documents.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "DOM is a type of HTML",
+                            "description": "Incorrect. DOM is not a type of HTML; instead, it is a programming interface that represents the structure of HTML documents.",
+                            "points": 0,
+                            "explanation": "The DOM is a separate entity that represents and allows manipulation of the structure of HTML documents."
+                        },
+                        {
+                            "label": "HTML is a type of DOM",
+                            "description": "Incorrect. HTML is not a type of DOM; HTML is a markup language, while DOM is a programming interface for interacting with documents.",
+                            "points": 0,
+                            "explanation": "HTML and DOM are distinct concepts, with HTML being a markup language and DOM being an interface for document manipulation."
+                        },
+                        {
+                            "label": "DOM represents the structure of HTML documents",
+                            "description": "Correct! The DOM represents the structure of HTML documents, allowing scripts to interact with and manipulate the content dynamically.",
+                            "points": 3,
+                            "explanation": "Understanding that DOM represents the structure of HTML is essential in web development for dynamic updates and interactions."
+                        },
+                        {
+                            "label": "HTML and DOM are unrelated",
+                            "description": "Incorrect. HTML and DOM are closely related, with DOM serving as a programming interface for manipulating HTML documents.",
+                            "points": 0,
+                            "explanation": "HTML and DOM are integral parts of web development, where DOM represents and interacts with the structure of HTML documents."
+                        }
+                    ]
+                },
+                {
+                    "id": "b574f33f-4220-4c23-8c0a-9a87cf3e8bbf",
+                    "question": "What is the role of JavaScript in DOM manipulation?",
+                    "description": "Test your knowledge of the programming language commonly used for interacting with the DOM.",
+                    "hint": "Consider the language often associated with client-side scripting in web development.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "JavaScript is not used for DOM manipulation",
+                            "description": "Incorrect. JavaScript is commonly used for DOM manipulation, enabling dynamic updates to web page content, structure, and style.",
+                            "points": 0,
+                            "explanation": "JavaScript is a key language for client-side scripting, frequently employed for DOM manipulation in web development."
+                        },
+                        {
+                            "label": "DOM has its own scripting language",
+                            "description": "Incorrect. DOM doesn't have its own scripting language; instead, it is commonly manipulated using JavaScript.",
+                            "points": 0,
+                            "explanation": "JavaScript is the primary scripting language used for interacting with and manipulating the DOM in web development."
+                        },
+                        {
+                            "label": "JavaScript is commonly used for DOM manipulation",
+                            "description": "Correct! JavaScript is a widely used language for client-side scripting, allowing developers to interact with and manipulate the DOM for dynamic web page updates.",
+                            "points": 3,
+                            "explanation": "Understanding the role of JavaScript in DOM manipulation is fundamental for web developers."
+                        },
+                        {
+                            "label": "Java is the preferred language for DOM manipulation",
+                            "description": "Incorrect. While both Java and JavaScript exist, JavaScript is the commonly used language for client-side scripting and DOM manipulation in web development.",
+                            "points": 0,
+                            "explanation": "JavaScript is the preferred language for client-side scripting and DOM manipulation, not Java."
+                        }
+                    ]
+                },
+                {
+                    "id": "527a8883-877f-43db-b9c5-ea5758ce5db2",
+                    "question": "What does the 'getElementById' method in JavaScript do?",
+                    "description": "Test your knowledge of a common method used for accessing elements in the DOM.",
+                    "hint": "Consider how this method is used to retrieve a specific element.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It retrieves all elements with a specified class",
+                            "description": "Incorrect. 'getElementById' specifically retrieves an element based on its unique identifier (ID), not by class.",
+                            "points": 0,
+                            "explanation": "'getElementById' is used for accessing a single element with a specified ID, not elements with a class."
+                        },
+                        {
+                            "label": "It retrieves all elements with a specified tag",
+                            "description": "Incorrect. 'getElementById' is designed to retrieve a single element with a specified ID, not multiple elements with a tag.",
+                            "points": 0,
+                            "explanation": "'getElementById' focuses on accessing a unique element based on its ID, not elements with a specific tag."
+                        },
+                        {
+                            "label": "It retrieves a single element with a specified ID",
+                            "description": "Correct! The 'getElementById' method in JavaScript is used to retrieve a single element from the DOM based on its unique identifier (ID).",
+                            "points": 3,
+                            "explanation": "Understanding 'getElementById' is crucial for accessing specific elements within a document by their unique IDs."
+                        },
+                        {
+                            "label": "It retrieves all elements in the document",
+                            "description": "Incorrect. 'getElementById' is focused on accessing a single element based on its ID, not retrieving all elements in the document.",
+                            "points": 0,
+                            "explanation": "'getElementById' is not used for retrieving all elements but for accessing a specific element with a unique ID."
+                        }
+                    ]
+                },
+                {
+                    "id": "b5f01ad0-54d4-4121-b8c9-b54816df79e1",
+                    "question": "What is the purpose of the 'innerHTML' property in JavaScript when used with DOM elements?",
+                    "description": "Test your understanding of a property commonly used for updating the content of HTML elements.",
+                    "hint": "Consider how this property is employed to modify the content within an element.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It changes the ID of an element",
+                            "description": "Incorrect. 'innerHTML' is not used for changing the ID of an element; it is specifically for updating the content within an element.",
+                            "points": 0,
+                            "explanation": "The primary purpose of 'innerHTML' is to modify the content inside an HTML element, not to change its ID."
+                        },
+                        {
+                            "label": "It retrieves the class of an element",
+                            "description": "Incorrect. 'innerHTML' does not retrieve the class of an element; it is utilized for updating the content within the element.",
+                            "points": 0,
+                            "explanation": "The 'innerHTML' property is focused on modifying the content inside an HTML element, not retrieving its class."
+                        },
+                        {
+                            "label": "It updates the content within an HTML element",
+                            "description": "Correct! The 'innerHTML' property is used to update the content within an HTML element, allowing dynamic changes to the displayed text or markup.",
+                            "points": 3,
+                            "explanation": "Understanding 'innerHTML' is essential for dynamically updating the content of HTML elements using JavaScript."
+                        },
+                        {
+                            "label": "It changes the tag of an element",
+                            "description": "Incorrect. 'innerHTML' is not used for changing the tag of an element; its primary purpose is to update the content within the element.",
+                            "points": 0,
+                            "explanation": "The 'innerHTML' property is focused on modifying the content inside an HTML element, not changing its tag."
+                        }
+                    ]
+                },
+                {
+                    "id": "3afde798-1f4f-490c-b295-c7b65a2bb18f",
+                    "question": "How can you dynamically create a new HTML element using JavaScript and append it to the DOM?",
+                    "description": "Test your knowledge of creating and adding new elements to a document using JavaScript.",
+                    "hint": "Consider the methods and steps involved in dynamically creating and appending elements.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "By using the 'getElementsByClassName' method",
+                            "description": "Incorrect. The 'getElementsByClassName' method is not used for creating new elements; it is employed to retrieve elements based on their class.",
+                            "points": 0,
+                            "explanation": "Creating new elements and appending them to the DOM involves different methods, not 'getElementsByClassName.'"
+                        },
+                        {
+                            "label": "By using the 'createElement' and 'appendChild' methods",
+                            "description": "Correct! The 'createElement' method is used to create a new HTML element, and the 'appendChild' method is used to append it to the DOM.",
+                            "points": 3,
+                            "explanation": "Understanding 'createElement' and 'appendChild' is essential for dynamically creating and adding new elements to the DOM."
+                        },
+                        {
+                            "label": "By using the 'getElementById' method",
+                            "description": "Incorrect. 'getElementById' is used for accessing existing elements with a specific ID, not for creating new elements.",
+                            "points": 0,
+                            "explanation": "Creating new elements involves using the 'createElement' method, not 'getElementById.'"
+                        },
+                        {
+                            "label": "By using the 'removeChild' method",
+                            "description": "Incorrect. The 'removeChild' method is used for removing existing elements from the DOM, not for creating new elements.",
+                            "points": 0,
+                            "explanation": "Creating new elements involves different methods, such as 'createElement' and 'appendChild,' not 'removeChild.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "50d60195-eec2-4b91-8d77-3a5795456a57",
+                    "question": "What does the 'setAttribute' method in JavaScript do when used with DOM elements?",
+                    "description": "Test your knowledge of a method used for modifying attributes of HTML elements.",
+                    "hint": "Consider how this method is employed to change attributes within an element.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It changes the text content of an element",
+                            "description": "Incorrect. 'setAttribute' is not used for changing the text content of an element; it is specifically for modifying attributes.",
+                            "points": 0,
+                            "explanation": "'setAttribute' focuses on changing attributes, not the text content within an element."
+                        },
+                        {
+                            "label": "It adds a new class to an element",
+                            "description": "Correct! The 'setAttribute' method is used to add or modify attributes of an HTML element, including adding a new class.",
+                            "points": 3,
+                            "explanation": "Understanding 'setAttribute' is crucial for dynamically modifying attributes of HTML elements using JavaScript."
+                        },
+                        {
+                            "label": "It removes a class from an element",
+                            "description": "Incorrect. While 'setAttribute' can be used to modify attributes, it is not specifically designed for removing classes from an element.",
+                            "points": 0,
+                            "explanation": "The primary purpose of 'setAttribute' is to modify or add attributes, not remove them."
+                        },
+                        {
+                            "label": "It changes the tag of an element",
+                            "description": "Incorrect. 'setAttribute' is not used for changing the tag of an element; its primary purpose is to modify attributes.",
+                            "points": 0,
+                            "explanation": "'setAttribute' is focused on changing or adding attributes, not modifying the tag of an element."
+                        }
+                    ]
+                },
+                {
+                    "id": "5c50e3e8-c36a-43a4-b06c-071bf290f047",
+                    "question": "How does event propagation work in the DOM?",
+                    "description": "Test your understanding of how events propagate through the DOM.",
+                    "hint": "Consider the phases of event propagation.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Events always propagate from child to parent elements",
+                            "description": "Incorrect. Event propagation in the DOM involves both capturing (from parent to child) and bubbling (from child to parent) phases.",
+                            "points": 0,
+                            "explanation": "Events can propagate in both capturing and bubbling phases, depending on the event flow in the DOM."
+                        },
+                        {
+                            "label": "Events propagate only during capturing phase",
+                            "description": "Incorrect. Event propagation involves both capturing and bubbling phases, providing different opportunities to handle events.",
+                            "points": 0,
+                            "explanation": "Capturing is one phase of event propagation, but it is followed by the bubbling phase in the DOM."
+                        },
+                        {
+                            "label": "Events propagate during both capturing and bubbling phases",
+                            "description": "Correct! Event propagation in the DOM includes both capturing (from parent to child) and bubbling (from child to parent) phases.",
+                            "points": 3,
+                            "explanation": "Understanding the dual phases of event propagation is crucial for effective event handling in the DOM."
+                        },
+                        {
+                            "label": "Events propagate randomly in any direction",
+                            "description": "Incorrect. Event propagation follows a specific order, including both capturing and bubbling phases, in the DOM.",
+                            "points": 0,
+                            "explanation": "Events propagate in a defined order, involving capturing and bubbling phases, rather than randomly."
+                        }
+                    ]
+                },
+                {
+                    "id": "5c1e1f6f-24ff-46d5-89f0-95a3db6e75a4",
+                    "question": "What is the purpose of the 'stopPropagation' method in JavaScript event handling?",
+                    "description": "Test your knowledge of a method used to control the propagation of events in the DOM.",
+                    "hint": "Consider how this method can be employed to modify the default event propagation behavior.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It stops the event from occurring altogether",
+                            "description": "Incorrect. 'stopPropagation' does not prevent the event from occurring; it only stops its further propagation through the DOM.",
+                            "points": 0,
+                            "explanation": "The purpose of 'stopPropagation' is to halt the event's propagation in the DOM, not prevent its occurrence."
+                        },
+                        {
+                            "label": "It prevents the default behavior of the event",
+                            "description": "Incorrect. 'stopPropagation' specifically deals with stopping the event's propagation, not preventing its default behavior.",
+                            "points": 0,
+                            "explanation": "The primary purpose of 'stopPropagation' is to control the propagation of events, not alter their default behavior."
+                        },
+                        {
+                            "label": "It stops the event from propagating to parent elements",
+                            "description": "Correct! The 'stopPropagation' method is used to halt the propagation of an event, preventing it from reaching parent elements during the bubbling phase.",
+                            "points": 3,
+                            "explanation": "Understanding 'stopPropagation' is crucial for controlling event flow and preventing propagation to parent elements."
+                        },
+                        {
+                            "label": "It forces the event to propagate to all elements",
+                            "description": "Incorrect. 'stopPropagation' does the opposite; it prevents the event from propagating further through the DOM.",
+                            "points": 0,
+                            "explanation": "The 'stopPropagation' method is used to stop the event's propagation, not force it to propagate to all elements."
+                        }
+                    ]
+                },
+                {
+                    "id": "39487340-dbb3-42b8-84f4-8e123c3c34ad",
+                    "question": "What is the purpose of the 'preventDefault' method in JavaScript event handling?",
+                    "description": "Test your understanding of a method used to prevent the default behavior of events in the DOM.",
+                    "hint": "Consider how this method can be employed to modify the default action associated with an event.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It stops the event from occurring altogether",
+                            "description": "Correct! The 'preventDefault' method is used to stop the default behavior of an event, preventing it from occurring.",
+                            "points": 3,
+                            "explanation": "Understanding 'preventDefault' is crucial for altering the default action associated with an event in the DOM."
+                        },
+                        {
+                            "label": "It forces the event to propagate to parent elements",
+                            "description": "Incorrect. 'preventDefault' is focused on preventing the default behavior of an event, not forcing its propagation to parent elements.",
+                            "points": 0,
+                            "explanation": "The primary purpose of 'preventDefault' is to stop the default behavior of an event, not alter its propagation."
+                        },
+                        {
+                            "label": "It stops the event from propagating to child elements",
+                            "description": "Incorrect. 'preventDefault' does not control event propagation to child elements; it specifically deals with preventing the default behavior.",
+                            "points": 0,
+                            "explanation": "The 'preventDefault' method is not designed for controlling the propagation to child elements but for stopping the default behavior."
+                        },
+                        {
+                            "label": "It allows the event to occur with its default behavior",
+                            "description": "Incorrect. 'preventDefault' does the opposite; it stops the default behavior of an event, preventing it from occurring.",
+                            "points": 0,
+                            "explanation": "The 'preventDefault' method is used to prevent the default behavior of an event in the DOM."
+                        }
+                    ]
+                },
+                {
+                    "id": "3e0a9b9a-8e37-4767-b1f2-c5ac1a35b85c",
+                    "question": "What is a potential use case for event delegation in DOM manipulation?",
+                    "description": "Test your understanding of when event delegation can be beneficial for handling events in the DOM.",
+                    "hint": "Consider scenarios where event delegation simplifies event handling.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "When there are no nested elements",
+                            "description": "Incorrect. Event delegation becomes particularly useful in situations with nested elements, simplifying event handling.",
+                            "points": 0,
+                            "explanation": "Event delegation is often employed in scenarios with nested elements to streamline event handling."
+                        },
+                        {
+                            "label": "When there are only a few elements in the document",
+                            "description": "Incorrect. Event delegation is not solely based on the number of elements; it is beneficial in scenarios with dynamic or nested structures.",
+                            "points": 0,
+                            "explanation": "The effectiveness of event delegation is not determined solely by the number of elements but by the structure of the document."
+                        },
+                        {
+                            "label": "When dealing with dynamic or nested document structures",
+                            "description": "Correct! Event delegation is particularly beneficial when handling events in dynamic or nested document structures, simplifying event management.",
+                            "points": 3,
+                            "explanation": "Understanding when to use event delegation is crucial, especially in scenarios with dynamically generated or nested elements."
+                        },
+                        {
+                            "label": "Only when all elements have unique IDs",
+                            "description": "Incorrect. Event delegation is not dependent on unique IDs for all elements; it is more about handling events efficiently in various document structures.",
+                            "points": 0,
+                            "explanation": "The effectiveness of event delegation is not determined by unique IDs but by the document's structure and dynamics."
+                        }
+                    ]
+                },
+                {
+                    "id": "1b6d0c6a-0f4f-43c8-a98e-8772ec865a63",
+                    "question": "What is event bubbling in the context of DOM manipulation?",
+                    "description": "Test your understanding of the bubbling phase in event propagation within the DOM.",
+                    "hint": "Consider how events propagate from the target element to its ancestors during the bubbling phase.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It refers to the initial phase of event propagation",
+                            "description": "Incorrect. Event bubbling is the second phase of event propagation, occurring after the capturing phase.",
+                            "points": 0,
+                            "explanation": "Understanding the sequence of event propagation involves recognizing that bubbling follows the capturing phase."
+                        },
+                        {
+                            "label": "It refers to the final phase of event propagation",
+                            "description": "Incorrect. Bubbling is not the final phase but the second phase of event propagation in the DOM.",
+                            "points": 0,
+                            "explanation": "Event propagation in the DOM includes both capturing and bubbling phases; bubbling is not the concluding phase."
+                        },
+                        {
+                            "label": "It involves the propagation of events from target to ancestor elements",
+                            "description": "Correct! Event bubbling involves the upward propagation of events from the target element to its ancestor elements during the bubbling phase.",
+                            "points": 3,
+                            "explanation": "Understanding event bubbling is crucial for effective event handling in the DOM, especially during the second phase of propagation."
+                        },
+                        {
+                            "label": "It involves events propagating randomly",
+                            "description": "Incorrect. Bubbling follows a defined sequence, propagating events from the target to its ancestors, rather than occurring randomly.",
+                            "points": 0,
+                            "explanation": "Event bubbling has a specific order, propagating events in an organized manner, not randomly."
+                        }
+                    ]
+                },
+                {
+                    "id": "8bb89c05-bd9e-4f14-9c1d-37f7a0ff5bf4",
+                    "question": "How can you dynamically add a CSS class to an HTML element using JavaScript?",
+                    "description": "Test your knowledge of applying CSS classes dynamically to elements in the DOM.",
+                    "hint": "Consider the methods used to modify the class attribute of an HTML element.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "By using the 'replaceClass' method",
+                            "description": "Incorrect. There is no 'replaceClass' method in JavaScript; consider other methods used for modifying class attributes.",
+                            "points": 0,
+                            "explanation": "Modifying CSS classes involves different methods, and there is no native 'replaceClass' method in JavaScript."
+                        },
+                        {
+                            "label": "By using the 'addClass' method",
+                            "description": "Incorrect. While 'addClass' is commonly used, it is not a built-in JavaScript method; consider other methods provided by the DOM API.",
+                            "points": 0,
+                            "explanation": "JavaScript does not have a native 'addClass' method; class manipulation is typically performed using other DOM methods."
+                        },
+                        {
+                            "label": "By using the 'classList' property and 'add' method",
+                            "description": "Correct! The 'classList' property and 'add' method are commonly used to dynamically add a CSS class to an HTML element using JavaScript.",
+                            "points": 3,
+                            "explanation": "Understanding 'classList' and its 'add' method is crucial for dynamically manipulating CSS classes in the DOM."
+                        },
+                        {
+                            "label": "By using the 'setAttribute' method",
+                            "description": "Incorrect. While 'setAttribute' can modify attributes, it is not the preferred method for adding CSS classes; 'classList' is more suitable.",
+                            "points": 0,
+                            "explanation": "Modifying CSS classes is better achieved using 'classList' and its 'add' method, rather than 'setAttribute.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "3d3d9de0-73e5-431f-84b2-7f214efdd05a",
+                    "question": "What is the purpose of the 'data-' attribute in HTML and how can it be accessed using JavaScript?",
+                    "description": "Test your understanding of custom data attributes in HTML and their interaction with JavaScript.",
+                    "hint": "Consider the syntax and purpose of 'data-' attributes, and how JavaScript can access them.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used for adding inline CSS styles",
+                            "description": "Incorrect. The 'data-' attribute is not intended for adding inline CSS styles; its purpose is different and involves custom data.",
+                            "points": 0,
+                            "explanation": "'data-' attributes are not designed for applying CSS styles but for storing custom data."
+                        },
+                        {
+                            "label": "It is used for defining JavaScript functions",
+                            "description": "Incorrect. 'data-' attributes are not meant for defining JavaScript functions; they are used to store custom data associated with elements.",
+                            "points": 0,
+                            "explanation": "The primary purpose of 'data-' attributes is to store custom data, not define JavaScript functions."
+                        },
+                        {
+                            "label": "It is used for storing custom data associated with elements",
+                            "description": "Correct! The 'data-' attribute in HTML is used for storing custom data, and it can be accessed in JavaScript using the 'dataset' property.",
+                            "points": 3,
+                            "explanation": "Understanding the purpose of 'data-' attributes and how to access them using 'dataset' is crucial for working with custom data in the DOM."
+                        },
+                        {
+                            "label": "It is used for defining event listeners",
+                            "description": "Incorrect. 'data-' attributes are not meant for defining event listeners; their primary purpose is to store custom data associated with elements.",
+                            "points": 0,
+                            "explanation": "'data-' attributes are not used for event listeners but for storing custom data in HTML elements."
+                        }
+                    ]
+                },
+                {
+                    "id": "47b6875c-1a6d-44c2-8da9-74ea79d3e1a7",
+                    "question": "How can you check if an HTML element has a specific CSS class using JavaScript?",
+                    "description": "Test your knowledge of checking the presence of a CSS class on an HTML element.",
+                    "hint": "Consider the methods or properties that can be used to determine whether an element has a particular class.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "By using the 'hasClass' method",
+                            "description": "Incorrect. There is no built-in 'hasClass' method in JavaScript; consider other methods provided by the DOM API.",
+                            "points": 0,
+                            "explanation": "Checking the presence of a CSS class is typically done using other methods, and there is no native 'hasClass' method in JavaScript."
+                        },
+                        {
+                            "label": "By using the 'classList' property and 'contains' method",
+                            "description": "Correct! The 'classList' property and its 'contains' method are commonly used to check if an HTML element has a specific CSS class in JavaScript.",
+                            "points": 3,
+                            "explanation": "Understanding 'classList' and its 'contains' method is crucial for checking the presence of CSS classes on HTML elements."
+                        },
+                        {
+                            "label": "By using the 'getAttribute' method",
+                            "description": "Incorrect. While 'getAttribute' can retrieve attribute values, it is not the preferred method for checking the presence of CSS classes; 'classList' is more suitable.",
+                            "points": 0,
+                            "explanation": "Checking the presence of CSS classes is better achieved using 'classList' and its 'contains' method, rather than 'getAttribute.'"
+                        },
+                        {
+                            "label": "By using the 'hasClass' property",
+                            "description": "Incorrect. There is no native 'hasClass' property in JavaScript; use 'classList' and its 'contains' method for checking CSS classes.",
+                            "points": 0,
+                            "explanation": "Checking for CSS classes is typically done using 'classList' and its 'contains' method, not a 'hasClass' property."
+                        }
+                    ]
+                },
+                {
+                    "id": "697b1c99-0b9d-4f6a-85b1-ecf662ad7b87",
+                    "question": "How does the 'addEventListener' method in JavaScript contribute to DOM manipulation?",
+                    "description": "Test your knowledge of a method used for attaching event handlers to HTML elements.",
+                    "hint": "Consider how this method facilitates the handling of various events on DOM elements.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used for removing event listeners",
+                            "description": "Incorrect. 'addEventListener' is focused on adding, not removing, event listeners to HTML elements; consider other methods for removal.",
+                            "points": 0,
+                            "explanation": "Removing event listeners is typically done using methods like 'removeEventListener,' not 'addEventListener.'"
+                        },
+                        {
+                            "label": "It is used for adding event listeners to HTML elements",
+                            "description": "Correct! The 'addEventListener' method is used to attach event listeners to HTML elements, enabling the handling of various events.",
+                            "points": 3,
+                            "explanation": "Understanding 'addEventListener' is crucial for dynamically handling events on HTML elements in the DOM."
+                        },
+                        {
+                            "label": "It is used for creating custom events",
+                            "description": "Incorrect. 'addEventListener' is not primarily designed for creating custom events but for attaching event listeners to existing events.",
+                            "points": 0,
+                            "explanation": "Creating custom events involves different approaches, not the 'addEventListener' method."
+                        },
+                        {
+                            "label": "It is used for modifying the DOM structure",
+                            "description": "Incorrect. 'addEventListener' is not used for modifying the DOM structure; its purpose is specifically related to event handling on elements.",
+                            "points": 0,
+                            "explanation": "The 'addEventListener' method focuses on event handling, not structural modifications of the DOM."
+                        }
+                    ]
+                },
+                {
+                    "id": "3f120a53-2f84-4df3-b5b8-9fba72cb2df3",
+                    "question": "What is the purpose of the 'querySelectorAll' method in DOM manipulation?",
+                    "description": "Test your knowledge of a method used for selecting multiple elements based on CSS-style selectors.",
+                    "hint": "Consider how this method differs from 'querySelector' and its use cases.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It selects a single element based on a CSS-style selector",
+                            "description": "Incorrect. 'querySelectorAll' selects multiple elements based on a CSS-style selector, not just a single element.",
+                            "points": 0,
+                            "explanation": "Distinguishing between 'querySelector' and 'querySelectorAll' is important, as they serve different purposes in selecting elements."
+                        },
+                        {
+                            "label": "It selects all elements in the document",
+                            "description": "Incorrect. While 'querySelectorAll' selects multiple elements, it does so based on a CSS-style selector, not by retrieving all elements.",
+                            "points": 0,
+                            "explanation": "Understanding that 'querySelectorAll' is selector-based, not an exhaustive retrieval of all elements, is crucial."
+                        },
+                        {
+                            "label": "It selects multiple elements based on a CSS-style selector",
+                            "description": "Correct! The 'querySelectorAll' method is used to select multiple elements in the document that match a specified CSS-style selector.",
+                            "points": 3,
+                            "explanation": "Knowing when to use 'querySelectorAll' is essential for targeting and manipulating multiple elements based on CSS-style selectors."
+                        },
+                        {
+                            "label": "It selects elements based on their IDs only",
+                            "description": "Incorrect. 'querySelectorAll' is not limited to selecting elements based on IDs alone; it works with various CSS-style selectors.",
+                            "points": 0,
+                            "explanation": "'querySelectorAll' is versatile, allowing the selection of elements based on various CSS-style selectors, not just IDs."
+                        }
+                    ]
+                },
+                {
+                    "id": "f3f3a7a7-2226-490f-83da-eaeb3f801fc9",
+                    "question": "How can you change the style (e.g., color) of an HTML element using JavaScript?",
+                    "description": "Test your knowledge of dynamically modifying the style of HTML elements in the DOM.",
+                    "hint": "Consider the properties and methods involved in changing the visual presentation of an element.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "By using the 'innerHTML' property",
+                            "description": "Incorrect. 'innerHTML' is used for modifying the content within an element, not for changing its style or visual presentation.",
+                            "points": 0,
+                            "explanation": "Changing the style of an element involves properties and methods related to the 'style' attribute, not 'innerHTML.'"
+                        },
+                        {
+                            "label": "By using the 'setStyle' method",
+                            "description": "Incorrect. There is no native 'setStyle' method in JavaScript; consider other methods for changing the style of HTML elements.",
+                            "points": 0,
+                            "explanation": "Modifying styles typically involves directly accessing and modifying the 'style' property of an HTML element."
+                        },
+                        {
+                            "label": "By using the 'setAttribute' method",
+                            "description": "Incorrect. While 'setAttribute' can modify attributes, it is not the preferred method for changing styles; direct modification of the 'style' property is more appropriate.",
+                            "points": 0,
+                            "explanation": "Changing styles is better achieved by directly modifying the 'style' property, rather than using 'setAttribute.'"
+                        },
+                        {
+                            "label": "By using the 'style' property and setting specific style attributes",
+                            "description": "Correct! The 'style' property allows you to directly access and modify the style attributes (e.g., color) of an HTML element using JavaScript.",
+                            "points": 3,
+                            "explanation": "Understanding how to use the 'style' property is crucial for dynamically changing the visual presentation of HTML elements in the DOM."
+                        }
+                    ]
+                },
+                {
+                    "id": "e4e2af06-5e0e-418d-bd91-6ef2a212bb3b",
+                    "question": "What is the 'this' keyword's role in event handling functions?",
+                    "description": "Test your understanding of how the 'this' keyword operates within event handling functions.",
+                    "hint": "Consider how 'this' refers to the context in which the event handler was invoked.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It always refers to the document object",
+                            "description": "Incorrect. 'this' in event handling functions does not always refer to the document object; its reference depends on the context of invocation.",
+                            "points": 0,
+                            "explanation": "The value of 'this' in event handling functions is context-dependent, not fixed to the document object."
+                        },
+                        {
+                            "label": "It always refers to the target element of the event",
+                            "description": "Incorrect. While 'this' can refer to the target element, its value is context-dependent and can vary based on how the event handler is invoked.",
+                            "points": 0,
+                            "explanation": "The value of 'this' in event handling functions is not fixed to the target element; its reference depends on the invocation context."
+                        },
+                        {
+                            "label": "It refers to the global window object",
+                            "description": "Incorrect. 'this' in event handling functions is not automatically set to the global window object; its value depends on the context of invocation.",
+                            "points": 0,
+                            "explanation": "The value of 'this' in event handling functions is context-specific and not automatically set to the global window object."
+                        },
+                        {
+                            "label": "It refers to the element to which the event handler is attached",
+                            "description": "Correct! In event handling functions, 'this' typically refers to the element to which the event handler is attached, providing access to the context in which the event occurred.",
+                            "points": 3,
+                            "explanation": "Understanding the role of 'this' in event handling functions is crucial for accessing the context of the event and the associated element."
+                        }
+                    ]
+                },
+                {
+                    "id": "446f4fd5-71bb-492b-927f-0a15ba4d7ee9",
+                    "question": "What is event delegation, and how does it contribute to efficient DOM manipulation?",
+                    "description": "Test your understanding of a technique used for handling events efficiently in the DOM.",
+                    "hint": "Consider scenarios where event delegation simplifies event handling and its benefits.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It involves delegating events to the server",
+                            "description": "Incorrect. 'Event delegation' does not involve delegating events to the server. Instead, it's a concept related to handling events efficiently within the client-side DOM.",
+                            "points": 0,
+                            "explanation": "Event delegation focuses on client-side efficiency, handling events within the DOM, rather than delegating them to the server."
+                        },
+                        {
+                            "label": "It involves handling events only during the capturing phase",
+                            "description": "Incorrect. Event delegation involves both capturing and bubbling phases, providing different opportunities to handle events efficiently.",
+                            "points": 0,
+                            "explanation": "Event delegation is not limited to the capturing phase; it considers both capturing and bubbling phases in the DOM."
+                        },
+                        {
+                            "label": "It involves handling events at the document level rather than individual elements",
+                            "description": "Correct! Event delegation involves attaching a single event listener to a common ancestor (e.g., document) and using event delegation to handle events for multiple child elements efficiently.",
+                            "points": 3,
+                            "explanation": "Understanding event delegation allows for efficient event handling at a higher level, reducing the need for attaching multiple event listeners to individual elements."
+                        },
+                        {
+                            "label": "It involves handling events without considering event propagation",
+                            "description": "Incorrect. Event delegation is closely related to event propagation, considering the capturing and bubbling phases for efficient event handling.",
+                            "points": 0,
+                            "explanation": "Event delegation works in conjunction with event propagation, utilizing both capturing and bubbling phases for efficient event handling."
+                        }
+                    ]
+                },
+                {
+                    "id": "8a201a46-3b9c-4e62-839b-81a4b5b23c56",
+                    "question": "How does the 'removeChild' method contribute to dynamic DOM manipulation?",
+                    "description": "Test your understanding of a method used for removing specific elements from the DOM.",
+                    "hint": "Consider scenarios where 'removeChild' is useful for dynamic DOM manipulation.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It removes all child elements of a parent",
+                            "description": "Incorrect. 'removeChild' is used to remove a specific child element, not all child elements of a parent; consider other methods for bulk removal.",
+                            "points": 0,
+                            "explanation": "'removeChild' focuses on removing a specified child element, not all children of a parent."
+                        },
+                        {
+                            "label": "It removes the parent element from the DOM",
+                            "description": "Incorrect. 'removeChild' is used to remove a specific child element, not the parent element itself; consider other methods for parent removal.",
+                            "points": 0,
+                            "explanation": "The 'removeChild' method is applied to a parent element to remove a specified child, not to remove the parent itself."
+                        },
+                        {
+                            "label": "It removes a specified child element from its parent",
+                            "description": "Correct! The 'removeChild' method is used to remove a specified child element from its parent in the DOM, contributing to dynamic DOM manipulation.",
+                            "points": 3,
+                            "explanation": "Understanding how 'removeChild' removes specific elements from the DOM is crucial for dynamic manipulation, such as removing elements in response to user interactions."
+                        },
+                        {
+                            "label": "It removes the last child element of a parent",
+                            "description": "Incorrect. 'removeChild' is not restricted to removing the last child element; it is used to remove a specified child element, regardless of its position.",
+                            "points": 0,
+                            "explanation": "'removeChild' is not limited to removing the last child; it targets a specific child element for removal."
+                        }
+                    ]
+                },
+                {
+                    "id": "6d66f825-5a9c-4164-af15-65c416d695bb",
+                    "question": "Explain the concept of event propagation in the DOM, distinguishing between capturing and bubbling phases.",
+                    "description": "Test your in-depth understanding of how events propagate through the DOM and the two distinct phases involved.",
+                    "hint": "Consider the order in which capturing and bubbling phases occur and their significance in event propagation.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Event propagation involves randomly spreading events throughout the DOM.",
+                            "description": "Incorrect. Event propagation follows a specific order, and it is not random. Consider the organized sequence of capturing and bubbling phases.",
+                            "points": 0,
+                            "explanation": "Event propagation is organized and follows a specific sequence, involving both capturing and bubbling phases."
+                        },
+                        {
+                            "label": "Capturing phase is the final phase of event propagation.",
+                            "description": "Incorrect. The capturing phase is the initial phase of event propagation, occurring before the bubbling phase.",
+                            "points": 0,
+                            "explanation": "Understanding the sequence of event propagation involves recognizing that the capturing phase precedes the bubbling phase."
+                        },
+                        {
+                            "label": "Bubbling phase involves events propagating from the target element to its ancestors.",
+                            "description": "Correct! The bubbling phase is the second phase of event propagation, involving the upward propagation of events from the target element to its ancestors.",
+                            "points": 3,
+                            "explanation": "Event propagation includes both capturing and bubbling phases, with the latter involving events moving from the target to its ancestors."
+                        },
+                        {
+                            "label": "Capturing phase involves events moving from the target element to its ancestors.",
+                            "description": "Incorrect. The capturing phase involves events moving from the ancestors to the target element, not the other way around.",
+                            "points": 0,
+                            "explanation": "Understanding the direction of event propagation during the capturing phase is crucial; it moves from ancestors to the target element."
+                        }
+                    ]
+                },
+                {
+                    "id": "11fb232d-0e7b-4d42-99e1-399f5ff57f14",
+                    "question": "Describe the key differences between 'innerHTML' and 'textContent' when working with DOM elements.",
+                    "description": "Test your detailed knowledge of the distinctions between 'innerHTML' and 'textContent' properties in DOM manipulation.",
+                    "hint": "Consider the types of content each property deals with and their impact on the structure of an element.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'innerHTML' is used for accessing text content, while 'textContent' is used for modifying HTML content.",
+                            "description": "Incorrect. The roles are reversed. 'textContent' is used for accessing and modifying text content, while 'innerHTML' deals with HTML content.",
+                            "points": 0,
+                            "explanation": "Understanding the specific roles of 'innerHTML' and 'textContent' is crucial for correct usage in DOM manipulation."
+                        },
+                        {
+                            "label": "'innerHTML' is used for modifying text content, while 'textContent' is used for accessing HTML content.",
+                            "description": "Incorrect. 'innerHTML' is used for modifying HTML content, not text content. 'textContent' is specifically designed for working with text.",
+                            "points": 0,
+                            "explanation": "Distinguishing between 'innerHTML' and 'textContent' involves recognizing their respective roles in handling HTML and text content."
+                        },
+                        {
+                            "label": "'innerHTML' can introduce security risks due to potential script injection, while 'textContent' is safer in this regard.",
+                            "description": "Correct! 'innerHTML' has security implications as it can execute scripts if the content is not sanitized. 'textContent' is safer as it treats content as plain text.",
+                            "points": 3,
+                            "explanation": "Understanding the security implications of 'innerHTML' and the safer nature of 'textContent' is crucial when working with user-generated or untrusted content."
+                        },
+                        {
+                            "label": "'innerHTML' and 'textContent' are interchangeable and can be used in the same way.",
+                            "description": "Incorrect. 'innerHTML' and 'textContent' have distinct purposes, and using them interchangeably may lead to unintended results.",
+                            "points": 0,
+                            "explanation": "While both properties deal with content, 'innerHTML' and 'textContent' have different roles and should be used according to their intended purposes."
+                        }
+                    ]
+                },
+                {
+                    "id": "7fc854f4-2f9d-4d10-b300-0281a0a43816",
+                    "question": "Explain the concept of a closure in JavaScript and how it relates to event handlers in the DOM.",
+                    "description": "Test your understanding of closures in the context of JavaScript and their relevance to event handlers.",
+                    "hint": "Consider how closures capture and remember the lexical scope in which they are defined.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Closures in JavaScript are only relevant to asynchronous operations, not event handlers.",
+                            "description": "Incorrect. Closures are relevant in various contexts, including event handlers, where they capture the lexical scope.",
+                            "points": 0,
+                            "explanation": "Understanding closures involves recognizing their applicability in different scenarios, including event handling in the DOM."
+                        },
+                        {
+                            "label": "Closures in JavaScript are used primarily for preventing event propagation.",
+                            "description": "Incorrect. While closures can be used in event handlers, their primary purpose is not to prevent event propagation but to capture the lexical scope.",
+                            "points": 0,
+                            "explanation": "Closures play a role in capturing the lexical scope, enabling functionalities beyond preventing event propagation in event handlers."
+                        },
+                        {
+                            "label": "Closures in JavaScript capture and remember the lexical scope where they are defined, providing access to outer variables even after the outer function has finished executing.",
+                            "description": "Correct! Closures capture and remember the lexical scope, allowing access to outer variables. This is particularly useful in event handlers, where variables from the surrounding scope may be needed.",
+                            "points": 3,
+                            "explanation": "Understanding how closures capture the lexical scope is crucial, especially in scenarios like event handlers where access to outer variables is needed."
+                        },
+                        {
+                            "label": "Closures in JavaScript are only relevant to server-side programming and do not impact client-side scripting.",
+                            "description": "Incorrect. Closures are relevant in both server-side and client-side programming, including scenarios like event handling in the DOM.",
+                            "points": 0,
+                            "explanation": "Closures have applications in various programming scenarios, including client-side scripting in the DOM."
+                        }
+                    ]
+                },
+                {
+                    "id": "74e9a69e-3667-475b-80e2-9a8b83eae8bc",
+                    "question": "Compare and contrast the 'createElement' and 'createTextNode' methods in the context of dynamic DOM manipulation.",
+                    "description": "Test your knowledge of these DOM methods and their respective roles in creating elements and text nodes dynamically.",
+                    "hint": "Consider the specific purposes of 'createElement' and 'createTextNode' and how they are typically used together.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'createElement' is used for creating text nodes, while 'createTextNode' is used for creating elements.",
+                            "description": "Incorrect. The roles are reversed. 'createElement' is used for creating elements, while 'createTextNode' is specifically designed for creating text nodes.",
+                            "points": 0,
+                            "explanation": "Distinguishing between 'createElement' and 'createTextNode' involves understanding their respective roles in dynamic DOM manipulation."
+                        },
+                        {
+                            "label": "'createElement' is used for creating both elements and text nodes, while 'createTextNode' is used for appending them to the DOM.",
+                            "description": "Incorrect. 'createElement' is primarily used for creating elements, and 'createTextNode' is specifically designed for creating text nodes; their roles don't involve appending to the DOM.",
+                            "points": 0,
+                            "explanation": "Understanding the distinct roles of 'createElement' and 'createTextNode' is essential for correct usage in dynamic DOM manipulation."
+                        },
+                        {
+                            "label": "'createElement' is used for creating elements, while 'createTextNode' is used for creating text nodes, and they are often used together to build a complete structure.",
+                            "description": "Correct! 'createElement' is used for creating elements, and 'createTextNode' is used for creating text nodes. They are commonly used together to build a complete structure before appending it to the DOM.",
+                            "points": 3,
+                            "explanation": "Knowing how to use 'createElement' for elements and 'createTextNode' for text nodes, often in conjunction, is crucial for dynamic DOM manipulation."
+                        },
+                        {
+                            "label": "'createElement' and 'createTextNode' are interchangeable and can be used in the same way.",
+                            "description": "Incorrect. 'createElement' and 'createTextNode' serve distinct purposes, and using them interchangeably may lead to unintended results.",
+                            "points": 0,
+                            "explanation": "While both methods contribute to dynamic DOM manipulation, 'createElement' and 'createTextNode' have different roles and should be used according to their intended purposes."
+                        }
+                    ]
+                },
+                {
+                    "id": "09f16666-0953-4163-bb05-416272726a5a",
+                    "question": "Explain the concept of reflow and repaint in the context of browser rendering and how they impact performance during DOM manipulation.",
+                    "description": "Test your understanding of the terms 'reflow' and 'repaint' and their significance in the context of optimizing performance during DOM manipulation.",
+                    "hint": "Consider the impact of modifying layout or style properties on the rendering process.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Reflow is the process of recalculating the styles of an element, while repaint is the process of recalculating the layout.",
+                            "description": "Incorrect. The definitions are reversed. Reflow involves recalculating layout, and repaint involves recalculating styles.",
+                            "points": 0,
+                            "explanation": "Understanding the definitions of reflow and repaint is crucial for optimizing performance during DOM manipulation."
+                        },
+                        {
+                            "label": "Reflow and repaint are interchangeable terms, both referring to the process of recalculating layout and styles.",
+                            "description": "Incorrect. Reflow and repaint have distinct meanings, and understanding their differences is crucial for optimizing performance during DOM manipulation.",
+                            "points": 0,
+                            "explanation": "While related, reflow and repaint are distinct processes in browser rendering, and they have specific implications for performance during DOM manipulation."
+                        },
+                        {
+                            "label": "Reflow is the process of recalculating layout, triggered by changes to the DOM or style, while repaint is the process of repainting pixels on the screen.",
+                            "description": "Correct! Reflow involves recalculating layout, often triggered by changes to the DOM or style properties, while repaint involves repainting pixels on the screen based on the recalculated styles.",
+                            "points": 3,
+                            "explanation": "Understanding the concepts of reflow and repaint, along with their triggers, is crucial for optimizing performance during DOM manipulation."
+                        },
+                        {
+                            "label": "Reflow and repaint are terms related to server-side rendering and do not impact client-side DOM manipulation.",
+                            "description": "Incorrect. Reflow and repaint are terms related to client-side rendering, particularly in browsers, and understanding their impact is crucial for optimizing performance during DOM manipulation.",
+                            "points": 0,
+                            "explanation": "Reflow and repaint are concepts relevant to client-side rendering in browsers, particularly during client-side DOM manipulation."
+                        }
+                    ]
+                },
+                {
+                    "id": "bf1c89b1-8a6b-47e7-9090-1f194a33c0ea",
+                    "question": "Explain the concept of event bubbling in the DOM, and provide examples of scenarios where it can be advantageous or challenging.",
+                    "description": "Test your understanding of event bubbling and its implications in different situations within the DOM.",
+                    "hint": "Consider how events propagate from the target element to its ancestors during the bubbling phase and the practical considerations of this behavior.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Event bubbling involves events moving from the target element to its ancestors during the capturing phase.",
+                            "description": "Incorrect. Event bubbling specifically involves events moving from the target element to its ancestors during the bubbling phase, not the capturing phase.",
+                            "points": 0,
+                            "explanation": "Understanding the direction of event propagation during the capturing and bubbling phases is crucial for this question."
+                        },
+                        {
+                            "label": "Event bubbling can simplify event handling by allowing a single event listener to manage multiple elements with similar functionality.",
+                            "description": "Correct! Event bubbling simplifies event handling by enabling a single event listener on a common ancestor to manage events for multiple child elements with similar functionality.",
+                            "points": 3,
+                            "explanation": "Recognizing the advantages of event bubbling, such as streamlined event handling, is important in understanding its practical use cases."
+                        },
+                        {
+                            "label": "Event bubbling is advantageous when precise control over the order of event execution is required.",
+                            "description": "Incorrect. Event bubbling does not provide precise control over the order of event execution; it follows a specific sequence from the target to its ancestors.",
+                            "points": 0,
+                            "explanation": "Understanding the order of event propagation during event bubbling is crucial for this question."
+                        },
+                        {
+                            "label": "Event bubbling is challenging when separate event handlers are needed for each individual element.",
+                            "description": "Correct! Event bubbling can be challenging when separate event handlers are required for individual elements, as the common ancestor handles events for all descendants during the bubbling phase.",
+                            "points": 3,
+                            "explanation": "Recognizing the challenges of event bubbling, especially in scenarios requiring distinct handlers for each element, is important in understanding its limitations."
+                        }
+                    ]
+                },
+                {
+                    "id": "3d3f282c-c7f2-4edc-b498-71e171b140ed",
+                    "question": "Discuss the concept of 'event.preventDefault()' in the context of DOM manipulation, and explain when and why it is commonly used.",
+                    "description": "Test your knowledge of the 'event.preventDefault()' method and its significance in preventing the default behavior of certain events in the DOM.",
+                    "hint": "Consider scenarios where preventing the default behavior is essential and how 'event.preventDefault()' contributes to this.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'event.preventDefault()' is used to stop event propagation in the DOM.",
+                            "description": "Incorrect. 'event.preventDefault()' is specifically used to prevent the default behavior of an event, not to stop its propagation.",
+                            "points": 0,
+                            "explanation": "Understanding the specific purpose of 'event.preventDefault()' is crucial for this question."
+                        },
+                        {
+                            "label": "'event.preventDefault()' is irrelevant in client-side scripting and is only applicable to server-side programming.",
+                            "description": "Incorrect. 'event.preventDefault()' is relevant in client-side scripting, especially in the DOM, where it is used to prevent default behaviors associated with certain events.",
+                            "points": 0,
+                            "explanation": "Recognizing the applicability of 'event.preventDefault()' in client-side scripting is crucial for this question."
+                        },
+                        {
+                            "label": "'event.preventDefault()' is used to prevent the default behavior associated with certain events, such as form submission or link navigation.",
+                            "description": "Correct! 'event.preventDefault()' is employed to prevent the default behavior of events, particularly useful in scenarios like form submissions or link clicks where the default action needs to be overridden.",
+                            "points": 3,
+                            "explanation": "Understanding when and why 'event.preventDefault()' is used, especially in scenarios involving form submissions or link clicks, is crucial for this question."
+                        },
+                        {
+                            "label": "'event.preventDefault()' is used to forcefully trigger default behavior for certain events.",
+                            "description": "Incorrect. 'event.preventDefault()' is not used to trigger default behavior but to prevent it. Understanding the purpose of this method is crucial for this question.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'event.preventDefault()' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f1b2e2ec-e07f-495d-8b3d-b1bbf04f82b7",
+                    "question": "Discuss the advantages and disadvantages of using 'innerHTML' for inserting content into the DOM compared to other methods.",
+                    "description": "Test your understanding of the 'innerHTML' property for inserting content and its pros and cons when compared to alternative approaches in DOM manipulation.",
+                    "hint": "Consider factors such as security, performance, and potential side effects when using 'innerHTML'.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Advantages of 'innerHTML' include security, as it automatically sanitizes input, and superior performance compared to alternative methods.",
+                            "description": "Incorrect. 'innerHTML' does not automatically sanitize input, and its performance is not necessarily superior to alternative methods. Consider the security implications and performance factors associated with 'innerHTML'.",
+                            "points": 0,
+                            "explanation": "Understanding the considerations related to security and performance when using 'innerHTML' is crucial for this question."
+                        },
+                        {
+                            "label": "Advantages of 'innerHTML' include simplicity and ease of use, while disadvantages include security risks due to potential script injection.",
+                            "description": "Correct! 'innerHTML' offers simplicity and ease of use but poses security risks, as it may execute scripts if content is not properly sanitized. Understanding both the advantages and disadvantages is crucial.",
+                            "points": 3,
+                            "explanation": "Recognizing the trade-offs, including the simplicity of 'innerHTML' and the associated security risks, is important for this question."
+                        },
+                        {
+                            "label": "Disadvantages of 'innerHTML' include better performance compared to alternative methods, and its usage is recommended for complex DOM structures.",
+                            "description": "Incorrect. 'innerHTML' does not necessarily offer better performance, and its usage is not always recommended for complex DOM structures. Consider the performance implications and suitability for different scenarios.",
+                            "points": 0,
+                            "explanation": "Understanding the considerations related to performance and suitability for different scenarios when using 'innerHTML' is crucial for this question."
+                        },
+                        {
+                            "label": "Using 'innerHTML' is discouraged in favor of alternative methods due to its poor performance and lack of support in modern browsers.",
+                            "description": "Incorrect. While 'innerHTML' has its considerations, it is not universally discouraged, and its usage depends on specific use cases. Understanding the nuanced perspective on 'innerHTML' is crucial for this question.",
+                            "points": 0,
+                            "explanation": "Recognizing the nuanced perspective on 'innerHTML' usage, including performance considerations and browser support, is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b9db76dd-d305-42c9-bf5a-188dbfebb3e0",
+                    "question": "Explain the concept of event delegation in the context of DOM manipulation, and describe situations where it is particularly useful.",
+                    "description": "Test your understanding of event delegation and its practical applications in efficiently managing events in the DOM.",
+                    "hint": "Consider scenarios where event delegation simplifies event handling and improves performance.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Event delegation involves delegating the handling of events to the server, improving overall performance.",
+                            "description": "Incorrect. Event delegation is a client-side concept that involves handling events efficiently within the DOM, not delegating them to the server. Consider the client-side nature of event delegation.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side nature of event delegation is crucial for this question."
+                        },
+                        {
+                            "label": "Event delegation is only relevant in scenarios where a single event handler is needed for a specific element.",
+                            "description": "Incorrect. Event delegation is particularly useful when a single event handler on a common ancestor can efficiently manage events for multiple child elements with similar functionality. Consider the advantages of event delegation in such scenarios.",
+                            "points": 0,
+                            "explanation": "Recognizing the advantages of event delegation, especially in scenarios with multiple child elements, is important for this question."
+                        },
+                        {
+                            "label": "Event delegation involves attaching individual event listeners to each child element, improving overall performance.",
+                            "description": "Incorrect. Event delegation specifically involves attaching a single event listener to a common ancestor and leveraging event bubbling to efficiently manage events for multiple child elements. Consider the use of a common ancestor in event delegation.",
+                            "points": 0,
+                            "explanation": "Understanding the core concept of event delegation, which involves a common ancestor and efficient event handling for multiple child elements, is crucial for this question."
+                        },
+                        {
+                            "label": "Event delegation involves attaching a single event listener to a common ancestor and using event bubbling to handle events for multiple child elements efficiently.",
+                            "description": "Correct! Event delegation optimizes event handling by attaching a single event listener to a common ancestor. This is particularly useful when managing events for multiple child elements with similar functionality.",
+                            "points": 3,
+                            "explanation": "Recognizing the core concept of event delegation and its advantages in efficiently handling events for multiple child elements is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "9b98b6c7-6952-4311-9fb8-16923ffcfb4b",
+                    "question": "Explain the purpose of the 'appendChild' method in DOM manipulation, and discuss scenarios where it is commonly used.",
+                    "description": "Test your knowledge of the 'appendChild' method and its role in adding elements to the DOM dynamically.",
+                    "hint": "Consider how 'appendChild' contributes to building dynamic content structures and scenarios where it is preferable over other methods.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'appendChild' is used to remove elements from the DOM.",
+                            "description": "Incorrect. 'appendChild' is specifically used to add elements to the DOM, not to remove them. Consider the purpose of 'appendChild' in dynamically adding elements.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'appendChild' in adding elements to the DOM is crucial for this question."
+                        },
+                        {
+                            "label": "'appendChild' is primarily used for adding text content to an existing element in the DOM.",
+                            "description": "Incorrect. While 'appendChild' is used for adding elements, it is not limited to text content. Consider the broader use cases of 'appendChild' in dynamically adding elements to the DOM.",
+                            "points": 0,
+                            "explanation": "Understanding the general use cases of 'appendChild' in dynamically adding elements, not limited to text content, is crucial for this question."
+                        },
+                        {
+                            "label": "'appendChild' is used to add a child element to a parent element in the DOM, contributing to the dynamic building of content structures.",
+                            "description": "Correct! 'appendChild' is employed to add a child element to a parent element in the DOM, facilitating the dynamic construction of content structures. This method is commonly used in scenarios where elements need to be added dynamically.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'appendChild' in adding child elements to the DOM and its significance in dynamic content building is crucial for this question."
+                        },
+                        {
+                            "label": "'appendChild' is only relevant when elements are added during the initial rendering of a web page.",
+                            "description": "Incorrect. 'appendChild' is relevant in various scenarios, including dynamically adding elements after the initial rendering of a web page. Consider the dynamic nature of 'appendChild' usage.",
+                            "points": 0,
+                            "explanation": "Understanding the versatility of 'appendChild' in dynamically adding elements, not limited to the initial rendering, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c8749e5e-44e2-49d7-b40f-2eaf3162f8c9",
+                    "question": "Discuss the concept of 'virtual DOM' in the context of web development, highlighting its advantages and potential scenarios where it provides significant benefits.",
+                    "description": "Test your in-depth understanding of the virtual DOM and its role in optimizing web page performance.",
+                    "hint": "Consider scenarios where the virtual DOM proves advantageous and how it addresses performance challenges in web development.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "The virtual DOM is a physical representation of the actual DOM structure, providing a backup in case of rendering failures.",
+                            "description": "Incorrect. The virtual DOM is not a physical backup but a concept that involves a lightweight representation of the DOM structure to optimize updates and improve performance.",
+                            "points": 0,
+                            "explanation": "Understanding the conceptual nature of the virtual DOM is crucial for this question."
+                        },
+                        {
+                            "label": "The virtual DOM primarily benefits scenarios with static content and has limited impact on dynamic or frequently changing content.",
+                            "description": "Incorrect. The virtual DOM is particularly advantageous in scenarios with dynamic or frequently changing content, not just static content. Consider the impact of the virtual DOM on various types of content.",
+                            "points": 0,
+                            "explanation": "Recognizing the versatility of the virtual DOM, including its impact on dynamic content, is crucial for this question."
+                        },
+                        {
+                            "label": "The virtual DOM is a technique used to improve performance by minimizing the number of direct manipulations to the actual DOM, especially during frequent updates.",
+                            "description": "Correct! The virtual DOM is a performance optimization technique that minimizes direct manipulations to the actual DOM by introducing a lightweight representation. This proves beneficial, especially during frequent updates or dynamic content changes.",
+                            "points": 3,
+                            "explanation": "Understanding the purpose of the virtual DOM in optimizing performance, particularly during frequent updates, is crucial for this question."
+                        },
+                        {
+                            "label": "The virtual DOM is primarily relevant for server-side rendering and does not significantly impact client-side performance.",
+                            "description": "Incorrect. The virtual DOM is relevant for client-side rendering and has a significant impact on performance by reducing the need for direct manipulations to the actual DOM. Consider the client-side nature of the virtual DOM.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side relevance of the virtual DOM and its impact on performance is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "8a03a5e9-3e94-4c6b-afbf-3c798a04d5fc",
+                    "question": "Examine the concept of 'reactive programming' in the context of web development, discussing its principles and providing examples of scenarios where it is particularly beneficial.",
+                    "description": "Test your advanced knowledge of reactive programming and its application in creating responsive and interactive web applications.",
+                    "hint": "Consider how reactive programming principles contribute to real-time updates and efficient event handling in web development.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Reactive programming primarily involves manual handling of events and callbacks, resulting in a more procedural approach to web development.",
+                            "description": "Incorrect. Reactive programming emphasizes a declarative approach and automatic propagation of changes, providing a more responsive and less procedural approach to web development. Consider the declarative nature of reactive programming.",
+                            "points": 0,
+                            "explanation": "Understanding the declarative nature of reactive programming is crucial for this question."
+                        },
+                        {
+                            "label": "Reactive programming is mainly beneficial for static web applications with minimal user interactions.",
+                            "description": "Incorrect. Reactive programming is particularly beneficial for dynamic web applications with frequent user interactions, enabling real-time updates and efficient event handling. Consider the dynamic nature of reactive programming.",
+                            "points": 0,
+                            "explanation": "Recognizing the versatility of reactive programming, especially in dynamic scenarios, is crucial for this question."
+                        },
+                        {
+                            "label": "Reactive programming involves declaratively specifying the dynamic behavior of a system, allowing automatic propagation of changes and efficient handling of events.",
+                            "description": "Correct! Reactive programming is characterized by a declarative approach, where the dynamic behavior of a system is specified, enabling automatic propagation of changes and efficient event handling. This approach is particularly beneficial in creating responsive and interactive web applications.",
+                            "points": 3,
+                            "explanation": "Understanding the principles of reactive programming, including its declarative nature and benefits in web development, is crucial for this question."
+                        },
+                        {
+                            "label": "Reactive programming is irrelevant for front-end development and is primarily used in server-side scripting.",
+                            "description": "Incorrect. Reactive programming is highly relevant for front-end development, contributing to responsive and interactive user interfaces. Consider the front-end nature of reactive programming.",
+                            "points": 0,
+                            "explanation": "Understanding the relevance of reactive programming in front-end development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b20d1160-c6e5-49a2-b3d7-3965fe7b30b1",
+                    "question": "Explain the concept of 'optimistic updates' in the context of web development, highlighting its benefits and potential challenges.",
+                    "description": "Test your advanced understanding of optimistic updates and their role in creating smoother user experiences in web applications.",
+                    "hint": "Consider scenarios where optimistic updates enhance user experience and potential challenges associated with this approach.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Optimistic updates involve delaying user interface changes until the success of a server operation is confirmed, ensuring a consistent and reliable user experience.",
+                            "description": "Incorrect. Optimistic updates involve making immediate user interface changes based on the assumption that a server operation will succeed, providing a more responsive but potentially inconsistent user experience. Consider the optimistic nature of this approach.",
+                            "points": 0,
+                            "explanation": "Understanding the optimistic nature of updates and their potential impact on user experience is crucial for this question."
+                        },
+                        {
+                            "label": "Optimistic updates are primarily used in scenarios where consistency is of utmost importance, ensuring that user interface changes align with the confirmed success of server operations.",
+                            "description": "Incorrect. Optimistic updates are used in scenarios where a more responsive user experience is prioritized over immediate consistency, allowing user interface changes to occur optimistically before server operation confirmation. Consider the trade-offs involved in optimistic updates.",
+                            "points": 0,
+                            "explanation": "Recognizing the trade-offs involved in optimistic updates, especially in terms of responsiveness and consistency, is crucial for this question."
+                        },
+                        {
+                            "label": "Optimistic updates involve making immediate user interface changes based on the assumption that a server operation will succeed, providing a more responsive user experience but potentially resulting in inconsistencies if the operation fails.",
+                            "description": "Correct! Optimistic updates aim to provide a more responsive user experience by making immediate UI changes, assuming that a server operation will succeed. However, this approach may lead to inconsistencies if the operation fails. Understanding the trade-offs associated with optimistic updates is crucial.",
+                            "points": 3,
+                            "explanation": "Recognizing the trade-offs involved in optimistic updates, especially in terms of responsiveness and potential inconsistencies, is important for this question."
+                        },
+                        {
+                            "label": "Optimistic updates are irrelevant in modern web development and are considered an outdated approach.",
+                            "description": "Incorrect. Optimistic updates remain a relevant approach in modern web development, especially in scenarios where a responsive user experience is prioritized. Consider the ongoing relevance of optimistic updates.",
+                            "points": 0,
+                            "explanation": "Understanding the ongoing relevance of optimistic updates in modern web development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "15b135bc-47d3-4c6a-930d-e5d01aeb3c2e",
+                    "question": "Discuss the concept of 'WebSockets' and their role in enabling real-time communication in web applications, highlighting advantages and potential considerations.",
+                    "description": "Test your advanced knowledge of WebSockets and their impact on creating real-time and interactive features in web development.",
+                    "hint": "Consider scenarios where WebSockets outperform traditional HTTP communication and potential considerations related to their usage.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "WebSockets are primarily used for one-way communication from the server to the client, making them suitable for broadcasting updates but not for interactive features.",
+                            "description": "Incorrect. WebSockets support bidirectional communication, enabling both the server and client to send messages. Consider the bidirectional nature of WebSockets.",
+                            "points": 0,
+                            "explanation": "Understanding the bidirectional communication capability of WebSockets is crucial for this question."
+                        },
+                        {
+                            "label": "WebSockets are advantageous for scenarios where low-latency, real-time communication is essential, outperforming traditional HTTP-based approaches.",
+                            "description": "Correct! WebSockets excel in scenarios requiring low-latency and real-time communication, outperforming traditional HTTP-based approaches. Understanding the advantages of WebSockets in specific scenarios is crucial.",
+                            "points": 3,
+                            "explanation": "Recognizing the advantages of WebSockets, especially in terms of low-latency and real-time communication, is important for this question."
+                        },
+                        {
+                            "label": "WebSockets are irrelevant in modern web development, as alternative technologies offer better performance and compatibility.",
+                            "description": "Incorrect. WebSockets remain relevant in modern web development, offering specific advantages, especially in scenarios requiring real-time communication. Consider the ongoing relevance of WebSockets.",
+                            "points": 0,
+                            "explanation": "Understanding the ongoing relevance of WebSockets in modern web development is crucial for this question."
+                        },
+                        {
+                            "label": "WebSockets are limited to textual data and cannot efficiently handle binary data, making them unsuitable for applications with diverse data types.",
+                            "description": "Incorrect. WebSockets support both textual and binary data, providing versatility in handling different data types. Consider the capabilities of WebSockets in handling diverse data.",
+                            "points": 0,
+                            "explanation": "Understanding the versatility of WebSockets in handling both textual and binary data is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7d0ce114-2340-4a71-8c98-6954304b9ab7",
+                    "question": "Examine the role of 'service workers' in web development, discussing their capabilities and how they contribute to enhancing user experiences in progressive web applications.",
+                    "description": "Test your advanced understanding of service workers and their impact on creating offline-capable and performant web applications.",
+                    "hint": "Consider scenarios where service workers are particularly beneficial and their capabilities in improving offline experiences.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Service workers are only relevant for caching static assets and do not contribute significantly to improving offline experiences in web applications.",
+                            "description": "Incorrect. Service workers play a crucial role in caching static assets and enabling offline experiences by intercepting network requests. Consider the multifaceted role of service workers in web applications.",
+                            "points": 0,
+                            "explanation": "Understanding the multifaceted role of service workers, including caching and offline capabilities, is crucial for this question."
+                        },
+                        {
+                            "label": "Service workers are primarily used for server-side rendering and do not significantly impact client-side performance.",
+                            "description": "Incorrect. Service workers are relevant for client-side performance improvements, including offline capabilities. Consider the impact of service workers on client-side experiences.",
+                            "points": 0,
+                            "explanation": "Recognizing the relevance of service workers in client-side performance improvements, including offline capabilities, is crucial for this question."
+                        },
+                        {
+                            "label": "Service workers enable background processes that enhance web application performance, such as offline capabilities, push notifications, and periodic syncing.",
+                            "description": "Correct! Service workers enable background processes, contributing to improved web application performance, offline capabilities, push notifications, and periodic syncing. Understanding the diverse capabilities of service workers is crucial for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the diverse capabilities of service workers, including their role in offline experiences, is important for this question."
+                        },
+                        {
+                            "label": "Service workers are limited to specific browsers and do not provide consistent support across various platforms.",
+                            "description": "Incorrect. Service workers are well-supported in modern browsers and offer consistent functionality across various platforms. Consider the broad support and compatibility of service workers.",
+                            "points": 0,
+                            "explanation": "Understanding the broad support and compatibility of service workers across modern browsers and platforms is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5c93a94f-e2b9-49ec-a81d-87b064c0d48d",
+                    "question": "Explain the concept of 'debouncing' in the context of event handling, discussing its purpose and scenarios where it is particularly beneficial.",
+                    "description": "Test your advanced knowledge of debouncing and its role in optimizing event handling for better performance.",
+                    "hint": "Consider scenarios where debouncing prevents unnecessary function calls and improves the efficiency of event handling.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Debouncing involves intentionally delaying the execution of a function after an event, resulting in slower response times and reduced efficiency in event handling.",
+                            "description": "Incorrect. Debouncing aims to improve efficiency by delaying the execution of a function after an event, preventing unnecessary calls and optimizing event handling. Consider the purpose of debouncing in enhancing performance.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of debouncing in enhancing performance through the prevention of unnecessary function calls is crucial for this question."
+                        },
+                        {
+                            "label": "Debouncing is primarily relevant in scenarios where rapid and frequent events occur, such as keystrokes or mouse movements.",
+                            "description": "Correct! Debouncing is particularly beneficial in scenarios with rapid and frequent events, preventing unnecessary function calls and optimizing the handling of events like keystrokes or mouse movements. Recognizing the relevance of debouncing in such scenarios is crucial.",
+                            "points": 4,
+                            "explanation": "Recognizing the scenarios where debouncing, especially in handling rapid and frequent events, proves beneficial is important for this question."
+                        },
+                        {
+                            "label": "Debouncing is mainly used for one-time events and does not significantly impact the efficiency of continuous event handling.",
+                            "description": "Incorrect. Debouncing is valuable for both one-time and continuous events, improving efficiency by preventing unnecessary function calls. Consider the versatility of debouncing in various event handling scenarios.",
+                            "points": 0,
+                            "explanation": "Understanding the versatility of debouncing in optimizing efficiency for both one-time and continuous events is crucial for this question."
+                        },
+                        {
+                            "label": "Debouncing is irrelevant in modern web development, as alternative techniques provide better performance without the need for intentional delays in function execution.",
+                            "description": "Incorrect. Debouncing remains relevant in modern web development, offering a valuable technique to enhance performance in scenarios with rapid and frequent events. Consider the ongoing relevance of debouncing.",
+                            "points": 0,
+                            "explanation": "Understanding the ongoing relevance of debouncing in modern web development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c1a5d33e-87c3-4421-8d02-2542f41a128e",
+                    "question": "Explore the concept of 'render optimization' in the context of web development, discussing strategies and techniques to optimize rendering performance.",
+                    "description": "Test your advanced understanding of render optimization and its impact on creating fast and responsive web applications.",
+                    "hint": "Consider various techniques and best practices that contribute to optimizing rendering performance in web development.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Render optimization involves maximizing the number of elements rendered on a web page, providing a visually rich and immersive user experience.",
+                            "description": "Incorrect. Render optimization focuses on improving performance by minimizing unnecessary renders and maximizing the efficiency of rendering processes. Consider the goal of render optimization in enhancing performance.",
+                            "points": 0,
+                            "explanation": "Understanding the goal of render optimization in enhancing performance through efficient rendering processes is crucial for this question."
+                        },
+                        {
+                            "label": "One effective strategy for render optimization is to render all elements immediately upon user interaction, ensuring a seamless and instantaneous visual experience.",
+                            "description": "Incorrect. Render optimization often involves selectively rendering elements based on user interactions and priorities, rather than rendering all elements immediately. Consider the selective nature of render optimization.",
+                            "points": 0,
+                            "explanation": "Recognizing the selective nature of render optimization, focusing on priority elements and user interactions, is crucial for this question."
+                        },
+                        {
+                            "label": "Lazy loading of components and images is a commonly used technique for render optimization, allowing web applications to load and render content only when it becomes visible or necessary.",
+                            "description": "Correct! Lazy loading is an effective technique for render optimization, deferring the loading and rendering of components and images until they become visible or necessary. Understanding the benefits of lazy loading in optimizing rendering performance is crucial for this question.",
+                            "points": 4,
+                            "explanation": "Recognizing the effectiveness of lazy loading in render optimization, especially in deferring rendering until content is necessary, is important for this question."
+                        },
+                        {
+                            "label": "Render optimization primarily involves maximizing the size and resolution of rendered images, contributing to a visually stunning and high-quality user experience.",
+                            "description": "Incorrect. While optimizing image size and resolution is important, render optimization is more focused on efficient rendering processes and selective rendering based on user interactions. Consider the broader aspects of render optimization.",
+                            "points": 0,
+                            "explanation": "Understanding that render optimization involves efficient processes and selective rendering, rather than maximizing image size, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6aa5b243-7001-4a6d-bdc7-783ee6c777a9",
+                    "question": "Examine the concept of 'server-side rendering' (SSR) and its advantages in web development, discussing scenarios where SSR is particularly beneficial.",
+                    "description": "Test your advanced knowledge of server-side rendering and its impact on creating performant and SEO-friendly web applications.",
+                    "hint": "Consider scenarios where server-side rendering provides advantages over client-side rendering and its impact on search engine optimization (SEO).",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Server-side rendering (SSR) is primarily advantageous for web applications with minimal content, as it ensures faster initial rendering.",
+                            "description": "Incorrect. SSR is advantageous for various web applications, not just those with minimal content. Consider the broader scenarios where SSR provides benefits.",
+                            "points": 0,
+                            "explanation": "Understanding the versatility of SSR in providing advantages for different web applications is crucial for this question."
+                        },
+                        {
+                            "label": "SSR is irrelevant in modern web development, as client-side rendering techniques offer better performance and user experience.",
+                            "description": "Incorrect. SSR remains relevant in modern web development, offering advantages in specific scenarios. Consider the ongoing relevance of SSR and its distinct benefits.",
+                            "points": 0,
+                            "explanation": "Understanding the ongoing relevance of SSR in modern web development and its distinct benefits is crucial for this question."
+                        },
+                        {
+                            "label": "SSR is particularly beneficial for web applications that require optimal SEO performance, as search engines can easily index the content during the initial server-side rendering.",
+                            "description": "Correct! SSR provides advantages in SEO performance by allowing search engines to index content during the initial rendering on the server side. Recognizing the impact of SSR on SEO is crucial for this question.",
+                            "points": 4,
+                            "explanation": "Recognizing the SEO advantages of SSR in allowing search engines to index content during initial rendering is important for this question."
+                        },
+                        {
+                            "label": "SSR is only relevant for web applications that prioritize client-side interactivity and do not focus on search engine visibility.",
+                            "description": "Incorrect. SSR can benefit web applications with both client-side interactivity and search engine visibility. Consider the dual advantages of SSR in specific scenarios.",
+                            "points": 0,
+                            "explanation": "Understanding the dual advantages of SSR in enhancing client-side interactivity and search engine visibility is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6fbf2d27-098e-470e-9bd3-6c7c8b545671",
+                    "question": "Explore the concept of 'code splitting' in the context of web development, discussing its purpose and strategies to implement efficient code splitting.",
+                    "description": "Test your advanced understanding of code splitting and its role in optimizing the performance of large-scale web applications.",
+                    "hint": "Consider how code splitting improves initial loading times and allows web applications to load only the necessary code for a specific user interaction.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Code splitting is primarily used for separating HTML, CSS, and JavaScript files, providing a more organized structure for web applications.",
+                            "description": "Incorrect. While code splitting involves dividing code, it focuses on splitting JavaScript files to enhance performance by loading only necessary code. Consider the specific emphasis on optimizing JavaScript loading.",
+                            "points": 0,
+                            "explanation": "Understanding that code splitting is specifically related to optimizing JavaScript loading, rather than separating HTML and CSS files, is crucial for this question."
+                        },
+                        {
+                            "label": "Code splitting is irrelevant for small-scale web applications and is only necessary for large-scale projects with extensive codebases.",
+                            "description": "Incorrect. Code splitting is beneficial for both small-scale and large-scale web applications, enhancing performance by loading only the necessary code. Consider the broad applicability of code splitting.",
+                            "points": 0,
+                            "explanation": "Recognizing that code splitting can benefit web applications of various scales, including small-scale projects, is crucial for this question."
+                        },
+                        {
+                            "label": "The main purpose of code splitting is to optimize initial loading times by loading only the essential code required for the current user interaction.",
+                            "description": "Correct! Code splitting aims to optimize initial loading times by loading only the necessary code for the current user interaction, improving performance. Recognizing the purpose of code splitting in enhancing loading efficiency is crucial for this question.",
+                            "points": 4,
+                            "explanation": "Recognizing the purpose of code splitting in optimizing initial loading times is important for this question."
+                        },
+                        {
+                            "label": "Code splitting is primarily focused on minimizing runtime errors and ensuring a more stable execution environment for web applications.",
+                            "description": "Incorrect. While code splitting can contribute to more stable execution, its primary focus is on optimizing loading times and improving performance. Consider the specific goal of code splitting in this context.",
+                            "points": 0,
+                            "explanation": "Understanding that the primary goal of code splitting is to optimize loading times and improve performance is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e8eddbb1-0df2-41b1-8757-b512cb2b6744",
+                    "question": "Discuss the concept of 'progressive web apps' (PWAs) and their key characteristics, highlighting the benefits they offer in comparison to traditional web applications.",
+                    "description": "Test your advanced knowledge of progressive web apps (PWAs) and their role in providing a more reliable and engaging user experience.",
+                    "hint": "Consider the characteristics that define PWAs and how they contribute to improved user experiences, especially in offline scenarios.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "PWAs are identical to native mobile apps and are primarily focused on providing platform-specific user interfaces for a seamless experience.",
+                            "description": "Incorrect. PWAs share some characteristics with native apps but are not identical. They are designed to be platform-agnostic and offer a consistent experience across devices. Consider the platform-agnostic nature of PWAs.",
+                            "points": 0,
+                            "explanation": "Understanding the platform-agnostic nature of PWAs, different from native apps, is crucial for this question."
+                        },
+                        {
+                            "label": "PWAs are only beneficial for users with high-speed internet connections and do not significantly enhance the user experience in low-bandwidth or offline scenarios.",
+                            "description": "Incorrect. PWAs are designed to enhance the user experience in various scenarios, including low-bandwidth and offline situations. Consider the broad applicability of PWAs in improving user experiences.",
+                            "points": 0,
+                            "explanation": "Recognizing the versatility of PWAs in improving user experiences across different network conditions, including offline scenarios, is crucial for this question."
+                        },
+                        {
+                            "label": "PWAs leverage service workers and offer features such as offline access, push notifications, and faster loading times, contributing to a more reliable and engaging user experience.",
+                            "description": "Correct! PWAs leverage service workers to provide features like offline access, push notifications, and faster loading times. These characteristics contribute to a more reliable and engaging user experience. Recognizing the key features of PWAs is crucial for this question.",
+                            "points": 4,
+                            "explanation": "Recognizing the key features of PWAs, including the use of service workers and benefits in offline scenarios, is important for this question."
+                        },
+                        {
+                            "label": "PWAs are only relevant for specific industries and do not offer significant advantages for a wide range of web applications.",
+                            "description": "Incorrect. PWAs offer advantages across various industries and web application types, providing benefits such as reliability and engagement. Consider the wide applicability of PWAs.",
+                            "points": 0,
+                            "explanation": "Understanding the wide applicability of PWAs and their advantages across different industries is crucial for this question."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

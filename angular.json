@@ -1,0 +1,1679 @@
+{
+    "skill": {
+        "Angular": {
+            "id": "angular",
+            "description": "Angular is a component based front-end development framework built on TypeScript which includes a collection of well-integrated libraries that include features like routing, forms management, client-server communication, and more.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Visit Dedicated Angular Roadmap",
+                    "link": "https://roadmap.sh/angular"
+                },
+                {
+                    "name": "Official - Getting started with Angular",
+                    "link": "https://angular.io/start"
+                },
+                {
+                    "name": "Angular for Beginners Course [Full Front End Tutorial with TypeScript]",
+                    "link": "https://www.youtube.com/watch?v=3qBXWUpoPHo"
+                }
+            ],
+            "parents": [
+                "pick-a-framework",
+                "server-side-rendering"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "3b1ab843-6d99-43e6-97cf-88e1e509a3f2",
+                    "question": "What is Angular?",
+                    "description": "Provide a brief definition of Angular.",
+                    "hint": "Consider Angular's characteristics as a component-based front-end development framework built on TypeScript.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Angular is a server-side programming language.",
+                            "description": "Incorrect. Angular is a front-end development framework, not a server-side programming language.",
+                            "points": 0,
+                            "explanation": "Recognizing Angular as a front-end framework is crucial for this question."
+                        },
+                        {
+                            "label": "Angular is a component-based front-end development framework built on TypeScript.",
+                            "description": "Correct! Angular is indeed a component-based front-end development framework built on TypeScript.",
+                            "points": 3,
+                            "explanation": "Accurately identifying Angular's characteristics contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular is a database management system.",
+                            "description": "Incorrect. Angular is not a database management system; it's a front-end development framework.",
+                            "points": 0,
+                            "explanation": "Recognizing Angular's role in front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Angular is a markup language for creating web pages.",
+                            "description": "Incorrect. Angular is not a markup language; it's a front-end development framework.",
+                            "points": 0,
+                            "explanation": "Understanding Angular's role in front-end development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "cfa6c1d1-33e1-4ac5-a2d7-4c11d2971a67",
+                    "question": "What programming language is Angular built on?",
+                    "description": "Identify the programming language on which Angular is built.",
+                    "hint": "Consider the primary language that forms the foundation of Angular.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Angular is built on Java.",
+                            "description": "Incorrect. Angular is not built on Java; it's built on a different programming language.",
+                            "points": 0,
+                            "explanation": "Recognizing the correct programming language for Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular is built on TypeScript.",
+                            "description": "Correct! Angular is built on TypeScript, a superset of JavaScript.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the programming language of Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular is built on Python.",
+                            "description": "Incorrect. Angular is not built on Python; it's built on a different programming language.",
+                            "points": 0,
+                            "explanation": "Recognizing the correct programming language for Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular is built on C++.",
+                            "description": "Incorrect. Angular is not built on C++; it's built on a different programming language.",
+                            "points": 0,
+                            "explanation": "Recognizing the correct programming language for Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "689a5f1d-8b54-4fb6-bc98-d162b493aa89",
+                    "question": "What are some features provided by Angular?",
+                    "description": "List some of the features offered by the Angular framework.",
+                    "hint": "Consider the capabilities and functionalities that Angular brings to front-end development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Angular does not provide any features; it is a basic markup language.",
+                            "description": "Incorrect. Angular is a feature-rich front-end development framework, not just a basic markup language.",
+                            "points": 0,
+                            "explanation": "Recognizing the features offered by Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular provides features like routing, forms management, and client-server communication.",
+                            "description": "Correct! Angular includes features such as routing, forms management, and client-server communication.",
+                            "points": 3,
+                            "explanation": "Accurately identifying some of the features of Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular only offers basic styling features.",
+                            "description": "Incorrect. Angular provides a comprehensive set of features, not limited to basic styling.",
+                            "points": 0,
+                            "explanation": "Recognizing the diverse features offered by Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's only feature is the creation of static web pages.",
+                            "description": "Incorrect. Angular is capable of much more than creating static web pages; it is a dynamic front-end development framework.",
+                            "points": 0,
+                            "explanation": "Understanding the broad capabilities of Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "68aa9cb8-1f6d-44b4-b2f3-08e09f147cb3",
+                    "question": "Where can you find a dedicated Angular roadmap?",
+                    "description": "Identify the source where developers can find a dedicated Angular roadmap.",
+                    "hint": "Consider official and reputable sources for obtaining information about Angular's roadmap.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "There is no dedicated Angular roadmap available for developers.",
+                            "description": "Incorrect. A dedicated Angular roadmap exists to guide developers in their learning journey.",
+                            "points": 0,
+                            "explanation": "Recognizing the availability of a dedicated Angular roadmap is crucial for this question."
+                        },
+                        {
+                            "label": "The Angular roadmap can be found on GitHub.",
+                            "description": "Correct! Developers can find a dedicated Angular roadmap on GitHub, a reliable source for project-related information.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the location of the Angular roadmap contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The Angular roadmap is exclusively shared through private forums and is not publicly accessible.",
+                            "description": "Incorrect. The Angular roadmap is typically available through public and accessible sources.",
+                            "points": 0,
+                            "explanation": "Recognizing the common accessibility of Angular roadmaps is crucial for this question."
+                        },
+                        {
+                            "label": "Developers must create their own Angular roadmap; there is no centralized resource.",
+                            "description": "Incorrect. While developers can customize their learning paths, a dedicated Angular roadmap is available for guidance.",
+                            "points": 0,
+                            "explanation": "Recognizing the existence of a dedicated Angular roadmap is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c2f6701a-b652-4092-aa5b-bb32cb6e1c49",
+                    "question": "What is TypeScript, and how does it relate to Angular?",
+                    "description": "Provide a brief explanation of TypeScript and its relationship with the Angular framework.",
+                    "hint": "Consider TypeScript as a superset of JavaScript and its role in enhancing Angular development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "TypeScript is a variant of JavaScript used only in the Angular framework.",
+                            "description": "Incorrect. TypeScript is not exclusive to Angular, but it is used in various contexts beyond Angular development.",
+                            "points": 0,
+                            "explanation": "Recognizing TypeScript's broader usage is crucial for this question."
+                        },
+                        {
+                            "label": "TypeScript is a superset of JavaScript, and it enhances Angular development by providing features like static typing and interfaces.",
+                            "description": "Correct! TypeScript is a superset of JavaScript and enhances Angular development with features like static typing and interfaces.",
+                            "points": 3,
+                            "explanation": "Accurately describing TypeScript and its role in Angular development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "TypeScript is a standalone programming language that competes with Angular in front-end development.",
+                            "description": "Incorrect. TypeScript is not a standalone language competing with Angular; it complements Angular development.",
+                            "points": 0,
+                            "explanation": "Recognizing TypeScript's role as a complement to Angular is crucial for this question."
+                        },
+                        {
+                            "label": "TypeScript is exclusively used for server-side programming and has no connection to Angular.",
+                            "description": "Incorrect. TypeScript is used in both server-side and client-side development, and it is connected to Angular in the frontend.",
+                            "points": 0,
+                            "explanation": "Understanding TypeScript's versatility and connection to Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b78df450-ebef-4e6c-9e2c-40b2e1b344db",
+                    "question": "What is the significance of routing in Angular?",
+                    "description": "Explain the importance of routing in the context of Angular development.",
+                    "hint": "Consider how routing allows navigation between different components in an Angular application.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Routing in Angular is irrelevant and unnecessary for developing web applications.",
+                            "description": "Incorrect. Routing in Angular is essential for managing navigation and creating single-page applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of routing in Angular development is crucial for this question."
+                        },
+                        {
+                            "label": "Angular routing enables navigation between different components, allowing the creation of single-page applications with dynamic content.",
+                            "description": "Correct! Angular routing indeed enables navigation between components, facilitating the creation of single-page applications with dynamic content.",
+                            "points": 3,
+                            "explanation": "Accurately describing the significance of Angular routing contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Routing in Angular is limited to server-side navigation and does not impact client-side behavior.",
+                            "description": "Incorrect. Angular routing primarily focuses on client-side navigation and is crucial for creating dynamic and responsive web applications.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side nature of Angular routing is crucial for this question."
+                        },
+                        {
+                            "label": "Routing in Angular is exclusively for handling server-side routes and does not impact the client-side user experience.",
+                            "description": "Incorrect. Angular routing is primarily focused on enhancing the client-side user experience by enabling navigation between components.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular routing is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c8a7d0b7-2d6e-43a1-92a8-5405984d6df7",
+                    "question": "How does Angular facilitate forms management in web development?",
+                    "description": "Discuss how Angular simplifies the process of forms management in web development.",
+                    "hint": "Consider Angular's features related to form creation, validation, and interaction.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Angular has no features for managing forms, and developers must manually handle form-related tasks.",
+                            "description": "Incorrect. Angular provides comprehensive features for creating, managing, and valida,ting forms, reducing manual effort for developers.",
+                            "points": 0,
+                            "explanation": "Recognizing Angular's capabilities in forms management is crucial for this question."
+                        },
+                        {
+                            "label": "Forms management in Angular is limited to basic input fields and lacks support for advanced form features.",
+                            "description": "Incorrect. Angular offers support for a wide range of form features, including advanced validation and interaction.",
+                            "points": 0,
+                            "explanation": "Understanding the extensive form management capabilities of Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular simplifies forms management by providing features for creating, validating, and interacting with forms, reducing the complexity for developers.",
+                            "description": "Correct! Angular simplifies forms management by offering features for creating, validating, and interacting with forms, easing the development process.",
+                            "points": 3,
+                            "explanation": "Accurately describing how Angular simplifies forms management contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Forms management in Angular is solely focused on server-side validation and lacks client-side interactivity.",
+                            "description": "Incorrect. Angular's forms management encompasses both server-side and client-side aspects, including interactive features.",
+                            "points": 0,
+                            "explanation": "Understanding the comprehensive nature of Angular's forms management is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e3a13ab5-8706-4b76-8913-971cd8fcf4a3",
+                    "question": "How does Angular handle client-server communication?",
+                    "description": "Examine the methods employed by Angular for handling communication between the client and server.",
+                    "hint": "Consider Angular's built-in features and techniques for making HTTP requests and interacting with a server.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Angular facilitates client-server communication through its built-in HTTP client module, allowing developers to make HTTP requests and handle server responses.",
+                            "description": "Correct! Angular indeed facilitates client-server communication through its built-in HTTP client module, streamlining the process for developers.",
+                            "points": 3,
+                            "explanation": "Accurately describing Angular's approach to client-server communication contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular does not provide any mechanisms for client-server communication, and developers must use external libraries for such tasks.",
+                            "description": "Incorrect. Angular offers built-in features and services for making HTTP requests and handling client-server communication without relying on external libraries.",
+                            "points": 0,
+                            "explanation": "Recognizing Angular's capabilities in client-server communication is crucial for this question."
+                        },
+                        {
+                            "label": "Client-server communication in Angular is exclusively achieved through third-party libraries, and Angular does not have built-in support.",
+                            "description": "Incorrect. Angular includes built-in support for client-server communication, reducing the need for extensive reliance on third-party libraries.",
+                            "points": 0,
+                            "explanation": "Understanding the built-in support for client-server communication in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular relies solely on raw JavaScript for client-server communication and does not incorporate modern approaches.",
+                            "description": "Incorrect. Angular embraces modern approaches and includes a built-in HTTP client module for efficient client-server communication.",
+                            "points": 0,
+                            "explanation": "Recognizing Angular's adoption of modern techniques for client-server communication is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d9f87077-6b7c-4f50-830e-c5a22c11840c",
+                    "question": "What is the purpose of the Angular CLI?",
+                    "description": "Discuss the role and purpose of the Angular Command Line Interface (CLI) in Angular development.",
+                    "hint": "Consider how the Angular CLI aids developers in various aspects of Angular project management.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "The Angular CLI is an optional tool that does not provide any benefits to Angular developers.",
+                            "description": "Incorrect. The Angular CLI is a valuable tool that streamlines various aspects of Angular development for increased efficiency.",
+                            "points": 0,
+                            "explanation": "Recognizing the significance of the Angular CLI in Angular development is crucial for this question."
+                        },
+                        {
+                            "label": "The Angular CLI is primarily used for server-side scripting and has no impact on client-side development.",
+                            "description": "Incorrect. The Angular CLI is focused on client-side development, aiding in project setup, scaffolding, and more.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side focus of the Angular CLI is crucial for this question."
+                        },
+                        {
+                            "label": "The Angular CLI is a powerful tool that provides commands for project scaffolding, code generation, testing, and other tasks to enhance the development workflow.",
+                            "description": "Correct! The Angular CLI is indeed a powerful tool that offers commands for project scaffolding, code generation, testing, and other tasks, contributing to an improved development workflow.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and capabilities of the Angular CLI contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The Angular CLI is solely used for styling purposes and has no impact on project structure or functionality.",
+                            "description": "Incorrect. While the Angular CLI is not focused on styling, it plays a crucial role in project structure, code generation, and other development tasks.",
+                            "points": 0,
+                            "explanation": "Recognizing the multifaceted role of the Angular CLI in development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "4565c2ef-361d-42b9-9e59-856b5a049e94",
+                    "question": "How does Angular support unit testing in development?",
+                    "description": "Examine the mechanisms and features provided by Angular to support unit testing during development.",
+                    "hint": "Consider Angular's built-in features for testing components, services, and other aspects of an Angular application.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Angular does not support unit testing, and developers must rely on external testing frameworks for such tasks.",
+                            "description": "Incorrect. Angular includes built-in support for unit testing, allowing developers to test components, services, and other parts of an Angular application without relying solely on external frameworks.",
+                            "points": 0,
+                            "explanation": "Recognizing Angular's built-in support for unit testing is crucial for this question."
+                        },
+                        {
+                            "label": "Unit testing in Angular is exclusively performed through manual testing processes, and there is no automation support.",
+                            "description": "Incorrect. Angular promotes automated unit testing through tools like Jasmine and Karma, enhancing the efficiency of the testing process.",
+                            "points": 0,
+                            "explanation": "Understanding the automated unit testing support provided by Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular supports unit testing through built-in tools like Jasmine and Karma, enabling developers to write and execute tests for components, services, and other parts of an application.",
+                            "description": "Correct! Angular does support unit testing through built-in tools like Jasmine and Karma, allowing developers to write and execute tests for various aspects of an Angular application.",
+                            "points": 3,
+                            "explanation": "Accurately describing how Angular supports unit testing contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Unit testing in Angular is a manual process that requires developers to write custom testing scripts without leveraging any built-in tools.",
+                            "description": "Incorrect. Angular provides built-in tools like Jasmine and Karma to streamline the unit testing process, reducing the need for extensive custom scripting.",
+                            "points": 0,
+                            "explanation": "Recognizing the built-in tools for unit testing in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5a1449f4-4164-41cd-afda-d2c9b6da49b1",
+                    "question": "What is Angular's NgModule, and why is it important in Angular applications?",
+                    "description": "Provide an explanation of Angular's NgModule and its significance in the context of developing Angular applications.",
+                    "hint": "Consider the role of NgModule in organizing and structuring Angular applications.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "NgModule in Angular is a deprecated feature and is no longer relevant in modern Angular development.",
+                            "description": "Incorrect. NgModule is a crucial feature in Angular for organizing and structuring applications, and it is not deprecated.",
+                            "points": 0,
+                            "explanation": "Recognizing the ongoing relevance and importance of NgModule in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's NgModule is a feature used exclusively for styling purposes and does not impact the overall structure of an Angular application.",
+                            "description": "Incorrect. NgModule in Angular is not focused on styling but plays a central role in organizing components, services, and other application features.",
+                            "points": 0,
+                            "explanation": "Understanding the organizational role of NgModule in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "NgModule is a foundational concept in Angular that helps organize and structure applications by grouping related components, directives, pipes, and services.",
+                            "description": "Correct! NgModule is indeed a foundational concept in Angular that aids in organizing and structuring applications by grouping related components, directives, pipes, and services.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role and importance of NgModule in Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular's NgModule is primarily used for server-side rendering and does not impact the client-side behavior of an application.",
+                            "description": "Incorrect. NgModule in Angular is focused on client-side organization and structuring of applications, not server-side rendering.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side organizational role of NgModule in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0a0c36de-01cd-4b85-99e8-59fc7fb684db",
+                    "question": "Explain the concept of two-way data binding in Angular.",
+                    "description": "Provide an explanation of two-way data binding in Angular and its significance in creating dynamic user interfaces.",
+                    "hint": "Consider how two-way data binding simplifies the synchronization of data between the user interface and the application model.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Two-way data binding in Angular is a deprecated feature and is no longer recommended for modern applications.",
+                            "description": "Incorrect. Two-way data binding is a valid and useful feature in Angular for simplifying the synchronization of data between the user interface and the application model.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of two-way data binding in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's two-way data binding is focused on unidirectional communication from the user interface to the application model.",
+                            "description": "Incorrect. Two-way data binding in Angular involves bidirectional communication, synchronizing data between the user interface and the application model.",
+                            "points": 0,
+                            "explanation": "Understanding the bidirectional nature of two-way data binding in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Two-way data binding in Angular simplifies the synchronization of data between the user interface and the application model, allowing changes in one to immediately reflect in the other.",
+                            "description": "Correct! Two-way data binding in Angular indeed simplifies the synchronization of data between the user interface and the application model, ensuring immediate reflection of changes.",
+                            "points": 3,
+                            "explanation": "Accurately describing the concept and significance of two-way data binding in Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular's two-way data binding is exclusively used for handling server-side data and does not impact the client-side behavior of an application.",
+                            "description": "Incorrect. Two-way data binding in Angular is focused on client-side synchronization of data between the user interface and the application model.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side nature of two-way data binding in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f685b6d5-ba3a-45c9-8a76-0a91a9f9a236",
+                    "question": "How does Angular handle dependency injection, and why is it important?",
+                    "description": "Discuss the mechanisms used by Angular for dependency injection and the importance of this feature in Angular development.",
+                    "hint": "Consider how dependency injection simplifies component interactions and promotes code maintainability.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Dependency injection is not a feature in Angular, and developers must manually handle component dependencies without any framework support.",
+                            "description": "Incorrect. Angular includes built-in support for dependency injection, simplifying the handling of component dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the presence of dependency injection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's dependency injection is exclusively focused on server-side processes and does not impact client-side development.",
+                            "description": "Incorrect. Dependency injection in Angular is a client-side feature that simplifies the handling of component dependencies within an application.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side nature of dependency injection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular handles dependency injection by providing a hierarchical injector system, allowing components to receive dependencies from their parent injectors. Dependency injection promotes code maintainability and facilitates unit testing.",
+                            "description": "Correct! Angular indeed handles dependency injection through a hierarchical injector system, promoting code maintainability and facilitating unit testing by simplifying the handling of component dependencies.",
+                            "points": 3,
+                            "explanation": "Accurately describing the mechanisms and importance of dependency injection in Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Dependency injection in Angular is solely focused on handling styling-related dependencies and does not impact the overall functionality of an application.",
+                            "description": "Incorrect. Dependency injection in Angular is not limited to styling but encompasses various component dependencies, impacting the overall functionality of an application.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader scope of dependency injection in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f685b6d5-ba3a-45c9-8a76-0a91a9f9a236",
+                    "question": "How does Angular handle dependency injection, and why is it important?",
+                    "description": "Discuss the mechanisms used by Angular for dependency injection and the importance of this feature in Angular development.",
+                    "hint": "Consider how dependency injection simplifies component interactions and promotes code maintainability.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Angular handles dependency injection by providing a hierarchical injector system, allowing components to receive dependencies from their parent injectors. Dependency injection promotes code maintainability and facilitates unit testing.",
+                            "description": "Correct! Angular indeed handles dependency injection through a hierarchical injector system, promoting code maintainability and facilitating unit testing by simplifying the handling of component dependencies.",
+                            "points": 3,
+                            "explanation": "Accurately describing the mechanisms and importance of dependency injection in Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Dependency injection is not a feature in Angular, and developers must manually handle component dependencies without any framework support.",
+                            "description": "Incorrect. Angular includes built-in support for dependency injection, simplifying the handling of component dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the presence of dependency injection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's dependency injection is exclusively focused on server-side processes and does not impact client-side development.",
+                            "description": "Incorrect. Dependency injection in Angular is a client-side feature that simplifies the handling of component dependencies within an application.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side nature of dependency injection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Dependency injection in Angular is solely focused on handling styling-related dependencies and does not impact the overall functionality of an application.",
+                            "description": "Incorrect. Dependency injection in Angular is not limited to styling but encompasses various component dependencies, impacting the overall functionality of an application.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader scope of dependency injection in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "9e45e997-d307-4df9-99ac-af13692c7f7e",
+                    "question": "Explain the role of Angular services and why they are important in Angular applications.",
+                    "description": "Provide an explanation of the role of Angular services and their importance in the context of Angular application development.",
+                    "hint": "Consider how services facilitate code organization, separation of concerns, and reusability in Angular applications.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Angular services are deprecated and no longer recommended for use in modern Angular applications.",
+                            "description": "Incorrect. Angular services are actively used and are essential components in modern Angular applications, promoting code organization and reusability.",
+                            "points": 0,
+                            "explanation": "Recognizing the ongoing relevance of Angular services in modern development is crucial for this question."
+                        },
+                        {
+                            "label": "Angular services are components that provide functionality, code organization, and reusability in Angular applications, helping to achieve separation of concerns.",
+                            "description": "Correct! Angular services indeed provide functionality, code organization, and reusability in Angular applications, contributing to the separation of concerns.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role and importance of Angular services in application development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular services are primarily used for styling purposes and do not contribute to the overall functionality or structure of an Angular application.",
+                            "description": "Incorrect. While services are not focused on styling, they play a crucial role in providing functionality, code organization, and reusability in Angular applications.",
+                            "points": 0,
+                            "explanation": "Understanding the broader role of Angular services is crucial for this question."
+                        },
+                        {
+                            "label": "Angular services are exclusively used for server-side processes and do not impact the client-side behavior of an application.",
+                            "description": "Incorrect. Angular services contribute to client-side behavior by providing functionality, code organization, and reusability in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side impact of Angular services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "85e89b44-b08b-4a02-88b2-d303e21e4e13",
+                    "question": "What is lazy loading in the context of Angular, and why is it beneficial?",
+                    "description": "Explain the concept of lazy loading in Angular and the advantages it offers in the development of Angular applications.",
+                    "hint": "Consider how lazy loading improves application performance and reduces initial load times.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Lazy loading is not a feature in Angular, and developers must load all components and modules upfront during the initial application load.",
+                            "description": "Incorrect. Lazy loading is a feature in Angular that allows developers to load specific components or modules on-demand rather than upfront.",
+                            "points": 0,
+                            "explanation": "Recognizing the existence and benefits of lazy loading in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Lazy loading in Angular is exclusively focused on server-side processes and does not impact client-side performance.",
+                            "description": "Incorrect. Lazy loading in Angular primarily impacts client-side performance by deferring the loading of specific components or modules until they are needed.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of lazy loading in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Lazy loading in Angular allows developers to load specific components or modules on-demand, improving application performance by reducing initial load times.",
+                            "description": "Correct! Lazy loading in Angular does allow developers to load specific components or modules on-demand, contributing to improved application performance by reducing initial load times.",
+                            "points": 3,
+                            "explanation": "Accurately describing the concept and benefits of lazy loading in Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Lazy loading is exclusively used for handling styling-related components and does not impact the overall functionality of an Angular application.",
+                            "description": "Incorrect. Lazy loading in Angular impacts the overall functionality of an application by deferring the loading of specific components or modules until they are needed.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of lazy loading in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a0d10543-787b-4e56-9de4-1ed0973f194d",
+                    "question": "How does Angular support internationalization (i18n), and why is it important?",
+                    "description": "Discuss the mechanisms used by Angular to support internationalization (i18n) and the importance of this feature in Angular applications.",
+                    "hint": "Consider how i18n in Angular enables the development of applications that can be easily translated into different languages.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Angular supports internationalization (i18n) by providing tools and mechanisms for creating applications that can be easily translated into different languages, promoting global accessibility.",
+                            "description": "Correct! Angular does support internationalization (i18n) by offering tools and mechanisms for creating applications that can be easily translated into different languages, contributing to global accessibility.",
+                            "points": 3,
+                            "explanation": "Accurately describing the mechanisms and importance of i18n support in Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular does not support internationalization (i18n), and developers must manually implement language-specific versions of their applications.",
+                            "description": "Incorrect. Angular includes built-in support for internationalization (i18n), enabling developers to create applications that can be easily translated into different languages.",
+                            "points": 0,
+                            "explanation": "Recognizing the presence and importance of i18n support in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's internationalization (i18n) support is exclusively focused on server-side processes and does not impact client-side development.",
+                            "description": "Incorrect. i18n support in Angular impacts both server-side and client-side development by enabling the translation of applications into different languages.",
+                            "points": 0,
+                            "explanation": "Understanding the broad impact of i18n support in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Internationalization (i18n) in Angular is solely focused on handling date and time formats and does not impact the overall functionality of an application.",
+                            "description": "Incorrect. i18n support in Angular extends beyond date and time formats, impacting the overall translation of applications into different languages.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of i18n support in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "3a9b31a3-383b-4eb1-88a5-57b52c8e59e9",
+                    "question": "Explain the purpose of Angular CLI, and how does it facilitate Angular development?",
+                    "description": "Provide an explanation of the purpose of Angular CLI and its role in facilitating the development of Angular applications.",
+                    "hint": "Consider how Angular CLI simplifies tasks such as project scaffolding, dependency management, and build processes.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Angular CLI is an outdated tool and is no longer recommended for use in modern Angular development.",
+                            "description": "Incorrect. Angular CLI is an actively maintained and widely used tool in modern Angular development, simplifying various aspects of the development process.",
+                            "points": 0,
+                            "explanation": "Recognizing the ongoing relevance of Angular CLI in modern development is crucial for this question."
+                        },
+                        {
+                            "label": "Angular CLI is exclusively focused on server-side processes and does not impact client-side development.",
+                            "description": "Incorrect. Angular CLI is a client-side tool that significantly impacts the development of Angular applications by simplifying tasks such as project scaffolding, dependency management, and build processes.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular CLI is crucial for this question."
+                        },
+                        {
+                            "label": "Angular CLI serves as a command-line interface tool that simplifies various aspects of Angular development, including project scaffolding, dependency management, and build processes.",
+                            "description": "Correct! Angular CLI indeed serves as a command-line interface tool that simplifies key aspects of Angular development, making tasks such as project scaffolding, dependency management, and build processes more efficient.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and impact of Angular CLI in application development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular CLI is exclusively used for handling styling-related tasks and does not impact the overall functionality of an Angular application.",
+                            "description": "Incorrect. While Angular CLI simplifies various development tasks, it extends beyond styling-related activities and impacts the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular CLI in Angular development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6cd16d6d-3b96-4cb3-93ee-4f78a8a960b3",
+                    "question": "What is Angular routing, and how does it contribute to the development of single-page applications (SPAs)?",
+                    "description": "Provide an explanation of Angular routing and its role in the development of single-page applications (SPAs).",
+                    "hint": "Consider how Angular routing enables navigation between different views/components without a full page reload.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Angular routing is not a feature for single-page applications (SPAs), and developers must rely on traditional page navigation.",
+                            "description": "Incorrect. Angular routing is a crucial feature for single-page applications (SPAs), allowing developers to navigate between different views/components without triggering a full page reload.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of Angular routing in SPAs is crucial for this question."
+                        },
+                        {
+                            "label": "Angular routing is exclusively focused on server-side processes and does not impact client-side navigation in single-page applications.",
+                            "description": "Incorrect. Angular routing primarily impacts client-side navigation in single-page applications, enabling seamless transitions between different views/components.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular routing in SPAs is crucial for this question."
+                        },
+                        {
+                            "label": "Angular routing is exclusively used for handling styling-related aspects and does not impact the overall functionality of a single-page application.",
+                            "description": "Incorrect. While Angular routing simplifies navigation, it extends beyond styling-related activities and impacts the overall functionality of single-page applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular routing in single-page applications is crucial for this question."
+                        },
+                        {
+                            "label": "Angular routing is a feature that enables navigation between different views/components in a single-page application (SPA) without triggering a full page reload.",
+                            "description": "Correct! Angular routing indeed enables navigation between different views/components in a single-page application (SPA) without the need for a full page reload.",
+                            "points": 3,
+                            "explanation": "Accurately describing the concept and benefits of Angular routing in SPAs contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "e18bfcd4-7a0b-4ee7-aab2-6f349fc029bb",
+                    "question": "What is Angular's two-way data binding, and how does it simplify the development of interactive user interfaces?",
+                    "description": "Explain the concept of Angular's two-way data binding and its role in simplifying the development of interactive user interfaces.",
+                    "hint": "Consider how two-way data binding allows automatic synchronization between the model and the view in Angular applications.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Angular does not support two-way data binding, and developers must manually manage the synchronization between the model and the view.",
+                            "description": "Incorrect. Angular does support two-way data binding, allowing for automatic synchronization between the model and the view.",
+                            "points": 0,
+                            "explanation": "Recognizing the existence and benefits of two-way data binding in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Two-way data binding in Angular is exclusively focused on server-side processes and does not impact client-side user interface development.",
+                            "description": "Incorrect. Two-way data binding in Angular primarily impacts client-side user interface development by facilitating automatic synchronization between the model and the view.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of two-way data binding in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's two-way data binding is a feature that enables automatic synchronization between the model and the view, simplifying the development of interactive user interfaces.",
+                            "description": "Correct! Angular's two-way data binding indeed enables automatic synchronization between the model and the view, contributing to the simplification of interactive user interface development.",
+                            "points": 3,
+                            "explanation": "Accurately describing the concept and benefits of Angular's two-way data binding contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Two-way data binding in Angular is exclusively used for handling styling-related aspects and does not impact the overall functionality of a user interface.",
+                            "description": "Incorrect. While two-way data binding simplifies development, it extends beyond styling-related activities and impacts the overall functionality of user interfaces in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of two-way data binding in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f1ad4e9b-e733-41e3-89b1-8c40a7739d5c",
+                    "question": "Explain the concept of Angular directives and provide an example of how they can be used in a template.",
+                    "description": "Provide an explanation of Angular directives and offer an example demonstrating how they can be utilized in an Angular template.",
+                    "hint": "Consider how Angular directives extend HTML functionality and enable the creation of dynamic and reusable components.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular directives are markers on a DOM element that tell Angular to attach a specified behavior to that DOM element, enabling the creation of dynamic and reusable components.",
+                            "description": "Correct! Angular directives are indeed markers that attach specified behavior to DOM elements, allowing the creation of dynamic and reusable components in Angular applications.",
+                            "points": 3,
+                            "explanation": "Accurately describing the concept and usage of Angular directives contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular directives are not a part of the Angular framework, and developers must rely on standard HTML for creating dynamic components.",
+                            "description": "Incorrect. Angular directives are a fundamental part of the Angular framework, extending HTML functionality to create dynamic and reusable components.",
+                            "points": 0,
+                            "explanation": "Recognizing the role and importance of Angular directives in the framework is crucial for this question."
+                        },
+                        {
+                            "label": "Angular directives are exclusively focused on server-side processes and do not contribute to the client-side rendering of dynamic components.",
+                            "description": "Incorrect. Angular directives play a significant role in client-side rendering, allowing developers to create dynamic components in Angular applications.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular directives is crucial for this question."
+                        },
+                        {
+                            "label": "Angular directives are exclusively used for styling-related tasks and do not impact the overall functionality of dynamic components in Angular applications.",
+                            "description": "Incorrect. While Angular directives can be used for styling, they extend beyond that to impact the overall functionality of dynamic components.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular directives in Angular applications is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "23e03e63-9c35-4a5d-8d43-d7a78f47e5c1",
+                    "question": "What is Angular's ViewChild decorator, and how is it used in Angular components?",
+                    "description": "Explain the purpose of Angular's ViewChild decorator and provide an example demonstrating its usage in Angular components.",
+                    "hint": "Consider how ViewChild is used to access a child component or element within a parent component.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular does not have a ViewChild decorator, and developers must use alternative methods to access child components or elements within a parent component.",
+                            "description": "Incorrect. Angular does have a ViewChild decorator, and it is commonly used to access child components or elements within a parent component.",
+                            "points": 0,
+                            "explanation": "Recognizing the existence and purpose of ViewChild in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "ViewChild is exclusively focused on server-side processes and does not impact client-side component interaction in Angular applications.",
+                            "description": "Incorrect. ViewChild in Angular primarily impacts client-side component interaction, allowing access to child components or elements within a parent component.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of ViewChild in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's ViewChild decorator is used to access a child component or element within a parent component, facilitating interaction and communication between components.",
+                            "description": "Correct! Angular's ViewChild decorator is indeed used to access a child component or element within a parent component, enabling interaction and communication between components.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and usage of Angular's ViewChild decorator contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "ViewChild is exclusively used for handling styling-related aspects and does not impact the overall functionality of component interaction in Angular applications.",
+                            "description": "Incorrect. While ViewChild can be used for component interaction, it extends beyond styling-related activities to impact the overall functionality of Angular components.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of ViewChild in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a70c1c84-0c06-4e74-809b-e7ea2b4a86a9",
+                    "question": "What is Angular's ngFor directive used for, and how does it contribute to the rendering of lists in Angular templates?",
+                    "description": "Explain the purpose of Angular's ngFor directive and how it contributes to the rendering of lists in Angular templates.",
+                    "hint": "Consider how ngFor is used to iterate over a collection and generate dynamic content based on the elements of the collection.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular's ngFor directive is used to iterate over a collection and generate dynamic content based on the elements of the collection, contributing to the rendering of lists in Angular templates.",
+                            "description": "Correct! Angular's ngFor directive is indeed used for iterating over a collection and dynamically generating content, facilitating the rendering of lists in Angular templates.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and usage of ngFor in Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular's ngFor directive is not used for rendering lists, and developers must manually implement list rendering in Angular templates.",
+                            "description": "Incorrect. Angular's ngFor directive is specifically designed for rendering lists by iterating over a collection and generating dynamic content.",
+                            "points": 0,
+                            "explanation": "Recognizing the purpose and usage of ngFor in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "ngFor in Angular is exclusively focused on server-side processes and does not impact client-side rendering of lists in Angular applications.",
+                            "description": "Incorrect. ngFor in Angular primarily impacts client-side rendering, allowing developers to dynamically generate content for lists based on a collection.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of ngFor in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "ngFor is exclusively used for handling styling-related tasks and does not impact the overall functionality of list rendering in Angular applications.",
+                            "description": "Incorrect. While ngFor can be used for list rendering, it extends beyond styling-related activities to impact the overall functionality of Angular templates.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of ngFor in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e4c142a0-1d3b-4896-b905-b4a51b5291cc",
+                    "question": "How does Angular's dependency injection system contribute to the development of scalable and maintainable applications?",
+                    "description": "Explain the role of Angular's dependency injection system and how it contributes to the development of scalable and maintainable applications.",
+                    "hint": "Consider how dependency injection enables the management of component dependencies and promotes modularity in Angular applications.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular does not have a dependency injection system, and developers must manually handle component dependencies for scalable and maintainable applications.",
+                            "description": "Incorrect. Angular does have a robust dependency injection system that automates the handling of component dependencies for scalability and maintainability.",
+                            "points": 0,
+                            "explanation": "Recognizing the presence and benefits of Angular's dependency injection system is crucial for this question."
+                        },
+                        {
+                            "label": "Dependency injection in Angular is exclusively focused on server-side processes and does not impact client-side development for scalable and maintainable applications.",
+                            "description": "Incorrect. Dependency injection in Angular plays a crucial role in client-side development, promoting modularity and manageability for scalable applications.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular's dependency injection system is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's dependency injection system enables the automatic management of component dependencies, promoting modularity and maintainability for scalable applications.",
+                            "description": "Correct! Angular's dependency injection system indeed enables the automatic management of component dependencies, contributing to modularity and maintainability for scalable applications.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role and benefits of Angular's dependency injection system contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Dependency injection in Angular is exclusively used for handling styling-related aspects and does not impact the overall functionality of scalable and maintainable applications.",
+                            "description": "Incorrect. While dependency injection can be used for scalability, it extends beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of dependency injection in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ad3d44c7-b6b0-4882-8c5b-9e7e2c723071",
+                    "question": "Explain the purpose of Angular services and how they contribute to the development of modular and reusable code.",
+                    "description": "Provide an explanation of the purpose of Angular services and how they contribute to the development of modular and reusable code.",
+                    "hint": "Consider how Angular services facilitate the separation of concerns and enable the sharing of functionality across different components.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular services are not used for developing modular and reusable code, and developers should avoid their usage in Angular applications.",
+                            "description": "Incorrect. Angular services are fundamental for developing modular and reusable code, facilitating the separation of concerns and code sharing across components.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular services in modular code development is crucial for this question."
+                        },
+                        {
+                            "label": "Angular services are exclusively focused on server-side processes and do not contribute to client-side development for modular and reusable code.",
+                            "description": "Incorrect. Angular services play a crucial role in client-side development, enabling the creation of modular and reusable code across components.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular services is crucial for this question."
+                        },
+                        {
+                            "label": "Angular services are used to encapsulate and share functionality across different components, contributing to the development of modular and reusable code.",
+                            "description": "Correct! Angular services are indeed used to encapsulate and share functionality, promoting the development of modular and reusable code across components.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and contribution of Angular services to modular code development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular services are exclusively used for handling styling-related tasks and do not impact the overall functionality of modular and reusable code in Angular applications.",
+                            "description": "Incorrect. While services can be used for modularity, they extend beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular services in code modularity is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f0be98ac-890d-4b61-b7c9-8aa5d9721042",
+                    "question": "How does Angular's HttpClient module simplify the process of making HTTP requests in Angular applications?",
+                    "description": "Explain how Angular's HttpClient module simplifies the process of making HTTP requests and handling responses in Angular applications.",
+                    "hint": "Consider how HttpClient provides a high-level interface for sending HTTP requests and processing responses with features like error handling and observables.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular does not have an HttpClient module, and developers must rely on low-level APIs for making HTTP requests in Angular applications.",
+                            "description": "Incorrect. Angular does have an HttpClient module, which provides a high-level interface for simplifying the process of making HTTP requests and handling responses.",
+                            "points": 0,
+                            "explanation": "Recognizing the existence and purpose of Angular's HttpClient module is crucial for this question."
+                        },
+                        {
+                            "label": "HttpClient in Angular is exclusively focused on server-side processes and does not contribute to client-side development for making HTTP requests.",
+                            "description": "Incorrect. HttpClient in Angular primarily impacts client-side development, simplifying the process of making HTTP requests and handling responses.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular's HttpClient module is crucial for this question."
+                        },
+                        {
+                            "label": "HttpClient is exclusively used for handling styling-related tasks and does not impact the overall functionality of making HTTP requests in Angular applications.",
+                            "description": "Incorrect. While HttpClient can be used for making HTTP requests, it extends beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular's HttpClient module is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's HttpClient module simplifies the process of making HTTP requests by providing a high-level interface for sending requests, handling responses, and offering features like error handling and observables.",
+                            "description": "Correct! Angular's HttpClient module indeed simplifies the process of making HTTP requests by providing a high-level interface with essential features like error handling and observables.",
+                            "points": 3,
+                            "explanation": "Accurately describing how Angular's HttpClient module simplifies HTTP requests contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "e21a2e9c-763a-4cc9-87f2-c2f27f7d7ce2",
+                    "question": "What is Angular's ngIf directive, and how is it used to conditionally render content in Angular templates?",
+                    "description": "Explain the purpose of Angular's ngIf directive and how it is used to conditionally render content in Angular templates.",
+                    "hint": "Consider how ngIf is used to conditionally include or exclude content based on a specified expression in Angular templates.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular's ngIf directive is used to conditionally include or exclude content in Angular templates based on a specified expression, facilitating conditional rendering.",
+                            "description": "Correct! Angular's ngIf directive is indeed used for conditional rendering, allowing developers to include or exclude content based on specified expressions in templates.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and usage of ngIf in Angular contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular's ngIf directive is not used for conditional rendering, and developers must use alternative methods to conditionally include or exclude content in Angular templates.",
+                            "description": "Incorrect. Angular's ngIf directive is specifically designed for conditional rendering, allowing developers to include or exclude content based on specified conditions.",
+                            "points": 0,
+                            "explanation": "Recognizing the purpose and usage of ngIf in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "ngIf in Angular is exclusively focused on server-side processes and does not impact client-side rendering for conditional content in Angular applications.",
+                            "description": "Incorrect. ngIf in Angular primarily impacts client-side rendering, allowing developers to conditionally include or exclude content based on expressions in templates.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of ngIf in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "ngIf is exclusively used for handling styling-related tasks and does not impact the overall functionality of conditional rendering in Angular applications.",
+                            "description": "Incorrect. While ngIf can be used for conditional rendering, it extends beyond styling-related activities to impact the overall functionality of Angular templates.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of ngIf in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a201f793-79ac-4eb6-82a8-02b1ea7dbf9e",
+                    "question": "Explain the concept of Angular modules and how they contribute to organizing and structuring Angular applications.",
+                    "description": "Provide an explanation of the concept of Angular modules and how they contribute to organizing and structuring Angular applications.",
+                    "hint": "Consider how Angular modules help organize code into cohesive units and manage dependencies within an Angular application.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular modules help organize code into cohesive units, manage dependencies, and contribute to the overall organization and structure of Angular applications.",
+                            "description": "Correct! Angular modules indeed help organize code into cohesive units, manage dependencies, and contribute to the overall organization and structure of Angular applications.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and contribution of Angular modules to application organization contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular modules are not a fundamental part of Angular applications, and developers should avoid using them for organizing and structuring code.",
+                            "description": "Incorrect. Angular modules are a crucial part of Angular applications, aiding in the organization and structuring of code into cohesive units.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular modules in application organization is crucial for this question."
+                        },
+                        {
+                            "label": "Angular modules are exclusively focused on server-side processes and do not impact client-side organization and structuring of code in Angular applications.",
+                            "description": "Incorrect. Angular modules play a crucial role in client-side organization, helping structure code and manage dependencies within Angular applications.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular modules is crucial for this question."
+                        },
+                        {
+                            "label": "Angular modules are exclusively used for handling styling-related tasks and do not impact the overall functionality of organizing and structuring code in Angular applications.",
+                            "description": "Incorrect. While modules can contribute to code organization, they extend beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular modules in application organization is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "8d8783a6-9687-42b1-8fcf-1d3dd503b282",
+                    "question": "How does Angular's two-way data binding work, and what benefits does it offer in terms of simplifying the development process?",
+                    "description": "Explain the mechanism of Angular's two-way data binding and the advantages it provides in terms of simplifying the development process.",
+                    "hint": "Consider how two-way data binding synchronizes the data between the component and the view, reducing the need for manual data manipulation.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular does not support two-way data binding, and developers must manually handle data synchronization between components and views in Angular applications.",
+                            "description": "Incorrect. Angular does support two-way data binding, which automates the synchronization of data between components and views, simplifying the development process.",
+                            "points": 0,
+                            "explanation": "Recognizing the existence and benefits of Angular's two-way data binding is crucial for this question."
+                        },
+                        {
+                            "label": "Two-way data binding in Angular is exclusively focused on server-side processes and does not contribute to client-side development for simplifying the development process.",
+                            "description": "Incorrect. Two-way data binding in Angular primarily impacts client-side development, simplifying the process of synchronizing data between components and views.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular's two-way data binding is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's two-way data binding synchronizes data bidirectionally between components and views, reducing the need for manual data manipulation and simplifying the development process.",
+                            "description": "Correct! Angular's two-way data binding indeed synchronizes data bidirectionally, automating the process and simplifying development by reducing manual data manipulation.",
+                            "points": 3,
+                            "explanation": "Accurately describing how Angular's two-way data binding works and its benefits contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Two-way data binding in Angular is exclusively used for handling styling-related tasks and does not impact the overall functionality of simplifying the development process in Angular applications.",
+                            "description": "Incorrect. While two-way data binding can contribute to development, it extends beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of two-way data binding in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f4fe3de4-826c-47e6-bd16-541e1537e361",
+                    "question": "Explain the concept of Angular directives and how they enhance the functionality and behavior of HTML elements in Angular applications.",
+                    "description": "Provide an explanation of the concept of Angular directives and how they enhance the functionality and behavior of HTML elements in Angular applications.",
+                    "hint": "Consider how directives are used to extend HTML functionality and enable the creation of dynamic and interactive components in Angular applications.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Angular directives are not a fundamental part of Angular applications, and developers should avoid using them for enhancing HTML functionality and behavior.",
+                            "description": "Incorrect. Angular directives are a fundamental part of Angular applications, enhancing HTML functionality and enabling dynamic and interactive components.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular directives in enhancing HTML functionality is crucial for this question."
+                        },
+                        {
+                            "label": "Angular directives are exclusively focused on server-side processes and do not impact client-side development for enhancing HTML functionality in Angular applications.",
+                            "description": "Incorrect. Angular directives play a crucial role in client-side development, enhancing HTML functionality and enabling dynamic components.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular directives is crucial for this question."
+                        },
+                        {
+                            "label": "Angular directives are used to extend HTML functionality, enabling the creation of dynamic and interactive components, and enhancing the overall functionality and behavior of HTML elements in Angular applications.",
+                            "description": "Correct! Angular directives are indeed used to extend HTML functionality, enabling dynamic components and enhancing the overall functionality and behavior of HTML elements.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and contribution of Angular directives to HTML functionality in Angular applications contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular directives are exclusively used for handling styling-related tasks and do not impact the overall functionality of enhancing HTML elements in Angular applications.",
+                            "description": "Incorrect. While directives can contribute to HTML functionality, they extend beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular directives in enhancing HTML elements is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "493a5505-299b-4ba9-9a22-4f0848f47a8c",
+                    "question": "Explain the concept of Angular dependency injection and how it contributes to the development of scalable and maintainable Angular applications.",
+                    "description": "Provide an explanation of the concept of Angular dependency injection and how it contributes to the development of scalable and maintainable Angular applications.",
+                    "hint": "Consider how dependency injection allows components and services to obtain the dependencies they need, promoting code modularity and testability.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular dependency injection is not a crucial aspect of Angular applications, and developers should rely on manual dependency management for better control over dependencies.",
+                            "description": "Incorrect. Angular dependency injection is a crucial aspect of Angular applications, promoting code modularity and testability through automated dependency management.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular dependency injection in application development is crucial for this question."
+                        },
+                        {
+                            "label": "Dependency injection in Angular is exclusively focused on server-side processes and does not impact client-side development for scalable and maintainable applications.",
+                            "description": "Incorrect. Dependency injection in Angular primarily impacts client-side development, contributing to scalability and maintainability of applications.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular dependency injection is crucial for this question."
+                        },
+                        {
+                            "label": "Angular dependency injection allows components and services to obtain dependencies automatically, promoting code modularity, testability, and contributing to the development of scalable and maintainable Angular applications.",
+                            "description": "Correct! Angular dependency injection indeed allows components and services to obtain dependencies automatically, fostering code modularity, testability, and contributing to scalability and maintainability.",
+                            "points": 3,
+                            "explanation": "Accurately describing how Angular dependency injection works and its benefits contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Dependency injection in Angular is exclusively used for handling styling-related tasks and does not impact the overall functionality of scalable and maintainable applications.",
+                            "description": "Incorrect. While dependency injection can contribute to application development, it extends beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular dependency injection is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "369e6eb2-e99c-40e9-9e7f-8190a12741f0",
+                    "question": "What are Angular services, and how do they differ from components in Angular applications? Explain their role in building modular and reusable code.",
+                    "description": "Explain the concept of Angular services, highlighting the differences from components, and describe their role in building modular and reusable code.",
+                    "hint": "Consider how services are used for encapsulating and sharing functionality, separate from the UI, contributing to code modularity and reusability.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular services are not a fundamental part of Angular applications, and developers should rely on components for all functionality, leading to a more streamlined development process.",
+                            "description": "Incorrect. Angular services are a fundamental part of Angular applications, providing a way to encapsulate and share functionality separate from UI components.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular services in application development is crucial for this question."
+                        },
+                        {
+                            "label": "Services in Angular are exclusively focused on server-side processes and do not impact client-side development for building modular and reusable code.",
+                            "description": "Incorrect. Services in Angular primarily impact client-side development, contributing to building modular and reusable code by encapsulating functionality.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular services is crucial for this question."
+                        },
+                        {
+                            "label": "Angular services are used for encapsulating and sharing functionality separate from UI components, contributing to the building of modular and reusable code in Angular applications.",
+                            "description": "Correct! Angular services are indeed used for encapsulating and sharing functionality, separate from UI components, fostering the building of modular and reusable code.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and contribution of Angular services to code modularity and reusability contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Services in Angular are exclusively used for handling styling-related tasks and do not impact the overall functionality of building modular and reusable code.",
+                            "description": "Incorrect. While services can contribute to code modularity, they extend beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a67b1a29-13f1-420d-8a7d-3d8c2898e8f5",
+                    "question": "Explain the role of Angular pipes in transforming and formatting data in Angular applications. Provide examples of scenarios where pipes are beneficial.",
+                    "description": "Provide an explanation of the role of Angular pipes in transforming and formatting data, and offer examples of scenarios where pipes are beneficial in Angular applications.",
+                    "hint": "Consider how pipes are used to format and manipulate data in templates, enhancing the display and functionality of Angular applications.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular pipes are not a crucial feature in Angular applications, and developers should rely on manual data manipulation for formatting and transforming data.",
+                            "description": "Incorrect. Angular pipes are a crucial feature, allowing developers to automate the formatting and transformation of data in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular pipes in data transformation is crucial for this question."
+                        },
+                        {
+                            "label": "Angular pipes play a crucial role in transforming and formatting data in templates, enhancing the display and functionality of Angular applications in various scenarios.",
+                            "description": "Correct! Angular pipes indeed play a crucial role in transforming and formatting data in templates, improving the display and functionality of Angular applications.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and benefits of Angular pipes in data transformation contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Pipes in Angular are exclusively focused on server-side processes and do not impact client-side development for transforming and formatting data in Angular applications.",
+                            "description": "Incorrect. Pipes in Angular primarily impact client-side development, automating the process of transforming and formatting data in templates.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular pipes is crucial for this question."
+                        },
+                        {
+                            "label": "Pipes in Angular are exclusively used for handling styling-related tasks and do not impact the overall functionality of transforming and formatting data in Angular applications.",
+                            "description": "Incorrect. While pipes can contribute to data transformation, they extend beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular pipes is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5c354cea-9e2e-4ef4-9ad0-9a0ed8a3a0b7",
+                    "question": "How does Angular support lazy loading, and what benefits does it offer in terms of optimizing the performance of Angular applications?",
+                    "description": "Explain how Angular supports lazy loading and the advantages it provides in terms of optimizing the performance of Angular applications.",
+                    "hint": "Consider how lazy loading enables the asynchronous loading of modules, reducing initial bundle size and improving application performance.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular does not support lazy loading, and developers must load all modules synchronously, leading to larger initial bundle sizes and reduced application performance.",
+                            "description": "Incorrect. Angular does support lazy loading, enabling the asynchronous loading of modules to reduce initial bundle size and improve application performance.",
+                            "points": 0,
+                            "explanation": "Recognizing the existence and benefits of lazy loading in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Lazy loading in Angular is exclusively focused on server-side processes and does not impact client-side development for optimizing application performance.",
+                            "description": "Incorrect. Lazy loading in Angular primarily impacts client-side development, optimizing application performance by asynchronously loading modules.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of lazy loading is crucial for this question."
+                        },
+                        {
+                            "label": "Lazy loading in Angular is exclusively used for handling styling-related tasks and does not impact the overall functionality of optimizing application performance.",
+                            "description": "Incorrect. While lazy loading can contribute to performance optimization, it extends beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of lazy loading in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular supports lazy loading by enabling the asynchronous loading of modules, reducing initial bundle size, and offering improved performance in Angular applications.",
+                            "description": "Correct! Angular does support lazy loading, and it enables the asynchronous loading of modules, reducing initial bundle size and improving overall performance.",
+                            "points": 3,
+                            "explanation": "Accurately describing how Angular supports lazy loading and its benefits contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "c518cd17-30e9-4d5a-8c5f-31b16da6d849",
+                    "question": "Explain the concept of Angular directives and how they contribute to enhancing the functionality and structure of Angular applications.",
+                    "description": "Provide an explanation of the concept of Angular directives, highlighting their role in enhancing the functionality and structure of Angular applications.",
+                    "hint": "Consider how directives are used to extend HTML functionality, enabling the creation of reusable components and enhancing the structure of Angular applications.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular directives are used to extend HTML functionality, enabling the creation of reusable components and enhancing the structure of Angular applications.",
+                            "description": "Correct! Angular directives are indeed used to extend HTML functionality, allowing the creation of reusable components and enhancing the structure of Angular applications.",
+                            "points": 3,
+                            "explanation": "Accurately describing the purpose and benefits of Angular directives contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular directives are not a crucial aspect of Angular applications, and developers should rely on traditional HTML for defining the structure and functionality of components.",
+                            "description": "Incorrect. Angular directives are a crucial aspect of Angular applications, providing a way to extend HTML functionality and enhance the structure of components.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular directives in application development is crucial for this question."
+                        },
+                        {
+                            "label": "Directives in Angular are exclusively focused on server-side processes and do not impact client-side development for enhancing functionality and structure in Angular applications.",
+                            "description": "Incorrect. Directives in Angular primarily impact client-side development, enhancing functionality and structure by extending HTML.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular directives is crucial for this question."
+                        },
+                        {
+                            "label": "Directives in Angular are exclusively used for handling styling-related tasks and do not impact the overall functionality of enhancing structure and functionality in Angular applications.",
+                            "description": "Incorrect. While directives can contribute to structure and functionality, they extend beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular directives is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "96192e77-6fb4-4917-b7b7-e188c42f2b4a",
+                    "question": "Describe the role of Angular forms in collecting and validating user input. How do template-driven forms differ from reactive forms in Angular?",
+                    "description": "Provide a description of the role of Angular forms in collecting and validating user input, and highlight the differences between template-driven forms and reactive forms in Angular.",
+                    "hint": "Consider how Angular forms provide a structured way to handle user input, and explore the distinctions between template-driven and reactive forms in terms of implementation and use cases.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular forms are not a significant part of Angular applications, and developers should rely on manual input handling for user input collection and validation.",
+                            "description": "Incorrect. Angular forms are a significant part of Angular applications, providing a structured way to handle user input through collection and validation.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular forms in application development is crucial for this question."
+                        },
+                        {
+                            "label": "Forms in Angular are exclusively focused on server-side processes and do not impact client-side development for user input collection and validation.",
+                            "description": "Incorrect. Forms in Angular primarily impact client-side development, providing a structured way to handle user input through collection and validation.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular forms is crucial for this question."
+                        },
+                        {
+                            "label": "Angular forms play a crucial role in collecting and validating user input, providing a structured approach to handle form-related tasks. Template-driven and reactive forms differ in terms of implementation and use cases.",
+                            "description": "Correct! Angular forms do play a crucial role in collecting and validating user input, and template-driven and reactive forms differ in terms of implementation and use cases.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular forms and the distinctions between template-driven and reactive forms contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Forms in Angular are exclusively used for handling styling-related tasks and do not impact the overall functionality of user input collection and validation.",
+                            "description": "Incorrect. While forms can contribute to user input handling, they extend beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular forms is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "aa0f1be7-d77d-4ff5-85a0-988f7be68ae3",
+                    "question": "Explain the concept of Angular routing and its significance in building single-page applications (SPAs). How does Angular facilitate navigation between different views?",
+                    "description": "Provide an explanation of the concept of Angular routing and its significance in building single-page applications (SPAs), and describe how Angular facilitates navigation between different views.",
+                    "hint": "Consider how Angular routing enables the creation of SPAs by managing navigation between different views, and explore the role of route configuration in Angular applications.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular routing is a crucial aspect of building SPAs, enabling the management of navigation between different views through route configuration in Angular applications.",
+                            "description": "Correct! Angular routing is indeed a crucial aspect of building SPAs, facilitating navigation between different views through route configuration.",
+                            "points": 3,
+                            "explanation": "Accurately describing the significance and role of Angular routing in building SPAs contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular routing is not a crucial aspect of building SPAs, and developers should rely on traditional navigation methods for managing views in single-page applications.",
+                            "description": "Incorrect. Angular routing is a crucial aspect of building SPAs, providing a structured way to manage navigation between different views.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of Angular routing in building SPAs is crucial for this question."
+                        },
+                        {
+                            "label": "Routing in Angular is exclusively focused on server-side processes and does not impact client-side development for managing views in SPAs.",
+                            "description": "Incorrect. Routing in Angular primarily impacts client-side development, providing a structured way to manage navigation between different views in SPAs.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular routing is crucial for this question."
+                        },
+                        {
+                            "label": "Routing in Angular is exclusively used for handling styling-related tasks and does not impact the overall functionality of managing views in SPAs.",
+                            "description": "Incorrect. While routing can contribute to view management, it extends beyond styling-related activities to impact the overall functionality of SPAs.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular routing is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7801df13-5137-4ec8-8452-0781501a5db2",
+                    "question": "How does Angular handle dependency injection, and why is it considered a key feature in building scalable and maintainable applications?",
+                    "description": "Explain how Angular handles dependency injection and why it is considered a key feature in building scalable and maintainable applications.",
+                    "hint": "Consider how dependency injection in Angular facilitates the management of component dependencies, promotes reusability, and enhances testability.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Dependency injection in Angular is not a crucial feature, and developers should manually manage component dependencies for better control over application behavior.",
+                            "description": "Incorrect. Dependency injection in Angular is a crucial feature, automating the management of component dependencies for enhanced scalability and maintainability.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and role of dependency injection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Dependency injection in Angular is exclusively focused on server-side processes and does not impact client-side development for building scalable and maintainable applications.",
+                            "description": "Incorrect. Dependency injection in Angular primarily impacts client-side development, automating the management of component dependencies for improved scalability and maintainability.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of dependency injection is crucial for this question."
+                        },
+                        {
+                            "label": "Dependency injection in Angular is exclusively used for handling styling-related tasks and does not impact the overall functionality of building scalable and maintainable applications.",
+                            "description": "Incorrect. While dependency injection can contribute to scalability, it extends beyond styling-related activities to impact the overall functionality of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of dependency injection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular handles dependency injection by automatically providing components with their dependencies, promoting reusability, testability, and overall scalability and maintainability.",
+                            "description": "Correct! Angular handles dependency injection by automatically providing components with their dependencies, contributing to reusability, testability, and overall scalability and maintainability.",
+                            "points": 3,
+                            "explanation": "Accurately describing how Angular handles dependency injection and its benefits contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "d7d20c26-c634-44e6-ba18-4b5cf29752d2",
+                    "question": "Compare and contrast Angular services and components. Explain their respective roles in an Angular application and how they contribute to the overall architecture.",
+                    "description": "Provide a comparison of Angular services and components, explaining their respective roles in an Angular application and how they contribute to the overall architecture.",
+                    "hint": "Consider the distinct purposes of services and components in Angular, and explore how they collaborate to create a modular and maintainable application architecture.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular services and components have identical roles, and there is no significant difference between them in terms of functionality or contribution to the overall architecture.",
+                            "description": "Incorrect. Angular services and components have distinct roles, and understanding their differences is crucial for building modular and maintainable applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the unique roles of services and components contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Services in Angular are exclusively focused on server-side processes and do not impact client-side development or contribute to the overall architecture of an Angular application.",
+                            "description": "Incorrect. Services in Angular primarily impact client-side development, contributing to the overall architecture by providing shared functionality and data across components.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular services is crucial for this question."
+                        },
+                        {
+                            "label": "Angular components are responsible for rendering views and handling user interactions, while services play a role in providing shared functionality, data, and business logic, contributing to a modular and maintainable architecture.",
+                            "description": "Correct! Angular components and services have distinct roles, with components handling views and user interactions, and services providing shared functionality, data, and business logic for a modular and maintainable architecture.",
+                            "points": 3,
+                            "explanation": "Accurately describing the roles of Angular components and services and their contributions to the overall architecture contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Services in Angular are exclusively used for handling styling-related tasks and do not contribute to the overall functionality or architecture of an Angular application.",
+                            "description": "Incorrect. While services can contribute to functionality, they extend beyond styling-related activities to impact the overall architecture of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "95db1791-2cfb-4cf8-bd2b-1f158f7cb764",
+                    "question": "Discuss the importance of Angular lifecycle hooks in the development of Angular applications. Provide examples of scenarios where specific lifecycle hooks are useful.",
+                    "description": "Explain the importance of Angular lifecycle hooks in the development of Angular applications and provide examples of scenarios where specific lifecycle hooks are useful.",
+                    "hint": "Consider how Angular lifecycle hooks allow developers to respond to key events during the component lifecycle, and explore specific scenarios where hooks like ngOnInit or ngOnDestroy are beneficial.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular lifecycle hooks have limited importance in the development of Angular applications, and developers should rely on other mechanisms for handling component lifecycle events.",
+                            "description": "Incorrect. Angular lifecycle hooks are crucial for handling component lifecycle events, providing developers with a structured way to respond to key events.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of Angular lifecycle hooks is crucial for this question."
+                        },
+                        {
+                            "label": "Lifecycle hooks in Angular are exclusively focused on server-side processes and do not impact client-side development or contribute significantly to the development of Angular applications.",
+                            "description": "Incorrect. Lifecycle hooks in Angular primarily impact client-side development, providing a way to respond to key events during the component lifecycle.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular lifecycle hooks is crucial for this question."
+                        },
+                        {
+                            "label": "Angular lifecycle hooks are important for handling key events during the component lifecycle, such as ngOnInit for initialization and ngOnDestroy for cleanup. They provide developers with a structured way to respond to specific events.",
+                            "description": "Correct! Angular lifecycle hooks are crucial for handling key events during the component lifecycle, providing a structured way for developers to respond to events like initialization and cleanup.",
+                            "points": 3,
+                            "explanation": "Accurately describing the importance of Angular lifecycle hooks and providing examples of scenarios where they are useful contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular lifecycle hooks are exclusively used for handling styling-related tasks and do not contribute significantly to the overall functionality of Angular applications.",
+                            "description": "Incorrect. While lifecycle hooks can contribute to functionality, they extend beyond styling-related activities to impact the overall development of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular lifecycle hooks is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7c702116-4e8a-4e5f-af01-1db58872fe74",
+                    "question": "Explain the concept of lazy loading in Angular. How does lazy loading contribute to improving the performance of Angular applications? Provide an example scenario where lazy loading is beneficial.",
+                    "description": "Provide an explanation of the concept of lazy loading in Angular, discussing how lazy loading contributes to improving the performance of Angular applications. Additionally, provide an example scenario where lazy loading is beneficial.",
+                    "hint": "Consider how lazy loading allows Angular to load modules and components only when they are required, reducing the initial bundle size and improving application performance. Explore scenarios where lazy loading is advantageous, such as optimizing routes.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Lazy loading in Angular refers to a strategy of delaying the loading of all modules and components until after the initial page load. This approach does not significantly impact performance and is not considered a best practice.",
+                            "description": "Incorrect. Lazy loading in Angular involves loading modules and components on-demand, contributing to improved performance by reducing the initial bundle size. It is considered a best practice for optimizing applications.",
+                            "points": 0,
+                            "explanation": "Understanding the concept of lazy loading in Angular and its impact on performance is crucial for this question."
+                        },
+                        {
+                            "label": "Lazy loading is a feature exclusive to server-side processes and does not contribute significantly to client-side development or the overall performance of Angular applications.",
+                            "description": "Incorrect. Lazy loading in Angular primarily impacts client-side development, improving performance by loading modules and components on-demand.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of lazy loading in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Lazy loading in Angular involves loading modules and components only when they are required, reducing the initial bundle size and improving application performance. It is a best practice for optimizing routes and enhancing user experience.",
+                            "description": "Correct! Lazy loading in Angular allows modules and components to be loaded on-demand, contributing to improved performance by reducing the initial bundle size. It is considered a best practice for optimizing routes and enhancing user experience.",
+                            "points": 3,
+                            "explanation": "Accurately describing the concept of lazy loading in Angular and its benefits contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Lazy loading is exclusively used for handling styling-related tasks and does not significantly impact the overall functionality or performance of Angular applications.",
+                            "description": "Incorrect. Lazy loading in Angular extends beyond styling-related activities, impacting the overall performance by loading modules and components on-demand.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of lazy loading in Angular is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "66ce374f-4e34-43f1-9f24-cb2da285ac1e",
+                    "question": "Discuss the concept of change detection in Angular. How does Angular's change detection mechanism work, and why is it important for building responsive and efficient applications?",
+                    "description": "Explain the concept of change detection in Angular, discussing how Angular's change detection mechanism works and why it is important for building responsive and efficient applications.",
+                    "hint": "Consider how Angular's change detection tracks changes in the application state and updates the view accordingly. Explore scenarios where efficient change detection is crucial for maintaining application responsiveness.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Change detection in Angular is an optional feature, and developers can choose to disable it without significant impact on application responsiveness. It primarily focuses on server-side processes and does not contribute to client-side development.",
+                            "description": "Incorrect. Change detection in Angular is a fundamental and automatic process that tracks changes in the application state and updates the view. It is crucial for maintaining application responsiveness on the client side.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance and automatic nature of change detection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Change detection in Angular is exclusively focused on server-side processes and does not contribute significantly to client-side development or the overall responsiveness of Angular applications.",
+                            "description": "Incorrect. Change detection in Angular is a client-side process that tracks changes in the application state and updates the view accordingly, contributing to overall responsiveness.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of change detection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Change detection in Angular is exclusively used for handling styling-related tasks and does not significantly impact the overall functionality or responsiveness of Angular applications.",
+                            "description": "Incorrect. Change detection in Angular extends beyond styling-related activities, impacting the overall responsiveness by ensuring synchronization between the application state and the UI.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of change detection in Angular is crucial for this question."
+                        },
+                        {
+                            "label": "Angular's change detection is an automatic process that tracks changes in the application state and updates the view accordingly. It is crucial for building responsive and efficient applications by ensuring real-time synchronization between the application state and the UI.",
+                            "description": "Correct! Angular's change detection is an automatic process that plays a crucial role in building responsive and efficient applications. It tracks changes in the application state and updates the view to ensure real-time synchronization.",
+                            "points": 3,
+                            "explanation": "Accurately describing how Angular's change detection works and its importance for building responsive applications contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "40e9649b-9538-4a94-81aa-e62f4e07b493",
+                    "question": "Examine the role of Angular services in managing application state. How do Angular services contribute to state management, and what benefits do they offer for building complex applications?",
+                    "description": "Examine the role of Angular services in managing application state, discussing how Angular services contribute to state management and the benefits they offer for building complex applications.",
+                    "hint": "Consider how Angular services provide a centralized and shareable way to manage application state, facilitating communication between components. Explore scenarios where services are beneficial for handling state in complex applications.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Angular services play a key role in managing application state by providing a centralized and shareable way to handle state. They facilitate communication between components and offer benefits for building complex applications.",
+                            "description": "Correct! Angular services play a crucial role in managing application state, offering a centralized and shareable way to handle state. They facilitate communication between components and are beneficial for building complex applications.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular services in state management and their benefits for complex applications contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular services do not play a significant role in managing application state, and developers should rely on other mechanisms for state management in complex applications. Services are primarily focused on server-side processes.",
+                            "description": "Incorrect. Angular services play a crucial role in managing application state, providing a centralized and shareable way to handle state in complex applications, including client-side development.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of Angular services in state management is crucial for this question."
+                        },
+                        {
+                            "label": "Services in Angular are exclusively focused on server-side processes and do not significantly contribute to client-side development or state management in complex applications.",
+                            "description": "Incorrect. Services in Angular primarily impact client-side development, providing a centralized and shareable way to manage application state, especially in complex applications.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular services in state management is crucial for this question."
+                        },
+                        {
+                            "label": "Angular services are exclusively used for handling styling-related tasks and do not significantly impact the overall functionality or state management of Angular applications.",
+                            "description": "Incorrect. While services can contribute to functionality, they extend beyond styling-related activities to impact the overall state management of Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular services in state management is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5152f68c-b2c4-402f-b90a-4d48ee23d0c3",
+                    "question": "Discuss the concept of Angular directives. What role do directives play in an Angular application, and how do they contribute to the development of dynamic and interactive user interfaces?",
+                    "description": "Explain the concept of Angular directives, discussing the role they play in an Angular application and how they contribute to the development of dynamic and interactive user interfaces.",
+                    "hint": "Consider how Angular directives are used to extend HTML functionality, enabling the creation of reusable components and enhancing the interactivity of user interfaces. Explore scenarios where directives are beneficial for building dynamic applications.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular directives are primarily used for styling purposes and do not significantly contribute to the overall functionality or interactivity of user interfaces in Angular applications.",
+                            "description": "Incorrect. While directives can be used for styling, they have a broader impact on functionality and interactivity, enabling the creation of reusable components and enhancing user interfaces.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular directives is crucial for this question."
+                        },
+                        {
+                            "label": "Directives in Angular are exclusively focused on server-side processes and do not significantly impact client-side development or contribute to dynamic and interactive user interfaces.",
+                            "description": "Incorrect. Directives in Angular primarily impact client-side development, contributing to dynamic and interactive user interfaces by extending HTML functionality.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular directives is crucial for this question."
+                        },
+                        {
+                            "label": "Angular directives play a key role in extending HTML functionality, enabling the creation of reusable components, and enhancing the interactivity of user interfaces in Angular applications.",
+                            "description": "Correct! Angular directives are crucial for extending HTML functionality, enabling the creation of reusable components, and enhancing the interactivity of user interfaces in Angular applications.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular directives in extending HTML functionality and contributing to dynamic user interfaces contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Directives in Angular are exclusively used for handling server-side data and do not significantly contribute to the overall functionality or interactivity of user interfaces in Angular applications.",
+                            "description": "Incorrect. Directives primarily impact client-side development, contributing to overall functionality and interactivity in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side impact of Angular directives is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ac8a573d-6e22-4907-a29a-4f50b69f4a29",
+                    "question": "Examine the role of Angular pipes in data transformation. How do Angular pipes contribute to formatting and manipulating data in Angular applications? Provide examples of scenarios where pipes are beneficial.",
+                    "description": "Examine the role of Angular pipes in data transformation, discussing how Angular pipes contribute to formatting and manipulating data in Angular applications. Additionally, provide examples of scenarios where pipes are beneficial.",
+                    "hint": "Consider how Angular pipes are used for transforming and formatting data in templates, providing a convenient way to modify the display of values. Explore scenarios where pipes are useful for improving the user experience.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular pipes have limited functionality and are not effective for formatting or manipulating data in Angular applications. Developers should rely on other mechanisms for data transformation.",
+                            "description": "Incorrect. Angular pipes provide a powerful mechanism for formatting and manipulating data in Angular applications, enhancing the display of values in templates.",
+                            "points": 0,
+                            "explanation": "Recognizing the functionality and effectiveness of Angular pipes for data transformation is crucial for this question."
+                        },
+                        {
+                            "label": "Pipes in Angular are exclusively focused on server-side processes and do not significantly impact client-side development or contribute to formatting and manipulating data in Angular applications.",
+                            "description": "Incorrect. Pipes in Angular primarily impact client-side development, contributing to formatting and manipulating data in templates to improve the user experience.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular pipes is crucial for this question."
+                        },
+                        {
+                            "label": "Angular pipes play a key role in formatting and manipulating data in templates, providing a convenient way to transform the display of values in Angular applications.",
+                            "description": "Correct! Angular pipes are essential for formatting and manipulating data in templates, offering a convenient way to transform the display of values in Angular applications.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular pipes in data transformation and their contribution to improving the user experience contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Pipes in Angular are exclusively used for handling styling-related tasks and do not significantly contribute to the overall functionality or data transformation of Angular applications.",
+                            "description": "Incorrect. While pipes can contribute to styling-related tasks, they extend beyond those activities to impact data transformation in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader impact of Angular pipes in data transformation is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1d3b7e2b-17c4-4cd5-a9d8-ea15f68c56d3",
+                    "question": "Discuss the concept of Angular forms and their role in user input handling. How do Angular forms facilitate the management of user input, and what are the key features provided by Angular for handling forms?",
+                    "description": "Explain the concept of Angular forms, discussing their role in handling user input. Explore how Angular forms facilitate the management of user input and highlight key features provided by Angular for form handling.",
+                    "hint": "Consider how Angular forms provide a structured and efficient way to handle user input, offering features such as two-way data binding, form validation, and form submission. Explore scenarios where Angular forms are crucial for creating interactive user interfaces.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular forms are not an integral part of user input handling, and developers should rely on native HTML forms for efficient input management in Angular applications.",
+                            "description": "Incorrect. Angular forms are an integral part of handling user input in Angular applications, providing a structured and efficient way to manage form-related tasks.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of Angular forms in user input handling is crucial for this question."
+                        },
+                        {
+                            "label": "Forms in Angular are exclusively focused on server-side processes and do not significantly impact client-side development or contribute to the efficient management of user input.",
+                            "description": "Incorrect. Angular forms primarily impact client-side development, providing an efficient way to manage user input and create interactive user interfaces.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular forms is crucial for this question."
+                        },
+                        {
+                            "label": "Angular forms play a key role in efficiently handling user input, providing features such as two-way data binding, form validation, and form submission. They are crucial for creating interactive user interfaces in Angular applications.",
+                            "description": "Correct! Angular forms are essential for efficiently handling user input, offering features like two-way data binding, form validation, and form submission. They play a crucial role in creating interactive user interfaces.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular forms in user input handling and highlighting their key features contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular forms are exclusively used for handling server-side data and do not significantly contribute to the overall functionality or user input management of Angular applications.",
+                            "description": "Incorrect. Angular forms primarily impact client-side development, contributing to overall functionality and user input management in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side impact of Angular forms is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f8d2553d-af3d-4f8a-938e-16774f6b6a3b",
+                    "question": "Explore the concept of Angular services and their role in an Angular application. How do Angular services facilitate code organization and reuse? Provide examples of scenarios where using Angular services is beneficial.",
+                    "description": "Explore the concept of Angular services, discussing their role in an Angular application and how they facilitate code organization and reuse. Additionally, provide examples of scenarios where using Angular services is beneficial.",
+                    "hint": "Consider how Angular services are used for organizing and managing code that can be shared across multiple components. Explore scenarios where services enhance code modularity, maintainability, and facilitate communication between components.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular services are not an essential part of code organization and reuse in Angular applications, and developers should rely on other mechanisms for sharing code between components.",
+                            "description": "Incorrect. Angular services are crucial for code organization and reuse, providing a way to share code across multiple components and facilitating communication.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of Angular services in code organization and reuse is crucial for this question."
+                        },
+                        {
+                            "label": "Services in Angular are exclusively focused on server-side processes and do not significantly impact client-side development or contribute to code organization and reuse in Angular applications.",
+                            "description": "Incorrect. Angular services primarily impact client-side development, contributing to code organization and reuse by facilitating communication and sharing code between components.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular services is crucial for this question."
+                        },
+                        {
+                            "label": "Angular services play a key role in code organization and reuse, facilitating the sharing of code between multiple components. They enhance code modularity, maintainability, and communication between components in Angular applications.",
+                            "description": "Correct! Angular services are essential for code organization and reuse, facilitating the sharing of code between components and enhancing modularity, maintainability, and communication.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular services in code organization, reuse, and their impact on modularity contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular services are exclusively used for handling server-side data and do not significantly contribute to the overall functionality or code organization of Angular applications.",
+                            "description": "Incorrect. While services can interact with server-side data, they primarily impact client-side development, contributing to overall functionality and code organization in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side impact of Angular services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "4779b0e2-d480-46ee-b4a0-7cfae57587e8",
+                    "question": "Discuss the role of Angular modules in structuring an Angular application. How do Angular modules enhance code organization and modularity? Provide examples of scenarios where using Angular modules is beneficial.",
+                    "description": "Discuss the role of Angular modules in structuring an Angular application, highlighting how they enhance code organization and modularity. Additionally, provide examples of scenarios where using Angular modules is beneficial.",
+                    "hint": "Consider how Angular modules are used to group related components, directives, services, and pipes. Explore scenarios where modules enhance code organization, modularity, and maintainability in Angular applications.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular modules are not a critical part of structuring Angular applications, and developers should rely on other mechanisms for organizing and maintaining code.",
+                            "description": "Incorrect. Angular modules are crucial for structuring Angular applications, providing a way to organize and maintain code by grouping related components, services, and directives.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of Angular modules in structuring applications is crucial for this question."
+                        },
+                        {
+                            "label": "Modules in Angular are exclusively focused on server-side processes and do not significantly impact client-side development or contribute to code organization and modularity in Angular applications.",
+                            "description": "Incorrect. Angular modules primarily impact client-side development, contributing to code organization and modularity by grouping related components and services.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular modules is crucial for this question."
+                        },
+                        {
+                            "label": "Angular modules play a key role in structuring Angular applications, enhancing code organization and modularity by grouping related components, services, and directives. They contribute to maintainability in Angular applications.",
+                            "description": "Correct! Angular modules are essential for structuring Angular applications, contributing to code organization and modularity by grouping related elements and enhancing maintainability.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular modules in structuring applications and their impact on code organization contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular modules are exclusively used for handling server-side data and do not significantly contribute to the overall functionality or code organization of Angular applications.",
+                            "description": "Incorrect. While modules are not focused on server-side data, they primarily impact client-side development, contributing to overall functionality and code organization in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side impact of Angular modules is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "3f5df8d9-e3c4-4a82-8efb-e93d1b86be7c",
+                    "question": "Examine the concept of Angular routing and its role in creating single-page applications (SPAs). How does Angular routing enable navigation within an application, and what are the key features provided by Angular for implementing routing?",
+                    "description": "Examine the concept of Angular routing, discussing its role in creating single-page applications (SPAs). Explore how Angular routing enables navigation within an application and highlight key features provided by Angular for implementing routing.",
+                    "hint": "Consider how Angular routing allows the creation of SPAs by dynamically loading views based on the requested URL. Explore features such as route configuration, navigation guards, and lazy loading in Angular routing.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular routing is not essential for creating SPAs, and developers should rely on other mechanisms for handling navigation within Angular applications.",
+                            "description": "Incorrect. Angular routing is crucial for creating SPAs, enabling navigation within an application by dynamically loading views based on the requested URL.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of Angular routing in creating SPAs is crucial for this question."
+                        },
+                        {
+                            "label": "Routing in Angular is exclusively focused on server-side processes and does not significantly impact client-side development or contribute to navigation within Angular applications.",
+                            "description": "Incorrect. Angular routing primarily impacts client-side development, enabling navigation within an application by dynamically loading views based on the requested URL.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular routing is crucial for this question."
+                        },
+                        {
+                            "label": "Angular routing plays a key role in creating SPAs, enabling navigation within an application by dynamically loading views based on the requested URL. It provides features such as route configuration, navigation guards, and lazy loading.",
+                            "description": "Correct! Angular routing is essential for creating SPAs, facilitating navigation within an application by dynamically loading views based on the requested URL. It offers features like route configuration, navigation guards, and lazy loading.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular routing in creating SPAs and highlighting key features contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular routing is exclusively used for handling server-side data and does not significantly contribute to the overall functionality or navigation within Angular applications.",
+                            "description": "Incorrect. While routing can interact with server-side data, it primarily impacts client-side development, contributing to overall functionality and navigation in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side impact of Angular routing is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f1277351-33f1-44a5-8f1a-8260a3726c46",
+                    "question": "Discuss the concept of Angular directives and their role in enhancing HTML functionality. How do Angular directives enable the creation of dynamic and interactive user interfaces? Provide examples of commonly used Angular directives and their purposes.",
+                    "description": "Discuss the concept of Angular directives, highlighting their role in enhancing HTML functionality. Explore how Angular directives enable the creation of dynamic and interactive user interfaces. Additionally, provide examples of commonly used Angular directives and their purposes.",
+                    "hint": "Consider how Angular directives are used to extend HTML functionality by adding dynamic behavior to elements. Explore commonly used directives such as ngIf, ngFor, and ngModel, and discuss how they contribute to creating dynamic and interactive user interfaces.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Angular directives are not essential for enhancing HTML functionality, and developers should rely on other mechanisms for adding dynamic behavior to elements in Angular applications.",
+                            "description": "Incorrect. Angular directives are crucial for enhancing HTML functionality, enabling the addition of dynamic behavior to elements in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of Angular directives in enhancing HTML functionality is crucial for this question."
+                        },
+                        {
+                            "label": "Directives in Angular are exclusively focused on server-side processes and do not significantly impact client-side development or contribute to the creation of dynamic and interactive user interfaces.",
+                            "description": "Incorrect. Angular directives primarily impact client-side development, enabling the creation of dynamic and interactive user interfaces by adding dynamic behavior to elements.",
+                            "points": 0,
+                            "explanation": "Understanding the client-side impact of Angular directives is crucial for this question."
+                        },
+                        {
+                            "label": "Angular directives play a key role in enhancing HTML functionality, enabling the creation of dynamic and interactive user interfaces. Commonly used directives such as ngIf, ngFor, and ngModel contribute to this functionality.",
+                            "description": "Correct! Angular directives are essential for enhancing HTML functionality, allowing the creation of dynamic and interactive user interfaces. Commonly used directives like ngIf, ngFor, and ngModel contribute to this functionality.",
+                            "points": 3,
+                            "explanation": "Accurately describing the role of Angular directives in enhancing HTML functionality and providing examples contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Angular directives are exclusively used for handling server-side data and do not significantly contribute to the overall functionality or user interface of Angular applications.",
+                            "description": "Incorrect. While directives can interact with server-side data, they primarily impact client-side development, contributing to overall functionality and user interface in Angular applications.",
+                            "points": 0,
+                            "explanation": "Recognizing the client-side impact of Angular directives is crucial for this question."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1408 @@
+{
+    "skill": {
+        "Html": {
+            "id": "html",
+            "description": "HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.Visit the following resources to learn more: ",
+            "resources": [
+                {
+                    "name": "W3Schools: Learn HTML",
+                    "link": "https://www.w3schools.com/html/html_intro.asp"
+                },
+                {
+                    "name": "htmlreference.io: All HTML elements at a glance",
+                    "link": "https://htmlreference.io/"
+                },
+                {
+                    "name": "HTML For Beginners The Easy Way",
+                    "link": "https://html.com/"
+                },
+                {
+                    "name": "Web Development Basics",
+                    "link": "https://internetingishard.netlify.app/html-and-css/index.html"
+                },
+                {
+                    "name": "Codecademy - Learn HTML",
+                    "link": "https://www.codecademy.com/learn/learn-html"
+                },
+                {
+                    "name": "Interactive HTML Course",
+                    "link": "https://github.com/denysdovhan/learnyouhtml"
+                },
+                {
+                    "name": "HTML Full Course for Beginners | Complete All-in-One Tutorial",
+                    "link": "https://youtu.be/mJgBOIoGihA"
+                },
+                {
+                    "name": "HTML Full Course - Build a Website Tutorial",
+                    "link": "https://www.youtube.com/watch?v=pQN-pnXPaVg"
+                },
+                {
+                    "name": "HTML Tutorial for Beginners: HTML Crash Course",
+                    "link": "https://www.youtube.com/watch?v=qz0aGYrrlhU"
+                }
+            ],
+            "parents": [
+                "frontend"
+            ],
+            "children": [
+                "learn-the-basics",
+                "writing-semantic-html",
+                "forms-and-validations",
+                "accessibility",
+                "seo-basics"
+            ],
+            "questions": [
+                {
+                    "id": "550e8400-e29b-41d4-a716-446655440000",
+                    "question": "What does HTML stand for?",
+                    "description": "Choose the correct expansion for the acronym HTML.",
+                    "hint": "Think about the basic structure of web pages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Hypertext Markup Language",
+                            "points": 3,
+                            "explanation": "Correct! HTML stands for Hypertext Markup Language."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Hyper Transfer Markup Language",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct expansion is 'Hypertext Markup Language.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "High-Level Text Management Language",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct expansion is 'Hypertext Markup Language.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "7a60563b-1ce4-4a3f-bdf7-9ecb7b08ee2a",
+                    "question": "What is the main purpose of HTML?",
+                    "description": "Select the option that best describes the primary function of HTML.",
+                    "hint": "Consider the role of HTML in creating web pages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Styling web pages",
+                            "points": 0,
+                            "explanation": "Incorrect. HTML is primarily used for structuring content, not styling."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Creating dynamic content",
+                            "points": 0,
+                            "explanation": "Incorrect. HTML provides structure; dynamic content is often handled by JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Structuring content on web pages",
+                            "points": 3,
+                            "explanation": "Correct! HTML is used to structure content on web pages."
+                        }
+                    ]
+                },
+                {
+                    "id": "8f9b53e1-5874-45a1-9108-98c5ef5dd938",
+                    "question": "Which HTML tag is used for creating a hyperlink?",
+                    "description": "Identify the HTML tag that is commonly used to create links.",
+                    "hint": "Think about how you navigate from one web page to another.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<link>",
+                            "points": 0,
+                            "explanation": "Incorrect. The <link> tag is used for including external resources like stylesheets."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<a>",
+                            "points": 3,
+                            "explanation": "Correct! The <a> tag is used to create hyperlinks in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<url>",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no <url> tag in HTML; use <a> for hyperlinks."
+                        }
+                    ]
+                },
+                {
+                    "id": "c95a8749-3e6e-4a4d-b513-60a5a1f240a5",
+                    "question": "What does the 'HTML' element define in a web page?",
+                    "description": "Choose the correct interpretation of the 'HTML' element's role.",
+                    "hint": "Consider the overall structure of an HTML document.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines the content of the web page",
+                            "points": 3,
+                            "explanation": "Correct! The <html> element contains the entire content of the web page."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Styles the web page",
+                            "points": 0,
+                            "explanation": "Incorrect. Styling is usually done with CSS, not the <html> element."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Executes JavaScript code",
+                            "points": 0,
+                            "explanation": "Incorrect. JavaScript execution is handled by the <script> tag, not <html>."
+                        }
+                    ]
+                },
+                {
+                    "id": "f7a5d510-4b5e-4a68-87e2-18cfb46a9721",
+                    "question": "Which HTML tag is used for creating a line break?",
+                    "description": "Identify the HTML tag commonly used to insert a line break.",
+                    "hint": "Think about how to separate content on different lines.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<br>",
+                            "points": 3,
+                            "explanation": "Correct! The <br> tag is used to create a line break in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<lb>",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no <lb> tag for line breaks; use <br>."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<newline>",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no <newline> tag for line breaks in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "3b2c53fe-3aef-4e8e-9b4a-6e41c1ef1b64",
+                    "question": "Which of the following is NOT a valid HTML tag?",
+                    "description": "Identify the tag that is not a part of the HTML specification.",
+                    "hint": "Consider the common HTML tags used for structuring content.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<p>",
+                            "points": 0,
+                            "explanation": "Incorrect. <p> is a valid HTML tag for paragraphs."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<div>",
+                            "points": 0,
+                            "explanation": "Incorrect. <div> is a valid HTML tag for dividing content into sections."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<circle>",
+                            "points": 3,
+                            "explanation": "Correct! <circle> is not a valid HTML tag; use <div> for structuring content."
+                        }
+                    ]
+                },
+                {
+                    "id": "a819a12e-56b0-4372-bb25-af50779ec438",
+                    "question": "What does the 'alt' attribute in an 'img' tag stand for?",
+                    "description": "Select the correct interpretation of the 'alt' attribute in an 'img' tag.",
+                    "hint": "Consider the purpose of the 'alt' attribute in images.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Alternative text",
+                            "points": 3,
+                            "explanation": "Correct! The 'alt' attribute provides alternative text for an image."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Image link",
+                            "points": 0,
+                            "explanation": "Incorrect. 'alt' is not for creating links; it's for alternative text."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Alignment",
+                            "points": 0,
+                            "explanation": "Incorrect. Alignment is usually controlled by CSS, not the 'alt' attribute."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f8a5a19-c2b7-4d87-9a63-6f34e96229ab",
+                    "question": "Which HTML tag is used for creating an unordered list?",
+                    "description": "Identify the HTML tag commonly used for creating a bulleted list.",
+                    "hint": "Think about how items are typically organized in an unordered list.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<ol>",
+                            "points": 0,
+                            "explanation": "Incorrect. <ol> is used for ordered lists, not unordered lists."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<li>",
+                            "points": 0,
+                            "explanation": "Incorrect. <li> is used for list items but not for the entire list."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<ul>",
+                            "points": 3,
+                            "explanation": "Correct! The <ul> tag is used for creating an unordered list."
+                        }
+                    ]
+                },
+                {
+                    "id": "6c26d25e-c80e-4d12-aa71-9f4c4e6a82bb",
+                    "question": "Which HTML tag is used for defining a table?",
+                    "description": "Identify the HTML tag commonly used for creating tables.",
+                    "hint": "Think about how tabular data is structured in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<table>",
+                            "points": 3,
+                            "explanation": "Correct! The <table> tag is used for defining tables in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<tr>",
+                            "points": 0,
+                            "explanation": "Incorrect. <tr> is used for defining table rows, not the entire table."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<td>",
+                            "points": 0,
+                            "explanation": "Incorrect. <td> is used for defining table cells, not the entire table."
+                        }
+                    ]
+                },
+                {
+                    "id": "4c0846e9-168f-4a5e-9cf0-8b11624ab4a0",
+                    "question": "Which HTML tag is used for adding a hyperlink to an email address?",
+                    "description": "Identify the tag used to create a hyperlink for an email address.",
+                    "hint": "Consider how email addresses are linked in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<mail>",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no <mail> tag for email hyperlinks; use <a>."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<email>",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no <email> tag for email hyperlinks; use <a>."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<a href='mailto:'>",
+                            "points": 3,
+                            "explanation": "Correct! Use <a href='mailto:'> to create a hyperlink for an email address."
+                        }
+                    ]
+                },
+                {
+                    "id": "92a14f6a-5a43-4a0b-a697-cf4c352e288a",
+                    "question": "What does the 'DOCTYPE' declaration in HTML do?",
+                    "description": "Select the correct purpose of the 'DOCTYPE' declaration.",
+                    "hint": "Consider the role of 'DOCTYPE' in defining the document type.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines the content of the web page",
+                            "points": 0,
+                            "explanation": "Incorrect. 'DOCTYPE' is not for defining content; it specifies the document type."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the character set",
+                            "points": 0,
+                            "explanation": "Incorrect. Character set is usually specified with the 'meta' tag, not 'DOCTYPE.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the document type and version of HTML",
+                            "points": 3,
+                            "explanation": "Correct! 'DOCTYPE' defines the document type and version of HTML being used."
+                        }
+                    ]
+                },
+                {
+                    "id": "715fa8a7-aa48-4f86-bb2c-5f51f2046b39",
+                    "question": "What does the 'head' element in HTML contain?",
+                    "description": "Choose the correct content typically found within the 'head' element.",
+                    "hint": "Consider elements that provide meta-information and links to external resources.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Main content of the web page",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'head' element usually contains meta-information, not main content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Body of the web page",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'body' element contains the main content of the web page."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Metadata and links to external resources",
+                            "points": 3,
+                            "explanation": "Correct! The 'head' element contains metadata and links to external resources."
+                        }
+                    ]
+                },
+                {
+                    "id": "1dc71f28-4a18-4b7e-89ed-9b8e7936c4a9",
+                    "question": "Which HTML tag is used for creating a numbered list?",
+                    "description": "Identify the HTML tag commonly used for creating an ordered list.",
+                    "hint": "Think about how items are typically organized in an ordered list.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<ol>",
+                            "points": 3,
+                            "explanation": "Correct! The <ol> tag is used for creating an ordered (numbered) list."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<ul>",
+                            "points": 0,
+                            "explanation": "Incorrect. The <ul> tag is used for creating an unordered (bulleted) list."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<li>",
+                            "points": 0,
+                            "explanation": "Incorrect. The <li> tag is used for list items, not the entire ordered list."
+                        }
+                    ]
+                },
+                {
+                    "id": "8fd7bce5-4605-4b8d-8f5e-476a7f3620cb",
+                    "question": "Which attribute is used to define the alternative text for an image?",
+                    "description": "Choose the attribute used to provide alternative text for accessibility.",
+                    "hint": "Consider how to describe images for users who cannot see them.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "src",
+                            "points": 0,
+                            "explanation": "Incorrect. 'src' is used to specify the source file for an image, not alternative text."
+                        },
+                        {
+                            "label": "B",
+                            "description": "alt",
+                            "points": 3,
+                            "explanation": "Correct! The 'alt' attribute is used to provide alternative text for an image."
+                        },
+                        {
+                            "label": "C",
+                            "description": "title",
+                            "points": 0,
+                            "explanation": "Incorrect. 'title' is used for additional information about an element, not image alternative text."
+                        }
+                    ]
+                },
+                {
+                    "id": "db3c689b-ea08-4b0b-b63b-0f53632e21ef",
+                    "question": "In HTML, which element is used for creating a hyperlink?",
+                    "description": "Identify the HTML element commonly used for creating hyperlinks.",
+                    "hint": "Think about how you create links to other pages or resources.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<link>",
+                            "points": 0,
+                            "explanation": "Incorrect. <link> is used for including external resources like stylesheets, not for creating hyperlinks."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<a>",
+                            "points": 3,
+                            "explanation": "Correct! The <a> (anchor) tag is used for creating hyperlinks in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<nav>",
+                            "points": 0,
+                            "explanation": "Incorrect. <nav> is used for defining navigation links, not for creating hyperlinks."
+                        }
+                    ]
+                },
+                {
+                    "id": "7e5f4a0d-1eeb-4b43-8a74-3cb7c315b421",
+                    "question": "What is the purpose of the 'title' element in HTML?",
+                    "description": "Select the correct purpose of the 'title' element.",
+                    "hint": "Consider where the 'title' element is typically used.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines the main heading of the web page",
+                            "points": 0,
+                            "explanation": "Incorrect. The main heading is usually defined with the <h1> to <h6> tags, not 'title.'"
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the title of the web page (shown in the browser tab)",
+                            "points": 3,
+                            "explanation": "Correct! The 'title' element defines the title of the web page, displayed in the browser tab."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the content of a paragraph",
+                            "points": 0,
+                            "explanation": "Incorrect. Paragraph content is defined with the <p> tag, not 'title.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "4b30811e-99b0-4e6b-a272-cd9a82425c04",
+                    "question": "What is the purpose of the 'meta' tag in the 'head' element?",
+                    "description": "Select the correct purpose of the 'meta' tag in the 'head' element.",
+                    "hint": "Consider the role of 'meta' in providing additional information about the document.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines the main content of the web page",
+                            "points": 0,
+                            "explanation": "Incorrect. The main content is typically defined within the 'body' element, not 'meta' in the 'head'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Specifies metadata about the document (e.g., character set, description)",
+                            "points": 3,
+                            "explanation": "Correct! The 'meta' tag is used to specify metadata, such as the character set and document description."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines a link to an external stylesheet",
+                            "points": 0,
+                            "explanation": "Incorrect. Linking to an external stylesheet is typically done with the '<link>' tag, not 'meta'."
+                        }
+                    ]
+                },
+                {
+                    "id": "84dce3f7-ea03-4427-9d7e-670fae0f4b5b",
+                    "question": "Which HTML tag is used for creating a horizontal line?",
+                    "description": "Identify the HTML tag commonly used for inserting a horizontal line.",
+                    "hint": "Consider how to visually separate content with a horizontal line.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<line>",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no '<line>' tag for horizontal lines; use '<hr>'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<br>",
+                            "points": 0,
+                            "explanation": "Incorrect. The '<br>' tag is used for line breaks, not horizontal lines."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<hr>",
+                            "points": 3,
+                            "explanation": "Correct! The '<hr>' tag is used for creating a horizontal line in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "cbc7ea59-84d2-4e10-a3d7-1f7ef36e96f8",
+                    "question": "What is the purpose of the 'alt' attribute in an 'img' tag?",
+                    "description": "Select the correct purpose of the 'alt' attribute in an 'img' tag.",
+                    "hint": "Consider the role of 'alt' in providing alternative text for images.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the image source file",
+                            "points": 0,
+                            "explanation": "Incorrect. The image source file is specified with the 'src' attribute, not 'alt'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the alignment of the image",
+                            "points": 0,
+                            "explanation": "Incorrect. Alignment is typically controlled by CSS, not the 'alt' attribute."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Provides alternative text for the image",
+                            "points": 3,
+                            "explanation": "Correct! The 'alt' attribute provides alternative text for accessibility and if the image cannot be displayed."
+                        }
+                    ]
+                },
+                {
+                    "id": "0a265a67-6a49-4da1-862d-1c1d3440014f",
+                    "question": "Which HTML tag is used for creating an input field for text?",
+                    "description": "Identify the HTML tag commonly used for accepting text input.",
+                    "hint": "Think about how users can enter text on a web page.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='text'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input type='text'>' tag is used for creating a text input field in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<text>",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no '<text>' tag specifically for text input fields; use '<input type='text'>' instead."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<textbox>",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no '<textbox>' tag specifically for text input fields; use '<input type='text'>' instead."
+                        }
+                    ]
+                },
+                {
+                    "id": "536b9e66-d1b1-4e24-9f56-44dcefd13c4b",
+                    "question": "What is the purpose of the 'span' element in HTML?",
+                    "description": "Select the correct purpose of the 'span' element.",
+                    "hint": "Consider where the 'span' element is typically used and its impact on content.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines a block-level section of content",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'span' element is an inline element, not block-level."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines a container for styling purposes",
+                            "points": 3,
+                            "explanation": "Correct! The 'span' element is often used as a container for styling purposes or applying inline styles."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Specifies a hyperlink",
+                            "points": 0,
+                            "explanation": "Incorrect. Hyperlinks are typically defined using the '<a>' (anchor) tag, not 'span'."
+                        }
+                    ]
+                },
+                {
+                    "id": "8e703d9a-0f84-4a5d-9c0a-670981a35a6d",
+                    "question": "What does the 'async' attribute do in the '<script>' tag?",
+                    "description": "Choose the correct purpose of the 'async' attribute in the '<script>' tag.",
+                    "hint": "Consider how the 'async' attribute affects the loading and execution of scripts.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the source file for the script",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file is typically specified using the 'src' attribute, not 'async'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Specifies the character set for the script",
+                            "points": 0,
+                            "explanation": "Incorrect. The character set is specified using the 'charset' attribute, not 'async'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Indicates that the script should be executed asynchronously",
+                            "points": 3,
+                            "explanation": "Correct! The 'async' attribute allows the script to be executed asynchronously, without blocking the rendering of the page."
+                        }
+                    ]
+                },
+                {
+                    "id": "93d33a6b-1fb2-495a-b244-3b7b8d789d9b",
+                    "question": "What is the purpose of the 'figcaption' element in HTML?",
+                    "description": "Select the correct purpose of the 'figcaption' element.",
+                    "hint": "Consider where the 'figcaption' element is commonly used and its relation to content.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines a caption for an image",
+                            "points": 3,
+                            "explanation": "Correct! The 'figcaption' element is used to define a caption or legend for an 'figure' element, often used with images."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Specifies the source file for an image",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file for an image is typically specified using the 'src' attribute, not 'figcaption'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines a link to an external resource",
+                            "points": 0,
+                            "explanation": "Incorrect. Linking to external resources is typically done with the '<a>' (anchor) tag, not 'figcaption'."
+                        }
+                    ]
+                },
+                {
+                    "id": "4b1a2d7c-002d-4e67-848b-89ac67fbc4a8",
+                    "question": "What is the purpose of the 'form' element in HTML?",
+                    "description": "Select the correct purpose of the 'form' element.",
+                    "hint": "Consider how the 'form' element is used to structure and handle user input.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines a container for styling purposes",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'form' element is primarily used for handling user input, not for styling purposes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Specifies metadata about the document",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata is typically specified in the 'head' element using 'meta', not 'form'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines a section for user input and form controls",
+                            "points": 3,
+                            "explanation": "Correct! The 'form' element is used to create a section for user input and form controls in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "83ce8a1a-12af-4f85-8c3e-b727c7248e3e",
+                    "question": "What does the 'target' attribute in the '<a>' tag specify?",
+                    "description": "Choose the correct purpose of the 'target' attribute in the '<a>' tag.",
+                    "hint": "Consider how the 'target' attribute affects where a linked resource is displayed.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the link's URL",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'href' attribute is used to specify the link's URL, not 'target'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the link's text",
+                            "points": 0,
+                            "explanation": "Incorrect. The link's text is defined between the opening and closing '<a>' tags, not with 'target'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Specifies where to open the linked resource (e.g., in a new window)",
+                            "points": 3,
+                            "explanation": "Correct! The 'target' attribute determines where the linked resource is displayed, such as in a new window or tab."
+                        }
+                    ]
+                },
+                {
+                    "id": "b8e5f9b0-3e3f-4c48-9e48-837aae1cc85f",
+                    "question": "What is the purpose of the 'article' element in HTML?",
+                    "description": "Select the correct purpose of the 'article' element.",
+                    "hint": "Consider where the 'article' element is typically used and its relation to content.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines a heading for a section of content",
+                            "points": 0,
+                            "explanation": "Incorrect. Headings are typically defined with the '<h1>' to '<h6>' tags, not 'article'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines a container for styling purposes",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'article' element is not primarily used for styling purposes; it's for structuring content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines an independent, self-contained piece of content",
+                            "points": 3,
+                            "explanation": "Correct! The 'article' element is used to define an independent, self-contained piece of content that could be distributed and reused independently."
+                        }
+                    ]
+                },
+                {
+                    "id": "11e3a08a-3da2-48d5-a6f0-6f58e3015b18",
+                    "question": "What is the purpose of the 'cite' element in HTML?",
+                    "description": "Select the correct purpose of the 'cite' element.",
+                    "hint": "Consider where the 'cite' element is typically used and its relation to content.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the source file for an external script",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file for an external script is typically specified using the 'src' attribute, not 'cite'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines a container for styling purposes",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'cite' element is not primarily used for styling purposes; it's for indicating the title of a creative work."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Indicates the title of a creative work (e.g., book, movie)",
+                            "points": 3,
+                            "explanation": "Correct! The 'cite' element is used to indicate the title of a creative work referenced in the content."
+                        }
+                    ]
+                },
+                {
+                    "id": "7f0b36d9-477d-4ef8-a553-9d4cc312ff13",
+                    "question": "What is the purpose of the 'details' element in HTML?",
+                    "description": "Select the correct purpose of the 'details' element.",
+                    "hint": "Consider how the 'details' element is used to provide additional information.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines a section for user input and form controls",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'details' element is not primarily used for user input and form controls; it's for creating a disclosure widget."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Specifies metadata about the document",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata is typically specified in the 'head' element using 'meta', not 'details'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Creates a disclosure widget to show or hide additional information",
+                            "points": 3,
+                            "explanation": "Correct! The 'details' element is used to create a disclosure widget that allows users to show or hide additional information."
+                        }
+                    ]
+                },
+                {
+                    "id": "b0a1f8b9-68a1-45e8-94ec-5c2d7a8f0e14",
+                    "question": "What does the 'placeholder' attribute do in an '<input>' tag?",
+                    "description": "Choose the correct purpose of the 'placeholder' attribute in an '<input>' tag.",
+                    "hint": "Consider how the 'placeholder' attribute provides a hint or example for user input.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the initial value for the input",
+                            "points": 0,
+                            "explanation": "Incorrect. The initial value is typically specified using the 'value' attribute, not 'placeholder'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the label for the input field",
+                            "points": 0,
+                            "explanation": "Incorrect. The label is usually provided as text or with the 'label' element, not 'placeholder'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Provides a hint or example for the expected input",
+                            "points": 3,
+                            "explanation": "Correct! The 'placeholder' attribute provides a hint or example for the expected input in an input field."
+                        }
+                    ]
+                },
+                {
+                    "id": "349f675c-cc29-4c2b-8b53-bc5e5a4ed654",
+                    "question": "What is the purpose of the 'summary' element in HTML?",
+                    "description": "Select the correct purpose of the 'summary' element.",
+                    "hint": "Consider where the 'summary' element is commonly used and its impact on content.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies metadata about the document",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata is typically specified in the 'head' element using 'meta', not 'summary'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines a heading for a section of content",
+                            "points": 0,
+                            "explanation": "Incorrect. Headings are typically defined with the '<h1>' to '<h6>' tags, not 'summary'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines a visible heading for a 'details' element",
+                            "points": 3,
+                            "explanation": "Correct! The 'summary' element is used to define a visible heading for a 'details' element, providing a label for the associated disclosure widget."
+                        }
+                    ]
+                },
+                {
+                    "id": "05bf1b3f-9351-42f3-90b6-ec2f3253962f",
+                    "question": "What is the purpose of the 'role' attribute in HTML?",
+                    "description": "Select the correct purpose of the 'role' attribute.",
+                    "hint": "Consider how the 'role' attribute is used to define the function of an element.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the source file for an external script",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file for an external script is typically specified using the 'src' attribute, not 'role'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines a container for styling purposes",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'role' attribute is not primarily used for styling purposes; it's for defining the function or purpose of an element for accessibility."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the function or purpose of an element for accessibility",
+                            "points": 3,
+                            "explanation": "Correct! The 'role' attribute is used to define the function or purpose of an element for accessibility, especially for assistive technologies."
+                        }
+                    ]
+                },
+                {
+                    "id": "f0547aa9-b41a-4e4c-92cd-978a4310f09c",
+                    "question": "What is the purpose of the 'aria-label' attribute in HTML?",
+                    "description": "Select the correct purpose of the 'aria-label' attribute.",
+                    "hint": "Consider how the 'aria-label' attribute is used to provide a label for accessibility.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the source file for an external script",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file for an external script is typically specified using the 'src' attribute, not 'aria-label'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines a label for an image",
+                            "points": 0,
+                            "explanation": "Incorrect. While 'alt' is used for image labels, 'aria-label' is used for providing labels to elements for accessibility."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Provides a label for an element for accessibility",
+                            "points": 3,
+                            "explanation": "Correct! The 'aria-label' attribute is used to provide a label for an element, especially when the visual label is not sufficient for accessibility."
+                        }
+                    ]
+                },
+                {
+                    "id": "46a0491f-2a91-4d5f-8af5-7d31241ec92d",
+                    "question": "What does the 'defer' attribute do in the '<script>' tag?",
+                    "description": "Choose the correct purpose of the 'defer' attribute in the '<script>' tag.",
+                    "hint": "Consider how the 'defer' attribute affects the loading and execution of scripts.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the source file for the script",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file is typically specified using the 'src' attribute, not 'defer'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates that the script should be executed asynchronously",
+                            "points": 0,
+                            "explanation": "Incorrect. Asynchronous execution is controlled by the 'async' attribute, not 'defer'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Specifies that the script should be executed after the document has been parsed",
+                            "points": 3,
+                            "explanation": "Correct! The 'defer' attribute indicates that the script should be executed after the document has been parsed, but before 'DOMContentLoaded'."
+                        }
+                    ]
+                },
+                {
+                    "id": "5cc5da2c-08e9-4f98-a69d-c7a84d32d1c1",
+                    "question": "What is the purpose of the 'scoped' attribute in the '<style>' tag?",
+                    "description": "Select the correct purpose of the 'scoped' attribute in the '<style>' tag.",
+                    "hint": "Consider how the 'scoped' attribute affects the styling of elements.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the source file for an external stylesheet",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file for an external stylesheet is specified using the 'link' tag, not 'scoped'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Applies styles only to the parent element and its descendants",
+                            "points": 3,
+                            "explanation": "Correct! The 'scoped' attribute in the '<style>' tag applies styles only to the parent element and its descendants, not globally."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Indicates that the styles should be applied globally",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'scoped' attribute limits the styles to the parent element and its descendants, not globally."
+                        }
+                    ]
+                },
+                {
+                    "id": "03a0e4bf-ecc5-4933-9b6e-1e384885feea",
+                    "question": "What is the purpose of the 'figure' element in HTML?",
+                    "description": "Select the correct purpose of the 'figure' element.",
+                    "hint": "Consider where the 'figure' element is commonly used and its relation to content.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines a container for styling purposes",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'figure' element is not primarily used for styling purposes; it's for grouping and referencing content like images and illustrations."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Specifies metadata about the document",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata is typically specified in the 'head' element using 'meta', not 'figure'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Groups and references content, such as images and illustrations",
+                            "points": 3,
+                            "explanation": "Correct! The 'figure' element is used to group and reference content, such as images and illustrations, with an optional 'figcaption' element for a caption."
+                        }
+                    ]
+                },
+                {
+                    "id": "5b9a8d72-40a5-41c7-bc31-c71b24a36c04",
+                    "question": "What is the purpose of the 'article' element in HTML?",
+                    "description": "Select the correct purpose of the 'article' element.",
+                    "hint": "Consider where the 'article' element is typically used and its relation to content.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines a heading for a section of content",
+                            "points": 0,
+                            "explanation": "Incorrect. Headings are typically defined with the '<h1>' to '<h6>' tags, not 'article'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines a container for styling purposes",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'article' element is not primarily used for styling purposes; it's for structuring and marking up independent pieces of content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines an independent, self-contained piece of content",
+                            "points": 3,
+                            "explanation": "Correct! The 'article' element is used to define an independent, self-contained piece of content that can be distributed and reused independently."
+                        }
+                    ]
+                },
+                {
+                    "id": "1c134d7e-26cc-4aae-831a-6d8b8e676c7f",
+                    "question": "How does the 'rel' attribute in the '<a>' tag contribute to link behavior?",
+                    "description": "Choose the correct contribution of the 'rel' attribute in the '<a>' tag.",
+                    "hint": "Consider how the 'rel' attribute specifies the relationship between the linked resource and the current document.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the link's text",
+                            "points": 0,
+                            "explanation": "Incorrect. The link's text is defined between the opening and closing '<a>' tags, not with 'rel'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Specifies the link's URL",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'href' attribute is used to specify the link's URL, not 'rel'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Specifies the relationship between the linked resource and the current document",
+                            "points": 3,
+                            "explanation": "Correct! The 'rel' attribute in the '<a>' tag specifies the relationship between the linked resource and the current document, influencing link behavior."
+                        }
+                    ]
+                },
+                {
+                    "id": "7a87672a-9c0e-4803-a6f5-1201abed1c86",
+                    "question": "What is the purpose of the 'alt' attribute in an 'area' tag?",
+                    "description": "Select the correct purpose of the 'alt' attribute in an 'area' tag.",
+                    "hint": "Consider the role of 'alt' in providing alternative text for areas defined in an image map.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the image source file",
+                            "points": 0,
+                            "explanation": "Incorrect. The image source file is typically specified using the 'src' attribute, not 'alt'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Provides alternative text for the area defined in an image map",
+                            "points": 3,
+                            "explanation": "Correct! The 'alt' attribute in an 'area' tag provides alternative text for the area defined in an image map, enhancing accessibility."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the shape of the area in an image map",
+                            "points": 0,
+                            "explanation": "Incorrect. The shape of the area in an image map is typically defined using the 'shape' attribute, not 'alt'."
+                        }
+                    ]
+                },
+                {
+                    "id": "2d0727b2-b0c5-43d7-a7dd-bf4628f2f8a3",
+                    "question": "How does the 'colspan' attribute in the '<td>' tag affect table cells?",
+                    "description": "Choose the correct effect of the 'colspan' attribute in the '<td>' tag.",
+                    "hint": "Consider how 'colspan' influences the horizontal span of table cells.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the background color of the table cell",
+                            "points": 0,
+                            "explanation": "Incorrect. The background color is typically controlled by CSS or the 'bgcolor' attribute, not 'colspan'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the vertical span of the table cell",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'rowspan' attribute is used to define the vertical span of a table cell, not 'colspan'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Specifies the number of columns the cell should span",
+                            "points": 3,
+                            "explanation": "Correct! The 'colspan' attribute in the '<td>' tag specifies the number of columns the cell should span horizontally in a table."
+                        }
+                    ]
+                },
+                {
+                    "id": "842b2402-d981-404d-8d99-39eaa17d6a0d",
+                    "question": "What is the purpose of the 'role' attribute in the '<nav>' tag?",
+                    "description": "Select the correct purpose of the 'role' attribute in the '<nav>' tag.",
+                    "hint": "Consider how the 'role' attribute is used to define the function of an element, especially for accessibility.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Defines a container for styling purposes",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'role' attribute is not primarily used for styling purposes; it's for defining the function or purpose of an element."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates that the element represents navigation links",
+                            "points": 3,
+                            "explanation": "Correct! The 'role' attribute in the '<nav>' tag indicates that the element represents navigation links, providing semantic information for accessibility."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Specifies the source file for an external script",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file for an external script is typically specified using the 'src' attribute, not 'role'."
+                        }
+                    ]
+                },
+                {
+                    "id": "f5ea1e54-8df5-4f8e-9610-69d5c802ff7d",
+                    "question": "Explain the purpose of the 'contenteditable' attribute in HTML.",
+                    "description": "Provide an explanation for the purpose and usage of the 'contenteditable' attribute.",
+                    "hint": "Consider how 'contenteditable' affects the editability of an element's content.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the character encoding for the document",
+                            "points": 0,
+                            "explanation": "Incorrect. The character encoding is typically specified using the 'charset' attribute or through the document's meta tags, not 'contenteditable'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates whether the content of an element is editable",
+                            "points": 3,
+                            "explanation": "Correct! The 'contenteditable' attribute is used to make the content of an element editable by the user."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the language of the document",
+                            "points": 0,
+                            "explanation": "Incorrect. The language of the document is typically specified using the 'lang' attribute or through the document's meta tags, not 'contenteditable'."
+                        }
+                    ]
+                },
+                {
+                    "id": "b6797cbf-4bd8-4f8b-aa9e-65017d30839b",
+                    "question": "Explain the purpose of the 'hidden' attribute in HTML.",
+                    "description": "Provide an explanation for the purpose and usage of the 'hidden' attribute.",
+                    "hint": "Consider how 'hidden' affects the visibility of an element.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the document's base URL",
+                            "points": 0,
+                            "explanation": "Incorrect. The base URL is typically specified using the 'base' tag or through the document's meta tags, not 'hidden'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates whether the element's content should be displayed",
+                            "points": 3,
+                            "explanation": "Correct! The 'hidden' attribute is used to indicate whether the element's content should be displayed or not."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the alignment of the element",
+                            "points": 0,
+                            "explanation": "Incorrect. The alignment of the element is typically controlled through CSS properties, not 'hidden'."
+                        }
+                    ]
+                },
+                {
+                    "id": "a7c17ce9-6b79-4219-ae2a-3a3c17ee6a8f",
+                    "question": "Explain the purpose of the 'sandbox' attribute in the '<iframe>' tag.",
+                    "description": "Provide an explanation for the purpose and usage of the 'sandbox' attribute in the '<iframe>' tag.",
+                    "hint": "Consider how 'sandbox' enhances security when embedding content.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the source file for the content to be embedded",
+                            "points": 0,
+                            "explanation": "Incorrect. The source file is typically specified using the 'src' attribute, not 'sandbox'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Enables an extra layer of security when embedding content",
+                            "points": 3,
+                            "explanation": "Correct! The 'sandbox' attribute in the '<iframe>' tag enables an extra layer of security by restricting what the embedded content can do."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the dimensions of the iframe",
+                            "points": 0,
+                            "explanation": "Incorrect. The dimensions of the iframe are typically specified using the 'width' and 'height' attributes, not 'sandbox'."
+                        }
+                    ]
+                },
+                {
+                    "id": "6df9840b-51d2-4f50-a3f9-1d7fb5c86f68",
+                    "question": "Explain the purpose of the 'defer' attribute in the '<link>' tag.",
+                    "description": "Provide an explanation for the purpose and usage of the 'defer' attribute in the '<link>' tag.",
+                    "hint": "Consider how 'defer' affects the loading of external stylesheets.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the media type for the stylesheet",
+                            "points": 0,
+                            "explanation": "Incorrect. The media type is typically specified using the 'media' attribute, not 'defer'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates that the stylesheet should be deferred for asynchronous loading",
+                            "points": 3,
+                            "explanation": "Correct! The 'defer' attribute in the '<link>' tag indicates that the stylesheet should be deferred for asynchronous loading."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the relationship between the document and the stylesheet",
+                            "points": 0,
+                            "explanation": "Incorrect. The relationship is typically specified using the 'rel' attribute, not 'defer'."
+                        }
+                    ]
+                },
+                {
+                    "id": "e9a295fe-9eb3-4ac9-b3b7-97e5e99216f1",
+                    "question": "Explain the purpose of the 'draggable' attribute in HTML.",
+                    "description": "Provide an explanation for the purpose and usage of the 'draggable' attribute.",
+                    "hint": "Consider how 'draggable' affects the drag-and-drop behavior of an element.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the MIME type of the dragged data",
+                            "points": 0,
+                            "explanation": "Incorrect. The MIME type is typically specified using the 'type' attribute, not 'draggable'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates whether the element's content can be dragged",
+                            "points": 3,
+                            "explanation": "Correct! The 'draggable' attribute is used to indicate whether the element's content can be dragged by the user."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the drop effect for the dragged data",
+                            "points": 0,
+                            "explanation": "Incorrect. The drop effect is typically controlled through JavaScript when handling drag-and-drop events, not 'draggable'."
+                        }
+                    ]
+                },
+                {
+                    "id": "fcd34361-9353-44c7-8c57-b2ecb3bc37a7",
+                    "question": "Explain the purpose of the 'crossorigin' attribute in the '<script>' tag.",
+                    "description": "Provide an explanation for the purpose and usage of the 'crossorigin' attribute in the '<script>' tag.",
+                    "hint": "Consider how 'crossorigin' addresses security concerns when loading scripts from external sources.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the character encoding for the script",
+                            "points": 0,
+                            "explanation": "Incorrect. The character encoding is typically specified using the 'charset' attribute, not 'crossorigin'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the relationship between the document and the script",
+                            "points": 0,
+                            "explanation": "Incorrect. The relationship is typically specified using the 'rel' attribute, not 'crossorigin'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Addresses security concerns when loading scripts from external sources",
+                            "points": 3,
+                            "explanation": "Correct! The 'crossorigin' attribute in the '<script>' tag addresses security concerns when loading scripts from external sources, especially for cross-origin requests."
+                        }
+                    ]
+                },
+                {
+                    "id": "75e0d37e-14cc-4b1d-b695-2494a4a0da18",
+                    "question": "Explain the purpose of the 'translate' attribute in HTML.",
+                    "description": "Provide an explanation for the purpose and usage of the 'translate' attribute.",
+                    "hint": "Consider how 'translate' affects the translation behavior of an element's content.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the language of the document",
+                            "points": 0,
+                            "explanation": "Incorrect. The language is typically specified using the 'lang' attribute, not 'translate'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates whether the element's content should be translated",
+                            "points": 3,
+                            "explanation": "Correct! The 'translate' attribute is used to indicate whether the element's content should be translated when the page is localized."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Defines the text direction of the element",
+                            "points": 0,
+                            "explanation": "Incorrect. The text direction is typically specified using the 'dir' attribute, not 'translate'."
+                        }
+                    ]
+                },
+                {
+                    "id": "6a65c2fc-cbe9-4f77-b82a-13f166583f1b",
+                    "question": "Explain the purpose of the 'nonce' attribute in the '<script>' tag.",
+                    "description": "Provide an explanation for the purpose and usage of the 'nonce' attribute in the '<script>' tag.",
+                    "hint": "Consider how 'nonce' enhances security when executing inline scripts.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the character encoding for the script",
+                            "points": 0,
+                            "explanation": "Incorrect. The character encoding is typically specified using the 'charset' attribute, not 'nonce'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the inline script's position in the document",
+                            "points": 0,
+                            "explanation": "Incorrect. The position of the inline script is determined by its placement in the HTML document, not 'nonce'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Enhances security when executing inline scripts by specifying a cryptographic nonce",
+                            "points": 3,
+                            "explanation": "Correct! The 'nonce' attribute in the '<script>' tag enhances security by specifying a cryptographic nonce, allowing only scripts with a matching nonce to be executed."
+                        }
+                    ]
+                },
+                {
+                    "id": "0fc7b37e-36d9-4715-92e3-7b9221baf1f7",
+                    "question": "Explain the purpose of the 'ping' attribute in the '<a>' tag.",
+                    "description": "Provide an explanation for the purpose and usage of the 'ping' attribute in the '<a>' tag.",
+                    "hint": "Consider how 'ping' contributes to tracking navigation requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the link's text",
+                            "points": 0,
+                            "explanation": "Incorrect. The link's text is defined between the opening and closing '<a>' tags, not with 'ping'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Defines the link's URL",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'href' attribute is used to specify the link's URL, not 'ping'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Contributes to tracking navigation requests by specifying additional URLs",
+                            "points": 3,
+                            "explanation": "Correct! The 'ping' attribute in the '<a>' tag contributes to tracking navigation requests by specifying additional URLs that should be pinged (requested) when the link is clicked."
+                        }
+                    ]
+                },
+                {
+                    "id": "4e419173-43a7-4f9d-a7a7-14c8558f9051",
+                    "question": "Explain the purpose of the 'autocomplete' attribute in the '<form>' tag.",
+                    "description": "Provide an explanation for the purpose and usage of the 'autocomplete' attribute in the '<form>' tag.",
+                    "hint": "Consider how 'autocomplete' influences the automatic filling of form fields.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Specifies the form's action URL",
+                            "points": 0,
+                            "explanation": "Incorrect. The form's action URL is typically specified using the 'action' attribute, not 'autocomplete'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates whether the form should be automatically submitted",
+                            "points": 0,
+                            "explanation": "Incorrect. The automatic submission is typically controlled using JavaScript or the 'submit' button, not 'autocomplete'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Influences the automatic filling of form fields by the browser",
+                            "points": 3,
+                            "explanation": "Correct! The 'autocomplete' attribute in the '<form>' tag influences the automatic filling of form fields by the browser, providing suggestions based on the user's input history."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

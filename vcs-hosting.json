@@ -1,0 +1,1681 @@
+{
+    "skill": {
+        "ResponsiveDesign": {
+            "id": "vcs-hosting",
+            "description": "There are different repository hosting services with the most famous one being GitHub, GitLab and BitBucket. I would recommend creating an account on GitHub because that is where most of the OpenSource work is done and most of the developers are. Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "GitHub: Where the world builds software",
+                    "link": "https://github.com/"
+                },
+                {
+                    "name": "GitLab: Iterate faster, innovate together",
+                    "link": "https://gitlab.com/"
+                },
+                {
+                    "name": "BitBucket: The Git solution for professional teams",
+                    "link": "https://bitbucket.com/"
+                }
+            ],
+            "parents": [
+                "frontend"
+            ],
+            "children": [
+                "github",
+                "gitlab",
+                "bitbucket"
+            ],
+            "questions": [
+                {
+                    "id": "5b1bd92d-13c1-4c3b-84e6-73987b10a0a4",
+                    "question": "What are repository hosting services commonly used for?",
+                    "description": "Explain the primary purpose of repository hosting services.",
+                    "hint": "Consider their role in facilitating collaborative software development and version control.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Hosting video streaming services.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for hosting video streaming services.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Facilitating collaborative software development and version control.",
+                            "description": "Correct! Repository hosting services play a key role in facilitating collaborative software development and version control.",
+                            "points": 3,
+                            "explanation": "Recognizing the primary purpose of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Managing online shopping websites.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for managing online shopping websites.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Providing weather forecasting services.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for providing weather forecasting services.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of repository hosting services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "beaa43b7-c62c-4e51-8a8b-ee95015517ef",
+                    "question": "Which repository hosting service is recommended for OpenSource work?",
+                    "description": "Identify the recommended repository hosting service for OpenSource work.",
+                    "hint": "Consider where most OpenSource work is done and where most developers are.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "GitLab",
+                            "description": "Incorrect. While GitLab is a repository hosting service, the recommendation for OpenSource work is not focused on GitLab.",
+                            "points": 0,
+                            "explanation": "Understanding the recommendation for OpenSource work is crucial for this question."
+                        },
+                        {
+                            "label": "BitBucket",
+                            "description": "Incorrect. BitBucket is a repository hosting service, but it is not the recommended platform for OpenSource work.",
+                            "points": 0,
+                            "explanation": "Understanding the recommendation for OpenSource work is crucial for this question."
+                        },
+                        {
+                            "label": "GitHub",
+                            "description": "Correct! GitHub is recommended for OpenSource work, as it is where most of the OpenSource work is done and where most developers are.",
+                            "points": 3,
+                            "explanation": "Recognizing the recommended platform for OpenSource work is crucial for this question."
+                        },
+                        {
+                            "label": "Hosting personal blogs.",
+                            "description": "Incorrect. Repository hosting services are not recommended for hosting personal blogs.",
+                            "points": 0,
+                            "explanation": "Understanding the recommendation for OpenSource work is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e9b7efee-654c-4ac5-9c33-135c9f0be9a8",
+                    "question": "What is the primary advantage of using repository hosting services?",
+                    "description": "Explain the main benefit of utilizing repository hosting services.",
+                    "hint": "Consider their role in collaboration, version control, and code sharing.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Enhancing social media profiles.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for enhancing social media profiles.",
+                            "points": 0,
+                            "explanation": "Understanding the primary advantage of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Facilitating collaborative software development, version control, and code sharing.",
+                            "description": "Correct! The main advantage of using repository hosting services is to facilitate collaborative software development, version control, and code sharing.",
+                            "points": 3,
+                            "explanation": "Recognizing the primary benefit of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Ordering food online.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for ordering food online.",
+                            "points": 0,
+                            "explanation": "Understanding the primary advantage of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Providing weather updates.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for providing weather updates.",
+                            "points": 0,
+                            "explanation": "Understanding the primary advantage of repository hosting services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "dd3c93f1-13d2-46cf-92d6-1dbd8fc99ed2",
+                    "question": "What is the role of GitHub, GitLab, and BitBucket?",
+                    "description": "Explain the common role shared by GitHub, GitLab, and BitBucket.",
+                    "hint": "Consider their function as repository hosting services.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Providing streaming services.",
+                            "description": "Incorrect. GitHub, GitLab, and BitBucket are not primarily involved in providing streaming services.",
+                            "points": 0,
+                            "explanation": "Understanding the common role of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Offering online education courses.",
+                            "description": "Incorrect. GitHub, GitLab, and BitBucket are not primarily involved in offering online education courses.",
+                            "points": 0,
+                            "explanation": "Understanding the common role of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Acting as repository hosting services for collaborative software development and version control.",
+                            "description": "Correct! GitHub, GitLab, and BitBucket serve as repository hosting services, facilitating collaborative software development and version control.",
+                            "points": 3,
+                            "explanation": "Recognizing the common role of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Managing social media networks.",
+                            "description": "Incorrect. GitHub, GitLab, and BitBucket are not primarily involved in managing social media networks.",
+                            "points": 0,
+                            "explanation": "Understanding the common role of repository hosting services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "3b133de0-0be2-412e-9885-e41bb7024c2d",
+                    "question": "Why is it recommended to create an account on GitHub?",
+                    "difficulty": 0,
+                    "description": "Explain the reason behind the recommendation to create an account on GitHub.",
+                    "hint": "Consider the prevalence of OpenSource work and the community of developers on GitHub.",
+                    "options": [
+                        {
+                            "label": "To post pictures and updates about personal life.",
+                            "description": "Incorrect. Creating an account on GitHub is not primarily for posting pictures and updates about personal life.",
+                            "points": 0,
+                            "explanation": "Understanding the recommendation to create an account on GitHub is crucial for this question."
+                        },
+                        {
+                            "label": "To exclusively share memes and jokes.",
+                            "description": "Incorrect. Creating an account on GitHub is not primarily for exclusively sharing memes and jokes.",
+                            "points": 0,
+                            "explanation": "Understanding the recommendation to create an account on GitHub is crucial for this question."
+                        },
+                        {
+                            "label": "To participate in collaborative software development and join the community where most OpenSource work is done.",
+                            "description": "Correct! Creating an account on GitHub is recommended to participate in collaborative software development and join the community where most OpenSource work is done.",
+                            "points": 3,
+                            "explanation": "Recognizing the reason behind the recommendation is crucial for this question."
+                        },
+                        {
+                            "label": "To showcase a collection of favorite recipes.",
+                            "description": "Incorrect. Creating an account on GitHub is not primarily for showcasing a collection of favorite recipes.",
+                            "points": 0,
+                            "explanation": "Understanding the recommendation to create an account on GitHub is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e0f6cf88-4e17-420f-96fe-c7bf1288ad1a",
+                    "question": "What is the purpose of repository hosting services in software development?",
+                    "description": "Explain the primary role of repository hosting services in the context of software development.",
+                    "hint": "Consider their function in storing, managing, and facilitating collaboration on code repositories.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Providing cooking recipes.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for providing cooking recipes.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of repository hosting services in software development is crucial for this question."
+                        },
+                        {
+                            "label": "Storing and managing code repositories, facilitating collaboration in software development.",
+                            "description": "Correct! The primary purpose of repository hosting services is to store and manage code repositories, facilitating collaboration in software development.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of repository hosting services in software development is crucial for this question."
+                        },
+                        {
+                            "label": "Hosting online gaming tournaments.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for hosting online gaming tournaments.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of repository hosting services in software development is crucial for this question."
+                        },
+                        {
+                            "label": "Providing travel recommendations.",
+                            "description": "Incorrect. Repository hosting services are not primarily used for providing travel recommendations.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of repository hosting services in software development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "9cc3c757-7b92-4967-9ae4-dc5f3f780f5c",
+                    "question": "Which of the following is a common feature of repository hosting services?",
+                    "description": "Identify a common feature shared by repository hosting services.",
+                    "hint": "Consider functionalities related to version control, code collaboration, and project management.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Providing weather forecasts.",
+                            "description": "Incorrect. Providing weather forecasts is not a common feature of repository hosting services.",
+                            "points": 0,
+                            "explanation": "Understanding the common features of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Storing and managing code repositories with version control.",
+                            "description": "Correct! A common feature of repository hosting services is storing and managing code repositories with version control.",
+                            "points": 3,
+                            "explanation": "Recognizing common functionalities related to version control is crucial for this question."
+                        },
+                        {
+                            "label": "Hosting online fitness classes.",
+                            "description": "Incorrect. Hosting online fitness classes is not a common feature of repository hosting services.",
+                            "points": 0,
+                            "explanation": "Understanding the common features of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Providing financial investment advice.",
+                            "description": "Incorrect. Providing financial investment advice is not a common feature of repository hosting services.",
+                            "points": 0,
+                            "explanation": "Understanding the common features of repository hosting services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "387f73fb-065f-4f88-bd60-63e240a0f5e2",
+                    "question": "What role do repository hosting services play in version control?",
+                    "description": "Explain the significance of repository hosting services in the context of version control.",
+                    "hint": "Consider how these services track changes, manage branches, and facilitate collaboration in software development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Providing real-time traffic updates.",
+                            "description": "Incorrect. Providing real-time traffic updates is not the primary role of repository hosting services in version control.",
+                            "points": 0,
+                            "explanation": "Understanding the role of repository hosting services in version control is crucial for this question."
+                        },
+                        {
+                            "label": "Storing and managing code repositories, tracking changes, and managing branches for collaborative development.",
+                            "description": "Correct! Repository hosting services play a crucial role in version control by storing and managing code repositories, tracking changes, and managing branches for collaborative development.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of repository hosting services in version control is crucial for this question."
+                        },
+                        {
+                            "label": "Hosting online cooking classes.",
+                            "description": "Incorrect. Hosting online cooking classes is not the primary role of repository hosting services in version control.",
+                            "points": 0,
+                            "explanation": "Understanding the role of repository hosting services in version control is crucial for this question."
+                        },
+                        {
+                            "label": "Providing health and wellness tips.",
+                            "description": "Incorrect. Providing health and wellness tips is not the primary role of repository hosting services in version control.",
+                            "points": 0,
+                            "explanation": "Understanding the role of repository hosting services in version control is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "17be8c62-8390-438d-bf4c-8e4c607e0a64",
+                    "question": "How do repository hosting services facilitate collaboration in software development?",
+                    "description": "Explain the ways in which repository hosting services enhance collaboration in software development.",
+                    "hint": "Consider features like pull requests, issue tracking, and code review functionalities.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Facilitating online yoga classes.",
+                            "description": "Incorrect. Facilitating online yoga classes is not the primary way repository hosting services enhance collaboration in software development.",
+                            "points": 0,
+                            "explanation": "Understanding the ways repository hosting services facilitate collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "Storing and managing code repositories, enabling pull requests, issue tracking, and code review functionalities.",
+                            "description": "Correct! Repository hosting services enhance collaboration in software development by storing and managing code repositories and providing features like pull requests, issue tracking, and code review functionalities.",
+                            "points": 3,
+                            "explanation": "Recognizing the ways repository hosting services facilitate collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "Providing weather updates.",
+                            "description": "Incorrect. Providing weather updates is not the primary way repository hosting services enhance collaboration in software development.",
+                            "points": 0,
+                            "explanation": "Understanding the ways repository hosting services facilitate collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "Offering tips for home gardening.",
+                            "description": "Incorrect. Offering tips for home gardening is not the primary way repository hosting services enhance collaboration in software development.",
+                            "points": 0,
+                            "explanation": "Understanding the ways repository hosting services facilitate collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b3e40897-46f0-4b19-bb0e-7a732154ad07",
+                    "question": "In what context are repository hosting services like GitHub, GitLab, and BitBucket commonly used?",
+                    "description": "Identify the common context in which repository hosting services are utilized.",
+                    "hint": "Consider their role in the development of software projects and collaborative coding.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Providing music streaming services.",
+                            "description": "Incorrect. Providing music streaming services is not the common context in which repository hosting services like GitHub, GitLab, and BitBucket are used.",
+                            "points": 0,
+                            "explanation": "Understanding the common context of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Facilitating collaborative software development and version control.",
+                            "description": "Correct! Repository hosting services like GitHub, GitLab, and BitBucket are commonly used in the context of facilitating collaborative software development and version control.",
+                            "points": 3,
+                            "explanation": "Recognizing the common context of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Providing online fitness training.",
+                            "description": "Incorrect. Providing online fitness training is not the common context in which repository hosting services like GitHub, GitLab, and BitBucket are used.",
+                            "points": 0,
+                            "explanation": "Understanding the common context of repository hosting services is crucial for this question."
+                        },
+                        {
+                            "label": "Managing online book clubs.",
+                            "description": "Incorrect. Managing online book clubs is not the common context in which repository hosting services like GitHub, GitLab, and BitBucket are used.",
+                            "points": 0,
+                            "explanation": "Understanding the common context of repository hosting services is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "89623561-6c99-4a24-b5ac-59c0f8e66ea7",
+                    "question": "What is the purpose of 'forking' a repository on platforms like GitHub?",
+                    "description": "Explain the concept of 'forking' a repository and its significance in collaborative software development.",
+                    "hint": "Consider how 'forking' allows users to create independent copies of a repository for their contributions.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Creating a new branch within the repository.",
+                            "description": "Incorrect. 'Forking' is not the process of creating a new branch within the repository.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'forking' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "Merging code changes into the main branch.",
+                            "description": "Incorrect. 'Forking' is not the process of merging code changes into the main branch.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'forking' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "Creating an independent copy of a repository to contribute changes without affecting the original.",
+                            "description": "Correct! 'Forking' involves creating an independent copy of a repository, allowing users to contribute changes without affecting the original.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'forking' is crucial for this question."
+                        },
+                        {
+                            "label": "Deleting the entire repository.",
+                            "description": "Incorrect. 'Forking' is not the process of deleting the entire repository.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'forking' in collaborative development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2e746e0d-b3cf-4074-8bf1-7e8422289ed3",
+                    "question": "What is the significance of 'pull requests' in collaborative software development?",
+                    "description": "Explain the role of 'pull requests' and how they contribute to the collaborative development process.",
+                    "hint": "Consider how 'pull requests' facilitate the review and integration of code changes from contributors.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "They are used to reject code changes proposed by contributors.",
+                            "description": "Incorrect. 'Pull requests' are not primarily used to reject code changes; they are a part of the collaborative review and integration process.",
+                            "points": 0,
+                            "explanation": "Understanding the significance of 'pull requests' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "They facilitate the review and integration of code changes from contributors.",
+                            "description": "Correct! 'Pull requests' play a crucial role in facilitating the review and integration of code changes from contributors.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'pull requests' is crucial for this question."
+                        },
+                        {
+                            "label": "They are solely used for tracking the number of code contributions.",
+                            "description": "Incorrect. While 'pull requests' are related to code contributions, their primary role is not limited to tracking the number of contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the significance of 'pull requests' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "They are used to create separate copies of the repository.",
+                            "description": "Incorrect. 'Pull requests' are not used to create separate copies of the repository; they are part of the process for contributing changes.",
+                            "points": 0,
+                            "explanation": "Understanding the significance of 'pull requests' in collaborative development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "64ed45c0-b781-4329-89b9-d9322f0d88a3",
+                    "question": "How does 'branching' contribute to effective collaboration in software development?",
+                    "description": "Explain the role of 'branching' and its impact on effective collaboration in software development.",
+                    "hint": "Consider how 'branching' allows developers to work on features or fixes without affecting the main codebase.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It is only used to create identical copies of the entire repository.",
+                            "description": "Incorrect. 'Branching' is not solely used to create identical copies of the entire repository.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'branching' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "It has no impact on collaboration; it is only for personal code management.",
+                            "description": "Incorrect. 'Branching' has a significant impact on collaboration by allowing developers to work on features or fixes without affecting the main codebase.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'branching' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "It enables developers to work on features or fixes in isolation, avoiding interference with the main codebase.",
+                            "description": "Correct! 'Branching' enables developers to work on features or fixes in isolation, avoiding interference with the main codebase and contributing to effective collaboration.",
+                            "points": 3,
+                            "explanation": "Recognizing the impact of 'branching' on collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is used to delete code changes made by contributors.",
+                            "description": "Incorrect. 'Branching' is not used to delete code changes made by contributors; its primary role is in enabling collaborative development.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'branching' in collaborative development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5483b7b2-4081-4c4e-889f-e79ef2904dd2",
+                    "question": "What is the primary function of 'issues' in the context of collaborative software development?",
+                    "description": "Explain the role of 'issues' and how they contribute to effective collaboration in software development.",
+                    "hint": "Consider how 'issues' are used to track tasks, enhancements, bugs, and other contributions.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "They are only used to list contributors to a project.",
+                            "description": "Incorrect. While 'issues' may contain information about contributors, their primary role is not limited to listing contributors.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'issues' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "They facilitate tracking tasks, enhancements, bugs, and other contributions in a project.",
+                            "description": "Correct! 'Issues' play a crucial role in facilitating the tracking of tasks, enhancements, bugs, and other contributions in a project.",
+                            "points": 3,
+                            "explanation": "Recognizing the primary function of 'issues' is crucial for this question."
+                        },
+                        {
+                            "label": "They are used to create duplicate copies of the entire repository.",
+                            "description": "Incorrect. 'Issues' are not used to create duplicate copies of the entire repository; their primary role is in tracking and managing project-related items.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'issues' in collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "They are used to delete code changes made by contributors.",
+                            "description": "Incorrect. 'Issues' are not used to delete code changes made by contributors; their primary role is in tracking and managing project-related items.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'issues' in collaborative development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2a24e9b9-1c90-4383-8a19-46c3174ff02c",
+                    "question": "How do 'merge conflicts' occur in the context of collaborative software development?",
+                    "description": "Explain the scenario and reasons behind the occurrence of 'merge conflicts' in collaborative software development.",
+                    "hint": "Consider situations where changes made by one contributor conflict with changes made by another.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "They occur when creating a new branch in the repository.",
+                            "description": "Incorrect. 'Merge conflicts' do not primarily occur when creating a new branch; they are related to conflicting changes made by contributors.",
+                            "points": 0,
+                            "explanation": "Understanding the occurrence of 'merge conflicts' is crucial for this question."
+                        },
+                        {
+                            "label": "They occur when code changes are successfully integrated without any issues.",
+                            "description": "Incorrect. 'Merge conflicts' do not occur when code changes are successfully integrated without any issues; they arise when conflicting changes need resolution.",
+                            "points": 0,
+                            "explanation": "Understanding the occurrence of 'merge conflicts' is crucial for this question."
+                        },
+                        {
+                            "label": "They occur when conflicting changes made by contributors need resolution during code integration.",
+                            "description": "Correct! 'Merge conflicts' occur when conflicting changes made by contributors need resolution during code integration.",
+                            "points": 3,
+                            "explanation": "Recognizing the scenario behind the occurrence of 'merge conflicts' is crucial for this question."
+                        },
+                        {
+                            "label": "They occur randomly and cannot be predicted.",
+                            "description": "Incorrect. 'Merge conflicts' do not occur randomly; they have specific reasons related to conflicting changes.",
+                            "points": 0,
+                            "explanation": "Understanding the occurrence of 'merge conflicts' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fbdbb2f3-20a8-497f-952e-19f3a1e265b5",
+                    "question": "What is the primary purpose of 'README' files in software repositories?",
+                    "description": "Explain the significance of 'README' files and their primary purpose in software repositories.",
+                    "hint": "Consider how 'README' files provide essential information about the project, including setup instructions, usage guidelines, and project details.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "They are used to store copies of image files.",
+                            "description": "Incorrect. 'README' files are not primarily used to store copies of image files; their purpose is related to project documentation.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'README' files is crucial for this question."
+                        },
+                        {
+                            "label": "They contain only the names of contributors to the project.",
+                            "description": "Incorrect. While 'README' files may include information about contributors, their primary purpose is not limited to listing contributor names.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'README' files is crucial for this question."
+                        },
+                        {
+                            "label": "They provide essential information about the project, including setup instructions, usage guidelines, and project details.",
+                            "description": "Correct! 'README' files serve the purpose of providing essential information about the project, including setup instructions, usage guidelines, and project details.",
+                            "points": 3,
+                            "explanation": "Recognizing the primary purpose of 'README' files is crucial for this question."
+                        },
+                        {
+                            "label": "They are used to host video tutorials related to the project.",
+                            "description": "Incorrect. 'README' files are not used to host video tutorials; their primary purpose is related to textual project documentation.",
+                            "points": 0,
+                            "explanation": "Understanding the primary purpose of 'README' files is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d3e740e1-e764-41cf-9672-17b77a408eda",
+                    "question": "What is the purpose of 'gitignore' files in software repositories?",
+                    "description": "Explain the role of 'gitignore' files and their significance in software repositories.",
+                    "hint": "Consider how 'gitignore' files help exclude certain files or directories from version control.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "They are used to track changes in all files within the repository.",
+                            "description": "Incorrect. 'gitignore' files are not used to track changes in all files within the repository; their purpose is to exclude specific files or directories from version control.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'gitignore' files is crucial for this question."
+                        },
+                        {
+                            "label": "They solely contain the names of contributors to the project.",
+                            "description": "Incorrect. While 'gitignore' files may be part of the project, their primary purpose is not to contain contributor names.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'gitignore' files is crucial for this question."
+                        },
+                        {
+                            "label": "They help exclude certain files or directories from version control.",
+                            "description": "Correct! 'gitignore' files play a crucial role in excluding specific files or directories from version control in a software repository.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'gitignore' files is crucial for this question."
+                        },
+                        {
+                            "label": "They are used to automatically merge conflicting code changes.",
+                            "description": "Incorrect. 'gitignore' files are not used for automatically merging conflicting code changes; their purpose is related to version control exclusions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'gitignore' files is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "82e3eb38-810a-4d41-a2ee-71dbcd733350",
+                    "question": "What is the role of 'Wiki' features in repository hosting services?",
+                    "description": "Explain how 'Wiki' features contribute to the documentation and information-sharing aspects of repository hosting services.",
+                    "hint": "Consider how 'Wiki' features provide a collaborative platform for creating and maintaining documentation.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "They are used to track code changes made by contributors.",
+                            "description": "Incorrect. 'Wiki' features are not primarily used to track code changes made by contributors; their role is related to documentation and information sharing.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'Wiki' features is crucial for this question."
+                        },
+                        {
+                            "label": "They are used to create independent copies of the entire repository.",
+                            "description": "Incorrect. 'Wiki' features are not used to create independent copies of the entire repository; their role is in collaborative documentation.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'Wiki' features is crucial for this question."
+                        },
+                        {
+                            "label": "They provide a collaborative platform for creating and maintaining documentation.",
+                            "description": "Correct! 'Wiki' features contribute to collaborative documentation by providing a platform for creating and maintaining project-related information.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of 'Wiki' features is crucial for this question."
+                        },
+                        {
+                            "label": "They are used to automatically deploy the project to production servers.",
+                            "description": "Incorrect. 'Wiki' features are not used for automatically deploying projects; their role is related to documentation and information sharing.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'Wiki' features is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a070b256-b1da-4ff9-8c04-3c6f4e8d81b4",
+                    "question": "What is the purpose of 'webhooks' in the context of repository hosting services?",
+                    "description": "Explain the role of 'webhooks' and their significance in enhancing automation in repository hosting services.",
+                    "hint": "Consider how 'webhooks' enable automated reactions to events such as code pushes, issues, or pull requests.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "They are used to create visual designs for the project's website.",
+                            "description": "Incorrect. 'Webhooks' are not primarily used to create visual designs for a project's website; their role is in enhancing automation.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'webhooks' is crucial for this question."
+                        },
+                        {
+                            "label": "They solely contain information about project contributors.",
+                            "description": "Incorrect. While 'webhooks' may be related to project activities, their primary purpose is not to contain information about contributors.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'webhooks' is crucial for this question."
+                        },
+                        {
+                            "label": "They enable automated reactions to events such as code pushes, issues, or pull requests.",
+                            "description": "Correct! 'Webhooks' play a crucial role in enhancing automation by enabling automated reactions to specific events in repository hosting services.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'webhooks' is crucial for this question."
+                        },
+                        {
+                            "label": "They are used to delete code changes made by contributors.",
+                            "description": "Incorrect. 'Webhooks' are not used to delete code changes made by contributors; their role is in automating reactions to events.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'webhooks' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2007d03a-25c1-4af9-9166-22f8c5ed6e32",
+                    "question": "How does 'blame' functionality in version control systems contribute to collaboration?",
+                    "description": "Explain how the 'blame' functionality enhances collaboration in version control systems.",
+                    "hint": "Consider how 'blame' helps identify the author of each line of code and understand code evolution.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "It is used to criticize contributors for their code quality.",
+                            "description": "Incorrect. 'Blame' functionality is not used to criticize contributors; its role is related to understanding code authorship and evolution.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'blame' functionality is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to delete code without any trace.",
+                            "description": "Incorrect. 'Blame' functionality does not allow contributors to delete code without any trace; its purpose is in identifying code authorship.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'blame' functionality is crucial for this question."
+                        },
+                        {
+                            "label": "It helps identify the author of each line of code and understand code evolution.",
+                            "description": "Correct! 'Blame' functionality plays a crucial role in identifying the authorship of each line of code and understanding the evolution of code over time.",
+                            "points": 3,
+                            "explanation": "Recognizing the contribution of 'blame' functionality to collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used for tracking the number of contributions made by each contributor.",
+                            "description": "Incorrect. While 'blame' may provide information about code contributions, its primary role is in understanding code authorship.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'blame' functionality is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ddb9a3f1-0fb1-48cf-9da9-69d155ac3888",
+                    "question": "How does the 'branch' feature in version control systems contribute to collaborative software development?",
+                    "description": "Explain the significance of the 'branch' feature and how it facilitates collaborative development in version control systems.",
+                    "hint": "Consider how 'branching' allows contributors to work on independent features or changes without affecting the main codebase.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used to delete code changes made by contributors.",
+                            "description": "Incorrect. 'Branching' is not used to delete code changes; its purpose is related to isolating and working on independent features.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'branching' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features or changes without affecting the main codebase.",
+                            "description": "Correct! The 'branch' feature allows contributors to create independent branches for working on features or changes without affecting the main codebase.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'branching' for collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used for tracking the number of code contributions to a project.",
+                            "description": "Incorrect. While 'branching' may be related to code contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'branching' is crucial for this question."
+                        },
+                        {
+                            "label": "It enables contributors to directly edit the main codebase without creating separate branches.",
+                            "description": "Incorrect. 'Branching' is not used to directly edit the main codebase; its purpose is to isolate changes in separate branches.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'branching' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "cc5d91e7-222c-4be3-af9d-b7403f4e51b4",
+                    "question": "What is the role of 'code reviews' in the collaborative development process?",
+                    "description": "Explain how 'code reviews' contribute to the collaborative development process in software projects.",
+                    "hint": "Consider how 'code reviews' help ensure code quality, identify issues, and provide constructive feedback.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "They are used to criticize contributors for their code quality.",
+                            "description": "Incorrect. 'Code reviews' are not meant to criticize contributors; their purpose is to ensure code quality and provide constructive feedback.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'code reviews' is crucial for this question."
+                        },
+                        {
+                            "label": "They solely involve automated tools for checking code syntax.",
+                            "description": "Incorrect. While automated tools may be part of 'code reviews,' the process also involves human review and feedback.",
+                            "points": 0,
+                            "explanation": "Understanding the comprehensive nature of 'code reviews' is crucial for this question."
+                        },
+                        {
+                            "label": "They help ensure code quality, identify issues, and provide constructive feedback.",
+                            "description": "Correct! 'Code reviews' play a crucial role in ensuring code quality, identifying issues, and providing constructive feedback to contributors.",
+                            "points": 3,
+                            "explanation": "Recognizing the multifaceted nature of 'code reviews' is crucial for this question."
+                        },
+                        {
+                            "label": "They are solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'code reviews' may involve reviewing contributions, their primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'code reviews' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "4c6a9067-ee49-4082-b007-920b3b1cfdd0",
+                    "question": "How does 'continuous integration' contribute to collaborative software development?",
+                    "description": "Explain the role of 'continuous integration' and its significance in facilitating collaborative software development.",
+                    "hint": "Consider how 'continuous integration' involves automatically building and testing code changes.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used to manually deploy code changes to production servers.",
+                            "description": "Incorrect. 'Continuous integration' is not used for manual deployment; its role is in automated building and testing of code changes.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'continuous integration' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'continuous integration' facilitates code integration, it does not encourage contributors to work independently without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'continuous integration' is crucial for this question."
+                        },
+                        {
+                            "label": "It involves automatically building and testing code changes to ensure integration and identify issues early.",
+                            "description": "Correct! 'Continuous integration' plays a crucial role in automatically building and testing code changes to ensure integration and identify issues early in the development process.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'continuous integration' for collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'continuous integration' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'continuous integration' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d137cb29-93a4-4a8a-86a8-07c892a5bc9a",
+                    "question": "How does 'containerization' contribute to collaborative software development?",
+                    "description": "Explain the role of 'containerization' and its significance in facilitating collaborative software development.",
+                    "hint": "Consider how 'containerization' enables consistent deployment across different environments and simplifies dependencies.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used to manually deploy code changes to production servers.",
+                            "description": "Incorrect. 'Containerization' is not used for manual deployment; its role is in providing consistent deployment across different environments.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'containerization' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. 'Containerization' does not encourage contributors to work independently without coordination; its purpose is related to deployment consistency.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'containerization' is crucial for this question."
+                        },
+                        {
+                            "label": "It enables consistent deployment across different environments and simplifies dependencies.",
+                            "description": "Correct! 'Containerization' plays a crucial role in enabling consistent deployment across different environments and simplifying dependencies in collaborative software development.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'containerization' for collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'containerization' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'containerization' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fe9c9ed3-03ce-442e-94c1-dc00d3c1a236",
+                    "question": "What is the role of 'deployment pipelines' in the context of collaborative software development?",
+                    "description": "Explain how 'deployment pipelines' contribute to the collaborative software development process.",
+                    "hint": "Consider how 'deployment pipelines' automate the steps from code changes to production deployment.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "They are used to manually deploy code changes to production servers.",
+                            "description": "Incorrect. 'Deployment pipelines' are not used for manual deployment; their role is in automating the steps from code changes to production deployment.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'deployment pipelines' is crucial for this question."
+                        },
+                        {
+                            "label": "They allow contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. 'Deployment pipelines' do not encourage contributors to work independently without coordination; their purpose is in automation.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'deployment pipelines' is crucial for this question."
+                        },
+                        {
+                            "label": "They automate the steps from code changes to production deployment, ensuring consistency and efficiency.",
+                            "description": "Correct! 'Deployment pipelines' play a crucial role in automating the steps from code changes to production deployment, ensuring consistency and efficiency in collaborative development.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'deployment pipelines' for collaborative development is crucial for this question."
+                        },
+                        {
+                            "label": "They are solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'deployment pipelines' may involve tracking contributions, their primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'deployment pipelines' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "68dfecfe-2a77-49c7-8fc3-51c35e44d21d",
+                    "question": "How does the 'merge' operation in version control systems contribute to collaborative software development?",
+                    "description": "Explain the significance of the 'merge' operation and how it facilitates collaboration in version control systems.",
+                    "hint": "Consider how 'merging' allows integrating changes from one branch into another, ensuring a cohesive codebase.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used to delete code changes made by contributors.",
+                            "description": "Incorrect. The 'merge' operation is not used to delete code changes; its purpose is related to integrating changes from one branch into another.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of the 'merge' operation is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'merging' facilitates collaboration, it does not encourage contributors to work independently without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'merging' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It facilitates integrating changes from one branch into another, ensuring a cohesive codebase.",
+                            "description": "Correct! The 'merge' operation facilitates integrating changes from one branch into another, ensuring a cohesive codebase in collaborative software development.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of the 'merge' operation for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used for tracking the number of code contributions to a project.",
+                            "description": "Incorrect. While 'merging' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of the 'merge' operation is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "02e2d18c-d8e5-4152-8c35-c5a0ad441d1a",
+                    "question": "What is the significance of 'version tagging' in collaborative software development?",
+                    "description": "Explain the role of 'version tagging' and how it contributes to the collaborative development process.",
+                    "hint": "Consider how 'version tagging' enables the identification of specific releases and provides a reference point for collaboration.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used to delete code changes made by contributors.",
+                            "description": "Incorrect. 'Version tagging' is not used to delete code changes; its purpose is related to identifying specific releases.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'version tagging' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. 'Version tagging' does not facilitate independent work without coordination; its purpose is related to release identification.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'version tagging' is crucial for this question."
+                        },
+                        {
+                            "label": "It enables the identification of specific releases and provides a reference point for collaboration.",
+                            "description": "Correct! 'Version tagging' enables the identification of specific releases and provides a reference point for collaboration in the development process.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'version tagging' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used for tracking the number of code contributions to a project.",
+                            "description": "Incorrect. While 'version tagging' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'version tagging' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a0fc29a5-187b-4f06-960f-ec82441c971c",
+                    "question": "How does 'cherry-picking' contribute to collaborative software development?",
+                    "description": "Explain the significance of 'cherry-picking' and how it facilitates collaboration in version control systems.",
+                    "hint": "Consider how 'cherry-picking' allows selecting and applying specific changes without merging entire branches.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used to delete code changes made by contributors.",
+                            "description": "Incorrect. 'Cherry-picking' is not used to delete code changes; its purpose is related to selecting and applying specific changes.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'cherry-picking' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'cherry-picking' facilitates collaboration, it does not encourage contributors to work independently without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'cherry-picking' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It facilitates selecting and applying specific changes without merging entire branches.",
+                            "description": "Correct! 'Cherry-picking' facilitates selecting and applying specific changes without merging entire branches, contributing to collaboration in version control systems.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'cherry-picking' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used for tracking the number of code contributions to a project.",
+                            "description": "Incorrect. While 'cherry-picking' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'cherry-picking' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "3f5d0b89-cf2e-42c7-bc78-508d8b0798d0",
+                    "question": "What is the purpose of 'blame' or 'annotate' functionality in version control systems?",
+                    "description": "Explain the purpose of the 'blame' or 'annotate' functionality and how it contributes to collaborative software development.",
+                    "hint": "Consider how 'blame' or 'annotate' helps identify the authorship of specific code lines and understand the history of changes.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used to criticize contributors for their code quality.",
+                            "description": "Incorrect. 'Blame' or 'annotate' functionality is not used to criticize contributors; its purpose is related to identifying authorship and understanding changes.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'blame' or 'annotate' is crucial for this question."
+                        },
+                        {
+                            "label": "It solely involves automated tools for checking code syntax.",
+                            "description": "Incorrect. While automated tools may be part of version control, 'blame' or 'annotate' involves identifying authorship and understanding changes.",
+                            "points": 0,
+                            "explanation": "Understanding the comprehensive nature of 'blame' or 'annotate' is crucial for this question."
+                        },
+                        {
+                            "label": "It helps identify the authorship of specific code lines and understand the history of changes.",
+                            "description": "Correct! 'Blame' or 'annotate' functionality helps identify the authorship of specific code lines and understand the history of changes, contributing to collaboration in version control systems.",
+                            "points": 3,
+                            "explanation": "Recognizing the purpose of 'blame' or 'annotate' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'blame' or 'annotate' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'blame' or 'annotate' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1ccf3a41-68b2-4ef5-b2c7-9b00410972e2",
+                    "question": "How does the 'fork' feature in repository hosting services contribute to collaborative development?",
+                    "description": "Explain the significance of the 'fork' feature and how it facilitates collaboration in repository hosting services.",
+                    "hint": "Consider how 'forking' allows contributors to create independent copies of a repository for making changes without affecting the original.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "It is used to delete code changes made by contributors.",
+                            "description": "Incorrect. The 'fork' feature is not used to delete code changes; its purpose is related to creating independent copies of a repository.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of the 'fork' feature is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'forking' facilitates collaboration, it does not encourage contributors to work independently without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'forking' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It facilitates creating independent copies of a repository for making changes without affecting the original.",
+                            "description": "Correct! The 'fork' feature facilitates creating independent copies of a repository, allowing contributors to make changes without affecting the original, contributing to collaboration in repository hosting services.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of the 'fork' feature for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used for tracking the number of code contributions to a project.",
+                            "description": "Incorrect. While 'forking' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of the 'fork' feature is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7d31d7aa-665b-4f52-8f48-d6ad2820fc56",
+                    "question": "What is the significance of 'code freeze' in the context of collaborative software development?",
+                    "description": "Explain the purpose of 'code freeze' and how it contributes to the collaborative development process.",
+                    "hint": "Consider how 'code freeze' involves temporarily halting the introduction of new features or changes to focus on stabilization and testing.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Code freeze' is not used to permanently stop development; its purpose is related to temporary halting for stabilization and testing.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'code freeze' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. 'Code freeze' involves collaboration, but its purpose is not to encourage independent work; rather, it focuses on stabilization.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'code freeze' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It involves temporarily halting the introduction of new features or changes to focus on stabilization and testing.",
+                            "description": "Correct! 'Code freeze' involves temporarily halting the introduction of new features or changes, allowing the team to focus on stabilization and testing in the collaborative development process.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'code freeze' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'code freeze' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'code freeze' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1a0a42a9-05a1-4a9e-b307-798e816156a7",
+                    "question": "What role does 'backward compatibility' play in collaborative software development?",
+                    "description": "Explain the significance of 'backward compatibility' and how it contributes to the collaborative development process.",
+                    "hint": "Consider how 'backward compatibility' ensures that new versions of software can work with existing versions, promoting a smooth collaborative development process.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to criticize contributors for their code quality.",
+                            "description": "Incorrect. 'Backward compatibility' is not used to criticize contributors; its purpose is related to ensuring compatibility between software versions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'backward compatibility' is crucial for this question."
+                        },
+                        {
+                            "label": "It solely involves automated tools for checking code syntax.",
+                            "description": "Incorrect. While automated tools may be part of collaborative development, 'backward compatibility' involves ensuring compatibility between software versions.",
+                            "points": 0,
+                            "explanation": "Understanding the comprehensive nature of 'backward compatibility' is crucial for this question."
+                        },
+                        {
+                            "label": "It ensures that new versions of software can work with existing versions, promoting a smooth collaborative development process.",
+                            "description": "Correct! 'Backward compatibility' ensures that new versions of software can work with existing versions, promoting a smooth collaborative development process.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'backward compatibility' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'backward compatibility' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'backward compatibility' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "4c67f12d-145e-4728-94f5-eb00ad497cda",
+                    "question": "How does the concept of 'feature branching' contribute to collaborative software development?",
+                    "description": "Explain the significance of 'feature branching' and how it facilitates collaboration in version control systems.",
+                    "hint": "Consider how 'feature branching' allows contributors to work on independent features or changes without affecting the main codebase.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to delete code changes made by contributors.",
+                            "description": "Incorrect. 'Feature branching' is not used to delete code changes; its purpose is related to working on independent features without affecting the main codebase.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'feature branching' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'feature branching' facilitates collaboration, it does not encourage contributors to work independently without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'feature branching' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It facilitates working on independent features or changes without affecting the main codebase.",
+                            "description": "Correct! 'Feature branching' facilitates working on independent features or changes without affecting the main codebase, contributing to collaboration in version control systems.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'feature branching' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used for tracking the number of code contributions to a project.",
+                            "description": "Incorrect. While 'feature branching' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'feature branching' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6a3a7b8b-bb13-470c-834f-cad33a7e686d",
+                    "question": "How does 'continuous integration' enhance collaboration in software development?",
+                    "description": "Explain how 'continuous integration' contributes to collaboration by automatically integrating code changes and running tests.",
+                    "hint": "Consider how 'continuous integration' helps identify and address integration issues early in the development process.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "description": "Incorrect. 'Continuous integration' does not involve tracking contributions; its primary purpose is to automate code integration and testing.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'continuous integration' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'continuous integration' facilitates collaboration, it does not encourage contributors to work independently without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'continuous integration' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It enhances collaboration by automatically integrating code changes and running tests, identifying and addressing integration issues early in the development process.",
+                            "description": "Correct! 'Continuous integration' enhances collaboration by automatically integrating code changes and running tests, helping identify and address integration issues early in the development process.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'continuous integration' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions to a project.",
+                            "description": "Incorrect. While 'continuous integration' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'continuous integration' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c5e3d04f-5a8e-45e4-a913-aa274f9e1955",
+                    "question": "How does 'code review' contribute to collaborative software development?",
+                    "description": "Explain the role of 'code review' in the collaborative development process and its significance.",
+                    "hint": "Consider how 'code review' involves peers reviewing code changes for quality, consistency, and adherence to coding standards.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to criticize contributors for their code quality.",
+                            "description": "Incorrect. 'Code review' is not used to criticize contributors; its purpose is related to improving code quality and adherence to standards.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'code review' is crucial for this question."
+                        },
+                        {
+                            "label": "It solely involves automated tools for checking code syntax.",
+                            "description": "Incorrect. While automated tools may be part of 'code review,' the process also involves human evaluation of code quality and standards adherence.",
+                            "points": 0,
+                            "explanation": "Understanding the comprehensive nature of 'code review' is crucial for this question."
+                        },
+                        {
+                            "label": "It involves peers reviewing code changes for quality, consistency, and adherence to coding standards, contributing to improved code quality.",
+                            "description": "Correct! 'Code review' involves peers reviewing code changes for quality, consistency, and adherence to coding standards, contributing to improved code quality in the collaborative development process.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'code review' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used for tracking the number of code contributions to a project.",
+                            "description": "Incorrect. While 'code review' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'code review' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "31b1f8ef-77de-4b1b-8f8f-d4e21df1523b",
+                    "question": "What is the role of 'dependency management' in collaborative software development?",
+                    "description": "Explain the significance of 'dependency management' and how it contributes to the collaborative development process.",
+                    "hint": "Consider how 'dependency management' involves handling external libraries and ensuring compatibility between different software components.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Dependency management' is not used to permanently stop development; its purpose is related to handling external libraries.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'dependency management' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'dependency management' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'dependency management' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It involves handling external libraries and ensuring compatibility between different software components.",
+                            "description": "Correct! 'Dependency management' involves handling external libraries and ensuring compatibility between different software components, contributing to collaboration in the development process.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'dependency management' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'dependency management' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'dependency management' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c06c6a41-d2cf-4611-8d11-6749a4b6e65f",
+                    "question": "How does the use of 'pre-commit hooks' enhance collaborative software development?",
+                    "description": "Explain how 'pre-commit hooks' contribute to collaboration by automatically checking code before it is committed to version control.",
+                    "hint": "Consider how 'pre-commit hooks' help maintain code quality, enforce coding standards, and prevent potential issues.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Pre-commit hooks' are not used to permanently stop development; their purpose is related to automatically checking code before it is committed.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'pre-commit hooks' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'pre-commit hooks' facilitate collaboration, their purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'pre-commit hooks' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "They contribute to collaboration by automatically checking code before it is committed, helping maintain code quality, enforce coding standards, and prevent potential issues.",
+                            "description": "Correct! 'Pre-commit hooks' contribute to collaboration by automatically checking code before it is committed, helping maintain code quality, enforce coding standards, and prevent potential issues.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'pre-commit hooks' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "They are solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'pre-commit hooks' may involve tracking contributions, their primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'pre-commit hooks' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "bf170929-828a-4fc8-9e2a-2b46a394dd2f",
+                    "question": "What is the purpose of 'git bisect' in collaborative software development?",
+                    "description": "Explain the role of 'git bisect' and how it contributes to collaboration by identifying the commit that introduced a bug.",
+                    "hint": "Consider how 'git bisect' helps pinpoint the specific commit that introduced a bug, facilitating collaboration in bug identification and resolution.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git bisect' is not used to permanently stop development; its purpose is related to identifying the commit that introduced a bug.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git bisect' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git bisect' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git bisect' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by identifying the commit that introduced a bug, facilitating bug identification and resolution.",
+                            "description": "Correct! 'Git bisect' contributes to collaboration by identifying the commit that introduced a bug, facilitating collaboration in bug identification and resolution.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git bisect' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git bisect' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git bisect' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2a6232f7-c609-4ab1-8bc2-bd7fe6e1f8cf",
+                    "question": "How does 'git rebase' enhance collaboration in version control?",
+                    "description": "Explain how 'git rebase' contributes to collaboration by integrating changes from one branch to another while maintaining a linear commit history.",
+                    "hint": "Consider how 'git rebase' helps create a cleaner and more linear commit history, enhancing collaboration in version control.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git rebase' is not used to permanently stop development; its purpose is related to integrating changes while maintaining a linear commit history.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git rebase' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git rebase' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git rebase' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by integrating changes from one branch to another while maintaining a cleaner and more linear commit history.",
+                            "description": "Correct! 'Git rebase' contributes to collaboration by integrating changes while maintaining a cleaner and more linear commit history, enhancing collaboration in version control.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git rebase' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git rebase' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git rebase' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b7a36227-08a3-4de1-a5de-96c34cc08fa0",
+                    "question": "What is the purpose of 'git cherry-pick' in collaborative software development?",
+                    "description": "Explain the role of 'git cherry-pick' and how it contributes to collaboration by applying specific commits to another branch.",
+                    "hint": "Consider how 'git cherry-pick' allows contributors to apply specific commits to another branch, facilitating collaboration in code integration.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git cherry-pick' is not used to permanently stop development; its purpose is related to applying specific commits to another branch.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git cherry-pick' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git cherry-pick' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git cherry-pick' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by applying specific commits to another branch, facilitating collaboration in code integration.",
+                            "description": "Correct! 'Git cherry-pick' contributes to collaboration by applying specific commits to another branch, facilitating collaboration in code integration.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git cherry-pick' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git cherry-pick' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git cherry-pick' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ca5a7e33-2141-4b4f-86f8-b506aa6af9b7",
+                    "question": "Explain the role of 'git submodules' in collaborative software development and how they facilitate the management of project dependencies.",
+                    "description": "Elaborate on the purpose of 'git submodules' and their significance in managing project dependencies in a collaborative development environment.",
+                    "hint": "Consider how 'git submodules' enable the inclusion of external repositories within a project, aiding in the management of dependencies.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git submodules' are not used to permanently stop development; their purpose is related to managing project dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git submodules' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git submodules' facilitate collaboration, their purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git submodules' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "They contribute to collaboration by enabling the inclusion of external repositories within a project, aiding in the management of project dependencies.",
+                            "description": "Correct! 'Git submodules' contribute to collaboration by enabling the inclusion of external repositories within a project, aiding in the management of project dependencies.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git submodules' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git submodules' may involve tracking contributions, their primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git submodules' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0b6b59ec-37ab-4011-8e2e-bd8f8c4811a5",
+                    "question": "How does the concept of 'git blame' enhance collaboration in software development?",
+                    "description": "Explain the role of 'git blame' and how it contributes to collaboration by identifying the author and commit history of each line in a file.",
+                    "hint": "Consider how 'git blame' helps in accountability, understanding code history, and facilitating communication among contributors.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git blame' is not used to permanently stop development; its purpose is related to identifying the author and commit history of each line in a file.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git blame' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git blame' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git blame' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by identifying the author and commit history of each line in a file, aiding in accountability and understanding code history.",
+                            "description": "Correct! 'Git blame' contributes to collaboration by identifying the author and commit history of each line in a file, aiding in accountability and understanding code history.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git blame' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git blame' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git blame' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1bc38df5-3e48-4b74-8425-9d2cc2cc6484",
+                    "question": "What is the purpose of 'git squash' in collaborative software development?",
+                    "description": "Explain the role of 'git squash' and how it contributes to collaboration by combining multiple commits into a single commit.",
+                    "hint": "Consider how 'git squash' helps maintain a cleaner commit history, simplifying the understanding of project changes and facilitating collaboration.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git squash' is not used to permanently stop development; its purpose is related to combining multiple commits into a single commit.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git squash' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git squash' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git squash' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by combining multiple commits into a single commit, maintaining a cleaner commit history and facilitating the understanding of project changes.",
+                            "description": "Correct! 'Git squash' contributes to collaboration by combining multiple commits into a single commit, maintaining a cleaner commit history and facilitating the understanding of project changes.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git squash' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git squash' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git squash' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7f0e3095-dc60-4904-8c85-6f020cc8408b",
+                    "question": "Explain how 'git hooks' enhance collaboration in software development.",
+                    "description": "Elaborate on the role of 'git hooks' and how they contribute to collaboration by automating tasks and enforcing project-specific workflows.",
+                    "hint": "Consider how 'git hooks' automate tasks such as code linting, testing, and enforcing project-specific workflows, enhancing collaboration.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git hooks' are not used to permanently stop development; their purpose is related to automating tasks and enforcing project-specific workflows.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git hooks' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git hooks' facilitate collaboration, their purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git hooks' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "They contribute to collaboration by automating tasks such as code linting, testing, and enforcing project-specific workflows.",
+                            "description": "Correct! 'Git hooks' contribute to collaboration by automating tasks such as code linting, testing, and enforcing project-specific workflows.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git hooks' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git hooks' may involve tracking contributions, their primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git hooks' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c0039a89-1a18-4c67-8ccf-2050d5c3a7c2",
+                    "question": "Explain how 'git rebase -i' enhances collaboration in software development.",
+                    "description": "Elaborate on the role of 'git rebase -i' and how it contributes to collaboration by allowing interactive rebasing and history editing.",
+                    "hint": "Consider how 'git rebase -i' allows contributors to interactively rebase and edit commit history, enhancing collaboration in maintaining a clean and meaningful history.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git rebase -i' is not used to permanently stop development; its purpose is related to allowing interactive rebasing and history editing.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git rebase -i' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git rebase -i' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git rebase -i' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by allowing interactive rebasing and history editing, facilitating contributors in maintaining a clean and meaningful commit history.",
+                            "description": "Correct! 'Git rebase -i' contributes to collaboration by allowing interactive rebasing and history editing, facilitating contributors in maintaining a clean and meaningful commit history.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git rebase -i' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git rebase -i' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git rebase -i' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c07d9bb6-cbb9-4b0d-bfc1-e9ee50f774df",
+                    "question": "How does the concept of 'git stash' enhance collaboration in software development?",
+                    "description": "Explain the role of 'git stash' and how it contributes to collaboration by allowing contributors to temporarily save changes and switch branches.",
+                    "hint": "Consider how 'git stash' enables contributors to save changes temporarily, facilitating collaboration when switching between tasks or branches.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git stash' is not used to permanently stop development; its purpose is related to allowing contributors to temporarily save changes.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git stash' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git stash' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git stash' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by allowing contributors to temporarily save changes and switch branches, facilitating collaboration when switching between tasks.",
+                            "description": "Correct! 'Git stash' contributes to collaboration by allowing contributors to temporarily save changes and switch branches, facilitating collaboration when switching between tasks or branches.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git stash' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git stash' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git stash' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "89135e7b-2717-480b-bc1c-8cdd1761c78b",
+                    "question": "What is the purpose of 'git revert' in collaborative software development?",
+                    "description": "Explain the role of 'git revert' and how it contributes to collaboration by creating a new commit that undoes changes made in a previous commit.",
+                    "hint": "Consider how 'git revert' allows contributors to undo changes made in a previous commit, facilitating collaboration by maintaining a record of changes.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git revert' is not used to permanently stop development; its purpose is related to creating a new commit that undoes changes.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git revert' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git revert' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git revert' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by creating a new commit that undoes changes made in a previous commit, maintaining a record of changes.",
+                            "description": "Correct! 'Git revert' contributes to collaboration by creating a new commit that undoes changes made in a previous commit, maintaining a record of changes.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git revert' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git revert' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git revert' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d4186504-963d-4084-bb07-ba07c785c9b7",
+                    "question": "Explain the significance of 'git bisect' in collaborative software development and how it helps identify the commit introducing a bug.",
+                    "description": "Elaborate on the role of 'git bisect' and its importance in collaborative development by aiding in the identification of the commit that introduced a bug.",
+                    "hint": "Consider how 'git bisect' automates the process of pinpointing the commit introducing a bug, facilitating collaboration in bug identification and resolution.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git bisect' is not used to permanently stop development; its purpose is related to identifying the commit introducing a bug.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git bisect' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git bisect' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git bisect' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by automating the process of identifying the commit introducing a bug, facilitating collaboration in bug identification and resolution.",
+                            "description": "Correct! 'Git bisect' contributes to collaboration by automating the process of identifying the commit introducing a bug, facilitating collaboration in bug identification and resolution.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git bisect' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git bisect' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git bisect' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b8e52e3e-6e2f-4423-bc5c-c130ef1eef5c",
+                    "question": "How does the concept of 'git cherry-pick' enhance collaboration in software development?",
+                    "description": "Explain the role of 'git cherry-pick' and how it contributes to collaboration by allowing the selective application of specific commits to another branch.",
+                    "hint": "Consider how 'git cherry-pick' enables contributors to selectively apply specific commits, facilitating collaboration in incorporating relevant changes between branches.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git cherry-pick' is not used to permanently stop development; its purpose is related to selectively applying specific commits.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git cherry-pick' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git cherry-pick' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git cherry-pick' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by allowing the selective application of specific commits to another branch, facilitating collaboration in incorporating relevant changes between branches.",
+                            "description": "Correct! 'Git cherry-pick' contributes to collaboration by allowing the selective application of specific commits to another branch, facilitating collaboration in incorporating relevant changes between branches.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git cherry-pick' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git cherry-pick' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git cherry-pick' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "bd2baf88-7383-4e23-9da0-1928a6dd0bf5",
+                    "question": "What is the purpose of 'git worktree' in collaborative software development?",
+                    "description": "Explain the role of 'git worktree' and how it contributes to collaboration by allowing contributors to work on multiple branches simultaneously.",
+                    "hint": "Consider how 'git worktree' enables contributors to work on multiple branches simultaneously, facilitating collaboration when handling multiple tasks or features.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "It is used to permanently stop the development of a software project.",
+                            "description": "Incorrect. 'Git worktree' is not used to permanently stop development; its purpose is related to allowing contributors to work on multiple branches simultaneously.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git worktree' is crucial for this question."
+                        },
+                        {
+                            "label": "It allows contributors to work on independent features without coordinating with the team.",
+                            "description": "Incorrect. While 'git worktree' facilitates collaboration, its purpose is not to encourage independent work without coordination.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'git worktree' in collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It contributes to collaboration by allowing contributors to work on multiple branches simultaneously, facilitating collaboration when handling multiple tasks or features.",
+                            "description": "Correct! 'Git worktree' contributes to collaboration by allowing contributors to work on multiple branches simultaneously, facilitating collaboration when handling multiple tasks or features.",
+                            "points": 3,
+                            "explanation": "Recognizing the significance of 'git worktree' for collaboration is crucial for this question."
+                        },
+                        {
+                            "label": "It is solely used to track the number of code contributions made by each contributor.",
+                            "description": "Incorrect. While 'git worktree' may involve tracking contributions, its primary purpose is not to track contributions.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'git worktree' is crucial for this question."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

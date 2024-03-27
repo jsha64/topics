@@ -1,0 +1,1682 @@
+{
+    "skill": {
+        "LearnTheBasicsJS": {
+            "id": "learn-the-basics-js",
+            "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "W3Schools - JavaScript Tutorial",
+                    "link": "https://www.w3schools.com/js/"
+                },
+                {
+                    "name": "The Modern JavaScript Tutorial",
+                    "link": "https://javascript.info/"
+                },
+                {
+                    "name": "JavaScript Crash Course for Beginners",
+                    "link": "https://youtu.be/hdI2bqOjy3c?t=2"
+                },
+                {
+                    "name": "Build a Netflix Landing Page Clone with HTML, CSS & JS",
+                    "link": "https://youtu.be/P7t13SGytRk?t=22"
+                }
+            ],
+            "parents": [
+                "javascript"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "8e92b408-4323-48c9-b0f4-8e1c48125ab8",
+                    "question": "What does JavaScript primarily allow you to add to your pages?",
+                    "description": "Understand the basic purpose of JavaScript.",
+                    "hint": "Think about the interactive elements commonly found on websites.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Images",
+                            "description": "JavaScript can work with images, but its primary purpose is broader.",
+                            "points": 0,
+                            "explanation": "Incorrect. While JavaScript can work with images, its primary purpose is to add interactivity."
+                        },
+                        {
+                            "label": "Interactivity",
+                            "description": "Correct! JavaScript allows you to add interactivity to web pages.",
+                            "points": 3,
+                            "explanation": "JavaScript is commonly used for creating interactive elements on web pages."
+                        },
+                        {
+                            "label": "Videos",
+                            "description": "JavaScript can work with videos, but its primary purpose is broader.",
+                            "points": 0,
+                            "explanation": "Incorrect. JavaScript is not limited to videos; it adds interactivity to various elements on a webpage."
+                        },
+                        {
+                            "label": "Forms",
+                            "description": "JavaScript can be used to enhance form interactions on a webpage.",
+                            "points": 0,
+                            "explanation": "Incorrect. While JavaScript can enhance form interactions, its primary purpose is broader."
+                        }
+                    ]
+                },
+                {
+                    "id": "f5a7d212-9d0e-4c48-aa44-3e583b5b7c10",
+                    "question": "Give an example of interactivity that JavaScript can commonly add to a webpage.",
+                    "description": "Identify a common interactive feature on websites.",
+                    "hint": "Think about elements that respond to user actions.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Static Text",
+                            "description": "JavaScript primarily works with dynamic content, not static text.",
+                            "points": 0,
+                            "explanation": "Incorrect. JavaScript is used for dynamic content and interactivity, not static text."
+                        },
+                        {
+                            "label": "Sliders",
+                            "description": "Correct! Sliders are a common example of interactive elements powered by JavaScript.",
+                            "points": 3,
+                            "explanation": "JavaScript can be used to create sliders that respond to user input, adding a dynamic aspect to the webpage."
+                        },
+                        {
+                            "label": "Plain HTML",
+                            "description": "HTML alone is static; JavaScript is needed for interactivity.",
+                            "points": 0,
+                            "explanation": "Incorrect. HTML provides the structure, but JavaScript adds the interactive layer."
+                        },
+                        {
+                            "label": "Tables",
+                            "description": "JavaScript can be used to make tables interactive on a webpage.",
+                            "points": 0,
+                            "explanation": "Incorrect. While JavaScript can make tables interactive, its primary purpose is broader."
+                        }
+                    ]
+                },
+                {
+                    "id": "7e7ef3b2-5598-4a2a-a896-243c03d3627e",
+                    "question": "What is the purpose of the Document Object Model (DOM) in JavaScript?",
+                    "description": "Understand the role of the DOM in web development.",
+                    "hint": "Consider how JavaScript interacts with the structure of a webpage.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Styling",
+                            "description": "The DOM is not primarily responsible for styling.",
+                            "points": 0,
+                            "explanation": "Incorrect. Styling is typically handled by CSS, not the DOM."
+                        },
+                        {
+                            "label": "Structure Manipulation",
+                            "description": "Correct! The DOM is used to manipulate the structure of a webpage with JavaScript.",
+                            "points": 3,
+                            "explanation": "JavaScript can dynamically modify the content and structure of a webpage through the DOM."
+                        },
+                        {
+                            "label": "Server Communication",
+                            "description": "While JavaScript can handle server communication, it's not the primary role of the DOM.",
+                            "points": 0,
+                            "explanation": "Incorrect. Server communication is part of JavaScript, but not specifically the DOM's responsibility."
+                        },
+                        {
+                            "label": "Database Queries",
+                            "description": "Database queries are typically handled on the server, not by the client-side DOM.",
+                            "points": 0,
+                            "explanation": "Incorrect. Database queries are usually performed on the server side, not directly by the DOM."
+                        }
+                    ]
+                },
+                {
+                    "id": "1d1d3a6b-eeeb-4d62-82c9-96f15c08b5a1",
+                    "question": "Which resource is commonly used for learning JavaScript?",
+                    "description": "Identify a popular learning source for JavaScript.",
+                    "hint": "Consider online platforms that provide tutorials and courses.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "YouTube",
+                            "description": "YouTube offers various tutorials, but it's not a specific resource for JavaScript learning.",
+                            "points": 0,
+                            "explanation": "Incorrect. While there are JavaScript tutorials on YouTube, it's not a dedicated learning resource."
+                        },
+                        {
+                            "label": "W3Schools",
+                            "description": "Correct! W3Schools is a popular online resource for learning JavaScript.",
+                            "points": 3,
+                            "explanation": "W3Schools provides comprehensive tutorials and examples for JavaScript and other web technologies."
+                        },
+                        {
+                            "label": "Facebook",
+                            "description": "Facebook is a social media platform and not a dedicated learning resource for JavaScript.",
+                            "points": 0,
+                            "explanation": "Incorrect. Facebook is not focused on providing tutorials or courses for JavaScript learning."
+                        },
+                        {
+                            "label": "Instagram",
+                            "description": "Instagram is a photo and video sharing platform and is not suitable for learning JavaScript.",
+                            "points": 0,
+                            "explanation": "Incorrect. Instagram is not a platform for educational content, especially for JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "85fb54b2-22e7-40cd-b2fe-6524c097aa27",
+                    "question": "In web development, what does CSS stand for?",
+                    "description": "Test your knowledge of web development acronyms.",
+                    "hint": "Think about the style and presentation aspect of web pages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Cascading Style Sheet",
+                            "description": "Correct! CSS stands for Cascading Style Sheet.",
+                            "points": 3,
+                            "explanation": "CSS is used to style and format the visual presentation of HTML documents."
+                        },
+                        {
+                            "label": "Computer Style Sheet",
+                            "description": "Incorrect. The 'C' in CSS stands for Cascading, not Computer.",
+                            "points": 0,
+                            "explanation": "CSS is specifically focused on defining the style of HTML documents, not computer styles in general."
+                        },
+                        {
+                            "label": "Code Style Sheet",
+                            "description": "Incorrect. The 'C' in CSS stands for Cascading, not Code.",
+                            "points": 0,
+                            "explanation": "CSS primarily deals with styling and presentation, not general code styles."
+                        },
+                        {
+                            "label": "Creative Style Sheet",
+                            "description": "Incorrect. While CSS involves creativity in design, the 'C' stands for Cascading.",
+                            "points": 0,
+                            "explanation": "CSS is more about defining visual styles than general creativity in web development."
+                        }
+                    ]
+                },
+                {
+                    "id": "c92d9b3d-537d-493e-9f7a-95077c3a3b01",
+                    "question": "What does the acronym 'JS' stand for in the context of web development?",
+                    "description": "Test your knowledge of common web development acronyms.",
+                    "hint": "Think about the programming language commonly used for client-side scripting.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Java Source",
+                            "description": "Incorrect. 'JS' stands for something else in the context of web development.",
+                            "points": 0,
+                            "explanation": "'JS' does not stand for Java Source in web development."
+                        },
+                        {
+                            "label": "JavaScript",
+                            "description": "Correct! 'JS' commonly refers to JavaScript in web development.",
+                            "points": 3,
+                            "explanation": "JavaScript is a popular programming language used for client-side scripting on web pages."
+                        },
+                        {
+                            "label": "JSON Script",
+                            "description": "Incorrect. While JSON is related to JavaScript, 'JS' itself stands for something else.",
+                            "points": 0,
+                            "explanation": "'JS' does not stand for JSON Script in web development."
+                        },
+                        {
+                            "label": "Java Scripting",
+                            "description": "Incorrect. 'JS' does not stand for Java Scripting in the context of web development.",
+                            "points": 0,
+                            "explanation": "'JS' is commonly associated with JavaScript, not Java Scripting."
+                        }
+                    ]
+                },
+                {
+                    "id": "937c9081-cd74-4b79-8a3c-84f50c99f87f",
+                    "question": "Which keyword is used to declare a variable in JavaScript?",
+                    "description": "Test your understanding of variable declaration in JavaScript.",
+                    "hint": "Think about how you create a container to store values in JavaScript.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "var",
+                            "description": "Correct! 'var' is a keyword used to declare variables in JavaScript.",
+                            "points": 3,
+                            "explanation": "In older JavaScript versions, 'var' was commonly used for variable declarations."
+                        },
+                        {
+                            "label": "let",
+                            "description": "Correct! 'let' is a keyword introduced in ECMAScript 6 for variable declarations.",
+                            "points": 3,
+                            "explanation": "'let' is part of modern JavaScript and provides block-scoping for variables."
+                        },
+                        {
+                            "label": "variable",
+                            "description": "Incorrect. 'variable' is a general term, but in JavaScript, you use a specific keyword for declaration.",
+                            "points": 0,
+                            "explanation": "JavaScript uses keywords like 'var' or 'let' for variable declaration, not the term 'variable' alone."
+                        },
+                        {
+                            "label": "value",
+                            "description": "Incorrect. 'value' is a term related to the content stored in a variable, not the declaration itself.",
+                            "points": 0,
+                            "explanation": "JavaScript uses keywords like 'var' or 'let' for declaring variables, not the term 'value.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "a849f5c3-2094-4a1c-80e1-063836635081",
+                    "question": "What is the purpose of the 'console.log()' function in JavaScript?",
+                    "description": "Test your knowledge of the console log function in JavaScript.",
+                    "hint": "Consider how developers use the console to debug and log information.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Styling elements",
+                            "description": "Incorrect. 'console.log()' is not used for styling elements in JavaScript.",
+                            "points": 0,
+                            "explanation": "The 'console.log()' function is primarily used for logging information to the console, not styling elements."
+                        },
+                        {
+                            "label": "Printing to console",
+                            "description": "Correct! 'console.log()' is used to print messages or values to the browser console.",
+                            "points": 3,
+                            "explanation": "Developers use 'console.log()' for debugging and outputting information during development."
+                        },
+                        {
+                            "label": "Executing code",
+                            "description": "Incorrect. 'console.log()' does not execute code; it logs messages to the console.",
+                            "points": 0,
+                            "explanation": "The primary purpose of 'console.log()' is logging information, not executing code."
+                        },
+                        {
+                            "label": "Handling events",
+                            "description": "Incorrect. 'console.log()' is not used for handling events in JavaScript.",
+                            "points": 0,
+                            "explanation": "Event handling involves different functions and methods, not 'console.log()'."
+                        }
+                    ]
+                },
+                {
+                    "id": "4b0b7674-02db-4d42-b11b-1e689019b95b",
+                    "question": "What is the purpose of the 'if' statement in JavaScript?",
+                    "description": "Test your understanding of conditional statements in JavaScript.",
+                    "hint": "Consider how you control the flow of code based on certain conditions.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Looping",
+                            "description": "Incorrect. 'if' statements are used for conditional branching, not looping.",
+                            "points": 0,
+                            "explanation": "Looping involves repeating a block of code, while 'if' statements control the flow based on conditions."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. 'if' statements are not used for declaring variables but for making decisions based on conditions.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not 'if' statements."
+                        },
+                        {
+                            "label": "Conditional branching",
+                            "description": "Correct! 'if' statements are used for conditional branching, allowing different paths of execution based on a condition.",
+                            "points": 3,
+                            "explanation": "'if' statements are fundamental for creating conditional logic in JavaScript."
+                        },
+                        {
+                            "label": "Function definition",
+                            "description": "Incorrect. 'if' statements are not used for defining functions but for controlling the flow based on conditions.",
+                            "points": 0,
+                            "explanation": "Function definition involves using the 'function' keyword, not 'if' statements."
+                        }
+                    ]
+                },
+                {
+                    "id": "7d3f7c54-bcc2-4f74-832a-5e61b6319a3f",
+                    "question": "Which operator is used for strict equality comparison in JavaScript?",
+                    "description": "Test your knowledge of equality operators in JavaScript.",
+                    "hint": "Consider how you compare values while also checking their data types.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "==",
+                            "description": "Incorrect. '==' performs loose equality comparison, not strict equality.",
+                            "points": 0,
+                            "explanation": "The '==' operator does not consider data types during comparison."
+                        },
+                        {
+                            "label": "===",
+                            "description": "Correct! '===' is the strict equality operator in JavaScript.",
+                            "points": 3,
+                            "explanation": "The '===' operator checks both value and data type during comparison, ensuring strict equality."
+                        },
+                        {
+                            "label": "!=",
+                            "description": "Incorrect. '!=' performs loose inequality comparison, not strict inequality.",
+                            "points": 0,
+                            "explanation": "The '!=' operator does not consider data types during comparison."
+                        },
+                        {
+                            "label": "!==",
+                            "description": "Incorrect. '!==' is the strict inequality operator, not strict equality.",
+                            "points": 0,
+                            "explanation": "The '!==' operator checks both value and data type during comparison, but it signifies strict inequality."
+                        }
+                    ]
+                },
+                {
+                    "id": "fb6aa90c-c3c5-4a3b-9a1b-27db1f3eb719",
+                    "question": "What is the purpose of the 'for' loop in JavaScript?",
+                    "description": "Test your understanding of loop structures in JavaScript.",
+                    "hint": "Consider how you can iterate over a set of elements or perform a task multiple times.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Conditional branching",
+                            "description": "Incorrect. 'for' loops are used for iteration, not conditional branching.",
+                            "points": 0,
+                            "explanation": "'for' loops repeatedly execute a block of code for a specified number of iterations."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. 'for' loops are not used for declaring variables but for iterating over a set of elements.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not 'for' loops."
+                        },
+                        {
+                            "label": "Function definition",
+                            "description": "Incorrect. 'for' loops are not used for defining functions but for iteration.",
+                            "points": 0,
+                            "explanation": "Function definition involves using the 'function' keyword, not 'for' loops."
+                        },
+                        {
+                            "label": "Iteration",
+                            "description": "Correct! 'for' loops are used for iterating over a set of elements or performing a task multiple times.",
+                            "points": 3,
+                            "explanation": "'for' loops are essential for repetitive tasks in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f2f9879-7ed7-4c8e-9100-0b27e5d1bb0c",
+                    "question": "Which keyword is used to define a function in JavaScript?",
+                    "description": "Test your knowledge of function declaration in JavaScript.",
+                    "hint": "Think about how you create reusable blocks of code in JavaScript.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "function",
+                            "description": "Correct! 'function' is the keyword used to define a function in JavaScript.",
+                            "points": 3,
+                            "explanation": "The 'function' keyword is fundamental for declaring reusable blocks of code in JavaScript."
+                        },
+                        {
+                            "label": "define",
+                            "description": "Incorrect. 'define' is not the keyword used for defining functions in JavaScript.",
+                            "points": 0,
+                            "explanation": "The correct keyword for defining functions is 'function,' not 'define.'"
+                        },
+                        {
+                            "label": "create",
+                            "description": "Incorrect. 'create' is not the keyword used for defining functions in JavaScript.",
+                            "points": 0,
+                            "explanation": "While functions create reusable code, the specific keyword is 'function,' not 'create.'"
+                        },
+                        {
+                            "label": "declare",
+                            "description": "Incorrect. 'declare' is not the keyword used for defining functions in JavaScript.",
+                            "points": 0,
+                            "explanation": "The correct keyword for defining functions is 'function,' not 'declare.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "ef049f3a-08ef-4c9b-8c46-b38e6de55038",
+                    "question": "What is an 'Array' in JavaScript?",
+                    "description": "Test your understanding of arrays in JavaScript.",
+                    "hint": "Think about how you store and access multiple values in a single variable.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A single value",
+                            "description": "Incorrect. An 'Array' in JavaScript can store multiple values, not just a single one.",
+                            "points": 0,
+                            "explanation": "Arrays are used to store and manipulate multiple values in a single variable."
+                        },
+                        {
+                            "label": "A data type",
+                            "description": "Incorrect. 'Array' is a data type in JavaScript, but it can store multiple values.",
+                            "points": 0,
+                            "explanation": "Arrays are a data type designed to store collections of values in JavaScript."
+                        },
+                        {
+                            "label": "A collection of values",
+                            "description": "Correct! An 'Array' in JavaScript is a collection of values stored in a single variable.",
+                            "points": 3,
+                            "explanation": "Arrays allow you to organize and manipulate collections of values efficiently."
+                        },
+                        {
+                            "label": "A loop structure",
+                            "description": "Incorrect. An 'Array' is not a loop structure but a data structure for storing multiple values.",
+                            "points": 0,
+                            "explanation": "Arrays are used for data storage, while loops are used for iteration in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "aa05a175-0a99-4a49-bd06-33f7d4d8d46d",
+                    "question": "What is the purpose of the 'else' statement in JavaScript?",
+                    "description": "Test your knowledge of conditional statements and branching in JavaScript.",
+                    "hint": "Consider how you handle alternative paths in your code based on conditions.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Looping",
+                            "description": "Incorrect. 'else' statements are not used for looping but for providing an alternative path in conditional statements.",
+                            "points": 0,
+                            "explanation": "'else' statements are part of conditional branching, not looping structures."
+                        },
+                        {
+                            "label": "Error handling",
+                            "description": "Incorrect. 'else' statements are not primarily used for error handling but for defining alternative code paths based on conditions.",
+                            "points": 0,
+                            "explanation": "'else' statements are part of conditional branching in JavaScript."
+                        },
+                        {
+                            "label": "Conditional branching",
+                            "description": "Correct! 'else' statements are used for defining an alternative code path when the 'if' condition is not met.",
+                            "points": 3,
+                            "explanation": "Conditional branching involves providing different code paths based on specific conditions."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. 'else' statements are not used for variable declaration but for handling alternative code paths.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not 'else' statements."
+                        }
+                    ]
+                },
+                {
+                    "id": "8bcde5f8-858a-4e01-9e3c-6d4816bc99f0",
+                    "question": "What does the term 'callback function' mean in JavaScript?",
+                    "description": "Test your understanding of callback functions in JavaScript.",
+                    "hint": "Consider how functions can be passed as arguments and executed later.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A function that calls another function",
+                            "description": "Incorrect. This describes a function that invokes another function, not a callback function.",
+                            "points": 0,
+                            "explanation": "A callback function is a function that is passed as an argument to another function and is executed later."
+                        },
+                        {
+                            "label": "A function that is called first",
+                            "description": "Incorrect. A callback function is not necessarily called first; it is executed later, often in response to an event.",
+                            "points": 0,
+                            "explanation": "The execution of a callback function is typically triggered by an event or a certain condition."
+                        },
+                        {
+                            "label": "A function passed as an argument and executed later",
+                            "description": "Correct! A callback function in JavaScript is a function that is passed as an argument to another function and is executed later.",
+                            "points": 3,
+                            "explanation": "Callback functions are commonly used for asynchronous operations and event handling in JavaScript."
+                        },
+                        {
+                            "label": "A function with a special callback keyword",
+                            "description": "Incorrect. Callback functions don't have a special keyword; they are regular functions passed as arguments.",
+                            "points": 0,
+                            "explanation": "Callback functions are standard functions used as arguments in other functions."
+                        }
+                    ]
+                },
+                {
+                    "id": "a49a6a1e-607a-4ba3-8345-c2b927d70e3d",
+                    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+                    "description": "Test your understanding of the 'this' keyword in JavaScript.",
+                    "hint": "Consider how 'this' is used to refer to the current execution context in a function.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Referring to a specific element",
+                            "description": "Incorrect. The 'this' keyword is used for the execution context within a function, not specifically for elements.",
+                            "points": 0,
+                            "explanation": "'this' refers to the current context within a function, not a specific HTML element."
+                        },
+                        {
+                            "label": "Accessing global variables",
+                            "description": "Incorrect. 'this' is not used for accessing global variables but for referring to the current context within a function.",
+                            "points": 0,
+                            "explanation": "'this' is used to access the current execution context, not specifically global variables."
+                        },
+                        {
+                            "label": "Referring to the current execution context",
+                            "description": "Correct! 'this' is used in JavaScript to refer to the current execution context within a function.",
+                            "points": 3,
+                            "explanation": "The value of 'this' depends on how a function is called and is crucial for understanding the function's context."
+                        },
+                        {
+                            "label": "Accessing function parameters",
+                            "description": "Incorrect. 'this' is not used for accessing function parameters but for referring to the current execution context within a function.",
+                            "points": 0,
+                            "explanation": "'this' is unrelated to function parameters but is about the context within a function."
+                        }
+                    ]
+                },
+                {
+                    "id": "f92e00e3-e43d-4ab2-b4dd-91d8d25ed394",
+                    "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+                    "description": "Test your knowledge of client-side storage in JavaScript.",
+                    "hint": "Consider how you can store data on the client side for persistent access.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Styling elements",
+                            "description": "Incorrect. 'localStorage' is not used for styling elements but for client-side data storage.",
+                            "points": 0,
+                            "explanation": "'localStorage' is a mechanism for storing key-value pairs on the client side."
+                        },
+                        {
+                            "label": "Server communication",
+                            "description": "Incorrect. 'localStorage' is not primarily used for server communication but for local data storage.",
+                            "points": 0,
+                            "explanation": "'localStorage' stores data on the client side and does not directly handle server communication."
+                        },
+                        {
+                            "label": "Client-side data storage",
+                            "description": "Correct! 'localStorage' is used for storing key-value pairs on the client side for persistent access.",
+                            "points": 3,
+                            "explanation": "'localStorage' allows web applications to store data locally on a user's browser."
+                        },
+                        {
+                            "label": "Dynamic content creation",
+                            "description": "Incorrect. 'localStorage' is not used for dynamic content creation but for storing data on the client side.",
+                            "points": 0,
+                            "explanation": "'localStorage' provides a way to persistently store data, not to dynamically create content."
+                        }
+                    ]
+                },
+                {
+                    "id": "762d6e9c-0d6a-475f-b2cf-dab2c7f2a4e1",
+                    "question": "What is the purpose of the 'fetch' function in JavaScript?",
+                    "description": "Test your understanding of making HTTP requests in JavaScript.",
+                    "hint": "Consider how you can retrieve data from a server asynchronously.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Styling elements",
+                            "description": "Incorrect. The 'fetch' function is not used for styling elements but for making asynchronous HTTP requests.",
+                            "points": 0,
+                            "explanation": "The 'fetch' function is specifically designed for fetching resources, such as data, from a server."
+                        },
+                        {
+                            "label": "Asynchronous HTTP requests",
+                            "description": "Correct! The 'fetch' function is used for making asynchronous HTTP requests in JavaScript.",
+                            "points": 3,
+                            "explanation": "'fetch' enables web developers to make network requests and handle responses asynchronously."
+                        },
+                        {
+                            "label": "Local file manipulation",
+                            "description": "Incorrect. 'fetch' is not used for local file manipulation but for fetching resources from a server.",
+                            "points": 0,
+                            "explanation": "Local file manipulation involves different mechanisms, not the 'fetch' function."
+                        },
+                        {
+                            "label": "Creating animations",
+                            "description": "Incorrect. 'fetch' is not used for creating animations but for making asynchronous HTTP requests.",
+                            "points": 0,
+                            "explanation": "Creating animations involves different techniques, not the 'fetch' function."
+                        }
+                    ]
+                },
+                {
+                    "id": "d46ff043-29a3-4854-9b7c-9efdf799b9da",
+                    "question": "What is the purpose of the 'addEventListener' method in JavaScript?",
+                    "description": "Test your knowledge of event handling in JavaScript.",
+                    "hint": "Think about how you can respond to user interactions on a webpage.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Styling elements",
+                            "description": "Incorrect. 'addEventListener' is not used for styling elements but for attaching event handlers.",
+                            "points": 0,
+                            "explanation": "'addEventListener' is used to respond to user interactions, not for styling elements directly."
+                        },
+                        {
+                            "label": "Asynchronous function execution",
+                            "description": "Incorrect. 'addEventListener' is not related to asynchronous function execution but to event handling.",
+                            "points": 0,
+                            "explanation": "Asynchronous execution involves the 'async' keyword and is different from event handling."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Correct! 'addEventListener' is used for attaching event handlers to HTML elements in JavaScript.",
+                            "points": 3,
+                            "explanation": "'addEventListener' allows developers to respond to various events, such as clicks or key presses."
+                        },
+                        {
+                            "label": "Creating dynamic content",
+                            "description": "Incorrect. 'addEventListener' is not used for creating dynamic content but for handling events.",
+                            "points": 0,
+                            "explanation": "Dynamic content creation involves manipulating the DOM, while 'addEventListener' deals with events."
+                        }
+                    ]
+                },
+                {
+                    "id": "c5d0f6e7-cd61-465a-b71e-9f0817eb22fb",
+                    "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
+                    "description": "Test your understanding of error handling in JavaScript.",
+                    "hint": "Consider how you can handle and recover from runtime errors in your code.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Conditional branching",
+                            "description": "Incorrect. 'try...catch' is not used for conditional branching but for handling runtime errors.",
+                            "points": 0,
+                            "explanation": "'try...catch' is specifically designed for catching and handling exceptions, not for conditional branching."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. 'try...catch' is not used for variable declaration but for error handling.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not 'try...catch.'"
+                        },
+                        {
+                            "label": "Error handling",
+                            "description": "Correct! 'try...catch' is used for catching and handling runtime errors in JavaScript.",
+                            "points": 3,
+                            "explanation": "'try...catch' allows developers to gracefully handle errors and prevent them from crashing the entire application."
+                        },
+                        {
+                            "label": "Looping",
+                            "description": "Incorrect. 'try...catch' is not used for looping but for catching and handling runtime errors.",
+                            "points": 0,
+                            "explanation": "'try...catch' deals with error handling, not loop structures."
+                        }
+                    ]
+                },
+                {
+                    "id": "f3f0ee5f-3bc5-4f0b-a346-ea7757750806",
+                    "question": "What is the purpose of the 'Promise' object in JavaScript?",
+                    "description": "Test your understanding of asynchronous programming with Promises.",
+                    "hint": "Consider how Promises are used to handle asynchronous operations.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Handling events",
+                            "description": "Incorrect. Promises are not primarily used for handling events but for managing asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Event handling involves different mechanisms, while Promises are focused on asynchronous programming."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Correct! Promises are used to handle asynchronous operations in a more organized and readable way.",
+                            "points": 3,
+                            "explanation": "Promises help manage asynchronous code and provide a structured approach to handling asynchronous results."
+                        },
+                        {
+                            "label": "DOM manipulation",
+                            "description": "Incorrect. Promises are not specifically designed for DOM manipulation but for asynchronous programming.",
+                            "points": 0,
+                            "explanation": "DOM manipulation involves interacting with the Document Object Model, while Promises deal with asynchronous code."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. Promises are not used for variable declaration but for managing asynchronous code.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not Promises."
+                        }
+                    ]
+                },
+                {
+                    "id": "18a74856-83b1-4f02-a936-9b4400049db9",
+                    "question": "What is the purpose of the 'async/await' syntax in JavaScript?",
+                    "description": "Test your knowledge of asynchronous programming features in modern JavaScript.",
+                    "hint": "Consider how 'async/await' simplifies working with Promises.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. 'async/await' is not primarily used for event handling but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "Event handling involves different mechanisms, while 'async/await' is focused on asynchronous programming."
+                        },
+                        {
+                            "label": "DOM manipulation",
+                            "description": "Incorrect. 'async/await' is not specifically designed for DOM manipulation but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "DOM manipulation involves interacting with the Document Object Model, while 'async/await' deals with asynchronous programming."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Correct! 'async/await' simplifies asynchronous code by allowing developers to write it in a more synchronous style.",
+                            "points": 3,
+                            "explanation": "The 'async/await' syntax is a modern feature that enhances the readability of asynchronous JavaScript code."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. 'async/await' is not used for variable declaration but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not 'async/await.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "f0154c8b-961a-4f70-9f3e-9da49f597a6a",
+                    "question": "What is the purpose of the 'this' keyword in an arrow function in JavaScript?",
+                    "description": "Test your knowledge of arrow functions and the 'this' context.",
+                    "hint": "Consider how arrow functions differ in their handling of the 'this' keyword.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Referring to a specific element",
+                            "description": "Incorrect. The 'this' keyword in an arrow function still refers to the current execution context, not a specific HTML element.",
+                            "points": 0,
+                            "explanation": "Arrow functions still use 'this' to refer to the context within which they were created."
+                        },
+                        {
+                            "label": "Accessing global variables",
+                            "description": "Incorrect. 'this' in an arrow function does not specifically grant access to global variables.",
+                            "points": 0,
+                            "explanation": "Arrow functions still maintain the 'this' context based on where they were defined, regardless of global variables."
+                        },
+                        {
+                            "label": "Referring to the current execution context",
+                            "description": "Correct! In arrow functions, 'this' retains the value of the enclosing execution context, making it lexically scoped.",
+                            "points": 3,
+                            "explanation": "Arrow functions do not have their own 'this' context and inherit it from the surrounding scope."
+                        },
+                        {
+                            "label": "Accessing function parameters",
+                            "description": "Incorrect. 'this' in an arrow function is not used for accessing function parameters but retains the context from the surrounding scope.",
+                            "points": 0,
+                            "explanation": "Arrow functions inherit the 'this' context and do not have their own parameters for it."
+                        }
+                    ]
+                },
+                {
+                    "id": "e5a1e181-e45d-4671-a52a-b15c8683e94f",
+                    "question": "What is the purpose of the 'map' function in JavaScript?",
+                    "description": "Test your knowledge of array manipulation using the 'map' function.",
+                    "hint": "Consider how the 'map' function is used to transform elements in an array.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Filtering elements",
+                            "description": "Incorrect. The 'map' function is not used for filtering elements but for transforming them.",
+                            "points": 0,
+                            "explanation": "Filtering involves selecting specific elements based on a condition, while 'map' transforms elements."
+                        },
+                        {
+                            "label": "Transforming array elements",
+                            "description": "Correct! The 'map' function is used to transform each element in an array and create a new array with the results.",
+                            "points": 3,
+                            "explanation": "'map' is a higher-order function that applies a provided function to each element in an array."
+                        },
+                        {
+                            "label": "Sorting elements",
+                            "description": "Incorrect. The 'map' function is not used for sorting elements but for transforming them.",
+                            "points": 0,
+                            "explanation": "Sorting involves arranging elements, while 'map' focuses on transforming each element in an array."
+                        },
+                        {
+                            "label": "Removing elements",
+                            "description": "Incorrect. The 'map' function does not remove elements but transforms them, creating a new array.",
+                            "points": 0,
+                            "explanation": "'map' is not designed for removing elements but for transforming each element in an array.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "3fbb3bd7-67cd-4f6a-877e-097abdb8f042",
+                    "question": "What is the purpose of the 'reduce' function in JavaScript?",
+                    "description": "Test your understanding of array manipulation using the 'reduce' function.",
+                    "hint": "Consider how the 'reduce' function aggregates array elements into a single value.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Transforming elements",
+                            "description": "Incorrect. The 'reduce' function is not used for transforming elements but for aggregating them into a single value.",
+                            "points": 0,
+                            "explanation": "'reduce' focuses on aggregating array elements into a single value through an accumulating function."
+                        },
+                        {
+                            "label": "Filtering elements",
+                            "description": "Incorrect. The 'reduce' function is not used for filtering elements but for aggregating them into a single value.",
+                            "points": 0,
+                            "explanation": "'reduce' involves aggregating array elements based on an accumulating function, not filtering them."
+                        },
+                        {
+                            "label": "Aggregating array elements",
+                            "description": "Correct! The 'reduce' function is used to aggregate array elements into a single value using an accumulating function.",
+                            "points": 3,
+                            "explanation": "Using 'reduce' allows you to perform calculations or aggregations on array elements and obtain a final result."
+                        },
+                        {
+                            "label": "Sorting elements",
+                            "description": "Incorrect. The 'reduce' function is not used for sorting elements but for aggregating them into a single value.",
+                            "points": 0,
+                            "explanation": "'reduce' does not involve sorting elements but combining them based on an accumulating function."
+                        }
+                    ]
+                },
+                {
+                    "id": "40f9d47e-d5c2-4ba5-9a93-40a85e0c5a49",
+                    "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+                    "description": "Test your knowledge of working with object properties using 'Object.keys()'.",
+                    "hint": "Consider how 'Object.keys()' is used to retrieve an array of object property names.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Creating new objects",
+                            "description": "Incorrect. 'Object.keys()' is not used for creating new objects but for retrieving property names from existing objects.",
+                            "points": 0,
+                            "explanation": "'Object.keys()' is focused on working with existing objects and extracting property names."
+                        },
+                        {
+                            "label": "Retrieving object property names",
+                            "description": "Correct! 'Object.keys()' is used to retrieve an array of object property names.",
+                            "points": 3,
+                            "explanation": "The method allows developers to obtain an array containing the names of the enumerable properties of an object."
+                        },
+                        {
+                            "label": "Deleting object properties",
+                            "description": "Incorrect. 'Object.keys()' is not used for deleting object properties but for retrieving their names.",
+                            "points": 0,
+                            "explanation": "Deleting properties involves other methods, not 'Object.keys()'."
+                        },
+                        {
+                            "label": "Updating object properties",
+                            "description": "Incorrect. 'Object.keys()' is not used for updating object properties but for retrieving their names.",
+                            "points": 0,
+                            "explanation": "Updating properties involves direct assignment or other methods, not 'Object.keys()'."
+                        }
+                    ]
+                },
+                {
+                    "id": "bfb8ad90-fa34-4b0b-92c1-232a169b1c0c",
+                    "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+                    "description": "Test your knowledge of client-side storage in JavaScript.",
+                    "hint": "Consider how you can store data on the client side for persistent access.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Styling elements",
+                            "description": "Incorrect. 'localStorage' is not used for styling elements but for client-side data storage.",
+                            "points": 0,
+                            "explanation": "'localStorage' is a mechanism for storing key-value pairs on the client side."
+                        },
+                        {
+                            "label": "Server communication",
+                            "description": "Incorrect. 'localStorage' is not primarily used for server communication but for local data storage.",
+                            "points": 0,
+                            "explanation": "'localStorage' stores data on the client side and does not directly handle server communication."
+                        },
+                        {
+                            "label": "Client-side data storage",
+                            "description": "Correct! 'localStorage' is used for storing key-value pairs on the client side for persistent access.",
+                            "points": 3,
+                            "explanation": "'localStorage' allows web applications to store data locally on a user's browser."
+                        },
+                        {
+                            "label": "Dynamic content creation",
+                            "description": "Incorrect. 'localStorage' is not used for dynamic content creation but for storing data on the client side.",
+                            "points": 0,
+                            "explanation": "'localStorage' provides a way to persistently store data, not to dynamically create content."
+                        }
+                    ]
+                },
+                {
+                    "id": "fe45ef52-6d25-47d5-bb3b-9f4d4d205615",
+                    "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
+                    "description": "Test your understanding of error handling in JavaScript.",
+                    "hint": "Consider how you can handle and recover from runtime errors in your code.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Conditional branching",
+                            "description": "Incorrect. 'try...catch' is not used for conditional branching but for handling runtime errors.",
+                            "points": 0,
+                            "explanation": "'try...catch' is specifically designed for catching and handling exceptions, not for conditional branching."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. 'try...catch' is not used for variable declaration but for error handling.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not 'try...catch.'"
+                        },
+                        {
+                            "label": "Error handling",
+                            "description": "Correct! 'try...catch' is used for catching and handling runtime errors in JavaScript.",
+                            "points": 3,
+                            "explanation": "'try...catch' allows developers to gracefully handle errors and prevent them from crashing the entire application."
+                        },
+                        {
+                            "label": "Looping",
+                            "description": "Incorrect. 'try...catch' is not used for looping but for catching and handling runtime errors.",
+                            "points": 0,
+                            "explanation": "'try...catch' deals with error handling, not loop structures."
+                        }
+                    ]
+                },
+                {
+                    "id": "b726166f-ebef-48ea-9a82-6a2df40e0903",
+                    "question": "What is the purpose of the 'addEventListener' method in JavaScript?",
+                    "description": "Test your knowledge of event handling in JavaScript.",
+                    "hint": "Think about how you can respond to user interactions on a webpage.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Styling elements",
+                            "description": "Incorrect. 'addEventListener' is not used for styling elements but for attaching event handlers.",
+                            "points": 0,
+                            "explanation": "'addEventListener' is used to respond to user interactions, not for styling elements directly."
+                        },
+                        {
+                            "label": "Asynchronous function execution",
+                            "description": "Incorrect. 'addEventListener' is not related to asynchronous function execution but to event handling.",
+                            "points": 0,
+                            "explanation": "Asynchronous execution involves the 'async' keyword and is different from event handling."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Correct! 'addEventListener' is used for attaching event handlers to HTML elements in JavaScript.",
+                            "points": 3,
+                            "explanation": "'addEventListener' allows developers to respond to various events, such as clicks or key presses."
+                        },
+                        {
+                            "label": "Creating dynamic content",
+                            "description": "Incorrect. 'addEventListener' is not used for creating dynamic content but for handling events.",
+                            "points": 0,
+                            "explanation": "Dynamic content creation involves manipulating the DOM, while 'addEventListener' deals with events."
+                        }
+                    ]
+                },
+                {
+                    "id": "7aa262c7-00cc-41f0-991f-58c7ea08a1e0",
+                    "question": "What is the purpose of the 'async/await' syntax in JavaScript?",
+                    "description": "Test your knowledge of asynchronous programming features in modern JavaScript.",
+                    "hint": "Consider how 'async/await' simplifies working with Promises.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. 'async/await' is not primarily used for event handling but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "Event handling involves different mechanisms, while 'async/await' is focused on asynchronous programming."
+                        },
+                        {
+                            "label": "DOM manipulation",
+                            "description": "Incorrect. 'async/await' is not specifically designed for DOM manipulation but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "DOM manipulation involves interacting with the Document Object Model, while 'async/await' deals with asynchronous programming."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Correct! 'async/await' simplifies asynchronous code by allowing developers to write it in a more synchronous style.",
+                            "points": 3,
+                            "explanation": "The 'async/await' syntax is a modern feature that enhances the readability of asynchronous JavaScript code."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. 'async/await' is not used for variable declaration but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not 'async/await.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "01a0d155-47c0-45c8-b0c5-23bc95a50b66",
+                    "question": "Explain the concept of a closure in JavaScript.",
+                    "description": "Test your understanding of closures in JavaScript.",
+                    "hint": "Consider how functions in JavaScript can retain access to variables from their containing scope.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Memory management",
+                            "description": "Incorrect. Closures are not primarily related to memory management but to the scope chain in JavaScript.",
+                            "points": 0,
+                            "explanation": "Memory management involves the allocation and deallocation of memory, not the concept of closures."
+                        },
+                        {
+                            "label": "Scope chain",
+                            "description": "Correct! Closures in JavaScript allow functions to retain access to variables from their containing scope.",
+                            "points": 3,
+                            "explanation": "Understanding closures involves recognizing how functions capture and remember the variables from their lexical scope."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. Closures are not directly related to event handling but to the preservation of scope in JavaScript functions.",
+                            "points": 0,
+                            "explanation": "Event handling involves responding to user actions, while closures deal with lexical scope."
+                        },
+                        {
+                            "label": "Object creation",
+                            "description": "Incorrect. Closures are not primarily about object creation but about maintaining access to variables in the lexical scope.",
+                            "points": 0,
+                            "explanation": "Object creation involves different concepts, not directly related to closures."
+                        }
+                    ]
+                },
+                {
+                    "id": "6fc4d4d3-cc3a-4c91-bcfc-4de1f313788f",
+                    "question": "What is the purpose of the 'prototype' property in JavaScript?",
+                    "description": "Test your knowledge of prototypal inheritance in JavaScript.",
+                    "hint": "Consider how 'prototype' is used to share properties and methods among objects.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Styling elements",
+                            "description": "Incorrect. The 'prototype' property is not used for styling elements but for managing object inheritance.",
+                            "points": 0,
+                            "explanation": "'prototype' is related to JavaScript's prototypal inheritance, not styling elements."
+                        },
+                        {
+                            "label": "Object inheritance",
+                            "description": "Correct! The 'prototype' property is used to enable object inheritance in JavaScript.",
+                            "points": 3,
+                            "explanation": "'prototype' allows objects to inherit properties and methods from other objects in a prototype chain."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. 'prototype' is not directly related to event handling but to the inheritance mechanism in JavaScript.",
+                            "points": 0,
+                            "explanation": "Event handling involves responding to user actions, while 'prototype' deals with object inheritance."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Incorrect. 'prototype' is not primarily related to asynchronous programming but to object inheritance.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while 'prototype' deals with inheritance."
+                        }
+                    ]
+                },
+                {
+                    "id": "2ad7e586-b90e-4a56-8090-4ed6f4f21b09",
+                    "question": "Explain the concept of event delegation in JavaScript.",
+                    "description": "Test your understanding of event delegation and its benefits.",
+                    "hint": "Consider how event delegation simplifies event handling in certain scenarios.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Memory management",
+                            "description": "Incorrect. Event delegation is not primarily related to memory management but to simplifying event handling.",
+                            "points": 0,
+                            "explanation": "Memory management involves the allocation and deallocation of memory, not the concept of event delegation."
+                        },
+                        {
+                            "label": "Simplifying event handling",
+                            "description": "Correct! Event delegation in JavaScript simplifies event handling by assigning a single handler to a common ancestor.",
+                            "points": 3,
+                            "explanation": "Event delegation reduces the number of event listeners and enhances the efficiency of handling events on dynamic content."
+                        },
+                        {
+                            "label": "Object creation",
+                            "description": "Incorrect. Event delegation is not primarily about object creation but about handling events more efficiently.",
+                            "points": 0,
+                            "explanation": "Object creation involves different concepts, not directly related to event delegation."
+                        },
+                        {
+                            "label": "Async programming",
+                            "description": "Incorrect. Event delegation is not primarily related to asynchronous programming but to streamlining event handling.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while event delegation deals with event handling."
+                        }
+                    ]
+                },
+                {
+                    "id": "f2c5df19-d679-4c36-a6e7-7b38c78e07c8",
+                    "question": "What is the purpose of the 'bind' method in JavaScript?",
+                    "description": "Test your knowledge of the 'bind' method and its role in managing the 'this' context.",
+                    "hint": "Consider how 'bind' is used to create a new function with a specified 'this' value.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Filtering array elements",
+                            "description": "Incorrect. The 'bind' method is not used for filtering array elements but for managing the 'this' context in functions.",
+                            "points": 0,
+                            "explanation": "Array filtering involves selecting specific elements based on a condition, while 'bind' is about managing 'this' context."
+                        },
+                        {
+                            "label": "Managing 'this' context",
+                            "description": "Correct! The 'bind' method is used to create a new function with a specified 'this' value, useful for managing context.",
+                            "points": 3,
+                            "explanation": "'bind' allows developers to set a specific 'this' value for a function, aiding in context management."
+                        },
+                        {
+                            "label": "DOM manipulation",
+                            "description": "Incorrect. 'bind' is not directly related to DOM manipulation but to managing the 'this' context in functions.",
+                            "points": 0,
+                            "explanation": "DOM manipulation involves interacting with the Document Object Model, while 'bind' deals with 'this' context."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Incorrect. The 'bind' method is not primarily related to asynchronous programming but to 'this' context management.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while 'bind' deals with 'this' context."
+                        }
+                    ]
+                },
+                {
+                    "id": "9b6f3441-240f-4cf1-a4e9-9ab90e3f332c",
+                    "question": "Explain the concept of the event loop in JavaScript.",
+                    "description": "Test your understanding of the event loop and its role in asynchronous programming.",
+                    "hint": "Consider how the event loop manages the execution of code in a non-blocking manner.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Handling events",
+                            "description": "Incorrect. The event loop is not primarily about handling events but about managing the execution of code in an asynchronous environment.",
+                            "points": 0,
+                            "explanation": "Event handling involves responding to user actions, while the event loop deals with code execution."
+                        },
+                        {
+                            "label": "Asynchronous code execution",
+                            "description": "Correct! The event loop in JavaScript manages the execution of asynchronous code in a non-blocking manner.",
+                            "points": 3,
+                            "explanation": "Understanding the event loop is crucial for grasping how JavaScript handles asynchronous tasks without blocking the main thread."
+                        },
+                        {
+                            "label": "Object creation",
+                            "description": "Incorrect. The event loop is not primarily about object creation but about managing asynchronous code execution.",
+                            "points": 0,
+                            "explanation": "Object creation involves different concepts, not directly related to the event loop."
+                        },
+                        {
+                            "label": "Memory management",
+                            "description": "Incorrect. The event loop is not primarily about memory management but about orchestrating the execution of code.",
+                            "points": 0,
+                            "explanation": "Memory management involves the allocation and deallocation of memory, not the event loop's primary focus."
+                        }
+                    ]
+                },
+                {
+                    "id": "95f5d1cc-0385-4e49-8310-08e73599f2d3",
+                    "question": "What is the purpose of the 'async/await' syntax in JavaScript?",
+                    "description": "Test your knowledge of asynchronous programming features in modern JavaScript.",
+                    "hint": "Consider how 'async/await' simplifies working with Promises.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. 'async/await' is not primarily used for event handling but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "Event handling involves different mechanisms, while 'async/await' is focused on asynchronous programming."
+                        },
+                        {
+                            "label": "DOM manipulation",
+                            "description": "Incorrect. 'async/await' is not specifically designed for DOM manipulation but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "DOM manipulation involves interacting with the Document Object Model, while 'async/await' deals with asynchronous programming."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Correct! 'async/await' simplifies asynchronous code by allowing developers to write it in a more synchronous style.",
+                            "points": 3,
+                            "explanation": "The 'async/await' syntax is a modern feature that enhances the readability of asynchronous JavaScript code."
+                        },
+                        {
+                            "label": "Variable declaration",
+                            "description": "Incorrect. 'async/await' is not used for variable declaration but for simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "Variable declaration involves using 'var' or 'let' keywords, not 'async/await.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "cfd11584-95f8-4d7f-96e1-14f4ed758ae7",
+                    "question": "Explain the role of the 'finally' block in a 'try...catch...finally' statement in JavaScript.",
+                    "description": "Test your understanding of error handling with the 'finally' block.",
+                    "hint": "Consider how the 'finally' block is executed regardless of whether an exception is thrown.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Conditional branching",
+                            "description": "Incorrect. The 'finally' block is not about conditional branching but about executing code regardless of exceptions.",
+                            "points": 0,
+                            "explanation": "'finally' ensures that certain code is executed whether an exception is thrown or not."
+                        },
+                        {
+                            "label": "Handling exceptions",
+                            "description": "Correct! The 'finally' block in a 'try...catch...finally' statement is used to specify code that should be executed regardless of whether an exception is thrown or caught.",
+                            "points": 3,
+                            "explanation": "'finally' is often used for cleanup operations that should run no matter what happens in the 'try' block."
+                        },
+                        {
+                            "label": "Object creation",
+                            "description": "Incorrect. The 'finally' block is not primarily about object creation but about finalizing code execution in error-handling scenarios.",
+                            "points": 0,
+                            "explanation": "Object creation involves different concepts, not directly related to the 'finally' block."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Incorrect. The 'finally' block is not primarily about asynchronous programming but about ensuring certain code is executed.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while 'finally' deals with error handling."
+                        }
+                    ]
+                },
+                {
+                    "id": "fdfa529d-8f65-4539-ba19-69b3a0c4f470",
+                    "question": "Explain the purpose of the 'Map' object in JavaScript.",
+                    "description": "Test your knowledge of the 'Map' object and its use cases.",
+                    "hint": "Consider how 'Map' differs from plain objects in JavaScript.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Data manipulation",
+                            "description": "Incorrect. The 'Map' object is not primarily about data manipulation but about storing key-value pairs.",
+                            "points": 0,
+                            "explanation": "'Map' is focused on providing a way to store and retrieve key-value pairs efficiently."
+                        },
+                        {
+                            "label": "Storing key-value pairs",
+                            "description": "Correct! The 'Map' object in JavaScript is used for storing key-value pairs and is distinct from plain objects.",
+                            "points": 3,
+                            "explanation": "'Map' provides a data structure for more flexible key handling and additional methods compared to plain objects."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. 'Map' is not directly related to event handling but to managing key-value pairs in a more advanced way.",
+                            "points": 0,
+                            "explanation": "Event handling involves responding to user actions, while 'Map' deals with data structure."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Incorrect. 'Map' is not primarily related to asynchronous programming but to storing key-value pairs.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while 'Map' deals with data structure."
+                        }
+                    ]
+                },
+                {
+                    "id": "de1411ab-e56c-4c0c-9b06-3b2b0cdaee79",
+                    "question": "What is the purpose of the 'Promise' object in JavaScript?",
+                    "description": "Test your understanding of Promises and their role in handling asynchronous operations.",
+                    "hint": "Consider how Promises simplify working with asynchronous code.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Styling elements",
+                            "description": "Incorrect. The 'Promise' object is not used for styling elements but for managing asynchronous operations.",
+                            "points": 0,
+                            "explanation": "'Promise' is related to handling asynchronous tasks, not styling elements."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. 'Promise' is not directly related to event handling but to simplifying asynchronous code.",
+                            "points": 0,
+                            "explanation": "Event handling involves responding to user actions, while 'Promise' deals with asynchronous operations."
+                        },
+                        {
+                            "label": "Asynchronous operations",
+                            "description": "Correct! The 'Promise' object in JavaScript is used for representing the eventual completion or failure of an asynchronous operation.",
+                            "points": 3,
+                            "explanation": "'Promise' simplifies working with asynchronous code by providing a more structured and readable syntax."
+                        },
+                        {
+                            "label": "Object creation",
+                            "description": "Incorrect. 'Promise' is not primarily about object creation but about managing asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Object creation involves different concepts, not directly related to 'Promise.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "c4b61d3e-6845-4f5c-9434-6e02d88eeb10",
+                    "question": "Explain the concept of the 'prototype' chain in JavaScript.",
+                    "description": "Test your knowledge of how objects inherit properties from their prototypes.",
+                    "hint": "Consider how objects in JavaScript form a chain of prototypes.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Memory management",
+                            "description": "Incorrect. The 'prototype' chain is not primarily about memory management but about object inheritance.",
+                            "points": 0,
+                            "explanation": "Memory management involves the allocation and deallocation of memory, not the 'prototype' chain."
+                        },
+                        {
+                            "label": "Object inheritance",
+                            "description": "Correct! The 'prototype' chain in JavaScript describes how objects inherit properties and methods from their prototypes.",
+                            "points": 3,
+                            "explanation": "'prototype' chain plays a crucial role in the prototypal inheritance model of JavaScript."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. The 'prototype' chain is not directly related to event handling but to object inheritance.",
+                            "points": 0,
+                            "explanation": "Event handling involves responding to user actions, while the 'prototype' chain deals with object inheritance."
+                        },
+                        {
+                            "label": "Async programming",
+                            "description": "Incorrect. The 'prototype' chain is not primarily about asynchronous programming but about object inheritance.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while the 'prototype' chain deals with object inheritance."
+                        }
+                    ]
+                },
+                {
+                    "id": "e047d0f8-909c-4a3d-b78e-cfe3c759ff52",
+                    "question": "Explain the concept of a 'closure' and provide a practical example in JavaScript.",
+                    "description": "Test your in-depth understanding of closures in JavaScript.",
+                    "hint": "Consider scenarios where closures are beneficial for maintaining state.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Memory optimization",
+                            "description": "Incorrect. While closures can have implications for memory, their primary purpose is not memory optimization but maintaining state.",
+                            "points": 0,
+                            "explanation": "Closures are more focused on preserving the lexical scope and capturing variables than on memory optimization."
+                        },
+                        {
+                            "label": "Maintaining state",
+                            "description": "Correct! Closures are powerful for maintaining state in JavaScript, allowing functions to remember the lexical scope in which they were created.",
+                            "points": 3,
+                            "explanation": "Understanding closures involves recognizing how they capture and remember variables from their containing scope, enabling state preservation."
+                        },
+                        {
+                            "label": "Object creation",
+                            "description": "Incorrect. Closures are not primarily about object creation but about maintaining access to variables in the lexical scope.",
+                            "points": 0,
+                            "explanation": "Object creation involves different concepts, not directly related to closures."
+                        },
+                        {
+                            "label": "Error handling",
+                            "description": "Incorrect. While closures can be involved in error handling, their primary role is not specifically in error handling but in maintaining state.",
+                            "points": 0,
+                            "explanation": "Closures are more about capturing variables and maintaining state than error handling."
+                        }
+                    ]
+                },
+                {
+                    "id": "3340d793-660d-4a18-8e95-e1cf03c74e8e",
+                    "question": "Explain the concept of 'asynchronous programming' in JavaScript and provide a real-world scenario where it is beneficial.",
+                    "description": "Test your deep understanding of asynchronous programming concepts.",
+                    "hint": "Consider scenarios where asynchronous programming enhances efficiency.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Synchronous execution",
+                            "description": "Incorrect. Asynchronous programming is the opposite of synchronous execution, allowing non-blocking operations.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming is about handling tasks concurrently, not in a strictly sequential, synchronous manner."
+                        },
+                        {
+                            "label": "Concurrency in database operations",
+                            "description": "Correct! Asynchronous programming is beneficial in scenarios like concurrent database operations, where tasks can be executed concurrently without blocking the main thread.",
+                            "points": 3,
+                            "explanation": "In scenarios like database operations, asynchronous programming allows the application to perform other tasks while waiting for database responses, enhancing overall efficiency."
+                        },
+                        {
+                            "label": "DOM manipulation",
+                            "description": "Incorrect. While asynchronous programming can be involved in DOM manipulation, its primary purpose is not limited to that but includes various scenarios where concurrent execution is advantageous.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming encompasses a broader range of scenarios beyond DOM manipulation."
+                        },
+                        {
+                            "label": "Static code analysis",
+                            "description": "Incorrect. Asynchronous programming is not directly related to static code analysis but to concurrent execution of tasks.",
+                            "points": 0,
+                            "explanation": "Static code analysis involves examining code without executing it, while asynchronous programming deals with concurrent execution."
+                        }
+                    ]
+                },
+                {
+                    "id": "87e8d768-b8bb-4816-b6a5-dbd14ab52b7e",
+                    "question": "Explain the concept of 'memoization' in JavaScript and provide a scenario where it can be applied.",
+                    "description": "Test your advanced knowledge of optimizing function performance with memoization.",
+                    "hint": "Consider scenarios where caching results of expensive function calls improves performance.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Algorithmic complexity",
+                            "description": "Incorrect. While memoization can impact algorithmic complexity, its primary purpose is not to address complexity but to optimize function performance.",
+                            "points": 0,
+                            "explanation": "Memoization focuses on caching results to avoid redundant computations, rather than altering algorithmic complexity."
+                        },
+                        {
+                            "label": "Optimizing function performance",
+                            "description": "Correct! Memoization is a technique used to optimize function performance by caching the results of expensive function calls and returning the cached result when the same inputs occur again.",
+                            "points": 3,
+                            "explanation": "Memoization is particularly useful when a function is repeatedly called with the same inputs, avoiding redundant computations."
+                        },
+                        {
+                            "label": "Event-driven programming",
+                            "description": "Incorrect. Memoization is not directly related to event-driven programming but to optimizing function performance through result caching.",
+                            "points": 0,
+                            "explanation": "Event-driven programming involves responding to events, while memoization focuses on optimizing computations."
+                        },
+                        {
+                            "label": "Error handling",
+                            "description": "Incorrect. Memoization is not primarily about error handling but about improving the efficiency of function calls.",
+                            "points": 0,
+                            "explanation": "Memoization is a performance optimization technique, separate from error handling concepts."
+                        }
+                    ]
+                },
+                {
+                    "id": "8a825f31-8784-4f3e-9b8d-c4ba4f7b03b0",
+                    "question": "Explain the purpose of the 'Proxy' object in JavaScript and provide a use case where it can be applied.",
+                    "description": "Test your advanced understanding of the 'Proxy' object and its applications.",
+                    "hint": "Consider scenarios where intercepting and customizing object operations is beneficial.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. The 'Proxy' object is not primarily about event handling but about intercepting and customizing object operations.",
+                            "points": 0,
+                            "explanation": "Event handling involves responding to user actions, while 'Proxy' deals with object operations."
+                        },
+                        {
+                            "label": "Object operations interception",
+                            "description": "Correct! The 'Proxy' object in JavaScript is used for intercepting and customizing fundamental operations of objects, allowing for various advanced use cases such as logging, validation, and security.",
+                            "points": 3,
+                            "explanation": "'Proxy' provides a powerful mechanism for controlling and customizing object behavior in JavaScript."
+                        },
+                        {
+                            "label": "DOM manipulation",
+                            "description": "Incorrect. 'Proxy' is not directly related to DOM manipulation but to intercepting and customizing object operations.",
+                            "points": 0,
+                            "explanation": "DOM manipulation involves interacting with the Document Object Model, while 'Proxy' deals with object operations."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Incorrect. 'Proxy' is not primarily related to asynchronous programming but to intercepting and customizing object operations.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while 'Proxy' deals with object manipulation."
+                        }
+                    ]
+                },
+                {
+                    "id": "a7420777-52a7-4b23-9f21-ef94ebed2e11",
+                    "question": "Explain the concept of 'currying' in JavaScript and provide a scenario where it is advantageous.",
+                    "description": "Test your advanced knowledge of currying and its practical applications.",
+                    "hint": "Consider how currying simplifies function composition and specialization.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Parallel processing",
+                            "description": "Incorrect. Currying is not directly related to parallel processing but to function composition and specialization.",
+                            "points": 0,
+                            "explanation": "Parallel processing involves simultaneously executing tasks, while currying focuses on transforming functions."
+                        },
+                        {
+                            "label": "Function composition",
+                            "description": "Correct! Currying is a technique in functional programming that involves transforming a function with multiple arguments into a series of functions, each taking a single argument, facilitating function composition and specialization.",
+                            "points": 3,
+                            "explanation": "Currying enhances function composition and allows creating specialized versions of functions by partially applying arguments."
+                        },
+                        {
+                            "label": "Memory management",
+                            "description": "Incorrect. Currying is not primarily about memory management but about transforming functions for composition and specialization.",
+                            "points": 0,
+                            "explanation": "Memory management involves the allocation and deallocation of memory, not the concept of currying."
+                        },
+                        {
+                            "label": "Error handling",
+                            "description": "Incorrect. While currying can be part of error handling strategies, its primary purpose is not error handling but function transformation.",
+                            "points": 0,
+                            "explanation": "Currying is more focused on transforming functions and facilitating composition than on error handling."
+                        }
+                    ]
+                },
+                {
+                    "id": "41b52593-5ae3-4c4c-b4a9-888d144e8c48",
+                    "question": "Explain the concept of 'hoisting' in JavaScript and provide an example of its occurrence.",
+                    "description": "Test your advanced understanding of hoisting in JavaScript.",
+                    "hint": "Consider scenarios where variable and function declarations are hoisted.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Error handling",
+                            "description": "Incorrect. Hoisting is not primarily about error handling but about the behavior of variable and function declarations.",
+                            "points": 0,
+                            "explanation": "Hoisting involves the movement of declarations to the top of their containing scope during the compilation phase, influencing their behavior."
+                        },
+                        {
+                            "label": "Function composition",
+                            "description": "Incorrect. Hoisting is not directly related to function composition but to the movement of declarations during the compilation phase.",
+                            "points": 0,
+                            "explanation": "Function composition involves combining functions to create new ones, while hoisting deals with the behavior of declarations in JavaScript."
+                        },
+                        {
+                            "label": "Declaration movement",
+                            "description": "Correct! Hoisting in JavaScript refers to the behavior of moving variable and function declarations to the top of their containing scope during the compilation phase.",
+                            "points": 3,
+                            "explanation": "Understanding hoisting is crucial for predicting the behavior of code with variable and function declarations."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Incorrect. Hoisting is not primarily about asynchronous programming but about the behavior of declarations in JavaScript.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while hoisting deals with the compilation phase behavior of declarations."
+                        }
+                    ]
+                },
+                {
+                    "id": "6d67b083-793c-45d5-8edf-35e20b7b3844",
+                    "question": "Explain the concept of 'WebSockets' in web development and provide a scenario where they are advantageous.",
+                    "description": "Test your advanced knowledge of real-time communication with WebSockets.",
+                    "hint": "Consider scenarios where bidirectional communication is crucial for an interactive web application.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Server-side rendering",
+                            "description": "Incorrect. WebSockets are not primarily related to server-side rendering but to real-time bidirectional communication.",
+                            "points": 0,
+                            "explanation": "Server-side rendering involves rendering web pages on the server, while WebSockets focus on interactive, real-time communication."
+                        },
+                        {
+                            "label": "Real-time bidirectional communication",
+                            "description": "Correct! WebSockets enable real-time, bidirectional communication between clients and servers, making them advantageous for scenarios like live chat applications, online gaming, and collaborative editing.",
+                            "points": 3,
+                            "explanation": "WebSockets allow for efficient, low-latency communication, making them suitable for applications requiring real-time updates."
+                        },
+                        {
+                            "label": "Client-side routing",
+                            "description": "Incorrect. WebSockets are not primarily related to client-side routing but to bidirectional communication between clients and servers.",
+                            "points": 0,
+                            "explanation": "Client-side routing involves managing navigation on the client, while WebSockets focus on real-time communication."
+                        },
+                        {
+                            "label": "CORS handling",
+                            "description": "Incorrect. While WebSockets can be affected by CORS policies, their primary purpose is real-time communication, not handling CORS.",
+                            "points": 0,
+                            "explanation": "Cross-Origin Resource Sharing (CORS) policies are relevant for managing requests, while WebSockets deal with real-time communication."
+                        }
+                    ]
+                },
+                {
+                    "id": "e3b872c2-5406-448c-b2aa-bb457ed0a493",
+                    "question": "Explain the purpose of the 'Object.create()' method in JavaScript and provide a scenario where it is useful.",
+                    "description": "Test your advanced understanding of object creation using 'Object.create()'.",
+                    "hint": "Consider scenarios where you need to create objects with a specific prototype.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Memory management",
+                            "description": "Incorrect. While 'Object.create()' is related to object creation, its primary purpose is not memory management but creating objects with a specific prototype.",
+                            "points": 0,
+                            "explanation": "'Object.create()' allows creating objects with the specified prototype, influencing their inheritance structure."
+                        },
+                        {
+                            "label": "Creating objects with a specific prototype",
+                            "description": "Correct! 'Object.create()' is used to create objects with a specific prototype, allowing for precise control over the inheritance chain.",
+                            "points": 3,
+                            "explanation": "'Object.create()' is beneficial when you want to create objects with a specific prototype, influencing their properties and methods."
+                        },
+                        {
+                            "label": "Event-driven programming",
+                            "description": "Incorrect. 'Object.create()' is not directly related to event-driven programming but to creating objects with a particular prototype.",
+                            "points": 0,
+                            "explanation": "Event-driven programming involves responding to events, while 'Object.create()' focuses on object creation and inheritance."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Incorrect. 'Object.create()' is not primarily related to asynchronous programming but to creating objects with a specific prototype.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while 'Object.create()' deals with object creation."
+                        }
+                    ]
+                },
+                {
+                    "id": "844245a2-9f49-4f35-884f-5b2d446d4c58",
+                    "question": "Explain the concept of 'requestAnimationFrame()' in the context of web animations.",
+                    "description": "Test your advanced knowledge of optimizing animations using 'requestAnimationFrame()'.",
+                    "hint": "Consider scenarios where smooth and efficient animations are crucial.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Server-side rendering",
+                            "description": "Incorrect. 'requestAnimationFrame()' is not primarily related to server-side rendering but to optimizing client-side animations.",
+                            "points": 0,
+                            "explanation": "Server-side rendering involves rendering web pages on the server, while 'requestAnimationFrame()' is about improving client-side animations."
+                        },
+                        {
+                            "label": "Optimizing client-side animations",
+                            "description": "Correct! 'requestAnimationFrame()' is a method used to optimize animations on the client side by synchronizing them with the browser's repaint cycle, resulting in smoother and more efficient animations.",
+                            "points": 3,
+                            "explanation": "'requestAnimationFrame()' is crucial for creating animations that are visually appealing and performant by leveraging the browser's rendering capabilities."
+                        },
+                        {
+                            "label": "Real-time bidirectional communication",
+                            "description": "Incorrect. 'requestAnimationFrame()' is not directly related to real-time bidirectional communication but to optimizing client-side animations.",
+                            "points": 0,
+                            "explanation": "Real-time bidirectional communication involves efficient data exchange between clients and servers, while 'requestAnimationFrame()' focuses on animation optimization."
+                        },
+                        {
+                            "label": "CORS handling",
+                            "description": "Incorrect. While 'requestAnimationFrame()' is used in the context of animations, it is not related to CORS handling but to animation optimization.",
+                            "points": 0,
+                            "explanation": "Cross-Origin Resource Sharing (CORS) policies are relevant for managing requests, while 'requestAnimationFrame()' deals with animation performance."
+                        }
+                    ]
+                },
+                {
+                    "id": "e4c3b63a-3f8f-4670-9882-85015a0c3c78",
+                    "question": "Explain the purpose of the 'reduce()' function in JavaScript and provide a practical scenario where it is beneficial.",
+                    "description": "Test your advanced knowledge of array manipulation using the 'reduce()' function.",
+                    "hint": "Consider scenarios where you need to derive a single value from an array based on its elements.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Memory management",
+                            "description": "Incorrect. While 'reduce()' involves array manipulation, its primary purpose is not memory management but aggregating array values.",
+                            "points": 0,
+                            "explanation": "'reduce()' is focused on iteratively processing array elements to derive a single value, not memory management."
+                        },
+                        {
+                            "label": "Aggregating array values",
+                            "description": "Correct! The 'reduce()' function in JavaScript is used for aggregating array values into a single result by applying a provided function cumulatively.",
+                            "points": 3,
+                            "explanation": "'reduce()' is beneficial when you need to derive a single value, such as calculating the sum or finding the maximum value, from an array."
+                        },
+                        {
+                            "label": "Event-driven programming",
+                            "description": "Incorrect. 'reduce()' is not directly related to event-driven programming but to aggregating array values through an iterative process.",
+                            "points": 0,
+                            "explanation": "Event-driven programming involves responding to events, while 'reduce()' focuses on array manipulation and aggregation."
+                        },
+                        {
+                            "label": "Asynchronous programming",
+                            "description": "Incorrect. 'reduce()' is not primarily related to asynchronous programming but to aggregating values in a synchronous manner.",
+                            "points": 0,
+                            "explanation": "Asynchronous programming involves handling asynchronous tasks, while 'reduce()' deals with array manipulation and aggregation."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

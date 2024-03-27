@@ -1,0 +1,1716 @@
+{
+    "skill": {
+        "JavaScript": {
+            "id": "javascript",
+            "description": "JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.Visit the following resources to learn more: ",
+            "resources": [
+                {
+                    "name": "Visit Dedicated JavaScript Roadmap",
+                    "link": "https://roadmap.sh/javascript"
+                },
+                {
+                    "name": "W3Schools - JavaScript Tutorial",
+                    "link": "https://www.w3schools.com/js/"
+                },
+                {
+                    "name": "The Modern JavaScript Tutorial",
+                    "link": "https://javascript.info/"
+                },
+                {
+                    "name": "Learn JavaScript: Covered many topics",
+                    "link": "https://www.javascripttutorial.net/"
+                },
+                {
+                    "name": "Eloquent JavaScript textbook",
+                    "link": "https://eloquentjavascript.net/"
+                },
+                {
+                    "name": "You Dont Know JS Yet (book series)",
+                    "link": "https://github.com/getify/You-Dont-Know-JS"
+                },
+                {
+                    "name": "JavaScript Crash Course for Beginners",
+                    "link": "https://youtu.be/hdI2bqOjy3c?t=2"
+                },
+                {
+                    "name": "Build a Netflix Landing Page Clone with HTML, CSS & JS",
+                    "link": "https://youtu.be/P7t13SGytRk?t=22"
+                },
+                {
+                    "name": "Build 30 Javascript projects in 30 days",
+                    "link": "https://javascript30.com/"
+                },
+                {
+                    "name": "Learn the basics of JavaScript",
+                    "link": "https://github.com/workshopper/javascripting"
+                },
+                {
+                    "name": "JavaScript for Beginners",
+                    "link": "https://www.scaler.com/topics/course/javascript-beginners"
+                }
+            ],
+            "parents": [
+                "frontend",
+                "fullstack"
+            ],
+            "children": [
+                "learn-the-basics",
+                "learn-the-basics-js",
+                "learn-dom-manipulation",
+                "fetch-ajax"
+            ],
+            "questions": [
+                {
+                    "id": "2e5d4f84-2c7b-4a85-9315-94db9a9d7c22",
+                    "question": "What is the main programming language for building dynamic content on web pages?",
+                    "description": "Question about the main language in web development.",
+                    "hint": "Think about the technology used to build dynamic content on web pages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "HTML",
+                            "points": 0,
+                            "explanation": "HTML is a markup language, not a programming language for dynamic content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "CSS",
+                            "points": 0,
+                            "explanation": "CSS is a stylesheet language, not a programming language for dynamic content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "JavaScript",
+                            "points": 3,
+                            "explanation": "Correct! JavaScript is the main language for building dynamic content on web pages."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Python",
+                            "points": 0,
+                            "explanation": "Python is a different programming language not primarily used for web development."
+                        }
+                    ]
+                },
+                {
+                    "id": "8cf7a2b2-61eb-4ef5-8c2c-8cf7f2bb63a8",
+                    "question": "How do you declare a variable in JavaScript?",
+                    "description": "Question about variable declaration in JavaScript.",
+                    "hint": "Think about the keyword used to declare variables in JavaScript.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "var myVar;",
+                            "points": 0,
+                            "explanation": "While valid, 'var' is considered outdated; consider using 'let' instead."
+                        },
+                        {
+                            "label": "B",
+                            "description": "variable myVar;",
+                            "points": 0,
+                            "explanation": "Incorrect syntax; 'var' or 'let' is used for variable declaration in JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "v myVar;",
+                            "points": 0,
+                            "explanation": "Incorrect syntax; 'var' or 'let' is used for variable declaration in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "let myVar;",
+                            "points": 3,
+                            "explanation": "Correct! 'let' is used for variable declaration in modern JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "d3bd4cd9-1e0e-432a-b46d-3c9e50dbd013",
+                    "question": "Which of the following is not a control flow structure in JavaScript?",
+                    "description": "Question about control flow structures in JavaScript.",
+                    "hint": "Think about structures used to control the flow of a program in JavaScript.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "if-else",
+                            "points": 0,
+                            "explanation": "if-else is a control flow structure in JavaScript."
+                        },
+                        {
+                            "label": "B",
+                            "description": "switch",
+                            "points": 0,
+                            "explanation": "switch is a control flow structure in JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "repeat",
+                            "points": 3,
+                            "explanation": "Correct! 'repeat' is not a control flow structure in JavaScript; use 'for' or 'while' for looping."
+                        },
+                        {
+                            "label": "D",
+                            "description": "for",
+                            "points": 0,
+                            "explanation": "for is a control flow structure in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "7aef1935-2b88-4c46-a3c2-1373e9a70c18",
+                    "question": "How do you print a message to the console in JavaScript?",
+                    "description": "Question about printing messages to the console in JavaScript.",
+                    "hint": "Think about the method used to log messages to the console in JavaScript.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "log()",
+                            "points": 0,
+                            "explanation": "Incorrect; log() is not a standalone method for console output in JavaScript."
+                        },
+                        {
+                            "label": "B",
+                            "description": "print()",
+                            "points": 0,
+                            "explanation": "Incorrect; print() is not used for console output in JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "console.log()",
+                            "points": 3,
+                            "explanation": "Correct! console.log() is used to print messages to the console in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "display()",
+                            "points": 0,
+                            "explanation": "Incorrect; display() is not a standard method for console output in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "f6828ba7-6ecb-40a3-9fc3-9c7b9cf89d7e",
+                    "question": "What is the strict equality operator in JavaScript?",
+                    "description": "Question about the strict equality operator in JavaScript.",
+                    "hint": "Think about the operator used for strict equality checking in JavaScript.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "==",
+                            "points": 0,
+                            "explanation": "== is the loose equality operator in JavaScript."
+                        },
+                        {
+                            "label": "B",
+                            "description": "===",
+                            "points": 3,
+                            "explanation": "Correct! === is the strict equality operator, checking both value and type in JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "=",
+                            "points": 0,
+                            "explanation": "= is the assignment operator in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "!=",
+                            "points": 0,
+                            "explanation": "!= is the loose inequality operator in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "70392f42-985b-4c69-a3d6-dbc1c1db8875",
+                    "question": "What is the purpose of NaN in JavaScript?",
+                    "description": "Question about the purpose of NaN in JavaScript.",
+                    "hint": "Think about the special value used to represent a non-numeric result.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Represents an infinite number.",
+                            "points": 0,
+                            "explanation": "Incorrect; NaN does not represent infinity in JavaScript."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicates an error in code execution.",
+                            "points": 0,
+                            "explanation": "Incorrect; NaN indicates a non-numeric result, not necessarily an error."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Represents a non-numeric value.",
+                            "points": 3,
+                            "explanation": "Correct! NaN is used to represent a non-numeric value in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Abbreviation for 'Not Available Number'.",
+                            "points": 0,
+                            "explanation": "Incorrect; NaN does not stand for 'Not Available Number' in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "b6c0bf4d-430e-456c-9bbd-48d3a85c0367",
+                    "question": "What is the purpose of the typeof operator in JavaScript?",
+                    "description": "Question about the typeof operator in JavaScript.",
+                    "hint": "Think about the operator used to determine the type of a variable.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To determine the type of data in an array.",
+                            "points": 0,
+                            "explanation": "Incorrect; typeof is used for individual variables, not arrays."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To create a new object.",
+                            "points": 0,
+                            "explanation": "Incorrect; typeof is used for type checking, not object creation."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To determine the type of data of a variable.",
+                            "points": 3,
+                            "explanation": "Correct! typeof is used to check the type of data in a variable in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "To connect with a database.",
+                            "points": 0,
+                            "explanation": "Incorrect; typeof is not used for database connections in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "746e5c21-5fe4-4a82-bd89-0b4247d954d8",
+                    "question": "How do you add a single-line comment in JavaScript?",
+                    "description": "Question about adding comments in JavaScript.",
+                    "hint": "Think about the syntax used for single-line comments in JavaScript.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "// Comment",
+                            "points": 3,
+                            "explanation": "Correct! // is used for single-line comments in JavaScript."
+                        },
+                        {
+                            "label": "B",
+                            "description": "/* Comment */",
+                            "points": 0,
+                            "explanation": "Incorrect; /* */ is used for multi-line comments in JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "-- Comment",
+                            "points": 0,
+                            "explanation": "Incorrect; -- is not a valid syntax for comments in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "' Comment",
+                            "points": 0,
+                            "explanation": "Incorrect; ' is not a valid syntax for comments in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "a618d9c9-9bf4-4e1b-9dd6-0c04e2a8ce11",
+                    "question": "What is the result of the expression `5 + '5'` in JavaScript?",
+                    "description": "Question about the result of a JavaScript expression.",
+                    "hint": "Think about how JavaScript handles the addition of a number and a string.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "10",
+                            "points": 0,
+                            "explanation": "Incorrect; the result is '55' due to string concatenation."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'55'",
+                            "points": 3,
+                            "explanation": "Correct! JavaScript converts the number to a string and concatenates them."
+                        },
+                        {
+                            "label": "C",
+                            "description": "5 + '5'",
+                            "points": 0,
+                            "explanation": "Incorrect; this is the original expression, not the result."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Error",
+                            "points": 0,
+                            "explanation": "Incorrect; there is no error, and the result is a string."
+                        }
+                    ]
+                },
+                {
+                    "id": "7917a6b1-8f05-4d37-8d52-d66fb9f2ab89",
+                    "question": "What is the purpose of the parseInt() function in JavaScript?",
+                    "description": "Question about the purpose of parseInt() in JavaScript.",
+                    "hint": "Think about how parseInt() is used to convert values.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Convert a string to a floating-point number.",
+                            "points": 0,
+                            "explanation": "Incorrect; parseInt() converts a string to an integer, not a floating-point number."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Get the natural logarithm of a number.",
+                            "points": 0,
+                            "explanation": "Incorrect; parseInt() is not used for logarithmic operations in JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Round a number to the nearest integer.",
+                            "points": 0,
+                            "explanation": "Incorrect; parseInt() extracts integers from strings, but it doesn't round numbers."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Convert a string to an integer.",
+                            "points": 3,
+                            "explanation": "Correct! parseInt() is used to convert a string to an integer in JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "0b001dfe-e0f3-4b85-9c09-7027603a622d",
+                    "question": "What is the purpose of the 'const' keyword when declaring a variable in JavaScript?",
+                    "description": "Question about the use of 'const' in variable declaration.",
+                    "hint": "Think about the characteristic that 'const' imparts to a variable.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Define a variable with global scope.",
+                            "points": 0,
+                            "explanation": "'const' is used for variables with block scope and does not define global variables."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Indicate that the variable's value cannot change.",
+                            "points": 3,
+                            "explanation": "Correct! 'const' is used to declare variables with values that should not be reassigned."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Create a variable that can only be used in functions.",
+                            "points": 0,
+                            "explanation": "'const' does not restrict variable usage to functions only; it provides block scope."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Allow the variable's value to be reassigned.",
+                            "points": 0,
+                            "explanation": "'const' does not allow reassignment of values."
+                        }
+                    ]
+                },
+                {
+                    "id": "8c9a4f29-4224-43da-91b8-c5e5d3b9c246",
+                    "question": "Which of the following statements about arrow functions in JavaScript is correct?",
+                    "description": "Question about the characteristics of arrow functions in JavaScript.",
+                    "hint": "Consider the unique features of arrow functions.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Arrow functions cannot have parameters.",
+                            "points": 0,
+                            "explanation": "Arrow functions can have parameters like regular functions."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Arrow functions cannot have a function body.",
+                            "points": 0,
+                            "explanation": "Arrow functions require a function body to perform an action."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Arrow functions have a lexically bound 'this' value.",
+                            "points": 3,
+                            "explanation": "Correct! Arrow functions capture the 'this' value lexically from their enclosing scope."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Arrow functions can only be used in DOM events.",
+                            "points": 0,
+                            "explanation": "Arrow functions can be used in various contexts, not limited to DOM events."
+                        }
+                    ]
+                },
+                {
+                    "id": "9c1f60e7-5a5c-489c-9b7d-3529a5e54641",
+                    "question": "What is the difference between 'let' and 'const' when declaring variables in JavaScript?",
+                    "description": "Question about the distinctions between 'let' and 'const' in variable declaration.",
+                    "hint": "Consider the behavior of 'let' and 'const' regarding reassignment.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'let' allows reassignment, while 'const' does not.",
+                            "points": 3,
+                            "explanation": "Correct! 'let' permits reassignment, whereas 'const' does not allow reassignment of values."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'const' can only be used for numbers, while 'let' can be used for any data type.",
+                            "points": 0,
+                            "explanation": "Both 'let' and 'const' can be used for any data type."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'let' is used for local variables, while 'const' is used for global variables.",
+                            "points": 0,
+                            "explanation": "'let' and 'const' both provide block scope and can be used for local variables."
+                        },
+                        {
+                            "label": "D",
+                            "description": "'const' can only be declared inside loops, while 'let' can be declared anywhere in the code.",
+                            "points": 0,
+                            "explanation": "Both 'let' and 'const' can be declared in any part of the code and provide block scope."
+                        }
+                    ]
+                },
+                {
+                    "id": "e4a18768-507d-41ed-b34e-8a3f18e54888",
+                    "question": "What does the 'map()' method do in a JavaScript array?",
+                    "description": "Question about the purpose of the 'map()' method in JavaScript arrays.",
+                    "hint": "Consider the transformational nature of the 'map()' method.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Filters array elements based on a given condition.",
+                            "points": 0,
+                            "explanation": "'map()' is used for transformation, not filtering."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Creates a new array with results of a function applied to each array element.",
+                            "points": 3,
+                            "explanation": "Correct! 'map()' creates a new array by applying a function to each element of the original array."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Alphabetically sorts array elements.",
+                            "points": 0,
+                            "explanation": "'sort()' is used for alphabetical sorting, not 'map()'."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Removes the last element from the array.",
+                            "points": 0,
+                            "explanation": "'pop()' is used to remove the last element from an array, not 'map()'."
+                        }
+                    ]
+                },
+                {
+                    "id": "a558a276-9f53-4d1b-8e0b-e9ee369a971d",
+                    "question": "What is the concept of 'hoisting' in JavaScript?",
+                    "description": "Question about the concept of 'hoisting' in JavaScript.",
+                    "hint": "Consider how declarations are processed before code execution.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A technique to increase code execution speed.",
+                            "points": 0,
+                            "explanation": "'Hoisting' is not about increasing code execution speed but about the order of declaration processing."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A common error in JavaScript coding.",
+                            "points": 0,
+                            "explanation": "'Hoisting' is a behavior of JavaScript, not an error."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The ability of a function to be passed as an argument to another function.",
+                            "points": 0,
+                            "explanation": "This describes higher-order functions, not 'hoisting'."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Declarations of variables and functions are moved to the top of their scope before code execution.",
+                            "points": 3,
+                            "explanation": "Correct! 'Hoisting' refers to the behavior where declarations are moved to the top of their scope during code execution."
+                        }
+                    ]
+                },
+                {
+                    "id": "67a0a91c-6c33-4a9c-9e6a-8f43db76a118",
+                    "question": "What does the 'indexOf()' method return if the element is not found in a JavaScript array?",
+                    "description": "Question about the return value of 'indexOf()' when an element is not present in an array.",
+                    "hint": "Consider the default return value when an element is not found.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "-1",
+                            "points": 3,
+                            "explanation": "Correct! 'indexOf()' returns -1 when the specified element is not found in the array."
+                        },
+                        {
+                            "label": "B",
+                            "description": "0",
+                            "points": 0,
+                            "explanation": "'indexOf()' does not return 0 when the element is not found."
+                        },
+                        {
+                            "label": "C",
+                            "description": "undefined",
+                            "points": 0,
+                            "explanation": "'indexOf()' does not return 'undefined' when the element is not found."
+                        },
+                        {
+                            "label": "D",
+                            "description": "null",
+                            "points": 0,
+                            "explanation": "'indexOf()' does not return 'null' when the element is not found."
+                        }
+                    ]
+                },
+                {
+                    "id": "6ef9fe5a-cc68-4e08-aee6-2ab9c6f399ea",
+                    "question": "What is the ternary operator in JavaScript?",
+                    "description": "Question about the purpose of the ternary operator in JavaScript.",
+                    "hint": "Consider the role of the ternary operator in conditional expressions.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "An operator for performing mathematical operations with three operands.",
+                            "points": 0,
+                            "explanation": "This describes a different type of operator."
+                        },
+                        {
+                            "label": "B",
+                            "description": "An operator for comparing three values and returning the largest.",
+                            "points": 0,
+                            "explanation": "This does not accurately describe the ternary operator."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A conditional operator that returns a value based on a condition.",
+                            "points": 3,
+                            "explanation": "Correct! The ternary operator is a shorthand for an 'if-else' statement in a single line."
+                        },
+                        {
+                            "label": "D",
+                            "description": "An operator for concatenating three text strings.",
+                            "points": 0,
+                            "explanation": "This describes string concatenation, not the ternary operator."
+                        }
+                    ]
+                },
+                {
+                    "id": "2b1c6ef6-cbf2-4873-8ff2-b2f59d13918f",
+                    "question": "What does the expression 'NaN' mean in JavaScript?",
+                    "description": "Question about the significance of 'NaN' in JavaScript.",
+                    "hint": "Consider the context in which 'NaN' is used.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "New Assignment Number.",
+                            "points": 0,
+                            "explanation": "'NaN' stands for 'Not a Number', not 'New Assignment Number'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Number of Negative Scope.",
+                            "points": 0,
+                            "explanation": "'NaN' does not represent the scope of a variable."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Not a Number.",
+                            "points": 3,
+                            "explanation": "Correct! 'NaN' is a special value representing 'Not a Number' in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "No additional Notice.",
+                            "points": 0,
+                            "explanation": "'NaN' does not stand for 'No additional Notice'."
+                        }
+                    ]
+                },
+                {
+                    "id": "982d9329-951d-40f7-91c1-d9c54a68b2d7",
+                    "question": "What is the purpose of the 'return' keyword in a function in JavaScript?",
+                    "description": "Question about the role of the 'return' keyword in JavaScript functions.",
+                    "hint": "Consider what 'return' is used for in functions.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Terminate the function's execution immediately.",
+                            "points": 0,
+                            "explanation": "'return' does not terminate the function but specifies the value to be returned."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Specify the data type the function should return.",
+                            "points": 0,
+                            "explanation": "'return' is used to specify the actual value the function should return, not the data type."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Return a value from the function.",
+                            "points": 3,
+                            "explanation": "Correct! 'return' is used to send a value back from a function."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Create a recursive function.",
+                            "points": 0,
+                            "explanation": "'return' is not used to create recursive functions; it is used to specify the return value."
+                        }
+                    ]
+                },
+                {
+                    "id": "7cfad308-5c7c-4ed2-a015-2b6c3e9f43d9",
+                    "question": "What is the correct statement about the 'DOMContentLoaded' event?",
+                    "description": "Question about the 'DOMContentLoaded' event in web development.",
+                    "hint": "Consider the conditions under which the 'DOMContentLoaded' event is triggered.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is triggered when the webpage is fully loaded, including images and other resources.",
+                            "points": 0,
+                            "explanation": "Incorrect; the 'DOMContentLoaded' event occurs before all resources are loaded."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It occurs when the HTML content of the page has been completely loaded and parsed.",
+                            "points": 3,
+                            "explanation": "Correct! The 'DOMContentLoaded' event is triggered when the HTML content has been fully loaded and parsed."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is only triggered when an element on the page is clicked.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'DOMContentLoaded' is not related to specific user interactions like clicking."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is an event specific to old browsers and is not compatible with modern browsers.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'DOMContentLoaded' is widely supported across modern browsers."
+                        }
+                    ]
+                },
+                {
+                    "id": "9ee36b46-06c5-4da7-8ba2-b02c6a547c07",
+                    "question": "What is the main difference between 'undefined' and 'null' in JavaScript?",
+                    "description": "Question about distinctions between 'undefined' and 'null' in JavaScript.",
+                    "hint": "Consider the use and assignment of 'undefined' and 'null' in different scenarios.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Both represent the same and can be used interchangeably.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'undefined' and 'null' have distinct use cases in JavaScript."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Undefined' is automatically assigned to uninitialized variables, while 'null' must be explicitly assigned.",
+                            "points": 3,
+                            "explanation": "Correct! 'undefined' is assigned to uninitialized variables, and 'null' must be explicitly assigned."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'Null' indicates a runtime error, while 'undefined' is used for unavailable values.",
+                            "points": 0,
+                            "explanation": "Incorrect; both 'undefined' and 'null' can be used to represent different scenarios."
+                        },
+                        {
+                            "label": "D",
+                            "description": "'Undefined' is used for null values, while 'null' represents the absence of a value.",
+                            "points": 0,
+                            "explanation": "Incorrect; the roles of 'undefined' and 'null' are reversed in this statement."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f6a2f97-b6db-4485-95e1-57fe3ac939c6",
+                    "question": "What does the 'reduce()' method do on a JavaScript array?",
+                    "description": "Question about the purpose of the 'reduce()' method in JavaScript arrays.",
+                    "hint": "Consider how 'reduce()' iteratively processes array elements.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Filters array elements based on a given condition.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'reduce()' is not used for filtering array elements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Applies an accumulating function to each array element from left to right, reducing it to a single value.",
+                            "points": 3,
+                            "explanation": "Correct! 'reduce()' iteratively applies a function to accumulate array elements."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Alphabetically sorts array elements.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'reduce()' is not used for sorting array elements."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Replaces all array elements with a specific value.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'reduce()' does not replace array elements."
+                        }
+                    ]
+                },
+                {
+                    "id": "7e31e72f-81f4-41aa-8e8e-1878b9e67866",
+                    "question": "What is the difference between '==' and '===' in JavaScript?",
+                    "description": "Question about the distinctions between loose and strict equality operators in JavaScript.",
+                    "hint": "Consider how '==' and '===' handle type coercion during comparisons.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "There is no difference; both operators perform the same equality comparison.",
+                            "points": 0,
+                            "explanation": "Incorrect; '==' and '===' have different behaviors in JavaScript."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'==' compares both the value and type of operands, while '===' only compares the value.",
+                            "points": 3,
+                            "explanation": "Correct! '==' performs type coercion, while '===' requires strict equality of both value and type."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'===' performs loose comparison, while '==' performs strict comparison.",
+                            "points": 0,
+                            "explanation": "Incorrect; the roles of '==' and '===' in this statement are reversed."
+                        },
+                        {
+                            "label": "D",
+                            "description": "'===' is an obsolete operator and should not be used in modern code.",
+                            "points": 0,
+                            "explanation": "Incorrect; '===' is a widely used strict equality operator in modern JavaScript."
+                        }
+                    ]
+                },
+                {
+                    "id": "501a70e9-bc8c-41d3-8b7a-31e1f5e096d8",
+                    "question": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+                    "description": "Question about the role of 'Object.keys()' in extracting keys from objects.",
+                    "hint": "Consider how 'Object.keys()' is used to manipulate object properties.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Returns an array of the values of an object.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'Object.keys()' returns an array of object keys, not values."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Alphabetically sorts the keys of an object.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'Object.keys()' does not sort object keys."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Removes all keys from an object.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'Object.keys()' does not remove keys from an object."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Returns an array of the keys of an object.",
+                            "points": 3,
+                            "explanation": "Correct! 'Object.keys()' returns an array containing the keys of an object."
+                        }
+                    ]
+                },
+                {
+                    "id": "9e073df4-0782-4e62-b631-c4ef4376aeb4",
+                    "question": "Which of the following statements about asynchronous functions in JavaScript is correct?",
+                    "description": "Question about correct statements regarding asynchronous functions in JavaScript.",
+                    "hint": "Consider the characteristics and behavior of asynchronous functions in JavaScript.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Asynchronous functions always return Promises.",
+                            "points": 0,
+                            "explanation": "Incorrect; not all asynchronous functions return Promises in JavaScript."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Asynchronous functions cannot contain await operations.",
+                            "points": 0,
+                            "explanation": "Incorrect; asynchronous functions often use the 'await' keyword for asynchronous operations."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Asynchronous functions are equivalent to synchronous functions in terms of execution.",
+                            "points": 0,
+                            "explanation": "Incorrect; asynchronous functions have distinct execution characteristics compared to synchronous functions."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Asynchronous functions enable more readable and manageable handling of asynchronous operations.",
+                            "points": 3,
+                            "explanation": "Correct! Asynchronous functions improve readability and manageability when dealing with asynchronous operations using 'await'."
+                        }
+                    ]
+                },
+                {
+                    "id": "46e1f5b1-9b96-464e-af1c-b48e78ed9f1c",
+                    "question": "What is a 'closure' in JavaScript?",
+                    "description": "Question about the concept of 'closure' in JavaScript.",
+                    "hint": "Consider the definition and purpose of closures in JavaScript.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A function with no access to external variables.",
+                            "points": 0,
+                            "explanation": "Incorrect; closures have access to variables in their lexical scope."
+                        },
+                        {
+                            "label": "B",
+                            "description": "An object encapsulating data and behaviors.",
+                            "points": 0,
+                            "explanation": "Incorrect; closures are not objects but have access to variables in their lexical scope."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A common error in JavaScript code.",
+                            "points": 0,
+                            "explanation": "Incorrect; closures are a fundamental concept in JavaScript and not an error."
+                        },
+                        {
+                            "label": "D",
+                            "description": "An inner function with access to variables of its outer function, even after the outer function has finished execution.",
+                            "points": 3,
+                            "explanation": "Correct! Closures have access to variables in their lexical scope even after the outer function has finished execution."
+                        }
+                    ]
+                },
+                {
+                    "id": "2ef1449d-6e11-416f-b5e1-59ff01cb80cd",
+                    "question": "What is the purpose of the ternary operator in JavaScript?",
+                    "description": "Question about the role of the ternary operator in JavaScript.",
+                    "hint": "Consider how the ternary operator is used for concise conditional expressions.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Perform mathematical operations with three operands.",
+                            "points": 0,
+                            "explanation": "Incorrect; the ternary operator is used for conditional expressions, not mathematical operations."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Compare three values and return the largest one.",
+                            "points": 0,
+                            "explanation": "Incorrect; the ternary operator is used for conditional expressions, not comparisons of three values."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Perform assignment operations on three variables.",
+                            "points": 0,
+                            "explanation": "Incorrect; the ternary operator is used for concise conditional expressions, not assignments to multiple variables."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Return a value based on a condition, more concisely than an 'if-else' block.",
+                            "points": 3,
+                            "explanation": "Correct! The ternary operator returns a value based on a condition in a concise manner compared to an 'if-else' block."
+                        }
+                    ]
+                },
+                {
+                    "id": "a81c65d4-1f0a-4dfc-8b9d-12a7aee9917c",
+                    "question": "What does the term 'hoisting' refer to in JavaScript?",
+                    "description": "Question about the concept of 'hoisting' in JavaScript.",
+                    "hint": "Consider how 'hoisting' affects variable and function declarations.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A technique to increase the speed of code execution.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'hoisting' is a behavior related to variable and function declarations, not a speed optimization."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A common error in JavaScript programming.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'hoisting' is a fundamental behavior in JavaScript, not an error."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The ability of a function to be passed as an argument to another function.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'hoisting' is not related to passing functions as arguments."
+                        },
+                        {
+                            "label": "D",
+                            "description": "The behavior where variable and function declarations are moved to the top of their scope before code execution.",
+                            "points": 3,
+                            "explanation": "Correct! 'Hoisting' in JavaScript moves declarations to the top of their scope before code execution."
+                        }
+                    ]
+                },
+                {
+                    "id": "579bd735-437a-4e61-9cb5-4330a6c9f883",
+                    "question": "What does the 'mouseenter' event do in JavaScript?",
+                    "description": "Question about the behavior of the 'mouseenter' event in JavaScript.",
+                    "hint": "Consider when the 'mouseenter' event is triggered.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Triggered when the mouse moves outside an element.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'mouseenter' is triggered when the mouse moves inside an element."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Triggered when the mouse moves inside an element.",
+                            "points": 3,
+                            "explanation": "Correct! 'mouseenter' is triggered when the mouse moves inside an element."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Triggered when an element gains focus.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'mouseenter' is not related to element focus events."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Triggered when an element loses focus.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'mouseenter' is not related to element focus events."
+                        }
+                    ]
+                },
+                {
+                    "id": "6727e78b-63c1-4d6b-ba1b-68a0db4fe731",
+                    "question": "Which of the following statements about the concept of a 'callback' in JavaScript is correct?",
+                    "description": "Question about correct statements regarding 'callbacks' in JavaScript.",
+                    "hint": "Consider the role and usage of 'callbacks' in JavaScript.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A 'callback' is a function executed before the page is fully loaded.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'callbacks' are functions used for asynchronous operations, not page loading events."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A 'callback' is a function passed as an argument to another function and executed after it has finished.",
+                            "points": 3,
+                            "explanation": "Correct! 'Callbacks' are functions passed to other functions to be executed after a specific operation completes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A 'callback' is a function handling keyboard events.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'callbacks' are not limited to handling keyboard events but are used in various asynchronous scenarios."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A 'callback' is a function that can only be executed once in the application.",
+                            "points": 0,
+                            "explanation": "Incorrect; 'callbacks' can be executed multiple times depending on the use case."
+                        }
+                    ]
+                },
+                {
+                    "id": "65c0d6da-57d7-42e4-98a2-01f66f3b25a3",
+                    "question": "What is reactive programming in JavaScript?",
+                    "description": "Question about the concept of reactive programming.",
+                    "hint": "Think about handling asynchronous data streams with observables.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A design approach for creating user interfaces using only HTML and CSS.",
+                            "points": 0,
+                            "explanation": "Reactive programming involves handling asynchronous data streams, not just UI design."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A programming paradigm using observables and change propagation to handle asynchronous data flows.",
+                            "points": 3,
+                            "explanation": "Correct! Reactive programming utilizes observables to handle asynchronous data flows."
+                        },
+                        {
+                            "label": "C",
+                            "description": "An outdated term no longer used in JavaScript.",
+                            "points": 0,
+                            "explanation": "Reactive programming is a modern concept in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "The practice of writing functions that can run both synchronously and asynchronously.",
+                            "points": 0,
+                            "explanation": "This describes a different concept, not reactive programming."
+                        }
+                    ]
+                },
+                {
+                    "id": "1b81c677-667e-45ed-9f61-2aa4cfed5379",
+                    "question": "What is the purpose of the Promise.all function in JavaScript?",
+                    "description": "Question about the Promise.all function.",
+                    "hint": "Consider its role in handling multiple promises simultaneously.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new promise that resolves as soon as the first promise in an iterable resolves.",
+                            "points": 0,
+                            "explanation": "This describes the behavior of another promise-related function."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To create a new promise that resolves as soon as all promises in an iterable resolve or one of them is rejected.",
+                            "points": 3,
+                            "explanation": "Correct! Promise.all is used for handling multiple promises simultaneously."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The Promise.all function has no specific purpose in JavaScript.",
+                            "points": 0,
+                            "explanation": "Promise.all serves a specific purpose in handling promises."
+                        },
+                        {
+                            "label": "D",
+                            "description": "To create a promise that rejects if any of the promises in an iterable is resolved.",
+                            "points": 0,
+                            "explanation": "This describes a different behavior, not Promise.all."
+                        }
+                    ]
+                },
+                {
+                    "id": "39cfd36e-6d3f-41a7-b672-b12267e8c2c7",
+                    "question": "What is the difference between shallow copy and deep copy when working with objects in JavaScript?",
+                    "description": "Question about the distinction between shallow and deep copies.",
+                    "hint": "Consider how references to nested objects are handled.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Shallow copy and deep copy are interchangeable terms and perform the same function on objects.",
+                            "points": 0,
+                            "explanation": "These terms have distinct meanings when copying objects."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Shallow copy creates a superficial copy of an object, copying only direct references to elements, while deep copy creates a complete copy, including all levels of nesting.",
+                            "points": 3,
+                            "explanation": "Correct! Shallow and deep copies differ in how they handle nested objects."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Shallow copy and deep copy are obsolete terms and are not used in modern JavaScript.",
+                            "points": 0,
+                            "explanation": "These terms are still relevant in discussing object copying."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Shallow copy and deep copy refer to the same process of copying objects in JavaScript.",
+                            "points": 0,
+                            "explanation": "They have distinct meanings in the context of object copying."
+                        }
+                    ]
+                },
+                {
+                    "id": "5f8d02fb-ec72-4f82-b647-64340c83cc72",
+                    "question": "What is a closure in JavaScript?",
+                    "description": "Question about the concept of closures.",
+                    "hint": "Think about the relationship between functions and their outer scope.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A function that automatically executes after being defined.",
+                            "points": 0,
+                            "explanation": "This describes a different concept, not a closure."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A block of code that repeats indefinitely.",
+                            "points": 0,
+                            "explanation": "This describes a loop, not a closure."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A type of loop that runs until a specific condition is met.",
+                            "points": 0,
+                            "explanation": "This is the definition of a different programming construct, not a closure."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A function that has access to variables from its outer scope even after the function has finished executing.",
+                            "points": 3,
+                            "explanation": "Correct! A closure retains access to its outer scope's variables."
+                        }
+                    ]
+                },
+                {
+                    "id": "8dd541cc-6e98-4d0d-9ea5-4d5a011c3a1a",
+                    "question": "What is hoisting in JavaScript?",
+                    "description": "Question about the concept of hoisting.",
+                    "hint": "Consider how functions and variables are processed during execution.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A behavior where functions are moved to the beginning of their scope before code execution.",
+                            "points": 3,
+                            "explanation": "Correct! Hoisting involves moving functions and variables to the top of their scope."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The ability to increase the execution speed of the code.",
+                            "points": 0,
+                            "explanation": "This is not the correct definition of hoisting."
+                        },
+                        {
+                            "label": "C",
+                            "description": "An outdated term no longer used in JavaScript.",
+                            "points": 0,
+                            "explanation": "Hoisting is still a relevant concept in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "The practice of organizing code into smaller, more manageable code blocks.",
+                            "points": 0,
+                            "explanation": "This describes a different programming practice, not hoisting."
+                        }
+                    ]
+                },
+                {
+                    "id": "f82295d2-1ef9-4e49-854d-739917531b8e",
+                    "question": "What is event bubbling in JavaScript?",
+                    "description": "Question about the concept of event bubbling.",
+                    "hint": "Think about the propagation of events through the DOM.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A technique for assigning events to specific elements rather than delegating them to a higher container.",
+                            "points": 0,
+                            "explanation": "This describes event delegation, not event bubbling."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The propagation of an event from the most specific element to the least specific element in the DOM.",
+                            "points": 3,
+                            "explanation": "Correct! Event bubbling is the upward propagation of events in the DOM."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The practice of stopping event propagation in the bubbling phase.",
+                            "points": 0,
+                            "explanation": "This describes preventing event propagation, not event bubbling."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A common mistake when assigning events in JavaScript.",
+                            "points": 0,
+                            "explanation": "This describes a different aspect of event handling."
+                        }
+                    ]
+                },
+                {
+                    "id": "f100a906-d5f2-46ea-bdb4-1e62a9c0424e",
+                    "question": "What is the purpose of the Object.freeze function in JavaScript?",
+                    "description": "Question about the use of Object.freeze.",
+                    "hint": "Consider how Object.freeze affects object properties.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To freeze an object and prevent the addition, removal, or modification of properties.",
+                            "points": 3,
+                            "explanation": "Correct! Object.freeze is used to make an object immutable."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To unfreeze an object previously frozen.",
+                            "points": 0,
+                            "explanation": "There's no specific function to 'unfreeze' an object in JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The Object.freeze function has no specific purpose in JavaScript.",
+                            "points": 0,
+                            "explanation": "Object.freeze serves a specific purpose in immutability."
+                        },
+                        {
+                            "label": "D",
+                            "description": "To duplicate an object and create an independent copy.",
+                            "points": 0,
+                            "explanation": "Object.freeze doesn't create a duplicate but makes the object immutable."
+                        }
+                    ]
+                },
+                {
+                    "id": "b5d765f3-2261-49ea-9fb0-4a616f763a25",
+                    "question": "What is 'callback hell' in JavaScript?",
+                    "description": "Question about the concept of 'callback hell.'",
+                    "hint": "Consider the structure that leads to 'callback hell.'",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "An outdated term no longer used in JavaScript.",
+                            "points": 0,
+                            "explanation": "'Callback hell' is still relevant to describe a certain code structure."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A control flow structure using multiple nested callbacks, resulting in hard-to-read and maintainable code.",
+                            "points": 3,
+                            "explanation": "Correct! 'Callback hell' refers to a structure with deeply nested callbacks."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The practice of avoiding the use of callback functions in JavaScript.",
+                            "points": 0,
+                            "explanation": "Avoiding callbacks is a different approach, not 'callback hell.'"
+                        },
+                        {
+                            "label": "D",
+                            "description": "A technique for handling errors in asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Handling errors is a separate concern from 'callback hell.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "0044a17b-c1cb-4e88-964e-73c0e16771e4",
+                    "question": "When is it appropriate to use the 'this' operator in a function in JavaScript?",
+                    "description": "Question about the appropriate use of the 'this' operator.",
+                    "hint": "Consider the scenarios where 'this' is commonly used.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Always, as 'this' is necessary in all functions.",
+                            "points": 0,
+                            "explanation": "Using 'this' is context-dependent; it's not always necessary."
+                        },
+                        {
+                            "label": "B",
+                            "description": "When you want to reference the current instance of an object in a method function.",
+                            "points": 3,
+                            "explanation": "Correct! 'this' is commonly used to refer to the current object instance."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'this' keyword is not used in JavaScript.",
+                            "points": 0,
+                            "explanation": "The 'this' keyword is a fundamental part of JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Only in functions declared with the 'function' keyword, not in arrow functions.",
+                            "points": 0,
+                            "explanation": "Arrow functions also use 'this' in a different way."
+                        }
+                    ]
+                },
+                {
+                    "id": "2b3667d4-6da8-4a16-9a86-50c48ef537c8",
+                    "question": "What is 'hoisting' in JavaScript?",
+                    "description": "Question about the concept of 'hoisting.'",
+                    "hint": "Consider how functions and variables are processed during execution.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A behavior where functions are moved to the beginning of their scope before code execution.",
+                            "points": 3,
+                            "explanation": "Correct! Hoisting involves moving functions and variables to the top of their scope."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The ability to increase the execution speed of the code.",
+                            "points": 0,
+                            "explanation": "This is not the correct definition of hoisting."
+                        },
+                        {
+                            "label": "C",
+                            "description": "An outdated term no longer used in JavaScript.",
+                            "points": 0,
+                            "explanation": "Hoisting is still a relevant concept in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "The practice of organizing code into smaller, more manageable code blocks.",
+                            "points": 0,
+                            "explanation": "This describes a different programming practice, not hoisting."
+                        }
+                    ]
+                },
+                {
+                    "id": "14d85ee6-2c7d-4c78-8dd5-7cfb4c8f30bf",
+                    "question": "Explain how the concept of 'lexical closure' works in JavaScript.",
+                    "description": "Question about the concept of lexical closure.",
+                    "hint": "Consider the relationship between functions and their lexical scope.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A type of encryption used in source code.",
+                            "points": 0,
+                            "explanation": "This does not accurately describe lexical closure."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A mechanism that allows manipulation of internal functions by external functions.",
+                            "points": 0,
+                            "explanation": "This is not an accurate description of lexical closure."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A technique to ensure that local variables stay private outside their declaration scope.",
+                            "points": 3,
+                            "explanation": "Correct! Lexical closure is a technique to create private variables."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A common mistake when declaring functions inside loops.",
+                            "points": 0,
+                            "explanation": "This describes a different coding practice, not lexical closure."
+                        }
+                    ]
+                },
+                {
+                    "id": "a71e9464-6ef7-4e7f-88d8-5d69a48e6752",
+                    "question": "What is the fundamental difference between 'debounce' and 'throttle' in the context of events in JavaScript?",
+                    "description": "Question about the distinction between 'debounce' and 'throttle'.",
+                    "hint": "Consider their roles in managing the frequency of function calls.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'Debounce' limits the frequency of function calls, while 'throttle' ensures a function is not executed more than once in a fixed time interval.",
+                            "points": 3,
+                            "explanation": "Correct! This accurately describes the difference between 'debounce' and 'throttle'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Debounce' and 'throttle' are interchangeable terms referring to the same concept.",
+                            "points": 0,
+                            "explanation": "These terms represent distinct concepts with different purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Both terms describe the same technique for improving performance in asynchronous operations.",
+                            "points": 0,
+                            "explanation": "They have specific roles related to managing function execution frequency."
+                        },
+                        {
+                            "label": "D",
+                            "description": "'Throttle' prevents a function from executing after a period of inactivity, while 'debounce' limits the frequency of calls.",
+                            "points": 0,
+                            "explanation": "This inaccurately describes the roles of 'debounce' and 'throttle'."
+                        }
+                    ]
+                },
+                {
+                    "id": "64f0bebd-cb07-47d1-b5c5-4884b8f01c80",
+                    "question": "What is 'prototype chaining' in JavaScript, and how does it impact inheritance in this language?",
+                    "description": "Question about the concept of 'prototype chaining'.",
+                    "hint": "Consider how objects inherit properties and methods from their prototypes.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "An obsolete term with no relevance in modern JavaScript programming.",
+                            "points": 0,
+                            "explanation": "This term is still relevant in discussing JavaScript's inheritance mechanism."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A technique for creating objects in JavaScript using the 'prototype' keyword.",
+                            "points": 0,
+                            "explanation": "This describes a different concept, not 'prototype chaining'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The mechanism by which an object inherits properties and methods from its prototype object, forming a chain of prototypes.",
+                            "points": 3,
+                            "explanation": "Correct! 'Prototype chaining' is the process of inheritance in JavaScript."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A common mistake when working with object prototypes.",
+                            "points": 0,
+                            "explanation": "This describes an error in working with prototypes, not 'prototype chaining'."
+                        }
+                    ]
+                },
+                {
+                    "id": "bbe713a5-6aeb-4b09-8ff1-c08bcba18e0e",
+                    "question": "When is it appropriate to use the 'Observer' design pattern in JavaScript, and how does it function?",
+                    "description": "Question about the use and function of the 'Observer' design pattern.",
+                    "hint": "Consider scenarios where objects need to notify dependents about state changes.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Used to avoid the use of asynchronous functions in JavaScript.",
+                            "points": 0,
+                            "explanation": "The 'Observer' pattern is not related to avoiding asynchronous functions."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Appropriate when there is a need to maintain a list of dependents informed about state changes in an object, following the 'publish-subscribe' principle.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Observer' pattern is used for this purpose."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Only applicable in the development of user interfaces.",
+                            "points": 0,
+                            "explanation": "The 'Observer' pattern has broader applications beyond user interfaces."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Especially useful when working with synchronous code to avoid blocking.",
+                            "points": 0,
+                            "explanation": "The 'Observer' pattern is more focused on notifying about state changes than avoiding blocking."
+                        }
+                    ]
+                },
+                {
+                    "id": "e6d4ea53-2a07-4b01-8a09-320a9c8354e5",
+                    "question": "What is 'memoization' in JavaScript, and when is it beneficial to apply?",
+                    "description": "Question about the concept of 'memoization' and its use cases.",
+                    "hint": "Consider scenarios where the same input may produce the same result.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A method for managing memory allocation in JavaScript applications.",
+                            "points": 0,
+                            "explanation": "This does not accurately describe memoization."
+                        },
+                        {
+                            "label": "B",
+                            "description": "An approach to improve performance by storing the result of expensive function calls and returning the stored memory instead of recalculating.",
+                            "points": 3,
+                            "explanation": "Correct! Memoization aims to optimize function calls by caching results."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The practice of using a single global object to store all variables in an application.",
+                            "points": 0,
+                            "explanation": "This describes a different coding practice, not memoization."
+                        },
+                        {
+                            "label": "D",
+                            "description": "An outdated term that is no longer applicable in modern JavaScript programming.",
+                            "points": 0,
+                            "explanation": "Memoization is still a relevant concept for performance optimization."
+                        }
+                    ]
+                },
+                {
+                    "id": "cfc4e4e0-4a3e-4d3f-a43a-b7e4ef41c164",
+                    "question": "What is 'async/await' in JavaScript, and how is it used to handle asynchronous operations?",
+                    "description": "Question about the concept of 'async/await' and its role in handling asynchronous operations.",
+                    "hint": "Consider how 'async' and 'await' simplify asynchronous code.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A design pattern for error handling in asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Error handling is a separate concern from 'async/await'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "An outdated term that has been replaced by other techniques in JavaScript.",
+                            "points": 0,
+                            "explanation": "'async/await' is a current and widely used feature in modern JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A combination of the 'async' and 'await' keywords used to simplify writing asynchronous code in JavaScript.",
+                            "points": 3,
+                            "explanation": "Correct! 'async/await' simplifies the syntax for working with asynchronous operations."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A method to execute functions synchronously in asynchronous environments.",
+                            "points": 0,
+                            "explanation": "Async functions still operate asynchronously, but 'await' simplifies their usage."
+                        }
+                    ]
+                },
+                {
+                    "id": "93bb6374-7b35-4645-b8a8-40813c7c2ef7",
+                    "question": "What is the primary purpose of 'Web Workers' in JavaScript, and in what scenario are they most beneficial?",
+                    "description": "Question about the purpose and benefits of 'Web Workers' in JavaScript.",
+                    "hint": "Consider scenarios where background script execution is advantageous.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Used to improve the accessibility of web applications.",
+                            "points": 0,
+                            "explanation": "The primary purpose of 'Web Workers' is not related to accessibility."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Enables the execution of scripts in the background to perform intensive operations without blocking the main user interface.",
+                            "points": 3,
+                            "explanation": "Correct! 'Web Workers' are beneficial for background script execution."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A technique for enhancing the security of web applications.",
+                            "points": 0,
+                            "explanation": "Security enhancements are not the primary purpose of 'Web Workers'."
+                        },
+                        {
+                            "label": "D",
+                            "description": "'Web Workers' do not have a specific purpose in JavaScript.",
+                            "points": 0,
+                            "explanation": "Web Workers are designed for specific scenarios involving parallel script execution."
+                        }
+                    ]
+                },
+                {
+                    "id": "124ed1e9-4e16-42b7-a2a7-2d6f59b3ea7d",
+                    "question": "How does the concept of 'currying' work in JavaScript, and what is its purpose?",
+                    "description": "Question about the concept of 'currying' and its use in JavaScript.",
+                    "hint": "Consider transforming functions that take multiple arguments into a sequence of functions taking one argument.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A technique to simplify regular expression expressions in JavaScript.",
+                            "points": 0,
+                            "explanation": "Currying is not related to simplifying regular expressions."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The process of converting a function that takes multiple arguments into a sequence of functions that take one argument each.",
+                            "points": 3,
+                            "explanation": "Correct! Currying allows greater flexibility in applying functions partially."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A method for efficiently concatenating text strings in JavaScript.",
+                            "points": 0,
+                            "explanation": "String concatenation is not related to the concept of 'currying'."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A common mistake when working with recursive functions in JavaScript.",
+                            "points": 0,
+                            "explanation": "Currying is a distinct concept from common mistakes in recursive functions."
+                        }
+                    ]
+                },
+                {
+                    "id": "9d1be68c-1fc7-4671-aa5b-864e2a0c3a49",
+                    "question": "What is the 'Event Loop' in JavaScript, and how does it impact the execution of asynchronous code?",
+                    "description": "Question about the concept of the 'Event Loop' and its role in asynchronous code execution.",
+                    "hint": "Consider the mechanism that enables asynchronous event handling.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "An outdated term no longer used in modern JavaScript programming.",
+                            "points": 0,
+                            "explanation": "The 'Event Loop' is a fundamental concept in current JavaScript programming."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A technique to optimize the performance of loops in JavaScript code.",
+                            "points": 0,
+                            "explanation": "The 'Event Loop' is not related to optimizing loop performance."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The mechanism enabling JavaScript to handle events asynchronously using the event queue and call stack.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Event Loop' is essential for handling asynchronous events."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A common error related to event handling in JavaScript.",
+                            "points": 0,
+                            "explanation": "The 'Event Loop' itself is not an error but a fundamental mechanism."
+                        }
+                    ]
+                },
+                {
+                    "id": "76e4501f-6953-4829-8b57-195de4936d5d",
+                    "question": "In what situations is it advisable to use 'Map' instead of 'Object' to structure data in JavaScript?",
+                    "description": "Question about the scenarios where 'Map' is recommended over 'Object' for data structuring.",
+                    "hint": "Consider the flexibility and features offered by 'Map' compared to 'Object'.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'Map' and 'Object' are interchangeable and can be used in any situation without significant differences.",
+                            "points": 0,
+                            "explanation": "There are differences in use cases and features between 'Map' and 'Object'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is recommended to use 'Map' when a simple key-value data structure is needed.",
+                            "points": 3,
+                            "explanation": "Correct! 'Map' provides additional features and flexibility compared to 'Object' in certain scenarios."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'Object' is always preferable, as it has superior performance in all situations.",
+                            "points": 0,
+                            "explanation": "Performance considerations may vary based on the specific use case."
+                        },
+                        {
+                            "label": "D",
+                            "description": "'Map' is obsolete and should not be used in modern JavaScript programming.",
+                            "points": 0,
+                            "explanation": "'Map' is a current and valuable data structure in JavaScript."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

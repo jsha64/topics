@@ -1,0 +1,1386 @@
+{
+    "skill": {
+        "Npm": {
+            "id": "npm",
+            "description": "npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Modern JavaScript for Dinosaurs",
+                    "link": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+                },
+                {
+                    "name": "An Absolute Beginners Guide to Using npm",
+                    "link": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/"
+                },
+                {
+                    "name": "How to NPM",
+                    "link": "https://github.com/workshopper/how-to-npm"
+                },
+                {
+                    "name": "NPM tutorial for Beginners",
+                    "link": "https://www.youtube.com/watch?v=2V1UUhBJ62Y"
+                },
+                {
+                    "name": "NPM Crash Course",
+                    "link": "https://www.youtube.com/watch?v=jHDhaSSKmB0"
+                }
+            ],
+            "parents": [
+                "package-managers"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "4c8da16f-2e3e-4e07-85bf-9f15e067408a",
+                    "question": "What does npm stand for?",
+                    "description": "Choose the correct answer.",
+                    "hint": "Think about the role of npm in managing Node.js packages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Node Package Manager",
+                            "points": 3,
+                            "explanation": "Correct! npm stands for Node Package Manager."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Network Protocol Module",
+                            "points": 0,
+                            "explanation": "Incorrect. npm stands for Node Package Manager."
+                        },
+                        {
+                            "label": "C",
+                            "description": "New Programming Method",
+                            "points": 0,
+                            "explanation": "Incorrect. npm stands for Node Package Manager."
+                        }
+                    ]
+                },
+                {
+                    "id": "1a3f6483-5933-4d93-a8c0-3db9a21f7cb5",
+                    "question": "How do you install a package globally using npm?",
+                    "description": "Choose the correct answer.",
+                    "hint": "Consider the command structure for global installations.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm add <package-name> -g",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm install <package-name> -g'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm global install <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm install <package-name> -g'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install <package-name> -g",
+                            "points": 3,
+                            "explanation": "Correct! This is the correct command to install a package globally using npm."
+                        }
+                    ]
+                },
+                {
+                    "id": "9bcae148-6833-4e88-bdbd-ff53f7369fc7",
+                    "question": "What command is used to initialize a new npm package?",
+                    "description": "Choose the correct answer to initialize a new project with npm.",
+                    "hint": "Think about the first step you take when starting a new Node.js project.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm start",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm start' is used to run a script named 'start' in your package."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm init",
+                            "points": 3,
+                            "explanation": "Correct! 'npm init' is used to initialize a new npm package."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm create",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no 'npm create' command for initializing a new npm package."
+                        }
+                    ]
+                },
+                {
+                    "id": "12b553d9-cd2b-4a52-af52-9b4f8fc47122",
+                    "question": "What file is commonly used to manage project dependencies in an npm package?",
+                    "description": "Choose the correct file for managing dependencies in an npm project.",
+                    "hint": "Consider the file where you list your project's dependencies.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "package.json",
+                            "points": 3,
+                            "explanation": "Correct! 'package.json' is the file used to manage project dependencies in an npm package."
+                        },
+                        {
+                            "label": "B",
+                            "description": "dependency.json",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct file is 'package.json'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npmfile.json",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct file is 'package.json'."
+                        }
+                    ]
+                },
+                {
+                    "id": "95f740b7-7c99-4979-bb2f-15c86f1a92db",
+                    "question": "How do you uninstall a global npm package?",
+                    "description": "Choose the correct command to uninstall a globally installed npm package.",
+                    "hint": "Think about the opposite action of installing a global package.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm uninstall <package-name> -g",
+                            "points": 3,
+                            "explanation": "Correct! 'npm uninstall <package-name> -g' is used to uninstall a global npm package."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm remove <package-name> -g",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm uninstall <package-name> -g'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm delete <package-name> -g",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm uninstall <package-name> -g'."
+                        }
+                    ]
+                },
+                {
+                    "id": "7d0a1c06-0077-4c73-8b14-8f2c22a8f194",
+                    "question": "What npm command is used to show information about a specific package?",
+                    "description": "Choose the correct command to get details about a particular npm package.",
+                    "hint": "Consider how you might inspect a package before installing it.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm view <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm view <package-name>' shows information about a specific package."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm info <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm view <package-name>'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm about <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm view <package-name>'."
+                        }
+                    ]
+                },
+                {
+                    "id": "c299a5a0-25f1-4a68-8e44-11b0d738ef89",
+                    "question": "What npm command is used to run scripts defined in the package.json file?",
+                    "description": "Choose the correct command to execute scripts specified in the package.json file.",
+                    "hint": "Think about how you execute custom scripts defined in your project.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm execute",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm run <script-name>'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm start",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm start' runs the 'start' script, but it's not a generic command for all scripts."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm run <script-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm run <script-name>' is used to run scripts defined in the package.json file."
+                        }
+                    ]
+                },
+                {
+                    "id": "8a7f3d21-8427-4968-8b2e-aaeb42e9f8aa",
+                    "question": "Which npm command is used to update all packages to their latest version?",
+                    "description": "Choose the correct command to update all packages to their latest versions.",
+                    "hint": "Consider how you might keep your project's dependencies up to date.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm upgrade",
+                            "points": 3,
+                            "explanation": "Correct! 'npm upgrade' updates all packages to their latest version."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm update-all",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm upgrade'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm update",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm update' updates packages but may not bring them to their latest version."
+                        }
+                    ]
+                },
+                {
+                    "id": "89c0774a-14b5-4e7e-bb3d-18a855f5c345",
+                    "question": "What does the --save flag do when installing a package using npm?",
+                    "description": "Choose the correct explanation for the --save flag when installing npm packages.",
+                    "hint": "Consider the historical significance of the --save flag in npm installations.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It saves the package as a development dependency.",
+                            "points": 0,
+                            "explanation": "Incorrect. '--save' is no longer necessary for npm versions 5.0.0 and above."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It saves the package as a production dependency.",
+                            "points": 0,
+                            "explanation": "Incorrect. '--save' is no longer necessary for npm versions 5.0.0 and above."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It used to save the package as a dependency, but it's not required in npm 5.0.0 and above.",
+                            "points": 3,
+                            "explanation": "Correct! '--save' used to be required in earlier npm versions to save the package as a dependency, but it's not necessary in npm 5.0.0 and above."
+                        }
+                    ]
+                },
+                {
+                    "id": "64e6fb4d-5a5c-4e3b-8c9c-8f01e4c0c692",
+                    "question": "How do you check the installed version of npm on your system?",
+                    "description": "Choose the correct command to check the installed version of npm.",
+                    "hint": "Think about how you might query the version of npm installed on your machine.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm version",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm version' is used for managing package versions within a project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm -v",
+                            "points": 3,
+                            "explanation": "Correct! 'npm -v' or 'npm --version' displays the installed version of npm on your system."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm info",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm info' is used to get information about a specific package, not the npm version."
+                        }
+                    ]
+                },
+                {
+                    "id": "384be439-12bb-48f0-bd3a-61eb1e6eb972",
+                    "question": "What command is used to install a specific version of an npm package?",
+                    "description": "Choose the correct command to install a specific version of a package.",
+                    "hint": "Consider how you might specify a version when installing a package.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install <package-name> --version <version>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name>@<version>'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm add <package-name>@<version>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install <package-name>@<version>' installs a specific version of a package."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install <package-name> --v <version>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name>@<version>'."
+                        }
+                    ]
+                },
+                {
+                    "id": "3acbc19a-e768-4ac1-bf56-6a93e0da44c7",
+                    "question": "What does the --save-dev flag do when installing a package using npm?",
+                    "description": "Choose the correct explanation for the --save-dev flag.",
+                    "hint": "Consider the purpose of development dependencies in a project.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It saves the package as a production dependency.",
+                            "points": 0,
+                            "explanation": "Incorrect. '--save-dev' is used to save packages as development dependencies."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It saves the package as a dependency without specifying the version.",
+                            "points": 0,
+                            "explanation": "Incorrect. '--save-dev' is specifically for development dependencies."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It saves the package as a development dependency.",
+                            "points": 3,
+                            "explanation": "Correct! '--save-dev' is used to save packages as development dependencies."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f58e12c-78cc-4aaf-9b2c-65c59e2c3c11",
+                    "question": "What npm command is used to list installed packages and their versions?",
+                    "description": "Choose the correct command to display a list of installed packages.",
+                    "hint": "Consider how you might inspect the current state of your project's dependencies.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm show",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm show' is used to display package metadata, not the installed packages."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm list",
+                            "points": 3,
+                            "explanation": "Correct! 'npm list' shows a tree of installed packages and their versions."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm info",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm info' is used to get information about a specific package."
+                        }
+                    ]
+                },
+                {
+                    "id": "0d1232f9-cdb8-45fb-9e64-4b94268cf652",
+                    "question": "What npm command is used to update a package to its latest version?",
+                    "description": "Choose the correct command to update a package to its latest version.",
+                    "hint": "Think about how you might update a specific package in your project.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm update <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm update' may not bring the package to its latest version."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install <package-name> --latest",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install <package-name>@latest' updates a package to its latest version."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm upgrade <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm upgrade' updates all packages, not a specific one."
+                        }
+                    ]
+                },
+                {
+                    "id": "4d822831-ae6b-4d9e-9e9b-e6a65f18e997",
+                    "question": "What npm command is used to uninstall a package from a project?",
+                    "description": "Choose the correct command to remove a package from your project.",
+                    "hint": "Consider how you might remove a package you no longer need.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm remove <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm remove <package-name>' uninstalls a package from your project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm uninstall <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm uninstall' is used to uninstall packages, but it may leave them in your package.json file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm delete <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm delete' is not a valid command for uninstalling packages."
+                        }
+                    ]
+                },
+                {
+                    "id": "4fb1d42a-c29d-4e48-9e50-9e8aee70c916",
+                    "question": "What npm command is used to run a script defined in package.json?",
+                    "description": "Choose the correct command to execute a custom script from your package.json file.",
+                    "hint": "Consider how you might execute custom scripts defined in your project.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm run-script <script-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm run-script <script-name>' executes a script defined in package.json."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm execute <script-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm run-script <script-name>'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm start <script-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm start' runs the 'start' script, but it's not a generic command for all scripts."
+                        }
+                    ]
+                },
+                {
+                    "id": "3cb09235-3511-4fc8-8db9-d8f3e0414d2c",
+                    "question": "How can you see the details of a locally installed npm package?",
+                    "description": "Choose the correct command to view details of a package installed in your project.",
+                    "hint": "Think about how you might inspect the details of a locally installed package.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm show <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm show <package-name>' displays details of a locally installed package."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm info <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm info' is used to get information about a specific package, not the locally installed ones."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm view <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm view' is used to view information about a package, but 'npm show' is more appropriate for locally installed packages."
+                        }
+                    ]
+                },
+                {
+                    "id": "89a65c3e-05af-4a49-8d1e-25b0e4f44c50",
+                    "question": "What npm command is used to install packages listed in package.json?",
+                    "description": "Choose the correct command to install dependencies specified in your project's package.json file.",
+                    "hint": "Consider how you might install the dependencies listed in your project.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm i",
+                            "points": 3,
+                            "explanation": "Correct! 'npm i' is a shorthand for 'npm install', installing packages listed in package.json."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm add",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm add' is used for adding new dependencies, not installing existing ones."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install-packages",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no 'npm install-packages' command. The correct command is 'npm install' or 'npm i'."
+                        }
+                    ]
+                },
+                {
+                    "id": "53a02f62-34d4-4998-8b2a-ba257841f06c",
+                    "question": "What npm command is used to install a package and save it as a development dependency?",
+                    "description": "Choose the correct command to install a package as a development dependency.",
+                    "hint": "Consider how you might install packages specifically for development purposes.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install <package-name> --save-dev",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install <package-name> --save-dev' installs the package and saves it as a development dependency."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install --dev <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is '--save-dev', not '--dev'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm add <package-name> --dev",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is '--save-dev', not '--dev'."
+                        }
+                    ]
+                },
+                {
+                    "id": "f43e61ae-8d8f-4648-b8ea-1a4b4713a5bf",
+                    "question": "What npm command is used to install packages globally?",
+                    "description": "Choose the correct command to install packages globally.",
+                    "hint": "Consider how you might install packages so they are accessible across different projects.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm global install <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm install <package-name> -g'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install -g <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install -g <package-name>' installs a package globally."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install <package-name> --global",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm install <package-name> -g'."
+                        }
+                    ]
+                },
+                {
+                    "id": "7897e5f2-16d7-4541-8f39-1c74c8cf0b1f",
+                    "question": "What npm command is used to install packages and save them as development dependencies?",
+                    "description": "Choose the correct command to install packages and save them as development dependencies.",
+                    "hint": "Consider how you might install packages specifically for development purposes.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm add --dev <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name> --save-dev'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install --save-dev <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install --save-dev <package-name>' installs the package and saves it as a development dependency."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install --dev <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is '--save-dev', not '--dev'."
+                        }
+                    ]
+                },
+                {
+                    "id": "d10b50ef-d3da-46e9-9f52-8e9a02160114",
+                    "question": "What npm command is used to update all packages, including their dependencies, to their latest versions?",
+                    "description": "Choose the correct command to update all packages, including their dependencies, to their latest versions.",
+                    "hint": "Consider how you might ensure all packages in your project are up to date.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm update --all",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm update', but it may not bring all packages to their latest versions."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm upgrade --latest",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm upgrade', but specifying '--latest' is not necessary."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm upgrade",
+                            "points": 3,
+                            "explanation": "Correct! 'npm upgrade' updates all packages, including their dependencies, to their latest versions."
+                        }
+                    ]
+                },
+                {
+                    "id": "3e6dce9e-7a5f-4bc5-b81c-65f3ff271631",
+                    "question": "What npm command is used to uninstall a development dependency?",
+                    "description": "Choose the correct command to uninstall a package that is a development dependency.",
+                    "hint": "Think about how you might remove a package that was installed for development purposes.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm remove --dev <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm uninstall <package-name> --save-dev'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm uninstall --save-dev <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm uninstall --save-dev <package-name>' uninstalls a development dependency."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm delete <package-name> --dev",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm uninstall <package-name> --save-dev'."
+                        }
+                    ]
+                },
+                {
+                    "id": "76fb1791-0a4a-4473-98a1-8a0f7bb44fbd",
+                    "question": "What npm command is used to check for outdated packages in your project?",
+                    "description": "Choose the correct command to check for outdated packages in your project.",
+                    "hint": "Consider how you might identify packages that have newer versions available.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm outdated",
+                            "points": 3,
+                            "explanation": "Correct! 'npm outdated' checks for outdated packages in your project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm check-updates",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm check-updates' is a third-party tool for checking for updates, but it's not an npm command."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm update-check",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no 'npm update-check' command. The correct command is 'npm outdated'."
+                        }
+                    ]
+                },
+                {
+                    "id": "8e7711a1-2c25-4613-83a0-1b2f1d29d6ad",
+                    "question": "What npm command is used to install packages from a specific registry?",
+                    "description": "Choose the correct command to install packages from a registry other than the default.",
+                    "hint": "Consider how you might specify a different registry when installing packages.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install <package-name> --registry <registry-url>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install <package-name> --registry <registry-url>' installs a package from a specific registry."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm set-registry <registry-url>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm set-registry' is used to set the default registry, not for installing packages from a specific registry."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm add <package-name> --registry <registry-url>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name> --registry <registry-url>'."
+                        }
+                    ]
+                },
+                {
+                    "id": "9a61d74c-9d26-4329-b063-00c50e3487a2",
+                    "question": "What npm command is used to create a package.json file interactively?",
+                    "description": "Choose the correct command to create a package.json file interactively.",
+                    "hint": "Think about how you might initialize a new project and answer questions about its configuration.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm init",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm init' creates a package.json file, but it's not interactive."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm generate",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no 'npm generate' command for creating a package.json file interactively."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm init --interactive",
+                            "points": 3,
+                            "explanation": "Correct! 'npm init --interactive' creates a package.json file interactively by asking questions about your project."
+                        }
+                    ]
+                },
+                {
+                    "id": "e8f6eb42-c214-46a9-8c74-79fbf8a02b7a",
+                    "question": "What npm command is used to display a list of globally installed packages?",
+                    "description": "Choose the correct command to show a list of packages installed globally on your system.",
+                    "hint": "Consider how you might inspect globally installed packages.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm list -g",
+                            "points": 3,
+                            "explanation": "Correct! 'npm list -g' displays a list of globally installed packages."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm show -g",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm show -g' is used to display metadata about a globally installed package, not the list of all packages."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm global list",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm list -g' for displaying a list of globally installed packages."
+                        }
+                    ]
+                },
+                {
+                    "id": "735e8992-85d2-4655-af26-5a54f650ff0a",
+                    "question": "What npm command is used to clean the cache of installed packages?",
+                    "description": "Choose the correct command to clean the npm cache.",
+                    "hint": "Consider how you might free up disk space by removing cached packages.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm cache clean",
+                            "points": 3,
+                            "explanation": "Correct! 'npm cache clean' removes all data from the cache."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm clean-cache",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm cache clean'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm clear-cache",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm cache clean'."
+                        }
+                    ]
+                },
+                {
+                    "id": "3b1f3b22-f36d-45df-a693-83e045c54f1d",
+                    "question": "What npm command is used to install a package and save it as a peer dependency?",
+                    "description": "Choose the correct command to install a package and save it as a peer dependency.",
+                    "hint": "Consider how you might specify a peer dependency when installing a package.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install <package-name> --save-peer",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name> --peer'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install <package-name> --peer",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install <package-name> --peer' installs the package and saves it as a peer dependency."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm add <package-name> --peer",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name> --peer'."
+                        }
+                    ]
+                },
+                {
+                    "id": "2a1e1b0a-7ac5-4b96-8070-5d7693303c4d",
+                    "question": "What npm command is used to install packages from a package-lock.json file?",
+                    "description": "Choose the correct command to install packages based on the dependencies listed in package-lock.json.",
+                    "hint": "Consider how you might install packages according to a lock file.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install --lockfile",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm ci' to install packages based on package-lock.json."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install --from-lock-file",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm ci' to install packages based on package-lock.json."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm ci",
+                            "points": 3,
+                            "explanation": "Correct! 'npm ci' installs packages based on the dependencies listed in package-lock.json."
+                        }
+                    ]
+                },
+                {
+                    "id": "d8d9e4ed-9073-4b7e-88b8-1502d9e3b97c",
+                    "question": "What npm command is used to publish a package to the npm registry?",
+                    "description": "Choose the correct command to publish a package to the npm registry.",
+                    "hint": "Consider how you might share your package with others on the npm registry.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm share",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm share' is not a valid command for publishing a package."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm publish",
+                            "points": 3,
+                            "explanation": "Correct! 'npm publish' is used to publish a package to the npm registry."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm upload",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm upload' is not a valid command for publishing a package."
+                        }
+                    ]
+                },
+                {
+                    "id": "97d97ea6-21b1-4620-8c0a-b5e0f16d4407",
+                    "question": "What is the purpose of the prepublish script in package.json?",
+                    "description": "Choose the correct explanation for the prepublish script in package.json.",
+                    "hint": "Consider when the prepublish script is executed in the npm package lifecycle.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It runs before the package is packed and published.",
+                            "points": 3,
+                            "explanation": "Correct! The prepublish script is executed before the package is packed and published."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It runs after the package is published to the npm registry.",
+                            "points": 0,
+                            "explanation": "Incorrect. The prepublish script runs before the package is packed and published."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It runs during the installation of the package.",
+                            "points": 0,
+                            "explanation": "Incorrect. The prepublish script runs before the package is packed and published, not during installation."
+                        }
+                    ]
+                },
+                {
+                    "id": "27e01232-c852-49f0-88c4-0663906e31aa",
+                    "question": "What npm command is used to run a script defined as a lifecycle event?",
+                    "description": "Choose the correct command to execute a script defined as a lifecycle event in package.json.",
+                    "hint": "Consider how you might run scripts defined in the npm package lifecycle.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm start",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm start' runs the 'start' script, but it's not a generic command for all lifecycle events."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm run-script <script-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm run-script <script-name>' executes a script defined as a lifecycle event in package.json."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm execute <script-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm run-script <script-name>'."
+                        }
+                    ]
+                },
+                {
+                    "id": "2bfb60e1-5f85-42a4-8a63-d5e30103ba29",
+                    "question": "What npm command is used to view the contents of a specific package in the npm registry?",
+                    "description": "Choose the correct command to inspect the contents of a package in the npm registry.",
+                    "hint": "Consider how you might gather information about a package without installing it.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm show <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm show <package-name>' displays information about a specific package in the npm registry."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm inspect <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm inspect' is used for inspecting the contents of the current project, not a package in the registry."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm view <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'npm view' is used to view information about a package, but 'npm show' is more appropriate for the registry."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f833b68-7aeb-4e37-84cb-9c2d05ef8711",
+                    "question": "What npm command is used to install a package globally and save it as a development dependency?",
+                    "description": "Choose the correct command to install a package globally and save it as a development dependency.",
+                    "hint": "Consider how you might install global packages for development purposes.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install -g <package-name> --save-dev",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name> -g --save-dev'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install -g --save-dev <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name> -g --save-dev'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install -g <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install -g <package-name>' installs a package globally and saves it as a development dependency."
+                        }
+                    ]
+                },
+                {
+                    "id": "9255e8d2-44da-4fc1-9817-4e08a641cf58",
+                    "question": "What is the purpose of the 'files' field in package.json?",
+                    "description": "Choose the correct explanation for the 'files' field in package.json.",
+                    "hint": "Consider how the 'files' field affects what gets included when the package is packed or published.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It specifies the list of files to be included when the package is packed or published.",
+                            "points": 3,
+                            "explanation": "Correct! The 'files' field in package.json specifies the list of files to be included when the package is packed or published."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the files that should be ignored by version control systems.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'files' field is specific to what gets included when the package is packed or published, not version control."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It indicates the entry point file for the package.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'files' field is not used to specify the entry point file; it's for listing files to be included."
+                        }
+                    ]
+                },
+                {
+                    "id": "46d9e2c8-18a7-41ed-99d1-81e7a6ac2b6d",
+                    "question": "What npm command is used to update a package to its latest version?",
+                    "description": "Choose the correct command to update a package to its latest version.",
+                    "hint": "Consider how you might ensure a package is using the latest available version.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm update <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm install <package-name>@latest' to update to the latest version."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install <package-name> --latest",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name>@latest' to update to the latest version."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install <package-name>@latest",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install <package-name>@latest' installs the latest version of a package."
+                        }
+                    ]
+                },
+                {
+                    "id": "3669a2eb-e04e-4d2a-987a-9e8d0c49c56d",
+                    "question": "What npm command is used to create a new package version and update the package.json and package-lock.json files?",
+                    "description": "Choose the correct command to create a new package version and update the package.json and package-lock.json files.",
+                    "hint": "Consider how you might bump the version of your package and update related files.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm bump",
+                            "points": 0,
+                            "explanation": "Incorrect. There is no 'npm bump' command. The correct command is 'npm version'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm version",
+                            "points": 3,
+                            "explanation": "Correct! 'npm version' is used to create a new package version and update package.json and package-lock.json."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm update-version",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm version' for updating the version and related files."
+                        }
+                    ]
+                },
+                {
+                    "id": "42ab447c-063f-45f8-bd85-83822d4e1531",
+                    "question": "What is the purpose of the 'shrinkwrap' feature in npm?",
+                    "description": "Choose the correct explanation for the 'shrinkwrap' feature in npm.",
+                    "hint": "Consider how 'shrinkwrap' helps ensure consistent installations across different environments.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is used to create a tarball of the package for offline installations.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'shrinkwrap' feature is not related to creating tarballs for offline installations."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It locks down the versions of a package's dependencies to ensure consistent installations.",
+                            "points": 3,
+                            "explanation": "Correct! 'shrinkwrap' is used to lock down the versions of a package's dependencies for consistent installations."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It compresses the files of the package to reduce its size.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'shrinkwrap' feature is not about compressing package files but about version consistency."
+                        }
+                    ]
+                },
+                {
+                    "id": "eeb1b994-1455-4672-a9cb-c9e43fc8330f",
+                    "question": "What npm command is used to uninstall a global package?",
+                    "description": "Choose the correct command to uninstall a package that was installed globally.",
+                    "hint": "Consider how you might remove a global package from your system.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm uninstall -g <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm uninstall -g <package-name>' uninstalls a globally installed package."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm remove -g <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm uninstall -g <package-name>'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm delete -g <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm uninstall -g <package-name>'."
+                        }
+                    ]
+                },
+                {
+                    "id": "31e3a64d-efc8-4cfc-97d8-3a903409c767",
+                    "question": "What npm command is used to run a script in the context of the current project?",
+                    "description": "Choose the correct command to execute a script within the context of the current project.",
+                    "hint": "Consider how you might run a script defined in the current project's package.json.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm execute <script-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm run <script-name>' for executing scripts in the project context."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm exec <script-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm run <script-name>' for executing scripts in the project context."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm run <script-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm run <script-name>' executes a script within the context of the current project."
+                        }
+                    ]
+                },
+                {
+                    "id": "63cf079d-1b93-4f5e-b871-32213d17a3cc",
+                    "question": "What is the purpose of the 'preinstall' script in package.json?",
+                    "description": "Choose the correct explanation for the 'preinstall' script in package.json.",
+                    "hint": "Consider when the 'preinstall' script is executed in the npm package lifecycle.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It runs before the package is packed and published.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'preinstall' script runs before the package is installed, not packed or published."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It runs before the 'install' script when the package is installed.",
+                            "points": 3,
+                            "explanation": "Correct! The 'preinstall' script runs before the 'install' script when the package is installed."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It runs after the package is installed.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'preinstall' script runs before the 'install' script when the package is installed."
+                        }
+                    ]
+                },
+                {
+                    "id": "22c5ebed-457b-4aa7-af48-9d30df3f697e",
+                    "question": "What npm command is used to check for security vulnerabilities in your project's dependencies?",
+                    "description": "Choose the correct command to scan for security vulnerabilities in your project's dependencies.",
+                    "hint": "Consider how you might ensure the security of your project by checking for vulnerabilities.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm audit",
+                            "points": 3,
+                            "explanation": "Correct! 'npm audit' checks for security vulnerabilities in your project's dependencies."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm security-check",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm audit' for checking security vulnerabilities."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm check-security",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm audit' for checking security vulnerabilities."
+                        }
+                    ]
+                },
+                {
+                    "id": "71f35ea1-09e7-4312-bf44-29f9c24bc6b5",
+                    "question": "What is the purpose of the 'prepare' script in package.json?",
+                    "description": "Choose the correct explanation for the 'prepare' script in package.json.",
+                    "hint": "Consider when the 'prepare' script is executed in the npm package lifecycle.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It runs before the package is packed and published.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'prepare' script runs after the package is installed but before it is packed or published."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It runs after the package is packed and published.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'prepare' script runs after the package is installed but before it is packed or published."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It runs after the package is installed but before it is packed or published.",
+                            "points": 3,
+                            "explanation": "Correct! The 'prepare' script runs after the package is installed but before it is packed or published."
+                        }
+                    ]
+                },
+                {
+                    "id": "50c30af4-e4f8-42c1-88f9-e81b2b6cde75",
+                    "question": "What npm command is used to install a specific version of a package?",
+                    "description": "Choose the correct command to install a package at a specific version.",
+                    "hint": "Consider how you might specify the version of a package to install.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install <package-name>@<version>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install <package-name>@<version>' installs the specified version of a package."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install <package-name> --version <version>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name>@<version>' to install a specific version."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install <package-name> <version>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install <package-name>@<version>' to install a specific version."
+                        }
+                    ]
+                },
+                {
+                    "id": "3f19582d-224d-41cb-9f87-d5bc4b5d867d",
+                    "question": "What npm command is used to list the scripts defined in the package.json file?",
+                    "description": "Choose the correct command to display a list of scripts defined in package.json.",
+                    "hint": "Consider how you might inspect the available scripts in a project.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm scripts",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm run' to execute scripts, not 'npm scripts'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm list-scripts",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm run' to execute scripts, not 'npm list-scripts'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm run",
+                            "points": 3,
+                            "explanation": "Correct! 'npm run' displays a list of available scripts defined in package.json."
+                        }
+                    ]
+                },
+                {
+                    "id": "6188d4c1-7572-41d4-9a65-65f8da6e0d9e",
+                    "question": "What is the purpose of the 'files' field in package.json?",
+                    "description": "Choose the correct explanation for the 'files' field in package.json.",
+                    "hint": "Consider how the 'files' field affects what gets included when the package is packed or published.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It specifies the list of files to be included when the package is packed or published.",
+                            "points": 3,
+                            "explanation": "Correct! The 'files' field in package.json specifies the list of files to be included when the package is packed or published."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the files that should be ignored by version control systems.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'files' field is specific to what gets included when the package is packed or published, not version control."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It indicates the entry point file for the package.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'files' field is not used to specify the entry point file; it's for listing files to be included."
+                        }
+                    ]
+                },
+                {
+                    "id": "c0d94487-35d4-415a-8df7-587d5837bea9",
+                    "question": "What npm command is used to update all packages to their latest versions based on the version range specified in package.json?",
+                    "description": "Choose the correct command to update all packages to their latest versions based on the version range.",
+                    "hint": "Consider how you might update packages while respecting the version constraints in package.json.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm update",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm install' to update packages based on the version range in package.json."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm upgrade",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'npm install' to update packages based on the version range in package.json."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install' updates packages to their latest versions based on the version range specified in package.json."
+                        }
+                    ]
+                },
+                {
+                    "id": "95e28b6a-6e6f-4a8f-ba6d-14f7337031f8",
+                    "question": "What is the purpose of the 'postpublish' script in package.json?",
+                    "description": "Choose the correct explanation for the 'postpublish' script in package.json.",
+                    "hint": "Consider when the 'postpublish' script is executed in the npm package lifecycle.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It runs before the package is packed and published.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'postpublish' script runs after the package is packed and published."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It runs after the 'publish' script when the package is published.",
+                            "points": 3,
+                            "explanation": "Correct! The 'postpublish' script runs after the 'publish' script when the package is published."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It runs before the package is published to the npm registry.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'postpublish' script runs after the package is packed and published."
+                        }
+                    ]
+                },
+                {
+                    "id": "2e8e22ea-134a-4cb1-bc92-41d94a398579",
+                    "question": "What npm command is used to install packages from a specific registry?",
+                    "description": "Choose the correct command to install packages from a registry other than the default npm registry.",
+                    "hint": "Consider how you might specify a different registry when installing packages.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install --registry=<registry-url>",
+                            "points": 3,
+                            "explanation": "Correct! 'npm install --registry=<registry-url>' installs packages from the specified registry."
+                        },
+                        {
+                            "label": "B",
+                            "description": "npm install --use-registry=<registry-url>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install --registry=<registry-url>' for specifying a registry."
+                        },
+                        {
+                            "label": "C",
+                            "description": "npm install --from=<registry-url>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'npm install --registry=<registry-url>' for specifying a registry."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

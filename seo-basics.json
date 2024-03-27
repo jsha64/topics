@@ -1,0 +1,1394 @@
+{
+    "skill": {
+        "SEOBasics": {
+            "id": "seo-basics",
+            "description": "SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Google Search Central — SEO Docs",
+                    "link": "https://developers.google.com/search/docs"
+                },
+                {
+                    "name": "SEO Guide",
+                    "link": "https://github.com/seo/guide"
+                },
+                {
+                    "name": "8 Must-Know SEO Best Practices For Developers",
+                    "link": "https://neilpatel.com/blog/seo-developers/"
+                },
+                {
+                    "name": "SEO for Developers",
+                    "link": "https://medium.com/welldone-software/seo-for-developers-a-quick-overview-5b5b7ce34679"
+                },
+                {
+                    "name": "Complete SEO Course for Beginners",
+                    "link": "https://www.youtube.com/watch?v=xsVTqzratPs"
+                },
+                {
+                    "name": "SEO Expert Course",
+                    "link": "https://www.youtube.com/watch?v=SnxeXZpZkI0"
+                },
+                {
+                    "name": "Learning SEO",
+                    "link": "https://learningseo.io/"
+                }
+            ],
+            "parents": [
+                "html"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "b17b2d2f-2b7a-4c59-9d52-15a24d37156a",
+                    "question": "What does SEO stand for?",
+                    "description": "Select the correct expansion for the abbreviation SEO.",
+                    "hint": "Check the common abbreviation used in the context of website optimization.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Search Engine Optimization",
+                            "points": 3,
+                            "explanation": "Correct! SEO stands for Search Engine Optimization."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Social Engagement Outreach",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct expansion for SEO is Search Engine Optimization."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Software Engineering Operations",
+                            "points": 0,
+                            "explanation": "Not accurate. SEO is commonly known as Search Engine Optimization in the context of website ranking."
+                        }
+                    ]
+                },
+                {
+                    "id": "e6a720c7-0f0a-4b23-9b97-4ecf6f896f4a",
+                    "question": "Why is SEO important for websites?",
+                    "description": "Select the option that best describes the importance of SEO for websites.",
+                    "hint": "Consider how SEO impacts the visibility of a website on search engines.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "SEO is not important for websites.",
+                            "points": 0,
+                            "explanation": "Incorrect. SEO plays a crucial role in improving the visibility and ranking of websites on search engines."
+                        },
+                        {
+                            "label": "B",
+                            "description": "SEO helps improve the visibility and ranking of websites on search engines.",
+                            "points": 3,
+                            "explanation": "Correct! SEO is essential for enhancing the visibility and ranking of websites on search engines."
+                        },
+                        {
+                            "label": "C",
+                            "description": "SEO is only relevant for offline marketing.",
+                            "points": 0,
+                            "explanation": "Not accurate. SEO primarily impacts online visibility and ranking on search engines."
+                        }
+                    ]
+                },
+                {
+                    "id": "5f9819e0-2cfc-4b1a-a4ee-cb512b04e5e7",
+                    "question": "What is the goal of SEO?",
+                    "description": "Select the option that best describes the goal of SEO.",
+                    "hint": "Consider what website optimization aims to achieve in terms of search engine visibility.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To make websites look visually appealing.",
+                            "points": 0,
+                            "explanation": "Incorrect. While visual appeal is important, the primary goal of SEO is related to search engine visibility."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To improve the search engine visibility and ranking of websites.",
+                            "points": 3,
+                            "explanation": "Correct! The main goal of SEO is to enhance the search engine visibility and ranking of websites."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To increase offline sales.",
+                            "points": 0,
+                            "explanation": "Not accurate. SEO primarily focuses on online visibility and ranking on search engines."
+                        }
+                    ]
+                },
+                {
+                    "id": "7a9c991a-d1d7-4e5f-a52a-7e6e37b01113",
+                    "question": "Which search engines are commonly targeted in SEO?",
+                    "description": "Select the option that lists common search engines targeted in SEO.",
+                    "hint": "Consider popular search engines used globally.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Google, Bing, Yahoo",
+                            "points": 3,
+                            "explanation": "Correct! Google, Bing, and Yahoo are commonly targeted in SEO efforts."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Facebook, Twitter, Instagram",
+                            "points": 0,
+                            "explanation": "Incorrect. SEO primarily focuses on search engines rather than social media platforms."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Netflix, Amazon, Hulu",
+                            "points": 0,
+                            "explanation": "Not accurate. SEO is concerned with search engines used for information retrieval."
+                        }
+                    ]
+                },
+                {
+                    "id": "9a8265d0-63ea-4b5f-9f6d-7b5da5ac8a02",
+                    "question": "What does improved SEO contribute to for websites?",
+                    "description": "Select the option that describes a benefit of improved SEO for websites.",
+                    "hint": "Consider the positive outcomes associated with effective SEO strategies.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Decreased website traffic.",
+                            "points": 0,
+                            "explanation": "Incorrect. Improved SEO is expected to increase, not decrease, website traffic."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Reduced website visibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. Improved SEO aims to enhance website visibility on search engines."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Increased website visibility and organic traffic.",
+                            "points": 3,
+                            "explanation": "Correct! Improved SEO contributes to increased website visibility and organic traffic."
+                        }
+                    ]
+                },
+                {
+                    "id": "d6d69917-d151-46ac-b9bb-5c85cbe9eb14",
+                    "question": "Which of the following is a common SEO practice?",
+                    "description": "Select the option that represents a common practice in the field of SEO.",
+                    "hint": "Consider activities that contribute to optimizing a website for search engines.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Ignoring website content.",
+                            "points": 0,
+                            "explanation": "Incorrect. SEO involves optimizing website content rather than ignoring it."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Regularly updating website content.",
+                            "points": 3,
+                            "explanation": "Correct! Regularly updating website content is a common SEO practice to maintain relevance and freshness."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Removing all external links.",
+                            "points": 0,
+                            "explanation": "Not accurate. SEO strategies may involve managing, but not necessarily removing, external links."
+                        }
+                    ]
+                },
+                {
+                    "id": "0d2f77a3-5dce-4a94-a1b2-ee2b1370b345",
+                    "question": "What is the purpose of using keywords in SEO?",
+                    "description": "Select the option that best describes the purpose of using keywords in SEO.",
+                    "hint": "Consider how keywords are utilized to improve search engine rankings.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Keywords have no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. Keywords play a significant role in SEO, influencing search engine rankings."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To make website content difficult to understand.",
+                            "points": 0,
+                            "explanation": "Not accurate. The purpose of using keywords is to enhance, not hinder, the understanding of website content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To improve the relevance and visibility of website content in search engine results.",
+                            "points": 3,
+                            "explanation": "Correct! Using keywords in SEO aims to improve the relevance and visibility of website content in search engine results."
+                        }
+                    ]
+                },
+                {
+                    "id": "f8744a0b-45c9-41b5-b822-870a3ab52ee7",
+                    "question": "What is the role of backlinks in SEO?",
+                    "description": "Select the option that describes the role of backlinks in the context of SEO.",
+                    "hint": "Consider how backlinks contribute to the credibility and authority of a website.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Backlinks have no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. Backlinks play a crucial role in SEO, contributing to the credibility and authority of a website."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Backlinks are only relevant for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Not accurate. Backlinks are not primarily related to visual design but rather to the credibility of a website."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Backlinks contribute to the credibility and authority of a website, positively impacting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! Backlinks play a significant role in establishing the credibility and authority of a website, positively influencing SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "07d547f3-891e-4f60-9a4d-13a372d939d7",
+                    "question": "What is the purpose of meta tags in SEO?",
+                    "description": "Select the option that best describes the purpose of meta tags in the context of SEO.",
+                    "hint": "Consider how meta tags provide information about a webpage to search engines.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Meta tags have no relevance in SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. Meta tags provide valuable information to search engines and impact SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Meta tags are used to confuse search engines.",
+                            "points": 0,
+                            "explanation": "Not accurate. Meta tags are used to provide clear information to search engines, not to confuse them."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Meta tags provide information about a webpage to search engines, influencing SEO.",
+                            "points": 3,
+                            "explanation": "Correct! Meta tags play a role in providing information about a webpage to search engines, impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "6e88fc04-122b-4a7b-8827-32179cecfba1",
+                    "question": "What is the purpose of an XML sitemap in SEO?",
+                    "description": "Select the option that best describes the purpose of an XML sitemap in the context of SEO.",
+                    "hint": "Consider how XML sitemaps assist search engines in understanding the structure of a website.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "XML sitemaps are irrelevant in SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. XML sitemaps assist search engines in understanding the structure of a website, impacting SEO positively."
+                        },
+                        {
+                            "label": "B",
+                            "description": "XML sitemaps are used to slow down website loading.",
+                            "points": 0,
+                            "explanation": "Not accurate. XML sitemaps are designed to assist search engines and do not impact website loading negatively."
+                        },
+                        {
+                            "label": "C",
+                            "description": "XML sitemaps assist search engines in understanding the structure of a website, aiding SEO efforts.",
+                            "points": 3,
+                            "explanation": "Correct! XML sitemaps play a crucial role in helping search engines understand the structure of a website, contributing positively to SEO efforts."
+                        }
+                    ]
+                },
+                {
+                    "id": "6f4d6183-2df0-4e5b-ae45-b69c4c6d05cc",
+                    "question": "How can the 'title' tag in HTML contribute to SEO?",
+                    "description": "Select the option that best describes the role of the 'title' tag in HTML for SEO.",
+                    "hint": "Consider how the 'title' tag provides a concise and descriptive title for a webpage.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'title' tag has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'title' tag is crucial for SEO, providing a concise and descriptive title for a webpage."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'title' tag is used for adding images to a webpage.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'title' tag is primarily used to define the title of a webpage, not for adding images."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'title' tag provides a concise and descriptive title for a webpage, positively impacting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'title' tag is essential for providing a concise and descriptive title, positively influencing SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "ccd43378-6969-4593-bac7-d69547d6f2cb",
+                    "question": "What is the purpose of the 'alt' attribute in HTML images for SEO?",
+                    "description": "Select the option that best describes the role of the 'alt' attribute in HTML images for SEO.",
+                    "hint": "Consider how the 'alt' attribute provides alternative text for images, aiding accessibility and SEO.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'alt' attribute is irrelevant for SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'alt' attribute is important for SEO as it provides alternative text for images, aiding accessibility."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'alt' attribute is used for changing image colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'alt' attribute is not used for changing image colors but for providing alternative text."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'alt' attribute provides alternative text for images, contributing to better accessibility and SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'alt' attribute is crucial for providing alternative text, improving accessibility, and positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "ef55cb57-828f-46a3-9c42-6f041272a8b5",
+                    "question": "How does using semantic HTML tags benefit SEO?",
+                    "description": "Select the option that best describes the benefit of using semantic HTML tags for SEO.",
+                    "hint": "Consider how semantic HTML tags contribute to the structure and meaning of content.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Using semantic HTML tags has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. Semantic HTML tags contribute to the structure and meaning of content, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Semantic HTML tags are only used for styling purposes.",
+                            "points": 0,
+                            "explanation": "Not accurate. While semantic tags can contribute to styling, their primary purpose is to define the structure and meaning of content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Using semantic HTML tags enhances the structure and meaning of content, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! Semantic HTML tags play a crucial role in enhancing the structure and meaning of content, which positively affects SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "c5c99b3f-2c6c-4a38-a4e7-3b1927f287b8",
+                    "question": "What is the role of the 'meta' tag in HTML for SEO?",
+                    "description": "Select the option that best describes the role of the 'meta' tag in HTML for SEO.",
+                    "hint": "Consider how the 'meta' tag provides metadata about a webpage.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'meta' tag is irrelevant for SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'meta' tag is crucial for providing metadata about a webpage, impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'meta' tag is used for adding images to a webpage.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'meta' tag is not used for adding images but for providing metadata."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'meta' tag provides metadata about a webpage, positively impacting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'meta' tag is essential for providing metadata about a webpage, positively influencing SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "cf6257a4-c6a9-49c4-a554-bbf8b64f30c2",
+                    "question": "How can using descriptive anchor text in HTML links benefit SEO?",
+                    "description": "Select the option that best describes the benefit of using descriptive anchor text in HTML links for SEO.",
+                    "hint": "Consider how descriptive anchor text provides context and relevance to linked content.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Using descriptive anchor text has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. Descriptive anchor text is important for providing context and relevance to linked content, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Descriptive anchor text is only relevant for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Not accurate. Descriptive anchor text goes beyond visual design and is important for SEO to provide context to linked content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Using descriptive anchor text provides context and relevance to linked content, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! Descriptive anchor text is crucial for providing context and relevance to linked content, positively affecting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "36c17d44-f267-46d3-8e2a-eb48a0a02c8d",
+                    "question": "Why is it important to have a clear HTML structure for SEO?",
+                    "description": "Select the option that best describes the importance of having a clear HTML structure for SEO.",
+                    "hint": "Consider how a clear HTML structure enhances the understanding of content by search engines.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "HTML structure has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. A clear HTML structure enhances the understanding of content by search engines, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "HTML structure is only relevant for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Not accurate. HTML structure goes beyond visual design and is crucial for SEO to improve content understanding by search engines."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Having a clear HTML structure enhances the understanding of content by search engines, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! A clear HTML structure is crucial for improving content understanding by search engines, positively affecting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "04f3c1de-7d3c-490e-8d9b-04f23ce14e89",
+                    "question": "What role do header tags (h1, h2, h3, etc.) play in HTML for SEO?",
+                    "description": "Select the option that best describes the role of header tags (h1, h2, h3, etc.) in HTML for SEO.",
+                    "hint": "Consider how header tags contribute to the hierarchical structure and organization of content.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Header tags have no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. Header tags contribute to the hierarchical structure and organization of content, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Header tags are only relevant for changing text color.",
+                            "points": 0,
+                            "explanation": "Not accurate. Header tags are not primarily used for changing text color but for structuring content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Header tags contribute to the hierarchical structure and organization of content, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! Header tags play a crucial role in structuring content hierarchically, positively affecting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "bc9e702f-6ea9-4f18-af99-39e7da018b4b",
+                    "question": "How can the 'rel' attribute in HTML links impact SEO?",
+                    "description": "Select the option that best describes the impact of the 'rel' attribute in HTML links on SEO.",
+                    "hint": "Consider how the 'rel' attribute provides additional information about the relationship between linked pages.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'rel' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'rel' attribute provides additional information about the relationship between linked pages, impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'rel' attribute is only relevant for changing link colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'rel' attribute is not primarily used for changing link colors but for providing information about the link relationship."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'rel' attribute provides additional information about the relationship between linked pages, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'rel' attribute is essential for providing information about the relationship between linked pages, positively affecting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "5c90ff8c-56c5-44ac-9d3d-79a5fc7d6ad3",
+                    "question": "How does the 'lang' attribute in HTML contribute to SEO?",
+                    "description": "Select the option that best describes the role of the 'lang' attribute in HTML for SEO.",
+                    "hint": "Consider how the 'lang' attribute specifies the language of the content, aiding search engines in understanding the context.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'lang' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'lang' attribute is important for specifying the language of the content, aiding SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'lang' attribute is only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'lang' attribute is not used for changing font styles but for specifying the language of the content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'lang' attribute specifies the language of the content, aiding search engines in understanding the context and positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'lang' attribute is crucial for specifying the language of the content, aiding search engines and positively affecting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "f29ddef2-0842-4c8c-9f1b-e6c661f7ea5c",
+                    "question": "How can using the 'nofollow' attribute in HTML links impact SEO?",
+                    "description": "Select the option that best describes the impact of the 'nofollow' attribute in HTML links on SEO.",
+                    "hint": "Consider how the 'nofollow' attribute instructs search engines not to follow a specific link.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'nofollow' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'nofollow' attribute instructs search engines not to follow a specific link, impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'nofollow' attribute is only relevant for changing link colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'nofollow' attribute is not used for changing link colors but for controlling how search engines follow links."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'nofollow' attribute instructs search engines not to follow a specific link, affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'nofollow' attribute controls how search engines follow links, impacting SEO by indicating not to follow a specific link."
+                        }
+                    ]
+                },
+                {
+                    "id": "3739fe1e-6037-4a5c-b262-61f50b793eb8",
+                    "question": "Why is it important to have descriptive file names for images in terms of SEO?",
+                    "description": "Select the option that best describes the importance of having descriptive file names for images in terms of SEO.",
+                    "hint": "Consider how descriptive file names provide context and relevance to image content.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "File names of images have no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. Descriptive file names for images are important for providing context and relevance, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "File names of images are only relevant for image display.",
+                            "points": 0,
+                            "explanation": "Not accurate. While file names contribute to image display, they also play a crucial role in providing context for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Descriptive file names for images provide context and relevance, positively affecting SEO.",
+                            "points": 2,
+                            "explanation": "Correct! Descriptive file names for images are crucial for providing context and relevance, positively affecting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "ad7fc69a-0841-4af2-8c92-161b1f7757d3",
+                    "question": "How does the 'defer' attribute in the 'script' tag impact SEO?",
+                    "description": "Select the option that best describes the impact of the 'defer' attribute in the 'script' tag on SEO.",
+                    "hint": "Consider how the 'defer' attribute influences the loading of JavaScript and its effect on page rendering.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'defer' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'defer' attribute influences the loading of JavaScript, impacting SEO by optimizing page rendering."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'defer' attribute is only relevant for changing script colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'defer' attribute is not related to changing script colors but to optimizing the loading of JavaScript."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'defer' attribute influences the loading of JavaScript, optimizing page rendering and positively affecting SEO.",
+                            "points": 2,
+                            "explanation": "Correct! The 'defer' attribute optimizes the loading of JavaScript, positively impacting SEO by improving page rendering."
+                        }
+                    ]
+                },
+                {
+                    "id": "be9ed2b3-b1a3-45cf-b49b-afbb8bc914d0",
+                    "question": "How can the 'robots' meta tag be used for SEO purposes?",
+                    "description": "Select the option that best describes how the 'robots' meta tag can be used for SEO purposes.",
+                    "hint": "Consider how the 'robots' meta tag controls search engine indexing and crawling.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'robots' meta tag has no relevance for SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'robots' meta tag is crucial for controlling search engine indexing and crawling, impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'robots' meta tag is only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'robots' meta tag is not used for changing font styles but for controlling search engine behavior."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'robots' meta tag controls search engine indexing and crawling, positively affecting SEO.",
+                            "points": 2,
+                            "explanation": "Correct! The 'robots' meta tag is essential for controlling how search engines index and crawl a webpage, positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "f6ad88e8-1e2f-4e78-b22a-10cb9862c844",
+                    "question": "How does the 'canonical' link element contribute to SEO?",
+                    "description": "Select the option that best describes how the 'canonical' link element contributes to SEO.",
+                    "hint": "Consider how the 'canonical' link element helps avoid duplicate content issues.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'canonical' link element has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'canonical' link element is crucial for avoiding duplicate content issues, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'canonical' link element is only relevant for changing link colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'canonical' link element is not used for changing link colors but for avoiding duplicate content problems."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'canonical' link element helps avoid duplicate content issues, positively affecting SEO.",
+                            "points": 2,
+                            "explanation": "Correct! The 'canonical' link element is crucial for preventing duplicate content issues, positively affecting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "6eab8c02-6d04-4135-8b11-154b4b24b602",
+                    "question": "How does the 'nofollow' attribute impact SEO when applied to a link?",
+                    "description": "Select the option that best describes how the 'nofollow' attribute impacts SEO when applied to a link.",
+                    "hint": "Consider how the 'nofollow' attribute controls whether search engines should follow a specific link.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'nofollow' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'nofollow' attribute controls how search engines follow links, impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'nofollow' attribute is only relevant for changing link colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'nofollow' attribute is not used for changing link colors but for controlling search engine behavior regarding links."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'nofollow' attribute controls whether search engines should follow a specific link, affecting SEO.",
+                            "points": 2,
+                            "explanation": "Correct! The 'nofollow' attribute controls how search engines follow links, impacting SEO by indicating not to follow a specific link."
+                        }
+                    ]
+                },
+                {
+                    "id": "836d8ad1-79c9-4a97-b89a-f346a28b2e0d",
+                    "question": "Why is it important to use responsive design for a website's mobile version in terms of SEO?",
+                    "description": "Select the option that best describes the importance of using responsive design for a website's mobile version in terms of SEO.",
+                    "hint": "Consider how responsive design improves user experience on mobile devices, impacting SEO positively.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Responsive design has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. Responsive design improves user experience on mobile devices, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Responsive design is only relevant for changing background colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. Responsive design is not related to changing background colors but to improving user experience on mobile devices for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Using responsive design for a website's mobile version improves user experience, positively affecting SEO.",
+                            "points": 2,
+                            "explanation": "Correct! Responsive design enhances user experience on mobile devices, positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "fa4e96b3-49a8-4382-8586-35da8d180e05",
+                    "question": "How does the 'meta' tag with the 'viewport' attribute impact SEO for mobile-friendly websites?",
+                    "description": "Select the option that best describes how the 'meta' tag with the 'viewport' attribute impacts SEO for mobile-friendly websites.",
+                    "hint": "Consider how the 'viewport' attribute influences the display of web pages on mobile devices.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'meta' tag with the 'viewport' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'viewport' attribute in the 'meta' tag is crucial for optimizing the display of web pages on mobile devices, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'meta' tag with the 'viewport' attribute is only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'viewport' attribute is not used for changing font styles but for optimizing the display on mobile devices for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'meta' tag with the 'viewport' attribute optimizes the display on mobile devices, positively affecting SEO for mobile-friendly websites.",
+                            "points": 2,
+                            "explanation": "Correct! The 'viewport' attribute in the 'meta' tag is crucial for optimizing the display on mobile devices, positively impacting SEO for mobile-friendly websites."
+                        }
+                    ]
+                },
+                {
+                    "id": "e695c1c1-11d5-4806-823a-cb0c43e21e22",
+                    "question": "How does the 'alt' attribute in HTML images contribute to SEO for visually impaired users?",
+                    "description": "Select the option that best describes how the 'alt' attribute in HTML images contributes to SEO for visually impaired users.",
+                    "hint": "Consider how the 'alt' attribute provides alternative text for images, aiding accessibility and positively impacting SEO.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'alt' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'alt' attribute is crucial for providing alternative text for images, aiding accessibility, and positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'alt' attribute is only relevant for changing image colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'alt' attribute is not used for changing image colors but for providing alternative text for accessibility and SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'alt' attribute provides alternative text for images, aiding accessibility and positively affecting SEO for visually impaired users.",
+                            "points": 2,
+                            "explanation": "Correct! The 'alt' attribute is essential for providing alternative text, aiding accessibility, and positively impacting SEO for visually impaired users."
+                        }
+                    ]
+                },
+                {
+                    "id": "dcb1ef76-13d4-4d23-8c6d-ff76bbf7cf9c",
+                    "question": "How does the 'aria-label' attribute contribute to SEO for accessible websites?",
+                    "description": "Select the option that best describes how the 'aria-label' attribute contributes to SEO for accessible websites.",
+                    "hint": "Consider how the 'aria-label' attribute provides additional information for screen readers, aiding accessibility and SEO.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'aria-label' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'aria-label' attribute is crucial for providing additional information for screen readers, aiding accessibility, and positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'aria-label' attribute is only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'aria-label' attribute is not used for changing font styles but for providing additional information for accessibility and SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'aria-label' attribute provides additional information for screen readers, aiding accessibility and positively affecting SEO for accessible websites.",
+                            "points": 2,
+                            "explanation": "Correct! The 'aria-label' attribute is essential for providing additional information, aiding accessibility, and positively impacting SEO for accessible websites."
+                        }
+                    ]
+                },
+                {
+                    "id": "3c6785c0-d2e4-40db-82fe-f09d712d8c10",
+                    "question": "How can using descriptive anchor text in HTML links benefit SEO for visually impaired users?",
+                    "description": "Select the option that best describes how using descriptive anchor text in HTML links benefits SEO for visually impaired users.",
+                    "hint": "Consider how descriptive anchor text provides context and relevance to linked content for all users, including those with visual impairments.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Using descriptive anchor text has no impact on SEO for visually impaired users.",
+                            "points": 0,
+                            "explanation": "Incorrect. Descriptive anchor text is important for providing context and relevance to linked content, benefiting SEO for all users."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Descriptive anchor text is only relevant for changing text colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. Descriptive anchor text is not related to changing text colors but to providing context for linked content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Using descriptive anchor text provides context and relevance to linked content, positively affecting SEO for visually impaired users.",
+                            "points": 2,
+                            "explanation": "Correct! Descriptive anchor text is crucial for providing context and relevance to linked content, positively affecting SEO for all users, including those with visual impairments."
+                        }
+                    ]
+                },
+                {
+                    "id": "8a8c52a6-3c59-45e5-99a7-62069e4a3300",
+                    "question": "How does the use of '301 redirects' impact SEO for a website?",
+                    "description": "Select the option that best describes how the use of '301 redirects' impacts SEO for a website.",
+                    "hint": "Consider how '301 redirects' inform search engines about permanent changes to URL locations.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'301 redirects' have no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. '301 redirects' are crucial for informing search engines about permanent changes to URL locations, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'301 redirects' are only relevant for changing website colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. '301 redirects' are not related to changing website colors but to informing search engines about URL changes for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The use of '301 redirects' informs search engines about permanent changes to URL locations, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! '301 redirects' are essential for communicating permanent URL changes to search engines, positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "77454cc3-ae8b-43c8-8b46-1f92e8f76d4e",
+                    "question": "What is the significance of the 'sitemap.xml' file for SEO?",
+                    "description": "Select the option that best describes the significance of the 'sitemap.xml' file for SEO.",
+                    "hint": "Consider how the 'sitemap.xml' file provides a list of URLs to help search engines crawl and index a website.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'sitemap.xml' file has no relevance for SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'sitemap.xml' file is crucial for providing a list of URLs to help search engines crawl and index a website, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'sitemap.xml' file is only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'sitemap.xml' file is not used for changing font styles but for aiding search engine crawling and indexing."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'sitemap.xml' file provides a list of URLs to help search engines crawl and index a website, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'sitemap.xml' file is essential for aiding search engines in crawling and indexing a website by providing a list of URLs, positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "ba4eb93a-7e8d-4f3e-9e36-0f3451fc6ab9",
+                    "question": "How can using 'canonical' tags help manage duplicate content for SEO?",
+                    "description": "Select the option that best describes how using 'canonical' tags can help manage duplicate content for SEO.",
+                    "hint": "Consider how 'canonical' tags indicate the preferred version of a page when duplicate content exists.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": " 'Canonical' tags have no impact on managing duplicate content for SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Canonical' tags are crucial for indicating the preferred version of a page when duplicate content exists, positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Canonical' tags are only relevant for changing background colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Canonical' tags are not related to changing background colors but to managing duplicate content for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Using 'canonical' tags helps indicate the preferred version of a page, managing duplicate content and positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! 'Canonical' tags are essential for managing duplicate content by indicating the preferred version of a page, positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "9d68d6d8-4edc-4d9d-8ce9-47f04ecbba94",
+                    "question": "How does the use of 'alt' attributes in image tags impact SEO?",
+                    "description": "Select the option that best describes how the use of 'alt' attributes in image tags impacts SEO.",
+                    "hint": "Consider how 'alt' attributes provide alternative text for images, aiding accessibility and positively impacting SEO.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": " 'Alt' attributes have no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Alt' attributes are crucial for providing alternative text for images, aiding accessibility, and positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Alt' attributes are only relevant for changing image colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Alt' attributes are not used for changing image colors but for providing alternative text for accessibility and SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The use of 'alt' attributes provides alternative text for images, aiding accessibility and positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! 'Alt' attributes are essential for providing alternative text, aiding accessibility, and positively impacting SEO for images."
+                        }
+                    ]
+                },
+                {
+                    "id": "ff0b14c3-7d23-4f3c-86e8-3527486aa77a",
+                    "question": "How does the 'lang' attribute in HTML contribute to SEO?",
+                    "description": "Select the option that best describes the role of the 'lang' attribute in HTML for SEO.",
+                    "hint": "Consider how the 'lang' attribute specifies the language of the content, aiding search engines in understanding the context.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'lang' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'lang' attribute is important for specifying the language of the content, aiding SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'lang' attribute is only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'lang' attribute is not used for changing font styles but for specifying the language of the content for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'lang' attribute specifies the language of the content, aiding search engines in understanding the context and positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'lang' attribute is crucial for specifying the language of the content, aiding search engines in understanding the context, and positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "eaa3ab48-19fe-48f2-b367-49c5b57de61a",
+                    "question": "How does the 'nofollow' attribute in HTML contribute to SEO?",
+                    "description": "Select the option that best describes how the 'nofollow' attribute in HTML contributes to SEO.",
+                    "hint": "Consider how the 'nofollow' attribute controls whether search engines should follow a specific link.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'nofollow' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'nofollow' attribute controls how search engines follow links, impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'nofollow' attribute is only relevant for changing link colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'nofollow' attribute is not used for changing link colors but for controlling search engine behavior regarding links for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'nofollow' attribute controls whether search engines should follow a specific link, affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'nofollow' attribute controls how search engines follow links, impacting SEO by indicating not to follow a specific link."
+                        }
+                    ]
+                },
+                {
+                    "id": "1a1fbef6-6824-4f93-a0c3-5d94a9ab8ef0",
+                    "question": "How does the 'meta' tag with the 'robots' attribute impact SEO?",
+                    "description": "Select the option that best describes how the 'meta' tag with the 'robots' attribute impacts SEO.",
+                    "hint": "Consider how the 'robots' attribute in the 'meta' tag controls search engine indexing and crawling.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'meta' tag with the 'robots' attribute has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'robots' attribute in the 'meta' tag is crucial for controlling search engine indexing and crawling, impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'meta' tag with the 'robots' attribute is only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'robots' attribute is not used for changing font styles but for controlling search engine behavior for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'meta' tag with the 'robots' attribute controls search engine indexing and crawling, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'meta' tag with the 'robots' attribute is essential for controlling how search engines index and crawl a webpage, positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "52b67525-f2c3-4aa4-8b5b-13c93f617f3a",
+                    "question": "How does the 'title' tag in HTML contribute to SEO?",
+                    "description": "Select the option that best describes how the 'title' tag in HTML contributes to SEO.",
+                    "hint": "Consider how the 'title' tag provides a concise and accurate description of the webpage content, influencing search engine results.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'title' tag has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'title' tag is crucial for providing a concise and accurate description of the webpage content, influencing search engine results, and impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'title' tag is only relevant for changing text colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'title' tag is not used for changing text colors but for providing a concise and accurate description for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'title' tag provides a concise and accurate description of the webpage content, influencing search engine results and positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! The 'title' tag is essential for providing a concise and accurate description, influencing search engine results, and positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "b8d04d19-6971-4e91-9e4c-0c02d4c5a1b2",
+                    "question": "How can having a mobile-friendly website impact SEO?",
+                    "description": "Select the option that best describes how having a mobile-friendly website can impact SEO.",
+                    "hint": "Consider how a mobile-friendly design improves user experience on mobile devices, positively affecting SEO.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Having a mobile-friendly website has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. A mobile-friendly design improves user experience on mobile devices, positively affecting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Having a mobile-friendly website is only relevant for changing background colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. A mobile-friendly design is not related to changing background colors but to improving user experience on mobile devices for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Having a mobile-friendly website improves user experience on mobile devices, positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! A mobile-friendly design enhances user experience on mobile devices, positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "02c477ad-c6c5-4137-a58d-ccf5b43dbf11",
+                    "question": "How can using 'header' tags in HTML positively impact SEO?",
+                    "description": "Select the option that best describes how using 'header' tags in HTML can positively impact SEO.",
+                    "hint": "Consider how 'header' tags contribute to the organization and structure of content, aiding search engines in understanding the webpage.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Using 'header' tags has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Header' tags are crucial for contributing to the organization and structure of content, aiding search engines in understanding the webpage, and positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Using 'header' tags is only relevant for changing text colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Header' tags are not used for changing text colors but for contributing to the organization and structure of content for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Using 'header' tags contributes to the organization and structure of content, aiding search engines in understanding the webpage, and positively affecting SEO.",
+                            "points": 3,
+                            "explanation": "Correct! 'Header' tags play a crucial role in contributing to the organization and structure of content, aiding search engines in understanding the webpage, and positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "22e1ab17-c8b0-4e38-8c24-44db75871182",
+                    "question": "Explain the concept of 'crawl budget' in the context of SEO and how it can impact website rankings.",
+                    "description": "Provide an explanation of the 'crawl budget' concept and its impact on website rankings.",
+                    "hint": "Consider how search engines allocate resources for crawling and indexing web pages.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": " 'Crawl budget' has no relevance for SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Crawl budget' is crucial for understanding how search engines allocate resources for crawling and indexing, impacting website rankings."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Crawl budget' is only relevant for changing website colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Crawl budget' is not related to changing website colors but to resource allocation for crawling and indexing for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": " 'Crawl budget' refers to the resources allocated by search engines for crawling and indexing web pages, impacting website rankings.",
+                            "points": 4,
+                            "explanation": "Correct! 'Crawl budget' is the allocation of resources by search engines for crawling and indexing, and it significantly impacts website rankings."
+                        }
+                    ]
+                },
+                {
+                    "id": "b8d3e453-8e60-4d33-9786-ffac183155e9",
+                    "question": "Examine the role of 'backlinks' in SEO and how they contribute to the authority of a website.",
+                    "description": "Provide an analysis of the role of 'backlinks' in SEO and their contribution to a website's authority.",
+                    "hint": "Consider how 'backlinks' are external links pointing to a website and how they impact its credibility.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'Backlinks' have no impact on a website's authority for SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Backlinks' play a crucial role in contributing to a website's authority in SEO by indicating credibility and trustworthiness."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Backlinks' are only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Backlinks' are not related to changing font styles but to indicating credibility and authority for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'Backlinks' are external links pointing to a website, contributing significantly to its authority in SEO.",
+                            "points": 4,
+                            "explanation": "Correct! 'Backlinks' are crucial external links that contribute significantly to a website's authority in SEO by indicating credibility and trustworthiness."
+                        }
+                    ]
+                },
+                {
+                    "id": "5e27d6bf-7893-42f8-ba08-6e2a67609747",
+                    "question": "Explore the impact of website speed on SEO and how it influences user experience.",
+                    "description": "Discuss the impact of website speed on SEO and its influence on user experience.",
+                    "hint": "Consider how faster-loading websites enhance user experience and positively impact SEO.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Website speed has no impact on SEO or user experience.",
+                            "points": 0,
+                            "explanation": "Incorrect. Website speed is crucial for enhancing user experience and positively impacting SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Website speed is only relevant for changing background colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. Website speed is not related to changing background colors but to enhancing user experience and SEO for websites."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Faster website speed enhances user experience and positively influences SEO.",
+                            "points": 4,
+                            "explanation": "Correct! Faster website speed is essential for enhancing user experience and positively influencing SEO for websites."
+                        }
+                    ]
+                },
+                {
+                    "id": "1f7f6664-c3c4-4a10-bf71-3f5db4d9b6d2",
+                    "question": "Evaluate the importance of 'long-tail keywords' in SEO and how they differ from generic keywords.",
+                    "description": "Provide an evaluation of the importance of 'long-tail keywords' in SEO and highlight their differences from generic keywords.",
+                    "hint": "Consider how 'long-tail keywords' are more specific and targeted, impacting search intent and user engagement.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'Long-tail keywords' have no significance in SEO.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Long-tail keywords' are crucial for targeting specific search intent and improving user engagement in SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Long-tail keywords' are only relevant for changing text colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Long-tail keywords' are not related to changing text colors but to improving specificity and targeting for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'Long-tail keywords' are specific and targeted, impacting search intent and user engagement in SEO.",
+                            "points": 4,
+                            "explanation": "Correct! 'Long-tail keywords' are crucial for providing specificity and targeting in SEO, impacting search intent and user engagement."
+                        }
+                    ]
+                },
+                {
+                    "id": "7e8d2ef4-3d85-48b7-a0a8-1328ea22b2c7",
+                    "question": "Explain how 'user engagement metrics' contribute to the overall SEO performance of a website.",
+                    "description": "Provide an explanation of how 'user engagement metrics' contribute to the overall SEO performance of a website.",
+                    "hint": "Consider how metrics like bounce rate, time on page, and click-through rate impact user engagement and SEO.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'User engagement metrics' have no impact on the overall SEO performance of a website.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'User engagement metrics' play a crucial role in assessing the overall SEO performance of a website."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'User engagement metrics' are only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'User engagement metrics' are not related to changing font styles but to assessing user interaction and SEO performance."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'User engagement metrics' such as bounce rate, time on page, and click-through rate contribute significantly to the overall SEO performance of a website.",
+                            "points": 4,
+                            "explanation": "Correct! 'User engagement metrics' are crucial for assessing user interaction and overall SEO performance, including factors like bounce rate, time on page, and click-through rate."
+                        }
+                    ]
+                },
+                {
+                    "id": "59036db4-dcdb-42fb-9ce3-17418e02b870",
+                    "question": "Discuss the role of 'structured data' in SEO and how it enhances the presentation of search results.",
+                    "description": "Provide a discussion on the role of 'structured data' in SEO and how it enhances the presentation of search results.",
+                    "hint": "Consider how 'structured data' provides additional context to search engines, improving the display of search results.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'Structured data' has no role in SEO or the presentation of search results.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Structured data' plays a crucial role in providing additional context to search engines, enhancing the presentation of search results."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Structured data' is only relevant for changing background colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Structured data' is not related to changing background colors but to providing additional context for SEO and search result presentation."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'Structured data' provides additional context to search engines, enhancing the presentation of search results in SEO.",
+                            "points": 4,
+                            "explanation": "Correct! 'Structured data' is crucial for providing additional context to search engines, improving the display of search results in SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "0e4b9c5a-b46c-4e27-8ff4-f2fe7f836762",
+                    "question": "Evaluate the impact of 'social signals' on SEO and how they can influence search engine rankings.",
+                    "description": "Provide an evaluation of the impact of 'social signals' on SEO and their influence on search engine rankings.",
+                    "hint": "Consider how social signals from platforms like social media can impact the visibility and credibility of a website.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'Social signals' have no impact on SEO or search engine rankings.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Social signals' play a significant role in influencing the visibility and credibility of a website, impacting search engine rankings."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Social signals' are only relevant for changing link colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Social signals' are not related to changing link colors but to influencing website visibility and credibility for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'Social signals' from platforms like social media can significantly impact the visibility and credibility of a website, influencing search engine rankings.",
+                            "points": 4,
+                            "explanation": "Correct! 'Social signals' play a crucial role in influencing website visibility and credibility, impacting search engine rankings in SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "e90a8a89-b1c1-48e7-84e8-77355f1966c2",
+                    "question": "Examine the role of 'user-generated content' in SEO and how it can contribute to website visibility.",
+                    "description": "Provide an examination of the role of 'user-generated content' in SEO and its contribution to website visibility.",
+                    "hint": "Consider how content generated by users can impact website visibility and engagement.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'User-generated content' has no role in SEO or website visibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'User-generated content' can play a significant role in impacting website visibility and engagement in SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'User-generated content' is only relevant for changing text colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'User-generated content' is not related to changing text colors but to impacting website visibility and engagement for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'User-generated content' can contribute significantly to website visibility and engagement in SEO.",
+                            "points": 4,
+                            "explanation": "Correct! 'User-generated content' can play a crucial role in impacting website visibility and engagement in SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "881b1e74-2a24-4e2f-b81e-4a91edc6346e",
+                    "question": "Explain the role of 'brand mentions' in SEO and how they can impact the online presence of a business.",
+                    "description": "Provide an explanation of the role of 'brand mentions' in SEO and their impact on the online presence of a business.",
+                    "hint": "Consider how mentions of a brand across the web can influence its credibility and visibility in search results.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'Brand mentions' have no impact on SEO or the online presence of a business.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Brand mentions' play a crucial role in influencing the credibility and visibility of a business in search results and SEO."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Brand mentions' are only relevant for changing font styles.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Brand mentions' are not related to changing font styles but to influencing credibility and visibility for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'Brand mentions' across the web can significantly impact the credibility and visibility of a business in search results, positively affecting SEO.",
+                            "points": 4,
+                            "explanation": "Correct! 'Brand mentions' are crucial for influencing the credibility and visibility of a business in search results, positively impacting SEO."
+                        }
+                    ]
+                },
+                {
+                    "id": "ed665ac1-4f15-4e79-9e12-39814fe5a9cf",
+                    "question": "Evaluate the importance of 'local SEO' for businesses with physical locations and how it differs from general SEO.",
+                    "description": "Provide an evaluation of the importance of 'local SEO' for businesses with physical locations and highlight its differences from general SEO.",
+                    "hint": "Consider how 'local SEO' focuses on optimizing for specific geographic locations and the impact on businesses with physical addresses.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "'Local SEO' has no significance for businesses with physical locations.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Local SEO' is crucial for businesses with physical locations as it focuses on optimizing for specific geographic areas, impacting local visibility and engagement."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'Local SEO' is only relevant for changing background colors.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'Local SEO' is not related to changing background colors but to optimizing for specific geographic locations for SEO purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'Local SEO' is important for businesses with physical locations as it focuses on optimizing for specific geographic areas, positively impacting local visibility and engagement in SEO.",
+                            "points": 4,
+                            "explanation": "Correct! 'Local SEO' is crucial for businesses with physical locations, optimizing for specific geographic areas and positively impacting local visibility and engagement in SEO."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

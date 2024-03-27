@@ -1,0 +1,1697 @@
+{
+    "skill": {
+        "React": {
+            "id": "react",
+            "description": "React is the most popular front-end JavaScript library for building user interfaces. React can also render on the server using Node and power mobile apps using React Native.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Visit Dedicated React Roadmap",
+                    "link": "https://roadmap.sh/react"
+                },
+                {
+                    "name": "React Website",
+                    "link": "https://react.dev/"
+                },
+                {
+                    "name": "Official Getting Started",
+                    "link": "https://react.dev/learn/tutorial-tic-tac-toe"
+                },
+                {
+                    "name": "The Beginners Guide to React",
+                    "link": "https://egghead.io/courses/the-beginner-s-guide-to-react"
+                },
+                {
+                    "name": "React JS Course for Beginners",
+                    "link": "https://www.youtube.com/watch?v=nTeuhbP7wdE"
+                },
+                {
+                    "name": "React Course - Beginners Tutorial for React JavaScript Library [2022]",
+                    "link": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+                },
+                {
+                    "name": "Understanding Reacts UI Rendering Process",
+                    "link": "https://www.youtube.com/watch?v=i793Qm6kv3U"
+                }
+            ],
+            "parents": [
+                "pick-a-framework",
+                "server-side-rendering",
+                "fullstack",
+                "blockchain"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "40bd92bc-2d3a-46ec-a064-4d6c4d97cc8a",
+                    "question": "What is the main library used to build user interfaces in React?",
+                    "description": "Question about the main library in React.",
+                    "hint": "Remember the name of the technology we use to build user interfaces in React.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Angular",
+                            "points": 0,
+                            "explanation": "Angular is another library, not the main one used in React."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Vue.js",
+                            "points": 0,
+                            "explanation": "Vue.js is a different library, not the main one in React."
+                        },
+                        {
+                            "label": "C",
+                            "description": "React",
+                            "points": 3,
+                            "explanation": "Correct! React is the main library used to build user interfaces in React."
+                        },
+                        {
+                            "label": "D",
+                            "description": "jQuery",
+                            "points": 0,
+                            "explanation": "jQuery is a different library, not related to React."
+                        }
+                    ]
+                },
+                {
+                    "id": "e17db84d-7815-4ed9-bd4f-97f53ec164bc",
+                    "question": "What is the method that is automatically called after a React component is first rendered?",
+                    "description": "Question about the lifecycle method in React.",
+                    "hint": "Think about the method that is triggered automatically once a component is initially rendered.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "render",
+                            "points": 0,
+                            "explanation": "`render` is a method responsible for rendering, but it's not called after the first render."
+                        },
+                        {
+                            "label": "B",
+                            "description": "componentDidMount",
+                            "points": 3,
+                            "explanation": "Correct! `componentDidMount` is a lifecycle method called automatically after the initial render."
+                        },
+                        {
+                            "label": "C",
+                            "description": "componentWillUnmount",
+                            "points": 0,
+                            "explanation": "`componentWillUnmount` is called before a component is removed, not after the first render."
+                        },
+                        {
+                            "label": "D",
+                            "description": "shouldComponentUpdate",
+                            "points": 0,
+                            "explanation": "`shouldComponentUpdate` is called before rendering to determine if a re-render is needed."
+                        }
+                    ]
+                },
+                {
+                    "id": "53efbb22-8b8d-497e-ba26-7209d01583fc",
+                    "question": "What is the purpose of the `setState` function in React?",
+                    "description": "Question about the purpose of `setState` in React.",
+                    "hint": "Consider the function used to change the state of a React component.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Change the component's style",
+                            "points": 0,
+                            "explanation": "`setState` is used for changing the state of a component, not its style."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Render the component",
+                            "points": 0,
+                            "explanation": "`render` is responsible for rendering; `setState` triggers a re-render after state changes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Remove the component",
+                            "points": 0,
+                            "explanation": "`setState` doesn't remove the component; it updates the state and triggers a re-render."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Change the state of the component",
+                            "points": 3,
+                            "explanation": "Correct! `setState` is used to change the state of a React component, triggering a re-render."
+                        }
+                    ]
+                },
+                {
+                    "id": "451d1af1-4ab5-44e5-9d1f-6f1c8d34b72e",
+                    "question": "What is the property that determines if a React component should re-render when its state or props change?",
+                    "description": "Question about the property controlling re-render in React.",
+                    "hint": "Think about the property used to decide whether a component should update on state or prop changes.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "`shouldRender`",
+                            "points": 0,
+                            "explanation": "`shouldRender` is not the correct property; think about a property related to updating."
+                        },
+                        {
+                            "label": "B",
+                            "description": "`canRender`",
+                            "points": 0,
+                            "explanation": "`canRender` is not the correct property; think about a property related to updating."
+                        },
+                        {
+                            "label": "C",
+                            "description": "`shouldComponentUpdate`",
+                            "points": 3,
+                            "explanation": "Correct! `shouldComponentUpdate` is the method that determines if a component should re-render on state or prop changes."
+                        },
+                        {
+                            "label": "D",
+                            "description": "`canComponentUpdate`",
+                            "points": 0,
+                            "explanation": "`canComponentUpdate` is not the correct property; think about a method related to updating."
+                        }
+                    ]
+                },
+                {
+                    "id": "bbd5a06a-c4b8-44c9-83a2-09f8d4a32da8",
+                    "question": "What is the React hook used to perform side effects in a functional component?",
+                    "description": "Question about the side effect hook in React.",
+                    "hint": "Consider the hook used for actions like data fetching or subscriptions.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "`useEffectUpdate`",
+                            "points": 0,
+                            "explanation": "`useEffectUpdate` is not the correct hook; think about the commonly used hook for side effects."
+                        },
+                        {
+                            "label": "B",
+                            "description": "`useEffectUpdate`",
+                            "points": 0,
+                            "explanation": "`useEffectUpdate` is not the correct hook; think about the commonly used hook for side effects."
+                        },
+                        {
+                            "label": "C",
+                            "description": "`useSideEffect`",
+                            "points": 0,
+                            "explanation": "`useSideEffect` is not the correct hook; think about the commonly used hook for side effects."
+                        },
+                        {
+                            "label": "D",
+                            "description": "`useEffect`",
+                            "points": 3,
+                            "explanation": "Correct! `useEffect` is the hook used in React functional components to perform side effects."
+                        }
+                    ]
+                },
+                {
+                    "id": "f07564bd-4d23-4c23-9e90-cd76dbf5ef46",
+                    "question": "What is the concept of passing data from a parent component to a child component in React?",
+                    "description": "Question about data passing in React.",
+                    "hint": "Consider the term used for transferring information from one component to another.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Encapsulation",
+                            "points": 0,
+                            "explanation": "Encapsulation is a different concept; think about the term specifically related to data passing."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Event propagation",
+                            "points": 0,
+                            "explanation": "Event propagation is not the correct term for passing data between parent and child components."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Inheritance",
+                            "points": 0,
+                            "explanation": "Inheritance is a different concept; think about the term used for data flow in React components."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Prop drilling",
+                            "points": 3,
+                            "explanation": "Correct! Prop drilling is the term for passing data from a parent component to a nested child component in React."
+                        }
+                    ]
+                },
+                {
+                    "id": "0a47a19d-7f13-4173-8e1a-af9c6f2a3be2",
+                    "question": "What JSX represents an empty React component?",
+                    "description": "Question about creating an empty React component with JSX.",
+                    "hint": "Consider the JSX syntax for creating a component without additional elements.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "`<component />`",
+                            "points": 0,
+                            "explanation": "This syntax is not the correct way to represent an empty React component; think about a shorter syntax."
+                        },
+                        {
+                            "label": "B",
+                            "description": "`<Component />`",
+                            "points": 0,
+                            "explanation": "While this is a valid JSX syntax, there's a shorter way to represent an empty component."
+                        },
+                        {
+                            "label": "C",
+                            "description": "`<Component></Component>`",
+                            "points": 0,
+                            "explanation": "This syntax is correct, but there's a more concise way to represent an empty React component."
+                        },
+                        {
+                            "label": "D",
+                            "description": "`<> </>`",
+                            "points": 3,
+                            "explanation": "Correct! The `<> </>` syntax is a shorthand for creating an empty React component (fragment)."
+                        }
+                    ]
+                },
+                {
+                    "id": "9d318477-036a-4d13-9b0b-b763c419a0a1",
+                    "question": "What is the purpose of the `render` method in a React class component?",
+                    "description": "Question about the purpose of the `render` method in React.",
+                    "hint": "Consider the role of the `render` method in the lifecycle of a React class component.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Initialize the component",
+                            "points": 0,
+                            "explanation": "The `render` method is responsible for returning the visual representation of the component, not for initializing it."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Return the visual representation of the component",
+                            "points": 3,
+                            "explanation": "Correct! The primary purpose of the `render` method is to return the visual representation of a React class component."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Update the state of the component",
+                            "points": 0,
+                            "explanation": "The `render` method is not responsible for updating the state; it returns the visual output based on the current state."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Remove the component",
+                            "points": 0,
+                            "explanation": "The `render` method does not handle the removal of a component; it focuses on rendering the component's UI."
+                        }
+                    ]
+                },
+                {
+                    "id": "a13a130f-ebf5-4675-8715-b0cc2626e18e",
+                    "question": "What does the `setState` method automatically do after updating the state of a React component?",
+                    "description": "Question about the automatic action triggered by the `setState` method.",
+                    "hint": "Consider the automatic behavior of the `setState` method after a state update.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Render the component again",
+                            "points": 3,
+                            "explanation": "Correct! After updating the state with `setState`, React automatically triggers the component to render again."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Remove the component",
+                            "points": 0,
+                            "explanation": "The `setState` method does not remove the component; it triggers a re-render after a state update."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Stop the component",
+                            "points": 0,
+                            "explanation": "The `setState` method does not stop the component; it facilitates re-rendering after a state change."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Do nothing automatically",
+                            "points": 0,
+                            "explanation": "After updating the state with `setState`, React automatically triggers a re-render; it does not do nothing automatically."
+                        }
+                    ]
+                },
+                {
+                    "id": "10db47b7-1a90-40df-96e7-cc5933ecfaae",
+                    "question": "What is the main function of the `key` attribute in a set of elements in React?",
+                    "description": "Question about the purpose of the `key` attribute in React elements.",
+                    "hint": "Consider the role of the `key` attribute in optimizing React's update process.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Identify the position of the elements",
+                            "points": 3,
+                            "explanation": "Correct! The `key` attribute in React is used to uniquely identify each element in a set, optimizing the update process."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Set the style of the elements",
+                            "points": 0,
+                            "explanation": "The `key` attribute is not used to set the style of elements; its primary purpose is to identify elements uniquely."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Determine the visibility of the elements",
+                            "points": 0,
+                            "explanation": "The `key` attribute is not used to determine the visibility of elements; it focuses on providing a unique identifier."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Control the position of the elements",
+                            "points": 0,
+                            "explanation": "While `key` influences updates, its primary role is to uniquely identify elements, not to control their position."
+                        }
+                    ]
+                },
+                {
+                    "id": "c370ec6d-5e2d-4c1e-85bf-986199986e4a",
+                    "question": "What is the React lifecycle method that runs just before a component is removed from the DOM?",
+                    "description": "Question about the lifecycle method before component removal.",
+                    "hint": "Consider the method that executes cleanup actions before component removal.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "`componentDidUpdate`",
+                            "points": 0,
+                            "explanation": "`componentDidUpdate` is not the correct method; think about cleanup before removal."
+                        },
+                        {
+                            "label": "B",
+                            "description": "`componentWillUnmount`",
+                            "points": 3,
+                            "explanation": "Correct! `componentWillUnmount` is executed just before a component is removed from the DOM."
+                        },
+                        {
+                            "label": "C",
+                            "description": "`componentDidMount`",
+                            "points": 0,
+                            "explanation": "`componentDidMount` is executed after the component is added to the DOM, not before removal."
+                        },
+                        {
+                            "label": "D",
+                            "description": "`shouldComponentUpdate`",
+                            "points": 0,
+                            "explanation": "`shouldComponentUpdate` is used to determine if a component should update, not for cleanup before removal."
+                        }
+                    ]
+                },
+                {
+                    "id": "a70cb9fe-8e01-48a2-a0b5-0a2513e9d90f",
+                    "question": "What does the `useState` hook do in a React functional component?",
+                    "description": "Question about the purpose of `useState` in React.",
+                    "hint": "Consider the function of `useState` in initializing state.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Initialize the component's state.",
+                            "points": 3,
+                            "explanation": "Correct! `useState` is used in a functional component to initialize its state."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Perform side effects.",
+                            "points": 0,
+                            "explanation": "`useState` is not used for performing side effects; it initializes the state."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Update the component's state.",
+                            "points": 0,
+                            "explanation": "`useState` initializes the state but doesn't directly update it."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Render the component.",
+                            "points": 0,
+                            "explanation": "`useState` is not responsible for rendering; it initializes the state."
+                        }
+                    ]
+                },
+                {
+                    "id": "99789310-49ab-4e09-b3c1-8d4b6f25dbf9",
+                    "question": "What is the main purpose of the `componentDidUpdate` method in a React class component?",
+                    "description": "Question about the primary purpose of `componentDidUpdate`.",
+                    "hint": "Think about the role of `componentDidUpdate` in the component's lifecycle.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Initialize the component.",
+                            "points": 0,
+                            "explanation": "`componentDidUpdate` is not used for initializing; it's called after an update."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Update the component's state.",
+                            "points": 0,
+                            "explanation": "`componentDidUpdate` is not used for updating state directly; it's called after an update."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Render the component.",
+                            "points": 0,
+                            "explanation": "`componentDidUpdate` does not render the component; it's called after a render."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Perform actions after the component updates.",
+                            "points": 3,
+                            "explanation": "Correct! `componentDidUpdate` is called after the component updates, allowing for additional actions."
+                        }
+                    ]
+                },
+                {
+                    "id": "d5f716f1-2d9b-45d4-8cf1-2d4fe3e1c635",
+                    "question": "What is the main function of the `useEffect` hook in a React functional component?",
+                    "description": "Question about the primary purpose of `useEffect` in React functional components.",
+                    "hint": "Consider the role of `useEffect` in handling side effects.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Update the component's state.",
+                            "points": 0,
+                            "explanation": "`useEffect` is not used for updating state directly; it handles side effects."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Render the component.",
+                            "points": 0,
+                            "explanation": "`useEffect` does not render the component; it's used for side effects."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Perform side effects.",
+                            "points": 3,
+                            "explanation": "Correct! `useEffect` is used in functional components to handle side effects."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Initialize the component.",
+                            "points": 0,
+                            "explanation": "`useEffect` is not used for component initialization; it's for side effects."
+                        }
+                    ]
+                },
+                {
+                    "id": "0f9b82cb-868b-42f4-b88e-7dd2be5f1353",
+                    "question": "What is the correct syntax for passing a function as a prop to a React component?",
+                    "description": "Question about the correct syntax for passing a function as a prop.",
+                    "hint": "Consider the notation for passing a function as a prop in JSX.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "`<ChildComponent functionProp={myFunction} />`",
+                            "points": 3,
+                            "explanation": "Correct! The correct syntax for passing a function as a prop is `<ChildComponent functionProp={myFunction} />`."
+                        },
+                        {
+                            "label": "B",
+                            "description": "`<ChildComponent propFunction=myFunction />`",
+                            "points": 0,
+                            "explanation": "The correct syntax uses the equal sign, not dot notation."
+                        },
+                        {
+                            "label": "C",
+                            "description": "`<ChildComponent myFunction={propFunction} />`",
+                            "points": 0,
+                            "explanation": "The order of names is incorrect; it should be `functionProp={myFunction}`."
+                        },
+                        {
+                            "label": "D",
+                            "description": "`<ChildComponent myFunction={myFunction} />`",
+                            "points": 0,
+                            "explanation": "The syntax is correct, but the chosen answer is A."
+                        }
+                    ]
+                },
+                {
+                    "id": "4d2707f0-ff48-4e35-b6db-36295fe24988",
+                    "question": "What is the purpose of the `useReducer` hook in React?",
+                    "description": "Question about the purpose of `useReducer` in React.",
+                    "hint": "Consider the role of `useReducer` in managing state logic.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Initialize the component's state.",
+                            "points": 0,
+                            "explanation": "`useReducer` is not used for initializing state directly; it's for managing more complex state logic."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Handle more complex state reduction logic.",
+                            "points": 3,
+                            "explanation": "Correct! `useReducer` is used for handling more complex state reduction logic in functional components."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Perform side effects.",
+                            "points": 0,
+                            "explanation": "`useReducer` is not primarily used for performing side effects; it's for state management."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Render the component.",
+                            "points": 0,
+                            "explanation": "`useReducer` is not responsible for rendering directly; it's for state management."
+                        }
+                    ]
+                },
+                {
+                    "id": "1fc33f23-c5e5-4cf7-8c9e-74d7bcde0359",
+                    "question": "What does the 'render props' design pattern represent in React?",
+                    "description": "Question about the 'render props' design pattern.",
+                    "hint": "Consider the purpose of the 'render props' pattern in React.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A method for rendering child components.",
+                            "points": 0,
+                            "explanation": "The 'render props' pattern is more about sharing rendering logic than rendering components directly."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A technique for passing a function as a prop.",
+                            "points": 3,
+                            "explanation": "Correct! 'Render props' involve passing a function as a prop to share rendering logic."
+                        },
+                        {
+                            "label": "C",
+                            "description": "An approach for encapsulating component state.",
+                            "points": 0,
+                            "explanation": "The 'render props' pattern is not primarily about encapsulating state."
+                        },
+                        {
+                            "label": "D",
+                            "description": "A concept for event handling in React.",
+                            "points": 0,
+                            "explanation": "The 'render props' pattern is not primarily about event handling."
+                        }
+                    ]
+                },
+                {
+                    "id": "6ad15ce4-d3d3-4f04-865a-63bcdd0ed5c8",
+                    "question": "Which React hook is used to optimize performance by avoiding unnecessary re-renders?",
+                    "description": "Question about the React hook used for performance optimization.",
+                    "hint": "Consider the hook that memoizes values to prevent unnecessary re-renders.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "`useMemo`",
+                            "points": 3,
+                            "explanation": "Correct! `useMemo` is used to memoize values and optimize performance by avoiding unnecessary re-renders."
+                        },
+                        {
+                            "label": "B",
+                            "description": "`useEffect`",
+                            "points": 0,
+                            "explanation": "`useEffect` is used for side effects, not specifically for preventing unnecessary re-renders."
+                        },
+                        {
+                            "label": "C",
+                            "description": "`useCallback`",
+                            "points": 0,
+                            "explanation": "`useCallback` is used to memoize functions, not values, for preventing unnecessary re-renders."
+                        },
+                        {
+                            "label": "D",
+                            "description": "`shouldComponentUpdate`",
+                            "points": 0,
+                            "explanation": "`shouldComponentUpdate` is a lifecycle method in class components, not a hook."
+                        }
+                    ]
+                },
+                {
+                    "id": "d7856f06-b53f-468c-b2a7-2b7932d16a3a",
+                    "question": "How are events handled in React?",
+                    "description": "Question about event handling in React.",
+                    "hint": "Consider the primary approach for handling events in React.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "By using the `handleEvent` method in the component.",
+                            "points": 0,
+                            "explanation": "Events are not typically handled through a method named `handleEvent`."
+                        },
+                        {
+                            "label": "B",
+                            "description": "By declaring events directly in JSX.",
+                            "points": 3,
+                            "explanation": "Correct! Events are handled by declaring them directly in JSX, like `onClick` or `onChange`."
+                        },
+                        {
+                            "label": "C",
+                            "description": "By using only DOM event classes.",
+                            "points": 0,
+                            "explanation": "React events are primarily handled through JSX, not exclusively through DOM event classes."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Event handling is not possible in React.",
+                            "points": 0,
+                            "explanation": "React provides robust event handling capabilities, so this statement is incorrect."
+                        }
+                    ]
+                },
+                {
+                    "id": "4e9604ce-c6c9-4e11-8bc5-60721739f72b",
+                    "question": "What is the purpose of the `key` property in a list of elements in React?",
+                    "description": "Question about the purpose of the `key` property in React lists.",
+                    "hint": "Consider why the `key` property is used in React lists.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Define a style for the elements.",
+                            "points": 0,
+                            "explanation": "The `key` property is not used for defining styles; its primary purpose is different."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Identify each element uniquely in the list.",
+                            "points": 3,
+                            "explanation": "Correct! The `key` property is used to identify each element uniquely in a list, aiding in the update process."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Determine the visibility of the elements.",
+                            "points": 0,
+                            "explanation": "The `key` property is not used for determining visibility; its primary purpose is different."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Control the order of the elements.",
+                            "points": 0,
+                            "explanation": "While `key` influences updates, its primary role is to uniquely identify elements, not to control their order."
+                        }
+                    ]
+                },
+                {
+                    "id": "d9b585c8-1e82-4d48-9d56-50cc21bc4ab4",
+                    "question": "What is the purpose of the `componentDidMount` lifecycle method in a React class component?",
+                    "description": "Question about the role of `componentDidMount` in a class component's lifecycle.",
+                    "hint": "Consider when `componentDidMount` is called and its primary use.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Initialize the component's state.",
+                            "points": 0,
+                            "explanation": "`componentDidMount` is not used for initializing state; it's called after the initial render."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Update the component's state.",
+                            "points": 0,
+                            "explanation": "`componentDidMount` is not for updating state; it's called after the initial render."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Render the component.",
+                            "points": 0,
+                            "explanation": "`componentDidMount` does not render the component; it's called after the initial render."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Perform actions after the component mounts.",
+                            "points": 3,
+                            "explanation": "Correct! `componentDidMount` is called after the component is added to the DOM, allowing for actions after the initial render."
+                        }
+                    ]
+                },
+                {
+                    "id": "1e19d74f-9974-48a8-840b-4c088e5d0380",
+                    "question": "In React, what is the purpose of the `useCallback` hook?",
+                    "description": "Question about the purpose of the `useCallback` hook in React functional components.",
+                    "hint": "Consider the use case for memoizing functions in React.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Initialize the component's state.",
+                            "points": 0,
+                            "explanation": "`useCallback` is not used for initializing state; it's for memoizing functions."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Handle side effects.",
+                            "points": 0,
+                            "explanation": "`useCallback` is not primarily for handling side effects; its primary use is different."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Memoize functions to prevent unnecessary re-renders.",
+                            "points": 3,
+                            "explanation": "Correct! `useCallback` is used to memoize functions, optimizing performance by preventing unnecessary re-renders."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Control the order of rendering in a component.",
+                            "points": 0,
+                            "explanation": "`useCallback` is not used for controlling the order of rendering; its primary purpose is memoization."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f879fad-2db1-43d0-8758-0ef8338137d4",
+                    "question": "What is the purpose of the `shouldComponentUpdate` method in a React class component?",
+                    "description": "Question about the role of `shouldComponentUpdate` in the lifecycle of a class component.",
+                    "hint": "Consider when `shouldComponentUpdate` is called and its impact on rendering.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Initialize the component's state.",
+                            "points": 0,
+                            "explanation": "`shouldComponentUpdate` is not used for initializing state; it's for deciding whether to update."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Update the component's state.",
+                            "points": 0,
+                            "explanation": "`shouldComponentUpdate` is not for updating state directly; it's for determining if an update should occur."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Render the component.",
+                            "points": 0,
+                            "explanation": "`shouldComponentUpdate` does not render the component; it returns a boolean to determine if a render should occur."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Optimize rendering by deciding whether the component should update.",
+                            "points": 3,
+                            "explanation": "Correct! `shouldComponentUpdate` allows optimization by deciding whether the component should re-render."
+                        }
+                    ]
+                },
+                {
+                    "id": "3c32290c-19f4-4b27-a3b2-8c1355b7b46a",
+                    "question": "What is the purpose of the `useContext` hook in React?",
+                    "description": "Question about the primary purpose of the `useContext` hook in functional components.",
+                    "hint": "Consider how `useContext` facilitates communication between components.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Optimize performance by memoizing values.",
+                            "points": 0,
+                            "explanation": "`useContext` is not primarily used for performance optimization; its main purpose is different."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Handle side effects in functional components.",
+                            "points": 0,
+                            "explanation": "`useContext` is not for handling side effects; its primary use is related to state and context."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Access values from the nearest `context` provider in the component tree.",
+                            "points": 3,
+                            "explanation": "Correct! `useContext` allows functional components to access values from the nearest `context` provider in the component tree."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Control the lifecycle of a functional component.",
+                            "points": 0,
+                            "explanation": "`useContext` is not used for controlling the lifecycle of a functional component; its main purpose is related to context."
+                        }
+                    ]
+                },
+                {
+                    "id": "f3c51c84-107b-40a3-b20c-20df3981b02b",
+                    "question": "In React, what does the term 'controlled component' refer to?",
+                    "description": "Question about the concept of 'controlled components' in React.",
+                    "hint": "Consider how state is managed in controlled components.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Components that are rendered based on conditions.",
+                            "points": 0,
+                            "explanation": "The term 'controlled component' does not refer to components rendered based on conditions."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Components that manage their state internally.",
+                            "points": 0,
+                            "explanation": "Controlled components are actually components whose state is controlled by React, not managed internally."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Components whose state is controlled by React.",
+                            "points": 3,
+                            "explanation": "Correct! 'Controlled components' are React components whose state is controlled by React itself."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Components that control the state of their parent components.",
+                            "points": 0,
+                            "explanation": "The term 'controlled component' does not refer to components controlling the state of their parents."
+                        }
+                    ]
+                },
+                {
+                    "id": "c635f893-9b5c-44b8-8cb8-41d4a50f7fcf",
+                    "question": "What is the purpose of the `React.Fragment` component in React?",
+                    "description": "Question about the role of `React.Fragment` in React components.",
+                    "hint": "Consider how `React.Fragment` is used to avoid unnecessary wrapper elements.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Optimize performance by memoizing values.",
+                            "points": 0,
+                            "explanation": "`React.Fragment` is not used for performance optimization; its primary purpose is different."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Render components conditionally.",
+                            "points": 0,
+                            "explanation": "`React.Fragment` is not used for conditional rendering; it's used for avoiding unnecessary wrapper elements."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Avoid unnecessary wrapper elements in the DOM.",
+                            "points": 3,
+                            "explanation": "Correct! `React.Fragment` is used to group multiple elements without adding unnecessary wrapper elements to the DOM."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Control the order of rendering in a component.",
+                            "points": 0,
+                            "explanation": "`React.Fragment` is not used for controlling the order of rendering; its primary purpose is to avoid unnecessary wrappers."
+                        }
+                    ]
+                },
+                {
+                    "id": "2d48a1e3-3c87-48e5-8e0a-c331a19419f9",
+                    "question": "What is the purpose of the `React.memo` function in a React functional component?",
+                    "description": "Question about the role of `React.memo` in optimizing functional components.",
+                    "hint": "Consider how `React.memo` optimizes the rendering of functional components.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Memoize values for performance optimization.",
+                            "points": 0,
+                            "explanation": "`React.memo` is not used for memoizing values; its primary purpose is different."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Handle side effects in functional components.",
+                            "points": 0,
+                            "explanation": "`React.memo` is not for handling side effects; it's used to memoize the rendering of functional components."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Memoize the rendering of a functional component to prevent unnecessary re-renders.",
+                            "points": 3,
+                            "explanation": "Correct! `React.memo` is used to memoize the rendering of a functional component, preventing unnecessary re-renders."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Control the lifecycle of a functional component.",
+                            "points": 0,
+                            "explanation": "`React.memo` is not used for controlling the lifecycle; its primary purpose is rendering optimization."
+                        }
+                    ]
+                },
+                {
+                    "id": "e1bca73e-21df-4f3d-bc3b-3c70220684b3",
+                    "question": "What is the purpose of the `useEffect` hook with an empty dependency array (`[]`) in a React functional component?",
+                    "description": "Question about the purpose of `useEffect` with an empty dependency array in React functional components.",
+                    "hint": "Consider when `useEffect` with an empty dependency array is executed.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Update the component's state on every render.",
+                            "points": 0,
+                            "explanation": "`useEffect` with an empty dependency array does not trigger on every render; its purpose is different."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Perform side effects only on the initial render.",
+                            "points": 3,
+                            "explanation": "Correct! `useEffect` with an empty dependency array runs only on the initial render, mimicking `componentDidMount` in class components."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Update the component's state only on component updates.",
+                            "points": 0,
+                            "explanation": "`useEffect` with an empty dependency array does not run on component updates; its purpose is different."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Handle side effects every time the component re-renders.",
+                            "points": 0,
+                            "explanation": "`useEffect` with an empty dependency array does not run on every re-render; its purpose is different."
+                        }
+                    ]
+                },
+                {
+                    "id": "43173413-37e6-4ef4-96d5-5c2db1eef831",
+                    "question": "What is the purpose of the `React.PureComponent` class in React?",
+                    "description": "Question about the role of `React.PureComponent` in optimizing class components.",
+                    "hint": "Consider how `React.PureComponent` optimizes rendering in class components.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Control the lifecycle of a class component.",
+                            "points": 0,
+                            "explanation": "`React.PureComponent` does not control the lifecycle; it optimizes rendering in class components."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Handle side effects in class components.",
+                            "points": 0,
+                            "explanation": "`React.PureComponent` is not for handling side effects; its primary purpose is rendering optimization."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Optimize rendering by performing shallow prop and state comparisons.",
+                            "points": 3,
+                            "explanation": "Correct! `React.PureComponent` optimizes rendering by performing shallow comparisons of props and state, preventing unnecessary re-renders."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Render components conditionally.",
+                            "points": 0,
+                            "explanation": "`React.PureComponent` is not used for conditional rendering; its primary purpose is rendering optimization."
+                        }
+                    ]
+                },
+                {
+                    "id": "3f3786ac-6949-45a8-9a54-e212f40188ef",
+                    "question": "How does the `useReducer` hook differ from the `useState` hook in React?",
+                    "description": "Question about the differences between the `useReducer` and `useState` hooks in React functional components.",
+                    "hint": "Consider the use cases and scenarios where each hook is preferable.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "`useReducer` is used for simple state management, while `useState` is for more complex scenarios.",
+                            "points": 0,
+                            "explanation": "This statement is incorrect; `useReducer` is often preferred for more complex state management."
+                        },
+                        {
+                            "label": "B",
+                            "description": "`useState` is used for simple state management, while `useReducer` is for more complex scenarios.",
+                            "points": 3,
+                            "explanation": "Correct! `useReducer` is often preferred for more complex state management, providing a predictable way to handle state transitions."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Both hooks serve the same purpose and can be used interchangeably.",
+                            "points": 0,
+                            "explanation": "While both hooks manage state, they are preferred in different scenarios; using them interchangeably may not be optimal."
+                        },
+                        {
+                            "label": "D",
+                            "description": "`useReducer` and `useState` are identical and interchangeable.",
+                            "points": 0,
+                            "explanation": "This statement is incorrect; while both manage state, they have distinct use cases and differences."
+                        }
+                    ]
+                },
+                {
+                    "id": "eebff396-13b2-48f1-a5c2-4ecf2c8a94f5",
+                    "question": "Explain the concept of 'lifting state up' in React and provide an example scenario where it is useful.",
+                    "description": "Question about the 'lifting state up' pattern in React.",
+                    "hint": "Consider situations where sharing state between components is necessary for synchronization.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It refers to elevating a component's visual appearance.",
+                            "points": 0,
+                            "explanation": "'Lifting state up' is not related to a component's visual appearance but to state management."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It involves moving the state of a child component to its parent component.",
+                            "points": 3,
+                            "explanation": "Correct! 'Lifting state up' involves moving the state to a common ancestor for shared state management."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is a technique for optimizing rendering performance.",
+                            "points": 0,
+                            "explanation": "'Lifting state up' is not primarily a performance optimization technique but a state management pattern."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is used for controlling the order of rendering in a component.",
+                            "points": 0,
+                            "explanation": "'Lifting state up' is not related to controlling the order of rendering."
+                        }
+                    ]
+                },
+                {
+                    "id": "d075d05e-e71b-4c6c-bc3b-d8d134ed345c",
+                    "question": "Explain the purpose of the 'useMemo' hook in React and provide a scenario where using it is beneficial.",
+                    "description": "Question about the purpose and usage of the 'useMemo' hook in React functional components.",
+                    "hint": "Consider scenarios where expensive computations need to be memoized for performance optimization.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is used for handling side effects in functional components.",
+                            "points": 0,
+                            "explanation": "'useMemo' is not for handling side effects but for memoizing values to optimize performance."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is used to conditionally render components.",
+                            "points": 0,
+                            "explanation": "'useMemo' is not primarily used for conditional rendering but for performance optimization."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It memoizes the result of a function, preventing unnecessary recalculations.",
+                            "points": 3,
+                            "explanation": "Correct! 'useMemo' memoizes the result of a function, optimizing performance by preventing unnecessary recalculations."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is used for accessing values from the nearest context provider.",
+                            "points": 0,
+                            "explanation": "'useMemo' is not used for accessing values from context providers but for memoizing values."
+                        }
+                    ]
+                },
+                {
+                    "id": "0ec68c5b-44d3-43a3-8180-67ceab10cdad",
+                    "question": "What are React Portals, and in what scenarios would you use them?",
+                    "description": "Question about React Portals and their use cases.",
+                    "hint": "Consider situations where rendering content outside the normal parent-child hierarchy is necessary.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "React Portals are used for controlling the lifecycle of components.",
+                            "points": 0,
+                            "explanation": "The purpose of React Portals is not to control the lifecycle of components but to render content outside the normal hierarchy."
+                        },
+                        {
+                            "label": "B",
+                            "description": "React Portals are used for styling components based on conditions.",
+                            "points": 0,
+                            "explanation": "Styling based on conditions is not the primary use case for React Portals."
+                        },
+                        {
+                            "label": "C",
+                            "description": "React Portals allow rendering children in a DOM node that is outside the parent hierarchy.",
+                            "points": 3,
+                            "explanation": "Correct! React Portals are used to render content outside the normal parent-child hierarchy."
+                        },
+                        {
+                            "label": "D",
+                            "description": "React Portals are used for managing state in a global context.",
+                            "points": 0,
+                            "explanation": "State management in a global context is not the primary use case for React Portals."
+                        }
+                    ]
+                },
+                {
+                    "id": "05a07422-472b-4912-9950-383ce531e0c4",
+                    "question": "Explain the concept of 'controlled forms' in React and provide an example.",
+                    "description": "Question about 'controlled forms' in React.",
+                    "hint": "Consider scenarios where form elements are controlled by React state.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It refers to forms that are uncontrolled and allow user input without React's interference.",
+                            "points": 0,
+                            "explanation": "'Controlled forms' are the opposite; they involve React controlling form elements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It involves using the 'useState' hook to manage form data.",
+                            "points": 0,
+                            "explanation": "While 'useState' may be used, 'controlled forms' involve more than just managing form data."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It refers to forms where form elements are controlled by React state.",
+                            "points": 3,
+                            "explanation": "Correct! 'Controlled forms' involve form elements whose state is controlled by React."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It involves rendering forms conditionally based on user interactions.",
+                            "points": 0,
+                            "explanation": "Rendering forms conditionally is not the defining characteristic of 'controlled forms.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "a3c882c4-eb39-4d35-8399-5b0667c160f7",
+                    "question": "Explain the purpose of the 'shouldComponentUpdate' method in React and provide a scenario where manually implementing it is beneficial.",
+                    "description": "Question about the 'shouldComponentUpdate' method and its use cases.",
+                    "hint": "Consider scenarios where optimizing component rendering is crucial.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is used for handling side effects in class components.",
+                            "points": 0,
+                            "explanation": "'shouldComponentUpdate' is primarily for optimizing rendering, not handling side effects."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is used for controlling the order of rendering in a class component.",
+                            "points": 0,
+                            "explanation": "Controlling the order of rendering is not the primary purpose of 'shouldComponentUpdate.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "It allows developers to optimize rendering by preventing unnecessary updates.",
+                            "points": 3,
+                            "explanation": "Correct! 'shouldComponentUpdate' helps optimize rendering by preventing unnecessary updates."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is used for accessing values from the nearest context provider.",
+                            "points": 0,
+                            "explanation": "Accessing values from context providers is not the primary purpose of 'shouldComponentUpdate.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "4b582f65-5fe2-416a-a54d-2c2e16a4ce9a",
+                    "question": "Explain the concept of 'context' in React and provide a scenario where using it is beneficial.",
+                    "description": "Question about the 'context' feature in React.",
+                    "hint": "Consider scenarios where passing data through many levels of components is cumbersome.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is used for handling side effects in functional components.",
+                            "points": 0,
+                            "explanation": "'Context' is not primarily for handling side effects but for managing shared data."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is used for controlling the order of rendering in a functional component.",
+                            "points": 0,
+                            "explanation": "Controlling the order of rendering is not the primary purpose of 'context.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "It provides a way to pass data through the component tree without having to pass props down manually at every level.",
+                            "points": 3,
+                            "explanation": "Correct! 'Context' simplifies the process of passing data through many levels of components."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is used for rendering components conditionally.",
+                            "points": 0,
+                            "explanation": "Rendering components conditionally is not the primary purpose of 'context.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "84e6c96e-d6b1-49da-8d6d-4f50ad0a6ee1",
+                    "question": "Explain the purpose of the 'useEffect' hook in React and provide a scenario where using it is beneficial.",
+                    "description": "Question about the 'useEffect' hook and its use cases.",
+                    "hint": "Consider scenarios where handling side effects in functional components is necessary.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is used for memorizing values to optimize performance.",
+                            "points": 0,
+                            "explanation": "'useEffect' is not primarily used for memorizing values but for handling side effects in functional components."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is used for accessing values from the nearest context provider.",
+                            "points": 0,
+                            "explanation": "Accessing values from context providers is not the primary purpose of 'useEffect.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "It allows performing side effects in functional components after render.",
+                            "points": 3,
+                            "explanation": "Correct! 'useEffect' is used to handle side effects in functional components after render."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is used for conditionally rendering components.",
+                            "points": 0,
+                            "explanation": "Conditional rendering is not the primary purpose of 'useEffect.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "a031b6bb-780b-4a50-ba0b-af37a7624f6a",
+                    "question": "Explain the concept of 'React.memo' in functional components and provide a scenario where using it is beneficial.",
+                    "description": "Question about the 'React.memo' function and its use in functional components.",
+                    "hint": "Consider scenarios where preventing unnecessary renders in functional components is important.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is used for accessing values from the nearest context provider.",
+                            "points": 0,
+                            "explanation": "Accessing values from context providers is not the primary purpose of 'React.memo.'"
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is used for conditionally rendering functional components.",
+                            "points": 0,
+                            "explanation": "Conditional rendering is not the primary purpose of 'React.memo.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "It memoizes the rendering of a functional component, preventing unnecessary renders.",
+                            "points": 3,
+                            "explanation": "Correct! 'React.memo' memoizes the rendering of a functional component, preventing unnecessary renders."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is used for handling side effects in functional components.",
+                            "points": 0,
+                            "explanation": "Handling side effects is not the primary purpose of 'React.memo.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "19c48276-725a-4be0-80a4-cdcb8fe3a6a7",
+                    "question": "Explain the concept of the 'useReducer' hook in React and provide a scenario where using it is beneficial.",
+                    "description": "Question about the purpose and use cases of the 'useReducer' hook in React functional components.",
+                    "hint": "Consider scenarios where managing complex state transitions is necessary.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is used for handling side effects in functional components.",
+                            "points": 0,
+                            "explanation": "Handling side effects is not the primary purpose of the 'useReducer' hook."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is used for optimizing performance by memoizing values.",
+                            "points": 0,
+                            "explanation": "Optimizing performance by memoizing values is not the primary purpose of 'useReducer.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "It provides a way to manage complex state transitions in functional components.",
+                            "points": 3,
+                            "explanation": "Correct! 'useReducer' is used for managing state in scenarios with complex state transitions."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is used for rendering components conditionally.",
+                            "points": 0,
+                            "explanation": "Rendering components conditionally is not the primary purpose of 'useReducer.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "99e7f9c1-06b7-4c79-804a-3a2ebd41d6c3",
+                    "question": "Explain the purpose of the 'React.forwardRef' function in React and provide a scenario where using it is beneficial.",
+                    "description": "Question about the 'React.forwardRef' function and its use in React components.",
+                    "hint": "Consider scenarios where passing refs through intermediate components is necessary.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is used for optimizing performance by controlling the order of rendering in a component.",
+                            "points": 0,
+                            "explanation": "Controlling the order of rendering is not the primary purpose of 'React.forwardRef.'"
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is used for accessing values from the nearest context provider.",
+                            "points": 0,
+                            "explanation": "Accessing values from context providers is not the primary purpose of 'React.forwardRef.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "It allows a component to forward a ref to its child components.",
+                            "points": 3,
+                            "explanation": "Correct! 'React.forwardRef' is used to forward a ref from a parent component to a child component."
+                        },
+                        {
+                            "label": "D",
+                            "description": "It is used for conditionally rendering components.",
+                            "points": 0,
+                            "explanation": "Conditionally rendering components is not the primary purpose of 'React.forwardRef.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "b5bde799-e4f5-40cf-b711-6b5d4f09d4a8",
+                    "question": "Explain the concept of 'server-side rendering' in React and discuss its advantages and disadvantages.",
+                    "description": "Question about server-side rendering in React and its pros and cons.",
+                    "hint": "Consider scenarios where rendering React components on the server side is beneficial.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Server-side rendering is not a technique used in React.",
+                            "points": 0,
+                            "explanation": "Server-side rendering is a technique used in React for rendering on the server side."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Server-side rendering improves client-side performance but has no impact on SEO.",
+                            "points": 0,
+                            "explanation": "Server-side rendering can have positive impacts on both client-side performance and SEO."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Server-side rendering improves initial page load speed but may increase server load.",
+                            "points": 3,
+                            "explanation": "Correct! Server-side rendering can enhance initial page load speed but may introduce server load challenges."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Server-side rendering is primarily used for handling client-side routing.",
+                            "points": 0,
+                            "explanation": "Server-side rendering is not primarily used for client-side routing but for rendering on the server side."
+                        }
+                    ]
+                },
+                {
+                    "id": "2a864d0f-ccf1-4f22-8bb2-5dd3a7da7e1b",
+                    "question": "What are React Hooks, and how do they differ from class components in terms of state management?",
+                    "description": "Question about React Hooks and their differences from class components.",
+                    "hint": "Consider the differences in syntax and behavior between Hooks and class component state.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "React Hooks are only applicable to class components.",
+                            "points": 0,
+                            "explanation": "React Hooks are designed for use in functional components, not class components."
+                        },
+                        {
+                            "label": "B",
+                            "description": "React Hooks provide a way to use state and lifecycle features in functional components.",
+                            "points": 3,
+                            "explanation": "Correct! React Hooks allow functional components to use state and lifecycle features, bridging the gap with class components."
+                        },
+                        {
+                            "label": "C",
+                            "description": "React Hooks have a similar syntax and behavior to class component state.",
+                            "points": 0,
+                            "explanation": "The syntax and behavior of Hooks differ from class component state."
+                        },
+                        {
+                            "label": "D",
+                            "description": "React Hooks are only used for handling side effects in components.",
+                            "points": 0,
+                            "explanation": "React Hooks have a broader purpose, including state management and lifecycle functionalities."
+                        }
+                    ]
+                },
+                {
+                    "id": "b101f5cf-96c4-4d8e-9da5-4e21e652c7e4",
+                    "question": "Explain the concept of 'render props' in React and provide a scenario where using them is beneficial.",
+                    "description": "Question about 'render props' in React and their use cases.",
+                    "hint": "Consider situations where sharing code logic between components is necessary.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Render props are used for styling components based on conditions.",
+                            "points": 0,
+                            "explanation": "Styling based on conditions is not the primary use case for 'render props.'"
+                        },
+                        {
+                            "label": "B",
+                            "description": "Render props allow passing a component as a prop to another component.",
+                            "points": 0,
+                            "explanation": "This description aligns more with the concept of 'children as a function' rather than 'render props.'"
+                        },
+                        {
+                            "label": "C",
+                            "description": "Render props involve passing a function as a prop to a component to share code logic.",
+                            "points": 3,
+                            "explanation": "Correct! 'Render props' involve passing a function as a prop to share code logic between components."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Render props are used for handling client-side routing in React.",
+                            "points": 0,
+                            "explanation": "Client-side routing is not the primary use case for 'render props.'"
+                        }
+                    ]
+                },
+                {
+                    "id": "4748ce09-24cd-40cd-a5f4-bdb5bb16ed18",
+                    "question": "Explain the purpose of the 'ErrorBoundary' component in React and how it can improve error handling in applications.",
+                    "description": "Question about the 'ErrorBoundary' component in React and its role in error handling.",
+                    "hint": "Consider scenarios where gracefully handling errors at the component level is crucial.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "ErrorBoundary is used for creating custom error messages in React applications.",
+                            "points": 0,
+                            "explanation": "ErrorBoundary is more focused on handling errors gracefully rather than creating custom error messages."
+                        },
+                        {
+                            "label": "B",
+                            "description": "ErrorBoundary is used for preventing errors from occurring in React components.",
+                            "points": 0,
+                            "explanation": "ErrorBoundary is not designed to prevent errors but to handle them when they occur."
+                        },
+                        {
+                            "label": "C",
+                            "description": "ErrorBoundary allows components to catch JavaScript errors anywhere in their tree and log those errors.",
+                            "points": 3,
+                            "explanation": "Correct! ErrorBoundary captures JavaScript errors in its subtree and handles them, preventing the entire application from crashing."
+                        },
+                        {
+                            "label": "D",
+                            "description": "ErrorBoundary is used for rendering different components based on error conditions.",
+                            "points": 0,
+                            "explanation": "ErrorBoundary focuses on handling errors rather than rendering different components based on errors."
+                        }
+                    ]
+                },
+                {
+                    "id": "2ed0153e-dba3-4e4e-a395-4f3bea0bd6f1",
+                    "question": "Explain the concept of 'memoization' in React and provide a scenario where applying it is beneficial.",
+                    "description": "Question about 'memoization' in React and its use cases.",
+                    "hint": "Consider situations where optimizing the performance of functional components is necessary.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Memoization is a technique used for preventing the rendering of functional components.",
+                            "points": 0,
+                            "explanation": "Memoization is about optimizing renders rather than preventing them entirely."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Memoization is primarily used for handling side effects in functional components.",
+                            "points": 0,
+                            "explanation": "While memoization can impact side effects, it is not its primary purpose."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Memoization involves caching the result of a function to prevent unnecessary recalculations.",
+                            "points": 3,
+                            "explanation": "Correct! Memoization caches function results, preventing unnecessary recalculations and optimizing performance."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Memoization is used for managing state transitions in React components.",
+                            "points": 0,
+                            "explanation": "Managing state transitions is not the primary use case for memoization."
+                        }
+                    ]
+                },
+                {
+                    "id": "c1cb515f-4c56-4b48-836e-6a3c371a3b65",
+                    "question": "Discuss the role of 'React.PureComponent' in React applications and how it differs from 'React.Component'.",
+                    "description": "Question about 'React.PureComponent' and its differences from 'React.Component'.",
+                    "hint": "Consider scenarios where shallow comparisons of props and state are beneficial.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "React.PureComponent is used for rendering components conditionally based on props.",
+                            "points": 0,
+                            "explanation": "Rendering conditionally based on props is not the primary purpose of React.PureComponent."
+                        },
+                        {
+                            "label": "B",
+                            "description": "React.PureComponent is a deprecated class and should not be used.",
+                            "points": 0,
+                            "explanation": "React.PureComponent is not deprecated and can be used in certain scenarios."
+                        },
+                        {
+                            "label": "C",
+                            "description": "React.PureComponent performs a shallow comparison of props and state for shouldComponentUpdate.",
+                            "points": 3,
+                            "explanation": "Correct! React.PureComponent automatically performs a shallow comparison, optimizing renders based on changes in props and state."
+                        },
+                        {
+                            "label": "D",
+                            "description": "React.PureComponent is designed for handling side effects in class components.",
+                            "points": 0,
+                            "explanation": "Handling side effects is not the primary purpose of React.PureComponent."
+                        }
+                    ]
+                },
+                {
+                    "id": "a8f936f9-6b9a-47ed-bc49-28e24b1f75f9",
+                    "question": "Explain the concept of 'controlled components' in React and provide a scenario where using them is advantageous.",
+                    "description": "Question about 'controlled components' in React and their advantages.",
+                    "hint": "Consider scenarios where precise control over form elements is essential.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Controlled components are primarily used for styling React components.",
+                            "points": 0,
+                            "explanation": "Styling is not the primary use case for controlled components."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Controlled components are a deprecated feature in React.",
+                            "points": 0,
+                            "explanation": "Controlled components are not deprecated and are commonly used for form handling."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Controlled components are components whose form elements are entirely controlled by React state.",
+                            "points": 3,
+                            "explanation": "Correct! Controlled components have form elements controlled entirely by React state for precise control."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Controlled components are designed for handling asynchronous operations in React applications.",
+                            "points": 0,
+                            "explanation": "Handling asynchronous operations is not the primary purpose of controlled components."
+                        }
+                    ]
+                },
+                {
+                    "id": "56da0cb0-b67a-4fe7-a5e9-5087911d9d12",
+                    "question": "Discuss the use of 'context' in React and provide a scenario where using it is preferable over prop drilling.",
+                    "description": "Question about the use of 'context' in React and its advantages over prop drilling.",
+                    "hint": "Consider scenarios where passing props through multiple layers becomes cumbersome.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Context is only used for rendering components conditionally based on context values.",
+                            "points": 0,
+                            "explanation": "Rendering conditionally based on context values is not the primary use case for context."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Context is primarily used for managing side effects in React components.",
+                            "points": 0,
+                            "explanation": "Managing side effects is not the primary purpose of context in React."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Context provides a way to pass data through the component tree without having to pass props manually at every level.",
+                            "points": 3,
+                            "explanation": "Correct! Context simplifies the process of passing data through many levels of components without manual prop drilling."
+                        },
+                        {
+                            "label": "D",
+                            "description": "Context is designed for handling client-side routing in React applications.",
+                            "points": 0,
+                            "explanation": "Client-side routing is not the primary purpose of context in React."
+                        }
+                    ]
+                },
+                {
+                    "id": "62c47bf5-9c9d-4a95-8f19-d4b9d1a2ad50",
+                    "question": "Explain the concept of 'higher-order components' (HOCs) in React and provide a scenario where using them is advantageous.",
+                    "description": "Question about 'higher-order components' (HOCs) in React and their advantages.",
+                    "hint": "Consider scenarios where code reuse and component logic abstraction are beneficial.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "HOCs are primarily used for styling React components.",
+                            "points": 0,
+                            "explanation": "Styling is not the primary use case for higher-order components."
+                        },
+                        {
+                            "label": "B",
+                            "description": "HOCs are a deprecated feature in React.",
+                            "points": 0,
+                            "explanation": "Higher-order components are not deprecated and are commonly used for code reuse."
+                        },
+                        {
+                            "label": "C",
+                            "description": "HOCs are functions that take a component and return a new component with additional props or behavior.",
+                            "points": 3,
+                            "explanation": "Correct! Higher-order components enhance component functionality by wrapping them with additional logic."
+                        },
+                        {
+                            "label": "D",
+                            "description": "HOCs are designed for handling server-side rendering in React applications.",
+                            "points": 0,
+                            "explanation": "Handling server-side rendering is not the primary purpose of higher-order components."
+                        }
+                    ]
+                },
+                {
+                    "id": "f62bb416-1e3b-4873-8f8a-17a598ed0718",
+                    "question": "Discuss the role of 'React.forwardRef' in React and provide a scenario where using it is beneficial.",
+                    "description": "Question about 'React.forwardRef' and its use cases.",
+                    "hint": "Consider situations where passing refs from parent to child components is necessary.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "React.forwardRef is used for rendering components conditionally based on props.",
+                            "points": 0,
+                            "explanation": "Rendering conditionally based on props is not the primary purpose of React.forwardRef."
+                        },
+                        {
+                            "label": "B",
+                            "description": "React.forwardRef is a deprecated function in React.",
+                            "points": 0,
+                            "explanation": "React.forwardRef is not deprecated and can be useful in certain scenarios."
+                        },
+                        {
+                            "label": "C",
+                            "description": "React.forwardRef allows a component to forward a ref to its child components.",
+                            "points": 3,
+                            "explanation": "Correct! React.forwardRef is used to forward a ref from a parent component to a child component."
+                        },
+                        {
+                            "label": "D",
+                            "description": "React.forwardRef is designed for handling asynchronous operations in React applications.",
+                            "points": 0,
+                            "explanation": "Handling asynchronous operations is not the primary purpose of React.forwardRef."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

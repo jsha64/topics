@@ -1,0 +1,1374 @@
+{
+    "skill": {
+        "Pnpm": {
+            "id": "pnpm",
+            "description": "PNPM is an alternative package manager for Node. js which stands for “Performant NPM”. The main purpose of PNPM is to hold all the packages at a global (centralized) store and use them if needed by other projects too by creating hard links to it.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Official Website",
+                    "link": "https://pnpm.io/"
+                },
+                {
+                    "name": "Meet PNPM: The Faster, More Performant NPM",
+                    "link": "https://blog.bitsrc.io/pnpm-javascript-package-manager-4b5abd59dc9"
+                }
+            ],
+            "parents": [
+                "package-managers"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "0ce0e520-5aae-4cd1-80c4-5b76b24492d6",
+                    "question": "What is pnpm?",
+                    "description": "Select the option that best describes pnpm.",
+                    "hint": "Consider the purpose and functionality of pnpm.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A task runner for JavaScript projects.",
+                            "points": 0,
+                            "explanation": "Incorrect. pnpm is not a task runner; it's a package manager."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A package manager for JavaScript projects.",
+                            "points": 3,
+                            "explanation": "Correct! pnpm is a package manager for JavaScript projects, like npm or yarn."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A testing framework for JavaScript projects.",
+                            "points": 0,
+                            "explanation": "Incorrect. pnpm is not a testing framework; it's a package manager."
+                        }
+                    ]
+                },
+                {
+                    "id": "9f9eb72a-6df9-47e3-ba6f-75de79604a86",
+                    "question": "What advantage does pnpm offer over other package managers?",
+                    "description": "Choose the correct statement regarding the advantage of pnpm.",
+                    "hint": "Consider the unique features or benefits of pnpm.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm uses a global package store shared by all projects.",
+                            "points": 0,
+                            "explanation": "Incorrect. pnpm uses a per-project store, not a global one shared by all projects."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm stores dependencies in a content-addressable filesystem.",
+                            "points": 3,
+                            "explanation": "Correct! pnpm stores dependencies in a content-addressable filesystem for efficient sharing."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm requires an internet connection to install dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. pnpm can work offline once dependencies are installed for a project."
+                        }
+                    ]
+                },
+                {
+                    "id": "6e744e07-47a3-487a-8f24-8d6aef8b3a79",
+                    "question": "How can you install dependencies using pnpm?",
+                    "description": "Select the correct command to install project dependencies using pnpm.",
+                    "hint": "Consider the command used by pnpm for installing dependencies.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm install",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command for pnpm is different from npm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "yarn add",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command for pnpm is different from yarn."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm install",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm install' is the command to install dependencies using pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "6e744e07-47a3-487a-8f24-8d6aef8b3a79",
+                    "question": "What is the purpose of the pnpm-lock.yaml file?",
+                    "description": "Choose the correct explanation for the pnpm-lock.yaml file.",
+                    "hint": "Consider the role of the lock file in package management.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpm-lock.yaml file contains specific dependency versions and resolutions."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is a configuration file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpm-lock.yaml file is not a configuration file; it's a lock file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It locks the versions of the project's dependencies.",
+                            "points": 3,
+                            "explanation": "Correct! The pnpm-lock.yaml file locks the versions of the project's dependencies for consistent installations."
+                        }
+                    ]
+                },
+                {
+                    "id": "842c070b-07d4-4db4-9d4a-79f670dcdaf1",
+                    "question": "How can you uninstall dependencies using pnpm?",
+                    "description": "Select the correct command to uninstall project dependencies using pnpm.",
+                    "hint": "Consider the command used by pnpm for uninstalling dependencies.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "npm uninstall",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command for pnpm is different from npm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "yarn remove",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command for pnpm is different from yarn."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm remove",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm remove' is the command to uninstall dependencies using pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "c947b0c2-2b9a-4e67-9f79-7a122f90d6e2",
+                    "question": "What command is used to check for outdated dependencies in pnpm?",
+                    "description": "Select the correct command to check for outdated dependencies in a pnpm project.",
+                    "hint": "Consider the command used by pnpm for checking outdated dependencies.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm outdated",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm outdated' is the command to check for outdated dependencies in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm update",
+                            "points": 0,
+                            "explanation": "Incorrect. 'pnpm update' updates dependencies but doesn't check for outdated ones."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm list outdated",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm outdated' for checking outdated dependencies."
+                        }
+                    ]
+                },
+                {
+                    "id": "5dfb9a10-1b15-4f41-996b-6f40eafedcb2",
+                    "question": "What is the purpose of the pnpm-workspace.yaml file?",
+                    "description": "Choose the correct explanation for the pnpm-workspace.yaml file.",
+                    "hint": "Consider the role of the workspace file in pnpm.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It contains metadata about the project's workspaces.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpm-workspace.yaml file contains information specific to pnpm's workspace feature."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is a configuration file for pnpm workspaces.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpm-workspace.yaml file is not a configuration file; it's a lock file specific to pnpm workspaces."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It locks the versions of the project's dependencies in a pnpm workspace.",
+                            "points": 3,
+                            "explanation": "Correct! The pnpm-workspace.yaml file locks the versions of the project's dependencies in a pnpm workspace for consistent installations."
+                        }
+                    ]
+                },
+                {
+                    "id": "888f6239-3980-495a-9d2f-cf2d25fb71d5",
+                    "question": "What is the purpose of the pnpm-link.yaml file?",
+                    "description": "Choose the correct explanation for the pnpm-link.yaml file.",
+                    "hint": "Consider the role of the link file in pnpm.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It contains metadata about the project's linked packages.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpm-link.yaml file contains information specific to linked packages in a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is a configuration file for pnpm linking.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpm-link.yaml file is not a configuration file; it's a lock file specific to pnpm linking."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It tracks the links between packages in a pnpm project.",
+                            "points": 3,
+                            "explanation": "Correct! The pnpm-link.yaml file tracks the links between packages in a pnpm project for efficient linking."
+                        }
+                    ]
+                },
+                {
+                    "id": "a0905f70-b7d1-4ce7-b07a-87aa0b25cdd7",
+                    "question": "How can you list installed packages in a pnpm project?",
+                    "description": "Select the correct command to display a list of installed packages in a pnpm project.",
+                    "hint": "Consider the command used by pnpm for listing installed packages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm show",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is different from 'pnpm show' for listing installed packages."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm ls",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm ls' is the command to list installed packages in a pnpm project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm list",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm ls' for listing installed packages."
+                        }
+                    ]
+                },
+                {
+                    "id": "66f89b94-8642-42a9-9174-7d7b4cfdaeb5",
+                    "question": "What is the purpose of the pnpmfile.js file?",
+                    "description": "Choose the correct explanation for the pnpmfile.js file.",
+                    "hint": "Consider the role of the pnpmfile.js file in pnpm projects.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It contains metadata about the project's scripts.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpmfile.js file is not for storing metadata about scripts; it's for customization."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is a configuration file for pnpm.",
+                            "points": 3,
+                            "explanation": "Correct! The pnpmfile.js file allows customization of pnpm behavior for a project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It locks the versions of the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpmfile.js file is not used for locking versions; it's for customizing pnpm behavior."
+                        }
+                    ]
+                },
+                {
+                    "id": "94d0f837-ef4f-4b4a-9c45-66e6b501e14b",
+                    "question": "What command is used to display information about a specific package in a pnpm project?",
+                    "description": "Select the correct command to show detailed information about a package installed in a pnpm project.",
+                    "hint": "Consider how you might inspect details about a specific package.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm info <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm info <package-name>' displays detailed information about a specific package in a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm show <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm info <package-name>' for showing detailed package information."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm view <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm info <package-name>' for showing detailed package information."
+                        }
+                    ]
+                },
+                {
+                    "id": "b8f4d106-e051-429e-9dd2-45d004a6d5fc",
+                    "question": "How can you install a package globally using pnpm?",
+                    "description": "Select the correct command to install a package globally using pnpm.",
+                    "hint": "Consider how you might install a package globally with pnpm.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm install -g <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. pnpm does not have a global installation concept like npm. Packages are typically installed per project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm add -g <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. pnpm does not have a global installation concept like npm. Packages are typically installed per project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm add --global <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm add --global <package-name>' installs a package globally using pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "f1d7db1f-0010-4a58-8c6b-648f2b6f1079",
+                    "question": "What is the purpose of the .pnpmfile.js file?",
+                    "description": "Choose the correct explanation for the .pnpmfile.js file.",
+                    "hint": "Consider the role of the .pnpmfile.js file in pnpm projects.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It contains metadata about the project's scripts.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .pnpmfile.js file is not for storing metadata about scripts; it's for customization."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is a configuration file for pnpm.",
+                            "points": 3,
+                            "explanation": "Correct! The .pnpmfile.js file allows customization of pnpm behavior for a project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It locks the versions of the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .pnpmfile.js file is not used for locking versions; it's for customizing pnpm behavior."
+                        }
+                    ]
+                },
+                {
+                    "id": "3a35e387-767e-42b9-a1c5-b8f28745bc57",
+                    "question": "How can you list outdated packages and update them in a pnpm project?",
+                    "description": "Select the correct command to list outdated packages and update them in a pnpm project.",
+                    "hint": "Consider how you might check for outdated packages and perform updates with pnpm.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm outdated",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm outdated' lists outdated packages, and 'pnpm update' updates them in a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm update",
+                            "points": 0,
+                            "explanation": "Incorrect. 'pnpm update' updates packages but doesn't specifically list outdated ones."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm update --outdated",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm outdated' for listing outdated packages."
+                        }
+                    ]
+                },
+                {
+                    "id": "0c5740f4-613c-426a-99e9-7431bcf00f13",
+                    "question": "What is the purpose of the .pnpm-lock.yaml file?",
+                    "description": "Choose the correct explanation for the .pnpm-lock.yaml file.",
+                    "hint": "Consider the role of the lock file in package management.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .pnpm-lock.yaml file contains specific dependency versions and resolutions."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is a configuration file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .pnpm-lock.yaml file is not a configuration file; it's a lock file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It locks the versions of the project's dependencies.",
+                            "points": 3,
+                            "explanation": "Correct! The .pnpm-lock.yaml file locks the versions of the project's dependencies for consistent installations."
+                        }
+                    ]
+                },
+                {
+                    "id": "a2160d18-e090-44cb-9f6a-c27bb85a1c07",
+                    "question": "How can you install packages from a specific registry using pnpm?",
+                    "description": "Select the correct command to install packages from a registry other than the default using pnpm.",
+                    "hint": "Consider how you might specify a different registry when installing packages with pnpm.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm install --registry=<registry-url>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm install --registry=<registry-url>' installs packages from the specified registry."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm add --registry=<registry-url>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'pnpm install --registry=<registry-url>' for specifying a registry."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm install --from=<registry-url>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'pnpm install --registry=<registry-url>' for specifying a registry."
+                        }
+                    ]
+                },
+                {
+                    "id": "3e16a2da-899f-4a45-b891-44278043c768",
+                    "question": "What command is used to run a script defined in the package.json file using pnpm?",
+                    "description": "Select the correct command to execute a script defined in the package.json file using pnpm.",
+                    "hint": "Consider how you might run scripts in a pnpm project.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm scripts",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm run' to execute scripts, not 'pnpm scripts'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm run <script-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm run <script-name>' executes a script defined in the package.json file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm execute <script-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm run <script-name>' to execute a script."
+                        }
+                    ]
+                },
+                {
+                    "id": "77510375-5a0b-41a5-9b7d-0cf4df3676a6",
+                    "question": "What is the purpose of the pnpmfile.cjs file?",
+                    "description": "Choose the correct explanation for the pnpmfile.cjs file.",
+                    "hint": "Consider the role of the pnpmfile.cjs file in pnpm projects.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It contains metadata about the project's scripts.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpmfile.cjs file is not for storing metadata about scripts; it's for customization."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is a configuration file for pnpm.",
+                            "points": 3,
+                            "explanation": "Correct! The pnpmfile.cjs file allows customization of pnpm behavior for a project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It locks the versions of the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpmfile.cjs file is not used for locking versions; it's for customizing pnpm behavior."
+                        }
+                    ]
+                },
+                {
+                    "id": "9cd64784-18e7-4ea4-bc6b-62a9fe541d3e",
+                    "question": "How can you check the version of pnpm installed in your project?",
+                    "description": "Select the correct command to display the version of pnpm installed in a project.",
+                    "hint": "Consider how you might check the version of the pnpm package.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm -v",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm -v' displays the version of pnpm installed in the project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm version",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm -v' for checking the version of pnpm."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm show version",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm -v' for checking the version of pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "1f39c236-0e82-4e7c-a1eb-37dd3fe5c081",
+                    "question": "What is the purpose of the pnpm-workspace.yaml file?",
+                    "description": "Choose the correct explanation for the pnpm-workspace.yaml file.",
+                    "hint": "Consider the role of the workspace file in pnpm.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It contains metadata about the project's workspaces.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpm-workspace.yaml file contains information specific to pnpm's workspace feature."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is a configuration file for pnpm workspaces.",
+                            "points": 0,
+                            "explanation": "Incorrect. The pnpm-workspace.yaml file is not a configuration file; it's a lock file specific to pnpm workspaces."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It locks the versions of the project's dependencies in a pnpm workspace.",
+                            "points": 3,
+                            "explanation": "Correct! The pnpm-workspace.yaml file locks the versions of the project's dependencies in a pnpm workspace for consistent installations."
+                        }
+                    ]
+                },
+                {
+                    "id": "77c0cfd1-eaa0-4ee4-aa7b-5290f846d035",
+                    "question": "What is the purpose of the .npmrc file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .npmrc file.",
+                    "hint": "Consider the role of configuration files in pnpm projects.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .npmrc file is not a lock file; it's used for configuration."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .npmrc file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It holds configuration settings for pnpm.",
+                            "points": 3,
+                            "explanation": "Correct! The .npmrc file is used for configuring various settings in a pnpm project."
+                        }
+                    ]
+                },
+                {
+                    "id": "926a8c0a-e56c-4c19-b688-906e713f0c5e",
+                    "question": "How can you update pnpm to the latest version in your project?",
+                    "description": "Select the correct command to update the pnpm version in a project.",
+                    "hint": "Consider how you might upgrade the pnpm package.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm install pnpm@latest",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm install pnpm@latest' updates the pnpm version in the project to the latest release."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm upgrade pnpm",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax for updating pnpm is 'pnpm install pnpm@latest'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm update pnpm",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax for updating pnpm is 'pnpm install pnpm@latest'."
+                        }
+                    ]
+                },
+                {
+                    "id": "0c0c282b-7931-46f2-87fc-0c80ff0b303d",
+                    "question": "What is the purpose of the .npmignore file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .npmignore file.",
+                    "hint": "Consider the role of the .npmignore file in pnpm projects.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .npmignore file is not a lock file; it's used for specifying files to be ignored when packaging."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .npmignore file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies files and directories to be ignored when packaging the project.",
+                            "points": 3,
+                            "explanation": "Correct! The .npmignore file is used to specify files and directories to be ignored when packaging the project for distribution."
+                        }
+                    ]
+                },
+                {
+                    "id": "01a55fc4-26db-4f35-a7d3-d69d671a8992",
+                    "question": "How can you run a specific script defined in the package.json file during installation?",
+                    "description": "Select the correct command to execute a specific script during package installation in a pnpm project.",
+                    "hint": "Consider how you might run scripts during the installation process.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm install --script <script-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'pnpm install -- <script-name>' for running scripts during installation."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm add --run-script <script-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm add --run-script <script-name>' executes a specific script during package installation in a pnpm project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm run-script <script-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax is 'pnpm add --run-script <script-name>' for running scripts during installation."
+                        }
+                    ]
+                },
+                {
+                    "id": "3d864ad2-93c5-4609-8a95-3a2c1c7b2437",
+                    "question": "What is the purpose of the .npmrc.yaml file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .npmrc.yaml file.",
+                    "hint": "Consider the role of configuration files in pnpm projects.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a configuration file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .npmrc.yaml file is not a standard configuration file for pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .npmrc.yaml file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is not a recognized file in pnpm projects.",
+                            "points": 3,
+                            "explanation": "Correct! The .npmrc.yaml file is not a standard file in pnpm projects for configuration or other purposes."
+                        }
+                    ]
+                },
+                {
+                    "id": "6e9b3f88-674d-49bf-988f-7269364fb8d5",
+                    "question": "How can you create a package lock file in a pnpm project?",
+                    "description": "Select the correct command to generate a lock file for the project's dependencies in pnpm.",
+                    "hint": "Consider how you might create a lock file in pnpm similar to other package managers.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm create-lockfile",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm create-lockfile' generates a lock file for the project's dependencies in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm lock",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm create-lockfile' for generating a lock file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm generate-lockfile",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm create-lockfile' for generating a lock file."
+                        }
+                    ]
+                },
+                {
+                    "id": "c6fb69fe-d1f8-4c10-8e68-28f60f9c537b",
+                    "question": "What is the purpose of the .pnp.js file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .pnp.js file.",
+                    "hint": "Consider the role of the .pnp.js file in pnpm projects.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .pnp.js file is not a lock file; it's used for Plug'n'Play support in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .pnp.js file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It provides configuration for Plug'n'Play in pnpm projects.",
+                            "points": 3,
+                            "explanation": "Correct! The .pnp.js file is used to configure Plug'n'Play support in pnpm projects."
+                        }
+                    ]
+                },
+                {
+                    "id": "9fdd7f9a-034b-4a63-81d4-b6eb12855d6e",
+                    "question": "How can you uninstall a package from a pnpm project?",
+                    "description": "Select the correct command to remove a package from a pnpm project.",
+                    "hint": "Consider how you might uninstall a package in pnpm.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm uninstall <package-name>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm uninstall <package-name>' removes a package from a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm remove <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm uninstall <package-name>' for removing a package."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm delete <package-name>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm uninstall <package-name>' for removing a package."
+                        }
+                    ]
+                },
+                {
+                    "id": "a11b9994-3c6d-4a42-b485-b27a70390d46",
+                    "question": "What is the purpose of the .pnpm-state.json file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .pnpm-state.json file.",
+                    "hint": "Consider the role of the .pnpm-state.json file in pnpm projects.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .pnpm-state.json file is not a lock file; it's used for maintaining state information in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .pnpm-state.json file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It stores state information about the project, such as installed packages and dependencies.",
+                            "points": 3,
+                            "explanation": "Correct! The .pnpm-state.json file is used for storing state information about the project's packages and dependencies in pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "2ce11e9e-60ec-4081-9c67-4e4572656ac1",
+                    "question": "How can you check for outdated packages without updating them in a pnpm project?",
+                    "description": "Select the correct command to list outdated packages without performing updates.",
+                    "hint": "Consider how you might check for outdated packages without updating them in pnpm.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm outdated",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm outdated' lists outdated packages without automatically updating them in a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm update --dry-run",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm outdated' for listing outdated packages without updating them."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm list --outdated",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm outdated' for listing outdated packages without updating them."
+                        }
+                    ]
+                },
+                {
+                    "id": "1c7d5752-1a54-4e14-a251-875e6f7ac62f",
+                    "question": "What is the purpose of the .pnpm-store directory in a pnpm project?",
+                    "description": "Choose the correct explanation for the .pnpm-store directory.",
+                    "hint": "Consider the role of the .pnpm-store directory in pnpm projects.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .pnpm-store directory is not a lock file; it's used for storing package tarballs and metadata in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .pnpm-store directory."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It stores package tarballs and metadata for efficient package caching in pnpm.",
+                            "points": 3,
+                            "explanation": "Correct! The .pnpm-store directory is used for efficient package caching in pnpm, storing package tarballs and metadata."
+                        }
+                    ]
+                },
+                {
+                    "id": "f9d1ffeb-ec68-4a8d-b292-b18e110cf33f",
+                    "question": "How can you install packages using a specific version range in a pnpm project?",
+                    "description": "Select the correct command to install packages with a specific version range in a pnpm project.",
+                    "hint": "Consider how you might specify version ranges when installing packages with pnpm.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm install <package-name>@<version>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax for version ranges is 'pnpm install <package-name>@<version-range>'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm add <package-name>@<version-range>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm add <package-name>@<version-range>' installs a package with a specific version range in a pnpm project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm install <package-name> --save-exact",
+                            "points": 0,
+                            "explanation": "Incorrect. The '--save-exact' flag is not used for specifying version ranges; use 'pnpm add <package-name>@<version-range>' instead."
+                        }
+                    ]
+                },
+                {
+                    "id": "e923cf61-9992-4f61-a3b8-6fc0f2c55f8a",
+                    "question": "What is the purpose of the .yarnrc.yaml file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .yarnrc.yaml file.",
+                    "hint": "Consider the role of configuration files in pnpm projects.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a configuration file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .yarnrc.yaml file is not a standard configuration file for pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .yarnrc.yaml file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is not a recognized file in pnpm projects.",
+                            "points": 3,
+                            "explanation": "Correct! The .yarnrc.yaml file is not a standard file in pnpm projects for configuration or other purposes."
+                        }
+                    ]
+                },
+                {
+                    "id": "079f39bd-cf90-4a72-8a6e-8c64eae65434",
+                    "question": "How can you create a pnpm workspace in a project?",
+                    "description": "Select the correct command to initialize a pnpm workspace.",
+                    "hint": "Consider how you might set up a workspace in pnpm.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm init -w",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm init -w' initializes a pnpm workspace in the current project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm create workspace",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm init -w' for initializing a pnpm workspace."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm add workspace",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm init -w' for initializing a pnpm workspace."
+                        }
+                    ]
+                },
+                {
+                    "id": "27055326-5c7c-4963-95a7-5f28d848d5c8",
+                    "question": "What is the purpose of the .shrinkwrap.yaml file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .shrinkwrap.yaml file.",
+                    "hint": "Consider the role of the .shrinkwrap.yaml file in pnpm projects.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .shrinkwrap.yaml file is not a lock file; it's used for deterministic package installations in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .shrinkwrap.yaml file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It ensures deterministic installations by locking package versions and dependencies.",
+                            "points": 3,
+                            "explanation": "Correct! The .shrinkwrap.yaml file ensures deterministic installations by locking package versions and dependencies in pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "606d05d4-6e9c-481c-bef9-3e5ac4a29e8a",
+                    "question": "How can you install packages from a specific commit or branch using pnpm?",
+                    "description": "Select the correct command to install packages from a specific commit or branch in a pnpm project.",
+                    "hint": "Consider how you might specify commits or branches when installing packages with pnpm.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm install <package-name>@<commit-or-branch>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm install <package-name>@<commit-or-branch>' installs a package from a specific commit or branch in a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm add <package-name>@<commit-or-branch>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax for installing from a specific commit or branch is 'pnpm install <package-name>@<commit-or-branch>'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm install <package-name> --branch=<commit-or-branch>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax for installing from a specific commit or branch is 'pnpm install <package-name>@<commit-or-branch>'."
+                        }
+                    ]
+                },
+                {
+                    "id": "f674f383-e30f-4e79-a3dd-cbd7e4f8bb2a",
+                    "question": "What is the purpose of the .yarn directory in a pnpm project?",
+                    "description": "Choose the correct explanation for the .yarn directory.",
+                    "hint": "Consider the role of the .yarn directory in pnpm projects.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .yarn directory is not a lock file; it's used for Plug'n'Play support in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .yarn directory."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is not a recognized directory in pnpm projects.",
+                            "points": 3,
+                            "explanation": "Correct! The .yarn directory is not a standard directory in pnpm projects."
+                        }
+                    ]
+                },
+                {
+                    "id": "22b48a6e-bb9a-49e8-bc46-c0fbd9970064",
+                    "question": "How can you add a package as a development dependency in a pnpm project?",
+                    "description": "Select the correct command to add a package as a development dependency in a pnpm project.",
+                    "hint": "Consider how you might specify development dependencies when adding packages with pnpm.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm install <package-name> --save-dev",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm install <package-name> --save-dev' adds a package as a development dependency in a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm add <package-name> --dev",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax for adding as a development dependency is 'pnpm install <package-name> --save-dev'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm add <package-name> --development",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct syntax for adding as a development dependency is 'pnpm install <package-name> --save-dev'."
+                        }
+                    ]
+                },
+                {
+                    "id": "58f2902c-850a-42de-bf89-6a70b42a5479",
+                    "question": "What is the purpose of the .yarn-integrity file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .yarn-integrity file.",
+                    "hint": "Consider the role of the .yarn-integrity file in pnpm projects.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .yarn-integrity file is not a lock file; it's used for integrity checks in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .yarn-integrity file."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It stores integrity information for packages to ensure consistent installations.",
+                            "points": 3,
+                            "explanation": "Correct! The .yarn-integrity file stores integrity information for packages, ensuring consistent installations in pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "d40c16b7-1fc4-4dcd-9534-3e72d2b99a71",
+                    "question": "How can you view the dependency tree of a pnpm project?",
+                    "description": "Select the correct command to display the dependency tree of a pnpm project.",
+                    "hint": "Consider how you might inspect the dependency tree in pnpm.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm tree",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm tree' displays the dependency tree of a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm list --tree",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm tree' for displaying the dependency tree."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm dependencies --tree",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm tree' for displaying the dependency tree."
+                        }
+                    ]
+                },
+                {
+                    "id": "1644ad9e-22a1-493a-b34a-2dbd3eaecc8a",
+                    "question": "What is the purpose of the .lock.yaml file in a pnpm project?",
+                    "description": "Choose the correct explanation for the .lock.yaml file.",
+                    "hint": "Consider the role of lock files in pnpm projects.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a generic lock file for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .lock.yaml file is not a generic lock file; it's used for specific purposes in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, but the .lock.yaml file serves a more specific role in pnpm."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is a lock file used for preserving deterministic installations by locking package versions and dependencies.",
+                            "points": 3,
+                            "explanation": "Correct! The .lock.yaml file is used for preserving deterministic installations by locking package versions and dependencies in pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "b51aef65-efed-4ac7-a5c8-e2e2b84db37f",
+                    "question": "How can you audit the dependencies of a pnpm project for security vulnerabilities?",
+                    "description": "Select the correct command to perform a security audit on a pnpm project's dependencies.",
+                    "hint": "Consider how you might check for security vulnerabilities in pnpm.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm audit",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm audit' performs a security audit on a pnpm project's dependencies."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm security-check",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm audit' for performing a security audit."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm check --security",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm audit' for performing a security audit."
+                        }
+                    ]
+                },
+                {
+                    "id": "2d5ebecc-1342-4a76-87d5-5d4f5a878f5e",
+                    "question": "What is the purpose of the .hooks directory in a pnpm project?",
+                    "description": "Choose the correct explanation for the .hooks directory.",
+                    "hint": "Consider the role of the .hooks directory in pnpm projects.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a directory for custom scripts in pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .hooks directory is not for general custom scripts; it serves a more specific purpose in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .hooks directory."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is a directory for hook scripts that run at specific lifecycle events during installation.",
+                            "points": 3,
+                            "explanation": "Correct! The .hooks directory is used for hook scripts that run at specific lifecycle events during installation in pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "e01a6784-3c15-42ae-92a2-99376b17b7b1",
+                    "question": "How can you create a custom .pnp.js file in a pnpm project?",
+                    "description": "Select the correct command to generate a custom .pnp.js file.",
+                    "hint": "Consider how you might create a custom .pnp.js file in pnpm.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm init --pnp",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is not 'pnpm init --pnp' for generating a custom .pnp.js file."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm generate-pnp",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm generate-pnp' generates a custom .pnp.js file in a pnpm project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm create-pnp",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is not 'pnpm create-pnp' for generating a custom .pnp.js file."
+                        }
+                    ]
+                },
+                {
+                    "id": "8d9995a5-0e5b-4a69-b5de-fa3f102e5ee1",
+                    "question": "How can you clean the store of a pnpm project, removing unreferenced packages?",
+                    "description": "Select the correct command to clean the store and remove unreferenced packages in a pnpm project.",
+                    "hint": "Consider how you might clean the store in pnpm.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm clean",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm clean' cleans the store, removing unreferenced packages in a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm prune",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm clean' for cleaning the store."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm remove-unused",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm clean' for cleaning the store."
+                        }
+                    ]
+                },
+                {
+                    "id": "8b69e007-8ec4-48aa-9107-3f3dd9d1a706",
+                    "question": "What is the purpose of the .yarn-cache directory in a pnpm project?",
+                    "description": "Choose the correct explanation for the .yarn-cache directory.",
+                    "hint": "Consider the role of the .yarn-cache directory in pnpm projects.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a cache directory for pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .yarn-cache directory is not a standard cache directory for pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .yarn-cache directory."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is not a recognized directory in pnpm projects.",
+                            "points": 3,
+                            "explanation": "Correct! The .yarn-cache directory is not a standard directory in pnpm projects."
+                        }
+                    ]
+                },
+                {
+                    "id": "b49ed250-50e7-4873-bc72-df04e4a5d4c9",
+                    "question": "How can you configure a custom registry for pnpm?",
+                    "description": "Select the correct command to set up a custom registry for a pnpm project.",
+                    "hint": "Consider how you might configure custom registries in pnpm.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm config set registry <registry-url>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm config set registry <registry-url>' configures a custom registry for a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm set registry <registry-url>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm config set registry <registry-url>' for configuring a custom registry."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm registry set <registry-url>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm config set registry <registry-url>' for configuring a custom registry."
+                        }
+                    ]
+                },
+                {
+                    "id": "b13be27e-6a7a-4071-82fb-c90c2a59f54b",
+                    "question": "How can you configure the location of the pnpm store in a project?",
+                    "description": "Select the correct command to set the location of the pnpm store for a project.",
+                    "hint": "Consider how you might configure the store location in pnpm.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm store set <store-path>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is not 'pnpm store set <store-path>' for configuring the store location."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm config set store-dir <store-path>",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm config set store-dir <store-path>' configures the location of the pnpm store for a project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm set store-dir <store-path>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm config set store-dir <store-path>' for configuring the store location."
+                        }
+                    ]
+                },
+                {
+                    "id": "0017f6d2-d7f4-4a6a-927c-3df6e0c781a6",
+                    "question": "What is the purpose of the .yarn-hooks directory in a pnpm project?",
+                    "description": "Choose the correct explanation for the .yarn-hooks directory.",
+                    "hint": "Consider the role of the .yarn-hooks directory in pnpm projects.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It is a directory for custom scripts in pnpm.",
+                            "points": 0,
+                            "explanation": "Incorrect. The .yarn-hooks directory is not for general custom scripts; it serves a more specific purpose in pnpm."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It contains metadata about the project's dependencies.",
+                            "points": 0,
+                            "explanation": "Incorrect. Metadata about dependencies is typically stored in lock files, not in the .yarn-hooks directory."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is a directory for hook scripts that run at specific lifecycle events during installation.",
+                            "points": 3,
+                            "explanation": "Correct! The .yarn-hooks directory is used for hook scripts that run at specific lifecycle events during installation in pnpm."
+                        }
+                    ]
+                },
+                {
+                    "id": "26eb416f-b8cf-4ec0-b3f5-8c3db70285a2",
+                    "question": "How can you install packages in a pnpm project without saving them to the 'dependencies' or 'devDependencies'?",
+                    "description": "Select the correct command to install packages without adding them to 'dependencies' or 'devDependencies' in a pnpm project.",
+                    "hint": "Consider how you might install packages without affecting the project's dependency lists in pnpm.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "pnpm add <package-name> --no-save",
+                            "points": 3,
+                            "explanation": "Correct! 'pnpm add <package-name> --no-save' installs a package without adding it to 'dependencies' or 'devDependencies' in a pnpm project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "pnpm install <package-name> --no-save",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is 'pnpm add <package-name> --no-save' for installing without saving to 'dependencies' or 'devDependencies'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "pnpm add <package-name> --no-save --global",
+                            "points": 0,
+                            "explanation": "Incorrect. The '--global' flag is not used for installing without saving to 'dependencies' or 'devDependencies'; use 'pnpm add <package-name> --no-save' instead."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

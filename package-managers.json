@@ -1,0 +1,1694 @@
+{
+    "skill": {
+        "PackageManagers": {
+            "id": "package-managers",
+            "description": "Package managers allow you to manage the dependencies (external code written by you or someone else) that your project needs to work correctly.Visit the following resources to learn more: ",
+            "resources": [
+                {
+                    "name": "Modern JavaScript for Dinosaurs",
+                    "link": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+                },
+                {
+                    "name": "An Absolute Beginners Guide to Using npm",
+                    "link": "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/"
+                },
+                {
+                    "name": "Yarn - Getting Started",
+                    "link": "https://yarnpkg.com/en/docs/getting-started"
+                },
+                {
+                    "name": "NPM tutorial for Beginners",
+                    "link": "https://www.youtube.com/watch?v=2V1UUhBJ62Y"
+                },
+                {
+                    "name": "NPM Crash Course",
+                    "link": "https://www.youtube.com/watch?v=jHDhaSSKmB0"
+                },
+                {
+                    "name": "Yarn Crash Course",
+                    "link": "https://www.youtube.com/watch?v=g9_6KmiBISk"
+                }
+            ],
+            "parents": [
+                "frontend"
+            ],
+            "children": [
+                "npm",
+                "yarn",
+                "pnpm"
+            ],
+            "questions": [
+                {
+                    "id": "c81a086d-0c56-4e8c-b6a8-7845a59e24b1",
+                    "question": "Explain the role of a package manager in a software development project.",
+                    "description": "Provide an explanation of the role of a package manager in a software development project, highlighting how it helps manage project dependencies and streamline the development process.",
+                    "hint": "Consider how a package manager facilitates the installation, update, and removal of project dependencies, contributing to a more efficient development workflow.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Package managers have no role in software development projects, and developers should manually manage all project dependencies.",
+                            "description": "Incorrect. Package managers play a crucial role in software development by automating the management of project dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding the essential role of package managers in software development is crucial for this question."
+                        },
+                        {
+                            "label": "Package managers help manage project dependencies by automating the installation, update, and removal processes, streamlining the development workflow.",
+                            "description": "Correct! Package managers play a vital role in software development by automating the management of project dependencies, contributing to a more efficient development process.",
+                            "points": 3,
+                            "explanation": "Recognizing the key functions of package managers in managing project dependencies is crucial for this question."
+                        },
+                        {
+                            "label": "Package managers are only useful for large-scale projects, and small projects can function efficiently without them.",
+                            "description": "Incorrect. Package managers are beneficial for projects of all sizes, as they simplify dependency management and enhance development efficiency.",
+                            "points": 0,
+                            "explanation": "Understanding that package managers are valuable for projects of various sizes is crucial for this question."
+                        },
+                        {
+                            "label": "Package managers are exclusively for managing server configurations and have no impact on project development.",
+                            "description": "Incorrect. While package managers may be used for server configurations, their primary role is in managing project dependencies and streamlining development workflows.",
+                            "points": 0,
+                            "explanation": "Understanding the primary focus of package managers on project development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "74c3a0e5-62c7-43cd-9e7f-c7e181f48029",
+                    "question": "Name two popular package managers used in JavaScript development, and briefly explain their main features.",
+                    "description": "Identify and provide a brief explanation of two popular package managers commonly used in JavaScript development, highlighting their main features and advantages.",
+                    "hint": "Consider the widely adopted package managers in the JavaScript ecosystem and their distinctive features.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "NPM and Yarn. NPM is known for its speed and efficiency in dependency resolution, while Yarn focuses on deterministic dependency management and offline capabilities.",
+                            "description": "Correct! NPM and Yarn are popular package managers in JavaScript development. NPM is recognized for its speed, and Yarn emphasizes deterministic dependency management and offline capabilities.",
+                            "points": 3,
+                            "explanation": "Accurate identification and highlighting the main features of NPM and Yarn contribute to the correctness of the answer."
+                        },
+                        {
+                            "label": "Yarn and Pip. Yarn is renowned for its extensive package registry, while Pip excels in managing Python dependencies.",
+                            "description": "Incorrect. While Yarn is a popular JavaScript package manager, Pip is primarily used for Python, not JavaScript.",
+                            "points": 0,
+                            "explanation": "Recognizing the correct pair of package managers for JavaScript development is crucial for this question."
+                        },
+                        {
+                            "label": "Composer and Bundler. Composer is known for its focus on PHP dependencies, and Bundler excels in managing Ruby gems.",
+                            "description": "Incorrect. Composer and Bundler are associated with PHP and Ruby, respectively, not JavaScript.",
+                            "points": 0,
+                            "explanation": "Recognizing the correct pair of package managers for JavaScript development is crucial for this question."
+                        },
+                        {
+                            "label": "Yarn and Gradle. Yarn is recognized for its support for offline development, while Gradle excels in managing Java dependencies.",
+                            "description": "Incorrect. While Yarn is a JavaScript package manager, Gradle is typically associated with Java, not JavaScript.",
+                            "points": 0,
+                            "explanation": "Recognizing the correct pair of package managers for JavaScript development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2dcd372b-e41b-43c9-92e1-14ce1b9cbf4d",
+                    "question": "How does a package manager help in version control and dependency resolution?",
+                    "description": "Explain how a package manager contributes to version control and resolves dependencies in a software development project.",
+                    "hint": "Consider the role of package managers in specifying and managing project dependencies, ensuring version consistency, and resolving potential conflicts.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Package managers have no role in version control or dependency resolution, and developers must manually handle these aspects.",
+                            "description": "Incorrect. Package managers play a crucial role in version control and dependency resolution by automating these processes.",
+                            "points": 0,
+                            "explanation": "Understanding the essential role of package managers in version control and dependency resolution is crucial for this question."
+                        },
+                        {
+                            "label": "Package managers contribute to version control by automatically tracking and managing project dependencies, ensuring version consistency and resolving potential conflicts.",
+                            "description": "Correct! Package managers automate the tracking and management of project dependencies, ensuring version consistency and resolving conflicts, contributing to effective version control.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role of package managers in version control and dependency resolution contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Package managers only handle version control and are not involved in resolving project dependencies.",
+                            "description": "Incorrect. Package managers are integral to both version control and dependency resolution, automating these processes for developers.",
+                            "points": 0,
+                            "explanation": "Understanding that package managers play a dual role in version control and dependency resolution is crucial for this question."
+                        },
+                        {
+                            "label": "Dependency resolution is the sole responsibility of version control systems, and package managers do not contribute to this aspect.",
+                            "description": "Incorrect. Package managers actively contribute to dependency resolution, complementing the role of version control systems in ensuring project stability.",
+                            "points": 0,
+                            "explanation": "Understanding the collaborative role of package managers in version control and dependency resolution is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7a5fb99e-0e8f-4a5d-a41d-59f6da6e3e1f",
+                    "question": "In the context of package managers, what is the significance of a lock file (e.g., package-lock.json or yarn.lock)?",
+                    "description": "Explain the importance of a lock file, such as package-lock.json or yarn.lock, in the context of package managers, and how it contributes to project stability and consistency.",
+                    "hint": "Consider how a lock file helps ensure that all developers working on a project have consistent dependencies, preventing unexpected variations in package versions.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Lock files have no significance in package managers, and their presence does not impact project stability or consistency.",
+                            "description": "Incorrect. Lock files play a crucial role in package managers by ensuring project stability and consistency in terms of dependency versions.",
+                            "points": 0,
+                            "explanation": "Understanding the importance of lock files in maintaining stable and consistent dependencies is crucial for this question."
+                        },
+                        {
+                            "label": "Lock files are optional, and projects can function perfectly without them. They only serve as documentation for developers.",
+                            "description": "Incorrect. While lock files are not strictly mandatory, they significantly contribute to project stability and consistency by specifying exact dependency versions.",
+                            "points": 0,
+                            "explanation": "Understanding that lock files are more than documentation and actively contribute to project stability is crucial for this question."
+                        },
+                        {
+                            "label": "A lock file specifies the exact versions of all dependencies, ensuring that all developers have consistent dependencies, contributing to project stability and consistency.",
+                            "description": "Correct! A lock file, such as package-lock.json or yarn.lock, specifies exact dependency versions, ensuring all developers work with consistent dependencies and contributing to project stability.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role of lock files in ensuring version consistency and project stability contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Lock files are primarily for caching purposes and do not play a significant role in ensuring version consistency or project stability.",
+                            "description": "Incorrect. While lock files can contribute to caching, their primary importance lies in ensuring version consistency and project stability.",
+                            "points": 0,
+                            "explanation": "Understanding the primary role of lock files in maintaining stable and consistent dependencies is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c4872a27-5730-4b54-9e32-04d88d879f33",
+                    "question": "How do package managers handle semantic versioning (SemVer) for project dependencies?",
+                    "description": "Explain how package managers implement and handle semantic versioning (SemVer) for project dependencies, highlighting the significance of major, minor, and patch version increments.",
+                    "hint": "Consider how SemVer helps developers communicate changes in a package and how package managers utilize this information to ensure compatibility.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Package managers do not consider semantic versioning, and developers must manually check for compatibility when updating dependencies.",
+                            "description": "Incorrect. Package managers actively utilize semantic versioning to automate compatibility checks and ensure smooth updates.",
+                            "points": 0,
+                            "explanation": "Understanding the integral role of semantic versioning in package managers is crucial for this question."
+                        },
+                        {
+                            "label": "Semantic versioning is only relevant for major version increments, and package managers do not consider minor or patch version changes.",
+                            "description": "Incorrect. Package managers consider major, minor, and patch version changes, ensuring compatibility and providing developers with flexibility in updating dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the comprehensive consideration of major, minor, and patch versions by package managers is crucial for this question."
+                        },
+                        {
+                            "label": "Package managers automatically handle semantic versioning, considering major, minor, and patch version changes to ensure compatibility and provide developers with flexibility in updating dependencies.",
+                            "description": "Correct! Package managers actively handle semantic versioning, considering major, minor, and patch version changes to automate compatibility checks and facilitate smooth updates.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting how package managers handle semantic versioning contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Semantic versioning is a manual process handled by developers, and package managers do not play a role in ensuring compatibility.",
+                            "description": "Incorrect. Package managers automate the handling of semantic versioning to ensure compatibility and streamline the updating of project dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding the automated role of package managers in handling semantic versioning is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "8c97c65d-eb5f-49fe-9f24-dc6328f1a5e9",
+                    "question": "What is the purpose of a package manager's 'devDependencies' section, and how does it differ from 'dependencies'?",
+                    "description": "Elaborate on the purpose of the 'devDependencies' section in a package manager configuration and explain how it differs from the 'dependencies' section, particularly in the context of a software development project.",
+                    "hint": "Consider the types of dependencies included in 'devDependencies' and how they contribute to the development and testing processes.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "'devDependencies' are essential project dependencies, and there is no difference between 'devDependencies' and 'dependencies' in a package manager configuration.",
+                            "description": "Incorrect. 'devDependencies' typically include dependencies needed for development and testing but not for production, distinguishing them from 'dependencies'.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinction between 'devDependencies' and 'dependencies' is crucial for this question."
+                        },
+                        {
+                            "label": "'devDependencies' are optional dependencies for developers, and they are automatically installed alongside 'dependencies' when the project is set up.",
+                            "description": "Incorrect. 'devDependencies' are explicitly separated from 'dependencies' and include dependencies needed for development and testing but not for production.",
+                            "points": 0,
+                            "explanation": "Understanding that 'devDependencies' are not automatically installed for production is crucial for this question."
+                        },
+                        {
+                            "label": "'devDependencies' include dependencies needed for development and testing purposes but not for production, distinguishing them from 'dependencies' which are essential for the functioning of the project.",
+                            "description": "Correct! 'devDependencies' contain dependencies necessary for development and testing, while 'dependencies' are crucial for the project's core functionality, distinguishing the two sections.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and distinction between 'devDependencies' and 'dependencies' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'devDependencies' are only relevant for server-side projects, and client-side projects do not require this section in their package manager configuration.",
+                            "description": "Incorrect. 'devDependencies' are relevant for both server-side and client-side projects, providing dependencies for development and testing purposes.",
+                            "points": 0,
+                            "explanation": "Understanding that 'devDependencies' apply to various types of projects is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fd624c7e-79b1-4c3f-8993-b719a722487d",
+                    "question": "Explain the concept of 'peerDependencies' in a package manager configuration and its significance in a project.",
+                    "description": "Provide an explanation of the concept of 'peerDependencies' in the context of a package manager configuration, highlighting its significance and how it influences the interactions between packages in a project.",
+                    "hint": "Consider how 'peerDependencies' express the expected compatibility with other packages and their role in managing shared dependencies among multiple packages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "'peerDependencies' are dependencies that are installed alongside 'dependencies' and are essential for the project's core functionality.",
+                            "description": "Incorrect. 'peerDependencies' express compatibility expectations between packages and are not automatically installed alongside 'dependencies'.",
+                            "points": 0,
+                            "explanation": "Recognizing that 'peerDependencies' are not automatically installed is crucial for this question."
+                        },
+                        {
+                            "label": "'peerDependencies' are optional dependencies that developers can choose to include or exclude based on their preferences.",
+                            "description": "Incorrect. 'peerDependencies' express compatibility expectations and are not optional dependencies that developers can exclude.",
+                            "points": 0,
+                            "explanation": "Understanding that 'peerDependencies' are expected compatibility requirements is crucial for this question."
+                        },
+                        {
+                            "label": "'peerDependencies' express compatibility expectations with other packages and define shared dependencies among multiple packages, ensuring consistency and preventing conflicts.",
+                            "description": "Correct! 'peerDependencies' express compatibility expectations and define shared dependencies among multiple packages, ensuring consistency and preventing conflicts.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role of 'peerDependencies' in expressing compatibility and managing shared dependencies contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'peerDependencies' are relevant only for standalone projects and have no impact on projects that use multiple packages.",
+                            "description": "Incorrect. 'peerDependencies' are particularly relevant when multiple packages are involved, expressing compatibility expectations among them.",
+                            "points": 0,
+                            "explanation": "Understanding that 'peerDependencies' address compatibility among multiple packages is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fc8c85ef-86cf-46e8-995a-3cf9aefb7726",
+                    "question": "What is the purpose of a package manager's 'scripts' section in the configuration file?",
+                    "description": "Elaborate on the purpose of the 'scripts' section in a package manager's configuration file, explaining how it is used in a software development project and its significance in the development lifecycle.",
+                    "hint": "Consider how 'scripts' provide a way to define and run custom commands, facilitating various tasks in the development lifecycle.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "The 'scripts' section is optional and has no impact on a project's development lifecycle or build process.",
+                            "description": "Incorrect. The 'scripts' section is integral to a project's development lifecycle, providing a way to define and run custom commands for various tasks.",
+                            "points": 0,
+                            "explanation": "Understanding the significance of the 'scripts' section in the development lifecycle is crucial for this question."
+                        },
+                        {
+                            "label": "The 'scripts' section is primarily for documentation purposes, allowing developers to include custom descriptions for each script.",
+                            "description": "Incorrect. While comments can be used for documentation, the primary purpose of the 'scripts' section is to define and run custom commands for specific tasks.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'scripts' section is more than documentation is crucial for this question."
+                        },
+                        {
+                            "label": "The 'scripts' section allows developers to define and run custom commands, facilitating various tasks such as testing, building, and running the project.",
+                            "description": "Correct! The 'scripts' section enables developers to define and run custom commands, playing a crucial role in tasks like testing, building, and running the project.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and role of the 'scripts' section in a project's development lifecycle contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The 'scripts' section is exclusively for managing external dependencies and has no impact on tasks within the project.",
+                            "description": "Incorrect. While external dependencies can be managed, the 'scripts' section is more broadly used for defining and running custom commands in various tasks.",
+                            "points": 0,
+                            "explanation": "Understanding the diverse use of the 'scripts' section in the development lifecycle is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1bbaac8b-390a-4c34-90a8-e2b648df4fc5",
+                    "question": "Explain the difference between 'dependencies' and 'peerDependencies' in a package manager configuration.",
+                    "description": "Elaborate on the distinction between 'dependencies' and 'peerDependencies' in the context of a package manager configuration, highlighting when to use each and their impact on a project.",
+                    "hint": "Consider the roles of 'dependencies' and 'peerDependencies' in managing project dependencies and addressing compatibility among packages.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "'dependencies' and 'peerDependencies' are interchangeable terms, and there is no significant difference between them in a package manager configuration.",
+                            "description": "Incorrect. 'dependencies' and 'peerDependencies' have distinct roles, with 'dependencies' managing essential project dependencies and 'peerDependencies' expressing compatibility expectations.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinction between 'dependencies' and 'peerDependencies' is crucial for this question."
+                        },
+                        {
+                            "label": "'dependencies' are optional dependencies used for development and testing, while 'peerDependencies' are essential project dependencies.",
+                            "description": "Incorrect. 'dependencies' are crucial project dependencies, while 'peerDependencies' express compatibility expectations among packages and are not optional.",
+                            "points": 0,
+                            "explanation": "Understanding that 'dependencies' are essential for project functionality is crucial for this question."
+                        },
+                        {
+                            "label": "'dependencies' include essential project dependencies, while 'peerDependencies' express compatibility expectations among packages, ensuring consistency and preventing conflicts.",
+                            "description": "Correct! 'dependencies' are crucial for project functionality, while 'peerDependencies' express compatibility expectations among packages, contributing to consistency and conflict prevention.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the roles and distinctions between 'dependencies' and 'peerDependencies' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'dependencies' are only relevant for server-side projects, and 'peerDependencies' apply exclusively to client-side projects.",
+                            "description": "Incorrect. Both 'dependencies' and 'peerDependencies' are relevant for various types of projects, addressing different aspects of dependency management.",
+                            "points": 0,
+                            "explanation": "Understanding that 'dependencies' and 'peerDependencies' apply to different aspects of dependency management is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "9ef31714-afad-48db-9104-e56c7f6a1da7",
+                    "question": "What role does a package manager play in the context of a software project?",
+                    "description": "Explain the overarching role of a package manager in the context of a software project, outlining the key functions it performs to streamline the development process.",
+                    "hint": "Consider how a package manager manages dependencies, automates installations, and contributes to project stability and consistency.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A package manager is solely responsible for writing code and developing features in a software project.",
+                            "description": "Incorrect. While developers write code, a package manager focuses on managing dependencies, automating installations, and contributing to project stability and consistency.",
+                            "points": 0,
+                            "explanation": "Recognizing the broader role of a package manager in project management is crucial for this question."
+                        },
+                        {
+                            "label": "Package managers are only relevant for small projects, and larger projects do not benefit from their usage.",
+                            "description": "Incorrect. Package managers are beneficial for projects of all sizes, managing dependencies and ensuring project stability regardless of scale.",
+                            "points": 0,
+                            "explanation": "Understanding the applicability of package managers to projects of various sizes is crucial for this question."
+                        },
+                        {
+                            "label": "A package manager manages dependencies, automates installations, and contributes to project stability and consistency in a software project.",
+                            "description": "Correct! A package manager plays a crucial role in managing dependencies, automating installations, and contributing to project stability and consistency in a software project.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the key functions of a package manager in a software project contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Package managers are exclusively used for version control and have no impact on other aspects of the development process.",
+                            "description": "Incorrect. While package managers contribute to version control, their role extends to managing dependencies and ensuring project stability.",
+                            "points": 0,
+                            "explanation": "Understanding the multifaceted role of package managers in the development process is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6e2fc5b4-ae0d-4e0c-8c2e-2d708d6701d1",
+                    "question": "In a package manager configuration, what purpose does the 'devDependencies' section serve, and how does it differ from 'dependencies'?",
+                    "description": "Explain the role and purpose of the 'devDependencies' section in a package manager configuration, highlighting the distinctions between 'devDependencies' and 'dependencies' and when to use each.",
+                    "hint": "Consider the types of dependencies included in 'devDependencies' and how they contribute to the development and testing processes.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "'devDependencies' include essential project dependencies, and there is no significant difference between 'devDependencies' and 'dependencies' in a package manager configuration.",
+                            "description": "Incorrect. 'devDependencies' typically include dependencies needed for development and testing but not for production, distinguishing them from 'dependencies'.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinction between 'devDependencies' and 'dependencies' is crucial for this question."
+                        },
+                        {
+                            "label": "'devDependencies' are optional dependencies for developers, and they are automatically installed alongside 'dependencies' when the project is set up.",
+                            "description": "Incorrect. 'devDependencies' are explicitly separated from 'dependencies' and include dependencies needed for development and testing but not for production.",
+                            "points": 0,
+                            "explanation": "Understanding that 'devDependencies' are not automatically installed for production is crucial for this question."
+                        },
+                        {
+                            "label": "'devDependencies' include dependencies necessary for development and testing purposes but not for production, distinguishing them from 'dependencies' which are essential for the functioning of the project.",
+                            "description": "Correct! 'devDependencies' contain dependencies necessary for development and testing, while 'dependencies' are crucial for the project's core functionality, distinguishing the two sections.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and distinction between 'devDependencies' and 'dependencies' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'devDependencies' are only relevant for server-side projects, and client-side projects do not require this section in their package manager configuration.",
+                            "description": "Incorrect. 'devDependencies' are relevant for both server-side and client-side projects, providing dependencies for development and testing purposes.",
+                            "points": 0,
+                            "explanation": "Understanding that 'devDependencies' apply to various types of projects is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a4e01cfe-cd2f-4e9a-9d35-80a87e30de6e",
+                    "question": "How does a package manager handle the installation of project dependencies listed in the 'dependencies' section of the configuration file?",
+                    "description": "Explain the process by which a package manager installs project dependencies listed in the 'dependencies' section of the configuration file, highlighting key considerations for ensuring a smooth installation.",
+                    "hint": "Consider the role of package manager commands, such as 'npm install' or 'yarn', and how they interact with the 'dependencies' section to fetch and install required packages.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A package manager installs 'dependencies' automatically without any user input, and there are no commands required for this process.",
+                            "description": "Incorrect. While package managers automate installations, users typically need to run commands (e.g., 'npm install' or 'yarn') to trigger the installation process.",
+                            "points": 0,
+                            "explanation": "Recognizing the need for user-triggered commands in the installation process is crucial for this question."
+                        },
+                        {
+                            "label": "The 'dependencies' section is irrelevant for the installation process, and package managers solely rely on external sources to fetch required packages.",
+                            "description": "Incorrect. The 'dependencies' section plays a central role in specifying which packages to install, and package managers use this information to fetch the required packages.",
+                            "points": 0,
+                            "explanation": "Understanding the significance of the 'dependencies' section in the installation process is crucial for this question."
+                        },
+                        {
+                            "label": "Users execute package manager commands (e.g., 'npm install' or 'yarn') to trigger the installation of project dependencies listed in the 'dependencies' section, fetching and installing the required packages.",
+                            "description": "Correct! Users run commands like 'npm install' or 'yarn' to initiate the installation process, allowing the package manager to fetch and install the specified 'dependencies'.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the user-triggered commands and the role of the 'dependencies' section in the installation process contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The installation of 'dependencies' is a manual process, and package managers do not provide any commands for users to execute.",
+                            "description": "Incorrect. While the installation can be triggered manually, package managers offer commands (e.g., 'npm install' or 'yarn') to streamline the process.",
+                            "points": 0,
+                            "explanation": "Understanding the availability of commands to streamline the installation process is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "40f2a79b-079d-4e27-b2e9-3949c67f1e5c",
+                    "question": "Explain the concept of 'semantic versioning' (SemVer) and its significance in a package manager ecosystem.",
+                    "description": "Provide an explanation of 'semantic versioning' (SemVer) in the context of package management, outlining its principles and how it helps developers understand the impact of updates to dependencies.",
+                    "hint": "Consider the format of semantic version numbers (e.g., MAJOR.MINOR.PATCH) and how each component reflects the nature of changes in a version.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "'Semantic versioning' is a versioning approach that only considers major changes in a package and ignores minor and patch updates.",
+                            "description": "Incorrect. 'Semantic versioning' distinguishes between major, minor, and patch changes, with each component reflecting the nature of changes in a version.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinction between major, minor, and patch changes is crucial for this question."
+                        },
+                        {
+                            "label": "'Semantic versioning' is irrelevant in package management, and developers do not use version numbers to understand changes in dependencies.",
+                            "description": "Incorrect. 'Semantic versioning' is crucial in package management, providing a standardized way for developers to understand the impact of updates to dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding the relevance of 'semantic versioning' in package management is crucial for this question."
+                        },
+                        {
+                            "label": "'Semantic versioning' (SemVer) is a versioning approach that uses three components (MAJOR, MINOR, PATCH) to indicate the nature of changes in a version, facilitating developers' understanding of the impact of updates.",
+                            "description": "Correct! 'Semantic versioning' uses MAJOR, MINOR, and PATCH components to convey the nature of changes, aiding developers in understanding the impact of updates to dependencies.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the components of 'semantic versioning' and its role in conveying changes contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Semantic versioning' only applies to server-side projects, and client-side projects do not use this versioning approach.",
+                            "description": "Incorrect. 'Semantic versioning' is a standardized approach applicable to projects of various types, including both server-side and client-side projects.",
+                            "points": 0,
+                            "explanation": "Understanding that 'semantic versioning' applies to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a0e999a5-746e-4a19-9cc3-d4d61954428b",
+                    "question": "How does a package manager handle the installation of project dependencies listed in the 'devDependencies' section of the configuration file?",
+                    "description": "Explain the process by which a package manager installs project dependencies listed in the 'devDependencies' section of the configuration file, highlighting key considerations for ensuring a smooth installation during development.",
+                    "hint": "Consider the role of package manager commands, such as 'npm install' or 'yarn', and how they interact with the 'devDependencies' section to fetch and install required packages for development and testing.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'devDependencies' section is irrelevant for the installation process, and package managers solely rely on external sources to fetch required packages for development.",
+                            "description": "Incorrect. The 'devDependencies' section is integral to the installation process for development purposes, and package managers use this information to fetch required packages.",
+                            "points": 0,
+                            "explanation": "Understanding the significance of the 'devDependencies' section in the installation process is crucial for this question."
+                        },
+                        {
+                            "label": "Package managers automatically install 'devDependencies' without any user input, and there are no commands required for this process during development.",
+                            "description": "Incorrect. While package managers automate installations, users typically need to run commands (e.g., 'npm install' or 'yarn') to trigger the installation of 'devDependencies' during development.",
+                            "points": 0,
+                            "explanation": "Recognizing the need for user-triggered commands in the installation process is crucial for this question."
+                        },
+                        {
+                            "label": "Users execute package manager commands (e.g., 'npm install' or 'yarn') to initiate the installation of project dependencies listed in the 'devDependencies' section, fetching and installing the required packages for development and testing.",
+                            "description": "Correct! Users run commands like 'npm install --dev' or 'yarn install --dev' to initiate the installation process, allowing the package manager to fetch and install 'devDependencies' for development and testing purposes.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the user-triggered commands and the role of the 'devDependencies' section in the installation process for development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The installation of 'devDependencies' is a manual process, and package managers do not provide any commands for users to execute during development.",
+                            "description": "Incorrect. While the installation can be triggered manually, package managers offer commands (e.g., 'npm install' or 'yarn') to streamline the process during development.",
+                            "points": 0,
+                            "explanation": "Understanding the availability of commands to streamline the installation process during development is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7cf33587-5a41-467b-bba1-15c48ff7443f",
+                    "question": "What is the purpose of the 'peerDependencies' section in a package manager configuration, and when is it used?",
+                    "description": "Explain the role and purpose of the 'peerDependencies' section in a package manager configuration, highlighting the scenarios in which it is utilized and how it contributes to dependency management.",
+                    "hint": "Consider situations where a package relies on specific versions of other packages and how 'peerDependencies' addresses compatibility among packages.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "'peerDependencies' specify dependencies only relevant for peer-to-peer communication between projects, and they are not crucial for the functioning of the project.",
+                            "description": "Incorrect. 'peerDependencies' specify dependencies necessary for compatibility among packages and are crucial for the proper functioning of the project.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of 'peerDependencies' in addressing compatibility among packages is crucial for this question."
+                        },
+                        {
+                            "label": "'peerDependencies' are an optional section, and package managers do not consider them when resolving dependencies for a project.",
+                            "description": "Incorrect. 'peerDependencies' are not optional; they play a role in addressing compatibility, and package managers consider them when resolving dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding the significance of 'peerDependencies' in dependency resolution is crucial for this question."
+                        },
+                        {
+                            "label": "'peerDependencies' specify dependencies that the project expects to be used by its peers and provides compatibility information, addressing scenarios where different projects rely on different versions of a shared dependency.",
+                            "description": "Correct! 'peerDependencies' specify dependencies crucial for compatibility among packages, addressing situations where different projects rely on different versions of a shared dependency.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and scenarios addressed by 'peerDependencies' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'peerDependencies' are relevant only for server-side projects, and client-side projects do not utilize this section in their package manager configuration.",
+                            "description": "Incorrect. 'peerDependencies' are relevant for various types of projects, including both server-side and client-side projects.",
+                            "points": 0,
+                            "explanation": "Understanding that 'peerDependencies' apply to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "8d5b7dd5-1cda-49b7-bf48-2276a0ecf90d",
+                    "question": "When specifying dependencies in a package manager configuration, what does the caret (^) symbol before a version number indicate?",
+                    "description": "Explain the significance of the caret (^) symbol when specifying version numbers for dependencies in a package manager configuration, outlining its impact on version resolution and updates.",
+                    "hint": "Consider how the caret (^) symbol affects the interpretation of version numbers and the types of updates it allows.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The caret (^) symbol indicates an exact version match, and the package manager installs the specified version without considering updates.",
+                            "description": "Incorrect. The caret (^) symbol allows for updates, and it does not indicate an exact version match; rather, it allows for compatible minor and patch updates.",
+                            "points": 0,
+                            "explanation": "Recognizing the allowance for updates and the interpretation of version numbers is crucial for this question."
+                        },
+                        {
+                            "label": "The caret (^) symbol signifies that only major version updates are allowed, and it prevents the installation of minor and patch updates to the specified version.",
+                            "description": "Incorrect. The caret (^) symbol allows for compatible minor and patch updates, in addition to major version updates, providing flexibility in version resolution.",
+                            "points": 0,
+                            "explanation": "Understanding the flexibility in version updates allowed by the caret (^) symbol is crucial for this question."
+                        },
+                        {
+                            "label": "The caret (^) symbol allows for compatible minor and patch updates to the specified version, ensuring that the installed version remains backward-compatible.",
+                            "description": "Correct! The caret (^) symbol allows for compatible minor and patch updates, ensuring backward compatibility and flexibility in version resolution.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the impact of the caret (^) symbol on version updates and backward compatibility contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The caret (^) symbol is irrelevant in package management, and it has no impact on version resolution or updates.",
+                            "description": "Incorrect. The caret (^) symbol plays a significant role in allowing compatible minor and patch updates to the specified version in package management.",
+                            "points": 0,
+                            "explanation": "Understanding the role of the caret (^) symbol in version resolution is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "21c4d2bb-53c5-40b7-9ec2-2c37eb5b2c0d",
+                    "question": "In a package manager configuration, what does the tilde (~) symbol before a version number indicate?",
+                    "description": "Explain the significance of the tilde (~) symbol when specifying version numbers for dependencies in a package manager configuration, outlining its impact on version resolution and updates.",
+                    "hint": "Consider how the tilde (~) symbol affects the interpretation of version numbers and the types of updates it allows.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The tilde (~) symbol allows only major version updates, preventing the installation of minor and patch updates to the specified version.",
+                            "description": "Incorrect. The tilde (~) symbol allows for compatible minor and patch updates, in addition to major version updates, providing flexibility in version resolution.",
+                            "points": 0,
+                            "explanation": "Understanding the flexibility in version updates allowed by the tilde (~) symbol is crucial for this question."
+                        },
+                        {
+                            "label": "The tilde (~) symbol indicates an exact version match, and the package manager installs the specified version without considering updates.",
+                            "description": "Incorrect. The tilde (~) symbol allows for compatible minor and patch updates, and it does not indicate an exact version match; rather, it allows for flexibility in version resolution.",
+                            "points": 0,
+                            "explanation": "Recognizing the allowance for updates and the interpretation of version numbers is crucial for this question."
+                        },
+                        {
+                            "label": "The tilde (~) symbol allows for compatible minor and patch updates to the specified version, ensuring that the installed version remains backward-compatible.",
+                            "description": "Correct! The tilde (~) symbol allows for compatible minor and patch updates, ensuring backward compatibility and flexibility in version resolution.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the impact of the tilde (~) symbol on version updates and backward compatibility contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The tilde (~) symbol is irrelevant in package management, and it has no impact on version resolution or updates.",
+                            "description": "Incorrect. The tilde (~) symbol plays a significant role in allowing compatible minor and patch updates to the specified version in package management.",
+                            "points": 0,
+                            "explanation": "Understanding the role of the tilde (~) symbol in version resolution is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ef2d5e7b-52d2-4dd1-8a97-2d4536ab1e89",
+                    "question": "Explain the concept of 'scoped packages' in the context of package management, and how do they differ from regular (non-scoped) packages?",
+                    "description": "Provide an explanation of what 'scoped packages' are in the context of package management, highlighting their purpose and how they differ from regular (non-scoped) packages.",
+                    "hint": "Consider the naming convention of scoped packages and how they are organized within a specific namespace.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Scoped packages are regular packages with no distinguishing characteristics, and they do not differ from non-scoped packages in any aspect.",
+                            "description": "Incorrect. Scoped packages have a distinct naming convention and are organized within a specific namespace, differentiating them from regular (non-scoped) packages.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinctive characteristics of scoped packages and their namespace organization is crucial for this question."
+                        },
+                        {
+                            "label": "Scoped packages have a unique naming convention with the format '@scope/package-name', and they provide a way to group related packages within a specific namespace.",
+                            "description": "Correct! Scoped packages have a specific naming format, '@scope/package-name', and they allow developers to group related packages within a designated namespace.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the naming convention and purpose of scoped packages contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Scoped packages are exclusive to client-side projects and have no relevance in server-side development.",
+                            "description": "Incorrect. Scoped packages are applicable to various project types, including both server-side and client-side projects.",
+                            "points": 0,
+                            "explanation": "Understanding that scoped packages apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "Scoped packages are only used for organizational purposes and do not impact the versioning or dependency resolution in package management.",
+                            "description": "Incorrect. Scoped packages impact namespace organization, and their unique naming convention aids in distinguishing and organizing related packages.",
+                            "points": 0,
+                            "explanation": "Recognizing the organizational impact of scoped packages is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "11eac536-4e0c-4918-8af1-c491d51b42e3",
+                    "question": "What role does the 'package-lock.json' file play in a Node.js project, and why is it important for package management?",
+                    "description": "Explain the purpose and role of the 'package-lock.json' file in the context of a Node.js project, outlining why it is considered an important component for package management.",
+                    "hint": "Consider scenarios where the 'package-lock.json' file helps in ensuring consistent dependency versions and the resolution of dependency trees.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'package-lock.json' file is optional, and its presence or absence does not affect the resolution of dependencies or the consistency of package versions.",
+                            "description": "Incorrect. The 'package-lock.json' file is crucial for ensuring consistent dependency versions and resolving dependency trees accurately.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of the 'package-lock.json' file in maintaining consistency in dependency versions is crucial for this question."
+                        },
+                        {
+                            "label": "The 'package-lock.json' file records the versions of installed packages and their dependencies, ensuring that subsequent installations use the exact same versions.",
+                            "description": "Correct! The 'package-lock.json' file records precise versions of installed packages and their dependencies, ensuring consistency in subsequent installations.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role of the 'package-lock.json' file in recording and maintaining precise versions contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The 'package-lock.json' file is primarily used for caching purposes, and it does not play a significant role in version consistency or dependency resolution.",
+                            "description": "Incorrect. While the 'package-lock.json' file aids in caching, its primary role is to ensure version consistency and accurate resolution of dependency trees.",
+                            "points": 0,
+                            "explanation": "Understanding the dual role of caching and version consistency in the 'package-lock.json' file is crucial for this question."
+                        },
+                        {
+                            "label": "The 'package-lock.json' file is only relevant for server-side projects and has no impact on client-side development.",
+                            "description": "Incorrect. The 'package-lock.json' file is relevant for various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'package-lock.json' file applies to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a4a1a24f-4ef7-46ce-b93c-e0768311d397",
+                    "question": "Explain the significance of the 'scripts' section in a package manager configuration, and how can it be utilized by developers?",
+                    "description": "Provide an explanation of the role and significance of the 'scripts' section in a package manager configuration, outlining how developers can leverage it for various tasks in a project.",
+                    "hint": "Consider the types of tasks that can be defined as scripts and how they are executed using package manager commands.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'scripts' section is irrelevant in package management, and it has no impact on project development or execution.",
+                            "description": "Incorrect. The 'scripts' section plays a crucial role in defining and executing various tasks during project development using package manager commands.",
+                            "points": 0,
+                            "explanation": "Recognizing the significance of the 'scripts' section in project development is crucial for this question."
+                        },
+                        {
+                            "label": "The 'scripts' section allows developers to include arbitrary code snippets, but it does not provide a standardized way to define and execute tasks.",
+                            "description": "Incorrect. The 'scripts' section provides a standardized way to define and execute tasks using package manager commands, contributing to project automation.",
+                            "points": 0,
+                            "explanation": "Understanding the standardized task definition and execution facilitated by the 'scripts' section is crucial for this question."
+                        },
+                        {
+                            "label": "The 'scripts' section enables developers to define and execute various tasks, such as running tests, building the project, or starting a development server, using package manager commands.",
+                            "description": "Correct! The 'scripts' section serves as a platform for defining and executing tasks like running tests, building the project, or starting a development server through package manager commands.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role and versatility of the 'scripts' section for task automation contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The 'scripts' section is exclusively used for client-side projects and has no relevance in server-side development.",
+                            "description": "Incorrect. The 'scripts' section is applicable to various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'scripts' section applies to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "09e72c77-3b80-4d19-a793-e5b43173b65b",
+                    "question": "Explain the concept of 'devDependencies' in a package manager configuration, and how does it differ from regular dependencies?",
+                    "description": "Provide an explanation of what 'devDependencies' are in the context of a package manager configuration, highlighting their purpose and how they differ from regular dependencies.",
+                    "hint": "Consider scenarios where 'devDependencies' are utilized, and how they impact the development and production environments.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "'devDependencies' are regular dependencies used in development, and they do not differ from other dependencies in any aspect.",
+                            "description": "Incorrect. 'devDependencies' serve a specific purpose in development environments, and they are distinct from regular dependencies in their impact on production.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific purpose of 'devDependencies' in development is crucial for this question."
+                        },
+                        {
+                            "label": "'devDependencies' are optional dependencies that are only relevant during development, such as testing frameworks or build tools.",
+                            "description": "Correct! 'devDependencies' are optional dependencies utilized during development, typically for tools like testing frameworks or build tools, and they do not impact the production environment.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the optional nature and purpose of 'devDependencies' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'devDependencies' are dependencies specifically for production use, and they ensure that the production environment mirrors the development environment.",
+                            "description": "Incorrect. 'devDependencies' are used in development and are not meant for the production environment; they do not impact the production environment.",
+                            "points": 0,
+                            "explanation": "Understanding the distinction between development and production use of 'devDependencies' is crucial for this question."
+                        },
+                        {
+                            "label": "'devDependencies' are exclusive to server-side projects and have no relevance in client-side development.",
+                            "description": "Incorrect. 'devDependencies' can be utilized in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'devDependencies' apply to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5043c7f2-6f2b-41f3-a93b-5c16bb15ce9e",
+                    "question": "What is the purpose of the 'npm audit' command, and how does it contribute to package security in a Node.js project?",
+                    "description": "Explain the role and purpose of the 'npm audit' command in the context of a Node.js project, emphasizing how it contributes to identifying and addressing security vulnerabilities in dependencies.",
+                    "hint": "Consider scenarios where the 'npm audit' command is useful, and how it helps in maintaining a secure project.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'npm audit' command is used for installing new packages and has no relevance to security checks or identifying vulnerabilities.",
+                            "description": "Incorrect. The 'npm audit' command is specifically designed for identifying and addressing security vulnerabilities in project dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the security-related purpose of the 'npm audit' command is crucial for this question."
+                        },
+                        {
+                            "label": "The 'npm audit' command provides a report on the overall project health but does not specifically focus on identifying and addressing security vulnerabilities.",
+                            "description": "Incorrect. The primary purpose of the 'npm audit' command is to identify and address security vulnerabilities in project dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding the security-centric role of the 'npm audit' command is crucial for this question."
+                        },
+                        {
+                            "label": "The 'npm audit' command analyzes project dependencies, identifies security vulnerabilities, and provides recommendations or fixes to address those vulnerabilities.",
+                            "description": "Correct! The 'npm audit' command analyzes dependencies, identifies security vulnerabilities, and offers recommendations or fixes to enhance the project's security.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the security-related features of the 'npm audit' command contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The 'npm audit' command is solely applicable to projects using Yarn as the package manager and has no functionality in npm-based projects.",
+                            "description": "Incorrect. The 'npm audit' command is applicable to projects using npm as the package manager, providing security-related features for vulnerability assessment.",
+                            "points": 0,
+                            "explanation": "Understanding the compatibility of the 'npm audit' command with npm-based projects is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "41a6c18a-44e8-4bf1-8ff9-96d169a8cd6f",
+                    "question": "Explain the concept of 'semantic versioning' (SemVer) and its importance in package management.",
+                    "description": "Provide an explanation of what 'semantic versioning' (SemVer) is and why it is considered important in the context of package management, including its role in version number conventions.",
+                    "hint": "Consider the three components of semantic versioning and how they contribute to version interpretation.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Semantic versioning is a marketing term with no real significance in package management, and it does not impact version conventions or interpretation.",
+                            "description": "Incorrect. Semantic versioning is a widely adopted versioning scheme in package management, and it plays a crucial role in version conventions and interpretation.",
+                            "points": 0,
+                            "explanation": "Recognizing the significance of semantic versioning in package management is crucial for this question."
+                        },
+                        {
+                            "label": "Semantic versioning involves using arbitrary version numbers without any specific conventions or guidelines for interpretation.",
+                            "description": "Incorrect. Semantic versioning follows specific conventions, including three components (MAJOR.MINOR.PATCH), providing guidelines for version interpretation.",
+                            "points": 0,
+                            "explanation": "Understanding the structured nature of semantic versioning and its components is crucial for this question."
+                        },
+                        {
+                            "label": "Semantic versioning (SemVer) defines version numbers with three components (MAJOR.MINOR.PATCH), providing a standardized way to convey changes and ensuring compatibility.",
+                            "description": "Correct! Semantic versioning defines version numbers in a structured manner (MAJOR.MINOR.PATCH), facilitating communication of changes and ensuring compatibility between versions.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the structured nature and purpose of semantic versioning contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Semantic versioning is only relevant for client-side projects and has no impact on server-side development.",
+                            "description": "Incorrect. Semantic versioning applies to various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that semantic versioning is relevant to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "3d31e67a-5f07-4e2b-b97c-8a66c68d7ff8",
+                    "question": "Explain the purpose of the 'peerDependencies' field in a package manager configuration, and how it influences dependency resolution.",
+                    "description": "Provide an explanation of what the 'peerDependencies' field is in the context of a package manager configuration, highlighting its purpose and how it influences the resolution of dependencies.",
+                    "hint": "Consider scenarios where 'peerDependencies' are relevant and how they impact the interaction between packages.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'peerDependencies' field is obsolete and has no relevance in modern package management; it does not impact dependency resolution.",
+                            "description": "Incorrect. 'peerDependencies' play a crucial role in specifying dependencies that must be present in the consumer's project, influencing dependency resolution.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'peerDependencies' in modern package management is crucial for this question."
+                        },
+                        {
+                            "label": "The 'peerDependencies' field is used to define dependencies that are only relevant in development, and they have no impact on production use.",
+                            "description": "Incorrect. 'peerDependencies' are not limited to development; they specify dependencies required in the consumer's project and impact both development and production.",
+                            "points": 0,
+                            "explanation": "Understanding the scope of 'peerDependencies' beyond development is crucial for this question."
+                        },
+                        {
+                            "label": "The 'peerDependencies' field is utilized to specify dependencies that must be shared with the consumer's project, and it influences the resolution of dependencies during installation.",
+                            "description": "Correct! 'peerDependencies' specify shared dependencies required by the consumer's project, influencing the resolution of dependencies during installation.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and influence of 'peerDependencies' on dependency resolution contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The 'peerDependencies' field is exclusive to client-side projects and has no relevance in server-side development.",
+                            "description": "Incorrect. 'peerDependencies' are applicable to various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'peerDependencies' apply to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0a7fe69b-33fe-4b44-9643-2274e2ad920b",
+                    "question": "What is the purpose of the 'npm link' command, and how can it be used in a Node.js project?",
+                    "description": "Explain the role and purpose of the 'npm link' command in the context of a Node.js project, detailing how it facilitates the development process and collaboration between projects.",
+                    "hint": "Consider scenarios where 'npm link' is beneficial, such as when working on interconnected projects or testing local changes.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'npm link' command is used for unlinking dependencies and has no relevance in project development or collaboration.",
+                            "description": "Incorrect. 'npm link' facilitates the linking of local packages, aiding in the development and collaboration between interconnected projects.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of 'npm link' in linking local packages is crucial for this question."
+                        },
+                        {
+                            "label": "The 'npm link' command is used to establish a symbolic link from a globally installed package to a local project, allowing the use of the globally installed version.",
+                            "description": "Correct! 'npm link' creates a symbolic link from a globally installed package to a local project, enabling the use of the globally installed version during development.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose of 'npm link' in creating symbolic links for local development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The 'npm link' command is exclusively used for client-side projects and has no relevance in server-side development.",
+                            "description": "Incorrect. 'npm link' is applicable to various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'npm link' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "The 'npm link' command is used for publishing packages to the npm registry and has no impact on local development or collaboration.",
+                            "description": "Incorrect. 'npm link' is primarily used for local development and collaboration, creating symbolic links between packages during development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary use of 'npm link' in local development and collaboration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "3831bf94-05b1-4c11-9e61-b349cb1d63bb",
+                    "question": "Explain the concept of 'peerDependencies' in a package manager configuration, and how it influences the resolution of dependencies between packages.",
+                    "description": "Provide an explanation of what 'peerDependencies' are in the context of a package manager configuration, highlighting their purpose and how they impact the interaction between packages.",
+                    "hint": "Consider scenarios where 'peerDependencies' are relevant and how they contribute to the stability of a project.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "'peerDependencies' are optional dependencies that are automatically installed and have no impact on the interaction between packages.",
+                            "description": "Incorrect. 'peerDependencies' are not automatically installed, and they play a crucial role in specifying shared dependencies between packages.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of 'peerDependencies' in specifying shared dependencies is crucial for this question."
+                        },
+                        {
+                            "label": "'peerDependencies' are dependencies that must be present in the consumer's project, ensuring compatibility and influencing the resolution of dependencies during installation.",
+                            "description": "Correct! 'peerDependencies' specify dependencies required in the consumer's project, ensuring compatibility and impacting the resolution of dependencies during installation.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and influence of 'peerDependencies' on dependency resolution contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'peerDependencies' are exclusively used for server-side projects and have no relevance in client-side development.",
+                            "description": "Incorrect. 'peerDependencies' are applicable to various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'peerDependencies' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'peerDependencies' are automatically resolved by the package manager, and developers have no control over their impact on dependency resolution.",
+                            "description": "Incorrect. Developers have control over the impact of 'peerDependencies,' and they play a role in specifying shared dependencies between packages.",
+                            "points": 0,
+                            "explanation": "Recognizing that developers have control over 'peerDependencies' and their impact is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "51049aef-7d1c-44d8-9382-9d7542f250ef",
+                    "question": "What is the purpose of the 'npm audit' command, and how does it contribute to the security of a Node.js project?",
+                    "description": "Explain the role and purpose of the 'npm audit' command in the context of a Node.js project, detailing how it identifies and addresses security vulnerabilities in project dependencies.",
+                    "hint": "Consider scenarios where the 'npm audit' command is beneficial and how it helps in maintaining a secure project.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'npm audit' command is used for publishing packages to the npm registry and has no impact on security vulnerability checks or resolutions.",
+                            "description": "Incorrect. The primary purpose of the 'npm audit' command is to identify and address security vulnerabilities in project dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the security-centric purpose of the 'npm audit' command is crucial for this question."
+                        },
+                        {
+                            "label": "The 'npm audit' command provides a report on the overall project health but does not specifically focus on identifying and addressing security vulnerabilities.",
+                            "description": "Incorrect. The primary purpose of the 'npm audit' command is to identify and address security vulnerabilities in project dependencies.",
+                            "points": 0,
+                            "explanation": "Understanding the security-centric role of the 'npm audit' command is crucial for this question."
+                        },
+                        {
+                            "label": "The 'npm audit' command analyzes project dependencies, identifies security vulnerabilities, and provides recommendations or fixes to address those vulnerabilities.",
+                            "description": "Correct! The 'npm audit' command analyzes dependencies, identifies security vulnerabilities, and offers recommendations or fixes to enhance the project's security.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the security-related features of the 'npm audit' command contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The 'npm audit' command is solely applicable to projects using Yarn as the package manager and has no functionality in npm-based projects.",
+                            "description": "Incorrect. The 'npm audit' command is applicable to projects using npm as the package manager, providing security-related features for vulnerability assessment.",
+                            "points": 0,
+                            "explanation": "Understanding the compatibility of the 'npm audit' command with npm-based projects is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "56e3de0a-8d1c-4b0e-9c82-eb154702c579",
+                    "question": "Explain the concept of 'scoped packages' in a package manager, and how they are different from regular (non-scoped) packages.",
+                    "description": "Provide an explanation of what 'scoped packages' are in the context of a package manager, highlighting their purpose and how they differ from regular (non-scoped) packages.",
+                    "hint": "Consider scenarios where 'scoped packages' are beneficial, and how they contribute to better package organization.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "'Scoped packages' are standard packages with no additional features, and they have no distinction from regular (non-scoped) packages.",
+                            "description": "Incorrect. 'Scoped packages' have distinct features, including a namespace, which differentiates them from regular (non-scoped) packages.",
+                            "points": 0,
+                            "explanation": "Recognizing the unique features of 'scoped packages,' such as a namespace, is crucial for this question."
+                        },
+                        {
+                            "label": "'Scoped packages' are exclusive to server-side projects and have no relevance in client-side development.",
+                            "description": "Incorrect. 'Scoped packages' can be used in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'scoped packages' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Scoped packages' introduce a namespace for packages, making them easier to organize and preventing naming conflicts, and they are indicated by a '@' symbol.",
+                            "description": "Correct! 'Scoped packages' introduce a namespace with a '@' symbol, facilitating better organization and avoiding naming conflicts compared to regular (non-scoped) packages.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the introduction of a namespace and its benefits in 'scoped packages' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Scoped packages' are primarily used for client-side projects and have limited applicability in server-side development.",
+                            "description": "Incorrect. 'Scoped packages' can be utilized in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'scoped packages' apply to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "79db25e8-dc20-4c1e-91d1-6e8530e3778e",
+                    "question": "What is the purpose of the 'npm init' command, and how does it contribute to the creation of a Node.js project?",
+                    "description": "Explain the role and purpose of the 'npm init' command in the context of creating a Node.js project, detailing how it helps in initializing project metadata and configuration.",
+                    "hint": "Consider the information gathered during the project initialization process and how it influences the project's structure.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'npm init' command is used for installing dependencies and has no relevance to project creation or initialization.",
+                            "description": "Incorrect. The primary purpose of 'npm init' is to initialize and set up a new Node.js project, collecting essential information about the project.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary use of 'npm init' in project creation and initialization is crucial for this question."
+                        },
+                        {
+                            "label": "The 'npm init' command is exclusively used for client-side projects and has no relevance in server-side development.",
+                            "description": "Incorrect. 'npm init' can be used for initializing projects in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'npm init' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "The 'npm init' command creates a package.json file, allowing developers to specify project details, dependencies, and other configuration settings.",
+                            "description": "Correct! 'npm init' is used to create a package.json file, enabling developers to provide project details, specify dependencies, and configure various settings.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role of 'npm init' in creating a package.json file contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "The 'npm init' command is exclusively used for server-side projects and has limited applicability in client-side development.",
+                            "description": "Incorrect. 'npm init' can be utilized for initializing projects in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'npm init' applies to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "cbe9e4c1-bc1f-467f-a34d-3c915aedc16c",
+                    "question": "Explain the purpose of the 'yarn add' command in the context of a Yarn package manager, and how it differs from 'npm install'.",
+                    "description": "Provide an explanation of the role and purpose of the 'yarn add' command in the context of Yarn package management, highlighting any differences it has compared to the 'npm install' command.",
+                    "hint": "Consider the features or advantages of 'yarn add' over 'npm install' and when it is preferable to use one over the other.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'yarn add' command is used for removing packages from a project and has no additional features compared to 'npm install'.",
+                            "description": "Incorrect. 'yarn add' is used for adding packages to a project, and it offers additional features compared to 'npm install,' such as deterministic dependency resolution.",
+                            "points": 0,
+                            "explanation": "Recognizing the purpose of 'yarn add' in adding packages and its additional features is crucial for this question."
+                        },
+                        {
+                            "label": "'yarn add' and 'npm install' serve the same purpose and have no differences in functionality or features.",
+                            "description": "Incorrect. 'yarn add' and 'npm install' have differences, and 'yarn add' is known for features like parallel installations and deterministic dependency resolution.",
+                            "points": 0,
+                            "explanation": "Understanding the differences between 'yarn add' and 'npm install' is crucial for this question."
+                        },
+                        {
+                            "label": "'yarn add' is used for adding packages to a project, and it offers advantages like parallel installations, offline mode, and deterministic dependency resolution compared to 'npm install'.",
+                            "description": "Correct! 'yarn add' adds packages to a project and provides advantages over 'npm install,' including parallel installations and deterministic dependency resolution.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the features and advantages of 'yarn add' over 'npm install' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'yarn add' is exclusively used for client-side projects and has no relevance in server-side development.",
+                            "description": "Incorrect. 'yarn add' can be used in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'yarn add' applies to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "21fb0064-93d3-4e79-9efb-599b31884c3f",
+                    "question": "Explain the concept of 'semantic versioning' (SemVer) in the context of package management, and why it is important for software projects.",
+                    "description": "Provide an in-depth explanation of what 'semantic versioning' (SemVer) is, its principles, and why it plays a crucial role in managing dependencies and ensuring compatibility in software projects.",
+                    "hint": "Consider scenarios where adherence to semantic versioning helps in maintaining project stability and communicating changes effectively.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Semantic versioning is a practice only relevant for open-source projects, and it has no significance in closed-source or proprietary software.",
+                            "description": "Incorrect. Semantic versioning is applicable to both open-source and closed-source projects, providing a standardized way to communicate changes and ensure compatibility.",
+                            "points": 0,
+                            "explanation": "Recognizing the broad applicability of semantic versioning is crucial for this question."
+                        },
+                        {
+                            "label": "Semantic versioning is focused solely on the major version number, and the minor and patch versions have no specific meaning or impact on compatibility.",
+                            "description": "Incorrect. Semantic versioning assigns meaning to major, minor, and patch versions, and adhering to these principles is crucial for communicating changes and ensuring compatibility.",
+                            "points": 0,
+                            "explanation": "Understanding the significance of major, minor, and patch versions in semantic versioning is crucial for this question."
+                        },
+                        {
+                            "label": "Semantic versioning (SemVer) is a versioning scheme that follows the principles of major.minor.patch, where each component has specific meanings, and it helps communicate changes and ensure compatibility.",
+                            "description": "Correct! Semantic versioning follows major.minor.patch principles, providing a standardized way to communicate changes and ensure compatibility in software projects.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the principles and purpose of semantic versioning contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Semantic versioning is exclusively used in server-side projects and has limited applicability in client-side development.",
+                            "description": "Incorrect. Semantic versioning applies to various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that semantic versioning applies to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c7b0e1bc-5ef0-4fc7-8ed7-55e7e41ba1a4",
+                    "question": "Describe the purpose of the 'yarn workspaces' feature in the context of package management, and how it facilitates managing multiple packages within a single repository.",
+                    "description": "Provide a detailed explanation of what the 'yarn workspaces' feature is, its purpose, and how it simplifies the management of multiple packages within a single repository.",
+                    "hint": "Consider scenarios where 'yarn workspaces' is beneficial, such as when developing projects with interconnected packages.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'yarn workspaces' is a feature exclusive to client-side projects and has no relevance in server-side development.",
+                            "description": "Incorrect. 'yarn workspaces' can be used in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'yarn workspaces' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'yarn workspaces' is a feature designed for managing dependencies only and does not provide any benefits for organizing multiple packages within a repository.",
+                            "description": "Incorrect. 'yarn workspaces' is specifically designed for managing multiple packages within a single repository, improving organization and dependency management.",
+                            "points": 0,
+                            "explanation": "Recognizing the organizational benefits of 'yarn workspaces' is crucial for this question."
+                        },
+                        {
+                            "label": "'yarn workspaces' is a feature that enables the management of multiple packages within a single repository, providing benefits in terms of dependency linking, hoisting, and parallel installations.",
+                            "description": "Correct! 'yarn workspaces' facilitates managing multiple packages in a single repository, offering advantages in dependency linking, hoisting, and parallel installations.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and benefits of 'yarn workspaces' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'yarn workspaces' is primarily focused on build optimizations and has no impact on the organization or management of multiple packages.",
+                            "description": "Incorrect. 'yarn workspaces' contributes to the organization and management of multiple packages within a repository, offering benefits beyond build optimizations.",
+                            "points": 0,
+                            "explanation": "Recognizing the organizational benefits of 'yarn workspaces' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "74e0c7c4-af4b-4ab2-b396-1dd1e158d0e2",
+                    "question": "Explain the concept of 'peer dependencies' in the context of package management, and why they are useful for certain types of packages.",
+                    "description": "Provide a detailed explanation of what 'peer dependencies' are, their purpose, and why they are beneficial in certain scenarios when developing packages.",
+                    "hint": "Consider scenarios where 'peer dependencies' help in ensuring compatibility and preventing version conflicts.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'Peer dependencies' have no specific purpose and are an outdated concept in modern package management.",
+                            "description": "Incorrect. 'Peer dependencies' have a specific purpose, and they are still relevant in modern package management for ensuring compatibility.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'peer dependencies' in modern package management is crucial for this question."
+                        },
+                        {
+                            "label": "'Peer dependencies' are only relevant in server-side projects and have limited applicability in client-side development.",
+                            "description": "Incorrect. 'Peer dependencies' can be relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'peer dependencies' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Peer dependencies' are dependencies that are not installed by default but are expected to be provided by the consumer of the package, ensuring compatibility and preventing version conflicts.",
+                            "description": "Correct! 'Peer dependencies' are not installed automatically but are expected to be provided by the consumer, ensuring compatibility and preventing version conflicts.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose of 'peer dependencies' in ensuring compatibility contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Peer dependencies' are solely focused on optimizing the build process and have no impact on ensuring compatibility or preventing version conflicts.",
+                            "description": "Incorrect. 'Peer dependencies' play a crucial role in ensuring compatibility and preventing version conflicts, going beyond build optimizations.",
+                            "points": 0,
+                            "explanation": "Recognizing the compatibility-related role of 'peer dependencies' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "69e7ed2c-77ae-4f82-b9d9-4c97a91457d1",
+                    "question": "Explain the purpose of the 'npm shrinkwrap' command in the context of Node.js projects, and how it helps in ensuring consistent dependency versions.",
+                    "description": "Provide an explanation of the role and purpose of the 'npm shrinkwrap' command in the context of Node.js projects, emphasizing how it contributes to ensuring that consistent versions of dependencies are used.",
+                    "hint": "Consider scenarios where 'npm shrinkwrap' is beneficial, especially in projects with collaborative development or deployments.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'npm shrinkwrap' is a deprecated command and has no relevance in modern Node.js projects.",
+                            "description": "Incorrect. 'npm shrinkwrap' is not deprecated and is still relevant in modern Node.js projects for ensuring consistent dependency versions.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'npm shrinkwrap' in modern Node.js projects is crucial for this question."
+                        },
+                        {
+                            "label": "'npm shrinkwrap' is primarily focused on reducing the size of the project's node_modules folder and has no impact on dependency version consistency.",
+                            "description": "Incorrect. The main purpose of 'npm shrinkwrap' is to ensure consistent dependency versions, not to reduce the size of the node_modules folder.",
+                            "points": 0,
+                            "explanation": "Understanding the role of 'npm shrinkwrap' in ensuring version consistency is crucial for this question."
+                        },
+                        {
+                            "label": "'npm shrinkwrap' is used to create a lock file that specifies the exact versions of dependencies, ensuring consistent versions across different environments and during deployments.",
+                            "description": "Correct! 'npm shrinkwrap' creates a lock file specifying exact dependency versions, ensuring consistency across environments and deployments.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose of 'npm shrinkwrap' in ensuring version consistency contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'npm shrinkwrap' is exclusively relevant in server-side projects and has no impact on client-side development.",
+                            "description": "Incorrect. 'npm shrinkwrap' can be relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'npm shrinkwrap' applies to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6db2e6b5-2c9a-4a3e-96db-763d58f24f63",
+                    "question": "Describe the concept of 'hoisting' in the context of package management and how it affects the installation of dependencies in Node.js projects.",
+                    "description": "Provide a detailed explanation of what 'hoisting' is in the context of package management, highlighting its impact on the installation process of dependencies in Node.js projects.",
+                    "hint": "Consider scenarios where 'hoisting' leads to more efficient dependency installations and potential challenges it may pose.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'Hoisting' is a concept relevant only in client-side projects and has no impact on server-side development.",
+                            "description": "Incorrect. 'Hoisting' is relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'hoisting' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Hoisting' is the process of installing dependencies in a flat structure, reducing duplication and improving efficiency in Node.js projects.",
+                            "description": "Correct! 'Hoisting' involves installing dependencies in a flat structure, minimizing duplication and enhancing efficiency in Node.js projects.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role of 'hoisting' in minimizing duplication and improving efficiency contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Hoisting' is exclusively focused on optimizing the build process and has no impact on the installation or management of dependencies.",
+                            "description": "Incorrect. 'Hoisting' impacts the installation process of dependencies, leading to a more efficient and streamlined structure.",
+                            "points": 0,
+                            "explanation": "Recognizing the impact of 'hoisting' on the installation process is crucial for this question."
+                        },
+                        {
+                            "label": "'Hoisting' is a deprecated concept in modern package management and is no longer relevant.",
+                            "description": "Incorrect. 'Hoisting' is still a relevant and crucial concept in modern package management.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'hoisting' in modern package management is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "4933c9db-1cf2-4012-a4b1-ef94ac3a64d3",
+                    "question": "Describe the purpose and benefits of using a 'lock file' (e.g., package-lock.json or yarn.lock) in the context of package management.",
+                    "description": "Provide a comprehensive explanation of what a 'lock file' is in the context of package management, its purpose, and the benefits it offers, especially in collaborative or production environments.",
+                    "hint": "Consider scenarios where a 'lock file' helps in ensuring consistent dependency versions and improving reproducibility.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A 'lock file' is primarily focused on securing the project's dependencies and has no impact on version consistency or reproducibility.",
+                            "description": "Incorrect. A 'lock file' plays a crucial role in ensuring consistent dependency versions and improving reproducibility.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of a 'lock file' in version consistency and reproducibility is crucial for this question."
+                        },
+                        {
+                            "label": "A 'lock file' is a deprecated concept, and modern package managers no longer use or support it.",
+                            "description": "Incorrect. 'Lock files' are still widely used and supported in modern package management for ensuring version consistency.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'lock files' in modern package management is crucial for this question."
+                        },
+                        {
+                            "label": "A 'lock file' is a file that specifies the exact versions of the project's dependencies, ensuring consistent versions across different environments and during deployments.",
+                            "description": "Correct! A 'lock file' specifies exact dependency versions, ensuring consistency across environments and deployments.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and benefits of a 'lock file' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "A 'lock file' is used exclusively in client-side projects and has limited applicability in server-side development.",
+                            "description": "Incorrect. 'Lock files' can be used in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'lock files' apply to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "65142b46-1ae1-489a-bf6a-8d104e9d98f4",
+                    "question": "Explain the role of a 'registry' in the context of package management and how it facilitates the installation and management of dependencies.",
+                    "description": "Provide a detailed explanation of what a 'registry' is in the context of package management, its role, and how it simplifies the installation and management of dependencies in software projects.",
+                    "hint": "Consider scenarios where a 'registry' streamlines the process of discovering and retrieving packages.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A 'registry' is a concept relevant only in server-side projects and has no impact on client-side development.",
+                            "description": "Incorrect. 'Registries' are relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'registries' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "A 'registry' is a deprecated concept, and modern package managers no longer use or support it.",
+                            "description": "Incorrect. 'Registries' are still widely used and supported in modern package management for discovering and retrieving packages.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'registries' in modern package management is crucial for this question."
+                        },
+                        {
+                            "label": "A 'registry' is a centralized server or repository that stores package metadata and facilitates the discovery, retrieval, and installation of packages.",
+                            "description": "Correct! A 'registry' is a centralized server that stores package metadata, simplifying the process of discovering, retrieving, and installing packages.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role of a 'registry' in facilitating package discovery and installation contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "A 'registry' is exclusively focused on optimizing the build process and has no impact on the installation or management of dependencies.",
+                            "description": "Incorrect. 'Registries' play a crucial role in the installation and management of dependencies, going beyond build optimizations.",
+                            "points": 0,
+                            "explanation": "Recognizing the impact of 'registries' on dependency installation is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e70f0703-8c8d-4913-83df-399af9e448cf",
+                    "question": "Describe the purpose of 'scoped packages' in the context of package management and how they contribute to better organization and security.",
+                    "description": "Provide a comprehensive explanation of what 'scoped packages' are in the context of package management, their purpose, and the benefits they offer, particularly in terms of organization and security.",
+                    "hint": "Consider scenarios where 'scoped packages' help in preventing naming conflicts and enhancing the visibility of packages.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'Scoped packages' are a deprecated concept, and modern package managers no longer use or support them.",
+                            "description": "Incorrect. 'Scoped packages' are still widely used and supported in modern package management for better organization and security.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'scoped packages' in modern package management is crucial for this question."
+                        },
+                        {
+                            "label": "'Scoped packages' have no specific purpose and are primarily used for aesthetic reasons in package names.",
+                            "description": "Incorrect. 'Scoped packages' serve a specific purpose in preventing naming conflicts and improving package organization and security.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of 'scoped packages' in preventing conflicts and enhancing organization is crucial for this question."
+                        },
+                        {
+                            "label": "'Scoped packages' are packages with names that include a scope, providing a way to group related packages and prevent naming conflicts, enhancing organization and security.",
+                            "description": "Correct! 'Scoped packages' include a scope in their names, aiding in grouping related packages, preventing conflicts, and improving organization and security.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and benefits of 'scoped packages' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Scoped packages' are exclusively relevant in client-side projects and have limited applicability in server-side development.",
+                            "description": "Incorrect. 'Scoped packages' can be relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'scoped packages' apply to various project types is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "345671d5-c72c-48f4-9474-48ba245a8d8d",
+                    "question": "Explain the concept of 'semantic versioning' (SemVer) in the context of package management and why it is crucial for maintaining compatibility in software projects.",
+                    "description": "Provide a detailed explanation of what 'semantic versioning' (SemVer) is, its significance in package management, and how it ensures compatibility in software projects.",
+                    "hint": "Consider scenarios where SemVer helps developers communicate changes effectively and make informed decisions about updating dependencies.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "'Semantic versioning' is an outdated concept and is no longer relevant in modern package management.",
+                            "description": "Incorrect. 'Semantic versioning' is still widely used and crucial in modern package management for communicating changes and ensuring compatibility.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'semantic versioning' in modern package management is crucial for this question."
+                        },
+                        {
+                            "label": "'Semantic versioning' is only relevant in server-side projects and has limited applicability in client-side development.",
+                            "description": "Incorrect. 'Semantic versioning' is relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'semantic versioning' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Semantic versioning' is a versioning scheme that follows the format MAJOR.MINOR.PATCH and helps communicate changes in a backward-compatible manner.",
+                            "description": "Correct! 'Semantic versioning' follows the MAJOR.MINOR.PATCH format and aids in communicating changes in a backward-compatible manner.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the format and purpose of 'semantic versioning' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Semantic versioning' is exclusively focused on optimizing the build process and has no impact on ensuring compatibility.",
+                            "description": "Incorrect. 'Semantic versioning' plays a crucial role in ensuring compatibility by communicating changes in a standardized manner.",
+                            "points": 0,
+                            "explanation": "Recognizing the compatibility-related role of 'semantic versioning' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "cf2f8890-0bbd-4e84-b65e-9dcb1235fc20",
+                    "question": "Describe the significance of a 'scoped package registry' in the context of package management and how it enhances the organization and distribution of scoped packages.",
+                    "description": "Provide a comprehensive explanation of what a 'scoped package registry' is, its significance in package management, and how it contributes to the organization and distribution of scoped packages.",
+                    "hint": "Consider scenarios where a 'scoped package registry' provides a dedicated space for managing and distributing scoped packages.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A 'scoped package registry' is a deprecated concept and is no longer used or supported in modern package management.",
+                            "description": "Incorrect. 'Scoped package registries' are still relevant and widely used in modern package management for managing and distributing scoped packages.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'scoped package registries' is crucial for this question."
+                        },
+                        {
+                            "label": "A 'scoped package registry' is exclusively relevant in client-side projects and has limited applicability in server-side development.",
+                            "description": "Incorrect. 'Scoped package registries' can be relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'scoped package registries' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "A 'scoped package registry' is a dedicated registry for managing and distributing scoped packages, providing a controlled and organized space for such packages.",
+                            "description": "Correct! A 'scoped package registry' is a dedicated space for managing and distributing scoped packages, enhancing control and organization.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and benefits of a 'scoped package registry' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "A 'scoped package registry' is primarily focused on optimizing the build process and has no impact on the management or distribution of scoped packages.",
+                            "description": "Incorrect. 'Scoped package registries' play a crucial role in managing and distributing scoped packages, going beyond build optimizations.",
+                            "points": 0,
+                            "explanation": "Recognizing the impact of 'scoped package registries' on package management is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "79f92c0a-4e8f-4f68-a0c1-2a57c1a93d13",
+                    "question": "Explain the concept of 'offline package installation' in the context of package management and why it is crucial in environments with limited or no internet connectivity.",
+                    "description": "Provide a detailed explanation of what 'offline package installation' is in the context of package management, its significance, and how it addresses challenges in environments with limited or no internet connectivity.",
+                    "hint": "Consider scenarios where 'offline package installation' allows developers to work seamlessly without relying on continuous internet access.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Offline package installation' is an outdated concept and is no longer relevant in modern package management.",
+                            "description": "Incorrect. 'Offline package installation' is still relevant and crucial in modern package management for addressing challenges in environments with limited internet connectivity.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'offline package installation' is crucial for this question."
+                        },
+                        {
+                            "label": "'Offline package installation' is only relevant in client-side projects and has limited applicability in server-side development.",
+                            "description": "Incorrect. 'Offline package installation' can be relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'offline package installation' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Offline package installation' involves installing packages without an internet connection, addressing challenges in environments where continuous internet access is limited or unavailable.",
+                            "description": "Correct! 'Offline package installation' allows developers to install packages without internet access, addressing challenges in environments with limited connectivity.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and benefits of 'offline package installation' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Offline package installation' is primarily focused on reducing the size of the project's node_modules folder and has no impact on addressing connectivity challenges.",
+                            "description": "Incorrect. 'Offline package installation' addresses challenges related to connectivity rather than focusing on reducing the size of the node_modules folder.",
+                            "points": 0,
+                            "explanation": "Recognizing the connectivity-related role of 'offline package installation' is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "46a14d6e-eef9-4b20-b46d-60d201c52312",
+                    "question": "Describe the concept of 'transitive dependencies' in the context of package management and how they impact the stability and size of a software project.",
+                    "description": "Provide a comprehensive explanation of what 'transitive dependencies' are in the context of package management, their role, and how they influence the stability and size of a software project.",
+                    "hint": "Consider scenarios where managing transitive dependencies becomes crucial for avoiding conflicts and optimizing project size.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Transitive dependencies' are an outdated concept and are no longer relevant in modern package management.",
+                            "description": "Incorrect. 'Transitive dependencies' are still a relevant and crucial concept in modern package management for managing dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'transitive dependencies' is crucial for this question."
+                        },
+                        {
+                            "label": "'Transitive dependencies' are only relevant in server-side projects and have limited applicability in client-side development.",
+                            "description": "Incorrect. 'Transitive dependencies' are relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'transitive dependencies' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Transitive dependencies' are dependencies required by other dependencies, and they impact the stability and size of a project by introducing additional dependencies and potential conflicts.",
+                            "description": "Correct! 'Transitive dependencies' are dependencies required by other dependencies, influencing stability and project size by introducing additional dependencies and potential conflicts.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role and impact of 'transitive dependencies' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Transitive dependencies' are primarily focused on optimizing the build process and have no impact on the stability or size of a project.",
+                            "description": "Incorrect. 'Transitive dependencies' impact the stability and size of a project by introducing additional dependencies and potential conflicts.",
+                            "points": 0,
+                            "explanation": "Recognizing the impact of 'transitive dependencies' on project stability and size is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ceea0ee3-205a-40b8-b5c5-fc0f6ed1e9ad",
+                    "question": "Explain the challenges and benefits of using a 'monorepo' (monolithic repository) in the context of version control and package management.",
+                    "description": "Provide a detailed explanation of the challenges and benefits associated with using a 'monorepo' (monolithic repository) in the context of version control and package management.",
+                    "hint": "Consider scenarios where a 'monorepo' streamlines collaboration but may pose challenges in terms of repository size and complexity.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A 'monorepo' is a deprecated concept and is no longer used or supported in modern version control and package management.",
+                            "description": "Incorrect. 'Monorepos' are still relevant and widely used in modern version control and package management for certain scenarios.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'monorepos' is crucial for this question."
+                        },
+                        {
+                            "label": "'Monorepos' are exclusively relevant in server-side projects and have limited applicability in client-side development.",
+                            "description": "Incorrect. 'Monorepos' are relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'monorepos' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "Using a 'monorepo' can streamline collaboration by consolidating multiple projects into a single repository, but it may pose challenges in terms of repository size and complexity.",
+                            "description": "Correct! 'Monorepos' can streamline collaboration but may pose challenges related to the size and complexity of the repository.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting both the benefits and challenges of using a 'monorepo' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Using a 'monorepo' is primarily focused on optimizing the build process and has no impact on collaboration or repository size.",
+                            "description": "Incorrect. 'Monorepos' impact collaboration and may pose challenges related to repository size and complexity.",
+                            "points": 0,
+                            "explanation": "Recognizing the impact of 'monorepos' on collaboration and repository size is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a8c4c3fc-5e47-4f7b-bbb7-1c868fa3203b",
+                    "question": "Explain the concept of 'dependency resolution' in the context of package management and its role in ensuring a consistent and functional project setup.",
+                    "description": "Provide a detailed explanation of what 'dependency resolution' is in the context of package management, its significance, and how it contributes to maintaining a consistent and functional project setup.",
+                    "hint": "Consider scenarios where 'dependency resolution' helps manage dependencies, avoid conflicts, and ensure a reliable project setup.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Dependency resolution' is an outdated concept and is no longer relevant in modern package management.",
+                            "description": "Incorrect. 'Dependency resolution' is still a crucial concept in modern package management for managing dependencies and ensuring a consistent setup.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'dependency resolution' is crucial for this question."
+                        },
+                        {
+                            "label": "'Dependency resolution' is only relevant in client-side projects and has limited applicability in server-side development.",
+                            "description": "Incorrect. 'Dependency resolution' is relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'dependency resolution' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Dependency resolution' is the process of determining the best version of a dependency to use, managing conflicts, and ensuring a consistent and functional project setup.",
+                            "description": "Correct! 'Dependency resolution' involves selecting the optimal version of a dependency, managing conflicts, and ensuring a reliable project setup.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the process and purpose of 'dependency resolution' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Dependency resolution' is primarily focused on optimizing the build process and has no impact on the consistency or functionality of a project setup.",
+                            "description": "Incorrect. 'Dependency resolution' contributes to the consistency and functionality of a project setup by managing dependencies and conflicts.",
+                            "points": 0,
+                            "explanation": "Recognizing the impact of 'dependency resolution' on project consistency is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7f303f22-6ff5-47e8-8fb8-b38467c186e4",
+                    "question": "Describe the role of a 'package lock file' in the context of package management and how it addresses challenges related to dependency versions and consistency.",
+                    "description": "Provide a comprehensive explanation of the role of a 'package lock file' in the context of package management, its significance, and how it helps address challenges related to dependency versions and consistency.",
+                    "hint": "Consider scenarios where a 'package lock file' ensures that all developers use the same versions of dependencies, avoiding discrepancies.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A 'package lock file' is an optional file and has no impact on ensuring consistent dependency versions or project setup.",
+                            "description": "Incorrect. A 'package lock file' is crucial in ensuring consistent dependency versions and a reliable project setup by specifying exact versions of dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of a 'package lock file' in ensuring consistency is crucial for this question."
+                        },
+                        {
+                            "label": "A 'package lock file' is only relevant in server-side projects and has limited applicability in client-side development.",
+                            "description": "Incorrect. A 'package lock file' is relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that a 'package lock file' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "A 'package lock file' is a file that specifies the exact versions of dependencies, ensuring consistent versions across different development environments.",
+                            "description": "Correct! A 'package lock file' specifies exact dependency versions, promoting consistency across different development environments.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and benefits of a 'package lock file' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "A 'package lock file' is primarily focused on reducing the size of the project's node_modules folder and has no impact on ensuring consistent versions.",
+                            "description": "Incorrect. While a 'package lock file' helps manage dependency versions, its primary role is to ensure consistency across environments.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of a 'package lock file' in ensuring version consistency is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5b8b2173-0e14-4591-8371-724f72a75c3a",
+                    "question": "Explain the concept of 'peer dependencies' in the context of package management and why they are essential for certain types of packages.",
+                    "description": "Provide a detailed explanation of what 'peer dependencies' are in the context of package management, their significance, and why they are essential for certain types of packages.",
+                    "hint": "Consider scenarios where 'peer dependencies' help define compatibility requirements between packages.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Peer dependencies' are an outdated concept and are no longer relevant in modern package management.",
+                            "description": "Incorrect. 'Peer dependencies' are still a relevant and crucial concept in modern package management for defining compatibility requirements.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'peer dependencies' is crucial for this question."
+                        },
+                        {
+                            "label": "'Peer dependencies' are only relevant in client-side projects and have limited applicability in server-side development.",
+                            "description": "Incorrect. 'Peer dependencies' are relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'peer dependencies' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Peer dependencies' are dependencies that your project expects the consumer to install, and they are crucial for ensuring compatibility between the consuming project and the package providing the peer dependency.",
+                            "description": "Correct! 'Peer dependencies' are dependencies crucial for ensuring compatibility between the consumer and the package providing the peer dependency.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the role and significance of 'peer dependencies' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Peer dependencies' are primarily focused on optimizing the build process and have no impact on defining compatibility requirements.",
+                            "description": "Incorrect. 'Peer dependencies' play a crucial role in defining compatibility requirements between packages.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of 'peer dependencies' in defining compatibility is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ed18654c-d81a-4e36-9a01-e89e290c8aa7",
+                    "question": "Explain the concept of 'scoped packages' in the context of package management and how they contribute to organizing and securing packages in a registry.",
+                    "description": "Provide a detailed explanation of what 'scoped packages' are in the context of package management, their significance, and how they contribute to organizing and securing packages within a registry.",
+                    "hint": "Consider scenarios where 'scoped packages' help prevent naming conflicts and provide a way to group related packages.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Scoped packages' are an outdated concept and are no longer relevant in modern package management.",
+                            "description": "Incorrect. 'Scoped packages' are still a relevant and widely used concept in modern package management for organizing and securing packages.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'scoped packages' is crucial for this question."
+                        },
+                        {
+                            "label": "'Scoped packages' are only relevant in server-side projects and have limited applicability in client-side development.",
+                            "description": "Incorrect. 'Scoped packages' are relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'scoped packages' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Scoped packages' are packages with names that begin with '@scope/', and they help prevent naming conflicts, organize related packages, and enhance security within a package registry.",
+                            "description": "Correct! 'Scoped packages' are packages with names beginning with '@scope/' and contribute to preventing conflicts, organizing related packages, and enhancing security within a registry.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the characteristics and benefits of 'scoped packages' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Scoped packages' are primarily focused on optimizing the build process and have no impact on preventing naming conflicts or enhancing security.",
+                            "description": "Incorrect. 'Scoped packages' contribute to preventing naming conflicts and enhancing security within a package registry.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of 'scoped packages' in preventing conflicts and enhancing security is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "4886efcb-8ac6-44c7-a489-8b7d134580b6",
+                    "question": "Describe the concept of 'semantic versioning' (SemVer) in the context of package management and its role in specifying version numbers for software packages.",
+                    "description": "Provide a comprehensive explanation of what 'semantic versioning' (SemVer) is in the context of package management, its principles, and how it helps specify version numbers for software packages.",
+                    "hint": "Consider scenarios where 'semantic versioning' helps communicate changes, ensure compatibility, and manage dependencies effectively.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Semantic versioning' is an outdated concept and is no longer relevant in modern package management.",
+                            "description": "Incorrect. 'Semantic versioning' is still a widely used and crucial concept in modern package management for specifying version numbers.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'semantic versioning' is crucial for this question."
+                        },
+                        {
+                            "label": "'Semantic versioning' is only relevant in client-side projects and has limited applicability in server-side development.",
+                            "description": "Incorrect. 'Semantic versioning' is relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'semantic versioning' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Semantic versioning' is a versioning scheme based on three numbers (Major.Minor.Patch) and includes rules for incrementing version numbers to communicate changes, ensure compatibility, and manage dependencies effectively.",
+                            "description": "Correct! 'Semantic versioning' is a versioning scheme with rules for incrementing version numbers, facilitating effective communication, compatibility, and dependency management.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the principles and benefits of 'semantic versioning' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Semantic versioning' is primarily focused on optimizing the build process and has no impact on communicating changes or ensuring compatibility.",
+                            "description": "Incorrect. 'Semantic versioning' plays a crucial role in communicating changes and ensuring compatibility in software projects.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of 'semantic versioning' in communication and compatibility is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0b871207-5cf7-4b1e-a93c-02ce5e8f61b5",
+                    "question": "Explain the concept of 'script hooks' in the context of package management and how they can be utilized in a project's lifecycle.",
+                    "description": "Provide a detailed explanation of what 'script hooks' are in the context of package management, their significance, and how they can be utilized to execute custom actions at different stages of a project's lifecycle.",
+                    "hint": "Consider scenarios where 'script hooks' enable developers to automate tasks, such as building, testing, and deploying projects.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "'Script hooks' are an outdated concept and are no longer relevant in modern package management.",
+                            "description": "Incorrect. 'Script hooks' are still relevant and widely used in modern package management for automating tasks at different stages of a project's lifecycle.",
+                            "points": 0,
+                            "explanation": "Recognizing the continued relevance of 'script hooks' is crucial for this question."
+                        },
+                        {
+                            "label": "'Script hooks' are only relevant in server-side projects and have limited applicability in client-side development.",
+                            "description": "Incorrect. 'Script hooks' are relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that 'script hooks' apply to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "'Script hooks' are custom scripts defined in a project's configuration that can be executed at different stages of the project's lifecycle, enabling automation of tasks such as building, testing, and deploying.",
+                            "description": "Correct! 'Script hooks' are custom scripts allowing automation of tasks at different project lifecycle stages, enhancing efficiency in building, testing, and deploying.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the definition and applications of 'script hooks' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "'Script hooks' are primarily focused on optimizing the build process and have no impact on automating tasks during a project's lifecycle.",
+                            "description": "Incorrect. 'Script hooks' play a crucial role in automating tasks throughout a project's lifecycle, not just in the build process.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of 'script hooks' in task automation across the project lifecycle is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d4398621-13e6-48f9-bf67-e3f36e3e063f",
+                    "question": "Describe the purpose of a 'shrinkwrap file' in the context of package management and how it ensures the reproducibility of a project's dependencies.",
+                    "description": "Provide a comprehensive explanation of the purpose of a 'shrinkwrap file' in the context of package management, its significance, and how it contributes to ensuring the reproducibility of a project's dependencies.",
+                    "hint": "Consider scenarios where a 'shrinkwrap file' locks down specific versions of dependencies to guarantee consistency across different development environments.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A 'shrinkwrap file' is an optional file and has no impact on ensuring the reproducibility of a project's dependencies.",
+                            "description": "Incorrect. A 'shrinkwrap file' is crucial in ensuring the reproducibility of a project's dependencies by locking down specific versions.",
+                            "points": 0,
+                            "explanation": "Recognizing the importance of a 'shrinkwrap file' in ensuring reproducibility is crucial for this question."
+                        },
+                        {
+                            "label": "A 'shrinkwrap file' is only relevant in server-side projects and has limited applicability in client-side development.",
+                            "description": "Incorrect. A 'shrinkwrap file' is relevant in various project types, including both server-side and client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that a 'shrinkwrap file' applies to various project types is crucial for this question."
+                        },
+                        {
+                            "label": "A 'shrinkwrap file' is a file that locks down specific versions of dependencies, ensuring the reproducibility of a project's dependencies across different development environments.",
+                            "description": "Correct! A 'shrinkwrap file' locks down versions, ensuring consistency in a project's dependencies across different development environments.",
+                            "points": 3,
+                            "explanation": "Accurately highlighting the purpose and benefits of a 'shrinkwrap file' contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "A 'shrinkwrap file' is primarily focused on optimizing the build process and has no impact on ensuring version consistency in a project.",
+                            "description": "Incorrect. While a 'shrinkwrap file' contributes to consistency, its primary role is to ensure version consistency in a project's dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of a 'shrinkwrap file' in ensuring version consistency is crucial for this question."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

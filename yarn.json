@@ -1,0 +1,1378 @@
+{
+  "skill": {
+    "Yarn": {
+      "id": "yarn",
+      "description": "Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager).Visit the following resources to learn more:",
+      "resources": [
+        {
+          "name": "Modern JavaScript for Dinosaurs",
+          "link": "https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html"
+        },
+        {
+          "name": "Yarn - Getting Started",
+          "link": "https://yarnpkg.com/en/docs/getting-started"
+        },
+        {
+          "name": "Yarn Crash Course",
+          "link": "https://www.youtube.com/watch?v=g9_6KmiBISk"
+        }
+      ],
+      "parents": [
+        "package-managers"
+      ],
+      "children": [],
+      "questions": [
+        {
+          "id": "c362c881-0a33-4e8b-959b-6bea37a4fcbd",
+          "question": "What is Yarn?",
+          "description": "Provide a brief definition of Yarn.",
+          "hint": "Think about package management.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "A web development framework.",
+              "points": 0,
+              "explanation": "Incorrect. Yarn is a package manager, not a web development framework."
+            },
+            {
+              "label": "B",
+              "description": "A JavaScript package manager.",
+              "points": 3,
+              "explanation": "Correct! Yarn is a JavaScript package manager."
+            },
+            {
+              "label": "C",
+              "description": "A programming language.",
+              "points": 0,
+              "explanation": "Incorrect. Yarn is not a programming language."
+            }
+          ]
+        },
+        {
+          "id": "2a45c56e-1a21-4d8e-88bb-2f7f8d923b25",
+          "question": "Which command is used to install dependencies with Yarn?",
+          "description": "Provide the Yarn command for installing project dependencies.",
+          "hint": "Think about the common command used for installation.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "npm install",
+              "points": 0,
+              "explanation": "Incorrect. This is the npm command, not Yarn."
+            },
+            {
+              "label": "B",
+              "description": "yarn add",
+              "points": 3,
+              "explanation": "Correct! 'yarn add' is used to install dependencies with Yarn."
+            },
+            {
+              "label": "C",
+              "description": "yarn install",
+              "points": 0,
+              "explanation": "Incorrect. This command is used for other purposes in Yarn."
+            }
+          ]
+        },
+        {
+          "id": "774ad8c2-6204-4f64-93d3-d1d43d9ff8b2",
+          "question": "What does the 'yarn init' command do?",
+          "description": "Explain the purpose of the 'yarn init' command.",
+          "hint": "Consider the initialization process of a new project.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Starts a new React project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn init' is not specific to React."
+            },
+            {
+              "label": "B",
+              "description": "Initializes a new Yarn project and creates a 'package.json' file.",
+              "points": 3,
+              "explanation": "Correct! 'yarn init' is used to set up a new Yarn project and create a 'package.json' file."
+            },
+            {
+              "label": "C",
+              "description": "Installs Yarn globally on your machine.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn init' is not used for global installation."
+            }
+          ]
+        },
+        {
+          "id": "6bb89c3d-c144-4f38-bd8f-143d54b63e23",
+          "question": "How can you add a development dependency in Yarn?",
+          "description": "Explain the process of adding a development dependency using Yarn.",
+          "hint": "Consider the difference between regular and development dependencies.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn add --dev <package>",
+              "points": 3,
+              "explanation": "Correct! 'yarn add --dev' is used to add a development dependency in Yarn."
+            },
+            {
+              "label": "B",
+              "description": "yarn install --dev <package>",
+              "points": 0,
+              "explanation": "Incorrect syntax. The correct command is 'yarn add --dev'."
+            },
+            {
+              "label": "C",
+              "description": "yarn devDependency add <package>",
+              "points": 0,
+              "explanation": "Incorrect command. Use 'yarn add --dev' for development dependencies."
+            }
+          ]
+        },
+        {
+          "id": "f2a84315-cbaa-4c0c-a5da-8b130a4cc2f8",
+          "question": "What is the purpose of the 'yarn.lock' file?",
+          "description": "Explain the role of the 'yarn.lock' file in a Yarn project.",
+          "hint": "Consider version control and dependency management.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "It stores the project's configuration settings.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn.lock' is primarily for dependency versioning."
+            },
+            {
+              "label": "B",
+              "description": "It locks down the versions of dependencies for consistent builds.",
+              "points": 3,
+              "explanation": "Correct! 'yarn.lock' ensures consistent dependency versions across different environments."
+            },
+            {
+              "label": "C",
+              "description": "It is used for storing log information.",
+              "points": 0,
+              "explanation": "Incorrect. Log information is typically not stored in 'yarn.lock'."
+            }
+          ]
+        },
+        {
+          "id": "1fc1c98e-5e74-4c87-b1a9-997b8327d57f",
+          "question": "How can you remove a dependency using Yarn?",
+          "description": "Explain the process of removing a dependency from a Yarn project.",
+          "hint": "Consider the appropriate command for removing dependencies.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn delete <package>",
+              "points": 0,
+              "explanation": "Incorrect. The correct command is 'yarn remove <package>'."
+            },
+            {
+              "label": "B",
+              "description": "yarn uninstall <package>",
+              "points": 3,
+              "explanation": "Correct! 'yarn uninstall' is used to remove a dependency."
+            },
+            {
+              "label": "C",
+              "description": "yarn remove <package>",
+              "points": 0,
+              "explanation": "Incorrect. The correct command is 'yarn uninstall <package>'."
+            }
+          ]
+        },
+        {
+          "id": "3d7384cb-1c18-4f0d-9d80-6ebd0f924e72",
+          "question": "What does the 'yarn upgrade' command do?",
+          "description": "Explain the purpose of the 'yarn upgrade' command.",
+          "hint": "Think about updating dependencies.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Installs new dependencies for the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn upgrade' focuses on upgrading existing dependencies."
+            },
+            {
+              "label": "B",
+              "description": "Upgrades all dependencies to their latest versions based on the version ranges specified in 'package.json'.",
+              "points": 3,
+              "explanation": "Correct! 'yarn upgrade' updates dependencies to their latest versions within version constraints."
+            },
+            {
+              "label": "C",
+              "description": "Removes all project dependencies.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn upgrade' doesn't remove dependencies; it upgrades them."
+            }
+          ]
+        },
+        {
+          "id": "f4ecfe4d-198e-4e0c-b30d-c689d135e856",
+          "question": "What is the purpose of the 'yarn audit' command?",
+          "description": "Explain the role of the 'yarn audit' command in Yarn.",
+          "hint": "Think about security and vulnerability checks.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Generates a report of project dependencies with security vulnerabilities.",
+              "points": 3,
+              "explanation": "Correct! 'yarn audit' helps identify and report security vulnerabilities in project dependencies."
+            },
+            {
+              "label": "B",
+              "description": "Installs security updates for project dependencies.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn audit' reports vulnerabilities but doesn't install updates."
+            },
+            {
+              "label": "C",
+              "description": "Removes all security-related packages from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn audit' identifies vulnerabilities but doesn't remove packages."
+            }
+          ]
+        },
+        {
+          "id": "8bbaa6cd-4b8d-45eb-b33d-cdf96f3a96f9",
+          "question": "What is the purpose of the 'yarn global add' command?",
+          "description": "Explain the role of the 'yarn global add' command in Yarn.",
+          "hint": "Consider the installation of global packages.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Installs a package globally on your machine.",
+              "points": 3,
+              "explanation": "Correct! 'yarn global add' installs a package globally on your machine."
+            },
+            {
+              "label": "B",
+              "description": "Adds a package as a project dependency.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn global add' is for global installations, not project dependencies."
+            },
+            {
+              "label": "C",
+              "description": "Removes a global package from your machine.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn global add' is for installation, not removal."
+            }
+          ]
+        },
+        {
+          "id": "7ef3f1e0-1205-41b0-8a0b-0d865ca26ab2",
+          "question": "How can you check the version of Yarn installed on your machine?",
+          "description": "Explain the process of checking the Yarn version.",
+          "hint": "Consider the command for displaying version information.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn version",
+              "points": 3,
+              "explanation": "Correct! 'yarn version' displays the installed Yarn version."
+            },
+            {
+              "label": "B",
+              "description": "yarn --info",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn --info' is not the command for checking the Yarn version."
+            },
+            {
+              "label": "C",
+              "description": "yarn show version",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn show version' is not the correct command for checking the version."
+            }
+          ]
+        },
+        {
+          "id": "fa5e4c5d-b7a8-4a7b-9c25-e7f2a3f9e827",
+          "question": "What is the purpose of the 'yarn.lock' file?",
+          "description": "Explain the role of the 'yarn.lock' file in a Yarn project.",
+          "hint": "Consider version control and dependency management.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "It stores the project's configuration settings.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn.lock' is primarily for dependency versioning."
+            },
+            {
+              "label": "B",
+              "description": "It locks down the versions of dependencies for consistent builds.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn.lock' helps ensure consistent dependency versions across different environments."
+            },
+            {
+              "label": "C",
+              "description": "It is used for storing log information.",
+              "points": 0,
+              "explanation": "Incorrect. Log information is typically not stored in 'yarn.lock'."
+            }
+          ]
+        },
+        {
+          "id": "e895cd9f-8501-4e78-a9a9-f8c844f50ad9",
+          "question": "How can you add a development dependency in Yarn?",
+          "description": "Explain the process of adding a development dependency using Yarn.",
+          "hint": "Consider the difference between regular and development dependencies.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn add --dev <package>",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn add --dev' is used to add a development dependency in Yarn."
+            },
+            {
+              "label": "B",
+              "description": "yarn install --dev <package>",
+              "points": 0,
+              "explanation": "Incorrect syntax. The correct command is 'yarn add --dev'."
+            },
+            {
+              "label": "C",
+              "description": "yarn devDependency add <package>",
+              "points": 0,
+              "explanation": "Incorrect command. Use 'yarn add --dev' for development dependencies."
+            }
+          ]
+        },
+        {
+          "id": "fb6c6e98-7c0a-4a5a-9f0d-293354d5a1e9",
+          "question": "What is the purpose of the 'yarn upgrade' command?",
+          "description": "Explain the purpose of the 'yarn upgrade' command.",
+          "hint": "Think about updating dependencies.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Installs new dependencies for the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn upgrade' focuses on upgrading existing dependencies."
+            },
+            {
+              "label": "B",
+              "description": "Upgrades all dependencies to their latest versions based on the version ranges specified in 'package.json'.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn upgrade' updates dependencies to their latest versions within version constraints."
+            },
+            {
+              "label": "C",
+              "description": "Removes all project dependencies.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn upgrade' doesn't remove dependencies; it upgrades them."
+            }
+          ]
+        },
+        {
+          "id": "a57f4376-3f6f-4cd7-8b72-50a9d92c3c72",
+          "question": "What does the 'yarn audit' command do?",
+          "description": "Explain the role of the 'yarn audit' command in Yarn.",
+          "hint": "Think about security and vulnerability checks.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Generates a report of project dependencies with security vulnerabilities.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn audit' helps identify and report security vulnerabilities in project dependencies."
+            },
+            {
+              "label": "B",
+              "description": "Installs security updates for project dependencies.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn audit' reports vulnerabilities but doesn't install updates."
+            },
+            {
+              "label": "C",
+              "description": "Removes all security-related packages from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn audit' identifies vulnerabilities but doesn't remove packages."
+            }
+          ]
+        },
+        {
+          "id": "7bb4e8c1-504f-4e6c-b6e5-171d71118078",
+          "question": "What is the purpose of the 'yarn global add' command?",
+          "description": "Explain the role of the 'yarn global add' command in Yarn.",
+          "hint": "Consider the installation of global packages.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Installs a package globally on your machine.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn global add' installs a package globally on your machine."
+            },
+            {
+              "label": "B",
+              "description": "Adds a package as a project dependency.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn global add' is for global installations, not project dependencies."
+            },
+            {
+              "label": "C",
+              "description": "Removes a global package from your machine.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn global add' is for installation, not removal."
+            }
+          ]
+        },
+        {
+          "id": "af60f0b7-9ef3-497e-9d5d-2cb24f38f59b",
+          "question": "How can you check the version of Yarn installed on your machine?",
+          "description": "Explain the process of checking the Yarn version.",
+          "hint": "Consider the command for displaying version information.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn version",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn version' displays the installed Yarn version."
+            },
+            {
+              "label": "B",
+              "description": "yarn --info",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn --info' is not the command for checking the Yarn version."
+            },
+            {
+              "label": "C",
+              "description": "yarn show version",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn show version' is not the correct command for checking the version."
+            }
+          ]
+        },
+        {
+          "id": "c07702cf-b243-409d-b684-017ec869e1f0",
+          "question": "What does the 'yarn list' command do?",
+          "description": "Explain the purpose of the 'yarn list' command.",
+          "hint": "Think about listing project dependencies.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Lists all installed packages globally.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn list' is primarily for listing project dependencies."
+            },
+            {
+              "label": "B",
+              "description": "Lists all installed packages in the current project.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn list' shows installed packages in the current project."
+            },
+            {
+              "label": "C",
+              "description": "Lists outdated packages in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn list' does not specifically list outdated packages."
+            }
+          ]
+        },
+        {
+          "id": "61c9c165-432d-4037-913e-571f696c557b",
+          "question": "What is the purpose of the 'yarn cache clean' command?",
+          "description": "Explain the role of the 'yarn cache clean' command in Yarn.",
+          "hint": "Consider the management of the package cache.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Deletes all packages from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn cache clean' is focused on the package cache, not project packages."
+            },
+            {
+              "label": "B",
+              "description": "Clears the global package cache on your machine.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn cache clean' is used to clear the global package cache."
+            },
+            {
+              "label": "C",
+              "description": "Updates all packages to their latest versions.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn cache clean' does not update packages; it cleans the package cache."
+            }
+          ]
+        },
+        {
+          "id": "9272b749-242b-4902-9c34-59b877464a5f",
+          "question": "How can you create a new Yarn project in a specific directory?",
+          "description": "Explain the process of initializing a new Yarn project in a custom directory.",
+          "hint": "Consider the 'yarn init' command options.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn init --directory <path>",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn init --directory <path>' initializes a new Yarn project in the specified directory."
+            },
+            {
+              "label": "B",
+              "description": "yarn new --project <path>",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn new' is not a valid command for creating a new Yarn project."
+            },
+            {
+              "label": "C",
+              "description": "yarn create --folder <path>",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn create' is used for creating projects from templates, not for initializing a new project in a directory."
+            }
+          ]
+        },
+        {
+          "id": "d586a856-1c62-4a29-916e-5d4dfb3e7b11",
+          "question": "What does the 'yarn why <package>' command do?",
+          "description": "Explain the purpose of the 'yarn why <package>' command in Yarn.",
+          "hint": "Think about exploring package dependencies.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Displays information about why a package is installed.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn why <package>' shows information about why a package is part of the dependency tree."
+            },
+            {
+              "label": "B",
+              "description": "Lists all packages that depend on the specified package.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why <package>' focuses on why a specific package is installed, not what depends on it."
+            },
+            {
+              "label": "C",
+              "description": "Removes a package from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why <package>' is for exploration, not removal."
+            }
+          ]
+        },
+        {
+          "id": "38a3a7eb-9f93-4e07-a4c5-8443340b474e",
+          "question": "What is the purpose of the 'yarn workspaces' feature?",
+          "description": "Explain the role of 'yarn workspaces' in managing projects.",
+          "hint": "Consider how 'yarn workspaces' handles multiple packages in a single repository.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It installs global dependencies for all workspaces.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn workspaces' is not for managing global dependencies."
+            },
+            {
+              "label": "B",
+              "description": "It enables hoisting of dependencies to the root level in a multi-package repository.",
+              "points": 3,
+              "explanation": "Correct! 'yarn workspaces' allows hoisting dependencies to the root, reducing duplicate packages."
+            },
+            {
+              "label": "C",
+              "description": "It automatically updates all packages in a workspace.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn workspaces' does not automatically update all packages."
+            }
+          ]
+        },
+        {
+          "id": "e6d246b2-0a3b-4ed9-a71c-201f87e5d04f",
+          "question": "How can you run a script in a specific workspace using Yarn?",
+          "description": "Explain the process of executing a script in a particular workspace.",
+          "hint": "Consider the 'yarn workspace' command.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn execute <workspace> <script>",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn workspace' is the correct command for running scripts in a specific workspace."
+            },
+            {
+              "label": "B",
+              "description": "yarn run-script --workspace=<workspace> <script>",
+              "points": 2,
+              "explanation": "Partial credit. The correct syntax is 'yarn workspace <workspace> <script>'."
+            },
+            {
+              "label": "C",
+              "description": "yarn workspace <workspace> run <script>",
+              "points": 3,
+              "explanation": "Correct! 'yarn workspace <workspace> run <script>' executes a script in a specific workspace."
+            }
+          ]
+        },
+        {
+          "id": "3c634f6a-4cc5-4b8c-99d7-b6830509a448",
+          "question": "What is the purpose of the 'yarn link' command?",
+          "description": "Explain the role of 'yarn link' in a Yarn project.",
+          "hint": "Think about linking local packages during development.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It links global packages to the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn link' is for linking local packages, not global ones."
+            },
+            {
+              "label": "B",
+              "description": "It links a local package into another project for development.",
+              "points": 3,
+              "explanation": "Correct! 'yarn link' is used to link a local package into another project for development purposes."
+            },
+            {
+              "label": "C",
+              "description": "It creates symbolic links for all project dependencies.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn link' does not create symbolic links for all project dependencies."
+            }
+          ]
+        },
+        {
+          "id": "51a1770a-2a04-4f63-a7f1-b4a4476c116f",
+          "question": "What does the 'yarn why --json <package>' command do?",
+          "description": "Explain the purpose of 'yarn why --json <package>' in Yarn.",
+          "hint": "Consider the format of the output and how it provides information about dependencies.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It displays information about why a package is installed in JSON format.",
+              "points": 3,
+              "explanation": "Correct! 'yarn why --json <package>' provides information about why a package is installed in JSON format."
+            },
+            {
+              "label": "B",
+              "description": "It lists all packages that depend on the specified package in JSON format.",
+              "points": 2,
+              "explanation": "Partial credit. The command without '--json' provides information about dependencies."
+            },
+            {
+              "label": "C",
+              "description": "It removes a package from the project in JSON format.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why --json <package>' is for exploration, not removal."
+            }
+          ]
+        },
+        {
+          "id": "b1d24f94-18f3-4d99-8ea7-c9d0726f9f06",
+          "question": "What is the purpose of the 'yarn config' command?",
+          "description": "Explain the role of 'yarn config' in Yarn.",
+          "hint": "Think about configuration settings for Yarn.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It displays information about the Yarn configuration in the project.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn config' is used to view or modify configuration settings."
+            },
+            {
+              "label": "B",
+              "description": "It removes all configuration settings from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn config' does not remove configuration settings."
+            },
+            {
+              "label": "C",
+              "description": "It adds a new configuration setting to the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn config' is for viewing or modifying existing configuration settings."
+            }
+          ]
+        },
+        {
+          "id": "e1738b94-8c88-4b94-901f-d630e843f79a",
+          "question": "How can you check for outdated dependencies in a Yarn project?",
+          "description": "Explain the process of identifying outdated dependencies.",
+          "hint": "Consider the relevant command for checking dependency versions.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn outdated",
+              "points": 3,
+              "explanation": "Correct! 'yarn outdated' is used to check for outdated dependencies in a Yarn project."
+            },
+            {
+              "label": "B",
+              "description": "yarn update --check",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn update' is not the correct command, but 'yarn outdated' is."
+            },
+            {
+              "label": "C",
+              "description": "yarn check-updates",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn check-updates' is not the correct command for checking outdated dependencies."
+            }
+          ]
+        },
+        {
+          "id": "16029222-3c72-4b01-b513-05e996ac7a9f",
+          "question": "What is the purpose of the 'yarn autoclean' command?",
+          "description": "Explain the role of 'yarn autoclean' in Yarn.",
+          "hint": "Consider the management of unused dependencies.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It removes all dependencies from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn autoclean' does not remove all dependencies."
+            },
+            {
+              "label": "B",
+              "description": "It removes dependencies that are no longer used or referenced in the project.",
+              "points": 3,
+              "explanation": "Correct! 'yarn autoclean' removes unused dependencies from the project."
+            },
+            {
+              "label": "C",
+              "description": "It automatically updates all project dependencies.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn autoclean' does not update dependencies; it cleans unused ones."
+            }
+          ]
+        },
+        {
+          "id": "c30d0710-632f-48e4-8a8d-c2bc0a020f63",
+          "question": "What is the purpose of the 'yarn why-not' command?",
+          "description": "Explain the role of 'yarn why-not' in Yarn.",
+          "hint": "Think about investigating potential dependency conflicts.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It identifies why a package is not installed.",
+              "points": 3,
+              "explanation": "Correct! 'yarn why-not' helps investigate why a package cannot be installed."
+            },
+            {
+              "label": "B",
+              "description": "It lists all packages that are not installed in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why-not' is focused on why a specific package is not installed."
+            },
+            {
+              "label": "C",
+              "description": "It removes packages that are not installed.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why-not' does not remove packages; it investigates installation issues."
+            }
+          ]
+        },
+        {
+          "id": "a93e1702-144d-4d98-bb0f-95df19b1717a",
+          "question": "How can you create a new Yarn project with a specific package manager version?",
+          "description": "Explain the process of initializing a new Yarn project with a specified Yarn version.",
+          "hint": "Consider the '--use-yarnrc' option.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn init --yarnrc=<version>",
+              "points": 0,
+              "explanation": "Incorrect syntax. The correct option is '--use-yarnrc'."
+            },
+            {
+              "label": "B",
+              "description": "yarn create --yarnrc=<version>",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn create' is not the correct command for specifying the Yarn version."
+            },
+            {
+              "label": "C",
+              "description": "yarn init --use-yarnrc=<version>",
+              "points": 3,
+              "explanation": "Correct! 'yarn init --use-yarnrc=<version>' initializes a new Yarn project with the specified Yarn version."
+            }
+          ]
+        },
+        {
+          "id": "a7c998e9-2ef5-4781-aafc-1f8e196c239e",
+          "question": "What is the purpose of the 'yarn import' command?",
+          "description": "Explain the role of 'yarn import' in a Yarn project.",
+          "hint": "Consider importing dependencies from another package manager.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It imports dependencies from a package.json file.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn import' is used to import dependencies from other package managers but not specifically from a package.json file."
+            },
+            {
+              "label": "B",
+              "description": "It imports dependencies from a different package manager, converting them to Yarn format.",
+              "points": 3,
+              "explanation": "Correct! 'yarn import' is used to import dependencies from other package managers and converts them to Yarn format."
+            },
+            {
+              "label": "C",
+              "description": "It imports all dependencies from a project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn import' is focused on importing dependencies from other package managers, not from a project."
+            }
+          ]
+        },
+        {
+          "id": "d53fb5a6-58f7-429f-82a3-7e7e67e32f69",
+          "question": "Explain the purpose of the 'yarn constraints' feature in Yarn.",
+          "description": "Describe how 'yarn constraints' can be used in managing project dependencies.",
+          "hint": "Consider scenarios where fine-grained control over dependencies is required.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "It enforces constraints on versions for specific packages in a project.",
+              "points": 3,
+              "explanation": "Correct! 'yarn constraints' enforces constraints on versions for specific packages in a Yarn project."
+            },
+            {
+              "label": "B",
+              "description": "It sets constraints on the maximum number of dependencies a project can have.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn constraints' is about version constraints, not the number of dependencies."
+            },
+            {
+              "label": "C",
+              "description": "It constraints the execution order of scripts in a Yarn project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn constraints' is not related to the execution order of scripts."
+            }
+          ]
+        },
+        {
+          "id": "d1e5b7d2-c5cc-4966-bde5-86d15f41eb93",
+          "question": "How does 'yarn pack' differ from 'yarn install'?",
+          "description": "Explain the differences between 'yarn pack' and 'yarn install' in Yarn.",
+          "hint": "Consider scenarios where packaging and installing dependencies are distinct.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn pack creates a compressed archive of the project, while yarn install installs dependencies.",
+              "points": 3,
+              "explanation": "Correct! 'yarn pack' creates a compressed archive, and 'yarn install' installs dependencies."
+            },
+            {
+              "label": "B",
+              "description": "yarn pack installs dependencies, while yarn install creates a compressed archive.",
+              "points": 0,
+              "explanation": "Incorrect. The roles are reversed; 'yarn install' installs dependencies, and 'yarn pack' creates an archive."
+            },
+            {
+              "label": "C",
+              "description": "Both commands serve the same purpose of installing dependencies.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn pack' and 'yarn install' have distinct purposes in Yarn."
+            }
+          ]
+        },
+        {
+          "id": "90554d64-2854-4efb-8f48-17296b2f19d5",
+          "question": "What is the purpose of the 'yarn plugin import' command?",
+          "description": "Explain the role of 'yarn plugin import' in extending Yarn functionality.",
+          "hint": "Think about incorporating external functionality into a Yarn project.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "It imports plugins from a package.json file.",
+              "points": 2,
+              "explanation": "Partial credit. 'yarn plugin import' is used to import plugins but not specifically from a package.json file."
+            },
+            {
+              "label": "B",
+              "description": "It imports plugins from a different package manager, integrating them into the Yarn project.",
+              "points": 3,
+              "explanation": "Correct! 'yarn plugin import' imports plugins from other package managers and integrates them into the Yarn project."
+            },
+            {
+              "label": "C",
+              "description": "It exports Yarn plugins to be used in other projects.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn plugin import' is focused on importing, not exporting plugins."
+            }
+          ]
+        },
+        {
+          "id": "93a6d268-9f1d-4c68-8c54-004b147ef8d4",
+          "question": "Explain the purpose of the 'yarn link --all' command.",
+          "description": "Describe the role of 'yarn link --all' in managing linked packages.",
+          "hint": "Consider scenarios where linking multiple packages is necessary.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "It links all packages in the project to each other.",
+              "points": 3,
+              "explanation": "Correct! 'yarn link --all' links all packages in the project to each other."
+            },
+            {
+              "label": "B",
+              "description": "It links a specific package to all other packages in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn link --all' links all packages to each other, not a specific package to others."
+            },
+            {
+              "label": "C",
+              "description": "It links global packages to all packages in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn link --all' is about linking local packages, not global ones."
+            }
+          ]
+        },
+        {
+          "id": "d695a1eb-537c-4f67-8236-d34c8f94c27e",
+          "question": "How can you publish a Yarn package to a private registry?",
+          "description": "Explain the process of publishing a Yarn package to a registry with restricted access.",
+          "hint": "Consider the 'publishConfig' field in package.json.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn publish --registry=<registry-url>",
+              "points": 0,
+              "explanation": "Incorrect. The correct approach involves configuring the 'publishConfig' field in package.json."
+            },
+            {
+              "label": "B",
+              "description": "Set the 'publishConfig' field in package.json with the desired registry URL and then use 'yarn publish'.",
+              "points": 3,
+              "explanation": "Correct! Configuring 'publishConfig' and using 'yarn publish' ensures the package is published to the specified registry."
+            },
+            {
+              "label": "C",
+              "description": "Use 'yarn release --private --registry=<registry-url>'.",
+              "points": 0,
+              "explanation": "Incorrect. There is no 'release' command, and the correct approach involves the 'publish' command with proper configuration."
+            }
+          ]
+        },
+        {
+          "id": "cb44509e-e733-44ce-b5db-b248e88bf300",
+          "question": "What is the purpose of the 'yarn audit' command?",
+          "description": "Explain how 'yarn audit' helps in identifying and fixing security vulnerabilities.",
+          "hint": "Consider scenarios where checking and resolving vulnerabilities is crucial.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "It automatically fixes security vulnerabilities in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn audit' identifies vulnerabilities but does not automatically fix them."
+            },
+            {
+              "label": "B",
+              "description": "It lists security vulnerabilities in project dependencies and provides guidance on fixing them.",
+              "points": 3,
+              "explanation": "Correct! 'yarn audit' identifies vulnerabilities and offers guidance on how to address them."
+            },
+            {
+              "label": "C",
+              "description": "It upgrades all project dependencies to the latest versions to address vulnerabilities.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn audit' provides information but does not automatically upgrade dependencies."
+            }
+          ]
+        },
+        {
+          "id": "9ccf0c1a-1586-42f9-9e60-2d65ab43813e",
+          "question": "What is the purpose of the 'yarn policy' command?",
+          "description": "Explain how 'yarn policy' is used in managing project dependency versions.",
+          "hint": "Consider scenarios where enforcing version policies is important.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "It sets policies for the entire project, ensuring consistent dependency versions.",
+              "points": 3,
+              "explanation": "Correct! 'yarn policy' is used to set and enforce policies for consistent dependency versions across the project."
+            },
+            {
+              "label": "B",
+              "description": "It displays information about the Yarn policies in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn policy' is for setting and enforcing policies, not just displaying information."
+            },
+            {
+              "label": "C",
+              "description": "It removes all policies from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn policy' is about setting and enforcing policies, not removing them."
+            }
+          ]
+        },
+        {
+          "id": "0861f865-5d71-4c6c-85b9-cd43102eb289",
+          "question": "How can you customize the installation process for Yarn plugins?",
+          "description": "Explain the options available for customizing the installation of Yarn plugins.",
+          "hint": "Consider the use of 'pluginConfig' in package.json.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "There is no way to customize the installation process for Yarn plugins.",
+              "points": 0,
+              "explanation": "Incorrect. Customization options are available using 'pluginConfig' in package.json."
+            },
+            {
+              "label": "B",
+              "description": "Use 'yarn add --plugin=<plugin-name>' to customize the installation of a specific plugin.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn add' is for adding packages, and there is a dedicated configuration approach for plugins."
+            },
+            {
+              "label": "C",
+              "description": "Define 'pluginConfig' in package.json with customization options for the desired plugins.",
+              "points": 3,
+              "explanation": "Correct! 'pluginConfig' in package.json allows customization of the installation process for Yarn plugins."
+            }
+          ]
+        },
+        {
+          "id": "3df9d583-6c6a-42f8-8a23-3227cf58cf15",
+          "question": "What is the purpose of the 'yarn unplug' command?",
+          "description": "Explain how 'yarn unplug' is used in managing plugins in a Yarn project.",
+          "hint": "Think about scenarios where removing plugins is necessary.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "It removes a specific plugin from the project.",
+              "points": 3,
+              "explanation": "Correct! 'yarn unplug' removes a specific plugin from the project."
+            },
+            {
+              "label": "B",
+              "description": "It removes all installed plugins from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn unplug' is focused on removing a specific plugin, not all plugins."
+            },
+            {
+              "label": "C",
+              "description": "It disables all installed plugins without removing them.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn unplug' removes a specific plugin rather than disabling all plugins."
+            }
+          ]
+        },
+        {
+          "id": "39c5b61d-8c6d-4a17-a3e5-9a7687967f42",
+          "question": "Explain the purpose of the 'yarn why --all' command.",
+          "description": "Describe how 'yarn why --all' can be used to analyze the dependency tree in a Yarn project.",
+          "hint": "Consider scenarios where a detailed analysis of dependencies is beneficial.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "It provides information about why a specific package is installed, including all dependencies.",
+              "points": 3,
+              "explanation": "Correct! 'yarn why --all' offers detailed information about why a specific package is installed, including its entire dependency tree."
+            },
+            {
+              "label": "B",
+              "description": "It lists all packages in the project along with their dependencies.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why --all' focuses on a specific package and its dependencies, not the entire project."
+            },
+            {
+              "label": "C",
+              "description": "It analyzes the project's overall performance by considering all installed packages.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why --all' is more about understanding the dependency tree than analyzing overall project performance."
+            }
+          ]
+        },
+        {
+          "id": "c8764a21-21ef-4a08-a9ec-556057297550",
+          "question": "Explain the role of the 'yarn constraints list' command in managing constraints.",
+          "description": "Describe how 'yarn constraints list' can be used to view existing constraints in a Yarn project.",
+          "hint": "Consider scenarios where visibility into applied constraints is crucial.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "It displays a list of all constraints applied to the project's dependencies.",
+              "points": 3,
+              "explanation": "Correct! 'yarn constraints list' shows a list of all constraints applied to the project's dependencies."
+            },
+            {
+              "label": "B",
+              "description": "It lists all packages that do not have constraints in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn constraints list' focuses on displaying constraints, not packages without constraints."
+            },
+            {
+              "label": "C",
+              "description": "It removes all constraints from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn constraints list' is for viewing constraints, not removing them."
+            }
+          ]
+        },
+        {
+          "id": "6954be79-2cbf-457d-a0b8-bfb9838e9a17",
+          "question": "How does 'yarn pack' differ from 'yarn dedupe' in terms of reducing package duplication?",
+          "description": "Explain the differences between 'yarn pack' and 'yarn dedupe' in reducing duplicate packages.",
+          "hint": "Consider scenarios where minimizing duplicate packages is important.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "yarn pack removes duplicate packages, while yarn dedupe creates a compressed archive.",
+              "points": 0,
+              "explanation": "Incorrect. The roles are reversed; 'yarn dedupe' is for minimizing duplicates, and 'yarn pack' creates an archive."
+            },
+            {
+              "label": "B",
+              "description": "yarn dedupe removes duplicate packages, while yarn pack creates a compressed archive.",
+              "points": 3,
+              "explanation": "Correct! 'yarn dedupe' is designed to reduce duplicate packages, while 'yarn pack' creates an archive."
+            },
+            {
+              "label": "C",
+              "description": "Both commands serve the same purpose of minimizing duplicate packages.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn pack' and 'yarn dedupe' have distinct purposes in Yarn."
+            }
+          ]
+        },
+        {
+          "id": "57b3c387-75d0-4e4f-8a1f-05a11d1f7e52",
+          "question": "What is the purpose of the 'yarn set resolution' command?",
+          "description": "Explain how 'yarn set resolution' is used in managing version resolutions for dependencies.",
+          "hint": "Think about scenarios where precise control over dependency versions is necessary.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "It sets resolutions for all dependencies in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn set resolution' is for specific dependencies, not all of them."
+            },
+            {
+              "label": "B",
+              "description": "It updates all dependencies to the latest versions specified in the resolutions.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn set resolution' sets resolutions but does not automatically update dependencies."
+            },
+            {
+              "label": "C",
+              "description": "It sets resolutions for a specific dependency in the project.",
+              "points": 3,
+              "explanation": "Correct! 'yarn set resolution' is used to set resolutions for a particular dependency."
+            }
+          ]
+        },
+        {
+          "id": "cb535b9e-3d3a-4164-b5e1-6ed09f2421e9",
+          "question": "What is the purpose of the 'yarn install --immutable' command?",
+          "description": "Explain how 'yarn install --immutable' affects the installation process of dependencies.",
+          "hint": "Consider scenarios where enforcing immutability in dependencies is important.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "It installs dependencies and makes them immutable, preventing further updates.",
+              "points": 3,
+              "explanation": "Correct! 'yarn install --immutable' installs dependencies and makes them immutable to prevent further updates."
+            },
+            {
+              "label": "B",
+              "description": "It installs only immutable dependencies from the lockfile.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn install --immutable' affects the installation process but doesn't selectively install immutable dependencies."
+            },
+            {
+              "label": "C",
+              "description": "It removes all dependencies from the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn install --immutable' is for installation with immutability, not removal."
+            }
+          ]
+        },
+        {
+          "id": "c051e4fc-66a8-4d35-8a12-7b4f36668525",
+          "question": "Explain the purpose of the 'yarn set version' command.",
+          "description": "Describe how 'yarn set version' is used in managing the Yarn version for a project.",
+          "hint": "Think about scenarios where specifying a Yarn version is necessary.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "It sets the Yarn version for all projects on the machine.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn set version' is project-specific, not for all projects on the machine."
+            },
+            {
+              "label": "B",
+              "description": "It updates Yarn to the latest version across the entire project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn set version' is about specifying a version, not updating to the latest."
+            },
+            {
+              "label": "C",
+              "description": "It sets the Yarn version for a specific project.",
+              "points": 3,
+              "explanation": "Correct! 'yarn set version' is used to specify the Yarn version for a particular project."
+            }
+          ]
+        },
+        {
+          "id": "a0ea86aa-d8cb-4ba5-b199-07e49ff6d93e",
+          "question": "How does 'yarn generate-lock-entry' contribute to managing the lockfile?",
+          "description": "Explain the role of 'yarn generate-lock-entry' in the context of the lockfile.",
+          "hint": "Consider scenarios where fine-grained control over the lockfile is necessary.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "It adds a new entry to the lockfile for a specific package.",
+              "points": 3,
+              "explanation": "Correct! 'yarn generate-lock-entry' adds a new entry to the lockfile for a specific package."
+            },
+            {
+              "label": "B",
+              "description": "It removes a specific entry from the lockfile.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn generate-lock-entry' is about adding entries, not removing them."
+            },
+            {
+              "label": "C",
+              "description": "It generates an entirely new lockfile for the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn generate-lock-entry' is more focused on individual entries rather than the entire lockfile."
+            }
+          ]
+        },
+        {
+          "id": "43cf6eaf-d31d-42c2-b3f7-dacbd00286db",
+          "question": "What is the purpose of the 'yarn dlx' command?",
+          "description": "Explain how 'yarn dlx' is used to run single-use commands without adding them to the project.",
+          "hint": "Think about scenarios where executing temporary or one-off commands is beneficial.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "It downloads and installs a package globally on the machine.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn dlx' is focused on running commands without global installation."
+            },
+            {
+              "label": "B",
+              "description": "It runs a command without installing it globally or adding it to the project.",
+              "points": 3,
+              "explanation": "Correct! 'yarn dlx' is used to execute commands without the need for global installation or project dependency."
+            },
+            {
+              "label": "C",
+              "description": "It adds a command as a project dependency without installing it.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn dlx' is for running commands without adding them as dependencies."
+            }
+          ]
+        },
+        {
+          "id": "e5e36c8e-0c9c-49cc-b22e-f8b4e284ba47",
+          "question": "How can you exclude specific packages from being hoisted in a Yarn project?",
+          "description": "Explain the process of preventing hoisting for certain packages.",
+          "hint": "Consider scenarios where control over package hoisting is necessary.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "Use 'yarn install --no-hoist' to exclude all packages from being hoisted.",
+              "points": 0,
+              "explanation": "Incorrect. '--no-hoist' excludes all packages, not specific ones."
+            },
+            {
+              "label": "B",
+              "description": "Add the packages to the 'nohoist' configuration in package.json to exclude them from hoisting.",
+              "points": 3,
+              "explanation": "Correct! Adding packages to 'nohoist' in package.json prevents them from being hoisted."
+            },
+            {
+              "label": "C",
+              "description": "Manually remove packages from the 'node_modules' directory after hoisting.",
+              "points": 0,
+              "explanation": "Incorrect. Manual removal after hoisting is not the recommended way to exclude packages."
+            }
+          ]
+        },
+        {
+          "id": "81a0192f-9d8e-4c21-9171-2eb9ac831579",
+          "question": "Explain the purpose of the 'yarn why-not --all' command.",
+          "description": "Describe how 'yarn why-not --all' can be used to analyze potential conflicts in package installations.",
+          "hint": "Consider scenarios where investigating dependency conflicts is important.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "It provides information about why a specific package cannot be installed, including all conflicting dependencies.",
+              "points": 3,
+              "explanation": "Correct! 'yarn why-not --all' offers detailed information about why a specific package cannot be installed, including conflicting dependencies."
+            },
+            {
+              "label": "B",
+              "description": "It lists all packages in the project along with their potential conflicts.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why-not --all' focuses on a specific package and its conflicts, not the entire project."
+            },
+            {
+              "label": "C",
+              "description": "It analyzes the project's overall performance by considering all potential conflicts.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn why-not --all' is more about understanding conflicts related to a specific package."
+            }
+          ]
+        },
+        {
+          "id": "b9ba4c0f-2b5e-45de-b172-6d06b8c2ea68",
+          "question": "What is the purpose of the 'yarn plugin list' command?",
+          "description": "Explain how 'yarn plugin list' is used to view installed plugins in a Yarn project.",
+          "hint": "Think about scenarios where visibility into installed plugins is important.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "It displays a list of all available Yarnplugins, including those not installed in the project.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn plugin list' focuses on installed plugins within the project, not all available ones."
+            },
+            {
+              "label": "B",
+              "description": "It lists all packages in the project along with their associated plugins.",
+              "points": 0,
+              "explanation": "Incorrect. 'yarn plugin list' is about viewing installed plugins, not listing all packages in the project."
+            },
+            {
+              "label": "C",
+              "description": "It displays a list of all installed plugins in the Yarn project.",
+              "points": 3,
+              "explanation": "Correct! 'yarn plugin list' shows a list of all installed plugins within the Yarn project."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

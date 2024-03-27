@@ -1,0 +1,1674 @@
+{
+    "skill": {
+        "SolidJs": {
+            "id": "solid-js",
+            "description": "Solid is a reactive JavaScript toolkit for building user interfaces without a virtual DOM. To ensure that only the relevant code is executed when a state update occurs, it compiles templates down to real DOM nodes once and wraps modifications into fine-grained reactions.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Official Website - SolidJS",
+                    "link": "https://www.solidjs.com/"
+                },
+                {
+                    "name": "SolidJS Tutorial",
+                    "link": "https://www.solidjs.com/tutorial/introduction_basics"
+                }
+            ],
+            "parents": [
+                "pick-a-framework"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "123a4567-b890-cd12-34ef-5678gh901234",
+                    "question": "What is the primary purpose of SolidJS in web development?",
+                    "description": "Explore the main role of SolidJS compared to other JavaScript frameworks.",
+                    "hint": "Consider SolidJS's approach to building user interfaces.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Virtual DOM Manipulation",
+                            "description": "SolidJS uses a virtual DOM for efficient updates and reactivity.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS uses fine-grained reactions and compiles templates to real DOM nodes for optimal performance."
+                        },
+                        {
+                            "label": "Server-Side Rendering",
+                            "description": "SolidJS focuses on server-side rendering for web applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is primarily focused on client-side rendering for efficient UI updates."
+                        },
+                        {
+                            "label": "Backend API Development",
+                            "description": "SolidJS is designed for backend API development.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is mainly a frontend framework for building user interfaces."
+                        },
+                        {
+                            "label": "Database Management",
+                            "description": "SolidJS focuses on managing databases and data storage.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is not primarily focused on database management."
+                        }
+                    ]
+                },
+                {
+                    "id": "0d54f29e-fe0d-45ed-a3fd-a63b45ad58a6",
+                    "question": "How does SolidJS handle state updates in user interfaces?",
+                    "description": "Explore the approach SolidJS takes to manage and update state in web applications.",
+                    "hint": "Consider the reactivity and compilation aspects of SolidJS.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Virtual DOM Diffing",
+                            "description": "SolidJS relies on virtual DOM diffing to update the user interface.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS avoids virtual DOM diffing and compiles templates to real DOM nodes for better performance."
+                        },
+                        {
+                            "label": "Fine-Grained Reactions",
+                            "description": "SolidJS uses fine-grained reactions to selectively update only the relevant parts of the DOM.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS ensures that only the necessary code is executed during state updates, improving efficiency."
+                        },
+                        {
+                            "label": "Server-Side State Management",
+                            "description": "SolidJS relies on server-side state management for user interfaces.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side state management for reactive UIs."
+                        },
+                        {
+                            "label": "Static State Compilation",
+                            "description": "SolidJS statically compiles state during application initialization.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS uses dynamic reactions rather than static state compilation for updates."
+                        }
+                    ]
+                },
+                {
+                    "id": "4d9661e1-e3e7-49bb-bb8e-cad1ac3682ad",
+                    "question": "What sets SolidJS apart from traditional virtual DOM-based frameworks?",
+                    "description": "Explore the unique features or characteristics of SolidJS compared to other frontend frameworks.",
+                    "hint": "Consider SolidJS's compilation approach and its impact on performance.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Heavy Virtual DOM Usage",
+                            "description": "SolidJS heavily relies on traditional virtual DOM for UI updates.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS minimizes virtual DOM usage for improved performance."
+                        },
+                        {
+                            "label": "Frequent Full Re-renders",
+                            "description": "SolidJS frequently performs full re-renders of the entire UI.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS aims to avoid unnecessary re-renders by updating only the relevant parts of the DOM."
+                        },
+                        {
+                            "label": "Real DOM Node Compilation",
+                            "description": "SolidJS compiles templates down to real DOM nodes for efficient updates.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's compilation approach reduces the need for traditional virtual DOM operations, leading to better performance."
+                        },
+                        {
+                            "label": "Absence of Reactivity",
+                            "description": "SolidJS lacks reactivity in handling state changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS emphasizes reactivity to manage state and UI updates efficiently."
+                        }
+                    ]
+                },
+                {
+                    "id": "25774c7e-e7b7-4e2a-9ef5-0efaa5124d51",
+                    "question": "Which aspect of web development does SolidJS prioritize?",
+                    "description": "Examine the primary focus of SolidJS in comparison to other frontend frameworks.",
+                    "hint": "Consider SolidJS's commitment to efficient user interface development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Backend API Development",
+                            "description": "SolidJS is designed for backend API development.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is primarily a frontend framework for building user interfaces."
+                        },
+                        {
+                            "label": "Efficient Frontend Development",
+                            "description": "SolidJS prioritizes efficient frontend development for user interfaces.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS is focused on providing an efficient framework for frontend development."
+                        },
+                        {
+                            "label": "Database Management",
+                            "description": "SolidJS focuses on managing databases and data storage.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is not primarily focused on database management."
+                        },
+                        {
+                            "label": "Server-Side Rendering",
+                            "description": "SolidJS relies on server-side rendering for web applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side rendering."
+                        }
+                    ]
+                },
+                {
+                    "id": "88f64dc5-fdc2-43f5-be30-53339eb0895b",
+                    "question": "How does SolidJS handle reactive updates in the user interface?",
+                    "description": "Explore SolidJS's approach to managing reactivity and updates in web applications.",
+                    "hint": "Consider the compilation and reactivity aspects of SolidJS.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Static State Compilation",
+                            "description": "SolidJS statically compiles state during application initialization.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS uses dynamic reactions rather than static state compilation for updates."
+                        },
+                        {
+                            "label": "Virtual DOM Diffing",
+                            "description": "SolidJS relies on virtual DOM diffing to update the user interface.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS avoids virtual DOM diffing for improved efficiency."
+                        },
+                        {
+                            "label": "Server-Side State Management",
+                            "description": "SolidJS relies on server-side state management for user interfaces.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side state management."
+                        },
+                        {
+                            "label": "Efficient Fine-Grained Reactions",
+                            "description": "SolidJS uses fine-grained reactions to selectively update relevant parts of the DOM.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS ensures that only the necessary code is executed during state updates for optimal performance."
+                        }
+                    ]
+                },
+                {
+                    "id": "67d9d1f5-f5fd-4a11-a251-f22d91b3c9d7",
+                    "question": "What makes SolidJS distinctive compared to traditional virtual DOM-based frameworks?",
+                    "description": "Explore the unique features or characteristics that set SolidJS apart in the frontend development landscape.",
+                    "hint": "Consider SolidJS's compilation approach and its impact on performance.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Heavy Virtual DOM Usage",
+                            "description": "SolidJS heavily relies on traditional virtual DOM for UI updates.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS minimizes virtual DOM usage for improved performance."
+                        },
+                        {
+                            "label": "Frequent Full Re-renders",
+                            "description": "SolidJS frequently performs full re-renders of the entire UI.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS aims to avoid unnecessary re-renders by updating only the relevant parts of the DOM."
+                        },
+                        {
+                            "label": "Real DOM Node Compilation",
+                            "description": "SolidJS compiles templates down to real DOM nodes for efficient updates.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's compilation approach reduces the need for traditional virtual DOM operations, leading to better performance."
+                        },
+                        {
+                            "label": "Absence of Reactivity",
+                            "description": "SolidJS lacks reactivity in handling state changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS emphasizes reactivity to manage state and UI updates efficiently."
+                        }
+                    ]
+                },
+                {
+                    "id": "471c3d88-8e38-4b99-b164-ddd89b4d186c",
+                    "question": "What is SolidJS's approach to optimizing UI updates?",
+                    "description": "Explore how SolidJS ensures efficient updates in the user interface compared to other frameworks.",
+                    "hint": "Consider the compilation process and its impact on reactivity.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Fine-Grained Reactions and Real DOM Compilation",
+                            "description": "SolidJS uses fine-grained reactions and compiles templates to real DOM nodes for efficient updates.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS optimizes UI updates through fine-grained reactions and direct compilation to real DOM nodes."
+                        },
+                        {
+                            "label": "Heavy reliance on Virtual DOM diffing",
+                            "description": "SolidJS relies heavily on traditional Virtual DOM diffing for UI updates.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS minimizes virtual DOM usage for improved performance."
+                        },
+                        {
+                            "label": "Static State Compilation",
+                            "description": "SolidJS statically compiles state during application initialization.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS uses dynamic reactions rather than static state compilation for updates."
+                        },
+                        {
+                            "label": "Server-Side Rendering",
+                            "description": "SolidJS relies on server-side rendering for web applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side rendering."
+                        }
+                    ]
+                },
+                {
+                    "id": "6861fbfa-a5a8-4d9d-8075-7cc1ad61f747",
+                    "question": "In which scenario does SolidJS excel compared to other frontend frameworks?",
+                    "description": "Examine the strengths of SolidJS in specific use cases.",
+                    "hint": "Consider SolidJS's design principles and areas where it stands out.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Heavy computation on the server side",
+                            "description": "SolidJS excels when heavy computation is performed on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is primarily focused on client-side rendering and frontend development."
+                        },
+                        {
+                            "label": "Building reactive user interfaces",
+                            "description": "SolidJS is particularly strong in building reactive user interfaces.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS is designed to excel in creating highly reactive and efficient user interfaces."
+                        },
+                        {
+                            "label": "Database management and storage",
+                            "description": "SolidJS is specialized in managing databases and data storage.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is not primarily focused on database management."
+                        },
+                        {
+                            "label": "Minimalistic web applications",
+                            "description": "SolidJS is suitable for building minimalistic web applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is versatile and can be used for a wide range of web applications."
+                        }
+                    ]
+                },
+                {
+                    "id": "82436deb-1370-4fb2-b602-a0a20c139aee",
+                    "question": "What role does the compilation process play in SolidJS?",
+                    "description": "Explore the significance of the compilation step in SolidJS's workflow.",
+                    "hint": "Consider how SolidJS compiles templates and its impact on performance.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Static Compilation of State",
+                            "description": "SolidJS statically compiles the state during the compilation process.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS uses dynamic reactions rather than static state compilation for updates."
+                        },
+                        {
+                            "label": "Avoidance of Compilation",
+                            "description": "SolidJS avoids the compilation process altogether for faster execution.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS relies on compilation to optimize UI updates and reactivity."
+                        },
+                        {
+                            "label": "Compilation to Real DOM Nodes",
+                            "description": "SolidJS compiles templates down to real DOM nodes for efficient updates.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's compilation to real DOM nodes contributes to efficient and targeted UI updates."
+                        },
+                        {
+                            "label": "Server-Side Compilation",
+                            "description": "SolidJS performs compilation on the server side for web applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side rendering."
+                        }
+                    ]
+                },
+                {
+                    "id": "d2abe9f0-3769-456a-a649-1717c80315d8",
+                    "question": "What distinguishes SolidJS's reactivity model from traditional virtual DOM frameworks?",
+                    "description": "Explore the unique characteristics of SolidJS's reactivity compared to virtual DOM-based frameworks.",
+                    "hint": "Consider how SolidJS achieves reactivity without relying on a virtual DOM diffing process.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Fine-Grained Reactions without Virtual DOM Diffing",
+                            "description": "SolidJS utilizes fine-grained reactions without traditional Virtual DOM diffing for reactivity.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS achieves reactivity through fine-grained reactions without the need for traditional virtual DOM diffing."
+                        },
+                        {
+                            "label": "Heavy Reliance on Virtual DOM Diffing",
+                            "description": "SolidJS heavily relies on traditional Virtual DOM diffing for reactivity.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS minimizes virtual DOM usage for improved reactivity and performance."
+                        },
+                        {
+                            "label": "Static State Compilation for Reactivity",
+                            "description": "SolidJS statically compiles state during application initialization for achieving reactivity.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS uses dynamic reactions rather than static state compilation for reactivity."
+                        },
+                        {
+                            "label": "Server-Side Reactivity Management",
+                            "description": "SolidJS relies on server-side reactivity management for user interfaces.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side reactivity."
+                        }
+                    ]
+                },
+                {
+                    "id": "3aaf1721-e7fd-450e-aa88-b78b8afa2bde",
+                    "question": "How does SolidJS optimize the rendering process for improved performance?",
+                    "description": "Examine the strategies employed by SolidJS to enhance rendering performance in web applications.",
+                    "hint": "Consider the compilation process and its impact on rendering efficiency.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Heavy reliance on server-side rendering",
+                            "description": "SolidJS heavily relies on server-side rendering for rendering optimization.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side rendering for performance optimization."
+                        },
+                        {
+                            "label": "Fine-Grained Reactions and Real DOM Compilation",
+                            "description": "SolidJS uses fine-grained reactions and compiles templates to real DOM nodes for efficient rendering.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS optimizes rendering through fine-grained reactions and direct compilation to real DOM nodes."
+                        },
+                        {
+                            "label": "Avoidance of rendering optimization",
+                            "description": "SolidJS intentionally avoids implementing rendering optimization strategies.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS employs rendering optimization techniques for improved performance."
+                        },
+                        {
+                            "label": "Static State Compilation",
+                            "description": "SolidJS statically compiles state during application initialization for rendering efficiency.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS uses dynamic reactions rather than static state compilation for rendering updates."
+                        }
+                    ]
+                },
+                {
+                    "id": "a322d3cc-d6ca-4e32-bd97-9030e1f78c5e",
+                    "question": "What role does reactivity play in SolidJS, and how does it contribute to user interface updates?",
+                    "description": "Explore the importance of reactivity in SolidJS and its impact on updating the user interface.",
+                    "hint": "Consider how SolidJS achieves efficient updates through its reactivity model.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Reactivity is absent in SolidJS",
+                            "description": "SolidJS lacks reactivity in managing state and UI updates.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS emphasizes reactivity for efficient user interface updates."
+                        },
+                        {
+                            "label": "Static State Compilation for Reactivity",
+                            "description": "SolidJS statically compiles state during application initialization to achieve reactivity.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS uses dynamic reactions rather than static state compilation for reactivity."
+                        },
+                        {
+                            "label": "Reactivity is solely based on server-side processing",
+                            "description": "SolidJS relies on server-side processing for achieving reactivity in the user interface.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side reactivity."
+                        },
+                        {
+                            "label": "Dynamic Reactions for Targeted Updates",
+                            "description": "SolidJS uses dynamic reactions to selectively update relevant parts of the DOM.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS leverages dynamic reactions to optimize UI updates based on state changes."
+                        }
+                    ]
+                },
+                {
+                    "id": "eb4f60e0-89a2-4045-add7-588ae8d6a198",
+                    "question": "What advantages does SolidJS offer in terms of fine-grained reactions?",
+                    "description": "Explore the benefits of SolidJS's fine-grained reactions compared to other reactivity models.",
+                    "hint": "Consider the precision and efficiency of fine-grained reactions in SolidJS.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Minimal precision in reacting to state changes",
+                            "description": "SolidJS provides minimal precision in reacting to state changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS emphasizes fine-grained reactions for precise and efficient updates."
+                        },
+                        {
+                            "label": "Optimal efficiency in UI updates",
+                            "description": "SolidJS ensures optimal efficiency by using fine-grained reactions.",
+                            "points": 3,
+                            "explanation": "Correct! Fine-grained reactions in SolidJS lead to efficient updates, executing only the necessary code."
+                        },
+                        {
+                            "label": "Heavy reliance on full re-renders",
+                            "description": "SolidJS heavily relies on full re-renders for state changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS aims to avoid unnecessary full re-renders through fine-grained reactions."
+                        },
+                        {
+                            "label": "Exclusively server-side fine-grained reactions",
+                            "description": "SolidJS exclusively uses server-side fine-grained reactions for UI updates.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS primarily focuses on client-side fine-grained reactions."
+                        }
+                    ]
+                },
+                {
+                    "id": "475bfb7c-7b9e-4559-ae90-d424a67e46b1",
+                    "question": "How does SolidJS enhance developer productivity in terms of template syntax?",
+                    "description": "Examine the features of SolidJS's template syntax that contribute to an improved development experience.",
+                    "hint": "Consider how SolidJS simplifies template syntax for developers.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Complex and verbose template syntax",
+                            "description": "SolidJS has a complex and verbose template syntax that hinders developer productivity.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS aims to provide a concise and developer-friendly template syntax."
+                        },
+                        {
+                            "label": "Absence of template syntax in SolidJS",
+                            "description": "SolidJS does not utilize any template syntax for UI development.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS employs template syntax for building user interfaces."
+                        },
+                        {
+                            "label": "Template syntax is exclusively server-side",
+                            "description": "SolidJS confines template syntax to server-side development.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS template syntax is used for client-side UI development."
+                        },
+                        {
+                            "label": "Simplified and Concise Template Syntax",
+                            "description": "SolidJS offers a simplified and concise template syntax for improved developer productivity.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS prioritizes a clear and concise template syntax to enhance developer efficiency."
+                        }
+                    ]
+                },
+                {
+                    "id": "99a6a9a6-f49e-49c9-92cd-4e632d800a12",
+                    "question": "How does SolidJS handle state reactivity compared to traditional virtual DOM frameworks?",
+                    "description": "Explore SolidJS's approach to state reactivity and its advantages over traditional virtual DOM-based frameworks.",
+                    "hint": "Consider the fine-grained reactions in SolidJS and their impact on state reactivity.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Minimal emphasis on state reactivity",
+                            "description": "SolidJS minimally emphasizes state reactivity in comparison to virtual DOM frameworks.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS places a strong emphasis on state reactivity for efficient UI updates."
+                        },
+                        {
+                            "label": "Dynamic Reactions for State Updates",
+                            "description": "SolidJS uses dynamic reactions for precise state updates and efficient UI rendering.",
+                            "points": 3,
+                            "explanation": "Correct! Dynamic reactions in SolidJS contribute to optimal state reactivity and UI rendering."
+                        },
+                        {
+                            "label": "Static State Compilation for Reactivity",
+                            "description": "SolidJS statically compiles state during initialization to achieve reactivity.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS relies on dynamic reactions rather than static state compilation for reactivity."
+                        },
+                        {
+                            "label": "Server-Side State Management",
+                            "description": "SolidJS primarily manages state reactivity on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS focuses on client-side state reactivity for user interfaces."
+                        }
+                    ]
+                },
+                {
+                    "id": "f20563d5-f7db-4eae-affc-2e0c79f2cd6f",
+                    "question": "What is the role of fine-grained reactions in SolidJS's reactivity model?",
+                    "description": "Explore how fine-grained reactions contribute to SolidJS's efficient handling of state changes and UI updates.",
+                    "hint": "Consider the precision and targeted updates achieved through fine-grained reactions.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Fine-grained reactions are absent in SolidJS",
+                            "description": "SolidJS does not incorporate fine-grained reactions for state changes and UI updates.",
+                            "points": 0,
+                            "explanation": "Incorrect. Fine-grained reactions are a key aspect of SolidJS's reactivity model."
+                        },
+                        {
+                            "label": "Heavy reliance on full re-renders",
+                            "description": "SolidJS heavily relies on full re-renders for handling state changes and UI updates.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS aims to avoid unnecessary full re-renders through fine-grained reactions."
+                        },
+                        {
+                            "label": "Optimal Efficiency in UI Updates",
+                            "description": "Fine-grained reactions in SolidJS lead to optimal efficiency by updating only relevant parts of the DOM.",
+                            "points": 3,
+                            "explanation": "Correct! Fine-grained reactions ensure precise and efficient updates in SolidJS."
+                        },
+                        {
+                            "label": "Exclusively server-side fine-grained reactions",
+                            "description": "Fine-grained reactions in SolidJS are exclusively implemented on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. Fine-grained reactions in SolidJS are primarily used on the client side for UI updates."
+                        }
+                    ]
+                },
+                {
+                    "id": "4525ddd8-4db0-461e-b057-4c7a97c6e564",
+                    "question": "How does SolidJS contribute to a more maintainable codebase in web development?",
+                    "description": "Explore the features of SolidJS that enhance code maintainability and ease of development.",
+                    "hint": "Consider how SolidJS simplifies the development process and reduces code complexity.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Simplified and Concise Syntax for Maintainability",
+                            "description": "SolidJS provides a simplified and concise syntax to enhance code maintainability.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS prioritizes a clear and concise syntax to improve code maintainability and ease of development."
+                        },
+                        {
+                            "label": "Encourages complex and verbose code",
+                            "description": "SolidJS encourages developers to write complex and verbose code for better control.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS emphasizes simplicity and maintainability through clear and concise code."
+                        },
+                        {
+                            "label": "Absence of any coding conventions",
+                            "description": "SolidJS does not follow any coding conventions, leading to code maintenance challenges.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS encourages adherence to coding conventions for better maintainability."
+                        },
+                        {
+                            "label": "Code maintainability is exclusively server-side",
+                            "description": "SolidJS focuses on code maintainability exclusively on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. Code maintainability is a consideration for both client and server-side development in SolidJS."
+                        }
+                    ]
+                },
+                {
+                    "id": "14525335-2b7b-4a08-9f63-05c7b9c31d81",
+                    "question": "What is the key advantage of SolidJS's fine-grained reactivity in terms of rendering performance?",
+                    "description": "Explore how fine-grained reactivity in SolidJS contributes to rendering performance compared to traditional approaches.",
+                    "hint": "Consider how fine-grained reactions minimize unnecessary updates in the DOM.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Fine-grained reactivity hinders rendering performance",
+                            "description": "SolidJS's fine-grained reactivity negatively impacts rendering performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. Fine-grained reactivity in SolidJS is designed to improve rendering performance."
+                        },
+                        {
+                            "label": "Increased reliance on full re-renders for performance",
+                            "description": "SolidJS relies on frequent full re-renders to achieve optimal rendering performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS aims to minimize unnecessary full re-renders through fine-grained reactions."
+                        },
+                        {
+                            "label": "Optimal rendering performance by updating only relevant parts",
+                            "description": "Fine-grained reactivity in SolidJS ensures optimal rendering performance by updating only relevant parts of the DOM.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's fine-grained reactivity minimizes unnecessary updates, enhancing rendering performance."
+                        },
+                        {
+                            "label": "Rendering performance is exclusively server-side",
+                            "description": "Rendering performance in SolidJS is exclusively optimized on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. Rendering performance is a consideration for both client and server-side development in SolidJS."
+                        }
+                    ]
+                },
+                {
+                    "id": "5a264a5d-e489-4183-8c0b-7cd5079042b8",
+                    "question": "How does SolidJS simplify the process of handling component state?",
+                    "description": "Explore the features or approaches in SolidJS that make managing component state more straightforward for developers.",
+                    "hint": "Consider how SolidJS streamlines state management within components.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Encourages complex state management patterns",
+                            "description": "SolidJS encourages the use of complex state management patterns within components.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS promotes simplicity in state management for improved developer experience."
+                        },
+                        {
+                            "label": "Streamlined State Management with Reactive Variables",
+                            "description": "SolidJS offers streamlined state management using reactive variables for components.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS simplifies state management with the use of reactive variables within components."
+                        },
+                        {
+                            "label": "No support for state management in components",
+                            "description": "SolidJS does not provide any support for managing state within individual components.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports and simplifies state management within components."
+                        },
+                        {
+                            "label": "State management is exclusively server-side",
+                            "description": "SolidJS focuses on managing component state exclusively on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS considers both client and server-side state management for components."
+                        }
+                    ]
+                },
+                {
+                    "id": "6ed816bc-b7e5-4bd3-a8aa-13afc9c65aca",
+                    "question": "How does SolidJS contribute to improved developer experience in terms of tooling support?",
+                    "description": "Explore the tooling support provided by SolidJS to enhance the development experience for programmers.",
+                    "hint": "Consider how SolidJS simplifies the development workflow with effective tooling.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Limited or no tooling support",
+                            "description": "SolidJS has limited or no support for tools, making the development process challenging.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS provides robust tooling support to enhance the development experience."
+                        },
+                        {
+                            "label": "Exclusive reliance on external tools",
+                            "description": "SolidJS relies exclusively on external tools without offering native support.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes native support for a variety of developer tools."
+                        },
+                        {
+                            "label": "Tooling support is exclusively server-side",
+                            "description": "SolidJS focuses on tooling support exclusively on the server side of development.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS considers tooling support for both client and server-side development."
+                        },
+                        {
+                            "label": "Rich Ecosystem of Developer Tools",
+                            "description": "SolidJS offers a rich ecosystem of developer tools to streamline the development workflow.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS provides a comprehensive set of tools to improve the overall developer experience."
+                        }
+                    ]
+                },
+                {
+                    "id": "0ffbfea9-67d8-4095-844b-1614540c31d3",
+                    "question": "Explain the concept of reactive primitives in SolidJS and how they contribute to reactivity.",
+                    "description": "Explore the role of reactive primitives in SolidJS and their impact on creating reactive components.",
+                    "hint": "Consider how reactive primitives facilitate reactivity in state management.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Reactive primitives are not used in SolidJS",
+                            "description": "SolidJS does not utilize reactive primitives in its reactivity model.",
+                            "points": 0,
+                            "explanation": "Incorrect. Reactive primitives play a crucial role in SolidJS's reactivity."
+                        },
+                        {
+                            "label": "Facilitate reactivity through dynamic reactions",
+                            "description": "Reactive primitives in SolidJS facilitate reactivity primarily through dynamic reactions.",
+                            "points": 0,
+                            "explanation": "Incorrect. While dynamic reactions are important, reactive primitives have a distinct role in SolidJS."
+                        },
+                        {
+                            "label": "Key building blocks for reactive state management",
+                            "description": "Reactive primitives are fundamental building blocks for reactive state management in SolidJS.",
+                            "points": 3,
+                            "explanation": "Correct! Reactive primitives are essential for creating reactive components and managing state in SolidJS."
+                        },
+                        {
+                            "label": "Exclusive use in server-side reactivity",
+                            "description": "Reactive primitives are exclusively used for server-side reactivity in SolidJS.",
+                            "points": 0,
+                            "explanation": "Incorrect. Reactive primitives contribute to reactivity on both the client and server side in SolidJS."
+                        }
+                    ]
+                },
+                {
+                    "id": "19708e64-f38a-4d1f-bf2b-26e85d1fb43e",
+                    "question": "How does SolidJS handle the reactivity of props in components?",
+                    "description": "Examine SolidJS's approach to handling reactivity in component props and how it differs from other frameworks.",
+                    "hint": "Consider how SolidJS ensures reactivity in props without relying on a virtual DOM.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "No support for reactive props in SolidJS",
+                            "description": "SolidJS does not support reactivity in component props.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports reactivity in component props."
+                        },
+                        {
+                            "label": "Reactivity achieved through traditional virtual DOM diffing",
+                            "description": "SolidJS achieves reactivity in props through traditional virtual DOM diffing.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS avoids traditional virtual DOM diffing for reactivity."
+                        },
+                        {
+                            "label": "Reactive props through fine-grained reactions",
+                            "description": "SolidJS ensures reactivity in props using fine-grained reactions.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS utilizes fine-grained reactions for efficient reactivity in component props."
+                        },
+                        {
+                            "label": "Exclusive reactivity on the server side",
+                            "description": "Reactivity in props is exclusively managed on the server side in SolidJS.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS considers reactivity in both client and server-side component props."
+                        }
+                    ]
+                },
+                {
+                    "id": "1c97d2c9-0c29-48d2-9cfc-25ddfe6c5c09",
+                    "question": "Examine the role of the `createEffect` function in SolidJS and its significance in reactive programming.",
+                    "description": "Explore how the `createEffect` function is used in SolidJS for managing side effects and reactive behavior.",
+                    "hint": "Consider the purpose of the `createEffect` function in the SolidJS framework.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "No equivalent of `createEffect` in SolidJS",
+                            "description": "SolidJS does not have a function similar to `createEffect` for managing side effects.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes the `createEffect` function for managing side effects."
+                        },
+                        {
+                            "label": "Primarily used for styling and CSS effects",
+                            "description": "The `createEffect` function in SolidJS is mainly utilized for styling and CSS effects.",
+                            "points": 0,
+                            "explanation": "Incorrect. While `createEffect` can be used for styling, its role extends beyond that in SolidJS."
+                        },
+                        {
+                            "label": "Key for managing reactive side effects",
+                            "description": "The `createEffect` function is a key tool for managing reactive side effects in SolidJS.",
+                            "points": 3,
+                            "explanation": "Correct! `createEffect` is crucial for handling reactive side effects and computations in SolidJS."
+                        },
+                        {
+                            "label": "Exclusive use for server-side effects",
+                            "description": "The `createEffect` function is exclusively used for managing server-side effects in SolidJS.",
+                            "points": 0,
+                            "explanation": "Incorrect. `createEffect` is utilized for both client and server-side reactive side effects in SolidJS."
+                        }
+                    ]
+                },
+                {
+                    "id": "c85de900-2c5e-4b56-891e-d9eed61dfa13",
+                    "question": "How does SolidJS optimize the update process when working with lists or iterables?",
+                    "description": "Explore SolidJS's approach to efficiently updating the DOM when dealing with dynamic lists or iterables.",
+                    "hint": "Consider how SolidJS minimizes unnecessary updates in the DOM for improved performance.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Full re-rendering of the entire list",
+                            "description": "SolidJS resorts to full re-rendering of the entire list for each update.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS aims to minimize unnecessary updates in the DOM for list rendering."
+                        },
+                        {
+                            "label": "Optimization through virtual DOM diffing",
+                            "description": "SolidJS optimizes list updates through traditional virtual DOM diffing.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS minimizes virtual DOM usage for improved list rendering performance."
+                        },
+                        {
+                            "label": "Fine-grained reactions for targeted updates",
+                            "description": "SolidJS employs fine-grained reactions to achieve targeted updates in lists or iterables.",
+                            "points": 3,
+                            "explanation": "Correct! Fine-grained reactions in SolidJS optimize the update process for dynamic lists or iterables."
+                        },
+                        {
+                            "label": "Exclusive optimization for server-side lists",
+                            "description": "SolidJS exclusively optimizes list updates on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS considers optimization for both client and server-side list rendering."
+                        }
+                    ]
+                },
+                {
+                    "id": "976804bd-aa1f-4f95-8eaf-8f710869f435",
+                    "question": "Compare and contrast SolidJS's reactivity model with that of Svelte.",
+                    "description": "Explore the similarities and differences in the reactivity models of SolidJS and Svelte.",
+                    "hint": "Consider how both frameworks achieve reactivity and handle DOM updates.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Identical reactivity models in SolidJS and Svelte",
+                            "description": "SolidJS and Svelte have identical reactivity models with no discernible differences.",
+                            "points": 0,
+                            "explanation": "Incorrect. While they share some concepts, SolidJS and Svelte have distinct approaches to reactivity."
+                        },
+                        {
+                            "label": "Both rely on a virtual DOM for reactivity",
+                            "description": "SolidJS and Svelte achieve reactivity by relying on a virtual DOM for updates.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS minimizes virtual DOM usage, and Svelte compiles to highly optimized JavaScript code."
+                        },
+                        {
+                            "label": "SolidJS uses fine-grained reactions, while Svelte compiles to reactive JavaScript code",
+                            "description": "SolidJS relies on fine-grained reactions, while Svelte compiles to reactive JavaScript code.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS and Svelte have different approaches: SolidJS uses fine-grained reactions, and Svelte compiles to optimized JavaScript."
+                        },
+                        {
+                            "label": "Reactivity models are exclusively server-side",
+                            "description": "Both SolidJS and Svelte exclusively implement reactivity on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. Both frameworks prioritize client-side reactivity for efficient UI updates."
+                        }
+                    ]
+                },
+                {
+                    "id": "c09b2cd3-0637-4d47-b4db-2c39712f226d",
+                    "question": "Explain the purpose of the `createMemo` function in SolidJS and its impact on performance optimization.",
+                    "description": "Explore how the `createMemo` function is used in SolidJS for memoization and performance improvements.",
+                    "hint": "Consider the role of memoization in optimizing computations in SolidJS.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "No equivalent of `createMemo` in SolidJS",
+                            "description": "SolidJS does not include a function similar to `createMemo` for memoization.",
+                            "points": 0,
+                            "explanation": "Incorrect. `createMemo` is a key tool for memoization in SolidJS."
+                        },
+                        {
+                            "label": "Primarily used for server-side memoization",
+                            "description": "The `createMemo` function in SolidJS is mainly utilized for server-side memoization.",
+                            "points": 0,
+                            "explanation": "Incorrect. `createMemo` is used for both client and server-side memoization in SolidJS."
+                        },
+                        {
+                            "label": "Key for optimizing reactive computations through memoization",
+                            "description": "The `createMemo` function is essential for optimizing reactive computations through memoization in SolidJS.",
+                            "points": 3,
+                            "explanation": "Correct! `createMemo` is crucial for enhancing performance by memoizing computed values in SolidJS."
+                        },
+                        {
+                            "label": "Exclusively used for styling and CSS effects",
+                            "description": "The `createMemo` function is exclusively used for styling and CSS effects in SolidJS.",
+                            "points": 0,
+                            "explanation": "Incorrect. `createMemo` is primarily employed for memoization in reactive computations."
+                        }
+                    ]
+                },
+                {
+                    "id": "4f8aadb6-5a4f-4006-a956-0d915bcaa2bc",
+                    "question": "How does SolidJS handle the integration of external state management libraries?",
+                    "description": "Examine SolidJS's approach to integrating with external state management tools or libraries.",
+                    "hint": "Consider the flexibility and compatibility of SolidJS with external state management solutions.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "SolidJS exclusively relies on its built-in state management",
+                            "description": "SolidJS exclusively relies on its built-in state management and does not integrate with external solutions.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS allows integration with external state management libraries for flexibility."
+                        },
+                        {
+                            "label": "Does not support integration with external state management",
+                            "description": "SolidJS does not provide any support for integrating with external state management libraries.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports integration with external state management solutions for diverse use cases."
+                        },
+                        {
+                            "label": "Flexibility to integrate with external state management libraries",
+                            "description": "SolidJS provides flexibility to seamlessly integrate with external state management libraries.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS allows developers to integrate external state management solutions as needed."
+                        },
+                        {
+                            "label": "Exclusive support for server-side state management",
+                            "description": "Integration with external state management is exclusively supported on the server side in SolidJS.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports integration with external state management on both client and server sides."
+                        }
+                    ]
+                },
+                {
+                    "id": "309d5141-7167-47ab-8fda-1983f3eb95f8",
+                    "question": "Examine the role of SolidJS's reactive primitives in achieving fine-grained reactivity.",
+                    "description": "Explore how SolidJS's reactive primitives contribute to the implementation of fine-grained reactivity in the framework.",
+                    "hint": "Consider the specific features and characteristics of reactive primitives in SolidJS.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Reactive primitives are not utilized in SolidJS",
+                            "description": "SolidJS does not incorporate reactive primitives in its reactivity model.",
+                            "points": 0,
+                            "explanation": "Incorrect. Reactive primitives are fundamental to achieving fine-grained reactivity in SolidJS."
+                        },
+                        {
+                            "label": "Exclusive reliance on virtual DOM for fine-grained reactivity",
+                            "description": "Fine-grained reactivity in SolidJS is achieved exclusively through virtual DOM diffing.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS combines reactive primitives and fine-grained reactions for optimal reactivity."
+                        },
+                        {
+                            "label": "Reactive primitives form the foundation for fine-grained reactivity",
+                            "description": "Reactive primitives are key building blocks for achieving fine-grained reactivity in SolidJS.",
+                            "points": 3,
+                            "explanation": "Correct! Reactive primitives play a crucial role in implementing fine-grained reactivity in SolidJS."
+                        },
+                        {
+                            "label": "Exclusively server-side use of reactive primitives",
+                            "description": "Reactive primitives in SolidJS are exclusively utilized for server-side reactivity.",
+                            "points": 0,
+                            "explanation": "Incorrect. Reactive primitives contribute to reactivity on both client and server sides in SolidJS."
+                        }
+                    ]
+                },
+                {
+                    "id": "61b30278-e913-4b59-98d8-35e1d43b19fc",
+                    "question": "Explore the benefits and drawbacks of SolidJS's approach to avoiding a virtual DOM.",
+                    "description": "Examine the advantages and potential challenges associated with SolidJS's decision to forego a virtual DOM.",
+                    "hint": "Consider the impact on performance and development workflow.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "No discernible benefits; leads to performance issues",
+                            "description": "Avoiding a virtual DOM in SolidJS provides no discernible benefits and may lead to performance issues.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's approach offers notable benefits in terms of performance and development efficiency."
+                        },
+                        {
+                            "label": "Enhanced performance and reduced memory overhead",
+                            "description": "SolidJS's avoidance of a virtual DOM leads to enhanced performance and reduced memory overhead.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's approach aims to improve performance by minimizing unnecessary updates and memory usage."
+                        },
+                        {
+                            "label": "Complicates development workflow; harder to reason about",
+                            "description": "Avoiding a virtual DOM in SolidJS complicates the development workflow and makes it harder to reason about.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's approach is designed to simplify development and improve developer experience."
+                        },
+                        {
+                            "label": "Exclusive use for server-side rendering; no impact on client-side",
+                            "description": "The absence of a virtual DOM in SolidJS only impacts server-side rendering and has no effect on client-side performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's approach impacts both server-side and client-side rendering for improved performance."
+                        }
+                    ]
+                },
+                {
+                    "id": "45dc2a82-bb7a-47e8-9476-fea8d171a6d0",
+                    "question": "How does SolidJS handle reactivity in components with deeply nested structures?",
+                    "description": "Examine SolidJS's approach to maintaining reactivity in components with intricate and deeply nested structures.",
+                    "hint": "Consider how SolidJS ensures efficient updates in complex component hierarchies.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Reactivity is not supported in deeply nested components",
+                            "description": "SolidJS does not support reactivity in components with deeply nested structures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS is designed to handle reactivity efficiently in various component structures."
+                        },
+                        {
+                            "label": "Relies on full re-renders for deeply nested structures",
+                            "description": "SolidJS relies on frequent full re-renders for components with deeply nested structures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS aims to minimize unnecessary full re-renders for improved performance."
+                        },
+                        {
+                            "label": "Efficient reactivity through fine-grained reactions",
+                            "description": "SolidJS ensures efficient reactivity in components with deeply nested structures through fine-grained reactions.",
+                            "points": 3,
+                            "explanation": "Correct! Fine-grained reactions in SolidJS contribute to efficient reactivity in complex component hierarchies."
+                        },
+                        {
+                            "label": "Exclusive support for server-side reactivity in nested structures",
+                            "description": "Reactivity in components with deeply nested structures is exclusively supported on the server side in SolidJS.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports reactivity on both client and server sides for various component structures."
+                        }
+                    ]
+                },
+                {
+                    "id": "0a2e366d-8eaa-4fa6-a33b-01652deb9985",
+                    "question": "Investigate the role of SolidJS's compiler in optimizing runtime performance.",
+                    "description": "Explore how SolidJS's compiler contributes to optimizing the runtime performance of applications built with the framework.",
+                    "hint": "Consider the compilation process and its impact on the generated code.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "No compiler optimizations in SolidJS",
+                            "description": "SolidJS does not include any compiler optimizations for runtime performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's compiler plays a significant role in optimizing runtime performance."
+                        },
+                        {
+                            "label": "Compiler focuses solely on syntax transformation",
+                            "description": "SolidJS's compiler primarily focuses on transforming syntax and does not contribute to runtime optimizations.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's compiler goes beyond syntax transformation to enhance runtime performance."
+                        },
+                        {
+                            "label": "Compiler optimizes generated JavaScript for better runtime efficiency",
+                            "description": "SolidJS's compiler optimizes the generated JavaScript code to improve runtime efficiency.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's compiler applies optimizations to enhance the runtime performance of applications."
+                        },
+                        {
+                            "label": "Compiler exclusively targets server-side performance",
+                            "description": "The compiler in SolidJS exclusively focuses on optimizing performance for server-side rendering.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's compiler contributes to optimizations for both client and server-side runtime performance."
+                        }
+                    ]
+                },
+                {
+                    "id": "0d70d1d2-35b3-4bc3-bc5b-b28a8aa7f120",
+                    "question": "Examine the impact of SolidJS's reactivity model on the overall architecture of large-scale applications.",
+                    "description": "Investigate how SolidJS's reactivity model influences the architecture of large-scale applications and their scalability.",
+                    "hint": "Consider how reactivity affects state management and component relationships in larger projects.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Reactivity model is unsuitable for large-scale applications",
+                            "description": "SolidJS's reactivity model is not well-suited for large-scale applications and can lead to architectural challenges.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's reactivity model is designed to scale efficiently in large projects."
+                        },
+                        {
+                            "label": "Positively influences state management in large-scale applications",
+                            "description": "SolidJS's reactivity model has a positive impact on state management in large-scale applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's reactivity model facilitates efficient state management in the context of larger projects."
+                        },
+                        {
+                            "label": "Reactivity is limited to small, isolated components",
+                            "description": "SolidJS's reactivity model is limited to small, isolated components and is not suitable for large-scale projects.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's reactivity model is designed to handle reactivity efficiently across the entire application, including large-scale projects."
+                        },
+                        {
+                            "label": "Exclusively designed for server-side scalability",
+                            "description": "SolidJS's reactivity model is exclusively designed to enhance scalability on the server side.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's reactivity model addresses scalability concerns for both client and server-side development."
+                        }
+                    ]
+                },
+                {
+                    "id": "0af8224c-0ece-4e5f-8f53-8b5789bde4b4",
+                    "question": "Investigate how SolidJS handles code splitting and lazy loading in large applications.",
+                    "description": "Explore the strategies and mechanisms employed by SolidJS to facilitate code splitting and lazy loading in large-scale applications.",
+                    "hint": "Consider how SolidJS optimizes bundle sizes and improves application loading performance.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks support for code splitting and lazy loading",
+                            "description": "SolidJS does not provide features or mechanisms for implementing code splitting or lazy loading in applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes support for code splitting and lazy loading to enhance performance in large applications."
+                        },
+                        {
+                            "label": "Code splitting achieved through server-side rendering exclusively",
+                            "description": "SolidJS relies on server-side rendering as the exclusive method for achieving code splitting in applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS employs client-side strategies for code splitting and lazy loading as well."
+                        },
+                        {
+                            "label": "Utilizes dynamic imports for efficient code splitting and lazy loading",
+                            "description": "SolidJS uses dynamic imports to achieve efficient code splitting and lazy loading in large applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS leverages dynamic imports to optimize bundle sizes and improve loading performance through code splitting and lazy loading."
+                        },
+                        {
+                            "label": "Code splitting is exclusively focused on client-side performance",
+                            "description": "SolidJS's code splitting strategies exclusively target client-side performance without considering server-side optimization.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS considers both client and server-side optimizations for code splitting and lazy loading."
+                        }
+                    ]
+                },
+                {
+                    "id": "83039b15-eaf4-465c-ae52-6a7527478e3e",
+                    "question": "Explore the integration of SolidJS with popular state management libraries and its impact on application architecture.",
+                    "description": "Investigate how SolidJS integrates with well-known state management libraries and influences the overall architecture of applications.",
+                    "hint": "Consider the flexibility and compatibility of SolidJS with external state management solutions.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "SolidJS exclusively relies on its built-in state management",
+                            "description": "SolidJS does not support integration with external state management libraries and relies solely on its built-in state management.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS allows seamless integration with external state management solutions for added flexibility."
+                        },
+                        {
+                            "label": "Limited integration with state management libraries; impacts scalability",
+                            "description": "SolidJS has limited integration options with state management libraries, potentially impacting the scalability of applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS provides robust integration options with various state management libraries, contributing to scalability."
+                        },
+                        {
+                            "label": "Offers flexible integration with popular state management libraries",
+                            "description": "SolidJS provides flexible integration options with popular state management libraries, enhancing application architecture.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS supports seamless integration with a variety of state management libraries, allowing developers to choose based on project requirements."
+                        },
+                        {
+                            "label": "Integration exclusively optimized for server-side state management",
+                            "description": "Integration with state management libraries in SolidJS is exclusively optimized for server-side state management.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's integration with state management libraries caters to both client and server-side scenarios."
+                        }
+                    ]
+                },
+                {
+                    "id": "233df047-3f27-4477-aeae-9bd9216c26e7",
+                    "question": "Examine SolidJS's approach to server-side rendering (SSR) and its impact on application performance.",
+                    "description": "Explore how SolidJS handles server-side rendering and the implications for application performance.",
+                    "hint": "Consider the benefits and potential challenges associated with SolidJS's SSR implementation.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "SolidJS does not support server-side rendering",
+                            "description": "SolidJS lacks support for server-side rendering as part of its architecture.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes robust support for server-side rendering to enhance performance and SEO."
+                        },
+                        {
+                            "label": "Server-side rendering exclusively impacts initial page load",
+                            "description": "Server-side rendering in SolidJS only affects the initial page load and has no impact on subsequent client-side interactions.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's server-side rendering continues to benefit subsequent client-side interactions for improved performance."
+                        },
+                        {
+                            "label": "Utilizes server-side rendering for enhanced performance throughout user interactions",
+                            "description": "SolidJS leverages server-side rendering to enhance performance not only during the initial page load but also throughout user interactions.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's server-side rendering optimizes performance across various user interactions, improving overall user experience."
+                        },
+                        {
+                            "label": "Server-side rendering is exclusively focused on SEO benefits",
+                            "description": "The primary focus of server-side rendering in SolidJS is to achieve SEO benefits, with limited impact on overall performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. While SEO benefits are one aspect, server-side rendering in SolidJS aims to enhance overall performance."
+                        }
+                    ]
+                },
+                {
+                    "id": "2a75871d-1a43-4d7c-b185-c3b3d6794745",
+                    "question": "Explore how SolidJS facilitates the testing of components and applications.",
+                    "description": "Investigate the strategies and tools provided by SolidJS for effectively testing components and applications.",
+                    "hint": "Consider the testing ecosystem and practices associated with SolidJS development.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks built-in support for testing components",
+                            "description": "SolidJS does not offer built-in support or tools for testing components and applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes built-in support and tools for testing, promoting robust testing practices."
+                        },
+                        {
+                            "label": "Encourages the use of external testing libraries exclusively",
+                            "description": "SolidJS exclusively recommends the use of external testing libraries without providing built-in support.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports both built-in testing tools and external testing libraries for flexibility in testing approaches."
+                        },
+                        {
+                            "label": "Provides built-in tools for effective unit and integration testing",
+                            "description": "SolidJS offers built-in tools and features to facilitate effective unit and integration testing of components and applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS includes built-in testing capabilities, making it easier for developers to ensure the quality of their code."
+                        },
+                        {
+                            "label": "Testing features are exclusively focused on end-to-end testing",
+                            "description": "SolidJS's testing features are primarily designed for end-to-end testing scenarios, neglecting unit and integration testing needs.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports a comprehensive testing approach, including unit and integration testing."
+                        }
+                    ]
+                },
+                {
+                    "id": "09c56c73-c02c-4f72-bab5-052e5ef5e532",
+                    "question": "Investigate SolidJS's strategy for handling client-side routing in single-page applications (SPAs).",
+                    "description": "Explore how SolidJS manages client-side routing to enhance navigation and user experience in single-page applications.",
+                    "hint": "Consider the features and mechanisms provided by SolidJS for client-side routing.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks built-in support for client-side routing",
+                            "description": "SolidJS does not include built-in support or tools for client-side routing in single-page applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS provides robust built-in support for client-side routing in SPAs."
+                        },
+                        {
+                            "label": "Exclusively relies on third-party libraries for client-side routing",
+                            "description": "SolidJS exclusively recommends the use of third-party libraries for client-side routing without providing built-in support.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS offers built-in support for client-side routing, allowing flexibility in library choices."
+                        },
+                        {
+                            "label": "Includes built-in features for efficient client-side routing in SPAs",
+                            "description": "SolidJS includes built-in features and mechanisms for efficient client-side routing in single-page applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS facilitates seamless client-side routing to enhance navigation and user experience in SPAs."
+                        },
+                        {
+                            "label": "Client-side routing is exclusively focused on server-side rendered pages",
+                            "description": "Client-side routing in SolidJS is exclusively designed for server-side rendered pages and does not cater to typical SPAs.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's client-side routing is suitable for both server-side rendered pages and typical single-page applications."
+                        }
+                    ]
+                },
+                {
+                    "id": "60f2335b-b40a-4fad-9b59-e97c71755201",
+                    "question": "Explore SolidJS's approach to global state management and its impact on large-scale applications.",
+                    "description": "Investigate how SolidJS handles global state management and the implications for large-scale application architecture.",
+                    "hint": "Consider the strategies SolidJS employs for managing global state and their impact on scalability.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks built-in support for global state management",
+                            "description": "SolidJS does not provide built-in support or tools for managing global state in applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes built-in support for global state management, offering convenient solutions for developers."
+                        },
+                        {
+                            "label": "Global state management is exclusively designed for small-scale applications",
+                            "description": "SolidJS's global state management features are tailored exclusively for small-scale applications, with limited scalability.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's global state management is designed to scale effectively in both small and large-scale applications."
+                        },
+                        {
+                            "label": "Provides robust built-in tools for scalable global state management",
+                            "description": "SolidJS offers robust built-in tools for scalable global state management, supporting efficient data flow in large-scale applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS's global state management tools are designed to scale effectively and support complex data flow in large projects."
+                        },
+                        {
+                            "label": "Exclusively relies on external state management libraries for global state",
+                            "description": "SolidJS exclusively recommends the use of external state management libraries for global state without providing built-in support.",
+                            "points": 0,
+                            "explanation": "Incorrect. While SolidJS allows integration with external libraries, it also provides built-in tools for global state management."
+                        }
+                    ]
+                },
+                {
+                    "id": "b0a2c21e-f2ea-4e2c-b3b5-ffc2c8fd6aa8",
+                    "question": "Investigate the role of fine-grained reactions in SolidJS and their impact on performance.",
+                    "description": "Explore how SolidJS utilizes fine-grained reactions to optimize reactivity and their implications for overall application performance.",
+                    "hint": "Consider how fine-grained reactions contribute to efficient updates in the SolidJS framework.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Fine-grained reactions have no impact on SolidJS's performance",
+                            "description": "Fine-grained reactions in SolidJS do not contribute to improved performance and are merely an optional feature.",
+                            "points": 0,
+                            "explanation": "Incorrect. Fine-grained reactions play a crucial role in optimizing reactivity and performance in SolidJS."
+                        },
+                        {
+                            "label": "Primarily designed for complex server-side reactivity",
+                            "description": "Fine-grained reactions in SolidJS are primarily designed to enhance reactivity on the server side, with limited impact on client-side performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. Fine-grained reactions contribute to efficient reactivity on both client and server sides in SolidJS."
+                        },
+                        {
+                            "label": "Crucial for optimizing reactivity in complex component hierarchies",
+                            "description": "Fine-grained reactions in SolidJS are crucial for optimizing reactivity, particularly in complex component hierarchies.",
+                            "points": 3,
+                            "explanation": "Correct! Fine-grained reactions help SolidJS achieve efficient reactivity, especially in scenarios involving intricate component structures."
+                        },
+                        {
+                            "label": "Fine-grained reactions are exclusively focused on styling and CSS effects",
+                            "description": "Fine-grained reactions in SolidJS are exclusively designed for handling styling and CSS effects, with limited impact on other aspects.",
+                            "points": 0,
+                            "explanation": "Incorrect. Fine-grained reactions in SolidJS contribute to efficient reactivity across various aspects of component updates, not just styling."
+                        }
+                    ]
+                },
+                {
+                    "id": "a56d2388-4f13-43e6-9e4f-681f17363308",
+                    "question": "Explore SolidJS's strategy for optimizing performance in applications with large data sets.",
+                    "description": "Investigate the techniques and features SolidJS employs to optimize performance when dealing with large data sets in applications.",
+                    "hint": "Consider how SolidJS addresses performance challenges associated with rendering and updating large amounts of data.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks optimizations for large data sets",
+                            "description": "SolidJS does not include features or optimizations specifically designed for improving performance in applications with large data sets.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes features and optimizations to address performance challenges related to large data sets."
+                        },
+                        {
+                            "label": "Optimizations focus exclusively on server-side rendering for large data",
+                            "description": "Optimizations in SolidJS exclusively target server-side rendering as the solution for handling large data sets.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS employs client-side strategies as well to optimize performance when dealing with large data sets."
+                        },
+                        {
+                            "label": "Employs virtualization and efficient diffing for improved performance",
+                            "description": "SolidJS utilizes virtualization techniques and efficient diffing algorithms to improve performance when rendering and updating large data sets.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS leverages virtualization and optimized diffing to enhance performance in applications dealing with large amounts of data."
+                        },
+                        {
+                            "label": "Large data optimizations are exclusively client-side, neglecting server-side rendering",
+                            "description": "Optimizations for large data sets in SolidJS exclusively focus on the client side, neglecting the potential benefits of server-side rendering.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS considers a balanced approach, utilizing both client-side and server-side optimizations for handling large data sets."
+                        }
+                    ]
+                },
+                {
+                    "id": "e3c8ed8d-190b-4b3d-b5af-a8754191a503",
+                    "question": "Investigate SolidJS's approach to optimizing the build process for production-ready applications.",
+                    "description": "Explore how SolidJS optimizes the build process to ensure the efficient deployment of production-ready applications.",
+                    "hint": "Consider the strategies and tools SolidJS provides for minimizing bundle sizes and improving overall application performance.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Employs tree-shaking, code splitting, and minification for efficient builds",
+                            "description": "SolidJS utilizes tree-shaking, code splitting, and minification techniques to achieve efficient builds with minimized bundle sizes for production.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS incorporates advanced techniques such as tree-shaking, code splitting, and minification to optimize the build process for production-ready applications."
+                        },
+                        {
+                            "label": "SolidJS does not include build optimization features",
+                            "description": "SolidJS lacks features or tools for optimizing the build process, leading to larger bundle sizes and suboptimal production performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes robust features for optimizing the build process and improving production performance."
+                        },
+                        {
+                            "label": "Build optimizations are exclusively focused on server-side rendering",
+                            "description": "Optimizations in SolidJS primarily target server-side rendering, with limited impact on client-side performance and bundle sizes.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's build optimizations address both client and server-side aspects for comprehensive improvements in production performance."
+                        },
+                        {
+                            "label": "Build optimizations exclusively target client-side assets",
+                            "description": "SolidJS's build optimizations exclusively focus on optimizing client-side assets, neglecting server-side rendering and overall performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS considers a holistic approach, optimizing both client and server-side assets for production-ready applications."
+                        }
+                    ]
+                },
+                {
+                    "id": "c7c263b5-4494-43c0-bdc0-c70e91210de2",
+                    "question": "Explore the integration of SolidJS with serverless architectures and its impact on deployment and scalability.",
+                    "description": "Investigate how SolidJS seamlessly integrates with serverless architectures and the implications for deployment and scalability in cloud environments.",
+                    "hint": "Consider how SolidJS adapts to serverless deployment models and its impact on application scalability.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks support for serverless deployments",
+                            "description": "SolidJS does not provide features or integrations for deploying applications in serverless environments.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes features for seamless integration with serverless architectures, enhancing deployment flexibility and scalability."
+                        },
+                        {
+                            "label": "Serverless integration is exclusively focused on frontend components",
+                            "description": "SolidJS's integration with serverless architectures exclusively focuses on deploying frontend components, with limited impact on server-side logic.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS integrates with serverless architectures for both frontend and server-side components, promoting flexibility in deployment."
+                        },
+                        {
+                            "label": "Serverless integration in SolidJS is exclusively for single-page applications (SPAs)",
+                            "description": "SolidJS's serverless integration is exclusively tailored for deploying single-page applications (SPAs) and does not extend to more complex architectures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's serverless integration is versatile, supporting various application architectures beyond SPAs."
+                        },
+                        {
+                            "label": "Adapts to serverless deployment models with support for both frontend and backend components",
+                            "description": "SolidJS seamlessly adapts to serverless deployment models, providing support for both frontend and backend components to enhance deployment and scalability.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS offers comprehensive support for serverless architectures, accommodating both frontend and backend components for enhanced deployment flexibility and scalability."
+                        }
+                    ]
+                },
+                {
+                    "id": "39b87eff-575b-4594-8c89-9ddc8a45e9e7",
+                    "question": "Investigate SolidJS's support for progressive web app (PWA) features and its impact on offline capabilities.",
+                    "description": "Explore how SolidJS facilitates the implementation of progressive web app (PWA) features and its implications for providing offline capabilities.",
+                    "hint": "Consider the tools and strategies SolidJS employs for enhancing offline user experiences in PWAs.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks support for progressive web app features",
+                            "description": "SolidJS does not include features or tools for implementing progressive web app features, limiting its support for offline capabilities.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes robust support for progressive web app features, enhancing offline capabilities for improved user experiences."
+                        },
+                        {
+                            "label": "PWA support is exclusively focused on frontend components",
+                            "description": "SolidJS's support for progressive web app features exclusively focuses on frontend components, with limited impact on backend functionality.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports progressive web app features for both frontend and backend components, providing a comprehensive solution for offline capabilities."
+                        },
+                        {
+                            "label": "Facilitates offline capabilities through service workers and caching strategies",
+                            "description": "SolidJS facilitates offline capabilities in PWAs through the effective use of service workers and caching strategies, ensuring a seamless user experience.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS employs service workers and caching strategies to enhance offline capabilities in progressive web apps, contributing to a seamless user experience."
+                        },
+                        {
+                            "label": "Offline support is exclusively designed for single-page applications (SPAs)",
+                            "description": "SolidJS's offline support features are exclusively designed for single-page applications (SPAs) and do not extend to more complex architectures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's offline support is versatile, catering to various application architectures beyond SPAs."
+                        }
+                    ]
+                },
+                {
+                    "id": "26a54880-a7e7-4274-807e-634288a4fbad",
+                    "question": "Investigate SolidJS's compatibility with web components and its impact on interoperability.",
+                    "description": "Explore how SolidJS integrates with web components and the implications for achieving seamless interoperability with other web technologies.",
+                    "hint": "Consider how SolidJS enables the use of web components and its impact on building modular and interoperable web applications.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks support for integrating with web components",
+                            "description": "SolidJS does not provide features or tools for integrating with web components, limiting its interoperability with other web technologies.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes robust support for integrating with web components, promoting interoperability with diverse web technologies."
+                        },
+                        {
+                            "label": "Integration with web components is exclusively focused on frontend components",
+                            "description": "SolidJS's integration with web components exclusively focuses on frontend components, with limited impact on server-side functionality.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports the integration of web components for both frontend and server-side components, fostering interoperability across the application."
+                        },
+                        {
+                            "label": "Interoperability is exclusively optimized for single-page applications (SPAs)",
+                            "description": "SolidJS's interoperability features are exclusively designed for single-page applications (SPAs) and do not extend to more complex architectures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's interoperability features are versatile, catering to various application architectures beyond SPAs."
+                        },
+                        {
+                            "label": "Enables seamless interoperability through bidirectional communication with web components",
+                            "description": "SolidJS enables seamless interoperability by facilitating bidirectional communication with web components, ensuring smooth integration with other web technologies.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS supports bidirectional communication with web components, enhancing interoperability and enabling smooth integration with a variety of web technologies."
+                        }
+                    ]
+                },
+                {
+                    "id": "2b0010ff-6319-4d35-9888-c146e39cbcc2",
+                    "question": "Investigate SolidJS's strategy for optimizing the handling of dynamic data and real-time updates in large-scale applications.",
+                    "description": "Explore how SolidJS efficiently manages dynamic data and real-time updates to ensure optimal performance in large-scale applications.",
+                    "hint": "Consider the techniques and features SolidJS employs to handle dynamic data and real-time updates in a scalable manner.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks features for optimizing real-time updates in large-scale applications",
+                            "description": "SolidJS does not provide features or tools for optimizing real-time updates, resulting in performance issues in large-scale applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes features to efficiently handle real-time updates and dynamic data in large-scale applications, optimizing performance."
+                        },
+                        {
+                            "label": "Real-time updates are exclusively focused on frontend components",
+                            "description": "SolidJS's approach to real-time updates exclusively focuses on frontend components, with limited impact on server-side functionality.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports real-time updates for both frontend and server-side components, ensuring a comprehensive solution for large-scale applications."
+                        },
+                        {
+                            "label": "Employs efficient reactive patterns and server-side optimizations for real-time scalability",
+                            "description": "SolidJS employs efficient reactive patterns and server-side optimizations to ensure real-time scalability in large-scale applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS utilizes reactive patterns and server-side optimizations to efficiently handle real-time updates and dynamic data in large-scale scenarios, optimizing overall performance."
+                        },
+                        {
+                            "label": "Real-time updates are exclusively optimized for single-page applications (SPAs)",
+                            "description": "SolidJS's real-time update features are exclusively designed for single-page applications (SPAs) and do not extend to more complex architectures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's real-time update features are versatile, catering to various application architectures beyond SPAs."
+                        }
+                    ]
+                },
+                {
+                    "id": "4aa08c34-4922-4817-8bfa-145e020583f7",
+                    "question": "Explore SolidJS's support for web assembly (Wasm) and its impact on enhancing computational performance.",
+                    "description": "Investigate how SolidJS integrates with web assembly (Wasm) and the implications for improving computational performance in web applications.",
+                    "hint": "Consider how SolidJS leverages web assembly to enhance the execution of computationally intensive tasks.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Leverages Wasm for computationally intensive tasks on both client and server sides",
+                            "description": "SolidJS leverages web assembly (Wasm) to enhance computational performance for both client and server-side tasks in web applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS integrates with web assembly (Wasm) to improve computational performance for tasks on both client and server sides, providing efficiency across the application."
+                        },
+                        {
+                            "label": "SolidJS does not support web assembly (Wasm) integration",
+                            "description": "SolidJS lacks features or tools for integrating with web assembly (Wasm), limiting its ability to enhance computational performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes features to seamlessly integrate with web assembly (Wasm), enabling improved computational performance in web applications."
+                        },
+                        {
+                            "label": "Wasm integration is exclusively focused on frontend components",
+                            "description": "SolidJS's integration with web assembly (Wasm) exclusively focuses on enhancing computational performance for frontend components.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports web assembly (Wasm) integration for both frontend and server-side components, providing a comprehensive solution for enhanced performance."
+                        },
+                        {
+                            "label": "Wasm integration in SolidJS is exclusively for server-side computations",
+                            "description": "SolidJS's integration with web assembly (Wasm) is exclusively designed for server-side computations and does not extend to frontend components.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's web assembly (Wasm) integration is versatile, supporting computations on both frontend and server sides."
+                        }
+                    ]
+                },
+                {
+                    "id": "42f5d3d6-78ff-4c93-9362-d0d487fa1707",
+                    "question": "Investigate SolidJS's approach to ensuring security in web applications and its impact on preventing common vulnerabilities.",
+                    "description": "Explore how SolidJS incorporates security features to safeguard web applications and prevent common vulnerabilities.",
+                    "hint": "Consider the security measures and best practices SolidJS employs to protect against common web application vulnerabilities.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "SolidJS lacks built-in security features for web applications",
+                            "description": "SolidJS does not provide built-in security features, leaving web applications vulnerable to common threats and vulnerabilities.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes built-in security features and promotes best practices to enhance the security of web applications."
+                        },
+                        {
+                            "label": "Security measures are exclusively focused on frontend components",
+                            "description": "SolidJS's security measures exclusively focus on securing frontend components, with limited impact on server-side security.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS addresses security concerns for both frontend and server-side components, ensuring comprehensive protection against vulnerabilities."
+                        },
+                        {
+                            "label": "Implements security best practices for both frontend and server-side, preventing common vulnerabilities",
+                            "description": "SolidJS implements security best practices for both frontend and server-side components, effectively preventing common vulnerabilities in web applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS incorporates security best practices to safeguard both frontend and server-side components, reducing the risk of common vulnerabilities in web applications."
+                        },
+                        {
+                            "label": "Security features in SolidJS are exclusively for preventing server-side vulnerabilities",
+                            "description": "SolidJS's security features focus solely on preventing server-side vulnerabilities and do not address potential threats to frontend components.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's security features cover both frontend and server-side components, ensuring holistic protection against vulnerabilities."
+                        }
+                    ]
+                },
+                {
+                    "id": "360e0d82-12e2-4008-94d1-cf953c49e526",
+                    "question": "Investigate SolidJS's support for reactive server-side rendering (SSR) and its impact on performance.",
+                    "description": "Explore how SolidJS facilitates reactive server-side rendering (SSR) and the implications for improving performance in web applications.",
+                    "hint": "Consider how SolidJS integrates reactivity into server-side rendering and its benefits for performance optimization.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "SolidJS does not support reactive server-side rendering (SSR)",
+                            "description": "SolidJS lacks features or tools for reactive server-side rendering (SSR), limiting its ability to optimize performance through server-side reactivity.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes features for reactive server-side rendering (SSR), enhancing performance by integrating reactivity into server-side processes."
+                        },
+                        {
+                            "label": "Reactive SSR is exclusively focused on frontend components",
+                            "description": "SolidJS's approach to reactive server-side rendering (SSR) exclusively focuses on enhancing reactivity for frontend components, with limited impact on server-side logic.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports reactive SSR for both frontend and server-side components, ensuring comprehensive reactivity across the application."
+                        },
+                        {
+                            "label": "Facilitates reactive SSR to enhance server-side reactivity and overall performance",
+                            "description": "SolidJS facilitates reactive server-side rendering (SSR) to enhance server-side reactivity, contributing to improved overall performance in web applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS integrates reactivity into server-side rendering, optimizing performance by ensuring efficient reactivity on both client and server sides."
+                        },
+                        {
+                            "label": "Reactive SSR is exclusively designed for single-page applications (SPAs)",
+                            "description": "SolidJS's reactive SSR features are exclusively designed for single-page applications (SPAs) and do not extend to more complex architectures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's reactive SSR features are versatile, catering to various application architectures beyond SPAs."
+                        }
+                    ]
+                },
+                {
+                    "id": "1a3ee569-8e79-4a95-8051-9a5ef872996c",
+                    "question": "Investigate SolidJS's approach to handling code splitting and its impact on improving initial page load performance.",
+                    "description": "Explore how SolidJS handles code splitting to enhance initial page load performance and the implications for optimizing web applications.",
+                    "hint": "Consider how SolidJS implements code splitting strategies to reduce initial bundle sizes and improve the loading speed of web applications.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "SolidJS does not support code splitting for improving initial page load performance",
+                            "description": "SolidJS lacks features or tools for code splitting, resulting in larger initial bundle sizes and suboptimal page load performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes features for code splitting, reducing initial bundle sizes and improving page load performance."
+                        },
+                        {
+                            "label": "Code splitting is exclusively focused on frontend components",
+                            "description": "SolidJS's approach to code splitting exclusively focuses on optimizing code loading for frontend components, with limited impact on server-side logic.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS supports code splitting for both frontend and server-side components, ensuring efficient code loading across the application."
+                        },
+                        {
+                            "label": "Code splitting in SolidJS is exclusively designed for single-page applications (SPAs)",
+                            "description": "SolidJS's code splitting features are exclusively designed for single-page applications (SPAs) and do not extend to more complex architectures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's code splitting features are versatile, catering to various application architectures beyond SPAs."
+                        },
+                        {
+                            "label": "Implements code splitting to reduce initial bundle sizes and enhance page load speed",
+                            "description": "SolidJS implements code splitting strategies to reduce initial bundle sizes and enhance the page load speed of web applications, optimizing performance.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS employs code splitting to reduce the size of initial bundles, resulting in improved page load performance for web applications."
+                        }
+                    ]
+                },
+                {
+                    "id": "9279edd3-15c8-4bc9-94a8-1f585d092765",
+                    "question": "Explore SolidJS's support for optimizing accessibility features in web applications and its impact on inclusive design.",
+                    "description": "Investigate how SolidJS incorporates features to optimize accessibility and promote inclusive design in web applications.",
+                    "hint": "Consider the accessibility tools and best practices SolidJS employs to ensure a positive user experience for all.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "SolidJS does not include features for optimizing accessibility in web applications",
+                            "description": "SolidJS lacks features or tools for optimizing accessibility, potentially leading to a less inclusive design for web applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS includes features and tools to optimize accessibility, promoting a more inclusive design for web applications."
+                        },
+                        {
+                            "label": "Accessibility optimizations are exclusively focused on frontend components",
+                            "description": "SolidJS's accessibility optimizations exclusively focus on enhancing accessibility for frontend components, with limited impact on server-side functionality.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS addresses accessibility concerns for both frontend and server-side components, ensuring a comprehensive solution for inclusive design."
+                        },
+                        {
+                            "label": "Incorporates features and best practices for optimizing accessibility across the application",
+                            "description": "SolidJS incorporates features and best practices to optimize accessibility across both frontend and server-side components, promoting inclusive design in web applications.",
+                            "points": 3,
+                            "explanation": "Correct! SolidJS ensures accessibility optimizations for both frontend and server-side components, contributing to a more inclusive design for web applications."
+                        },
+                        {
+                            "label": "Accessibility features in SolidJS are exclusively designed for single-page applications (SPAs)",
+                            "description": "SolidJS's accessibility features are exclusively designed for single-page applications (SPAs) and do not extend to more complex architectures.",
+                            "points": 0,
+                            "explanation": "Incorrect. SolidJS's accessibility features are versatile, catering to various application architectures beyond SPAs."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1410 @@
+{
+    "skill": {
+        "MakingLayouts": {
+            "id": "making-layouts",
+            "description": "Float, grid, flexbox, positioning, display and box model are some of the key topics that are used for making layouts. Use the resources below to learn about these topics.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Learn and Practice Flexbox",
+                    "link": "https://flexboxfroggy.com/"
+                },
+                {
+                    "name": "Game for learning CSS Grid",
+                    "link": "https://cssgridgarden.com/"
+                },
+                {
+                    "name": "All about Floats",
+                    "link": "https://css-tricks.com/all-about-floats/"
+                },
+                {
+                    "name": "Positioning Types: How Do They Differ?",
+                    "link": "https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/"
+                },
+                {
+                    "name": "The Box Model",
+                    "link": "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"
+                },
+                {
+                    "name": "The CSS Display Property",
+                    "link": "https://www.freecodecamp.org/news/the-css-display-property-display-none-display-table-inline-block-and-more/"
+                },
+                {
+                    "name": "A Complete Guide to Flexbox",
+                    "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox"
+                },
+                {
+                    "name": "A Complete Guide to Grid",
+                    "link": "https://css-tricks.com/snippets/css/complete-guide-grid"
+                },
+                {
+                    "name": "Learn CSS Grid - Course",
+                    "link": "https://cssgrid.io/"
+                },
+                {
+                    "name": "Learn CSS Grid for free",
+                    "link": "https://scrimba.com/learn/cssgrid"
+                },
+                {
+                    "name": "Get on the Grid at Last with the CSS Grid Layout Module",
+                    "link": "https://thenewstack.io/get-grid-last-css-grid-template-markup/"
+                }
+            ],
+            "parents": [
+                "css"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "9e4f906f-0577-4f53-8469-cb09e8434220",
+                    "question": "What is the purpose of the 'float' property in CSS?",
+                    "description": "Choose the option that best describes the purpose of the 'float' property in CSS.",
+                    "hint": "Consider how 'float' is used to specify whether an element should be placed to the left or right of its container.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Incorrect. The order of flex items is typically controlled by the 'order' property, not 'float'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies whether an element should be placed to the left or right of its container.",
+                            "points": 3,
+                            "explanation": "Correct! 'float' is used to specify the placement of an element to the left or right of its container in CSS."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the size of grid columns.",
+                            "points": 0,
+                            "explanation": "Not accurate. The size of grid columns is typically defined using properties like 'grid-template-columns', not 'float'."
+                        }
+                    ]
+                },
+                {
+                    "id": "e6f47a6b-4b61-4f71-a9df-d377fa98a540",
+                    "question": "What does the CSS 'display' property do?",
+                    "description": "Select the option that best describes the purpose of the 'display' property in CSS.",
+                    "hint": "Consider how 'display' is used to define the type of box an element generates.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the visibility of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. The visibility of an element is controlled by properties like 'visibility', not 'display'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the type of box an element generates.",
+                            "points": 3,
+                            "explanation": "Correct! 'display' is used to define the type of box an element generates, such as block or inline, in CSS."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the ability of a flex item to shrink.",
+                            "points": 0,
+                            "explanation": "Not accurate. The ability of a flex item to shrink is controlled by the 'flex-shrink' property, not 'display'."
+                        }
+                    ]
+                },
+                {
+                    "id": "94416771-8388-4e84-af22-bf9e907dbf65",
+                    "question": "What is the primary purpose of the CSS 'position' property?",
+                    "description": "Choose the option that best describes the primary purpose of the 'position' property in CSS.",
+                    "hint": "Consider how 'position' is used to specify the positioning method of an element in its parent container.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the spacing outside an element's border.",
+                            "points": 0,
+                            "explanation": "Incorrect. The spacing outside an element's border is controlled by the 'margin' property, not 'position'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the positioning method of an element in its parent container.",
+                            "points": 3,
+                            "explanation": "Correct! 'position' is used to specify how an element should be positioned in its parent container, such as 'relative' or 'absolute', in CSS."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the order of stacked elements.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of stacked elements is typically controlled by the 'z-index' property, not 'position'."
+                        }
+                    ]
+                },
+                {
+                    "id": "40d51f3f-45fe-4e0e-8cb2-77b63d35283d",
+                    "question": "How does the 'box model' concept apply to CSS?",
+                    "description": "Select the option that best describes how the 'box model' concept applies to CSS.",
+                    "hint": "Consider how the 'box model' consists of content, padding, border, and margin.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It defines the type of box an element generates.",
+                            "points": 0,
+                            "explanation": "Incorrect. The type of box an element generates is defined by the 'display' property, not the 'box model'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It consists of content, padding, border, and margin.",
+                            "points": 3,
+                            "explanation": "Correct! The 'box model' concept in CSS consists of content, padding, border, and margin, defining the total space an element occupies."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of flex items is typically controlled by the 'order' property, not the 'box model'."
+                        }
+                    ]
+                },
+                {
+                    "id": "1cb174de-574e-475a-9ae5-3d775b20e15c",
+                    "question": "What is the role of the 'flexbox' layout in CSS?",
+                    "description": "Choose the option that best describes the role of the 'flexbox' layout in CSS.",
+                    "hint": "Consider how 'flexbox' is used for building flexible and efficient layouts.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It defines the type of box an element generates.",
+                            "points": 0,
+                            "explanation": "Incorrect. The type of box an element generates is defined by the 'display' property, not 'flexbox'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It is used for building flexible and efficient layouts.",
+                            "points": 3,
+                            "explanation": "Correct! 'flexbox' is a layout model that allows you to design flexible and efficient layouts in CSS."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the ability of a flex item to shrink.",
+                            "points": 0,
+                            "explanation": "Not accurate. The ability of a flex item to shrink is controlled by the 'flex-shrink' property, not 'flexbox'."
+                        }
+                    ]
+                },
+                {
+                    "id": "8a83c4c1-c6bb-4bf3-a55d-6e5811878ec7",
+                    "question": "How is the 'grid' layout different from the 'flexbox' layout in CSS?",
+                    "description": "Select the option that best describes the difference between the 'grid' layout and the 'flexbox' layout in CSS.",
+                    "hint": "Consider the main use cases and structure of 'grid' and 'flexbox'.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Both 'grid' and 'flexbox' are used for the same purpose and have identical structures.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'grid' and 'flexbox' have different use cases and structures, although they can be used together."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'grid' layout is designed for two-dimensional layouts, while 'flexbox' is designed for one-dimensional layouts.",
+                            "points": 3,
+                            "explanation": "Correct! 'grid' is ideal for two-dimensional layouts, while 'flexbox' is suitable for one-dimensional layouts in CSS."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Both 'grid' and 'flexbox' are deprecated in modern CSS.",
+                            "points": 0,
+                            "explanation": "Not accurate. Both 'grid' and 'flexbox' are widely used and supported in modern CSS."
+                        }
+                    ]
+                },
+                {
+                    "id": "301a0121-4c0a-47f4-bfda-7b8d11e8f6ea",
+                    "question": "What does the CSS 'position: absolute;' property do?",
+                    "description": "Choose the option that best describes the behavior of the 'position: absolute;' property in CSS.",
+                    "hint": "Consider how 'position: absolute;' positions an element relative to its nearest positioned ancestor.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It positions the element relative to its normal position in the document.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'position: absolute;' positions the element relative to its nearest positioned ancestor, not its normal position."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It positions the element relative to its nearest positioned ancestor.",
+                            "points": 3,
+                            "explanation": "Correct! 'position: absolute;' positions the element relative to its nearest positioned ancestor, which may be the nearest parent with a 'position' property other than 'static'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the order of stacked elements.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of stacked elements is typically controlled by the 'z-index' property, not 'position: absolute;'."
+                        }
+                    ]
+                },
+                {
+                    "id": "131db098-cc04-45a2-91b3-79f41e6525bf",
+                    "question": "How does the 'justify-content' property work in a 'flexbox' layout?",
+                    "description": "Explain the functionality of the 'justify-content' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'justify-content' aligns flex items along the main axis.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Incorrect. The order of flex items is typically controlled by the 'order' property, not 'justify-content'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It aligns flex items along the main axis.",
+                            "points": 3,
+                            "explanation": "Correct! 'justify-content' is used to align flex items along the main axis in a 'flexbox' layout."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the ability of a flex item to shrink.",
+                            "points": 0,
+                            "explanation": "Not accurate. The ability of a flex item to shrink is controlled by the 'flex-shrink' property, not 'justify-content'."
+                        }
+                    ]
+                },
+                {
+                    "id": "40c06d4c-381b-4d7e-98d2-827db19e3317",
+                    "question": "What does the CSS 'position: relative;' property do?",
+                    "description": "Choose the option that best describes the behavior of the 'position: relative;' property in CSS.",
+                    "hint": "Consider how 'position: relative;' positions an element relative to its normal position in the document.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It positions the element relative to its nearest positioned ancestor.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'position: relative;' positions the element relative to its normal position in the document, not its nearest positioned ancestor."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It determines the order of stacked elements.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of stacked elements is typically controlled by the 'z-index' property, not 'position: relative;'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It positions the element relative to its normal position in the document.",
+                            "points": 3,
+                            "explanation": "Correct! 'position: relative;' positions the element relative to its normal position, and it still occupies the space it would have taken in the normal flow."
+                        }
+                    ]
+                },
+                {
+                    "id": "a674c6ac-0885-4f0b-bab9-55ed71cb0204",
+                    "question": "How does the 'align-items' property work in a 'flexbox' layout?",
+                    "description": "Explain the functionality of the 'align-items' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'align-items' aligns flex items along the cross axis.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the visibility of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. The visibility of an element is controlled by properties like 'visibility', not 'align-items'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It aligns flex items along the cross axis.",
+                            "points": 3,
+                            "explanation": "Correct! 'align-items' is used to align flex items along the cross axis in a 'flexbox' layout."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the ability of a flex item to shrink.",
+                            "points": 0,
+                            "explanation": "Not accurate. The ability of a flex item to shrink is controlled by the 'flex-shrink' property, not 'align-items'."
+                        }
+                    ]
+                },
+                {
+                    "id": "bd3f4e88-eb57-4a10-90bf-5a2072e29ff3",
+                    "question": "Which CSS property is used to set the size of the margin area for all four sides of an element?",
+                    "description": "Select the CSS property that sets the size of the margin area for all four sides of an element.",
+                    "hint": "Consider the property that sets the margin for all sides simultaneously.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "margin-top",
+                            "points": 0,
+                            "explanation": "Incorrect. 'margin-top' sets the margin size for the top side only."
+                        },
+                        {
+                            "label": "B",
+                            "description": "margin",
+                            "points": 3,
+                            "explanation": "Correct! The 'margin' property sets the margin size for all four sides of an element simultaneously."
+                        },
+                        {
+                            "label": "C",
+                            "description": "margin-left",
+                            "points": 0,
+                            "explanation": "Not accurate. 'margin-left' sets the margin size for the left side only."
+                        }
+                    ]
+                },
+                {
+                    "id": "587142b1-534e-4460-8bb7-b3324bb081f8",
+                    "question": "What does the CSS 'display: inline-block;' property do?",
+                    "description": "Choose the option that best describes the behavior of the 'display: inline-block;' property in CSS.",
+                    "hint": "Consider how 'display: inline-block;' combines aspects of both inline and block elements.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It makes the element a block-level container.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'display: inline-block;' makes the element an inline-level container, but it behaves as a block-level container."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It makes the element an inline-level container that behaves as a block-level container.",
+                            "points": 3,
+                            "explanation": "Correct! 'display: inline-block;' makes the element an inline-level container that behaves as a block-level container in CSS."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It hides the element from the layout.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'display: none;' is used to hide an element from the layout, not 'display: inline-block;'."
+                        }
+                    ]
+                },
+                {
+                    "id": "8719c67a-06f3-4ef0-a5e1-b8a5d713967e",
+                    "question": "What is the purpose of the 'clear' property in CSS?",
+                    "description": "Select the option that best describes the purpose of the 'clear' property in CSS.",
+                    "hint": "Consider how 'clear' is used to control the behavior of elements adjacent to floated elements.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the spacing between lines of text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The spacing between lines of text is typically controlled by the 'line-height' property, not 'clear'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the behavior of elements adjacent to floated elements.",
+                            "points": 3,
+                            "explanation": "Correct! 'clear' is used to control whether an element can be positioned next to a floated element or must be moved down below it in CSS."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the type of box an element generates.",
+                            "points": 0,
+                            "explanation": "Not accurate. The type of box an element generates is defined by the 'display' property, not 'clear'."
+                        }
+                    ]
+                },
+                {
+                    "id": "2b6a15d6-07fb-48a2-a5d4-1f1540eb6890",
+                    "question": "In CSS, how does the 'position: fixed;' property behave?",
+                    "description": "Explain the behavior of the 'position: fixed;' property in CSS.",
+                    "hint": "Consider how 'position: fixed;' positions an element relative to the viewport.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It positions the element relative to its normal position in the document.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'position: fixed;' positions the element relative to the viewport, not its normal position in the document."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It positions the element relative to its nearest positioned ancestor.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'position: fixed;' positions the element relative to the viewport, not an ancestor."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It positions the element relative to the viewport even when scrolling.",
+                            "points": 3,
+                            "explanation": "Correct! 'position: fixed;' positions the element relative to the viewport and keeps it fixed even when scrolling."
+                        }
+                    ]
+                },
+                {
+                    "id": "85b732e2-0104-43bb-a4c2-3dfb0f530f4d",
+                    "question": "What is the purpose of the 'z-index' property in CSS?",
+                    "description": "Select the option that best describes the purpose of the 'z-index' property in CSS.",
+                    "hint": "Consider how 'z-index' controls the stacking order of positioned elements.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a flex item to shrink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a flex item to shrink is controlled by the 'flex-shrink' property, not 'z-index'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of flex items is typically controlled by the 'order' property, not 'z-index'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls the stacking order of positioned elements.",
+                            "points": 3,
+                            "explanation": "Correct! 'z-index' is used to control the stacking order of positioned elements in CSS."
+                        }
+                    ]
+                },
+                {
+                    "id": "470d2703-7d33-401f-b15a-4a42dbb87858",
+                    "question": "How does the 'position: relative;' property affect child elements in CSS?",
+                    "description": "Explain how the 'position: relative;' property applied to a parent element affects its child elements.",
+                    "hint": "Consider how 'position: relative;' creates a positioning context for its descendants.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It positions child elements relative to the viewport.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'position: relative;' creates a positioning context for child elements, but they are positioned relative to their normal position in the document, not the viewport."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It positions child elements relative to the parent element.",
+                            "points": 3,
+                            "explanation": "Correct! 'position: relative;' creates a positioning context for child elements, and they are positioned relative to the nearest positioned ancestor, which is the parent element in this case."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It has no effect on the positioning of child elements.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'position: relative;' does affect the positioning of child elements by creating a positioning context for them."
+                        }
+                    ]
+                },
+                {
+                    "id": "3451f458-fc45-4f89-9447-110f1988a513",
+                    "question": "What is the purpose of the CSS 'overflow' property?",
+                    "description": "Select the option that best describes the purpose of the 'overflow' property in CSS.",
+                    "hint": "Consider how 'overflow' controls the behavior of content that overflows the box.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a flex item to shrink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a flex item to shrink is controlled by the 'flex-shrink' property, not 'overflow'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of flex items is typically controlled by the 'order' property, not 'overflow'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls the behavior of content that overflows the box.",
+                            "points": 3,
+                            "explanation": "Correct! 'overflow' is used to control the behavior of content that overflows the box in CSS."
+                        }
+                    ]
+                },
+                {
+                    "id": "2c12d8e4-7a3e-41e7-ba7b-2c58e0eb508a",
+                    "question": "What is the purpose of the CSS 'flex-grow' property in a 'flexbox' layout?",
+                    "description": "Select the option that best describes the purpose of the 'flex-grow' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'flex-grow' determines the ability of a flex item to grow.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the visibility of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. The visibility of an element is controlled by properties like 'visibility', not 'flex-grow'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 3,
+                            "explanation": "Correct! 'flex-grow' is used to determine the ability of a flex item to grow in a 'flexbox' layout."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It aligns flex items along the cross axis.",
+                            "points": 0,
+                            "explanation": "Not accurate. Aligning flex items along the cross axis is typically controlled by the 'align-items' property, not 'flex-grow'."
+                        }
+                    ]
+                },
+                {
+                    "id": "2cb98b92-4ff5-40b8-942f-c3ccfe01121f",
+                    "question": "How is the 'box-sizing' property used in CSS?",
+                    "description": "Select the option that best describes how the 'box-sizing' property is used in CSS.",
+                    "hint": "Consider how 'box-sizing' affects the sizing of the box model.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Incorrect. The order of flex items is typically controlled by the 'order' property, not 'box-sizing'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It determines the ability of a flex item to shrink.",
+                            "points": 0,
+                            "explanation": "Not accurate. The ability of a flex item to shrink is controlled by the 'flex-shrink' property, not 'box-sizing'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It affects the sizing of the box model, including or excluding padding and border.",
+                            "points": 3,
+                            "explanation": "Correct! 'box-sizing' is used to control whether the sizing of the box model includes or excludes padding and border in CSS."
+                        }
+                    ]
+                },
+                {
+                    "id": "001ed340-8f9e-4c13-8237-4ec22ff14a72",
+                    "question": "What is the purpose of the CSS 'flex-direction' property in a 'flexbox' layout?",
+                    "description": "Select the option that best describes the purpose of the 'flex-direction' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'flex-direction' defines the main axis and direction of the flex container.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Incorrect. The order of flex items is typically controlled by the 'order' property, not 'flex-direction'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 0,
+                            "explanation": "Not accurate. The ability of a flex item to grow is controlled by the 'flex-grow' property, not 'flex-direction'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the main axis and direction of the flex container.",
+                            "points": 3,
+                            "explanation": "Correct! 'flex-direction' is used to define the main axis (horizontal or vertical) and direction of the flex container in a 'flexbox' layout."
+                        }
+                    ]
+                },
+                {
+                    "id": "8ff872da-2e68-41cd-8b37-4b9635f831f3",
+                    "question": "How does the 'float' property affect the layout of elements in CSS?",
+                    "description": "Explain the impact of the 'float' property on the layout of elements in CSS.",
+                    "hint": "Consider how 'float' is used to make elements float to the left or right.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It has no impact on the layout of elements.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'float' can significantly impact the layout of elements by making them float to the left or right."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It centers elements horizontally within their container.",
+                            "points": 0,
+                            "explanation": "Not accurate. Centering elements horizontally is typically achieved using different techniques, not 'float'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It makes elements float to the left or right, affecting the layout of surrounding elements.",
+                            "points": 3,
+                            "explanation": "Correct! 'float' is used to make elements float to the left or right, affecting the layout of surrounding elements in CSS."
+                        }
+                    ]
+                },
+                {
+                    "id": "d71c8d3b-d0c2-4297-8b9f-11c0d19f1f8b",
+                    "question": "What is the purpose of the CSS 'position: static;' property?",
+                    "description": "Choose the option that best describes the behavior of the 'position: static;' property in CSS.",
+                    "hint": "Consider how 'position: static;' places an element in the normal flow of the document.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It positions the element relative to its nearest positioned ancestor.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'position: static;' places the element in the normal flow of the document, not relative to an ancestor."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It makes the element a block-level container.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'position: static;' does not change the block-level or inline-level nature of an element."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It places the element in the normal flow of the document.",
+                            "points": 3,
+                            "explanation": "Correct! 'position: static;' places the element in the normal flow of the document, and it will be positioned according to the regular flow of elements."
+                        }
+                    ]
+                },
+                {
+                    "id": "1e4f11d7-3ee7-4fe0-bc50-9ba1738b4f5b",
+                    "question": "How does the CSS 'display: flex;' property affect the layout of its children?",
+                    "description": "Explain how the 'display: flex;' property impacts the layout of the children of the element to which it is applied.",
+                    "hint": "Consider how 'display: flex;' turns the element into a flex container.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It centers the children vertically within the flex container.",
+                            "points": 0,
+                            "explanation": "Incorrect. Vertical centering of children is typically achieved using additional properties, not solely 'display: flex;'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It makes the children flex items and arranges them in a horizontal row by default.",
+                            "points": 3,
+                            "explanation": "Correct! 'display: flex;' turns the element into a flex container, and its children become flex items arranged in a horizontal row by default."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It hides the children from the layout.",
+                            "points": 0,
+                            "explanation": "Not accurate. Hiding elements from the layout is typically achieved using 'display: none;', not 'display: flex;'."
+                        }
+                    ]
+                },
+                {
+                    "id": "02b6e8d8-73c5-4c2d-8b45-e45b07ed0b35",
+                    "question": "What is the purpose of the 'flex-basis' property in a 'flexbox' layout?",
+                    "description": "Select the option that best describes the purpose of the 'flex-basis' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'flex-basis' defines the default size of a flex item along the main axis.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Incorrect. The order of flex items is typically controlled by the 'order' property, not 'flex-basis'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 0,
+                            "explanation": "Not accurate. The ability of a flex item to grow is controlled by the 'flex-grow' property, not 'flex-basis'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the default size of a flex item along the main axis.",
+                            "points": 3,
+                            "explanation": "Correct! 'flex-basis' is used to define the default size of a flex item along the main axis in a 'flexbox' layout."
+                        }
+                    ]
+                },
+                {
+                    "id": "ebc0bcdb-72f2-4e10-b7c5-e3a69a19bdfa",
+                    "question": "In CSS Grid, what does the 'grid-template-columns' property define?",
+                    "description": "Choose the option that best describes what the 'grid-template-columns' property defines in CSS Grid.",
+                    "hint": "Consider how 'grid-template-columns' specifies the size of columns in a grid container.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a grid item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a grid item to grow is typically controlled by properties like 'flex-grow', not 'grid-template-columns'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of grid items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of grid items is typically controlled by the 'order' property, not 'grid-template-columns'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the size of columns in a grid container.",
+                            "points": 3,
+                            "explanation": "Correct! 'grid-template-columns' is used to define the size of columns in a grid container in CSS Grid."
+                        }
+                    ]
+                },
+                {
+                    "id": "b2eeb536-2d64-4746-b825-529e5b7f8c8a",
+                    "question": "What does the 'justify-content' property do in a 'flexbox' layout?",
+                    "description": "Select the option that best describes the function of the 'justify-content' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'justify-content' aligns flex items along the main axis.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It centers flex items vertically within the flex container.",
+                            "points": 0,
+                            "explanation": "Incorrect. Vertical centering is typically achieved using other properties, not 'justify-content'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It aligns flex items along the cross axis.",
+                            "points": 0,
+                            "explanation": "Not accurate. Aligning flex items along the cross axis is typically controlled by the 'align-items' property, not 'justify-content'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It aligns flex items along the main axis.",
+                            "points": 3,
+                            "explanation": "Correct! 'justify-content' is used to align flex items along the main axis in a 'flexbox' layout."
+                        }
+                    ]
+                },
+                {
+                    "id": "72e4713c-131b-4f27-b149-2d092eb7ac8f",
+                    "question": "What is the purpose of the 'grid-gap' property in CSS Grid?",
+                    "description": "Choose the option that best describes the purpose of the 'grid-gap' property in CSS Grid.",
+                    "hint": "Consider how 'grid-gap' sets the gap between columns and rows in a grid container.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a grid item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a grid item to grow is typically controlled by properties like 'flex-grow', not 'grid-gap'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of grid items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of grid items is typically controlled by the 'order' property, not 'grid-gap'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It sets the gap between columns and rows in a grid container.",
+                            "points": 3,
+                            "explanation": "Correct! 'grid-gap' is used to set the gap between columns and rows in a grid container in CSS Grid."
+                        }
+                    ]
+                },
+                {
+                    "id": "cc6f1f46-20fb-46ef-ba93-764940001f21",
+                    "question": "How does the 'flex-shrink' property work in a 'flexbox' layout?",
+                    "description": "Explain the functionality of the 'flex-shrink' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'flex-shrink' determines the ability of a flex item to shrink.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It centers flex items vertically within the flex container.",
+                            "points": 0,
+                            "explanation": "Incorrect. Vertical centering is typically achieved using other properties, not 'flex-shrink'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It determines the ability of a flex item to shrink.",
+                            "points": 3,
+                            "explanation": "Correct! 'flex-shrink' is used to determine the ability of a flex item to shrink in a 'flexbox' layout."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It aligns flex items along the cross axis.",
+                            "points": 0,
+                            "explanation": "Not accurate. Aligning flex items along the cross axis is typically controlled by the 'align-items' property, not 'flex-shrink'."
+                        }
+                    ]
+                },
+                {
+                    "id": "b1a1c4de-d86a-4d6f-b143-287c0c27b271",
+                    "question": "In CSS Grid, what does the 'grid-auto-rows' property define?",
+                    "description": "Choose the option that best describes what the 'grid-auto-rows' property defines in CSS Grid.",
+                    "hint": "Consider how 'grid-auto-rows' specifies the size of rows in a grid container when they are created implicitly.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a grid item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a grid item to grow is typically controlled by properties like 'flex-grow', not 'grid-auto-rows'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of grid items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of grid items is typically controlled by the 'order' property, not 'grid-auto-rows'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the size of rows in a grid container when they are created implicitly.",
+                            "points": 3,
+                            "explanation": "Correct! 'grid-auto-rows' is used to specify the size of rows in a grid container when they are created implicitly in CSS Grid."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f29a80b-27e9-4647-8ed9-c2b63a7e39cc",
+                    "question": "What does the 'align-self' property do in a 'flexbox' layout?",
+                    "description": "Select the option that best describes the function of the 'align-self' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'align-self' overrides the 'align-items' property for a specific flex item.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It centers flex items vertically within the flex container.",
+                            "points": 0,
+                            "explanation": "Incorrect. Vertical centering is typically achieved using other properties, not 'align-self'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It aligns flex items along the cross axis.",
+                            "points": 0,
+                            "explanation": "Not accurate. Aligning flex items along the cross axis is typically controlled by the 'align-items' property, not 'align-self'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It allows a flex item to override the 'align-items' property and specify its own alignment.",
+                            "points": 3,
+                            "explanation": "Correct! 'align-self' allows a flex item to override the 'align-items' property and specify its own alignment in a 'flexbox' layout."
+                        }
+                    ]
+                },
+                {
+                    "id": "68d95b44-346d-4e72-b159-321ba8d185a5",
+                    "question": "Explain the purpose of the 'z-index' property in CSS.",
+                    "description": "Choose the option that best describes the purpose of the 'z-index' property in CSS.",
+                    "hint": "Consider how 'z-index' controls the stacking order of positioned elements.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a flex item to grow is typically controlled by properties like 'flex-grow', not 'z-index'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of flex items is typically controlled by the 'order' property, not 'z-index'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls the stacking order of positioned elements.",
+                            "points": 3,
+                            "explanation": "Correct! 'z-index' is used to control the stacking order of positioned elements in CSS, determining which elements appear in front of others."
+                        }
+                    ]
+                },
+                {
+                    "id": "777c67b2-4a3e-407f-a3c2-7a4da447cf5c",
+                    "question": "In CSS Grid, what does the 'grid-template-rows' property define?",
+                    "description": "Choose the option that best describes what the 'grid-template-rows' property defines in CSS Grid.",
+                    "hint": "Consider how 'grid-template-rows' specifies the size of rows in a grid container.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a grid item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a grid item to grow is typically controlled by properties like 'flex-grow', not 'grid-template-rows'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of grid items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of grid items is typically controlled by the 'order' property, not 'grid-template-rows'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the size of rows in a grid container.",
+                            "points": 3,
+                            "explanation": "Correct! 'grid-template-rows' is used to define the size of rows in a grid container in CSS Grid."
+                        }
+                    ]
+                },
+                {
+                    "id": "be3f2c7d-b056-4b3e-855b-4b3e28c9e9d5",
+                    "question": "What does the 'position: relative;' property do in CSS?",
+                    "description": "Select the option that best describes the behavior of the 'position: relative;' property in CSS.",
+                    "hint": "Consider how 'position: relative;' positions an element relative to its normal position.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It centers the element horizontally within its container.",
+                            "points": 0,
+                            "explanation": "Incorrect. Centering horizontally is typically achieved using other techniques, not 'position: relative;'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It positions the element relative to its nearest positioned ancestor.",
+                            "points": 3,
+                            "explanation": "Correct! 'position: relative;' positions the element relative to its normal position in the document flow."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It has no effect on the positioning of the element.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'position: relative;' does affect the positioning of the element relative to its normal position."
+                        }
+                    ]
+                },
+                {
+                    "id": "b0a5b49d-31e6-42d0-8af1-e0ef090b03a0",
+                    "question": "How does the 'align-content' property work in CSS Grid?",
+                    "description": "Explain the functionality of the 'align-content' property in CSS Grid.",
+                    "hint": "Consider how 'align-content' aligns grid lines in the cross axis of a grid container.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a grid item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a grid item to grow is typically controlled by properties like 'flex-grow', not 'align-content'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of grid items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of grid items is typically controlled by the 'order' property, not 'align-content'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It aligns grid lines in the cross axis of a grid container.",
+                            "points": 3,
+                            "explanation": "Correct! 'align-content' is used to align grid lines in the cross axis of a grid container in CSS Grid."
+                        }
+                    ]
+                },
+                {
+                    "id": "ed9c409d-03c7-48fb-bb36-ef4d1a695a1e",
+                    "question": "What does the 'flex-basis' property determine in a 'flexbox' layout?",
+                    "description": "Select the option that best describes what the 'flex-basis' property determines in a 'flexbox' layout.",
+                    "hint": "Consider how 'flex-basis' defines the default size of a flex item along the main axis.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a flex item to grow is typically controlled by properties like 'flex-grow', not 'flex-basis'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of flex items is typically controlled by the 'order' property, not 'flex-basis'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the default size of a flex item along the main axis.",
+                            "points": 3,
+                            "explanation": "Correct! 'flex-basis' is used to define the default size of a flex item along the main axis in a 'flexbox' layout."
+                        }
+                    ]
+                },
+                {
+                    "id": "60c40b2f-5a86-4c54-86b2-2bd0c1fb6ed4",
+                    "question": "What is the purpose of the 'display: grid;' property in CSS?",
+                    "description": "Choose the option that best describes the purpose of the 'display: grid;' property in CSS.",
+                    "hint": "Consider how 'display: grid;' turns an element into a grid container.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a grid item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a grid item to grow is typically controlled by properties like 'flex-grow', not 'display: grid;'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of grid items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of grid items is typically controlled by the 'order' property, not 'display: grid;'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It turns an element into a grid container.",
+                            "points": 3,
+                            "explanation": "Correct! 'display: grid;' is used to turn an element into a grid container in CSS, enabling the use of grid layout properties."
+                        }
+                    ]
+                },
+                {
+                    "id": "b0423e91-2eab-4b1d-bfd5-9e9da3f4824d",
+                    "question": "How does the 'flex-grow' property work in a 'flexbox' layout?",
+                    "description": "Explain the functionality of the 'flex-grow' property in a 'flexbox' layout.",
+                    "hint": "Consider how 'flex-grow' determines the ability of a flex item to grow.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It centers flex items vertically within the flex container.",
+                            "points": 0,
+                            "explanation": "Incorrect. Vertical centering is typically achieved using other properties, not 'flex-grow'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 3,
+                            "explanation": "Correct! 'flex-grow' is used to determine the ability of a flex item to grow in a 'flexbox' layout."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It aligns flex items along the cross axis.",
+                            "points": 0,
+                            "explanation": "Not accurate. Aligning flex items along the cross axis is typically controlled by the 'align-items' property, not 'flex-grow'."
+                        }
+                    ]
+                },
+                {
+                    "id": "d06c8c8a-d786-4dbd-94e1-7dbcc4fcd3cc",
+                    "question": "What is the purpose of the CSS 'box-sizing' property?",
+                    "description": "Choose the option that best describes the purpose of the 'box-sizing' property in CSS.",
+                    "hint": "Consider how 'box-sizing' affects the sizing of elements and their box model.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a flex item to grow is typically controlled by properties like 'flex-grow', not 'box-sizing'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of flex items is typically controlled by the 'order' property, not 'box-sizing'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It affects the sizing of elements and their box model.",
+                            "points": 3,
+                            "explanation": "Correct! 'box-sizing' is used to control how the sizing of elements is calculated, including or excluding padding and border."
+                        }
+                    ]
+                },
+                {
+                    "id": "fbfc44a0-3712-42c4-81f9-9d31627cfe20",
+                    "question": "In CSS Grid, what does the 'grid-template-columns' property define?",
+                    "description": "Choose the option that best describes what the 'grid-template-columns' property defines in CSS Grid.",
+                    "hint": "Consider how 'grid-template-columns' specifies the size of columns in a grid container.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a grid item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a grid item to grow is typically controlled by properties like 'flex-grow', not 'grid-template-columns'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of grid items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of grid items is typically controlled by the 'order' property, not 'grid-template-columns'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the size of columns in a grid container.",
+                            "points": 3,
+                            "explanation": "Correct! 'grid-template-columns' is used to define the size of columns in a grid container in CSS Grid."
+                        }
+                    ]
+                },
+                {
+                    "id": "bc8ad0df-9de3-4bae-8a0b-7e508ee132c1",
+                    "question": "What does the 'position: fixed;' property do in CSS?",
+                    "description": "Select the option that best describes the behavior of the 'position: fixed;' property in CSS.",
+                    "hint": "Consider how 'position: fixed;' positions an element relative to the viewport.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It centers the element horizontally within its container.",
+                            "points": 0,
+                            "explanation": "Incorrect. Centering horizontally is typically achieved using other techniques, not 'position: fixed;'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It positions the element relative to its nearest positioned ancestor.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'position: fixed;' positions the element relative to the viewport, not its nearest positioned ancestor."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It positions the element relative to the viewport.",
+                            "points": 3,
+                            "explanation": "Correct! 'position: fixed;' positions the element relative to the viewport, so it stays fixed even when the page is scrolled."
+                        }
+                    ]
+                },
+                {
+                    "id": "d36a1a26-1490-4a93-9b48-c1b086256d0d",
+                    "question": "What does the CSS property 'perspective' control in a 3D-transformed element?",
+                    "description": "Choose the option that best describes what the 'perspective' property controls in a 3D-transformed element.",
+                    "hint": "Consider how 'perspective' determines the depth of the view into a 3D scene.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the rotation of the element around its own axis.",
+                            "points": 0,
+                            "explanation": "Incorrect. The rotation of an element around its own axis is typically controlled by properties like 'rotate', not 'perspective'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the scale of the element.",
+                            "points": 0,
+                            "explanation": "Not accurate. The scale of an element is typically controlled by properties like 'scale', not 'perspective'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the depth of the view into a 3D scene.",
+                            "points": 3,
+                            "explanation": "Correct! 'perspective' controls the depth of the view into a 3D-transformed element, influencing the perception of depth."
+                        }
+                    ]
+                },
+                {
+                    "id": "f6d7b23c-2c7b-44d9-8970-32c1c4c13cf1",
+                    "question": "What is the purpose of the 'currentColor' keyword in CSS?",
+                    "description": "Choose the option that best describes the purpose of the 'currentColor' keyword in CSS.",
+                    "hint": "Consider how 'currentColor' is used in the context of color properties.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It represents the current background color of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'currentColor' does not represent the background color but rather the current text color or the inherited color property."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It represents the current color of an element, including inherited color properties.",
+                            "points": 3,
+                            "explanation": "Correct! 'currentColor' represents the computed value of the 'color' property, including inherited color properties."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is used to set the color of an element to the color of its parent.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'currentColor' keyword does not depend on the color of the parent element."
+                        }
+                    ]
+                },
+                {
+                    "id": "d54bc2c8-46ed-42f7-9eb9-3f5d53c78fb8",
+                    "question": "In CSS, what is the purpose of the 'backface-visibility' property in a 3D-transformed element?",
+                    "description": "Select the option that best describes the purpose of the 'backface-visibility' property in CSS for a 3D-transformed element.",
+                    "hint": "Consider how 'backface-visibility' controls whether the back or front face of an element is visible.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the rotation of the element around its own axis.",
+                            "points": 0,
+                            "explanation": "Incorrect. The rotation of an element around its own axis is typically controlled by properties like 'rotate', not 'backface-visibility'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the scale of the element.",
+                            "points": 0,
+                            "explanation": "Not accurate. The scale of an element is typically controlled by properties like 'scale', not 'backface-visibility'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls whether the back or front face of an element is visible.",
+                            "points": 3,
+                            "explanation": "Correct! 'backface-visibility' determines whether the back or front face of a 3D-transformed element is visible."
+                        }
+                    ]
+                },
+                {
+                    "id": "ebdb3fbb-7a3e-4c1f-9a2e-63b2b62c1311",
+                    "question": "What is the purpose of the CSS 'animation-timing-function' property?",
+                    "description": "Choose the option that best describes the purpose of the 'animation-timing-function' property in CSS animations.",
+                    "hint": "Consider how 'animation-timing-function' defines the pacing of the animation.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a keyframe to start or stop an animation.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a keyframe to start or stop an animation is typically controlled by other properties, not 'animation-timing-function'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of keyframes in an animation sequence.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of keyframes is determined by their percentage values in the 'keyframes' rule, not 'animation-timing-function'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the pacing of the animation.",
+                            "points": 3,
+                            "explanation": "Correct! 'animation-timing-function' specifies how the intermediate values of the CSS properties are calculated between keyframes, affecting the pacing of the animation."
+                        }
+                    ]
+                },
+                {
+                    "id": "e1696184-14fe-4cda-92f5-1ff3f7ea5a56",
+                    "question": "How does the 'contain' property work in CSS?",
+                    "description": "Explain the functionality of the 'contain' property in CSS.",
+                    "hint": "Consider how 'contain' affects the layout of the element and its descendants within the container.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a flex item to grow is typically controlled by properties like 'flex-grow', not 'contain'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of flex items is typically controlled by the 'order' property, not 'contain'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It affects the layout of the element and its descendants within the container.",
+                            "points": 3,
+                            "explanation": "Correct! 'contain' is used to optimize the rendering of a subtree by indicating to the browser that it does not need to include elements outside the subtree in rendering calculations."
+                        }
+                    ]
+                },
+                {
+                    "id": "d36a1a26-1490-4a93-9b48-c1b086256d0d",
+                    "question": "What does the CSS property 'perspective' control in a 3D-transformed element?",
+                    "description": "Choose the option that best describes what the 'perspective' property controls in a 3D-transformed element.",
+                    "hint": "Consider how 'perspective' determines the depth of the view into a 3D scene.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the rotation of the element around its own axis.",
+                            "points": 0,
+                            "explanation": "Incorrect. The rotation of an element around its own axis is typically controlled by properties like 'rotate', not 'perspective'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the scale of the element.",
+                            "points": 0,
+                            "explanation": "Not accurate. The scale of an element is typically controlled by properties like 'scale', not 'perspective'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the depth of the view into a 3D scene.",
+                            "points": 3,
+                            "explanation": "Correct! 'perspective' controls the depth of the view into a 3D-transformed element, influencing the perception of depth."
+                        }
+                    ]
+                },
+                {
+                    "id": "f6d7b23c-2c7b-44d9-8970-32c1c4c13cf1",
+                    "question": "What is the purpose of the 'currentColor' keyword in CSS?",
+                    "description": "Choose the option that best describes the purpose of the 'currentColor' keyword in CSS.",
+                    "hint": "Consider how 'currentColor' is used in the context of color properties.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It represents the current background color of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'currentColor' does not represent the background color but rather the current text color or the inherited color property."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It represents the current color of an element, including inherited color properties.",
+                            "points": 3,
+                            "explanation": "Correct! 'currentColor' represents the computed value of the 'color' property, including inherited color properties."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It is used to set the color of an element to the color of its parent.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'currentColor' keyword does not depend on the color of the parent element."
+                        }
+                    ]
+                },
+                {
+                    "id": "d54bc2c8-46ed-42f7-9eb9-3f5d53c78fb8",
+                    "question": "In CSS, what is the purpose of the 'backface-visibility' property in a 3D-transformed element?",
+                    "description": "Select the option that best describes the purpose of the 'backface-visibility' property in CSS for a 3D-transformed element.",
+                    "hint": "Consider how 'backface-visibility' controls whether the back or front face of an element is visible.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the rotation of the element around its own axis.",
+                            "points": 0,
+                            "explanation": "Incorrect. The rotation of an element around its own axis is typically controlled by properties like 'rotate', not 'backface-visibility'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the scale of the element.",
+                            "points": 0,
+                            "explanation": "Not accurate. The scale of an element is typically controlled by properties like 'scale', not 'backface-visibility'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls whether the back or front face of an element is visible.",
+                            "points": 3,
+                            "explanation": "Correct! 'backface-visibility' determines whether the back or front face of a 3D-transformed element is visible."
+                        }
+                    ]
+                },
+                {
+                    "id": "ebdb3fbb-7a3e-4c1f-9a2e-63b2b62c1311",
+                    "question": "What is the purpose of the CSS 'animation-timing-function' property?",
+                    "description": "Choose the option that best describes the purpose of the 'animation-timing-function' property in CSS animations.",
+                    "hint": "Consider how 'animation-timing-function' defines the pacing of the animation.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a keyframe to start or stop an animation.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a keyframe to start or stop an animation is typically controlled by other properties, not 'animation-timing-function'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of keyframes in an animation sequence.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of keyframes is determined by their percentage values in the 'keyframes' rule, not 'animation-timing-function'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the pacing of the animation.",
+                            "points": 3,
+                            "explanation": "Correct! 'animation-timing-function' specifies how the intermediate values of the CSS properties are calculated between keyframes, affecting the pacing of the animation."
+                        }
+                    ]
+                },
+                {
+                    "id": "e1696184-14fe-4cda-92f5-1ff3f7ea5a56",
+                    "question": "How does the 'contain' property work in CSS?",
+                    "description": "Explain the functionality of the 'contain' property in CSS.",
+                    "hint": "Consider how 'contain' affects the layout of the element and its descendants within the container.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the ability of a flex item to grow.",
+                            "points": 0,
+                            "explanation": "Incorrect. The ability of a flex item to grow is typically controlled by properties like 'flex-grow', not 'contain'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It controls the order of flex items.",
+                            "points": 0,
+                            "explanation": "Not accurate. The order of flex items is typically controlled by the 'order' property, not 'contain'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It affects the layout of the element and its descendants within the container.",
+                            "points": 3,
+                            "explanation": "Correct! 'contain' is used to optimize the rendering of a subtree by indicating to the browser that it does not need to include elements outside the subtree in rendering calculations."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

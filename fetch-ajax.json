@@ -1,0 +1,1682 @@
+{
+    "skill": {
+        "Fetch-Ajax": {
+            "id": "fetch-ajax",
+            "description": "Ajax is the technique that lets us send and receive the data asynchronously from the servers e.g. updating the user profile or asynchronously fetching the list of searched products without reloading the page.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Fetch API MDN Docs",
+                    "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+                },
+                {
+                    "name": "A Simple Guide to JavaScript Fetch API",
+                    "link": "https://www.javascripttutorial.net/javascript-fetch-api/"
+                },
+                {
+                    "name": "Introduction to Fetch",
+                    "link": "https://web.dev/introduction-to-fetch/"
+                },
+                {
+                    "name": "JavaScript Fetch API",
+                    "link": "https://www.youtube.com/watch?v=-ZI0ea5O2oA"
+                }
+            ],
+            "parents": [
+                "javascript"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "c68a7b2c-0590-4d86-90b1-5832f2e2b8f1",
+                    "question": "What does the Fetch API allow developers to do in JavaScript?",
+                    "description": "Test your basic knowledge of the Fetch API and its role in JavaScript.",
+                    "hint": "Consider the main purpose of the Fetch API in handling network requests.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "The Fetch API allows developers to create complex animations and visual effects on web pages.",
+                            "description": "Incorrect. The Fetch API is not related to animations or visual effects. Focus on its primary role in handling network requests.",
+                            "points": 0,
+                            "explanation": "Understanding that the Fetch API is used for handling network requests, not animations, is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API enables developers to handle network requests, such as fetching data from servers or sending data to servers, asynchronously.",
+                            "description": "Correct! The Fetch API allows developers to handle network requests, fetching data from servers or sending data to servers asynchronously. Recognizing the primary purpose of the Fetch API is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the primary purpose of the Fetch API in handling network requests is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API provides tools for building complex user interfaces with interactive components.",
+                            "description": "Incorrect. The Fetch API is not related to building user interfaces or interactive components. Focus on its role in handling network requests.",
+                            "points": 0,
+                            "explanation": "Understanding that the Fetch API is used for handling network requests, not UI components, is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API is designed for server-side scripting and has no relevance in client-side JavaScript.",
+                            "description": "Incorrect. The Fetch API is primarily used in client-side JavaScript to handle network requests. Consider its role in client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding that the Fetch API is relevant for client-side JavaScript in handling network requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fc7e4892-4e94-4ecb-96d9-c2dfb4b345f0",
+                    "question": "Where can you find additional information and documentation about the Fetch API?",
+                    "description": "Test your basic knowledge of accessing resources related to the Fetch API.",
+                    "hint": "Consider common sources for JavaScript documentation and information.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Fetch API documentation is only available in print books and cannot be accessed online.",
+                            "description": "Incorrect. Fetch API documentation is commonly available online. Consider common online sources for JavaScript documentation.",
+                            "points": 0,
+                            "explanation": "Understanding that Fetch API documentation is commonly accessible online is crucial for this question."
+                        },
+                        {
+                            "label": "Fetch API information can be found on the MDN Web Docs (Mozilla Developer Network) website.",
+                            "description": "Correct! The MDN Web Docs is a reliable source for Fetch API documentation and information. Recognizing the MDN as a common source is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the MDN Web Docs as a reliable source for Fetch API documentation is crucial for this question."
+                        },
+                        {
+                            "label": "Fetch API documentation is exclusively available through paid online courses and tutorials.",
+                            "description": "Incorrect. Fetch API documentation is commonly available for free online. Consider open and accessible sources for JavaScript information.",
+                            "points": 0,
+                            "explanation": "Understanding that Fetch API documentation is commonly accessible for free online is crucial for this question."
+                        },
+                        {
+                            "label": "Fetch API details are only disclosed in closed developer forums and are not publicly accessible.",
+                            "description": "Incorrect. Fetch API information is commonly available in open and public forums. Consider common sources for JavaScript documentation.",
+                            "points": 0,
+                            "explanation": "Understanding that Fetch API information is commonly available in open and public forums is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f00b677c-21ab-44e9-b367-61e14e4a36e5",
+                    "question": "What is the primary benefit of using the Fetch API for handling network requests?",
+                    "description": "Test your basic understanding of the advantages associated with using the Fetch API.",
+                    "hint": "Consider the main advantages that the Fetch API offers in comparison to traditional approaches.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "The Fetch API does not provide any advantages, and traditional approaches are more efficient for handling network requests.",
+                            "description": "Incorrect. The Fetch API offers several advantages, and it is commonly used for handling network requests. Consider the benefits associated with the Fetch API.",
+                            "points": 0,
+                            "explanation": "Understanding the advantages of the Fetch API and its common usage for handling network requests is crucial for this question."
+                        },
+                        {
+                            "label": "The primary benefit of using the Fetch API is its ability to handle network requests asynchronously, preventing the need for page reloads.",
+                            "description": "Correct! The Fetch API allows asynchronous handling of network requests, avoiding the need for page reloads. Recognizing this primary benefit is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the primary benefit of the Fetch API in handling network requests asynchronously is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API is only suitable for simple and basic network requests and is not designed for complex scenarios.",
+                            "description": "Incorrect. The Fetch API is versatile and suitable for a wide range of network requests, including complex scenarios. Consider the flexibility of the Fetch API.",
+                            "points": 0,
+                            "explanation": "Understanding the versatility of the Fetch API for handling various network requests, including complex scenarios, is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API is exclusively designed for server-side scripting and is not applicable for client-side JavaScript.",
+                            "description": "Incorrect. The Fetch API is commonly used in client-side JavaScript for handling network requests. Consider its relevance in client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding the common usage of the Fetch API in client-side JavaScript for handling network requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b9ebfc44-6bc7-4b88-9795-aa36b40d5a94",
+                    "question": "In JavaScript, when using the Fetch API, what does the term 'asynchronous' mean?",
+                    "description": "Test your basic understanding of the term 'asynchronous' in the context of the Fetch API.",
+                    "hint": "Consider the nature of asynchronous operations and how they differ from synchronous operations.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Asynchronous in the context of the Fetch API means that network requests must be executed one after the other in a sequential manner.",
+                            "description": "Incorrect. Asynchronous operations in the Fetch API allow concurrent execution of network requests, not a strict sequential order. Consider the concurrent nature of asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Understanding that asynchronous operations allow concurrent execution, not strict sequential order, is crucial for this question."
+                        },
+                        {
+                            "label": "Asynchronous means that network requests executed using the Fetch API will block the main thread, leading to potential performance issues.",
+                            "description": "Incorrect. Asynchronous operations in the Fetch API are designed to avoid blocking the main thread, contributing to improved performance. Consider the non-blocking nature of asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Understanding that asynchronous operations in the Fetch API are non-blocking and avoid main thread blocking is crucial for this question."
+                        },
+                        {
+                            "label": "Asynchronous, when using the Fetch API, implies that network requests can be initiated and processed independently of the main execution flow, allowing the program to continue without waiting for their completion.",
+                            "description": "Correct! In the context of the Fetch API, asynchronous means that network requests can be initiated and processed independently, allowing the program to continue without waiting for their completion. Recognizing this independence is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the independence of asynchronous network requests in the Fetch API, allowing the program to continue without waiting, is crucial for this question."
+                        },
+                        {
+                            "label": "Asynchronous in the Fetch API implies that network requests can only be initiated after the entire page has loaded.",
+                            "description": "Incorrect. Asynchronous operations in the Fetch API allow network requests to be initiated at any point, not strictly after the entire page has loaded. Consider the flexibility of asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Understanding that asynchronous network requests in the Fetch API can be initiated at any point, not strictly after the entire page has loaded, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "3db8b5e2-8c50-478b-953c-d43ee42ec5c7",
+                    "question": "Which of the following statements accurately describes the relationship between Ajax and the Fetch API?",
+                    "description": "Test your basic understanding of the relationship between Ajax and the Fetch API in handling asynchronous operations.",
+                    "hint": "Consider the historical context and evolution from Ajax to the Fetch API.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Ajax and the Fetch API are entirely unrelated technologies, and the Fetch API does not build upon the concepts introduced by Ajax.",
+                            "description": "Incorrect. The Fetch API is considered a modern replacement for Ajax, building upon similar concepts. Consider the historical evolution from Ajax to the Fetch API.",
+                            "points": 0,
+                            "explanation": "Understanding the historical relationship between Ajax and the Fetch API, where the Fetch API builds upon similar concepts, is crucial for this question."
+                        },
+                        {
+                            "label": "Ajax and the Fetch API are interchangeable terms and can be used interchangeably in JavaScript applications without any differences.",
+                            "description": "Incorrect. While both Ajax and the Fetch API involve handling asynchronous operations, they are distinct technologies. Consider the specific characteristics and usage of each.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinctions between Ajax and the Fetch API, despite both involving asynchronous operations, is crucial for this question."
+                        },
+                        {
+                            "label": "Ajax, being an outdated technology, is no longer used in modern JavaScript applications, and the Fetch API has entirely replaced it.",
+                            "description": "Incorrect. While the Fetch API is modern and widely used, Ajax is still relevant in certain scenarios. Consider the coexistence of both technologies.",
+                            "points": 0,
+                            "explanation": "Understanding that Ajax is still relevant in certain scenarios, even though the Fetch API is widely used, is crucial for this question."
+                        },
+                        {
+                            "label": "Ajax and the Fetch API both serve the purpose of handling asynchronous operations in JavaScript, with the Fetch API being a more modern and feature-rich successor to Ajax.",
+                            "description": "Correct! The Fetch API is considered a modern successor to Ajax, building upon similar concepts for handling asynchronous operations. Recognizing the evolutionary relationship is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the Fetch API as a modern successor to Ajax, building upon similar concepts, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e1b1d11a-42e9-4c16-b86c-5129b92a54fb",
+                    "question": "What is the primary purpose of the Fetch API in JavaScript?",
+                    "description": "Test your basic understanding of the main role of the Fetch API in web development.",
+                    "hint": "Consider the primary task that the Fetch API is designed to accomplish.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "The Fetch API is primarily used for creating complex animations and transitions on web pages.",
+                            "description": "Incorrect. The Fetch API is not related to animations or transitions. Focus on its primary role in handling network requests.",
+                            "points": 0,
+                            "explanation": "Understanding that the Fetch API is used for handling network requests, not animations, is crucial for this question."
+                        },
+                        {
+                            "label": "The primary purpose of the Fetch API is to handle network requests, allowing the fetching of resources or sending data to servers asynchronously.",
+                            "description": "Correct! The Fetch API's primary purpose is to handle network requests, enabling the fetching of resources or sending data to servers asynchronously. Recognizing this primary role is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the primary purpose of the Fetch API in handling network requests is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API is exclusively designed for server-side scripting and has no relevance in client-side JavaScript.",
+                            "description": "Incorrect. The Fetch API is commonly used in client-side JavaScript for handling network requests. Consider its role in client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding the common usage of the Fetch API in client-side JavaScript for handling network requests is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API's primary purpose is to manage user interactions and events on web pages.",
+                            "description": "Incorrect. The Fetch API is not designed for managing user interactions or events. Focus on its role in handling network requests.",
+                            "points": 0,
+                            "explanation": "Understanding that the Fetch API is used for handling network requests, not user interactions, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e1cf3a87-1924-48a8-90d0-229c4487dada",
+                    "question": "In the context of the Fetch API, what does 'asynchronous' mean?",
+                    "description": "Test your basic understanding of the term 'asynchronous' as it relates to the Fetch API.",
+                    "hint": "Consider how asynchronous operations differ from synchronous ones in the context of network requests.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Asynchronous means that network requests using the Fetch API must be executed one after the other in a sequential manner.",
+                            "description": "Incorrect. Asynchronous operations in the Fetch API allow concurrent execution of network requests, not a strict sequential order. Consider the concurrent nature of asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Understanding that asynchronous operations allow concurrent execution, not strict sequential order, is crucial for this question."
+                        },
+                        {
+                            "label": "Asynchronous implies that network requests executed using the Fetch API will block the main thread, potentially leading to performance issues.",
+                            "description": "Incorrect. Asynchronous operations in the Fetch API are designed to avoid blocking the main thread, contributing to improved performance. Consider the non-blocking nature of asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Understanding that asynchronous operations in the Fetch API are non-blocking and avoid main thread blocking is crucial for this question."
+                        },
+                        {
+                            "label": "Asynchronous in the Fetch API means that network requests can be initiated and processed independently of the main execution flow, allowing the program to continue without waiting for their completion.",
+                            "description": "Correct! In the context of the Fetch API, asynchronous means that network requests can be initiated and processed independently, allowing the program to continue without waiting for their completion. Recognizing this independence is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the independence of asynchronous network requests in the Fetch API, allowing the program to continue without waiting, is crucial for this question."
+                        },
+                        {
+                            "label": "Asynchronous in the Fetch API implies that network requests can only be initiated after the entire page has loaded.",
+                            "description": "Incorrect. Asynchronous operations in the Fetch API allow network requests to be initiated at any point, not strictly after the entire page has loaded. Consider the flexibility of asynchronous operations.",
+                            "points": 0,
+                            "explanation": "Understanding that asynchronous network requests in the Fetch API can be initiated at any point, not strictly after the entire page has loaded, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b81de999-8d71-4976-aa54-c9eeb2d82c10",
+                    "question": "Where can developers find reliable documentation and information about the Fetch API?",
+                    "description": "Test your basic knowledge of accessing resources related to the Fetch API.",
+                    "hint": "Consider common sources for JavaScript documentation and information.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Fetch API documentation is exclusively available through paid online courses and tutorials.",
+                            "description": "Incorrect. Fetch API documentation is commonly available for free online. Consider open and accessible sources for JavaScript information.",
+                            "points": 0,
+                            "explanation": "Understanding that Fetch API documentation is commonly accessible for free online is crucial for this question."
+                        },
+                        {
+                            "label": "Fetch API details are only disclosed in closed developer forums and are not publicly accessible.",
+                            "description": "Incorrect. Fetch API information is commonly available in open and public forums. Consider common sources for JavaScript documentation.",
+                            "points": 0,
+                            "explanation": "Understanding that Fetch API information is commonly available in open and public forums is crucial for this question."
+                        },
+                        {
+                            "label": "Fetch API documentation is only available in print books and cannot be accessed online.",
+                            "description": "Incorrect. Fetch API documentation is commonly available online. Consider common online sources for JavaScript documentation.",
+                            "points": 0,
+                            "explanation": "Understanding that Fetch API documentation is commonly accessible online is crucial for this question."
+                        },
+                        {
+                            "label": "Fetch API information can be found on the MDN Web Docs (Mozilla Developer Network) website.",
+                            "description": "Correct! The MDN Web Docs is a reliable source for Fetch API documentation and information. Recognizing the MDN as a common source is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the MDN Web Docs as a reliable source for Fetch API documentation is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fb5fe42f-5eae-491f-a056-ae477872c21e",
+                    "question": "Which of the following statements accurately describes the relationship between Ajax and the Fetch API?",
+                    "description": "Test your basic understanding of the relationship between Ajax and the Fetch API in handling asynchronous operations.",
+                    "hint": "Consider the historical context and evolution from Ajax to the Fetch API.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Ajax and the Fetch API are entirely unrelated technologies, and the Fetch API does not build upon the concepts introduced by Ajax.",
+                            "description": "Incorrect. The Fetch API is considered a modern replacement for Ajax, building upon similar concepts. Consider the historical evolution from Ajax to the Fetch API.",
+                            "points": 0,
+                            "explanation": "Understanding the historical relationship between Ajax and the Fetch API, where the Fetch API builds upon similar concepts, is crucial for this question."
+                        },
+                        {
+                            "label": "Ajax and the Fetch API are interchangeable terms and can be used interchangeably in JavaScript applications without any differences.",
+                            "description": "Incorrect. While both Ajax and the Fetch API involve handling asynchronous operations, they are distinct technologies. Consider the specific characteristics and usage of each.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinctions between Ajax and the Fetch API, despite both involving asynchronous operations, is crucial for this question."
+                        },
+                        {
+                            "label": "Ajax, being an outdated technology, is no longer used in modern JavaScript applications, and the Fetch API has entirely replaced it.",
+                            "description": "Incorrect. While the Fetch API is modern and widely used, Ajax is still relevant in certain scenarios. Consider the coexistence of both technologies.",
+                            "points": 0,
+                            "explanation": "Understanding that Ajax is still relevant in certain scenarios, even though the Fetch API is widely used, is crucial for this question."
+                        },
+                        {
+                            "label": "Ajax and the Fetch API both serve the purpose of handling asynchronous operations in JavaScript, with the Fetch API being a more modern and feature-rich successor to Ajax.",
+                            "description": "Correct! The Fetch API is considered a modern successor to Ajax, building upon similar concepts for handling asynchronous operations. Recognizing the evolutionary relationship is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the Fetch API as a modern successor to Ajax, building upon similar concepts, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "271c1961-cacd-40c2-bd05-8cf8bf6c2bc3",
+                    "question": "What advantage does the Fetch API offer in comparison to traditional approaches for handling network requests?",
+                    "description": "Test your basic understanding of the advantages associated with using the Fetch API.",
+                    "hint": "Consider the main benefits that make the Fetch API a preferred choice for handling network requests.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "The Fetch API is less secure than traditional approaches and is more susceptible to security vulnerabilities.",
+                            "description": "Incorrect. The Fetch API is designed with security in mind and is not inherently less secure than traditional approaches. Consider the security features of the Fetch API.",
+                            "points": 0,
+                            "explanation": "Understanding that the Fetch API is designed with security in mind is crucial for this question."
+                        },
+                        {
+                            "label": "The primary advantage of the Fetch API is its ability to handle network requests asynchronously, preventing the need for page reloads.",
+                            "description": "Correct! The Fetch API allows asynchronous handling of network requests, avoiding the need for page reloads. Recognizing this primary benefit is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the primary benefit of the Fetch API in handling network requests asynchronously is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API is only suitable for simple and basic network requests and is not designed for complex scenarios.",
+                            "description": "Incorrect. The Fetch API is versatile and suitable for a wide range of network requests, including complex scenarios. Consider the flexibility of the Fetch API.",
+                            "points": 0,
+                            "explanation": "Understanding the versatility of the Fetch API for handling various network requests, including complex scenarios, is crucial for this question."
+                        },
+                        {
+                            "label": "The Fetch API is exclusively designed for server-side scripting and is not applicable for client-side JavaScript.",
+                            "description": "Incorrect. The Fetch API is commonly used in client-side JavaScript for handling network requests. Consider its relevance in client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding the common usage of the Fetch API in client-side JavaScript for handling network requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b8e1439a-0790-4bb6-a6b4-5db2a9ba0c71",
+                    "question": "What HTTP method is commonly used when making a 'GET' request using the Fetch API?",
+                    "description": "Test your understanding of HTTP methods in the context of 'GET' requests with the Fetch API.",
+                    "hint": "Consider the standard HTTP methods and their purposes, especially when fetching data.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "POST",
+                            "description": "Incorrect. The 'POST' method is used for submitting data to be processed to a specified resource. In the context of fetching data, 'GET' is the appropriate method.",
+                            "points": 0,
+                            "explanation": "Understanding the correct HTTP method for fetching data using the Fetch API is crucial for this question."
+                        },
+                        {
+                            "label": "GET",
+                            "description": "Correct! The 'GET' method is commonly used for retrieving data from a specified resource. Recognizing the appropriate HTTP method for fetching data is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the standard use of the 'GET' method for retrieving data with the Fetch API is crucial for this question."
+                        },
+                        {
+                            "label": "PUT",
+                            "description": "Incorrect. The 'PUT' method is used for updating a resource on the server. In the context of fetching data, 'GET' is the appropriate method.",
+                            "points": 0,
+                            "explanation": "Understanding the correct HTTP method for fetching data using the Fetch API is crucial for this question."
+                        },
+                        {
+                            "label": "DELETE",
+                            "description": "Incorrect. The 'DELETE' method is used for deleting a specified resource. In the context of fetching data, 'GET' is the appropriate method.",
+                            "points": 0,
+                            "explanation": "Understanding the correct HTTP method for fetching data using the Fetch API is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6bfba9e4-cfb1-4c67-b390-5f978c5d3c97",
+                    "question": "What is the purpose of including options like 'method' and 'headers' in a Fetch API request?",
+                    "description": "Test your understanding of configuring Fetch API requests with specific options.",
+                    "hint": "Consider the role of options in customizing the behavior of Fetch API requests.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Options like 'method' and 'headers' have no impact on Fetch API requests and are optional.",
+                            "description": "Incorrect. Options like 'method' and 'headers' play a crucial role in configuring Fetch API requests, affecting their behavior. Recognize the importance of these options.",
+                            "points": 0,
+                            "explanation": "Understanding the impact of options like 'method' and 'headers' on Fetch API requests is crucial for this question."
+                        },
+                        {
+                            "label": "Including options allows developers to customize the HTTP method and add additional information to the request, such as headers.",
+                            "description": "Correct! Options like 'method' and 'headers' in a Fetch API request allow developers to customize the HTTP method and include additional information, such as headers. Recognizing the purpose of these options is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that options like 'method' and 'headers' allow customization of Fetch API requests is crucial for this question."
+                        },
+                        {
+                            "label": "Options like 'method' and 'headers' are used only in server-side scripting and have no relevance in client-side JavaScript.",
+                            "description": "Incorrect. Options like 'method' and 'headers' are relevant in client-side JavaScript when configuring Fetch API requests. Recognize their importance in client-side development.",
+                            "points": 0,
+                            "explanation": "Understanding the relevance of options like 'method' and 'headers' in client-side JavaScript is crucial for this question."
+                        },
+                        {
+                            "label": "Including options is only necessary when making 'POST' requests; 'GET' requests do not require any additional options.",
+                            "description": "Incorrect. Options like 'method' and 'headers' can be relevant for various types of Fetch API requests, not limited to 'POST.' Recognize the versatility of these options.",
+                            "points": 0,
+                            "explanation": "Understanding that options like 'method' and 'headers' can be relevant for various Fetch API requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ea4c6483-93de-4d07-87a2-0771d7b0d206",
+                    "question": "What role does the 'headers' option play in a Fetch API request?",
+                    "description": "Test your understanding of the purpose of the 'headers' option in configuring Fetch API requests.",
+                    "hint": "Consider the information that can be included in headers and how it impacts the request.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'headers' option is irrelevant in Fetch API requests and does not affect the request in any way.",
+                            "description": "Incorrect. The 'headers' option in Fetch API requests allows developers to include additional information, such as authentication tokens or content types. Recognize the impact of the 'headers' option.",
+                            "points": 0,
+                            "explanation": "Understanding the impact of the 'headers' option in Fetch API requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'headers' option is used to define the HTTP method for the request, specifying whether it is a 'GET' or 'POST' request.",
+                            "description": "Incorrect. The 'headers' option is not used to define the HTTP method; it is primarily for including additional information like authentication tokens or content types. Recognize the correct purpose of the 'headers' option.",
+                            "points": 0,
+                            "explanation": "Understanding the correct purpose of the 'headers' option in Fetch API requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'headers' option allows developers to include additional information in the request, such as authentication tokens, content types, or custom headers.",
+                            "description": "Correct! The 'headers' option in Fetch API requests enables developers to include additional information like authentication tokens, content types, or custom headers. Recognizing the purpose of the 'headers' option is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that the 'headers' option allows inclusion of additional information in Fetch API requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'headers' option is only relevant when making 'GET' requests and has no impact on 'POST' requests.",
+                            "description": "Incorrect. The 'headers' option can be relevant for various types of Fetch API requests, not limited to 'GET.' Recognize the versatility of the 'headers' option.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'headers' option can be relevant for various Fetch API requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f40b282d-3a0d-4d01-b9ef-6195a13a3aa6",
+                    "question": "What is the significance of using the 'async/await' syntax when making Fetch API requests?",
+                    "description": "Test your understanding of the 'async/await' syntax and its role in Fetch API requests.",
+                    "hint": "Consider how 'async/await' enhances the handling of asynchronous operations.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'async/await' syntax is not applicable in Fetch API requests; traditional callback functions are the only method for handling asynchronous operations.",
+                            "description": "Incorrect. 'async/await' syntax is applicable and beneficial in Fetch API requests for handling asynchronous operations in a more readable and concise manner. Recognize the role of 'async/await' in asynchronous code.",
+                            "points": 0,
+                            "explanation": "Understanding that 'async/await' syntax is applicable in Fetch API requests for handling asynchronous operations is crucial for this question."
+                        },
+                        {
+                            "label": "Using 'async/await' in Fetch API requests is optional and does not impact the handling of asynchronous operations.",
+                            "description": "Incorrect. 'async/await' syntax in Fetch API requests enhances the handling of asynchronous operations, making the code more readable and concise. Recognize the benefits of using 'async/await.'",
+                            "points": 0,
+                            "explanation": "Understanding the benefits of using 'async/await' in Fetch API requests for handling asynchronous operations is crucial for this question."
+                        },
+                        {
+                            "label": "The 'async/await' syntax is essential in Fetch API requests, providing a more readable and concise way to handle asynchronous operations.",
+                            "description": "Correct! 'async/await' syntax in Fetch API requests is essential for improving the readability and conciseness of code when handling asynchronous operations. Recognizing the significance of 'async/await' is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the importance of 'async/await' syntax in Fetch API requests for handling asynchronous operations is crucial for this question."
+                        },
+                        {
+                            "label": "Using 'async/await' in Fetch API requests is discouraged as it may lead to performance issues.",
+                            "description": "Incorrect. 'async/await' syntax in Fetch API requests is not discouraged and does not inherently lead to performance issues. Recognize the benefits of using 'async/await.'",
+                            "points": 0,
+                            "explanation": "Understanding that 'async/await' syntax in Fetch API requests is not discouraged and can enhance code readability is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "dd2d0ec3-00eb-49b0-bc6a-1017416ce519",
+                    "question": "In the Fetch API, what does the 'await' keyword do when used in conjunction with a Fetch request?",
+                    "description": "Test your understanding of the role of the 'await' keyword in Fetch API requests.",
+                    "hint": "Consider the purpose of 'await' in handling promises and asynchronous operations.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'await' keyword is not applicable in Fetch API requests; promises should be handled using traditional callback functions.",
+                            "description": "Incorrect. The 'await' keyword is applicable in Fetch API requests for handling promises and asynchronous operations in a more synchronous-like manner. Recognize the role of 'await' in asynchronous code.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'await' keyword is applicable in Fetch API requests for handling promises is crucial for this question."
+                        },
+                        {
+                            "label": "The 'await' keyword is used to pause the execution of code until the Fetch request is complete, ensuring that the result is available before proceeding.",
+                            "description": "Correct! The 'await' keyword in Fetch API requests pauses the execution of code until the Fetch request is complete, ensuring that the result is available before proceeding. Recognizing the role of 'await' in handling asynchronous operations is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing the role of the 'await' keyword in pausing code execution until the Fetch request is complete is crucial for this question."
+                        },
+                        {
+                            "label": "Using the 'await' keyword in Fetch API requests is discouraged as it may lead to unpredictable behavior.",
+                            "description": "Incorrect. The 'await' keyword in Fetch API requests is not discouraged and is commonly used to handle promises in an asynchronous and predictable manner. Recognize the benefits of using 'await.'",
+                            "points": 0,
+                            "explanation": "Understanding that the 'await' keyword in Fetch API requests is not discouraged and can enhance predictability is crucial for this question."
+                        },
+                        {
+                            "label": "The 'await' keyword is used to cancel the Fetch request and immediately return control to the calling function.",
+                            "description": "Incorrect. The 'await' keyword does not cancel Fetch requests; its purpose is to pause code execution until the request is complete. Recognize the correct role of 'await' in handling promises.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'await' keyword in Fetch API requests does not cancel requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1a653450-9606-4b2b-bb2b-0f1eb086997d",
+                    "question": "When making a Fetch API request, what does the 'response.json()' method do?",
+                    "description": "Test your understanding of the 'response.json()' method in Fetch API requests.",
+                    "hint": "Consider the purpose of 'response.json()' in handling the response data.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'response.json()' method converts the response data into a JSON string.",
+                            "description": "Incorrect. The 'response.json()' method parses the response data as JSON and returns a JavaScript object, not a JSON string. Recognize the correct purpose of 'response.json()'.",
+                            "points": 0,
+                            "explanation": "Understanding that 'response.json()' parses response data into a JavaScript object, not a JSON string, is crucial for this question."
+                        },
+                        {
+                            "label": "Using 'response.json()' is optional, and Fetch API requests automatically handle JSON parsing without the need for this method.",
+                            "description": "Incorrect. While Fetch API can automatically handle JSON parsing, 'response.json()' is essential when working with JSON data, providing access to the parsed JavaScript object. Recognize the purpose of 'response.json()'.",
+                            "points": 0,
+                            "explanation": "Understanding the essential role of 'response.json()' in accessing parsed JSON data is crucial for this question."
+                        },
+                        {
+                            "label": "The 'response.json()' method is used to extract and parse JSON data from the response, returning a JavaScript object.",
+                            "description": "Correct! 'response.json()' in Fetch API requests is used to extract and parse JSON data from the response, returning a JavaScript object. Recognizing the purpose of 'response.json()' is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'response.json()' is used to extract and parse JSON data, returning a JavaScript object, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'response.json()' method is exclusively applicable when the server response is in XML format.",
+                            "description": "Incorrect. 'response.json()' is specifically designed for parsing JSON data. When dealing with XML, alternative methods would be used. Recognize the correct use case for 'response.json()'.",
+                            "points": 0,
+                            "explanation": "Understanding that 'response.json()' is designed for parsing JSON data, not XML, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "8c6f3a0a-c544-4fc4-9942-d1a44a28f7a3",
+                    "question": "In a Fetch API request, when would you use the 'catch' method in a promise chain?",
+                    "description": "Test your understanding of error handling in Fetch API requests using the 'catch' method.",
+                    "hint": "Consider scenarios where errors may occur during a Fetch API request.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'catch' method is irrelevant in Fetch API requests, and errors should be handled using traditional try-catch blocks.",
+                            "description": "Incorrect. While try-catch blocks can handle errors, the 'catch' method in a promise chain is specifically designed for handling errors in asynchronous operations like Fetch API requests. Recognize the appropriate use of 'catch'.",
+                            "points": 0,
+                            "explanation": "Understanding the role of the 'catch' method in handling errors in Fetch API requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'catch' method is used when there are no errors in the Fetch API request, and it provides a way to execute additional code in case of a successful response.",
+                            "description": "Incorrect. The 'catch' method is specifically designed for handling errors in a promise chain. Recognize the correct use of 'catch' in error handling.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'catch' method is used for handling errors, not for scenarios without errors, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'catch' method is used to handle errors that may occur during the Fetch API request, providing a way to execute code in case of an error.",
+                            "description": "Correct! The 'catch' method in a promise chain is used to handle errors that may occur during a Fetch API request, providing a way to execute code in case of an error. Recognizing the role of 'catch' in error handling is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that the 'catch' method is used for handling errors in Fetch API requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'catch' method is reserved for handling errors in synchronous code, and alternative methods should be used for handling asynchronous errors.",
+                            "description": "Incorrect. The 'catch' method is specifically designed for handling errors in asynchronous code, making it suitable for Fetch API requests. Recognize the correct use of 'catch' in asynchronous error handling.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'catch' method is designed for handling errors in asynchronous code, including Fetch API requests, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "64b9b883-6a46-45bf-8b11-62257e72be94",
+                    "question": "What is the purpose of the 'headers' property in a Fetch API request?",
+                    "description": "Test your understanding of the role of the 'headers' property in configuring Fetch API requests.",
+                    "hint": "Consider how the 'headers' property allows customization of the request headers.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'headers' property is optional and has no impact on a Fetch API request; the request is made with default headers.",
+                            "description": "Incorrect. The 'headers' property is essential for customizing request headers in a Fetch API request, allowing developers to include additional information. Recognize the purpose of the 'headers' property.",
+                            "points": 0,
+                            "explanation": "Understanding the essential role of the 'headers' property in customizing request headers is crucial for this question."
+                        },
+                        {
+                            "label": "The 'headers' property is used to specify the content of the request body in a Fetch API request.",
+                            "description": "Incorrect. While the 'headers' property can impact the request body, its primary role is to customize request headers, not the content of the body. Recognize the correct purpose of the 'headers' property.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'headers' property primarily customizes request headers, not the body content, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'headers' property allows developers to customize request headers, including information such as content type or authentication tokens.",
+                            "description": "Correct! The 'headers' property in a Fetch API request allows developers to customize request headers, including information such as content type or authentication tokens. Recognizing the purpose of 'headers' is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that the 'headers' property allows customization of request headers is crucial for this question."
+                        },
+                        {
+                            "label": "The 'headers' property is only relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'headers' property can be relevant for various types of Fetch API requests, not limited to 'POST.' Recognize the versatility of the 'headers' property.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'headers' property can be relevant for various Fetch API requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5e2282f8-8a50-4ee9-9d11-950990e0d070",
+                    "question": "When handling a Fetch API response, what does the 'status' property represent?",
+                    "description": "Test your understanding of the 'status' property in the context of Fetch API responses.",
+                    "hint": "Consider the information provided by the 'status' property regarding the success or failure of a request.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'status' property represents the total duration of the Fetch API request in milliseconds.",
+                            "description": "Incorrect. The 'status' property provides information about the success or failure of the request, not the duration. Recognize the correct purpose of the 'status' property.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'status' property does not represent the duration of the request is crucial for this question."
+                        },
+                        {
+                            "label": "The 'status' property indicates the current state of the Fetch API request, such as 'pending,' 'fulfilled,' or 'rejected.'",
+                            "description": "Incorrect. The 'status' property is not used to indicate the current state of the request. It specifically provides information about the success or failure of the request. Recognize the correct purpose of the 'status' property.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'status' property does not indicate the current state of the request is crucial for this question."
+                        },
+                        {
+                            "label": "The 'status' property contains the HTTP status code returned by the server, indicating the success or failure of the Fetch API request.",
+                            "description": "Correct! The 'status' property in a Fetch API response contains the HTTP status code returned by the server, indicating the success or failure of the request. Recognizing the purpose of 'status' is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that the 'status' property contains the HTTP status code, indicating the success or failure of the request, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'status' property is only relevant when handling 'POST' requests and has no significance for 'GET' requests.",
+                            "description": "Incorrect. The 'status' property is relevant for various types of Fetch API requests, not limited to 'POST.' Recognize the versatility of the 'status' property.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'status' property can be relevant for various Fetch API requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7a0dfc29-c1df-4f4e-b179-cc3a8d3b38a4",
+                    "question": "What is the purpose of the 'mode' option in a Fetch API request?",
+                    "description": "Test your understanding of the role of the 'mode' option in configuring Fetch API requests.",
+                    "hint": "Consider how the 'mode' option impacts cross-origin requests.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "The 'mode' option is used to specify the type of content expected in the Fetch API response, such as JSON or text.",
+                            "description": "Incorrect. While the 'mode' option is important, it is not used to specify the type of content in the response. Recognize the correct purpose of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'mode' option does not specify the content type in the response is crucial for this question."
+                        },
+                        {
+                            "label": "The 'mode' option determines how cross-origin requests are handled, affecting whether cookies or credentials are sent.",
+                            "description": "Correct! The 'mode' option in a Fetch API request determines how cross-origin requests are handled, influencing whether cookies or credentials are sent. Recognizing the impact of 'mode' on cross-origin requests is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that the 'mode' option influences the handling of cross-origin requests, affecting cookies or credentials, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'mode' option specifies the request method, indicating whether it is a 'GET' or 'POST' request.",
+                            "description": "Incorrect. The 'mode' option is not used to specify the request method. Recognize the correct purpose of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'mode' option does not specify the request method is crucial for this question."
+                        },
+                        {
+                            "label": "The 'mode' option is exclusively relevant when making requests to the same origin and has no impact on cross-origin requests.",
+                            "description": "Incorrect. The 'mode' option is relevant for both same-origin and cross-origin requests, influencing how the requests are handled. Recognize the versatility of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that the 'mode' option is relevant for cross-origin requests as well is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f61c8359-67c1-4ea1-9ed2-94a23de1d924",
+                    "question": "Explain the difference between 'GET' and 'POST' requests in the context of Fetch API.",
+                    "description": "Test your understanding of the distinctions between 'GET' and 'POST' requests in the Fetch API.",
+                    "hint": "Consider the purposes and characteristics of 'GET' and 'POST' requests.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Both 'GET' and 'POST' requests are identical in the Fetch API, and the choice between them has no impact on the request.",
+                            "description": "Incorrect. 'GET' and 'POST' requests have distinct purposes and characteristics. Recognize the differences between 'GET' and 'POST' in Fetch API requests.",
+                            "points": 0,
+                            "explanation": "Understanding the differences between 'GET' and 'POST' requests in Fetch API, including their purposes, is crucial for this question."
+                        },
+                        {
+                            "label": "The main difference between 'GET' and 'POST' requests is the inclusion of request parameters; 'GET' appends parameters to the URL, while 'POST' includes them in the request body.",
+                            "description": "Correct! One key distinction is how parameters are included. 'GET' appends parameters to the URL, while 'POST' includes them in the request body. Recognizing this difference is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that the main difference lies in how parameters are included—'GET' appends them to the URL, while 'POST' includes them in the request body—is crucial for this question."
+                        },
+                        {
+                            "label": "There is no practical difference between 'GET' and 'POST' requests; both can be used interchangeably in any situation.",
+                            "description": "Incorrect. 'GET' and 'POST' have specific use cases and implications. Recognize the practical distinctions between 'GET' and 'POST' in Fetch API requests.",
+                            "points": 0,
+                            "explanation": "Understanding that 'GET' and 'POST' have specific use cases and implications is crucial for this question."
+                        },
+                        {
+                            "label": "The only difference between 'GET' and 'POST' requests is the order in which they are processed by the server; 'GET' requests are processed before 'POST' requests.",
+                            "description": "Incorrect. The order of processing is not the main difference between 'GET' and 'POST' requests. Recognize the correct distinctions between 'GET' and 'POST' in Fetch API requests.",
+                            "points": 0,
+                            "explanation": "Understanding that the main difference is how parameters are included, not the order of processing, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f8705981-0f0f-4bf7-8d47-99b6fe4f3151",
+                    "question": "What is the role of the 'credentials' option in a Fetch API request?",
+                    "description": "Test your understanding of the 'credentials' option and its impact on Fetch API requests.",
+                    "hint": "Consider how the 'credentials' option influences the inclusion of cookies and other credentials.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'credentials' option is irrelevant in Fetch API requests and has no impact on the inclusion of cookies or other credentials.",
+                            "description": "Incorrect. The 'credentials' option is crucial for controlling the inclusion of cookies and other credentials in Fetch API requests. Recognize the significance of the 'credentials' option.",
+                            "points": 0,
+                            "explanation": "Understanding the importance of the 'credentials' option in controlling the inclusion of cookies and other credentials is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'credentials' to 'same-origin' includes cookies and credentials only for same-origin requests, excluding them for cross-origin requests.",
+                            "description": "Correct! Setting 'credentials' to 'same-origin' includes cookies and credentials for same-origin requests, but excludes them for cross-origin requests. Recognizing how 'credentials' impacts the inclusion of cookies is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'credentials' set to 'same-origin' controls the inclusion of cookies for same-origin requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'credentials' option is used to specify the content type expected in the Fetch API response, such as JSON or text.",
+                            "description": "Incorrect. The 'credentials' option is not related to specifying the content type in the response. Recognize the correct purpose of the 'credentials' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'credentials' does not specify the content type in the response is crucial for this question."
+                        },
+                        {
+                            "label": "The 'credentials' option is only relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'credentials' option can be relevant for both 'GET' and 'POST' requests, influencing the inclusion of cookies and credentials. Recognize the versatility of the 'credentials' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'credentials' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6f4a5e91-dc4d-4a5a-9d2b-8e185e457f34",
+                    "question": "How does the 'redirect' option in a Fetch API request impact the handling of redirects?",
+                    "description": "Test your understanding of the 'redirect' option and its role in handling redirects in Fetch API requests.",
+                    "hint": "Consider how the 'redirect' option influences the behavior when encountering redirects.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'redirect' option is used to specify the number of allowed redirects in a Fetch API request.",
+                            "description": "Incorrect. The 'redirect' option does not specify the number of allowed redirects; it influences the behavior when encountering redirects. Recognize the correct role of the 'redirect' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'redirect' does not specify the number of allowed redirects is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'redirect' to 'manual' instructs the Fetch API to follow redirects automatically, without any manual intervention.",
+                            "description": "Correct! Setting 'redirect' to 'manual' instructs the Fetch API to not follow redirects automatically, requiring manual intervention. Recognizing the impact of 'redirect' on automatic redirection is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'redirect' set to 'manual' prevents automatic following of redirects, requiring manual intervention, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'redirect' option determines whether the Fetch API should follow redirects for 'GET' requests but not for 'POST' requests.",
+                            "description": "Incorrect. The 'redirect' option impacts the handling of redirects for both 'GET' and 'POST' requests. Recognize the correct scope of the 'redirect' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'redirect' can impact redirects for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'redirect' option is only relevant when making cross-origin requests and has no impact on same-origin requests.",
+                            "description": "Incorrect. The 'redirect' option can be relevant for both cross-origin and same-origin requests. Recognize the versatility of the 'redirect' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'redirect' can be relevant for both cross-origin and same-origin requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0c65f43c-97bf-4806-a6c7-5e3e5f59db3f",
+                    "question": "What does the 'integrity' option in a Fetch API request ensure?",
+                    "description": "Test your understanding of the 'integrity' option and its role in ensuring data integrity in Fetch API requests.",
+                    "hint": "Consider how the 'integrity' option verifies the integrity of fetched resources.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'integrity' option ensures that the Fetch API request is secure and encrypted.",
+                            "description": "Incorrect. The 'integrity' option is not related to ensuring the security and encryption of the request. Recognize the correct role of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' does not ensure security and encryption is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'integrity' to 'true' ensures that the fetched resources have not been modified or tampered with during transit.",
+                            "description": "Correct! The 'integrity' option, when set to 'true,' ensures that the fetched resources have not been modified or tampered with during transit, verifying data integrity. Recognizing the role of 'integrity' in ensuring data integrity is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'integrity' set to 'true' verifies the integrity of fetched resources is crucial for this question."
+                        },
+                        {
+                            "label": "The 'integrity' option specifies the expected content type of the Fetch API response.",
+                            "description": "Incorrect. The 'integrity' option is not used to specify the content type in the response. Recognize the correct purpose of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' does not specify the content type in the response is crucial for this question."
+                        },
+                        {
+                            "label": "The 'integrity' option is exclusively relevant when fetching resources from the same origin and has no impact on cross-origin requests.",
+                            "description": "Incorrect. The 'integrity' option can be relevant for both same-origin and cross-origin requests. Recognize the versatility of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' can be relevant for both same-origin and cross-origin requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d2467fe1-855d-4b58-9c67-63d3c7790e91",
+                    "question": "In a Fetch API request, what does the 'referrer' option control?",
+                    "description": "Test your understanding of the 'referrer' option and its role in controlling the referrer information in Fetch API requests.",
+                    "hint": "Consider how the 'referrer' option influences the inclusion of referrer information.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'referrer' option is used to specify the request method, indicating whether it is a 'GET' or 'POST' request.",
+                            "description": "Incorrect. The 'referrer' option is not related to specifying the request method. Recognize the correct purpose of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' does not specify the request method is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'referrer' to 'no-referrer' ensures that no referrer information is included in the Fetch API request.",
+                            "description": "Correct! Setting 'referrer' to 'no-referrer' ensures that no referrer information is included in the Fetch API request. Recognizing the impact of 'referrer' on referrer information is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'referrer' set to 'no-referrer' prevents the inclusion of referrer information in the request is crucial for this question."
+                        },
+                        {
+                            "label": "The 'referrer' option determines whether the Fetch API request should automatically follow redirects.",
+                            "description": "Incorrect. The 'referrer' option is not related to the automatic following of redirects. Recognize the correct purpose of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' does not impact the automatic following of redirects is crucial for this question."
+                        },
+                        {
+                            "label": "The 'referrer' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'referrer' option can be relevant for both 'GET' and 'POST' requests, influencing the inclusion of referrer information. Recognize the versatility of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ab3e648f-95a7-48c5-b2b7-e8c9b1b4bb35",
+                    "question": "What is the purpose of the 'signal' option in a Fetch API request?",
+                    "description": "Test your understanding of the 'signal' option and its role in controlling and aborting Fetch API requests.",
+                    "hint": "Consider how the 'signal' option allows for request control and abortion.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'signal' option is used to specify the response type expected in the Fetch API, such as 'json' or 'text'.",
+                            "description": "Incorrect. The 'signal' option is not related to specifying the response type. Recognize the correct purpose of the 'signal' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'signal' does not specify the response type is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'signal' to 'true' ensures that the Fetch API request is successfully completed without any issues.",
+                            "description": "Incorrect. The 'signal' option is not used to ensure the success of the request. Recognize the correct role of the 'signal' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'signal' does not ensure the success of the request is crucial for this question."
+                        },
+                        {
+                            "label": "The 'signal' option provides a way to associate a signal object with the Fetch API request, allowing for control and potential abortion of the request.",
+                            "description": "Correct! The 'signal' option in a Fetch API request allows for the association of a signal object, enabling control and potential abortion of the request. Recognizing the role of 'signal' in request control is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'signal' allows for the association of a signal object, enabling request control and potential abortion, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'signal' option determines whether the Fetch API request should follow redirects automatically.",
+                            "description": "Incorrect. The 'signal' option is not related to the automatic following of redirects. Recognize the correct purpose of the 'signal' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'signal' does not impact the automatic following of redirects is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c54fb22a-7e0a-4d6d-9d13-14d64a1c102b",
+                    "question": "What does the 'cache' option control in a Fetch API request?",
+                    "description": "Test your understanding of the 'cache' option and its role in controlling caching behavior in Fetch API requests.",
+                    "hint": "Consider how the 'cache' option influences caching mechanisms.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'cache' option is used to specify the caching duration for the Fetch API response, indicating how long the response should be stored in the cache.",
+                            "description": "Incorrect. The 'cache' option does not specify the caching duration. Recognize the correct purpose of the 'cache' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cache' does not specify the caching duration is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'cache' to 'no-store' prevents the Fetch API response from being stored in the cache.",
+                            "description": "Correct! Setting 'cache' to 'no-store' prevents the Fetch API response from being stored in the cache. Recognizing the impact of 'cache' on caching behavior is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'cache' set to 'no-store' prevents caching of the response is crucial for this question."
+                        },
+                        {
+                            "label": "The 'cache' option determines whether the Fetch API request should automatically follow redirects.",
+                            "description": "Incorrect. The 'cache' option is not related to the automatic following of redirects. Recognize the correct purpose of the 'cache' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cache' does not impact the automatic following of redirects is crucial for this question."
+                        },
+                        {
+                            "label": "The 'cache' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'cache' option can be relevant for both 'GET' and 'POST' requests, influencing caching behavior. Recognize the versatility of the 'cache' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cache' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6a57e7bf-998c-4eeb-99b8-ea5ad5e4e7f7",
+                    "question": "What is the role of the 'keepalive' option in a Fetch API request?",
+                    "description": "Test your understanding of the 'keepalive' option and its impact on maintaining persistent connections in Fetch API requests.",
+                    "hint": "Consider how the 'keepalive' option influences connection persistence.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'keepalive' option ensures that the Fetch API request is kept alive indefinitely, without any timeout.",
+                            "description": "Incorrect. The 'keepalive' option does not ensure an indefinite keeping alive of the request. Recognize the correct role of the 'keepalive' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'keepalive' does not keep the request alive indefinitely is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'keepalive' to 'true' enables the Fetch API request to maintain a persistent connection, improving performance for subsequent requests.",
+                            "description": "Correct! Setting 'keepalive' to 'true' enables the Fetch API request to maintain a persistent connection, improving performance for subsequent requests. Recognizing the impact of 'keepalive' on connection persistence is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'keepalive' set to 'true' enables a persistent connection, improving subsequent request performance, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'keepalive' option determines whether the Fetch API request should automatically follow redirects.",
+                            "description": "Incorrect. The 'keepalive' option is not related to the automatic following of redirects. Recognize the correct purpose of the 'keepalive' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'keepalive' does not impact the automatic following of redirects is crucial for this question."
+                        },
+                        {
+                            "label": "The 'keepalive' option is exclusively relevant when making cross-origin requests and has no impact on same-origin requests.",
+                            "description": "Incorrect. The 'keepalive' option can be relevant for both cross-origin and same-origin requests. Recognize the versatility of the 'keepalive' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'keepalive' can be relevant for both cross-origin and same-origin requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "14b0c5d9-7ee2-4202-a242-43d8af61a783",
+                    "question": "What does the 'window' option control in a Fetch API request?",
+                    "description": "Test your understanding of the 'window' option and its role in handling the global object associated with the Fetch API request.",
+                    "hint": "Consider how the 'window' option influences the global object associated with the request.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'window' option is used to specify the size of the window in which the Fetch API request should be displayed.",
+                            "description": "Incorrect. The 'window' option is not related to specifying the size of the window. Recognize the correct purpose of the 'window' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'window' does not specify the window size is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'window' to 'self' associates the Fetch API request with the global object of the script that initiated the request.",
+                            "description": "Correct! Setting 'window' to 'self' associates the Fetch API request with the global object of the script that initiated the request. Recognizing the impact of 'window' on the global object is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'window' set to 'self' associates the request with the initiating script's global object is crucial for this question."
+                        },
+                        {
+                            "label": "The 'window' option is used to specify the request method, indicating whether it is a 'GET' or 'POST' request.",
+                            "description": "Incorrect. The 'window' option is not related to specifying the request method. Recognize the correct purpose of the 'window' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'window' does not specify the request method is crucial for this question."
+                        },
+                        {
+                            "label": "The 'window' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'window' option can be relevant for both 'GET' and 'POST' requests, influencing the global object association. Recognize the versatility of the 'window' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'window' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0cb76a74-564f-4c1c-9c5d-b111c22d9f05",
+                    "question": "How does the 'mode' option in a Fetch API request impact the cross-origin policy?",
+                    "description": "Test your understanding of the 'mode' option and its role in determining the cross-origin policy in Fetch API requests.",
+                    "hint": "Consider how the 'mode' option influences the handling of cross-origin requests.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "The 'mode' option has no impact on the cross-origin policy in Fetch API requests, and it is irrelevant for cross-origin requests.",
+                            "description": "Incorrect. The 'mode' option is crucial for determining the cross-origin policy in Fetch API requests. Recognize the significance of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'mode' impacts the cross-origin policy is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'mode' to 'same-origin' allows Fetch API requests only to the same-origin, preventing cross-origin requests.",
+                            "description": "Correct! Setting 'mode' to 'same-origin' restricts Fetch API requests to the same-origin, preventing cross-origin requests. Recognizing the impact of 'mode' on cross-origin policy is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'mode' set to 'same-origin' restricts requests to the same-origin, preventing cross-origin requests, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'mode' option is used to specify the expected content type of the Fetch API response, such as JSON or text.",
+                            "description": "Incorrect. The 'mode' option is not related to specifying the content type in the response. Recognize the correct purpose of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'mode' does not specify the content type in the response is crucial for this question."
+                        },
+                        {
+                            "label": "The 'mode' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'mode' option can be relevant for both 'GET' and 'POST' requests, influencing the cross-origin policy. Recognize the versatility of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'mode' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b0cda6d0-40a4-49e9-9ed1-cf1cf22d6a26",
+                    "question": "Explain the purpose of the 'AbortController' in conjunction with the Fetch API.",
+                    "description": "Test your knowledge of the 'AbortController' and its role in managing and canceling Fetch API requests.",
+                    "hint": "Consider how the 'AbortController' allows for the cancellation of Fetch API requests.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'AbortController' is used to specify the response type expected in the Fetch API, such as 'json' or 'text'.",
+                            "description": "Incorrect. The 'AbortController' is not used to specify the response type. Recognize the correct purpose of the 'AbortController'.",
+                            "points": 0,
+                            "explanation": "Understanding that 'AbortController' does not specify the response type is crucial for this question."
+                        },
+                        {
+                            "label": "The 'AbortController' is employed to manage multiple Fetch API requests simultaneously and ensure their synchronous execution.",
+                            "description": "Incorrect. The 'AbortController' is not designed for managing multiple requests simultaneously. Recognize the correct role of the 'AbortController'.",
+                            "points": 0,
+                            "explanation": "Understanding that 'AbortController' is not meant for managing multiple requests simultaneously is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'AbortController' to 'true' ensures that the Fetch API request is successfully completed without any issues.",
+                            "description": "Incorrect. The 'AbortController' is not used to ensure the success of the request. Recognize the correct role of the 'AbortController'.",
+                            "points": 0,
+                            "explanation": "Understanding that 'AbortController' does not ensure the success of the request is crucial for this question."
+                        },
+                        {
+                            "label": "The 'AbortController' provides a way to associate an abort signal with the Fetch API request, allowing for cancellation of the request.",
+                            "description": "Correct! The 'AbortController' in conjunction with the Fetch API allows for the association of an abort signal, enabling the cancellation of the request. Recognizing the role of 'AbortController' in request cancellation is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'AbortController' allows for the association of an abort signal, enabling request cancellation, is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1f25621a-7a64-4521-aa58-ae2ac791d75a",
+                    "question": "How does the 'credentials' option in a Fetch API request impact the inclusion of cookies?",
+                    "description": "Test your understanding of the 'credentials' option and its role in controlling the inclusion of cookies in Fetch API requests.",
+                    "hint": "Consider how the 'credentials' option influences the handling of cookies.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'credentials' option is used to specify the duration for which the cookies should be stored in the browser.",
+                            "description": "Incorrect. The 'credentials' option is not related to specifying the duration of cookie storage. Recognize the correct purpose of the 'credentials' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'credentials' does not specify the duration of cookie storage is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'credentials' to 'same-origin' includes cookies in Fetch API requests only when the request is made to the same origin.",
+                            "description": "Correct! Setting 'credentials' to 'same-origin' ensures that cookies are included in Fetch API requests only when the request is made to the same origin. Recognizing the impact of 'credentials' on cookie inclusion is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'credentials' set to 'same-origin' includes cookies only for same-origin requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'credentials' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'credentials' option can be relevant for both 'GET' and 'POST' requests, influencing cookie inclusion. Recognize the versatility of the 'credentials' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'credentials' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'credentials' to 'omit' ensures that no cookies are included in Fetch API requests, regardless of the origin.",
+                            "description": "Incorrect. Setting 'credentials' to 'omit' does exclude cookies, but this is not the only correct answer. Recognize the specific condition under which cookies are included for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('same-origin') under which cookies are included is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "3e4d480a-0cf8-4b5c-8e10-056f7df5ea90",
+                    "question": "Explain the role of the 'redirect' option in a Fetch API request.",
+                    "description": "Test your knowledge of the 'redirect' option and its impact on handling redirects in Fetch API requests.",
+                    "hint": "Consider how the 'redirect' option influences the treatment of redirects.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'redirect' option determines whether the Fetch API request should follow redirects for 'GET' requests but not for 'POST' requests.",
+                            "description": "Incorrect. The 'redirect' option can impact redirects for both 'GET' and 'POST' requests. Recognize the correct scope of the 'redirect' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'redirect' can impact redirects for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'redirect' to 'manual' ensures that the Fetch API request does not follow redirects automatically, and it must be handled manually.",
+                            "description": "Correct! Setting 'redirect' to 'manual' prevents automatic following of redirects, requiring manual handling of the redirection process. Recognizing the impact of 'redirect' on automatic redirection is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'redirect' set to 'manual' requires manual handling of redirects is crucial for this question."
+                        },
+                        {
+                            "label": "The 'redirect' option determines whether the Fetch API request should include the referrer information when following redirects.",
+                            "description": "Incorrect. The 'redirect' option is not related to the inclusion of referrer information. Recognize the correct purpose of the 'redirect' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'redirect' does not impact the inclusion of referrer information is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'redirect' to 'follow' ensures that the Fetch API request follows redirects automatically, without any manual intervention.",
+                            "description": "Incorrect. The 'redirect' option does impact automatic following of redirects, but this is not the only correct answer. Recognize the specific condition under which automatic redirection is affected for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('manual') under which automatic redirection is affected is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "bd8d5f13-bf13-4ad3-87a1-9a7166a95e67",
+                    "question": "What is the purpose of the 'integrity' option in a Fetch API request?",
+                    "description": "Test your understanding of the 'integrity' option and its role in ensuring the integrity and authenticity of fetched resources.",
+                    "hint": "Consider how the 'integrity' option contributes to resource integrity and authenticity.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'integrity' option is used to specify the expected content type of the Fetch API response, such as JSON or text.",
+                            "description": "Incorrect. The 'integrity' option is not related to specifying the content type in the response. Recognize the correct purpose of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' does not specify the content type in the response is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'integrity' to 'true' ensures that the Fetch API response is successfully completed without any issues.",
+                            "description": "Incorrect. The 'integrity' option is not used to ensure the success of the response. Recognize the correct role of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' does not ensure the success of the response is crucial for this question."
+                        },
+                        {
+                            "label": "The 'integrity' option allows for the inclusion of additional custom headers in the Fetch API request.",
+                            "description": "Incorrect. The 'integrity' option is not related to the inclusion of custom headers. Recognize the correct purpose of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' does not impact the inclusion of custom headers is crucial for this question."
+                        },
+                        {
+                            "label": "The 'integrity' option is used to specify a cryptographic hash that ensures the integrity and authenticity of the fetched resource.",
+                            "description": "Correct! The 'integrity' option in a Fetch API request allows for the specification of a cryptographic hash, ensuring the integrity and authenticity of the fetched resource. Recognizing the role of 'integrity' in resource integrity is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'integrity' ensures the integrity and authenticity of the fetched resource by specifying a cryptographic hash is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "157edc4d-09c5-4932-b0e6-d1e872485053",
+                    "question": "Explain the significance of the 'referrer' option in a Fetch API request.",
+                    "description": "Test your knowledge of the 'referrer' option and its role in controlling the sending of referrer information in Fetch API requests.",
+                    "hint": "Consider how the 'referrer' option influences the inclusion of referrer information.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'referrer' option is used to specify the URL of the referrer, indicating the origin from which the Fetch API request is made.",
+                            "description": "Correct! The 'referrer' option allows for the specification of the URL of the referrer, indicating the origin from which the Fetch API request is made. Recognizing the impact of 'referrer' on referrer information inclusion is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'referrer' specifies the URL of the referrer, influencing referrer information inclusion, is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'referrer' to 'origin' ensures that the Fetch API request includes the full URL of the referrer.",
+                            "description": "Incorrect. Setting 'referrer' to 'origin' does not include the full URL of the referrer. Recognize the correct impact of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' set to 'origin' does not include the full URL of the referrer is crucial for this question."
+                        },
+                        {
+                            "label": "The 'referrer' option is exclusively relevant when making cross-origin requests and has no impact on same-origin requests.",
+                            "description": "Incorrect. The 'referrer' option can be relevant for both cross-origin and same-origin requests. Recognize the versatility of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' can be relevant for both cross-origin and same-origin requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'referrer' to 'unsafe-url' allows the inclusion of referrer information even for cross-origin requests.",
+                            "description": "Incorrect. Setting 'referrer' to 'unsafe-url' does not allow the inclusion of referrer information for cross-origin requests. Recognize the correct impact of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' set to 'unsafe-url' does not allow the inclusion of referrer information for cross-origin requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ce1a3d44-9949-45aa-b442-460d63fbcb13",
+                    "question": "What is the purpose of the 'cache' option in a Fetch API request?",
+                    "description": "Test your understanding of the 'cache' option and its role in controlling how the browser handles caching of the Fetch API response.",
+                    "hint": "Consider how the 'cache' option influences caching behavior in Fetch API requests.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'cache' option specifies the duration for which the browser should cache the Fetch API response.",
+                            "description": "Incorrect. The 'cache' option is not related to specifying the duration of caching. Recognize the correct purpose of the 'cache' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cache' does not specify the duration of caching is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'cache' to 'force-cache' ensures that the Fetch API response is always retrieved from the browser cache, even if it has expired.",
+                            "description": "Correct! Setting 'cache' to 'force-cache' instructs the browser to always retrieve the Fetch API response from the cache, bypassing checks for freshness. Recognizing the impact of 'cache' on caching behavior is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'cache' set to 'force-cache' retrieves the response from the cache without freshness checks is crucial for this question."
+                        },
+                        {
+                            "label": "The 'cache' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'cache' option can be relevant for both 'GET' and 'POST' requests, influencing caching behavior. Recognize the versatility of the 'cache' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cache' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'cache' to 'no-cache' prevents the browser from caching the Fetch API response, always requiring a fresh request to the server.",
+                            "description": "Incorrect. Setting 'cache' to 'no-cache' does influence caching behavior, but this is not the only correct answer. Recognize the specific condition under which caching behavior is affected for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('force-cache') under which caching behavior is affected is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "db5d679f-6abf-40c7-a9e4-b5b0f3a6f7a9",
+                    "question": "Explain the role of the 'keepalive' option in a Fetch API request.",
+                    "description": "Test your knowledge of the 'keepalive' option and its impact on the connection of the Fetch API request.",
+                    "hint": "Consider how the 'keepalive' option influences the connection behavior in Fetch API requests.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'keepalive' option is used to specify the timeout duration for maintaining an active connection in the Fetch API request.",
+                            "description": "Incorrect. The 'keepalive' option is not related to specifying a timeout duration for maintaining an active connection. Recognize the correct purpose of the 'keepalive' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'keepalive' does not specify a timeout duration for maintaining an active connection is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'keepalive' to 'true' ensures that the connection of the Fetch API request remains active, allowing for multiple requests to be sent over the same connection.",
+                            "description": "Correct! Setting 'keepalive' to 'true' ensures that the connection of the Fetch API request remains active, facilitating the sending of multiple requests over the same connection. Recognizing the impact of 'keepalive' on connection behavior is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'keepalive' set to 'true' maintains an active connection, enabling multiple requests over the same connection, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'keepalive' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'keepalive' option can be relevant for both 'GET' and 'POST' requests, influencing connection behavior. Recognize the versatility of the 'keepalive' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'keepalive' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'keepalive' to 'false' terminates the connection after the completion of the Fetch API request, preventing any additional requests over the same connection.",
+                            "description": "Incorrect. Setting 'keepalive' to 'false' does affect connection behavior, but this is not the only correct answer. Recognize the specific condition under which connection behavior is affected for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('true') under which connection behavior is affected is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f241137d-4e7d-4f3e-98b2-d702a46a4c6b",
+                    "question": "How does the 'referrerPolicy' option in a Fetch API request impact the referrer information sent to the server?",
+                    "description": "Test your understanding of the 'referrerPolicy' option and its role in controlling the referrer information disclosed to the server in Fetch API requests.",
+                    "hint": "Consider how the 'referrerPolicy' option influences the disclosure of referrer information.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Setting 'referrerPolicy' to 'origin' discloses the full URL of the referrer to the server in the Fetch API request.",
+                            "description": "Incorrect. Setting 'referrerPolicy' to 'origin' does not disclose the full URL of the referrer. Recognize the correct impact of the 'referrerPolicy' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrerPolicy' set to 'origin' does not disclose the full URL of the referrer is crucial for this question."
+                        },
+                        {
+                            "label": "The 'referrerPolicy' option is used to specify the duration for which the referrer information should be stored on the server after receiving a Fetch API request.",
+                            "description": "Incorrect. The 'referrerPolicy' option is not related to specifying the duration of storing referrer information on the server. Recognize the correct purpose of the 'referrerPolicy' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrerPolicy' does not specify the duration of storing referrer information is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'referrerPolicy' to 'no-referrer' ensures that no referrer information is disclosed to the server in the Fetch API request.",
+                            "description": "Correct! Setting 'referrerPolicy' to 'no-referrer' prevents the disclosure of referrer information to the server in the Fetch API request. Recognizing the impact of 'referrerPolicy' on referrer information disclosure is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'referrerPolicy' set to 'no-referrer' prevents the disclosure of referrer information is crucial for this question."
+                        },
+                        {
+                            "label": "The 'referrerPolicy' option is exclusively relevant when making cross-origin requests and has no impact on same-origin requests.",
+                            "description": "Incorrect. The 'referrerPolicy' option can be relevant for both cross-origin and same-origin requests. Recognize the versatility of the 'referrerPolicy' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrerPolicy' can be relevant for both cross-origin and same-origin requests is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a8588ce9-4651-4edc-95d6-b1e98a4ff099",
+                    "question": "What does the 'mode' option in a Fetch API request determine?",
+                    "description": "Test your understanding of the 'mode' option and its role in specifying the request mode in Fetch API requests.",
+                    "hint": "Consider how the 'mode' option influences the request mode in Fetch API requests.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'mode' option determines whether the Fetch API request should be made in synchronous or asynchronous mode.",
+                            "description": "Incorrect. The 'mode' option does not control whether the request is made in synchronous or asynchronous mode. Recognize the correct purpose of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'mode' does not determine the synchronous or asynchronous nature of the request is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'mode' to 'cors' ensures that the Fetch API request is made with cross-origin resource sharing, allowing for secure cross-origin requests.",
+                            "description": "Correct! Setting 'mode' to 'cors' enables cross-origin resource sharing, allowing for secure cross-origin requests. Recognizing the impact of 'mode' on enabling CORS is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'mode' set to 'cors' enables CORS for secure cross-origin requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'mode' option is exclusively relevant when making 'GET' requests and has no impact on 'POST' requests.",
+                            "description": "Incorrect. The 'mode' option can be relevant for both 'GET' and 'POST' requests, influencing the request mode. Recognize the versatility of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'mode' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'mode' to 'same-origin' ensures that the Fetch API request is restricted to same-origin requests only.",
+                            "description": "Incorrect. Setting 'mode' to 'same-origin' does restrict the request to same-origin, but this is not the only correct answer. Recognize the specific condition under which the request mode is affected for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('cors') under which the request mode is affected is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f4cbbd6b-1a12-4b1f-b98e-8a4b853a94f5",
+                    "question": "Explain the role of the 'window' option in a Fetch API request.",
+                    "description": "Test your knowledge of the 'window' option and its impact on handling cookies in Fetch API requests within a browser environment.",
+                    "hint": "Consider how the 'window' option influences cookie handling in Fetch API requests within a browser context.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "The 'window' option is used to specify the duration for which the cookies should be stored in the browser after a Fetch API request.",
+                            "description": "Incorrect. The 'window' option is not related to specifying the duration of cookie storage. Recognize the correct purpose of the 'window' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'window' does not specify the duration of cookie storage is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'window' to 'self' allows the Fetch API request to handle cookies as usual, treating them according to the same-origin policy.",
+                            "description": "Correct! Setting 'window' to 'self' ensures that the Fetch API request handles cookies as usual, adhering to the same-origin policy. Recognizing the impact of 'window' on cookie handling is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'window' set to 'self' allows normal cookie handling according to the same-origin policy is crucial for this question."
+                        },
+                        {
+                            "label": "The 'window' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'window' option can be relevant for both 'GET' and 'POST' requests, influencing cookie handling. Recognize the versatility of the 'window' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'window' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'window' to 'cross-origin' allows the Fetch API request to include cookies for cross-origin requests, bypassing the same-origin policy.",
+                            "description": "Incorrect. Setting 'window' to 'cross-origin' does not allow the inclusion of cookies for cross-origin requests. Recognize the correct impact of the 'window' option.",
+                            "points": 1,
+                            "explanation": "Understanding that 'window' set to 'self' is the correct condition for normal cookie handling is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "537fdaa9-e431-4e1b-9af3-010bf48e9160",
+                    "question": "Examine the purpose of the 'redirect' option in a Fetch API request.",
+                    "description": "Challenge your understanding of the 'redirect' option and its role in controlling how the Fetch API handles redirections.",
+                    "hint": "Consider how the 'redirect' option influences the handling of redirections in Fetch API requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "The 'redirect' option is used to specify the maximum number of allowed redirections in a Fetch API request.",
+                            "description": "Incorrect. The 'redirect' option is not related to specifying the maximum number of allowed redirections. Recognize the correct purpose of the 'redirect' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'redirect' does not control the maximum number of allowed redirections is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'redirect' to 'follow' ensures that the Fetch API request automatically follows redirects, with no manual intervention required.",
+                            "description": "Correct! Setting 'redirect' to 'follow' enables automatic following of redirects in the Fetch API request, requiring no manual intervention. Recognizing the impact of 'redirect' on automatic redirection is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'redirect' set to 'follow' enables automatic redirection is crucial for this question."
+                        },
+                        {
+                            "label": "The 'redirect' option is exclusively relevant when making 'GET' requests and has no impact on 'POST' requests.",
+                            "description": "Incorrect. The 'redirect' option can be relevant for both 'GET' and 'POST' requests, influencing the handling of redirections. Recognize the versatility of the 'redirect' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'redirect' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'redirect' to 'manual' requires the Fetch API request to include the original method and request body when following redirects.",
+                            "description": "Incorrect. Setting 'redirect' to 'manual' does not require including the original method and request body when following redirects. Recognize the correct impact of the 'redirect' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'redirect' set to 'manual' does not require including the original method and request body is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2b3a6b79-b3d8-4a86-981f-1f6094ef7eb4",
+                    "question": "Explore the role of the 'integrity' option in a Fetch API request.",
+                    "description": "Challenge your knowledge of the 'integrity' option and its impact on ensuring the integrity and authenticity of fetched resources.",
+                    "hint": "Consider how the 'integrity' option contributes to resource integrity and authenticity in Fetch API requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "The 'integrity' option is used to specify the cache policy for the Fetch API request, determining how the browser should cache the response.",
+                            "description": "Incorrect. The 'integrity' option is not related to specifying the cache policy. Recognize the correct purpose of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' is not used to specify the cache policy is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'integrity' to 'strict' ensures that the Fetch API response is strictly validated against the server's specified integrity hash.",
+                            "description": "Correct! Setting 'integrity' to 'strict' ensures strict validation of the Fetch API response against the server's specified integrity hash, ensuring integrity and authenticity. Recognizing the impact of 'integrity' on strict validation is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'integrity' set to 'strict' enforces strict validation against the server's integrity hash is crucial for this question."
+                        },
+                        {
+                            "label": "The 'integrity' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'integrity' option can be relevant for both 'GET' and 'POST' requests, influencing the validation of responses. Recognize the versatility of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'integrity' to 'lenient' allows the Fetch API response to be considered valid even if it does not precisely match the server's specified integrity hash.",
+                            "description": "Incorrect. Setting 'integrity' to 'lenient' is not a valid option. Recognize that 'integrity' is used for strict validation against the specified hash. Consider the correct impact of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' is not used for lenient validation is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1e6bce8e-e120-43de-90b9-36ec04e65182",
+                    "question": "Examine the significance of the 'referrer' option in a Fetch API request.",
+                    "description": "Challenge your understanding of the 'referrer' option and its role in controlling the sending of referrer information in Fetch API requests.",
+                    "hint": "Consider how the 'referrer' option influences the inclusion of referrer information.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "The 'referrer' option is used to specify the behavior when the Fetch API request encounters a cross-origin referrer, allowing for automatic inclusion of the full referrer URL.",
+                            "description": "Incorrect. The 'referrer' option does not control the automatic inclusion of the full referrer URL for cross-origin referrers. Recognize the correct purpose of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' does not automatically include the full referrer URL for cross-origin referrers is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'referrer' to 'same-origin' ensures that the Fetch API request includes the full referrer URL only for same-origin requests, providing a higher level of security.",
+                            "description": "Correct! Setting 'referrer' to 'same-origin' restricts the inclusion of the full referrer URL to same-origin requests, enhancing security by preventing automatic disclosure to cross-origin destinations. Recognizing the impact of 'referrer' on referrer information inclusion is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'referrer' set to 'same-origin' restricts the inclusion to same-origin requests, enhancing security, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'referrer' option is exclusively relevant when making 'GET' requests and has no impact on 'POST' requests.",
+                            "description": "Incorrect. The 'referrer' option can be relevant for both 'GET' and 'POST' requests, influencing the inclusion of referrer information. Recognize the versatility of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'referrer' to 'origin' discloses the origin of the referrer (excluding path and query) in the Fetch API request, allowing for partial information inclusion.",
+                            "description": "Incorrect. Setting 'referrer' to 'origin' does not disclose partial information about the origin of the referrer. Recognize the correct impact of the 'referrer' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrer' does not disclose partial information about the origin is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5ab722b2-d16b-4e87-a6e3-7a0105585f60",
+                    "question": "Evaluate the role of the 'credentials' option in a Fetch API request.",
+                    "description": "Challenge your knowledge of the 'credentials' option and its impact on including or excluding cookies and HTTP authentication in Fetch API requests.",
+                    "hint": "Consider how the 'credentials' option influences the inclusion or exclusion of cookies and HTTP authentication.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Setting 'credentials' to 'same-origin' allows the inclusion of cookies and HTTP authentication in the Fetch API request only if the destination is the same origin as the calling script.",
+                            "description": "Correct! Setting 'credentials' to 'same-origin' enables the inclusion of cookies and HTTP authentication in the Fetch API request, but only if the destination is the same origin as the calling script. Recognizing the impact of 'credentials' on inclusion conditions is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'credentials' set to 'same-origin' conditions the inclusion of cookies and HTTP authentication to the same origin is crucial for this question."
+                        },
+                        {
+                            "label": "The 'credentials' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'credentials' option can be relevant for both 'GET' and 'POST' requests, influencing the inclusion or exclusion of cookies and HTTP authentication. Recognize the versatility of the 'credentials' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'credentials' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'credentials' to 'omit' excludes the inclusion of cookies and HTTP authentication in the Fetch API request, regardless of the origin.",
+                            "description": "Incorrect. Setting 'credentials' to 'omit' does exclude the inclusion of cookies and HTTP authentication, but this is not the only correct answer. Recognize the specific condition under which inclusion is allowed for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('same-origin') under which inclusion is allowed is crucial for this question."
+                        },
+                        {
+                            "label": "The 'credentials' option is used to specify the timeout duration for waiting for credentials to be included in the Fetch API request.",
+                            "description": "Incorrect. The 'credentials' option does not control the timeout duration for waiting for credentials. Recognize the correct purpose of the 'credentials' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'credentials' does not specify the timeout duration is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a75b52f1-7b22-4ba2-bb0a-9e0c9da17859",
+                    "question": "Explore the significance of the 'cache' option in a Fetch API request.",
+                    "description": "Challenge your understanding of the 'cache' option and its role in specifying how the browser handles caching for Fetch API responses.",
+                    "hint": "Consider how the 'cache' option influences caching behavior in Fetch API requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "The 'cache' option is used to specify the maximum duration for which the Fetch API response should be considered fresh, influencing the browser's caching behavior.",
+                            "description": "Incorrect. The 'cache' option does not specify the maximum duration for considering the response fresh. Recognize the correct purpose of the 'cache' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cache' does not control the maximum duration for considering the response fresh is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'cache' to 'default' allows the Fetch API request to use the browser's default caching behavior, following standard caching rules.",
+                            "description": "Correct! Setting 'cache' to 'default' enables the Fetch API request to use the browser's default caching behavior, adhering to standard caching rules. Recognizing the impact of 'cache' on default caching is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'cache' set to 'default' enables adherence to the browser's default caching behavior is crucial for this question."
+                        },
+                        {
+                            "label": "The 'cache' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'cache' option can be relevant for both 'GET' and 'POST' requests, influencing caching behavior. Recognize the versatility of the 'cache' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'cache' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'cache' to 'no-store' ensures that the Fetch API response is never cached, and each request results in a fresh response from the server.",
+                            "description": "Incorrect. Setting 'cache' to 'no-store' does prevent caching, but this is not the only correct answer. Recognize the specific condition under which caching is controlled for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('default') under which caching is controlled is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7d1c36f0-2a49-4d1b-8d5e-6e94e9e53c3d",
+                    "question": "Examine the role of the 'headers' option in a Fetch API request.",
+                    "description": "Test your knowledge of the 'headers' option and its impact on customizing and specifying headers for Fetch API requests.",
+                    "hint": "Consider how the 'headers' option allows customization and specification of headers in Fetch API requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "The 'headers' option is used to specify the timeout duration for waiting for header information to be included in the Fetch API request.",
+                            "description": "Incorrect. The 'headers' option does not control the timeout duration for waiting for header information. Recognize the correct purpose of the 'headers' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'headers' does not specify the timeout duration is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'headers' to 'default' allows the Fetch API request to use the browser's default headers, following standard header rules.",
+                            "description": "Correct! Setting 'headers' to 'default' enables the Fetch API request to use the browser's default headers, adhering to standard header rules. Recognizing the impact of 'headers' on default headers is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'headers' set to 'default' enables adherence to the browser's default headers is crucial for this question."
+                        },
+                        {
+                            "label": "The 'headers' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'headers' option can be relevant for both 'GET' and 'POST' requests, allowing customization of headers. Recognize the versatility of the 'headers' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'headers' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'headers' to 'no-custom' restricts the inclusion of custom headers in the Fetch API request, allowing only the default headers.",
+                            "description": "Incorrect. There is no option 'no-custom'. Recognize the correct options available for the 'headers' option and their impact.",
+                            "points": 0,
+                            "explanation": "Understanding the correct options available for the 'headers' option is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "41a2b3f0-6d45-490e-8fda-f174e3de2a76",
+                    "question": "Evaluate the significance of the 'method' option in a Fetch API request.",
+                    "description": "Challenge your understanding of the 'method' option and its role in specifying the HTTP method used in Fetch API requests.",
+                    "hint": "Consider how the 'method' option influences the HTTP method used in Fetch API requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "The 'method' option is used to specify the maximum duration for which the Fetch API request should wait for a response, influencing the request timeout.",
+                            "description": "Incorrect. The 'method' option does not specify the maximum duration for waiting for a response. Recognize the correct purpose of the 'method' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'method' does not control the maximum duration for waiting for a response is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'method' to 'get' ensures that the Fetch API request uses the HTTP 'GET' method for retrieval of data from the server.",
+                            "description": "Correct! Setting 'method' to 'get' instructs the Fetch API request to use the HTTP 'GET' method for retrieving data from the server. Recognizing the impact of 'method' on specifying the HTTP method is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'method' set to 'get' specifies the HTTP 'GET' method for retrieval is crucial for this question."
+                        },
+                        {
+                            "label": "The 'method' option is exclusively relevant when making 'PUT' requests and has no impact on 'POST' requests.",
+                            "description": "Incorrect. The 'method' option can be relevant for various HTTP methods, including 'POST'. Recognize the versatility of the 'method' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'method' can be relevant for multiple HTTP methods, including 'POST', is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'method' to 'head' instructs the Fetch API request to use the HTTP 'HEAD' method for retrieving only the headers of the response.",
+                            "description": "Incorrect. There is no option 'head'. Recognize the correct options available for the 'method' option and their impact.",
+                            "points": 0,
+                            "explanation": "Understanding the correct options available for the 'method' option is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "097ee7a7-5470-4dcb-996a-7cf3ee098006",
+                    "question": "Examine the purpose of the 'referrerPolicy' option in a Fetch API request.",
+                    "description": "Test your knowledge of the 'referrerPolicy' option and its role in controlling how referrer information is disclosed in Fetch API requests.",
+                    "hint": "Consider how the 'referrerPolicy' option influences the disclosure of referrer information in Fetch API requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Setting 'referrerPolicy' to 'strict-origin' allows the inclusion of referrer information only for same-origin requests in the Fetch API request.",
+                            "description": "Correct! Setting 'referrerPolicy' to 'strict-origin' restricts the inclusion of referrer information to same-origin requests, enhancing security. Recognizing the impact of 'referrerPolicy' on referrer information inclusion is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'referrerPolicy' set to 'strict-origin' restricts inclusion to same-origin requests, enhancing security, is crucial for this question."
+                        },
+                        {
+                            "label": "The 'referrerPolicy' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'referrerPolicy' option can be relevant for both 'GET' and 'POST' requests, influencing the inclusion of referrer information. Recognize the versatility of the 'referrerPolicy' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrerPolicy' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'referrerPolicy' to 'unsafe-url' discloses the full referrer URL in the Fetch API request, even for cross-origin requests.",
+                            "description": "Incorrect. Setting 'referrerPolicy' to 'unsafe-url' does not disclose the full referrer URL for cross-origin requests. Recognize the correct impact of the 'referrerPolicy' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrerPolicy' does not disclose the full referrer URL for cross-origin requests is crucial for this question."
+                        },
+                        {
+                            "label": "The 'referrerPolicy' option is used to specify the cache policy for the Fetch API request, determining how the browser should cache the response.",
+                            "description": "Incorrect. The 'referrerPolicy' option is not related to specifying the cache policy. Recognize the correct purpose of the 'referrerPolicy' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'referrerPolicy' is not used to specify the cache policy is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7f35049b-953f-4cd2-bc1e-94e3f3b4db8b",
+                    "question": "Evaluate the role of the 'mode' option in a Fetch API request.",
+                    "description": "Challenge your knowledge of the 'mode' option and its impact on controlling the 'CORS' (Cross-Origin Resource Sharing) behavior in Fetch API requests.",
+                    "hint": "Consider how the 'mode' option influences the 'CORS' behavior in Fetch API requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Setting 'mode' to 'cors' enables the Fetch API request to make cross-origin requests, with the browser enforcing 'CORS' policies.",
+                            "description": "Correct! Setting 'mode' to 'cors' allows the Fetch API request to make cross-origin requests, and the browser enforces 'CORS' policies. Recognizing the impact of 'mode' on 'CORS' behavior is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'mode' set to 'cors' enables cross-origin requests with enforced 'CORS' policies is crucial for this question."
+                        },
+                        {
+                            "label": "The 'mode' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'mode' option can be relevant for both 'GET' and 'POST' requests, influencing 'CORS' behavior. Recognize the versatility of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'mode' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'mode' to 'same-origin' restricts the Fetch API request to making same-origin requests only, prohibiting cross-origin requests.",
+                            "description": "Incorrect. Setting 'mode' to 'same-origin' does restrict the Fetch API request to same-origin requests, but this is not the only correct answer. Recognize the specific condition under which 'CORS' behavior is controlled for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('cors') under which 'CORS' behavior is controlled is crucial for this question."
+                        },
+                        {
+                            "label": "The 'mode' option is used to specify the cache policy for the Fetch API request, determining how the browser should cache the response.",
+                            "description": "Incorrect. The 'mode' option is not related to specifying the cache policy. Recognize the correct purpose of the 'mode' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'mode' is not used to specify the cache policy is crucial for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0cb44e69-3df8-4e6c-8db9-7415e87eb9a9",
+                    "question": "Examine the purpose of the 'integrity' option in a Fetch API request.",
+                    "description": "Test your knowledge of the 'integrity' option and its role in ensuring the integrity and authenticity of fetched resources in Fetch API requests.",
+                    "hint": "Consider how the 'integrity' option influences the verification of resource integrity in Fetch API requests.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "The 'integrity' option is used to specify the maximum duration for which the Fetch API request should wait for a response, influencing the request timeout.",
+                            "description": "Incorrect. The 'integrity' option does not specify the maximum duration for waiting for a response. Recognize the correct purpose of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' does not control the maximum duration for waiting for a response is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'integrity' to 'check' ensures that the fetched resources undergo integrity checking, verifying their integrity and authenticity.",
+                            "description": "Correct! Setting 'integrity' to 'check' triggers integrity checking for fetched resources, ensuring their integrity and authenticity. Recognizing the impact of 'integrity' on resource verification is important for this question.",
+                            "points": 3,
+                            "explanation": "Recognizing that 'integrity' set to 'check' triggers resource integrity checking is crucial for this question."
+                        },
+                        {
+                            "label": "The 'integrity' option is exclusively relevant when making 'POST' requests and has no impact on 'GET' requests.",
+                            "description": "Incorrect. The 'integrity' option can be relevant for both 'GET' and 'POST' requests, influencing resource integrity checking. Recognize the versatility of the 'integrity' option.",
+                            "points": 0,
+                            "explanation": "Understanding that 'integrity' can be relevant for both 'GET' and 'POST' requests is crucial for this question."
+                        },
+                        {
+                            "label": "Setting 'integrity' to 'none' disables integrity checking for fetched resources, allowing them to be used without verification.",
+                            "description": "Incorrect. Setting 'integrity' to 'none' does disable integrity checking, but this is not the only correct answer. Recognize the specific condition under which integrity checking is triggered for this question.",
+                            "points": 1,
+                            "explanation": "Recognizing the specific condition ('check') under which integrity checking is triggered is crucial for this question."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

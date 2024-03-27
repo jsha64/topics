@@ -1,0 +1,1378 @@
+{
+    "skill": {
+        "FormsAndValidations": {
+            "id": "form-and-validations",
+            "description": "Before submitting data to the server, it is important to ensure all required form controls are filled out, in the correct format. This is called client-side form validation, and helps ensure data submitted matches the requirements set forth in the various form controls.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "MDN Web Docs: Client-side form validation",
+                    "link": "https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation"
+                },
+                {
+                    "name": "Learn Forms by web.dev",
+                    "link": "https://web.dev/learn/forms/"
+                },
+                {
+                    "name": "W3Schools: JavaScript Form Validation",
+                    "link": "https://www.w3schools.com/js/js_validation.asp"
+                }
+            ],
+            "parents": [
+                "html"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "d2a265a4-553d-46cd-bc08-2a93574db086",
+                    "question": "What is the 'required' attribute in HTML form elements used for?",
+                    "description": "Explain the purpose of the 'required' attribute in HTML form elements.",
+                    "hint": "Consider its role in ensuring that a field must be filled out before submitting the form.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To indicate that the input is optional.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'required' attribute is used to specify that an input field must be filled out."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To specify a maximum character length for the input.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'required' attribute is not related to character length."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To indicate that the input must be filled out before submitting the form.",
+                            "points": 3,
+                            "explanation": "Correct! The 'required' attribute ensures that the associated input field must be filled out before form submission."
+                        }
+                    ]
+                },
+                {
+                    "id": "3ebcf2c8-3e94-4d3e-8db9-f5f1562089ec",
+                    "question": "How can you set a minimum and maximum value for a number input in HTML?",
+                    "description": "Explain the HTML attributes used to define a range for a number input.",
+                    "hint": "Consider attributes that control the allowed range of values for a number input.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Using the 'maxlength' attribute.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'maxlength' is used for text input, not number input range."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Using the 'min' and 'max' attributes.",
+                            "points": 3,
+                            "explanation": "Correct! The 'min' and 'max' attributes define the minimum and maximum allowed values for a number input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "There is no way to set a range for a number input.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'min' and 'max' attributes are used to define a range for number inputs."
+                        }
+                    ]
+                },
+                {
+                    "id": "9220e856-7da9-41d8-8434-6f0c90db2e38",
+                    "question": "What is the purpose of the 'pattern' attribute in HTML form inputs?",
+                    "description": "Explain the role of the 'pattern' attribute in HTML form validation.",
+                    "hint": "Consider how 'pattern' is used to enforce a specific format for user input.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To specify the maximum character length of an input.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'pattern' is used for format validation, not character length."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To enforce a specific format for the input using a regular expression.",
+                            "points": 3,
+                            "explanation": "Correct! The 'pattern' attribute allows you to define a regular expression for input format validation."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To make an input field required.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'pattern' is used for format validation, not for making a field required."
+                        }
+                    ]
+                },
+                {
+                    "id": "f128d58e-c9f7-4a61-912e-ec816727b6d1",
+                    "question": "How can you create a dropdown list in HTML?",
+                    "description": "Describe the HTML element used to create a dropdown list.",
+                    "hint": "Think about the type of form control used for selecting one option from a list.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='dropdown'>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct element for a dropdown list is not an input with type 'dropdown.'"
+                        },
+                        {
+                            "label": "B",
+                            "description": "<select>",
+                            "points": 3,
+                            "explanation": "Correct! The '<select>' element is used to create a dropdown list in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<dropdown>",
+                            "points": 0,
+                            "explanation": "Not accurate. There is no '<dropdown>' element in HTML; '<select>' is used for dropdown lists."
+                        }
+                    ]
+                },
+                {
+                    "id": "a63668f9-d456-4dcd-b87d-85b8e2fe796a",
+                    "question": "Which attribute is used to associate a label with a form element in HTML?",
+                    "description": "Identify the HTML attribute used for accessibility to associate a label with a form element.",
+                    "hint": "Consider how screen readers and other assistive technologies use this attribute.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "data-label",
+                            "points": 0,
+                            "explanation": "Incorrect. 'data-label' is not the correct attribute for associating a label with a form element."
+                        },
+                        {
+                            "label": "B",
+                            "description": "for",
+                            "points": 3,
+                            "explanation": "Correct! The 'for' attribute is used to associate a label with a form element in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "label-for",
+                            "points": 0,
+                            "explanation": "Not accurate. 'label-for' is not the standard attribute for associating a label with a form element in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "3d318f67-6ccf-4c6a-a2a0-6ad06b5a52df",
+                    "question": "What does the 'placeholder' attribute in HTML input elements do?",
+                    "description": "Explain the purpose of the 'placeholder' attribute in HTML input elements.",
+                    "hint": "Consider its role in providing a brief hint to users about the expected input format.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the default value for the input.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'placeholder' is used for providing a brief hint, not setting a default value."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the maximum character length of the input.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'placeholder' is for providing hints, not specifying character length."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It provides a brief hint to users about the expected input format.",
+                            "points": 3,
+                            "explanation": "Correct! The 'placeholder' attribute provides a hint to users about the expected input format."
+                        }
+                    ]
+                },
+                {
+                    "id": "2c784a90-6e42-4704-a8d5-cbaa22d4303b",
+                    "question": "How can you disable a form input in HTML?",
+                    "description": "Describe the attribute used to disable user interaction with an HTML form input.",
+                    "hint": "Consider how to prevent users from interacting with a specific form element.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "disabled='true'",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct attribute for disabling an input is 'disabled,' not 'disabled='true''."
+                        },
+                        {
+                            "label": "B",
+                            "description": "readonly='true'",
+                            "points": 0,
+                            "explanation": "Not accurate. 'readonly' is used for making an input read-only, not disabling it entirely."
+                        },
+                        {
+                            "label": "C",
+                            "description": "disabled",
+                            "points": 3,
+                            "explanation": "Correct! The 'disabled' attribute is used to disable user interaction with an HTML form input."
+                        }
+                    ]
+                },
+                {
+                    "id": "3ef1e3f2-1843-42d3-88d0-222583f98f67",
+                    "question": "What is the purpose of the 'autocomplete' attribute in HTML forms?",
+                    "description": "Explain how the 'autocomplete' attribute influences form behavior in HTML.",
+                    "hint": "Consider its impact on suggesting previously entered values.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls whether the form is submitted automatically.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'autocomplete' is not related to automatic form submission."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It enables or disables the browser's autocomplete feature for the form.",
+                            "points": 3,
+                            "explanation": "Correct! 'autocomplete' controls the browser's autocomplete feature for form fields."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the default value for the form fields.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'autocomplete' is about the browser's autocomplete feature, not setting default values."
+                        }
+                    ]
+                },
+                {
+                    "id": "54cf52b9-7552-43c4-8e82-eab8ff09826a",
+                    "question": "How can you group related radio buttons together in HTML?",
+                    "description": "Describe the HTML element used to group related radio buttons.",
+                    "hint": "Consider how to ensure that only one radio button in a group can be selected.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<checkbox-group>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct element for grouping radio buttons is not '<checkbox-group>'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<input type='radio' group='groupName'>",
+                            "points": 0,
+                            "explanation": "Not accurate. Grouping is not achieved by adding a 'group' attribute to individual radio buttons."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<fieldset>",
+                            "points": 3,
+                            "explanation": "Correct! The '<fieldset>' element is used to group related radio buttons together in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "b5bbf7f9-bec0-4ac7-9df4-87b3314c9606",
+                    "question": "How can you create a multi-line text input in HTML?",
+                    "description": "Identify the HTML element used to create a text input that allows multiple lines of text.",
+                    "hint": "Think about the type of input control used for longer, multi-line text.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='text' multiline>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'multiline' is not a valid attribute for creating a multi-line text input."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<textarea>",
+                            "points": 3,
+                            "explanation": "Correct! The '<textarea>' element is used to create a multi-line text input in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<input type='multiline-text'>",
+                            "points": 0,
+                            "explanation": "Not accurate. 'multiline-text' is not a valid type for creating a multi-line text input."
+                        }
+                    ]
+                },
+                {
+                    "id": "f9374a76-d013-4b41-b881-1d7c6a66736b",
+                    "question": "What HTML attribute is used to define the type of input in a form?",
+                    "description": "Identify the attribute that specifies the type of data an input field accepts.",
+                    "hint": "Consider the attribute that determines whether the input is a text field, checkbox, radio button, etc.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "type",
+                            "points": 3,
+                            "explanation": "Correct! The 'type' attribute is used to define the type of input in an HTML form."
+                        },
+                        {
+                            "label": "B",
+                            "description": "input-type",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct attribute is 'type', not 'input-type'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "format",
+                            "points": 0,
+                            "explanation": "Not accurate. 'format' is not the attribute used to define input types in HTML forms."
+                        }
+                    ]
+                },
+                {
+                    "id": "2685eb36-35bf-4e8c-9f4f-45b0c27cc172",
+                    "question": "How can you create a checkbox in HTML?",
+                    "description": "Describe the HTML element and attribute combination used to create a checkbox.",
+                    "hint": "Think about the input type and associated attribute for checkboxes.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='checkbox'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input>' element with 'type' attribute set to 'checkbox' creates a checkbox in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<checkbox>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<checkbox>' is not a valid HTML element for creating checkboxes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<input type='radio'>",
+                            "points": 0,
+                            "explanation": "Not accurate. '<input type='radio'>' creates a radio button, not a checkbox."
+                        }
+                    ]
+                },
+                {
+                    "id": "ab8ff99d-b54a-4d4a-9526-2e6792a0b40f",
+                    "question": "What is the purpose of the 'action' attribute in an HTML form?",
+                    "description": "Explain the role of the 'action' attribute in HTML forms.",
+                    "hint": "Consider where form data is sent after submission.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It specifies the method for form data transmission.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'action' is about where the form data is sent, not the transmission method."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the URL where the form data is sent after submission.",
+                            "points": 3,
+                            "explanation": "Correct! 'action' specifies the URL where the form data is sent after submission."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It sets the background color of the form.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'action' is not related to styling the form."
+                        }
+                    ]
+                },
+                {
+                    "id": "6c08ac77-91e4-40d5-961f-65a9e3f512b2",
+                    "question": "Which attribute is used to set the initial value of a text input in HTML?",
+                    "description": "Identify the attribute that defines the default content of a text input.",
+                    "hint": "Consider how to pre-fill a text input with a specific value.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "value",
+                            "points": 3,
+                            "explanation": "Correct! The 'value' attribute sets the initial value of a text input in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "default",
+                            "points": 0,
+                            "explanation": "Incorrect. 'default' is not the attribute used to set the initial value of a text input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "initial",
+                            "points": 0,
+                            "explanation": "Not accurate. 'initial' is not the correct attribute for setting the initial value of a text input."
+                        }
+                    ]
+                },
+                {
+                    "id": "5a9c448e-f6cf-4c46-8db9-bfe0f25775b3",
+                    "question": "In HTML, what does the 'method' attribute in a form specify?",
+                    "description": "Examine the role of the 'method' attribute in HTML form submissions.",
+                    "hint": "Consider how form data is transmitted to the server.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It defines the layout of the form elements.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'method' is not related to the layout of form elements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the HTTP method used when sending form data to the server.",
+                            "points": 3,
+                            "explanation": "Correct! 'method' determines the HTTP method for form data transmission to the server."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It sets the alignment of the form on the page.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'method' is not about the alignment of the form on the page."
+                        }
+                    ]
+                },
+                {
+                    "id": "19b32e25-32a4-4c09-9b8b-4936b8dd756b",
+                    "question": "What is the purpose of the 'maxlength' attribute in an HTML text input?",
+                    "description": "Explain how the 'maxlength' attribute affects the input in an HTML form.",
+                    "hint": "Consider its impact on limiting the length of user input.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It specifies the minimum character length allowed for the input.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'maxlength' is about the maximum length, not the minimum."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It sets the maximum character length allowed for the input.",
+                            "points": 3,
+                            "explanation": "Correct! 'maxlength' defines the maximum character length for an HTML text input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls the font size of the input text.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'maxlength' is not related to the font size of the input text."
+                        }
+                    ]
+                },
+                {
+                    "id": "9385a29b-b0e8-4b1c-8a8b-e5cc9c4a0349",
+                    "question": "What HTML element is used to create a submit button in a form?",
+                    "description": "Identify the element used for triggering the submission of an HTML form.",
+                    "hint": "Think about the type of button used to submit form data.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<submit>",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct element for a submit button is not '<submit>'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<input type='submit'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input>' element with 'type' attribute set to 'submit' creates a submit button."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<button type='submit'>",
+                            "points": 0,
+                            "explanation": "Not accurate. '<button type='submit'>' is also a valid way to create a submit button."
+                        }
+                    ]
+                },
+                {
+                    "id": "f635b8ff-63b8-4959-8600-6df3520e04ee",
+                    "question": "How can you clear the contents of a text input using JavaScript?",
+                    "description": "Describe the JavaScript code used to programmatically clear a text input field.",
+                    "hint": "Consider the property or method that allows you to manipulate the input's content.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "document.getElementById('myInput').clear();",
+                            "points": 0,
+                            "explanation": "Incorrect. 'clear()' is not a valid method for clearing input contents."
+                        },
+                        {
+                            "label": "B",
+                            "description": "document.getElementById('myInput').value = '';",
+                            "points": 3,
+                            "explanation": "Correct! Setting the 'value' property to an empty string clears the text input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "document.clearInput('myInput');",
+                            "points": 0,
+                            "explanation": "Not accurate. 'clearInput()' is not a standard JavaScript method for clearing input contents."
+                        }
+                    ]
+                },
+                {
+                    "id": "541a9900-81e0-49d3-9266-9a6b5de557b9",
+                    "question": "What is the purpose of the 'required' attribute in an HTML form?",
+                    "description": "Examine how the 'required' attribute influences form validation in HTML.",
+                    "hint": "Consider its role in ensuring that a field must be filled out before submitting the form.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the default value for the input.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'required' is about making the field mandatory, not setting a default value."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It indicates that the input must be filled out before submitting the form.",
+                            "points": 3,
+                            "explanation": "Correct! 'required' ensures that the associated input field must be filled out before form submission."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the maximum character length allowed for the input.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'required' is not related to setting maximum character length."
+                        }
+                    ]
+                },
+                {
+                    "id": "24853aa0-26c2-4a8d-a313-4e14cf33cfb2",
+                    "question": "In HTML, how can you create a radio button?",
+                    "description": "Describe the HTML element and attribute combination used to create a radio button.",
+                    "hint": "Think about the input type and associated attribute for radio buttons.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='checkbox'>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<input type='checkbox'>' creates a checkbox, not a radio button."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<input type='radio'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input>' element with 'type' attribute set to 'radio' creates a radio button."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<radio>",
+                            "points": 0,
+                            "explanation": "Not accurate. '<radio>' is not a valid HTML element for creating radio buttons."
+                        }
+                    ]
+                },
+                {
+                    "id": "3a8746f9-d3bc-42e7-8871-b1fbc961ba3a",
+                    "question": "How can you create a password input field in HTML for user authentication?",
+                    "description": "Describe the HTML element and attribute combination used to create a password input.",
+                    "hint": "Think about the input type specifically designed for secure password entry.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='text' password>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'password' is not a valid attribute for creating a password input field."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<input type='password'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input>' element with 'type' attribute set to 'password' creates a secure password input field."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<input type='secure'>",
+                            "points": 0,
+                            "explanation": "Not accurate. 'secure' is not a valid attribute for creating a password input field."
+                        }
+                    ]
+                },
+                {
+                    "id": "3b5c5461-59e1-48e2-8b66-53797f8c34f7",
+                    "question": "What does the 'novalidate' attribute do in an HTML form?",
+                    "description": "Explain the purpose of the 'novalidate' attribute in HTML form elements.",
+                    "hint": "Consider its impact on the default form validation behavior.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It disables form submission entirely.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'novalidate' does not disable form submission but affects validation behavior."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It skips client-side form validation.",
+                            "points": 3,
+                            "explanation": "Correct! 'novalidate' skips the default client-side validation of an HTML form."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It forces mandatory validation for all form fields.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'novalidate' does the opposite; it skips the default validation."
+                        }
+                    ]
+                },
+                {
+                    "id": "0b7a61e7-086a-4a6a-94ef-0e19f12e7c22",
+                    "question": "What is the purpose of the 'minlength' attribute in an HTML text input?",
+                    "description": "Examine how the 'minlength' attribute affects the input in an HTML form.",
+                    "hint": "Consider its impact on defining a minimum character length for user input.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the maximum character length allowed for the input.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'minlength' is about the minimum length, not the maximum."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the minimum character length allowed for the input.",
+                            "points": 3,
+                            "explanation": "Correct! 'minlength' defines the minimum character length for an HTML text input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls the font size of the input text.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'minlength' is not related to the font size of the input text."
+                        }
+                    ]
+                },
+                {
+                    "id": "1d36bb67-847e-4b5f-a88b-c1596d3a6cd3",
+                    "question": "In HTML, what is the purpose of the 'form' attribute in a button element?",
+                    "description": "Explain how the 'form' attribute is used in a button element.",
+                    "hint": "Consider how the 'form' attribute associates a button with a specific form.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It determines the color of the button.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'form' is not related to the appearance or color of the button."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the action to be performed when the button is clicked.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'form' attribute is about associating a button with a specific form, not defining actions."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It associates the button with a specific form using the form's ID.",
+                            "points": 3,
+                            "explanation": "Correct! 'form' associates the button with a specific form using the form's ID."
+                        }
+                    ]
+                },
+                {
+                    "id": "344a93e8-9e7a-4d14-977e-20247a33f882",
+                    "question": "How can you prevent automatic form submission in HTML?",
+                    "description": "Describe the HTML attribute used to stop a form from submitting automatically.",
+                    "hint": "Think about how to prevent the default behavior of form submission.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "autocomplete='off'",
+                            "points": 0,
+                            "explanation": "Incorrect. 'autocomplete' is not related to preventing automatic form submission."
+                        },
+                        {
+                            "label": "B",
+                            "description": "onsubmit='return false;'",
+                            "points": 3,
+                            "explanation": "Correct! Using 'onsubmit' with 'return false;' prevents the form from submitting automatically."
+                        },
+                        {
+                            "label": "C",
+                            "description": "method='none'",
+                            "points": 0,
+                            "explanation": "Not accurate. 'method' does not control automatic form submission; it determines the HTTP method for submission."
+                        }
+                    ]
+                },
+                {
+                    "id": "cb3243f7-1a0d-4a3b-aedd-e6cc53a2f388",
+                    "question": "What is the purpose of the 'autocomplete' attribute in an HTML form?",
+                    "description": "Explain how the 'autocomplete' attribute influences form behavior in HTML.",
+                    "hint": "Consider its impact on suggesting previously entered values.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It controls whether the form is submitted automatically.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'autocomplete' is not related to automatic form submission."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It enables or disables the browser's autocomplete feature for the form.",
+                            "points": 3,
+                            "explanation": "Correct! 'autocomplete' controls the browser's autocomplete feature for form fields."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the default value for the form fields.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'autocomplete' is about the browser's autocomplete feature, not setting default values."
+                        }
+                    ]
+                },
+                {
+                    "id": "8f0e1585-3d3e-49da-91d2-99cc8d7e8874",
+                    "question": "How can you set a default value for a text input in HTML?",
+                    "description": "Identify the HTML attribute used to pre-fill a text input with a default value.",
+                    "hint": "Think about how to provide an initial value for a text input.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "default='initial value'",
+                            "points": 0,
+                            "explanation": "Incorrect. 'default' is not the correct attribute for setting the default value."
+                        },
+                        {
+                            "label": "B",
+                            "description": "value='initial value'",
+                            "points": 3,
+                            "explanation": "Correct! The 'value' attribute sets the default value for an HTML text input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "placeholder='initial value'",
+                            "points": 0,
+                            "explanation": "Not accurate. 'placeholder' is used for providing a brief hint, not setting a default value."
+                        }
+                    ]
+                },
+                {
+                    "id": "adee9245-52e2-4d6a-93e2-9f4627b2b55a",
+                    "question": "How can you disable a form input in HTML?",
+                    "description": "Describe the attribute used to disable user interaction with an HTML form input.",
+                    "hint": "Consider how to prevent users from interacting with a specific form element.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "disabled='true'",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct attribute for disabling an input is 'disabled,' not 'disabled='true''."
+                        },
+                        {
+                            "label": "B",
+                            "description": "readonly='true'",
+                            "points": 0,
+                            "explanation": "Not accurate. 'readonly' is used for making an input read-only, not disabling it entirely."
+                        },
+                        {
+                            "label": "C",
+                            "description": "disabled",
+                            "points": 3,
+                            "explanation": "Correct! The 'disabled' attribute is used to disable user interaction with an HTML form input."
+                        }
+                    ]
+                },
+                {
+                    "id": "5e2a8a9a-3213-4321-95c4-e3b50422d2f7",
+                    "question": "How can you create a multi-line text input in HTML?",
+                    "description": "Identify the HTML element used to create a text input that allows multiple lines of text.",
+                    "hint": "Think about the type of input control used for longer, multi-line text.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='text' multiline>",
+                            "points": 0,
+                            "explanation": "Incorrect. 'multiline' is not a valid attribute for creating a multi-line text input."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<textarea>",
+                            "points": 3,
+                            "explanation": "Correct! The '<textarea>' element is used to create a multi-line text input in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<input type='multiline-text'>",
+                            "points": 0,
+                            "explanation": "Not accurate. 'multiline-text' is not a valid type for creating a multi-line text input."
+                        }
+                    ]
+                },
+                {
+                    "id": "84482b93-03cf-4b76-a2c8-d6f4f7ec487a",
+                    "question": "What is the purpose of the 'formaction' attribute in an HTML form?",
+                    "description": "Explain the role of the 'formaction' attribute in HTML form elements.",
+                    "hint": "Consider how it differs from the 'action' attribute in form elements.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It defines the layout of the form elements.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'formaction' is not related to the layout of form elements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the HTTP method used when sending form data to the server.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'formaction' is about the URL where the form data is sent, not the method."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It overrides the 'action' attribute and defines the URL for form submission.",
+                            "points": 3,
+                            "explanation": "Correct! 'formaction' overrides the 'action' attribute and specifies the URL for form submission."
+                        }
+                    ]
+                },
+                {
+                    "id": "f7aeb594-854b-4645-92a9-ccf331de1b9d",
+                    "question": "What is the purpose of the 'pattern' attribute in an HTML form?",
+                    "description": "Explain how the 'pattern' attribute is used for form validation in HTML.",
+                    "hint": "Consider its role in enforcing a specific pattern for user input.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It specifies the minimum character length allowed for the input.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'pattern' is about enforcing a specific pattern, not setting a minimum length."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines a regular expression pattern that the input's value must match.",
+                            "points": 3,
+                            "explanation": "Correct! 'pattern' enforces a specific regular expression pattern for the input's value."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It sets the default value for the input.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'pattern' is not about setting default values but about enforcing patterns."
+                        }
+                    ]
+                },
+                {
+                    "id": "99325a63-8fb1-44ec-8e1d-3ef3cf01ed5b",
+                    "question": "In HTML, how can you group related radio buttons together?",
+                    "description": "Identify the HTML attribute used to create a group of related radio buttons.",
+                    "hint": "Think about how to associate radio buttons to allow the user to choose only one option.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "group='radio'",
+                            "points": 0,
+                            "explanation": "Incorrect. 'group' is not a valid attribute for grouping radio buttons."
+                        },
+                        {
+                            "label": "B",
+                            "description": "name",
+                            "points": 3,
+                            "explanation": "Correct! The 'name' attribute is used to group related radio buttons together in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "type='group'",
+                            "points": 0,
+                            "explanation": "Not accurate. 'type' is used to define the input type, not to group radio buttons."
+                        }
+                    ]
+                },
+                {
+                    "id": "f1a497d5-0e87-4cd9-aa95-c72cd3db5804",
+                    "question": "What does the 'enctype' attribute in an HTML form specify?",
+                    "description": "Examine the role of the 'enctype' attribute in HTML form submissions.",
+                    "hint": "Consider how it influences the encoding of form data for submission.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It defines the method for form data transmission.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'enctype' is about encoding, not the method of form data transmission."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the character encoding used for form data submission.",
+                            "points": 3,
+                            "explanation": "Correct! 'enctype' defines the character encoding for form data submission."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It sets the alignment of the form on the page.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'enctype' is not related to the alignment of the form on the page."
+                        }
+                    ]
+                },
+                {
+                    "id": "365c9b3d-541d-41c9-88ef-4644ff2b870c",
+                    "question": "How can you create a drop-down list in HTML?",
+                    "description": "Describe the HTML element and attribute combination used to create a select menu.",
+                    "hint": "Think about the element that allows users to choose from a list of options.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<list>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<list>' is not a valid HTML element for creating a drop-down list."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<dropdown>",
+                            "points": 0,
+                            "explanation": "Not accurate. '<dropdown>' is not a valid HTML element for creating a drop-down list."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<select>",
+                            "points": 3,
+                            "explanation": "Correct! The '<select>' element is used to create a drop-down list in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "eb76d954-8779-4c3d-879c-3ac793b3d116",
+                    "question": "How can you make a form input read-only in HTML?",
+                    "description": "Describe the attribute used to make an HTML form input read-only.",
+                    "hint": "Consider how to prevent users from editing the content of a specific input.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "readonly='true'",
+                            "points": 3,
+                            "explanation": "Correct! The 'readonly' attribute is used to make a form input read-only in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "disabled='true'",
+                            "points": 0,
+                            "explanation": "Incorrect. 'disabled' is used for disabling an input, not making it read-only."
+                        },
+                        {
+                            "label": "C",
+                            "description": "editable='false'",
+                            "points": 0,
+                            "explanation": "Not accurate. 'editable' is not a valid attribute for making an input read-only."
+                        }
+                    ]
+                },
+                {
+                    "id": "c3fffd11-52de-4c4e-983c-b6b06d4d43f9",
+                    "question": "What is the purpose of the 'step' attribute in an HTML number input?",
+                    "description": "Explain how the 'step' attribute influences user input for number fields.",
+                    "hint": "Consider its role in defining the increment or decrement value for the number input.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the minimum value allowed for the number input.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'step' is about defining the increment, not the minimum value."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the step size (increment or decrement) for the number input.",
+                            "points": 3,
+                            "explanation": "Correct! 'step' determines the increment or decrement value for the number input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the maximum value allowed for the number input.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'step' is not about setting the maximum value but the increment size."
+                        }
+                    ]
+                },
+                {
+                    "id": "cd98335e-1898-418f-b90a-cd6b510d68aa",
+                    "question": "What is the purpose of the 'formmethod' attribute in an HTML form?",
+                    "description": "Explain the role of the 'formmethod' attribute in HTML form elements.",
+                    "hint": "Consider how it influences the HTTP method for form data submission.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It specifies the character encoding used for form data submission.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'formmethod' is about the HTTP method, not the character encoding."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the method for form data transmission.",
+                            "points": 3,
+                            "explanation": "Correct! 'formmethod' specifies the HTTP method used when sending form data to the server."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It sets the alignment of the form on the page.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'formmethod' is not related to the alignment of the form on the page."
+                        }
+                    ]
+                },
+                {
+                    "id": "d7d020c3-7b2f-49a7-bf37-d3a23285658c",
+                    "question": "In HTML, what is the purpose of the 'list' attribute in an input element?",
+                    "description": "Examine the role of the 'list' attribute in enhancing user input for text fields.",
+                    "hint": "Consider its connection to a predefined list of options for user selection.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It associates the input with a predefined list of options.",
+                            "points": 3,
+                            "explanation": "Correct! 'list' associates the input with a predefined <datalist> element containing options for user selection."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It sets the maximum character length allowed for the input.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'list' is not related to setting the maximum character length."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It determines the type of keyboard that appears for the input on mobile devices.",
+                            "points": 0,
+                            "explanation": "Not accurate. The 'list' attribute is not related to the appearance of the keyboard on mobile devices."
+                        }
+                    ]
+                },
+                {
+                    "id": "3e4b6e6b-d4a5-4e20-8e69-bf9ab28e61b4",
+                    "question": "How can you create a checkbox in HTML?",
+                    "description": "Identify the HTML element and attribute combination used to create a checkbox.",
+                    "hint": "Think about the input type specifically designed for checkboxes.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='radio'>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<input type='radio'>' creates a radio button, not a checkbox."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<input type='checkbox'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input>' element with 'type' attribute set to 'checkbox' creates a checkbox."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<checkbox>",
+                            "points": 0,
+                            "explanation": "Not accurate. '<checkbox>' is not a valid HTML element for creating checkboxes."
+                        }
+                    ]
+                },
+                {
+                    "id": "9f3962f8-e04a-4a69-8b44-59a7e0992ed9",
+                    "question": "What does the 'multiple' attribute do in an HTML select element?",
+                    "description": "Explain the purpose of the 'multiple' attribute in enhancing the behavior of a select element.",
+                    "hint": "Consider its impact on allowing users to select multiple options.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It limits the number of options a user can select.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'multiple' does not limit the number of options but allows for multiple selections."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It enables the select element to display multiple options at once.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'multiple' is about allowing multiple selections, not displaying options."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It allows users to select multiple options in the select element.",
+                            "points": 3,
+                            "explanation": "Correct! 'multiple' enables users to select more than one option in a select element."
+                        }
+                    ]
+                },
+                {
+                    "id": "e00bb292-afef-4c4e-a6a2-11e3c5682c3b",
+                    "question": "Explain the role of the 'formnovalidate' attribute in an HTML form.",
+                    "description": "Explore the purpose and impact of the 'formnovalidate' attribute in HTML forms.",
+                    "hint": "Consider how it influences form validation during submission.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It disables the entire form.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'formnovalidate' does not disable the entire form but affects form validation."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It skips the validation process for the form during submission.",
+                            "points": 3,
+                            "explanation": "Correct! 'formnovalidate' skips the validation process for the form during submission."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It forces mandatory validation for all form fields.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'formnovalidate' does the opposite; it skips the default validation process."
+                        }
+                    ]
+                },
+                {
+                    "id": "334b172b-d154-4a6f-bbfd-41fb8c82f466",
+                    "question": "What is the purpose of the 'required' attribute in an HTML form?",
+                    "description": "Examine how the 'required' attribute influences form behavior and user input.",
+                    "hint": "Consider its role in ensuring that a form field must be filled out before submission.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It enforces a specific pattern for the input value.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'required' is about making a form field mandatory, not enforcing a pattern."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It sets the default value for the form field.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'required' is not related to setting default values but making the field mandatory."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It indicates that the form field must be filled out before submission.",
+                            "points": 3,
+                            "explanation": "Correct! 'required' indicates that the form field must be filled out before the form can be submitted."
+                        }
+                    ]
+                },
+                {
+                    "id": "35202b6a-7d9c-4de2-a7eb-b3e891b1ff2f",
+                    "question": "In HTML, how can you create a range input for selecting numeric values?",
+                    "description": "Identify the HTML element and attribute combination used to create a slider-like range input.",
+                    "hint": "Think about the input type designed for selecting numeric values within a specific range.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='slider'>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<input type='slider'>' is not a valid HTML element for creating a range input."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<input type='number' range>",
+                            "points": 0,
+                            "explanation": "Not accurate. 'range' is not a valid attribute for creating a range input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<input type='range'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input>' element with 'type' attribute set to 'range' creates a slider-like input for numeric values."
+                        }
+                    ]
+                },
+                {
+                    "id": "20c3d241-ded3-4d0d-9ef7-496e6e7ebe9a",
+                    "question": "What is the purpose of the 'formtarget' attribute in an HTML form?",
+                    "description": "Explain how the 'formtarget' attribute influences the target of form submission in HTML.",
+                    "hint": "Consider its role in specifying where to display the response after form submission.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It defines the method for form data transmission.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'formtarget' is about the target for form submission, not the transmission method."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It sets the alignment of the form on the page.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'formtarget' is not related to the alignment of the form on the page."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies where to display the response after form submission.",
+                            "points": 3,
+                            "explanation": "Correct! 'formtarget' determines where the response should be displayed after form submission."
+                        }
+                    ]
+                },
+                {
+                    "id": "6454c6d9-098d-40ee-818d-d21be49f557b",
+                    "question": "How can you create a hidden input field in HTML?",
+                    "description": "Identify the HTML element and attribute combination used to create a hidden input field.",
+                    "hint": "Think about how to include data in the form submission without displaying it to the user.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='hidden'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input>' element with 'type' attribute set to 'hidden' creates a hidden input field in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<hidden>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<hidden>' is not a valid HTML element for creating a hidden input field."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<input type='invisible'>",
+                            "points": 0,
+                            "explanation": "Not accurate. 'invisible' is not a valid attribute for creating a hidden input field."
+                        }
+                    ]
+                },
+                {
+                    "id": "7ab0062a-8431-41d5-926c-2292a50bf9ae",
+                    "question": "What is the purpose of the 'formenctype' attribute in an HTML form?",
+                    "description": "Explain the role of the 'formenctype' attribute in HTML form elements.",
+                    "hint": "Consider how it influences the encoding of form data for submission.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It defines the method for form data transmission.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'formenctype' is about the encoding of form data, not the transmission method."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the character encoding used for form data submission.",
+                            "points": 3,
+                            "explanation": "Correct! 'formenctype' defines the character encoding for form data submission."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It sets the alignment of the form on the page.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'formenctype' is not related to the alignment of the form on the page."
+                        }
+                    ]
+                },
+                {
+                    "id": "4c1e3c7d-25c0-4f69-996c-51ce2be91c1b",
+                    "question": "How can you create a button that resets a form to its initial state in HTML?",
+                    "description": "Identify the HTML element and attribute combination used to create a form reset button.",
+                    "hint": "Think about the element specifically designed for triggering the reset action on a form.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<input type='reset'>",
+                            "points": 3,
+                            "explanation": "Correct! The '<input>' element with 'type' attribute set to 'reset' creates a button that resets a form."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<button type='reset'>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<button type='reset'>' is not a valid HTML element for creating a form reset button."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<reset button>",
+                            "points": 0,
+                            "explanation": "Not accurate. '<reset button>' is not a valid HTML element for creating a form reset button."
+                        }
+                    ]
+                },
+                {
+                    "id": "9c3beae3-9fc3-4db6-b3b8-21dabcb1e4a8",
+                    "question": "What is the purpose of the 'formautocomplete' attribute in an HTML form?",
+                    "description": "Explain the role of the 'formautocomplete' attribute in HTML form elements.",
+                    "hint": "Consider how it influences the autocomplete behavior for form fields.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It defines the method for form data transmission.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'formautocomplete' is about the autocomplete behavior, not the transmission method."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It specifies the character encoding used for form data submission.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'formautocomplete' is not related to the character encoding of form data."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It controls the autocomplete behavior for form fields.",
+                            "points": 3,
+                            "explanation": "Correct! 'formautocomplete' controls the autocomplete behavior for form fields."
+                        }
+                    ]
+                },
+                {
+                    "id": "6b49301c-0174-4a3f-8e52-4d201e64f825",
+                    "question": "How can you create a submit button in HTML?",
+                    "description": "Identify the HTML element and attribute combination used to create a submit button.",
+                    "hint": "Think about the element that triggers the submission of a form.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<button type='submit'>",
+                            "points": 3,
+                            "explanation": "Correct! '<button>' with 'type' attribute set to 'submit' creates a submit button in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<input type='submit'>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<input type='submit'>' is also valid, but '<button>' is another common approach."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<submit button>",
+                            "points": 0,
+                            "explanation": "Not accurate. '<submit button>' is not a valid HTML element for creating a submit button."
+                        }
+                    ]
+                },
+                {
+                    "id": "08787377-9f4e-465b-ae1b-e1b330eab6f7",
+                    "question": "How can you specify the maximum number of characters allowed in a text input in HTML?",
+                    "description": "Identify the HTML attribute used to set the maximum character limit for a text input.",
+                    "hint": "Consider how to restrict the length of user input in a text field.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "maxlength='number'",
+                            "points": 3,
+                            "explanation": "Correct! 'maxlength' is used to specify the maximum number of characters allowed in a text input."
+                        },
+                        {
+                            "label": "B",
+                            "description": "maxchars='number'",
+                            "points": 0,
+                            "explanation": "Incorrect. 'maxchars' is not a valid attribute for setting the maximum character limit."
+                        },
+                        {
+                            "label": "C",
+                            "description": "limit='number'",
+                            "points": 0,
+                            "explanation": "Not accurate. 'limit' is not a valid attribute for setting the maximum character limit."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

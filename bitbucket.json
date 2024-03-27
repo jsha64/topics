@@ -1,0 +1,1368 @@
+{
+  "skill": {
+    "Bitbucket": {
+      "id": "bitbucket",
+      "description": "BitBucket is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.Visit the following resources to learn more:",
+      "resources": [
+        {
+          "name": "How to use BitBucket?",
+          "link": "https://bitbucket.org/product/guides"
+        },
+        {
+          "name": "BitBucket Website",
+          "link": "https://bitbucket.com/"
+        }
+      ],
+      "parents": [
+        "vcs-hosting"
+      ],
+      "children": [],
+      "questions": [
+        {
+          "id": "5f35102a-7b42-4a7c-9864-90c5f5a4e765",
+          "question": "What is Bitbucket?",
+          "description": "Provide a brief description of Bitbucket.",
+          "hint": "Think about version control systems.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "A code editor.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket is not a code editor but a version control system."
+            },
+            {
+              "label": "B",
+              "description": "A project management tool.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket is primarily a version control system, not a project management tool."
+            },
+            {
+              "label": "C",
+              "description": "A web-based platform for version control using Git and Mercurial.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket is a web-based platform for version control using Git and Mercurial."
+            }
+          ]
+        },
+        {
+          "id": "4c7db2bb-c465-4d8b-95da-bcd7c6a5bc03",
+          "question": "Which version control systems does Bitbucket support?",
+          "description": "List the version control systems compatible with Bitbucket.",
+          "hint": "Consider popular version control systems.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Git and Mercurial.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket supports both Git and Mercurial."
+            },
+            {
+              "label": "B",
+              "description": "SVN and CVS.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket does not support SVN and CVS for version control."
+            },
+            {
+              "label": "C",
+              "description": "Perforce and ClearCase.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket primarily supports Git and Mercurial, not Perforce or ClearCase."
+            }
+          ]
+        },
+        {
+          "id": "7e1a4a1f-8489-4da9-b858-45ac3b3203d9",
+          "question": "What type of hosting does Bitbucket provide?",
+          "description": "Describe the hosting services offered by Bitbucket.",
+          "hint": "Think about hosting code repositories.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Cloud-based hosting.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket provides cloud-based hosting for code repositories."
+            },
+            {
+              "label": "B",
+              "description": "Physical server hosting.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket primarily offers cloud-based hosting, not physical server hosting."
+            },
+            {
+              "label": "C",
+              "description": "Database hosting.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket focuses on code repository hosting, not database hosting."
+            }
+          ]
+        },
+        {
+          "id": "74314b7b-6f85-4d6a-9864-29a9292b5c94",
+          "question": "Which of the following is NOT a feature of Bitbucket?",
+          "description": "Identify the feature that is not associated with Bitbucket.",
+          "hint": "Consider features related to version control.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Pull requests.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket supports pull requests as a feature."
+            },
+            {
+              "label": "B",
+              "description": "Code reviews.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket supports code reviews as a feature."
+            },
+            {
+              "label": "C",
+              "description": "3D modeling.",
+              "points": 3,
+              "explanation": "Correct! 3D modeling is not a feature associated with Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "d7b17a63-94cf-4e91-9c4e-6ea8586e67c2",
+          "question": "What is the purpose of a Bitbucket repository?",
+          "description": "Explain the primary purpose of creating a repository in Bitbucket.",
+          "hint": "Think about code collaboration and version control.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Storing images.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket repositories are primarily for code, not images."
+            },
+            {
+              "label": "B",
+              "description": "Managing project timelines.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket repositories focus on version control and collaboration, not project timelines."
+            },
+            {
+              "label": "C",
+              "description": "Hosting and managing source code.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket repositories are used for hosting and managing source code."
+            }
+          ]
+        },
+        {
+          "id": "3c4a9ef3-13f7-4e39-8cf0-1f47751f1905",
+          "question": "Which programming languages are compatible with Bitbucket?",
+          "description": "List the programming languages that can be used with Bitbucket.",
+          "hint": "Consider popular programming languages.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Java and C#.",
+              "points": 0,
+              "explanation": "Incorrect. While Java is compatible, C# is not natively supported by Bitbucket."
+            },
+            {
+              "label": "B",
+              "description": "Python and Ruby.",
+              "points": 0,
+              "explanation": "Incorrect. Although Python is compatible, Ruby is not natively supported by Bitbucket."
+            },
+            {
+              "label": "C",
+              "description": "Java, Python, and JavaScript.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket is compatible with Java, Python, and JavaScript, among other languages."
+            }
+          ]
+        },
+        {
+          "id": "28b5a632-d09f-4e3a-bda7-18c8a6d8bf4d",
+          "question": "What is the purpose of a pull request in Bitbucket?",
+          "description": "Explain the primary function of a pull request in the context of Bitbucket.",
+          "hint": "Think about code collaboration and merging changes.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "To submit bug reports.",
+              "points": 0,
+              "explanation": "Incorrect. Pull requests are not used for submitting bug reports in Bitbucket."
+            },
+            {
+              "label": "B",
+              "description": "To request code reviews and merge changes.",
+              "points": 3,
+              "explanation": "Correct! Pull requests are used for code reviews and merging changes into a branch."
+            },
+            {
+              "label": "C",
+              "description": "To delete branches.",
+              "points": 0,
+              "explanation": "Incorrect. Pull requests are not used for deleting branches in Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "4cdff416-bd3f-4b3d-ae0a-7d9de75d9ba2",
+          "question": "Can Bitbucket be used for private repositories?",
+          "description": "Determine if Bitbucket supports the creation of private repositories.",
+          "hint": "Consider the privacy options offered by Bitbucket.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Yes, Bitbucket allows private repositories.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket provides the option to create private repositories for secure code storage."
+            },
+            {
+              "label": "B",
+              "description": "No, Bitbucket only supports public repositories.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket supports both public and private repositories."
+            }
+          ]
+        },
+        {
+          "id": "8bf3a0dd-df92-4bc8-92ae-90c9c9b1d4cb",
+          "question": "What is the purpose of branching in Bitbucket?",
+          "description": "Explain the primary use of branching in the context of Bitbucket.",
+          "hint": "Think about parallel development and code isolation.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "To complicate version control.",
+              "points": 0,
+              "explanation": "Incorrect. Branching is used to simplify version control by enabling parallel development."
+            },
+            {
+              "label": "B",
+              "description": "To isolate and work on new features or fixes.",
+              "points": 3,
+              "explanation": "Correct! Branching in Bitbucket allows developers to isolate and work on specific features or fixes without affecting the main codebase."
+            },
+            {
+              "label": "C",
+              "description": "To delete code.",
+              "points": 0,
+              "explanation": "Incorrect. Branching is not used to delete code in Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "e7508b19-d96a-47d5-b586-5903a74a2cb4",
+          "question": "What authentication methods does Bitbucket support?",
+          "description": "List the authentication methods available for Bitbucket.",
+          "hint": "Consider secure access to repositories.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Username and password.",
+              "points": 0,
+              "explanation": "Incorrect. While this is one method, Bitbucket supports more secure authentication methods."
+            },
+            {
+              "label": "B",
+              "description": "OAuth and SSH keys.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket supports OAuth and SSH keys for secure authentication."
+            },
+            {
+              "label": "C",
+              "description": "No authentication is required.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket requires authentication for secure access to repositories."
+            }
+          ]
+        },
+        {
+          "id": "6d1033b2-b3da-43ea-a1b0-ea0d5f90bb2a",
+          "question": "What is the purpose of the 'Issues' feature in Bitbucket?",
+          "description": "Explain the primary use of the 'Issues' feature in Bitbucket.",
+          "hint": "Consider tracking tasks, enhancements, and bugs.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "To store code snippets.",
+              "points": 0,
+              "explanation": "Incorrect. The 'Issues' feature is not used for storing code snippets."
+            },
+            {
+              "label": "B",
+              "description": "To manage and track tasks, enhancements, and bugs.",
+              "points": 3,
+              "explanation": "Correct! 'Issues' in Bitbucket are used to track tasks, enhancements, and bugs associated with a project."
+            },
+            {
+              "label": "C",
+              "description": "To create backups of repositories.",
+              "points": 0,
+              "explanation": "Incorrect. Backups are not the primary purpose of the 'Issues' feature."
+            }
+          ]
+        },
+        {
+          "id": "8f521c2b-bd4b-4ed1-8da0-9821f33f0cd7",
+          "question": "How can you contribute to someone else's repository on Bitbucket?",
+          "description": "Explain the process of contributing to a repository owned by another user in Bitbucket.",
+          "hint": "Think about forks and pull requests.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "You cannot contribute to someone else's repository.",
+              "points": 0,
+              "explanation": "Incorrect. Contributing to others' repositories is possible through forks and pull requests."
+            },
+            {
+              "label": "B",
+              "description": "By directly pushing changes to their repository.",
+              "points": 0,
+              "explanation": "Incorrect. Directly pushing changes to others' repositories is not a standard practice in collaborative development."
+            },
+            {
+              "label": "C",
+              "description": "By forking the repository and creating a pull request.",
+              "points": 3,
+              "explanation": "Correct! The common practice is to fork the repository and propose changes via a pull request."
+            }
+          ]
+        },
+        {
+          "id": "4ef4f505-8928-4ff3-83c7-2c40f222a095",
+          "question": "What is the purpose of the 'Wiki' feature in Bitbucket?",
+          "description": "Explain the primary use of the 'Wiki' feature in Bitbucket.",
+          "hint": "Consider documentation and collaboration.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "To create a personal blog.",
+              "points": 0,
+              "explanation": "Incorrect. The 'Wiki' feature is not designed for creating personal blogs."
+            },
+            {
+              "label": "B",
+              "description": "To host code repositories.",
+              "points": 0,
+              "explanation": "Incorrect. Code repositories are hosted separately from the 'Wiki' feature in Bitbucket."
+            },
+            {
+              "label": "C",
+              "description": "To collaboratively document projects.",
+              "points": 3,
+              "explanation": "Correct! The 'Wiki' feature is used for collaborative documentation of projects in Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "a08632a3-8c1b-4c6b-8460-3f20a5de83ce",
+          "question": "What is the purpose of a merge conflict in Bitbucket?",
+          "description": "Explain when a merge conflict may occur in Bitbucket.",
+          "hint": "Think about concurrent changes to the same file.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "To improve code performance.",
+              "points": 0,
+              "explanation": "Incorrect. Merge conflicts are not related to code performance improvement."
+            },
+            {
+              "label": "B",
+              "description": "To prevent collaboration.",
+              "points": 0,
+              "explanation": "Incorrect. Merge conflicts are not intended to prevent collaboration but to address concurrent changes."
+            },
+            {
+              "label": "C",
+              "description": "When changes from different branches cannot be automatically merged.",
+              "points": 3,
+              "explanation": "Correct! Merge conflicts occur when changes from different branches cannot be automatically merged by Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "65f76f78-22f5-4b8d-94f8-3837a40da383",
+          "question": "What is the purpose of the 'Pipelines' feature in Bitbucket?",
+          "description": "Explain the primary use of the 'Pipelines' feature in Bitbucket.",
+          "hint": "Consider continuous integration and delivery.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "To design graphics and logos.",
+              "points": 0,
+              "explanation": "Incorrect. 'Pipelines' is not used for designing graphics and logos."
+            },
+            {
+              "label": "B",
+              "description": "To manage project timelines.",
+              "points": 0,
+              "explanation": "Incorrect. 'Pipelines' is not primarily focused on project timelines but on continuous integration and delivery."
+            },
+            {
+              "label": "C",
+              "description": "To automate building, testing, and deployment processes.",
+              "points": 3,
+              "explanation": "Correct! 'Pipelines' automates building, testing, and deployment processes in Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "13f4c3b1-7d8a-4c9e-b9a3-3e1c0a2260ee",
+          "question": "What is the purpose of the 'Source' view in Bitbucket?",
+          "description": "Explain the primary use of the 'Source' view when exploring a repository in Bitbucket.",
+          "hint": "Consider browsing and navigating code files.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "To edit code directly.",
+              "points": 0,
+              "explanation": "Incorrect. Editing code is typically done in the 'Edit' view, not the 'Source' view."
+            },
+            {
+              "label": "B",
+              "description": "To manage user access permissions.",
+              "points": 0,
+              "explanation": "Incorrect. User access permissions are managed in a separate section, not in the 'Source' view."
+            },
+            {
+              "label": "C",
+              "description": "To browse and navigate code files within the repository.",
+              "points": 3,
+              "explanation": "Correct! The 'Source' view allows users to explore and navigate code files in a Bitbucket repository."
+            }
+          ]
+        },
+        {
+          "id": "b4c32e4a-86b8-4c2a-99bb-d20f3678d1fe",
+          "question": "What is a 'README' file, and why is it important in Bitbucket?",
+          "description": "Explain the significance of a 'README' file in the context of Bitbucket repositories.",
+          "hint": "Think about providing information and instructions.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "A file used for storing images.",
+              "points": 0,
+              "explanation": "Incorrect. 'README' files are primarily used for textual information, not images."
+            },
+            {
+              "label": "B",
+              "description": "A file containing important configuration settings.",
+              "points": 0,
+              "explanation": "Incorrect. Configuration settings are usually stored in dedicated files, not 'README' files."
+            },
+            {
+              "label": "C",
+              "description": "A file providing information, instructions, and context about the project.",
+              "points": 3,
+              "explanation": "Correct! 'README' files are essential for providing information and context about a project in Bitbucket repositories."
+            }
+          ]
+        },
+        {
+          "id": "1af8a76b-4a46-4a15-877d-53fb00481fe7",
+          "question": "How does Bitbucket handle conflicts during a pull request?",
+          "description": "Explain the conflict resolution process in Bitbucket pull requests.",
+          "hint": "Consider manual resolution and communication.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Bitbucket automatically resolves all conflicts.",
+              "points": 0,
+              "explanation": "Incorrect. Some conflicts may require manual resolution by the developers involved."
+            },
+            {
+              "label": "B",
+              "description": "Bitbucket does not support conflict resolution.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket provides tools for conflict resolution during pull requests."
+            },
+            {
+              "label": "C",
+              "description": "Developers manually resolve conflicts and communicate within the pull request.",
+              "points": 3,
+              "explanation": "Correct! Developers need to manually resolve conflicts and communicate within the pull request in Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "3546b4d1-3eae-47f3-8d1f-19e7cc4dddba",
+          "question": "What is the purpose of the 'Insights' tab in Bitbucket?",
+          "description": "Explain the primary use of the 'Insights' tab when exploring a repository in Bitbucket.",
+          "hint": "Consider analytics and project statistics.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "To edit code quality metrics.",
+              "points": 0,
+              "explanation": "Incorrect. Code quality metrics are not edited in the 'Insights' tab."
+            },
+            {
+              "label": "B",
+              "description": "To manage user access permissions.",
+              "points": 0,
+              "explanation": "Incorrect. User access permissions are managed in a separate section, not in the 'Insights' tab."
+            },
+            {
+              "label": "C",
+              "description": "To view analytics, project statistics, and repository activity.",
+              "points": 3,
+              "explanation": "Correct! The 'Insights' tab provides analytics, project statistics, and repository activity in Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "087f32cf-4f48-43a1-bf13-e4df0c0c19ad",
+          "question": "What is the purpose of the 'Forks' feature in Bitbucket?",
+          "description": "Explain the primary use of the 'Forks' feature in the context of Bitbucket repositories.",
+          "hint": "Think about collaborative development and independent work.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "To eat dinner.",
+              "points": 0,
+              "explanation": "Incorrect. The 'Forks' feature in Bitbucket is not related to dining."
+            },
+            {
+              "label": "B",
+              "description": "To create exact replicas of repositories.",
+              "points": 3,
+              "explanation": "Correct! 'Forks' allow developers to create independent copies of repositories for collaborative development or personal work."
+            },
+            {
+              "label": "C",
+              "description": "To delete repositories permanently.",
+              "points": 0,
+              "explanation": "Incorrect. Deleting repositories is not the primary purpose of the 'Forks' feature."
+            }
+          ]
+        },
+        {
+          "id": "2f3e9c88-53e7-4b7b-a3ef-8cc3b678c9a4",
+          "question": "Explain the concept of a 'Pull Request Review' in Bitbucket.",
+          "description": "Describe the purpose and process of a 'Pull Request Review' in Bitbucket.",
+          "hint": "Consider code inspection and collaboration.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "To request code snippets from other developers.",
+              "points": 0,
+              "explanation": "Incorrect. 'Pull Request Reviews' are not for requesting code snippets but for code inspection."
+            },
+            {
+              "label": "B",
+              "description": "To automatically merge changes in a pull request.",
+              "points": 0,
+              "explanation": "Incorrect. 'Pull Request Reviews' are about manual code inspection and collaboration, not automatic merging."
+            },
+            {
+              "label": "C",
+              "description": "To review, discuss, and provide feedback on proposed code changes.",
+              "points": 3,
+              "explanation": "Correct! 'Pull Request Reviews' involve reviewing, discussing, and providing feedback on code changes before merging."
+            }
+          ]
+        },
+        {
+          "id": "77e61e63-6b4d-4d5e-8c43-990ac6cc165c",
+          "question": "What is the purpose of the 'Settings' section in a Bitbucket repository?",
+          "description": "Explain the primary functions found in the 'Settings' section of a Bitbucket repository.",
+          "hint": "Consider repository configuration and management.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "To edit code directly.",
+              "points": 0,
+              "explanation": "Incorrect. Code editing is not done in the 'Settings' section."
+            },
+            {
+              "label": "B",
+              "description": "To manage user access permissions.",
+              "points": 3,
+              "explanation": "Correct! The 'Settings' section is used for configuring and managing various aspects of a Bitbucket repository, including user access permissions."
+            },
+            {
+              "label": "C",
+              "description": "To view project analytics.",
+              "points": 0,
+              "explanation": "Incorrect. Project analytics are typically found in the 'Insights' tab, not the 'Settings' section."
+            }
+          ]
+        },
+        {
+          "id": "7a1a836e-9c9d-44ed-8b1e-15cd4a356104",
+          "question": "What is the purpose of the 'Deployments' feature in Bitbucket?",
+          "description": "Explain the primary use of the 'Deployments' feature in Bitbucket.",
+          "hint": "Think about the deployment process in software development.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "To edit code directly.",
+              "points": 0,
+              "explanation": "Incorrect. Code editing is not the primary purpose of the 'Deployments' feature."
+            },
+            {
+              "label": "B",
+              "description": "To automate testing processes.",
+              "points": 0,
+              "explanation": "Incorrect. 'Deployments' is focused on the deployment phase, not testing processes."
+            },
+            {
+              "label": "C",
+              "description": "To manage and monitor the deployment of code changes.",
+              "points": 3,
+              "explanation": "Correct! 'Deployments' in Bitbucket is used to manage and monitor the deployment of code changes to different environments."
+            }
+          ]
+        },
+        {
+          "id": "cec2d6d4-8b13-48da-a3ab-66daa8d103a3",
+          "question": "What is the significance of branch permissions in Bitbucket?",
+          "description": "Explain the purpose of implementing branch permissions in a Bitbucket repository.",
+          "hint": "Think about access control and code quality.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "To merge any branch without restrictions.",
+              "points": 0,
+              "explanation": "Incorrect. Branch permissions are designed to impose restrictions to maintain code quality and access control."
+            },
+            {
+              "label": "B",
+              "description": "To control who can push or merge changes to specific branches.",
+              "points": 3,
+              "explanation": "Correct! Branch permissions control who can push or merge changes to specific branches, enhancing access control and code quality."
+            },
+            {
+              "label": "C",
+              "description": "To limit access to repository files.",
+              "points": 0,
+              "explanation": "Incorrect. Limiting access to repository files is not the primary purpose of branch permissions."
+            }
+          ]
+        },
+        {
+          "id": "31d1f01b-79c4-4807-aa06-12389c7dd08a",
+          "question": "Explain the role of webhooks in Bitbucket.",
+          "description": "Describe how webhooks are used to enhance automation in Bitbucket.",
+          "hint": "Consider event triggers and external integrations.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "To manually trigger code builds.",
+              "points": 0,
+              "explanation": "Incorrect. Webhooks are used for automated event triggering, not manual actions."
+            },
+            {
+              "label": "B",
+              "description": "To display code statistics.",
+              "points": 0,
+              "explanation": "Incorrect. Displaying code statistics is not the primary purpose of webhooks."
+            },
+            {
+              "label": "C",
+              "description": "To automate external integrations based on repository events.",
+              "points": 3,
+              "explanation": "Correct! Webhooks in Bitbucket automate external integrations by triggering events based on repository activities."
+            }
+          ]
+        },
+        {
+          "id": "29f2dcd4-e5c4-4ccf-a9fe-81059a9bf73d",
+          "question": "What is the purpose of 'Bitbucket Pipelines'?",
+          "description": "Explain how 'Bitbucket Pipelines' contributes to the software development process.",
+          "hint": "Think about continuous integration and delivery.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "To manage user access permissions.",
+              "points": 0,
+              "explanation": "Incorrect. Managing user access permissions is not the primary purpose of 'Bitbucket Pipelines.'"
+            },
+            {
+              "label": "B",
+              "description": "To create project timelines.",
+              "points": 0,
+              "explanation": "Incorrect. Project timelines are not the primary focus of 'Bitbucket Pipelines.'"
+            },
+            {
+              "label": "C",
+              "description": "To automate building, testing, and deployment processes.",
+              "points": 3,
+              "explanation": "Correct! 'Bitbucket Pipelines' automates building, testing, and deployment processes in Bitbucket."
+            }
+          ]
+        },
+        {
+          "id": "6e4dce98-aa12-4a8d-889f-cd842f1cdaa8",
+          "question": "What is a 'Bitbucket Workspace,' and how does it differ from a repository?",
+          "description": "Explain the concept of a 'Bitbucket Workspace' and highlight its differences from a repository.",
+          "hint": "Consider organizational structure and collaboration.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "A workspace is a collection of repositories, while a repository stores individual files.",
+              "points": 3,
+              "explanation": "Correct! A 'Bitbucket Workspace' is an organizational unit that contains multiple repositories, each storing individual files and code projects."
+            },
+            {
+              "label": "B",
+              "description": "A workspace and a repository are synonymous terms.",
+              "points": 0,
+              "explanation": "Incorrect. A 'Bitbucket Workspace' and a repository serve different organizational purposes."
+            },
+            {
+              "label": "C",
+              "description": "A workspace is a version of a repository.",
+              "points": 0,
+              "explanation": "Incorrect. Workspaces and repositories serve different purposes, and a workspace is not a version of a repository."
+            }
+          ]
+        },
+        {
+          "id": "7eeb57f0-27ac-4dd5-8e3e-74d5ec9ef7a7",
+          "question": "How does Bitbucket handle branching strategies, and why are they important?",
+          "description": "Explain how Bitbucket supports branching strategies and their significance in collaborative development.",
+          "hint": "Consider parallel development and code isolation.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "Bitbucket does not support branching.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket supports branching for parallel development and code isolation."
+            },
+            {
+              "label": "B",
+              "description": "Branching is supported, but it has no impact on collaborative development.",
+              "points": 0,
+              "explanation": "Incorrect. Branching strategies in Bitbucket play a crucial role in collaborative development."
+            },
+            {
+              "label": "C",
+              "description": "Bitbucket supports flexible branching strategies to accommodate different workflows and project needs.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket provides flexibility in branching strategies to accommodate various workflows and project requirements in collaborative development."
+            }
+          ]
+        },
+        {
+          "id": "2e04937e-b0b1-4b2d-ba79-50f348a92e91",
+          "question": "Explain the purpose of the 'Access Keys' feature in Bitbucket.",
+          "description": "Describe how 'Access Keys' enhance security in Bitbucket.",
+          "hint": "Consider secure access to repositories.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "To change user passwords.",
+              "points": 0,
+              "explanation": "Incorrect. Changing user passwords is not the primary purpose of 'Access Keys' in Bitbucket."
+            },
+            {
+              "label": "B",
+              "description": "To provide secure authentication through SSH keys.",
+              "points": 3,
+              "explanation": "Correct! 'Access Keys' in Bitbucket are used for secure authentication, particularly through SSH keys."
+            },
+            {
+              "label": "C",
+              "description": "To limit repository access to a specific user.",
+              "points": 0,
+              "explanation": "Incorrect. 'Access Keys' are not used for limiting access to a specific user but for secure access in general."
+            }
+          ]
+        },
+        {
+          "id": "9e0cd3db-9bd8-4c11-99cf-6538ce303f0d",
+          "question": "What role does the 'Diff' feature play in Bitbucket?",
+          "description": "Explain how the 'Diff' feature is used when reviewing code changes in Bitbucket.",
+          "hint": "Consider code comparison and changes.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "To delete code changes.",
+              "points": 0,
+              "explanation": "Incorrect. The 'Diff' feature is not used to delete code changes but to review and compare them."
+            },
+            {
+              "label": "B",
+              "description": "To automatically merge code changes.",
+              "points": 0,
+              "explanation": "Incorrect. Automatic merging is a separate process; the 'Diff' feature is used for manual code review."
+            },
+            {
+              "label": "C",
+              "description": "To visually compare code changes and understand the differences.",
+              "points": 3,
+              "explanation": "Correct! The 'Diff' feature visually compares code changes, helping reviewers understand the differences introduced by the changes."
+            }
+          ]
+        },
+        {
+          "id": "d1158e5d-2f52-4eab-8a36-b32845bbdb43",
+          "question": "What is the purpose of the 'Code Insights' feature in Bitbucket?",
+          "description": "Explain how 'Code Insights' enhances code quality in Bitbucket.",
+          "hint": "Consider automated code analysis and feedback.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To edit code directly.",
+              "points": 0,
+              "explanation": "Incorrect. Code editing is not the primary purpose of the 'Code Insights' feature."
+            },
+            {
+              "label": "B",
+              "description": "To automatically fix code issues.",
+              "points": 0,
+              "explanation": "Incorrect. 'Code Insights' provides insights and feedback but does not automatically fix code issues."
+            },
+            {
+              "label": "C",
+              "description": "To perform automated code analysis and provide feedback on code quality.",
+              "points": 3,
+              "explanation": "Correct! 'Code Insights' in Bitbucket performs automated code analysis and offers feedback to improve code quality."
+            }
+          ]
+        },
+        {
+          "id": "41c4e5a0-8c36-43b1-964e-18090b200932",
+          "question": "Explain the role of 'Bitbucket Snippets' in collaborative development.",
+          "description": "Describe how 'Bitbucket Snippets' contribute to sharing code snippets and collaborating in Bitbucket.",
+          "hint": "Think about sharing small pieces of code for collaboration.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To share and collaborate on small pieces of code independently of repositories.",
+              "points": 3,
+              "explanation": "Correct! 'Bitbucket Snippets' allow users to share and collaborate on small code snippets independently of repositories."
+            },
+            {
+              "label": "B",
+              "description": "To edit code snippets collaboratively.",
+              "points": 0,
+              "explanation": "Incorrect. 'Bitbucket Snippets' are not designed for collaborative code editing but for sharing code snippets."
+            },
+            {
+              "label": "C",
+              "description": "To automatically merge code snippets into repositories.",
+              "points": 0,
+              "explanation": "Incorrect. 'Bitbucket Snippets' are independent of repository code and do not merge automatically."
+            }
+          ]
+        },
+        {
+          "id": "7d1e2567-af16-4ce5-9b91-b7a28a9c8c20",
+          "question": "What is the purpose of 'Repository Forking' in Bitbucket?",
+          "description": "Explain how 'Repository Forking' facilitates collaborative development in Bitbucket.",
+          "hint": "Consider creating independent copies for contributions.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To delete repositories permanently.",
+              "points": 0,
+              "explanation": "Incorrect. Forking is not about deleting repositories but creating independent copies for contributions."
+            },
+            {
+              "label": "B",
+              "description": "To merge changes directly into the original repository.",
+              "points": 0,
+              "explanation": "Incorrect. Forked repositories are typically used to propose changes via pull requests, not to merge changes directly."
+            },
+            {
+              "label": "C",
+              "description": "To create independent copies of repositories for collaborative development.",
+              "points": 3,
+              "explanation": "Correct! 'Repository Forking' allows developers to create independent copies of repositories to contribute changes without affecting the original."
+            }
+          ]
+        },
+        {
+          "id": "b8b06562-b4b2-48fc-bfa7-6e5407e7d059",
+          "question": "How does Bitbucket support continuous integration?",
+          "description": "Explain the features and tools in Bitbucket that contribute to continuous integration.",
+          "hint": "Consider automated testing and code deployment.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "Bitbucket does not support continuous integration.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket provides features like 'Pipelines' to support continuous integration."
+            },
+            {
+              "label": "B",
+              "description": "Through 'Bitbucket Pipelines' for automated building, testing, and deployment processes.",
+              "points": 3,
+              "explanation": "Correct! 'Bitbucket Pipelines' automates continuous integration by facilitating automated building, testing, and deployment processes."
+            },
+            {
+              "label": "C",
+              "description": "By manually triggering code builds.",
+              "points": 0,
+              "explanation": "Incorrect. Continuous integration involves automated code builds triggered by events, not manual actions."
+            }
+          ]
+        },
+        {
+          "id": "7e9a7df1-e0fe-4f42-881c-2074959a86ec",
+          "question": "Explain the significance of 'Smart Mirroring' in Bitbucket.",
+          "description": "Describe how 'Smart Mirroring' contributes to repository performance in Bitbucket.",
+          "hint": "Think about distributed teams and faster repository access.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To automatically mirror code changes in real-time.",
+              "points": 0,
+              "explanation": "Incorrect. 'Smart Mirroring' is about improving repository access performance, not mirroring code changes in real-time."
+            },
+            {
+              "label": "B",
+              "description": "To limit access to repositories.",
+              "points": 0,
+              "explanation": "Incorrect. 'Smart Mirroring' is designed to enhance, not limit, repository access."
+            },
+            {
+              "label": "C",
+              "description": "To provide faster repository access for distributed teams by using local mirrors.",
+              "points": 3,
+              "explanation": "Correct! 'Smart Mirroring' in Bitbucket enhances repository access performance for distributed teams by using local mirrors of repositories."
+            }
+          ]
+        },
+        {
+          "id": "d1a08d35-7595-4392-8f09-ea6b7676ee7a",
+          "question": "What is the purpose of the 'Projects' feature in Bitbucket?",
+          "description": "Explain how 'Projects' contribute to organizing and managing repositories in Bitbucket.",
+          "hint": "Consider grouping repositories for better organization.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To group and organize repositories for better management.",
+              "points": 3,
+              "explanation": "Correct! 'Projects' in Bitbucket allow users to group and organize repositories for improved management and navigation."
+            },
+            {
+              "label": "B",
+              "description": "To edit code directly.",
+              "points": 0,
+              "explanation": "Incorrect. Code editing is not the primary purpose of the 'Projects' feature."
+            },
+            {
+              "label": "C",
+              "description": "To automatically categorize repositories.",
+              "points": 0,
+              "explanation": "Incorrect. 'Projects' involve manual organization and categorization of repositories."
+            }
+          ]
+        },
+        {
+          "id": "c3ffedeb-3f8d-4cb7-818d-96ff3a0ff0da",
+          "question": "What is the purpose of 'Repository Permissions' in Bitbucket?",
+          "description": "Explain how 'Repository Permissions' enhance access control and security in Bitbucket.",
+          "hint": "Think about controlling user access to repositories.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To delete repositories permanently.",
+              "points": 0,
+              "explanation": "Incorrect. 'Repository Permissions' are not for deleting repositories but for controlling access."
+            },
+            {
+              "label": "B",
+              "description": "To automatically grant access to all users.",
+              "points": 0,
+              "explanation": "Incorrect. Access control involves specifying permissions, not automatically granting access to all users."
+            },
+            {
+              "label": "C",
+              "description": "To control and specify user access to repositories.",
+              "points": 3,
+              "explanation": "Correct! 'Repository Permissions' in Bitbucket are used to control and specify user access to repositories for better security."
+            }
+          ]
+        },
+        {
+          "id": "87cd6e7a-b53a-4b76-85f8-28e3ba2e7f0c",
+          "question": "Explain the role of 'Bitbucket Insights' in monitoring repository activity.",
+          "description": "Describe how 'Bitbucket Insights' provides analytics and insights into repository usage.",
+          "hint": "Consider project statistics and analytics.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To edit code quality metrics.",
+              "points": 0,
+              "explanation": "Incorrect. Code quality metrics are not edited in 'Bitbucket Insights.'"
+            },
+            {
+              "label": "B",
+              "description": "To provide analytics and insights into repository activity.",
+              "points": 3,
+              "explanation": "Correct! 'Bitbucket Insights' offers analytics and insights into repository activity, helping teams understand usage patterns and trends."
+            },
+            {
+              "label": "C",
+              "description": "To manage user access permissions.",
+              "points": 0,
+              "explanation": "Incorrect. User access permissions are managed in a separate section, not 'Bitbucket Insights.'"
+            }
+          ]
+        },
+        {
+          "id": "4fd70b63-891a-47d9-af13-764e369e135a",
+          "question": "What is the purpose of 'Repository Hooks' in Bitbucket?",
+          "description": "Explain how 'Repository Hooks' enhance functionality and automation in Bitbucket.",
+          "hint": "Think about customizing repository behavior based on events.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To manually trigger code builds.",
+              "points": 0,
+              "explanation": "Incorrect. 'Repository Hooks' are not for manual code builds but for customizing behavior based on events."
+            },
+            {
+              "label": "B",
+              "description": "To limit access to repository files.",
+              "points": 0,
+              "explanation": "Incorrect. 'Repository Hooks' are not primarily for limiting access to files but for customizing behavior."
+            },
+            {
+              "label": "C",
+              "description": "To customize and automate repository behavior based on events.",
+              "points": 3,
+              "explanation": "Correct! 'Repository Hooks' in Bitbucket allow users to customize and automate repository behavior based on specific events."
+            }
+          ]
+        },
+        {
+          "id": "3e7bf6d3-9e2e-4a14-9d24-42265d2e6c57",
+          "question": "Explain the purpose of 'Repository Comparisons' in Bitbucket.",
+          "description": "Describe how 'Repository Comparisons' help developers analyze code changes across different branches or commits.",
+          "hint": "Consider visualizing and understanding code differences.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "To visually compare code changes across different branches or commits.",
+              "points": 3,
+              "explanation": "Correct! 'Repository Comparisons' in Bitbucket allow developers to visually compare code changes across different branches or commits, aiding in code analysis."
+            },
+            {
+              "label": "B",
+              "description": "To delete branches permanently.",
+              "points": 0,
+              "explanation": "Incorrect. 'Repository Comparisons' are not for deleting branches but for analyzing code differences."
+            },
+            {
+              "label": "C",
+              "description": "To automatically merge code changes.",
+              "points": 0,
+              "explanation": "Incorrect. Automatic merging is a separate process; 'Repository Comparisons' are for visualizing code differences."
+            }
+          ]
+        },
+        {
+          "id": "2d5cc593-08d1-4f3e-b890-14c6e5f8ee42",
+          "question": "Explain the role of 'Branching Policies' in Bitbucket and their impact on code quality.",
+          "description": "Describe how 'Branching Policies' contribute to maintaining code quality in collaborative development.",
+          "hint": "Consider enforcing rules for code changes.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "To automatically merge any code changes.",
+              "points": 0,
+              "explanation": "Incorrect. 'Branching Policies' are designed to enforce rules, not automatically merge any code changes."
+            },
+            {
+              "label": "B",
+              "description": "To enforce rules for code changes, such as requiring code reviews and passing automated tests.",
+              "points": 3,
+              "explanation": "Correct! 'Branching Policies' in Bitbucket enforce specific rules for code changes, ensuring code quality by requiring code reviews and passing automated tests."
+            },
+            {
+              "label": "C",
+              "description": "To randomly approve code changes.",
+              "points": 0,
+              "explanation": "Incorrect. 'Branching Policies' are about enforcing specific rules for code changes, not random approvals."
+            }
+          ]
+        },
+        {
+          "id": "f473a328-b66f-42ef-a046-6534d60734b6",
+          "question": "How does 'Git LFS' (Large File Storage) contribute to Bitbucket repositories?",
+          "description": "Explain the purpose of 'Git LFS' and its impact on handling large files in Bitbucket.",
+          "hint": "Consider versioning large binary files.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "To compress repository files.",
+              "points": 0,
+              "explanation": "Incorrect. 'Git LFS' is not for compressing repository files but for handling large binary files efficiently."
+            },
+            {
+              "label": "B",
+              "description": "To limit the number of files in a repository.",
+              "points": 0,
+              "explanation": "Incorrect. 'Git LFS' is not about limiting the number of files but handling large files effectively."
+            },
+            {
+              "label": "C",
+              "description": "To version large binary files separately, reducing the size of the repository.",
+              "points": 3,
+              "explanation": "Correct! 'Git LFS' in Bitbucket allows versioning large binary files separately, preventing repository bloat and improving performance."
+            }
+          ]
+        },
+        {
+          "id": "7cfa1d8d-105e-477f-9d68-1a09a2e13f8b",
+          "question": "Explain the concept of 'Advanced Pull Request Merging' in Bitbucket.",
+          "description": "Describe how 'Advanced Pull Request Merging' offers flexibility in merging code changes.",
+          "hint": "Consider scenarios where standard merging is not suitable.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "To merge code changes automatically without review.",
+              "points": 0,
+              "explanation": "Incorrect. 'Advanced Pull Request Merging' is not about automatic merging without review."
+            },
+            {
+              "label": "B",
+              "description": "To restrict merging to specific users only.",
+              "points": 0,
+              "explanation": "Incorrect. Restricting merging to specific users is not the primary purpose of 'Advanced Pull Request Merging.'"
+            },
+            {
+              "label": "C",
+              "description": "To provide flexibility in merging code changes, especially in complex scenarios.",
+              "points": 3,
+              "explanation": "Correct! 'Advanced Pull Request Merging' in Bitbucket offers flexibility in merging code changes, especially in complex scenarios where standard merging may not be suitable."
+            }
+          ]
+        },
+        {
+          "id": "43a97bcf-8de4-41e7-87a1-2a4efb2c1d78",
+          "question": "What role does 'Smart Commits' play in Bitbucket and how do they enhance collaboration?",
+          "description": "Explain how 'Smart Commits' contribute to integrating development activities with Bitbucket issues.",
+          "hint": "Consider automating issue transitions through commit messages.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "To manually update issue statuses.",
+              "points": 0,
+              "explanation": "Incorrect. 'Smart Commits' are about automating issue transitions through commit messages, not manual updates."
+            },
+            {
+              "label": "B",
+              "description": "To delete issues permanently.",
+              "points": 0,
+              "explanation": "Incorrect. 'Smart Commits' are not for deleting issues but for integrating development activities with issues."
+            },
+            {
+              "label": "C",
+              "description": "To automate issue transitions and integrate development activities with Bitbucket issues.",
+              "points": 3,
+              "explanation": "Correct! 'Smart Commits' automate issue transitions and integrate development activities with Bitbucket issues through commit messages."
+            }
+          ]
+        },
+        {
+          "id": "609c17db-4990-4845-8ce5-d32df784f2a8",
+          "question": "Explain the purpose of 'Jira Integration' in Bitbucket and how it improves project management.",
+          "description": "Describe how integrating Bitbucket with Jira enhances collaboration between development and project management.",
+          "hint": "Consider seamless tracking of development progress.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "To edit code quality metrics.",
+              "points": 0,
+              "explanation": "Incorrect. Editing code quality metrics is not the primary purpose of 'Jira Integration' in Bitbucket."
+            },
+            {
+              "label": "B",
+              "description": "To automatically merge code changes with Jira issues.",
+              "points": 0,
+              "explanation": "Incorrect. 'Jira Integration' is not about automatic merging but about seamless tracking of development progress in Jira."
+            },
+            {
+              "label": "C",
+              "description": "To integrate Bitbucket with Jira, improving collaboration and tracking development progress seamlessly.",
+              "points": 3,
+              "explanation": "Correct! 'Jira Integration' in Bitbucket enhances collaboration by seamlessly tracking development progress in Jira, integrating the two platforms."
+            }
+          ]
+        },
+        {
+          "id": "c4f0668f-28c0-4d2b-b8aa-c3db2122f93f",
+          "question": "What is the purpose of 'Repository Templates' in Bitbucket?",
+          "description": "Explain how 'Repository Templates' streamline the creation of new repositories in Bitbucket.",
+          "hint": "Consider standardizing repository structures and settings.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "To randomly create new repositories.",
+              "points": 0,
+              "explanation": "Incorrect. 'Repository Templates' are not for random repository creation but for standardizing structures and settings."
+            },
+            {
+              "label": "B",
+              "description": "To automatically delete existing repositories.",
+              "points": 0,
+              "explanation": "Incorrect. 'Repository Templates' are not for deleting repositories but for creating new ones based on standardized structures and settings."
+            },
+            {
+              "label": "C",
+              "description": "To create new repositories based on standardized structures and settings, streamlining the process of repository creation.",
+              "points": 3,
+              "explanation": "Correct! 'Repository Templates' in Bitbucket streamline the process of creating new repositories by providing standardized structures and settings for projects."
+            }
+          ]
+        },
+        {
+          "id": "0841b5fb-522a-4f2a-8922-d77c44b73ed5",
+          "question": "How does 'Bitbucket Data Center' differ from the standard Bitbucket Server version?",
+          "description": "Explain the differences between 'Bitbucket Data Center' and the standard 'Bitbucket Server' version, focusing on scalability.",
+          "hint": "Consider handling large-scale instances and high availability.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "Bitbucket Data Center and Bitbucket Server are synonymous.",
+              "points": 0,
+              "explanation": "Incorrect. Bitbucket Data Center and Bitbucket Server have distinct characteristics, especially in terms of scalability."
+            },
+            {
+              "label": "B",
+              "description": "Bitbucket Data Center is for small-scale instances, while Bitbucket Server is for large-scale instances.",
+              "points": 0,
+              "explanation": "Incorrect. The roles are reversed; Bitbucket Data Center is designed for large-scale instances."
+            },
+            {
+              "label": "C",
+              "description": "Bitbucket Data Center is designed for large-scale instances, providing high availability and scalability.",
+              "points": 3,
+              "explanation": "Correct! Bitbucket Data Center is tailored for large-scale instances, offering features like high availability and scalability that are crucial for enterprise-level use."
+            }
+          ]
+        },
+        {
+          "id": "842f7a1a-89d4-4780-9eae-d65a711e5a39",
+          "question": "Explain the significance of 'Merge Strategies' in Bitbucket and how they impact code integration.",
+          "description": "Describe how 'Merge Strategies' influence the process of integrating code changes in Bitbucket.",
+          "hint": "Consider different approaches to combining code changes.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "Merge Strategies have no impact on code integration.",
+              "points": 0,
+              "explanation": "Incorrect. Merge Strategies play a crucial role in determining how code changes are combined during integration."
+            },
+            {
+              "label": "B",
+              "description": "Merge Strategies automatically approve all code changes.",
+              "points": 0,
+              "explanation": "Incorrect. Merge Strategies are not about automatic approval but about defining rules for combining code changes."
+            },
+            {
+              "label": "C",
+              "description": "Merge Strategies define rules for combining code changes, influencing the integration process.",
+              "points": 3,
+              "explanation": "Correct! 'Merge Strategies' in Bitbucket define rules for combining code changes, influencing the integration process during pull requests."
+            }
+          ]
+        },
+        {
+          "id": "4d77632e-b0b8-450f-b634-96e5c35b90e8",
+          "question": "What is the purpose of 'Bitbucket Insights for Bamboo' integration?",
+          "description": "Explain how integrating 'Bitbucket Insights' with 'Bamboo' enhances the overall development and CI/CD process.",
+          "hint": "Consider analytics and reporting for continuous improvement.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "To edit Bamboo configuration settings.",
+              "points": 0,
+              "explanation": "Incorrect. 'Bitbucket Insights for Bamboo' integration is not about editing Bamboo configuration settings."
+            },
+            {
+              "label": "B",
+              "description": "To provide analytics and reporting, enhancing continuous improvement in the development and CI/CD process.",
+              "points": 3,
+              "explanation": "Correct! 'Bitbucket Insights for Bamboo' integration provides analytics and reporting capabilities, contributing to continuous improvement in the development and CI/CD process."
+            },
+            {
+              "label": "C",
+              "description": "To automatically trigger Bamboo builds.",
+              "points": 0,
+              "explanation": "Incorrect. 'Bitbucket Insights for Bamboo' is not about automatic triggering but about analytics and reporting."
+            }
+          ]
+        },
+        {
+          "id": "a255a4b8-c091-4cbb-9400-6cf34982a635",
+          "question": "Explain the purpose of 'Bitbucket Mirror Repositories' and how they support distributed development teams.",
+          "description": "Describe how 'Bitbucket Mirror Repositories' contribute to supporting distributed development teams in Bitbucket.",
+          "hint": "Consider repository access for teams in different locations.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "To duplicate repositories within the same location.",
+              "points": 0,
+              "explanation": "Incorrect. 'Bitbucket Mirror Repositories' are designed for supporting distributed development teams, not for duplicating repositories within the same location."
+            },
+            {
+              "label": "B",
+              "description": "To restrict access to repositories.",
+              "points": 0,
+              "explanation": "Incorrect. 'Bitbucket Mirror Repositories' are about enhancing, not restricting, repository access for distributed teams."
+            },
+            {
+              "label": "C",
+              "description": "To provide efficient repository access for distributed development teams by using mirrored repositories.",
+              "points": 3,
+              "explanation": "Correct! 'Bitbucket Mirror Repositories' provide efficient repository access for distributed development teams by using mirrored repositories located closer to team members."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

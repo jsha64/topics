@@ -1,0 +1,1378 @@
+{
+  "skill": {
+    "Css": {
+      "id": "css",
+      "description": "CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.Visit the following resources to learn more:",
+      "resources": [
+        {
+          "name": "The Odin Project",
+          "link": "https://www.theodinproject.com//"
+        },
+        {
+          "name": "What The Flexbox!",
+          "link": "https://flexbox.io/"
+        },
+        {
+          "name": "Learn CSS | Codecademy",
+          "link": "https://www.codecademy.com/learn/learn-css"
+        },
+        {
+          "name": "Learn Intermediate CSS | Codecademy",
+          "link": "https://www.codecademy.com/learn/learn-intermediate-css"
+        },
+        {
+          "name": "CSS Complete Course",
+          "link": "https://youtu.be/n4R2E7O-Ngo"
+        },
+        {
+          "name": "CSS Crash Course For Absolute Beginners",
+          "link": "https://www.youtube.com/watch?v=yfoY53QXEnI"
+        },
+        {
+          "name": "HTML and CSS Tutorial",
+          "link": "https://www.youtube.com/watch?v=D-h8L5hgW-w"
+        },
+        {
+          "name": "CSS Masterclass - Tutorial & Course for Beginners",
+          "link": "https://www.youtube.com/watch?v=FqmB-Zj2-PA"
+        },
+        {
+          "name": "W3Schools — Learn CSS",
+          "link": "https://www.w3schools.com/css/"
+        },
+        {
+          "name": "cssreference.io: All CSS properties at a glance",
+          "link": "https://cssreference.io/"
+        },
+        {
+          "name": "Web.dev by Google — Learn CSS",
+          "link": "https://web.dev/learn/css/"
+        },
+        {
+          "name": "freeCodeCamp — Responsive Web Design",
+          "link": "https://www.freecodecamp.org/learn/responsive-web-design/"
+        },
+        {
+          "name": "Learn to Code HTML & CSS",
+          "link": "https://learn.shayhowe.com/html-css/building-your-first-web-page/"
+        },
+        {
+          "name": "Joshw Comeaus CSS Hack Blog Posts",
+          "link": "https://www.joshwcomeau.com/"
+        },
+        {
+          "name": "100 Days CSS Challenge",
+          "link": "https://100dayscss.com/"
+        },
+        {
+          "name": "CSS Tutorial | Scaler",
+          "link": "https://www.scaler.com/topics/css"
+        }
+      ],
+      "parents": ["frontend"],
+      "children": ["learn-the-basics", "making-layouts", "responsive-design"],
+      "questions": [
+        {
+          "id": "d142eb02-3f90-4ccf-82e3-940d7b10a5a5",
+          "question": "What does CSS stand for?",
+          "description": "Choose the correct expansion for the acronym CSS.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Counter Style Sheet",
+              "points": 0,
+              "explanation": "Incorrect. This is not the correct expansion for CSS."
+            },
+            {
+              "label": "B",
+              "description": "Cascading Style Sheet",
+              "points": 3,
+              "explanation": "Correct! CSS stands for Cascading Style Sheet."
+            },
+            {
+              "label": "C",
+              "description": "Computer Style Sheet",
+              "points": 0,
+              "explanation": "Incorrect. This is not the correct expansion for CSS."
+            }
+          ]
+        },
+        {
+          "id": "6e98e3f9-3af6-4703-b1bf-89f7b2cf3c23",
+          "question": "What is the primary purpose of CSS?",
+          "description": "Select the option that best describes the main role of CSS in web development.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Handling server-side logic",
+              "points": 0,
+              "explanation": "Incorrect. CSS is primarily used for styling and presentation, not server-side logic."
+            },
+            {
+              "label": "B",
+              "description": "Managing databases",
+              "points": 0,
+              "explanation": "Incorrect. CSS is not involved in managing databases."
+            },
+            {
+              "label": "C",
+              "description": "Styling and formatting web pages",
+              "points": 3,
+              "explanation": "Correct! CSS is used to style and format the visual presentation of web pages."
+            }
+          ]
+        },
+        {
+          "id": "8dbdb3e3-8e35-4f5d-8897-2b8dd38a18f8",
+          "question": "Which HTML tag is used to link an external CSS file?",
+          "description": "Select the HTML tag commonly used to link an external CSS file to an HTML document.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "<style>",
+              "points": 0,
+              "explanation": "Incorrect. The <style> tag is used for internal CSS, not for linking external CSS files."
+            },
+            {
+              "label": "B",
+              "description": "<link>",
+              "points": 3,
+              "explanation": "Correct! The <link> tag is used to link an external CSS file to an HTML document."
+            },
+            {
+              "label": "C",
+              "description": "<script>",
+              "points": 0,
+              "explanation": "Incorrect. The <script> tag is used for JavaScript, not for linking CSS files."
+            }
+          ]
+        },
+        {
+          "id": "aef8bce9-d1a9-4ed9-8241-d51b2d6b1e2d",
+          "question": "What is the purpose of the CSS property 'color'?",
+          "description": "Choose the correct description of the 'color' property in CSS.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Setting the background color of an element",
+              "points": 0,
+              "explanation": "Incorrect. The 'color' property is used to set the text color, not the background color."
+            },
+            {
+              "label": "B",
+              "description": "Defining the font style",
+              "points": 0,
+              "explanation": "Incorrect. The 'color' property is specifically for text color, not font style."
+            },
+            {
+              "label": "C",
+              "description": "Setting the text color of an element",
+              "points": 3,
+              "explanation": "Correct! The 'color' property is used to set the text color of an HTML element."
+            }
+          ]
+        },
+        {
+          "id": "165504a8-1394-4b82-952b-18ecb6ac8368",
+          "question": "What does the term 'CSS Selector' refer to?",
+          "description": "Choose the correct definition for the term 'CSS Selector'.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "A programming language in CSS",
+              "points": 0,
+              "explanation": "Incorrect. CSS Selector is not a programming language."
+            },
+            {
+              "label": "B",
+              "description": "A pattern used to select and style HTML elements",
+              "points": 3,
+              "explanation": "Correct! A CSS Selector is a pattern used to select and style HTML elements."
+            },
+            {
+              "label": "C",
+              "description": "A file format for storing CSS styles",
+              "points": 0,
+              "explanation": "Incorrect. CSS Selector is not a file format."
+            }
+          ]
+        },
+        {
+          "id": "3d506a90-0cc7-4781-b3c5-20713b1d5a3b",
+          "question": "Which CSS property is used to add space outside an element's border?",
+          "description": "Select the CSS property that is used to add space outside the border of an element.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "padding",
+              "points": 0,
+              "explanation": "Incorrect. 'padding' adds space inside the element's border."
+            },
+            {
+              "label": "B",
+              "description": "margin",
+              "points": 3,
+              "explanation": "Correct! 'margin' adds space outside the element's border."
+            },
+            {
+              "label": "C",
+              "description": "border",
+              "points": 0,
+              "explanation": "Incorrect. 'border' is used to define the element's border."
+            }
+          ]
+        },
+        {
+          "id": "7e22a3e5-9c3a-4a3f-9f97-2bcf24377d43",
+          "question": "What is the default value of the 'position' property in CSS?",
+          "description": "Choose the default value for the 'position' property if not specified.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "static",
+              "points": 3,
+              "explanation": "Correct! 'static' is the default value for the 'position' property in CSS."
+            },
+            {
+              "label": "B",
+              "description": "relative",
+              "points": 0,
+              "explanation": "Incorrect. 'relative' is not the default value for the 'position' property."
+            },
+            {
+              "label": "C",
+              "description": "absolute",
+              "points": 0,
+              "explanation": "Incorrect. 'absolute' is not the default value for the 'position' property."
+            }
+          ]
+        },
+        {
+          "id": "9c9d352c-dc34-4df1-b8f9-8236511440f5",
+          "question": "What does the 'CSS Box Model' describe?",
+          "description": "Select the correct description for the 'CSS Box Model'.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "A model for organizing CSS files",
+              "points": 0,
+              "explanation": "Incorrect. The 'CSS Box Model' is not related to organizing CSS files."
+            },
+            {
+              "label": "B",
+              "description": "A model for defining the layout of HTML elements",
+              "points": 3,
+              "explanation": "Correct! The 'CSS Box Model' describes how HTML elements are rendered as boxes with content, padding, border, and margin."
+            },
+            {
+              "label": "C",
+              "description": "A model for handling CSS animations",
+              "points": 0,
+              "explanation": "Incorrect. The 'CSS Box Model' is not specifically related to CSS animations."
+            }
+          ]
+        },
+        {
+          "id": "f2cf6c7a-0bf2-40b3-8c72-548558688b7e",
+          "question": "Which CSS property is used to control the transparency of an element?",
+          "description": "Select the CSS property that is used to control how transparent an element is.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "opacity",
+              "points": 3,
+              "explanation": "Correct! The 'opacity' property is used to control the transparency of an element."
+            },
+            {
+              "label": "B",
+              "description": "visibility",
+              "points": 0,
+              "explanation": "Incorrect. The 'visibility' property controls whether an element is visible or hidden but not its transparency."
+            },
+            {
+              "label": "C",
+              "description": "background-color",
+              "points": 0,
+              "explanation": "Incorrect. 'background-color' sets the background color but does not control transparency."
+            }
+          ]
+        },
+        {
+          "id": "e2c4f8e2-9569-4f97-990c-34f40c5f07f5",
+          "question": "What does the 'CSS Flexbox' layout model aim to solve?",
+          "description": "Choose the problem that the 'CSS Flexbox' layout model aims to address.",
+          "difficulty": 0,
+          "options": [
+            {
+              "label": "A",
+              "description": "Responsive design for various screen sizes",
+              "points": 0,
+              "explanation": "Incorrect. Responsive design is addressed by media queries, not specifically by the 'CSS Flexbox' layout model."
+            },
+            {
+              "label": "B",
+              "description": "Vertical centering of elements",
+              "points": 3,
+              "explanation": "Correct! 'CSS Flexbox' is designed to simplify the vertical and horizontal alignment of elements."
+            },
+            {
+              "label": "C",
+              "description": "Managing CSS animations and transitions",
+              "points": 0,
+              "explanation": "Incorrect. CSS animations and transitions are separate concepts from the 'CSS Flexbox' layout model."
+            }
+          ]
+        },
+        {
+          "id": "18989995-0c12-47de-8e13-4e4f9c25e0dd",
+          "question": "What does the 'CSS Box Model' consist of?",
+          "description": "Choose the components that make up the 'CSS Box Model'.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Content, padding, border, margin",
+              "points": 3,
+              "explanation": "Correct! The 'CSS Box Model' consists of content, padding, border, and margin."
+            },
+            {
+              "label": "B",
+              "description": "Header, footer, sidebar",
+              "points": 0,
+              "explanation": "Incorrect. The 'CSS Box Model' components are related to the layout and spacing of elements, not specific regions like header or footer."
+            },
+            {
+              "label": "C",
+              "description": "Variables, mixins, extends",
+              "points": 0,
+              "explanation": "Incorrect. These terms are more associated with preprocessor languages like Sass, not the 'CSS Box Model'."
+            }
+          ]
+        },
+        {
+          "id": "4ea22dd4-d641-4c95-b3d7-0cc2e31a8b29",
+          "question": "What does the 'float' property in CSS do?",
+          "description": "Select the effect of the 'float' property in CSS.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Changes the text color",
+              "points": 0,
+              "explanation": "Incorrect. The 'float' property is not related to text color changes."
+            },
+            {
+              "label": "B",
+              "description": "Specifies the positioning of an element",
+              "points": 0,
+              "explanation": "Incorrect. Although 'float' affects positioning, it's not the primary purpose of this property."
+            },
+            {
+              "label": "C",
+              "description": "Allows an element to be pushed to one side and float around its container",
+              "points": 3,
+              "explanation": "Correct! The 'float' property allows an element to be pushed to one side and float around its container."
+            }
+          ]
+        },
+        {
+          "id": "67e2c43e-2d4e-4f32-9e7d-d4a4c9974e2c",
+          "question": "Which CSS property is used to set the font size of text?",
+          "description": "Select the CSS property commonly used to control the size of text.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "font-weight",
+              "points": 0,
+              "explanation": "Incorrect. 'font-weight' is used to set the thickness of characters, not the size."
+            },
+            {
+              "label": "B",
+              "description": "font-style",
+              "points": 0,
+              "explanation": "Incorrect. 'font-style' is used to set the style (italic, oblique) of the font, not the size."
+            },
+            {
+              "label": "C",
+              "description": "font-size",
+              "points": 3,
+              "explanation": "Correct! 'font-size' is used to set the size of the font in CSS."
+            }
+          ]
+        },
+        {
+          "id": "f2a3a384-4853-4642-881d-5f7be6059d3d",
+          "question": "What is the purpose of the 'display' property in CSS?",
+          "description": "Choose the role of the 'display' property in CSS.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Changing the background color of an element",
+              "points": 0,
+              "explanation": "Incorrect. 'display' is not used for changing the background color."
+            },
+            {
+              "label": "B",
+              "description": "Controlling how elements are rendered in the layout",
+              "points": 3,
+              "explanation": "Correct! 'display' is used to control how elements are rendered in the layout."
+            },
+            {
+              "label": "C",
+              "description": "Setting the width of an element",
+              "points": 0,
+              "explanation": "Incorrect. Width is controlled by the 'width' property, not 'display'."
+            }
+          ]
+        },
+        {
+          "id": "9ee9fbcd-07c2-4e2f-95d2-3b545ad13435",
+          "question": "What does the 'z-index' property in CSS control?",
+          "description": "Choose the aspect of the layout that the 'z-index' property influences.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Text alignment",
+              "points": 0,
+              "explanation": "Incorrect. 'z-index' is not related to text alignment."
+            },
+            {
+              "label": "B",
+              "description": "Positioning in the z-axis (stacking order)",
+              "points": 3,
+              "explanation": "Correct! 'z-index' controls the stacking order of positioned elements along the z-axis."
+            },
+            {
+              "label": "C",
+              "description": "Border thickness",
+              "points": 0,
+              "explanation": "Incorrect. 'border' properties control the thickness of an element's border, not 'z-index'."
+            }
+          ]
+        },
+        {
+          "id": "3ffde5f2-846f-40c7-befa-3c1549fb161c",
+          "question": "What is the purpose of the 'media query' in CSS?",
+          "description": "Select the role of a 'media query' in CSS.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Controlling animation speed",
+              "points": 0,
+              "explanation": "Incorrect. Animation speed is not controlled by media queries."
+            },
+            {
+              "label": "B",
+              "description": "Applying styles based on the characteristics of the device or screen",
+              "points": 3,
+              "explanation": "Correct! Media queries are used to apply styles based on device or screen characteristics."
+            },
+            {
+              "label": "C",
+              "description": "Adjusting font size",
+              "points": 0,
+              "explanation": "Font size adjustments are typically done using other CSS properties, not media queries."
+            }
+          ]
+        },
+        {
+          "id": "7dfdbf0d-01f4-41a1-8db2-b6d15bb2ff8d",
+          "question": "Which CSS property is used for creating rounded corners?",
+          "description": "Choose the CSS property that is commonly used to create rounded corners.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "border-style",
+              "points": 0,
+              "explanation": "Incorrect. 'border-style' defines the style of the border, not the corner shape."
+            },
+            {
+              "label": "B",
+              "description": "border-radius",
+              "points": 3,
+              "explanation": "Correct! 'border-radius' is used to create rounded corners."
+            },
+            {
+              "label": "C",
+              "description": "border-width",
+              "points": 0,
+              "explanation": "Incorrect. 'border-width' sets the width of the border, not the corner shape."
+            }
+          ]
+        },
+        {
+          "id": "c7846238-40fc-4b9c-9eab-667b71b6c2b4",
+          "question": "What does the 'transition' property in CSS enable?",
+          "description": "Select the effect that the 'transition' property allows in CSS.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Creating 3D effects",
+              "points": 0,
+              "explanation": "Incorrect. 3D effects are more related to transforms, not transitions."
+            },
+            {
+              "label": "B",
+              "description": "Animating changes to CSS properties",
+              "points": 3,
+              "explanation": "Correct! 'transition' enables smooth animations of changes to CSS properties."
+            },
+            {
+              "label": "C",
+              "description": "Applying shadows to elements",
+              "points": 0,
+              "explanation": "Incorrect. Shadows are typically controlled by the 'box-shadow' property, not 'transition'."
+            }
+          ]
+        },
+        {
+          "id": "8f007244-2f1d-4f5e-85d6-e7584a89bca3",
+          "question": "What is the purpose of the 'position' property in CSS?",
+          "description": "Choose the role of the 'position' property in CSS.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Setting font properties",
+              "points": 0,
+              "explanation": "Incorrect. The 'position' property is not used for setting font properties."
+            },
+            {
+              "label": "B",
+              "description": "Controlling the layout and positioning of elements",
+              "points": 3,
+              "explanation": "Correct! The 'position' property is used to control the layout and positioning of elements in CSS."
+            },
+            {
+              "label": "C",
+              "description": "Applying color to text",
+              "points": 0,
+              "explanation": "Applying color is typically done using the 'color' property, not 'position'."
+            }
+          ]
+        },
+        {
+          "id": "cbc29fb5-e7e7-4a93-9d50-5c95e6e0e1b4",
+          "question": "What does the 'box-sizing' property in CSS control?",
+          "description": "Select the aspect of the box model that 'box-sizing' influences.",
+          "difficulty": 1,
+          "options": [
+            {
+              "label": "A",
+              "description": "Border thickness",
+              "points": 0,
+              "explanation": "Incorrect. 'box-sizing' does not control the thickness of the border."
+            },
+            {
+              "label": "B",
+              "description": "Box model calculation, including or excluding padding and border",
+              "points": 3,
+              "explanation": "Correct! 'box-sizing' controls whether the box model calculation includes or excludes padding and border."
+            },
+            {
+              "label": "C",
+              "description": "Element visibility",
+              "points": 0,
+              "explanation": "Element visibility is not controlled by 'box-sizing'."
+            }
+          ]
+        },
+        {
+          "id": "5c0a5ff5-9971-4bf3-ae7b-2e8b5b833b93",
+          "question": "Explain the difference between 'display: block' and 'display: inline' in CSS.",
+          "description": "Provide a distinction between the 'display' values 'block' and 'inline'.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "Both 'block' and 'inline' elements are identical in their behavior.",
+              "points": 0,
+              "explanation": "Incorrect. 'block' and 'inline' elements have distinct behavior in the layout."
+            },
+            {
+              "label": "B",
+              "description": "'block' elements stack vertically, taking up the full width, while 'inline' elements flow horizontally, taking up only as much width as necessary.",
+              "points": 3,
+              "explanation": "Correct! This accurately describes the difference between 'block' and 'inline' elements."
+            },
+            {
+              "label": "C",
+              "description": "'block' and 'inline' elements both stack horizontally, but 'block' elements are typically used for inline text.",
+              "points": 0,
+              "explanation": "Incorrect. 'block' elements stack vertically, and 'inline' elements flow horizontally."
+            }
+          ]
+        },
+        {
+          "id": "467cd575-7eae-4d1c-8ed2-20d14e196743",
+          "question": "What is the purpose of the 'position: absolute' property in CSS?",
+          "description": "Explain the behavior of the 'position: absolute' property.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It positions an element relative to its normal position in the document flow.",
+              "points": 3,
+              "explanation": "Correct! 'position: absolute' positions an element relative to its nearest positioned ancestor or the initial containing block."
+            },
+            {
+              "label": "B",
+              "description": "It removes an element from the document flow, causing it to be ignored in the layout.",
+              "points": 0,
+              "explanation": "Incorrect. This describes the behavior of 'position: fixed' rather than 'position: absolute'."
+            },
+            {
+              "label": "C",
+              "description": "It makes an element float to the left or right of its container.",
+              "points": 0,
+              "explanation": "Incorrect. Floating is controlled by the 'float' property, not 'position: absolute'."
+            }
+          ]
+        },
+        {
+          "id": "b7a6db25-39a8-4f08-ba66-6c79303de21f",
+          "question": "Explain the purpose of the 'flexbox' layout in CSS.",
+          "description": "Describe the role of the 'flexbox' layout model in CSS.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It is used for creating animations and transitions.",
+              "points": 0,
+              "explanation": "Incorrect. Animations and transitions are not the primary purpose of the 'flexbox' layout model."
+            },
+            {
+              "label": "B",
+              "description": "It provides a one-dimensional layout for items in a container, distributing space along a single axis.",
+              "points": 3,
+              "explanation": "Correct! 'flexbox' is designed for one-dimensional layouts, distributing space along either the horizontal or vertical axis."
+            },
+            {
+              "label": "C",
+              "description": "It is specifically used for creating grid-based layouts.",
+              "points": 0,
+              "explanation": "Incorrect. Grid-based layouts are handled by the 'grid' layout model, not 'flexbox'."
+            }
+          ]
+        },
+        {
+          "id": "19a16cb6-c07b-4c18-bb1f-6922ea570a18",
+          "question": "What is the purpose of the 'box-shadow' property in CSS?",
+          "description": "Explain the role of the 'box-shadow' property.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It adds a shadow to the text inside an element.",
+              "points": 0,
+              "explanation": "Incorrect. 'box-shadow' adds a shadow to the entire box of an element, not just the text inside it."
+            },
+            {
+              "label": "B",
+              "description": "It creates a shadow behind an element's border box.",
+              "points": 3,
+              "explanation": "Correct! 'box-shadow' is used to create a shadow effect behind an element's border box."
+            },
+            {
+              "label": "C",
+              "description": "It sets the shadow color for the text inside an element.",
+              "points": 0,
+              "explanation": "Incorrect. 'box-shadow' is not used to set the shadow color of text."
+            }
+          ]
+        },
+        {
+          "id": "62a7f11b-5d60-4f80-a93d-07d5e0620c9b",
+          "question": "What is the 'clearfix' technique in CSS used for?",
+          "description": "Explain the purpose of the 'clearfix' technique.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It is a technique for creating transparent elements.",
+              "points": 0,
+              "explanation": "Incorrect. 'clearfix' is not related to creating transparent elements."
+            },
+            {
+              "label": "B",
+              "description": "It is used to clear the float property and prevent container collapse.",
+              "points": 3,
+              "explanation": "Correct! 'clearfix' is a technique to prevent the collapsing of a container when it contains floated elements."
+            },
+            {
+              "label": "C",
+              "description": "It is a technique for centering elements horizontally and vertically.",
+              "points": 0,
+              "explanation": "Incorrect. Centering is achieved through other techniques, not 'clearfix'."
+            }
+          ]
+        },
+        {
+          "id": "501c245a-2df4-4c3c-9e63-8e51a6f540c3",
+          "question": "What does the 'max-width' property in CSS control?",
+          "description": "Select the aspect of an element's sizing that 'max-width' influences.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It sets the maximum font size for an element.",
+              "points": 0,
+              "explanation": "Incorrect. 'max-width' does not control the maximum font size."
+            },
+            {
+              "label": "B",
+              "description": "It sets the maximum width of an element.",
+              "points": 3,
+              "explanation": "Correct! 'max-width' controls the maximum width an element can have."
+            },
+            {
+              "label": "C",
+              "description": "It specifies the maximum number of lines of text in an element.",
+              "points": 0,
+              "explanation": "The number of lines is not controlled by 'max-width'."
+            }
+          ]
+        },
+        {
+          "id": "a5751e84-3edf-4f9a-8e3f-877835141a89",
+          "question": "What is the purpose of the 'nth-child' selector in CSS?",
+          "description": "Explain the role of the 'nth-child' selector in CSS.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It selects elements based on their order within a parent.",
+              "points": 3,
+              "explanation": "Correct! 'nth-child' selects elements based on their position within a parent element."
+            },
+            {
+              "label": "B",
+              "description": "It selects only the first child element of a parent.",
+              "points": 0,
+              "explanation": "Incorrect. 'nth-child' can select elements beyond the first child."
+            },
+            {
+              "label": "C",
+              "description": "It is used to style elements with specific classes.",
+              "points": 0,
+              "explanation": "Class-based styling is typically done with class selectors, not 'nth-child'."
+            }
+          ]
+        },
+        {
+          "id": "00d3943b-6a5d-4e8c-9f18-622c77693822",
+          "question": "What does the 'content' property in CSS do?",
+          "description": "Choose the role of the 'content' property in CSS.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "It sets the content of a pseudo-element.",
+              "points": 3,
+              "explanation": "Correct! 'content' is used to set the content of a pseudo-element generated by CSS."
+            },
+            {
+              "label": "B",
+              "description": "It specifies the content of an HTML element.",
+              "points": 0,
+              "explanation": "'content' does not specify the content of an HTML element but is used for pseudo-elements."
+            },
+            {
+              "label": "C",
+              "description": "It controls the visibility of an element.",
+              "points": 0,
+              "explanation": "'content' is not used for controlling visibility."
+            }
+          ]
+        },
+        {
+          "id": "9a4ad744-cb64-49c4-899b-654c3f8a22b9",
+          "question": "Explain the 'box-sizing' property and its values in CSS.",
+          "description": "Provide an explanation of the 'box-sizing' property and its possible values.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "'box-sizing' controls the space inside an element and accepts values 'content-box' and 'border-box'.",
+              "points": 3,
+              "explanation": "Correct! 'box-sizing' controls how the total width and height of an element are calculated, and it can have values 'content-box' or 'border-box'."
+            },
+            {
+              "label": "B",
+              "description": "'box-sizing' sets the display type of an element and accepts values 'inline' and 'block'.",
+              "points": 0,
+              "explanation": "'box-sizing' is not related to the display type of an element."
+            },
+            {
+              "label": "C",
+              "description": "'box-sizing' defines the positioning of an element and accepts values 'relative' and 'absolute'.",
+              "points": 0,
+              "explanation": "'box-sizing' is not related to positioning; it's about the calculation of the box model."
+            }
+          ]
+        },
+        {
+          "id": "2b50e248-0215-4cfb-8ac3-97c3836ebd57",
+          "question": "What is the purpose of the 'currentColor' keyword in CSS?",
+          "description": "Explain the role of the 'currentColor' keyword in CSS.",
+          "difficulty": 2,
+          "options": [
+            {
+              "label": "A",
+              "description": "'currentColor' sets the color of the element to the current browser default color.",
+              "points": 0,
+              "explanation": "'currentColor' does not refer to the browser default color but inherits the color property of the element."
+            },
+            {
+              "label": "B",
+              "description": "'currentColor' sets the color of an element to the computed value of the 'color' property.",
+              "points": 3,
+              "explanation": "Correct! 'currentColor' is a keyword that represents the computed value of the 'color' property of an element."
+            },
+            {
+              "label": "C",
+              "description": "'currentColor' defines a gradient with colors transitioning from the current color to transparent.",
+              "points": 0,
+              "explanation": "'currentColor' is not used to define gradients; it represents the computed color of the element."
+            }
+          ]
+        },
+        {
+          "id": "91f0f46b-6410-4f3a-9528-2f1d2d24e8a3",
+          "question": "Explain the 'grid' layout in CSS and its key properties.",
+          "description": "Provide an overview of the 'grid' layout model and mention key properties associated with it.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "The 'grid' layout is used for one-dimensional layouts and has properties like 'grid-template-columns' and 'grid-template-rows'.",
+              "points": 0,
+              "explanation": "Incorrect. The 'grid' layout is two-dimensional and includes properties like 'grid-template-columns' and 'grid-template-rows'."
+            },
+            {
+              "label": "B",
+              "description": "The 'grid' layout is used for two-dimensional layouts and includes properties like 'grid-template-columns' and 'grid-template-rows'.",
+              "points": 3,
+              "explanation": "Correct! The 'grid' layout is designed for two-dimensional layouts with properties like 'grid-template-columns' and 'grid-template-rows'."
+            },
+            {
+              "label": "C",
+              "description": "The 'grid' layout is a simplified version of the 'flexbox' model.",
+              "points": 0,
+              "explanation": "Incorrect. 'grid' and 'flexbox' serve different purposes; 'grid' is not a simplified version of 'flexbox'."
+            }
+          ]
+        },
+        {
+          "id": "63d81d3e-53a2-4fe4-93ed-7ce6e63026d7",
+          "question": "Describe the role of the 'position: sticky' property in CSS.",
+          "description": "Explain how the 'position: sticky' property works and its use cases.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "'position: sticky' positions an element relative to its nearest positioned ancestor.",
+              "points": 0,
+              "explanation": "'position: sticky' actually positions an element based on the user's scroll position and toggles between 'relative' and 'fixed'."
+            },
+            {
+              "label": "B",
+              "description": "'position: sticky' positions an element based on the user's scroll position and is often used for headers or sidebars.",
+              "points": 3,
+              "explanation": "Correct! 'position: sticky' is used to create elements that are positioned based on the user's scroll and is commonly used for headers or sidebars."
+            },
+            {
+              "label": "C",
+              "description": "'position: sticky' is a shorthand for 'position: static' and has no practical use.",
+              "points": 0,
+              "explanation": "'position: sticky' has a specific purpose and is not a shorthand for 'position: static'."
+            }
+          ]
+        },
+        {
+          "id": "d3a233c2-5a1e-41e9-86ef-981a7bea9ba0",
+          "question": "Explain the 'clip-path' property in CSS and its applications.",
+          "description": "Provide an overview of the 'clip-path' property and how it can be used.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "'clip-path' is used to create rounded corners on elements.",
+              "points": 0,
+              "explanation": "Incorrect. 'clip-path' is not primarily used for creating rounded corners."
+            },
+            {
+              "label": "B",
+              "description": "'clip-path' is used to define a clipping region for an element and can be applied with various shapes.",
+              "points": 3,
+              "explanation": "Correct! 'clip-path' is used to define a clipping region for an element, and it supports various shapes like circles and polygons."
+            },
+            {
+              "label": "C",
+              "description": "'clip-path' is a property for creating drop shadows on elements.",
+              "points": 0,
+              "explanation": "Creating drop shadows is typically done with the 'box-shadow' property, not 'clip-path'."
+            }
+          ]
+        },
+        {
+          "id": "b7ee074b-383b-4d22-a08a-88770bf7cf3e",
+          "question": "What is the purpose of the 'will-change' property in CSS?",
+          "description": "Explain the role of the 'will-change' property and its impact on browser performance.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "'will-change' is used to animate elements smoothly and is recommended for every animated property.",
+              "points": 0,
+              "explanation": "'will-change' is not recommended for every animated property; it's used to hint to the browser which properties are likely to change."
+            },
+            {
+              "label": "B",
+              "description": "'will-change' is used to hint to the browser that an element is about to change, potentially improving performance.",
+              "points": 3,
+              "explanation": "Correct! 'will-change' is used to provide a hint to the browser that an element is likely to change, optimizing performance."
+            },
+            {
+              "label": "C",
+              "description": "'will-change' is a shorthand for setting multiple CSS properties at once.",
+              "points": 0,
+              "explanation": "'will-change' is not a shorthand for setting multiple properties; it's used for optimization."
+            }
+          ]
+        },
+        {
+          "id": "12d29967-d28a-4d7b-bb2a-2d00b50c2b77",
+          "question": "Explain the 'CSS variables' feature and how they differ from traditional variables in programming languages.",
+          "description": "Provide an overview of CSS variables and highlight their differences from variables in traditional programming languages.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "CSS variables are used for storing values, similar to variables in programming languages, and can be reassigned dynamically.",
+              "points": 3,
+              "explanation": "Correct! CSS variables store values and can be reassigned dynamically, but they work differently from variables in traditional programming languages."
+            },
+            {
+              "label": "B",
+              "description": "CSS variables are only used for color values and cannot be reassigned.",
+              "points": 0,
+              "explanation": "Incorrect. CSS variables can be used for various types of values, not just colors, and can be reassigned."
+            },
+            {
+              "label": "C",
+              "description": "CSS variables are not supported in modern browsers, and their use is discouraged.",
+              "points": 0,
+              "explanation": "This statement is incorrect; CSS variables are widely supported in modern browsers."
+            }
+          ]
+        },
+        {
+          "id": "93f557da-7e5d-4c1f-9b84-1633fc6f6f41",
+          "question": "Describe the 'transform' property in CSS and its applications.",
+          "description": "Provide an overview of the 'transform' property and mention common use cases.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "'transform' is used to change the font size of text elements.",
+              "points": 0,
+              "explanation": "Incorrect. 'transform' is not used to change the font size but to apply transformations like scaling and rotating."
+            },
+            {
+              "label": "B",
+              "description": "'transform' is used for 3D animations and is applicable only to elements with the 'position: absolute' property.",
+              "points": 0,
+              "explanation": "'transform' can be used for 3D transformations, but it is not limited to elements with 'position: absolute'."
+            },
+            {
+              "label": "C",
+              "description": "'transform' is used to apply 2D and 3D transformations to elements, such as scaling and rotating.",
+              "points": 3,
+              "explanation": "Correct! 'transform' can be used for both 2D and 3D transformations, including scaling, rotating, and more."
+            }
+          ]
+        },
+        {
+          "id": "6a22e3e8-b9ee-4387-aa04-37e2a4e3e92a",
+          "question": "Explain the 'object-fit' property in CSS and its use cases.",
+          "description": "Provide an overview of the 'object-fit' property and mention scenarios where it is useful.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "'object-fit' is used to control the positioning of background images.",
+              "points": 0,
+              "explanation": "'object-fit' is used for controlling how an replaced element's content (e.g., an image) is fit into its box, not for background images."
+            },
+            {
+              "label": "B",
+              "description": "'object-fit' is used to define the size and positioning of an element within its container, such as an image or video.",
+              "points": 3,
+              "explanation": "Correct! 'object-fit' defines how an element's content should be resized and positioned within its box."
+            },
+            {
+              "label": "C",
+              "description": "'object-fit' is a property for styling form elements like checkboxes and radio buttons.",
+              "points": 0,
+              "explanation": "Styling form elements is typically done with other properties, not 'object-fit'."
+            }
+          ]
+        },
+        {
+          "id": "53e96b5b-687f-48f5-8e17-77a86a5c1c4b",
+          "question": "What is the purpose of the 'counter' and 'content' properties in CSS?",
+          "description": "Explain how the 'counter' and 'content' properties are used together in CSS.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "'counter' is used to create counters in CSS, and 'content' is used to set the content of pseudo-elements.",
+              "points": 3,
+              "explanation": "Correct! 'counter' is used for creating counters, and 'content' is used to set the content of generated pseudo-elements."
+            },
+            {
+              "label": "B",
+              "description": "'counter' and 'content' are used to define the font style and size of text within an element.",
+              "points": 0,
+              "explanation": "Styling text is typically done with other properties, not 'counter' and 'content'."
+            },
+            {
+              "label": "C",
+              "description": "'counter' and 'content' are used to create animated transitions between different sections of a webpage.",
+              "points": 0,
+              "explanation": "Creating animated transitions is typically done with animation properties, not 'counter' and 'content'."
+            }
+          ]
+        },
+        {
+          "id": "3d20124b-8b62-43bf-88c5-96e07b34a2d5",
+          "question": "Explain the 'z-index' property in CSS and how it affects the stacking order of elements.",
+          "description": "Provide an overview of the 'z-index' property and its impact on the stacking order of elements.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "'z-index' is used to set the vertical position of an element and is primarily applied to flex items.",
+              "points": 0,
+              "explanation": "Incorrect. 'z-index' is not about setting the vertical position but rather the stacking order, and it's not limited to flex items."
+            },
+            {
+              "label": "B",
+              "description": "'z-index' is used to control the stacking order of elements, with higher values bringing elements to the front.",
+              "points": 3,
+              "explanation": "Correct! 'z-index' controls the stacking order of elements, and higher values bring elements closer to the front."
+            },
+            {
+              "label": "C",
+              "description": "'z-index' is a property for adjusting the spacing between elements in a layout.",
+              "points": 0,
+              "explanation": "'z-index' is not used for adjusting spacing but for controlling the stacking order of elements."
+            }
+          ]
+        },
+        {
+          "id": "92fe3aa9-319f-420a-a93f-80c00c72d2ec",
+          "question": "Describe the 'aspect-ratio' property in CSS and its applications.",
+          "description": "Provide an overview of the 'aspect-ratio' property and mention scenarios where it can be useful.",
+          "difficulty": 3,
+          "options": [
+            {
+              "label": "A",
+              "description": "'aspect-ratio' is used for defining the aspect ratio of images in CSS.",
+              "points": 0,
+              "explanation": "'aspect-ratio' is not specifically used for images but for specifying the aspect ratio of boxes and containers."
+            },
+            {
+              "label": "B",
+              "description": "'aspect-ratio' is used to enforce a specific aspect ratio on an element, helping maintain proportions in responsive designs.",
+              "points": 3,
+              "explanation": "Correct! 'aspect-ratio' is used to enforce a specific aspect ratio on an element, aiding in maintaining proportions in responsive designs."
+            },
+            {
+              "label": "C",
+              "description": "'aspect-ratio' is a property for controlling the spacing between elements in a layout.",
+              "points": 0,
+              "explanation": "Spacing between elements is typically controlled by other properties, not 'aspect-ratio'."
+            }
+          ]
+        },
+        {
+          "id": "15c95cc9-00c7-4ee6-b5f4-4cf8f3ad92e5",
+          "question": "Explain the 'contain' property in CSS and its role in layout optimization.",
+          "description": "Provide an overview of the 'contain' property and how it contributes to layout optimization.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'contain' is used to set the width and height of an element in relation to its containing element.",
+              "points": 0,
+              "explanation": "'contain' does not set the width and height of an element; it's related to layout containment and optimization."
+            },
+            {
+              "label": "B",
+              "description": "'contain' is a property for controlling how a box should be painted in relation to the layout of other boxes.",
+              "points": 3,
+              "explanation": "Correct! 'contain' is used for layout containment, optimizing rendering by isolating the box's layout."
+            },
+            {
+              "label": "C",
+              "description": "'contain' is a shorthand for multiple layout-related properties in CSS.",
+              "points": 0,
+              "explanation": "'contain' is not a shorthand; it's a specific property for layout containment."
+            }
+          ]
+        },
+        {
+          "id": "0ed620d4-6341-4d4b-9e96-1d7b5357d381",
+          "question": "Describe the 'aspect-ratio' property in CSS and how it differs from setting the width and height directly.",
+          "description": "Provide an overview of the 'aspect-ratio' property and highlight its distinctions from directly setting width and height.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'aspect-ratio' is used for controlling the aspect ratio of a box, and it functions similarly to setting width and height directly.",
+              "points": 0,
+              "explanation": "'aspect-ratio' is used for enforcing a specific aspect ratio and differs from setting width and height directly."
+            },
+            {
+              "label": "B",
+              "description": "'aspect-ratio' allows for dynamic adjustments of the aspect ratio, while setting width and height directly is static.",
+              "points": 3,
+              "explanation": "Correct! 'aspect-ratio' allows for dynamic adjustments, offering flexibility compared to static width and height settings."
+            },
+            {
+              "label": "C",
+              "description": "'aspect-ratio' is a deprecated property, and setting width and height directly is the recommended approach.",
+              "points": 0,
+              "explanation": "'aspect-ratio' is a valid and useful property, not deprecated."
+            }
+          ]
+        },
+        {
+          "id": "55a49b5c-4fb0-40ac-9f87-2a4f3ffaa3d4",
+          "question": "Explain the 'will-change' property in CSS and its impact on browser performance.",
+          "description": "Provide an in-depth explanation of the 'will-change' property and how it influences browser performance.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'will-change' is a general-purpose property that can be applied to any CSS property, improving performance for all animations.",
+              "points": 0,
+              "explanation": "'will-change' is specific to certain properties and is not a general-purpose performance booster for all animations."
+            },
+            {
+              "label": "B",
+              "description": "'will-change' is used to indicate to the browser that an element is about to change, improving performance by preparing for upcoming changes.",
+              "points": 3,
+              "explanation": "Correct! 'will-change' is a performance optimization by giving the browser a heads-up about elements likely to change, allowing for better preparation."
+            },
+            {
+              "label": "C",
+              "description": "'will-change' is a property that, when applied, guarantees smooth animations without any impact on performance.",
+              "points": 0,
+              "explanation": "Applying 'will-change' does not guarantee smooth animations and should be used judiciously, as it can impact performance."
+            }
+          ]
+        },
+        {
+          "id": "2b72c09b-09a1-45c3-afbd-bdb712746bf3",
+          "question": "Describe the 'mix-blend-mode' property in CSS and its applications in web design.",
+          "description": "Provide an overview of the 'mix-blend-mode' property and mention scenarios where it is beneficial in web design.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'mix-blend-mode' is used for controlling the transparency of an element's background.",
+              "points": 0,
+              "explanation": "'mix-blend-mode' affects the blending of elements, but it's not specifically about controlling transparency."
+            },
+            {
+              "label": "B",
+              "description": "'mix-blend-mode' is a property for blending the colors of an element with the colors of its parent or background.",
+              "points": 3,
+              "explanation": "Correct! 'mix-blend-mode' blends the colors of an element with its backdrop, creating interesting visual effects."
+            },
+            {
+              "label": "C",
+              "description": "'mix-blend-mode' is a property for creating smooth transitions between different states of an element.",
+              "points": 0,
+              "explanation": "Creating smooth transitions is typically achieved through transition properties, not 'mix-blend-mode'."
+            }
+          ]
+        },
+        {
+          "id": "9f2bb4e4-1017-4f18-8a9f-0c0c596cf040",
+          "question": "Explain the 'backface-visibility' property in CSS and its relevance in 3D transformations.",
+          "description": "Provide insights into the 'backface-visibility' property and its significance in the context of 3D transformations.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'backface-visibility' is used to control the visibility of the back face of an element in 3D space.",
+              "points": 3,
+              "explanation": "Correct! 'backface-visibility' controls whether the back face of an element is visible in 3D space, affecting rendering during transformations."
+            },
+            {
+              "label": "B",
+              "description": "'backface-visibility' is a property for adjusting the spacing between elements in a 3D layout.",
+              "points": 0,
+              "explanation": "'backface-visibility' is not related to spacing but focuses on the visibility of the back face during 3D transformations."
+            },
+            {
+              "label": "C",
+              "description": "'backface-visibility' is a property for creating shadows behind 3D-transformed elements.",
+              "points": 0,
+              "explanation": "Creating shadows is typically done with the 'box-shadow' property, not 'backface-visibility'."
+            }
+          ]
+        },
+        {
+          "id": "b51031e2-3ae6-4fc5-b3ef-1a678fa187f3",
+          "question": "Describe the 'grid-auto-flow' property in CSS Grid and its impact on the automatic placement of grid items.",
+          "description": "Provide an overview of the 'grid-auto-flow' property and its role in determining the automatic placement of grid items.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'grid-auto-flow' is a property for specifying the size of automatically placed grid items in a grid layout.",
+              "points": 0,
+              "explanation": "'grid-auto-flow' is about the flow, not the size, of automatically placed grid items."
+            },
+            {
+              "label": "B",
+              "description": "'grid-auto-flow' is used to control the placement and direction of automatically placed grid items within the grid.",
+              "points": 3,
+              "explanation": "Correct! 'grid-auto-flow' determines how automatically placed items fill the grid, controlling their placement and direction."
+            },
+            {
+              "label": "C",
+              "description": "'grid-auto-flow' is a property for creating responsive grid layouts based on the user's device type.",
+              "points": 0,
+              "explanation": "'grid-auto-flow' is about the flow of items in the grid, not specifically tied to device types."
+            }
+          ]
+        },
+        {
+          "id": "21f6786e-70c2-4c56-b719-0b0d6f2ee3fe",
+          "question": "Explain the 'conic-gradient' property in CSS and its use in creating conical gradients.",
+          "description": "Provide details about the 'conic-gradient' property and its role in generating conical gradients.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'conic-gradient' is a property for styling text with a gradient effect.",
+              "points": 0,
+              "explanation": "'conic-gradient' is not specifically for text styling; it's for creating conical gradients on elements."
+            },
+            {
+              "label": "B",
+              "description": "'conic-gradient' is used for creating linear gradients with a conical effect.",
+              "points": 0,
+              "explanation": "'conic-gradient' is specifically for conical gradients, not linear gradients."
+            },
+            {
+              "label": "C",
+              "description": "'conic-gradient' is a property for creating conical gradients, with control over the colors and starting/stopping points.",
+              "points": 3,
+              "explanation": "Correct! 'conic-gradient' is used for creating conical gradients with specified colors and angles."
+            }
+          ]
+        },
+        {
+          "id": "2a2c32ac-0c21-4cc7-b52d-46db2a2a9780",
+          "question": "Describe the 'mask' property in CSS and its applications in masking elements with images or gradients.",
+          "description": "Provide an overview of the 'mask' property and mention scenarios where it is beneficial in masking elements.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'mask' is a property for applying a basic mask effect to elements, such as a circular mask.",
+              "points": 0,
+              "explanation": "'mask' is more versatile than basic shapes and can use images or gradients for masking."
+            },
+            {
+              "label": "B",
+              "description": "'mask' is a property for controlling the transparency of elements and is often used with image masks.",
+              "points": 3,
+              "explanation": "Correct! 'mask' is used for applying masks to elements, often using images or gradients to control transparency."
+            },
+            {
+              "label": "C",
+              "description": "'mask' is a property for adding a drop shadow to elements in a layout and is often used in combination with the 'box-shadow' property.",
+              "points": 0,
+              "explanation": "Adding drop shadows is typically done with the 'box-shadow' property, not 'mask'. 'mask' is specifically used for masking elements with images or gradients to control transparency."
+            }
+          ]
+        },
+        {
+          "id": "c7170a97-9f5b-4d20-b899-b6c8f7100573",
+          "question": "Explain the 'content-visibility' property in CSS and its impact on rendering performance.",
+          "description": "Provide an overview of the 'content-visibility' property and its role in enhancing rendering performance.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'content-visibility' is used to hide elements from the layout, improving rendering performance.",
+              "points": 3,
+              "explanation": "Correct! 'content-visibility' is used to skip the rendering of off-screen or hidden elements, enhancing performance."
+            },
+            {
+              "label": "B",
+              "description": "'content-visibility' is a property for animating the visibility of elements on a webpage.",
+              "points": 0,
+              "explanation": "Animating visibility is typically handled by other properties, not 'content-visibility'."
+            },
+            {
+              "label": "C",
+              "description": "'content-visibility' is a property for adding a fade-in effect to elements as they become visible.",
+              "points": 0,
+              "explanation": "Fade-in effects are achieved through other properties like 'opacity' and 'transition', not 'content-visibility'."
+            }
+          ]
+        },
+        {
+          "id": "2c1e5400-577a-426e-a6de-7bb01b3a4c20",
+          "question": "Describe the 'line-clamp' property in CSS and its application in truncating multiline text.",
+          "description": "Provide insights into the 'line-clamp' property and its role in truncating multiline text with ellipsis.",
+          "difficulty": 4,
+          "options": [
+            {
+              "label": "A",
+              "description": "'line-clamp' is a property for controlling the space between lines of text in a multiline text block.",
+              "points": 0,
+              "explanation": "'line-clamp' is not about spacing but is specifically used for truncating multiline text with ellipsis."
+            },
+            {
+              "label": "B",
+              "description": "'line-clamp' is used to limit the number of lines shown in a multiline text block and adds an ellipsis for overflow.",
+              "points": 3,
+              "explanation": "Correct! 'line-clamp' limits the number of lines displayed in a multiline text block, adding an ellipsis for overflow."
+            },
+            {
+              "label": "C",
+              "description": "'line-clamp' is a property for animating the expansion and contraction of text lines in a block.",
+              "points": 0,
+              "explanation": "Animating text expansion and contraction is typically handled by other properties, not 'line-clamp'."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

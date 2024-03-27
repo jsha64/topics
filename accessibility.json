@@ -1,0 +1,1398 @@
+{
+    "skill": {
+        "Accessibility": {
+            "id": "accessibility",
+            "description": "Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Developing for Web Accessibility by W3C WAI",
+                    "link": "https://www.w3.org/WAI/tips/developing/"
+                },
+                {
+                    "name": "Accessibility Tutorial",
+                    "link": "https://www.w3schools.com/accessibility/index.php"
+                },
+                {
+                    "name": "A Complete Guide To Accessible Front-End Components",
+                    "link": "https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/"
+                },
+                {
+                    "name": "Complete Playlist on Accessibility",
+                    "link": "https://youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"
+                },
+                {
+                    "name": "MDN Accessibility",
+                    "link": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+                },
+                {
+                    "name": "Accessibility for Developers by Google",
+                    "link": "https://web.dev/accessibility"
+                },
+                {
+                    "name": "Web Accessibility by Udacity",
+                    "link": "https://www.udacity.com/course/web-accessibility--ud891"
+                },
+                {
+                    "name": "Accessibility as an Essential Part of the Inclusive Developer Experience",
+                    "link": "https://thenewstack.io/accessibility-as-an-essential-part-of-the-inclusive-developer-experience/"
+                }
+            ],
+            "parents": [
+                "html"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "71c91c2c-05de-44cd-9f3e-bb101f6f1174",
+                    "question": "What does web accessibility aim to achieve?",
+                    "description": "Explain the primary goal of web accessibility.",
+                    "hint": "Consider who benefits from accessible web design.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Making websites usable only for people without disabilities.",
+                            "points": 0,
+                            "explanation": "Incorrect. Web accessibility aims to make websites usable for everyone, including those with disabilities."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Designing websites in a way that people with disabilities can use them easily.",
+                            "points": 3,
+                            "explanation": "Correct! Web accessibility focuses on designing websites for easy use by people with disabilities."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Creating websites exclusively for visually impaired users.",
+                            "points": 0,
+                            "explanation": "Not accurate. Web accessibility is about inclusivity for various disabilities, not exclusivity."
+                        }
+                    ]
+                },
+                {
+                    "id": "8e92b408-4323-48c9-b0f4-8e1c48125ab8",
+                    "question": "Who benefits from web accessibility?",
+                    "description": "Identify the group of people that web accessibility primarily benefits.",
+                    "hint": "Consider different types of disabilities and users.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Only people with visual impairments.",
+                            "points": 0,
+                            "explanation": "Incorrect. Web accessibility benefits a broader range of people with various disabilities, not just visual impairments."
+                        },
+                        {
+                            "label": "B",
+                            "description": "People with disabilities and everyone else.",
+                            "points": 3,
+                            "explanation": "Correct! Web accessibility benefits people with disabilities and enhances the experience for all users."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Only web developers.",
+                            "points": 0,
+                            "explanation": "Not accurate. While web developers play a role, web accessibility is about users, including those with disabilities."
+                        }
+                    ]
+                },
+                {
+                    "id": "b3a24a5b-3e6e-4f93-a2f5-9e66e8a03611",
+                    "question": "What is W3C WAI in the context of web accessibility?",
+                    "description": "Explain the role of W3C WAI in promoting web accessibility.",
+                    "hint": "Consider the organization responsible for web standards and accessibility guidelines.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A popular web browser.",
+                            "points": 0,
+                            "explanation": "Incorrect. W3C WAI is not a web browser but an organization involved in web standards and accessibility guidelines."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A set of web accessibility guidelines by a standards organization.",
+                            "points": 3,
+                            "explanation": "Correct! W3C WAI provides guidelines for creating accessible web content and applications."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A social media platform.",
+                            "points": 0,
+                            "explanation": "Not accurate. W3C WAI is not a social media platform but an organization focused on web standards."
+                        }
+                    ]
+                },
+                {
+                    "id": "0915bf82-8b20-481d-9da5-9ccdfb4d8f71",
+                    "question": "What is the purpose of web accessibility tutorials?",
+                    "description": "Examine the role of web accessibility tutorials in the learning process.",
+                    "hint": "Consider how tutorials contribute to understanding and implementing accessibility principles.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To teach advanced programming languages.",
+                            "points": 0,
+                            "explanation": "Incorrect. Web accessibility tutorials focus on principles and techniques related to making websites accessible."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To promote a specific web browser.",
+                            "points": 0,
+                            "explanation": "Not accurate. Web accessibility tutorials are not about promoting browsers but about teaching accessibility principles."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To provide guidance on creating accessible web content.",
+                            "points": 3,
+                            "explanation": "Correct! Web accessibility tutorials guide developers in creating content that is accessible to all users."
+                        }
+                    ]
+                },
+                {
+                    "id": "8f70f22b-86c2-4979-8b3a-040692d9cf39",
+                    "question": "What is the significance of accessible front-end components?",
+                    "description": "Explain the importance of designing front-end components with accessibility in mind.",
+                    "hint": "Consider how accessible components contribute to an inclusive user experience.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "They are only relevant to experienced web developers.",
+                            "points": 0,
+                            "explanation": "Incorrect. Accessible front-end components are relevant to all developers and users."
+                        },
+                        {
+                            "label": "B",
+                            "description": "They contribute to an inclusive user experience for people with disabilities.",
+                            "points": 3,
+                            "explanation": "Correct! Accessible front-end components are crucial for an inclusive user experience for people with disabilities."
+                        },
+                        {
+                            "label": "C",
+                            "description": "They are unnecessary for modern websites.",
+                            "points": 0,
+                            "explanation": "Not accurate. Accessible front-end components are essential for modern websites to ensure inclusivity."
+                        }
+                    ]
+                },
+                {
+                    "id": "a0498d03-b98e-48a1-a5ae-3d9ce2e3ac71",
+                    "question": "What is the role of MDN Accessibility in web development?",
+                    "description": "Examine how MDN Accessibility contributes to web development.",
+                    "hint": "Consider the resources and information provided by MDN Accessibility.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A tool for testing website performance.",
+                            "points": 0,
+                            "explanation": "Incorrect. MDN Accessibility is not a testing tool but a resource for web developers."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A set of guidelines for server-side programming.",
+                            "points": 0,
+                            "explanation": "Not accurate. MDN Accessibility focuses on web development and front-end accessibility, not server-side programming."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A resource providing information on web development accessibility.",
+                            "points": 3,
+                            "explanation": "Correct! MDN Accessibility is a valuable resource offering information on web development accessibility."
+                        }
+                    ]
+                },
+                {
+                    "id": "f2431462-75ef-42b5-a3cf-78b8eb75d12f",
+                    "question": "What does the term 'inclusive developer experience' refer to in the context of web accessibility?",
+                    "description": "Define the concept of 'inclusive developer experience' in web accessibility.",
+                    "hint": "Consider how the development process can be inclusive and accessible.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Exclusively focusing on advanced coding practices.",
+                            "points": 0,
+                            "explanation": "Incorrect. Inclusive developer experience is about making the development process accessible to a broad audience."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Ensuring that the development process is accessible to developers with disabilities.",
+                            "points": 3,
+                            "explanation": "Correct! 'Inclusive developer experience' involves making development tools and processes accessible to developers with disabilities."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Limiting development tools to specific programming languages.",
+                            "points": 0,
+                            "explanation": "Not accurate. Inclusive developer experience is not about limitations but inclusivity in the development process."
+                        }
+                    ]
+                },
+                {
+                    "id": "8f7813a0-453c-4d1b-978a-10c48c4ebc06",
+                    "question": "What is the role of Udacity in promoting web accessibility?",
+                    "description": "Examine how Udacity contributes to the promotion of web accessibility.",
+                    "hint": "Consider the educational resources and courses provided by Udacity.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A social media platform for web developers.",
+                            "points": 0,
+                            "explanation": "Incorrect. Udacity is an online education platform, not a social media platform."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A resource for server-side programming tutorials.",
+                            "points": 0,
+                            "explanation": "Not accurate. Udacity covers a variety of topics, but it is not exclusively focused on server-side programming."
+                        },
+                        {
+                            "label": "C",
+                            "description": "An online education platform offering courses on web development and accessibility.",
+                            "points": 3,
+                            "explanation": "Correct! Udacity provides courses, including those related to web development and accessibility."
+                        }
+                    ]
+                },
+                {
+                    "id": "2cfd8baa-4388-4ef7-80ab-58a7c43bcbef",
+                    "question": "How does web accessibility contribute to an inclusive digital environment?",
+                    "description": "Explain the role of web accessibility in creating an inclusive digital environment.",
+                    "hint": "Consider the impact of accessible websites on diverse user experiences.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It limits digital access to a specific user group.",
+                            "points": 0,
+                            "explanation": "Incorrect. Web accessibility aims to broaden digital access to diverse user groups, not limit it."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It enhances digital access for people with disabilities and promotes inclusivity.",
+                            "points": 3,
+                            "explanation": "Correct! Web accessibility enhances digital access for people with disabilities, contributing to a more inclusive digital environment."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It exclusively benefits web developers.",
+                            "points": 0,
+                            "explanation": "Not accurate. While web developers benefit, the primary focus of web accessibility is on users, including those with disabilities."
+                        }
+                    ]
+                },
+                {
+                    "id": "1e2e040f-0030-4d0e-a7fe-370836d81ae0",
+                    "question": "What type of content is covered in a web accessibility playlist?",
+                    "description": "Explore the content typically included in a playlist focused on web accessibility.",
+                    "hint": "Consider the range of topics related to accessible web design.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Guidance on creating accessible web content and applications.",
+                            "points": 3,
+                            "explanation": "Correct! A web accessibility playlist typically includes guidance on creating accessible web content and applications."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Exclusively advanced programming languages.",
+                            "points": 0,
+                            "explanation": "Incorrect. A web accessibility playlist covers a variety of topics beyond advanced programming languages."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Information on unrelated topics like cooking recipes.",
+                            "points": 0,
+                            "explanation": "Not accurate. A web accessibility playlist focuses on relevant topics related to accessible web design."
+                        }
+                    ]
+                },
+                {
+                    "id": "4ae40e71-ef49-4c42-8e6c-7bf4a79c4e1e",
+                    "question": "What HTML element is commonly used to provide alternative text for images?",
+                    "description": "Identify the HTML element used to improve accessibility for users who cannot see images.",
+                    "hint": "Consider how to provide descriptive text for images.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<img alt='description'>",
+                            "points": 3,
+                            "explanation": "Correct! The 'alt' attribute in the '<img>' element is used to provide alternative text for images."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<desc image='description'>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<desc image='description'>' is not a valid HTML element for providing alternative text."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<figure alt='description'>",
+                            "points": 0,
+                            "explanation": "Not accurate. 'alt' is an attribute, and '<figure>' is not the element used for providing alternative text."
+                        }
+                    ]
+                },
+                {
+                    "id": "dab6a2f3-aa58-493f-8e7b-89cf65cf1f03",
+                    "question": "How can semantic HTML contribute to web accessibility?",
+                    "description": "Examine the role of semantic HTML in making web content more accessible.",
+                    "hint": "Consider how using proper HTML elements improves the structure and meaning of content.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Semantic HTML has no impact on accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Semantic HTML significantly improves accessibility by providing meaningful structure to content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Semantic HTML enhances accessibility by conveying the intended meaning of content.",
+                            "points": 3,
+                            "explanation": "Correct! Semantic HTML improves accessibility by conveying the intended meaning of content to assistive technologies."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Semantic HTML is only relevant for visual design.",
+                            "points": 0,
+                            "explanation": "Not accurate. Semantic HTML is relevant for both visual design and accessibility, enhancing the overall user experience."
+                        }
+                    ]
+                },
+                {
+                    "id": "83d5b451-e0a8-4be0-8d74-8f01a40b9a33",
+                    "question": "What is the purpose of the 'aria-label' attribute in HTML?",
+                    "description": "Explore the role of the 'aria-label' attribute in enhancing accessibility.",
+                    "hint": "Consider how it provides additional information for assistive technologies.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the background color of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'aria-label' is not used for styling but for providing additional information to assistive technologies."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the role of an HTML element.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'aria-label' is not primarily for defining roles but for supplying a label for assistive technologies."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It provides a text label for an element that is accessible to assistive technologies.",
+                            "points": 3,
+                            "explanation": "Correct! 'aria-label' is used to provide a text label for an element that can be accessed by assistive technologies."
+                        }
+                    ]
+                },
+                {
+                    "id": "7b19e8d0-c6bc-442a-a75d-2e5ed874d038",
+                    "question": "What HTML element is commonly used to create a hyperlink?",
+                    "description": "Identify the HTML element used for linking to another page or resource.",
+                    "hint": "Consider the element used to define a clickable link.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "<link>",
+                            "points": 0,
+                            "explanation": "Incorrect. '<link>' is used to define external resources in the head of an HTML document, not for creating hyperlinks."
+                        },
+                        {
+                            "label": "B",
+                            "description": "<a>",
+                            "points": 3,
+                            "explanation": "Correct! The '<a>' (anchor) element is commonly used to create hyperlinks in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "<nav>",
+                            "points": 0,
+                            "explanation": "Not accurate. '<nav>' is used to define navigation links, but it's not the primary element for creating hyperlinks."
+                        }
+                    ]
+                },
+                {
+                    "id": "b127bc85-d22b-4b02-98cc-e57fb97e9c36",
+                    "question": "How can you create a logical structure in an HTML document to improve accessibility?",
+                    "description": "Explore the importance of organizing content in a logical structure for accessibility.",
+                    "hint": "Consider using the appropriate HTML elements to structure content.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "By using only div elements for all content.",
+                            "points": 0,
+                            "explanation": "Incorrect. Using only 'div' elements does not create a meaningful or logical structure in an HTML document."
+                        },
+                        {
+                            "label": "B",
+                            "description": "By using semantic HTML elements to represent the structure of content.",
+                            "points": 3,
+                            "explanation": "Correct! Using semantic HTML elements helps create a logical structure, improving accessibility and understanding."
+                        },
+                        {
+                            "label": "C",
+                            "description": "By using inline styles for all elements.",
+                            "points": 0,
+                            "explanation": "Not accurate. Inline styles are for styling, and they don't contribute to creating a logical document structure."
+                        }
+                    ]
+                },
+                {
+                    "id": "0c7c2b02-aa1b-41f8-9473-8aa10022e51b",
+                    "question": "What is the purpose of the 'tabindex' attribute in HTML?",
+                    "description": "Examine the role of the 'tabindex' attribute in making interactive elements accessible.",
+                    "hint": "Consider how it affects the tab order in a document.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the font size of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'tabindex' is not related to font size but to the tab order of interactive elements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the color of the text in an element.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'tabindex' does not control the text color but the tabbing behavior of elements."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It specifies the tab order of interactive elements on a page.",
+                            "points": 3,
+                            "explanation": "Correct! 'tabindex' is used to specify the tab order of interactive elements, making navigation more accessible."
+                        }
+                    ]
+                },
+                {
+                    "id": "e2af2955-9ea5-4b7c-8c12-838187eb2c2a",
+                    "question": "Why is it important to provide captions for multimedia content?",
+                    "description": "Explore the significance of adding captions to enhance accessibility.",
+                    "hint": "Consider the needs of users who may have difficulty hearing or understanding audio content.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Captions are only necessary for visually impaired users.",
+                            "points": 0,
+                            "explanation": "Incorrect. Captions benefit not only visually impaired users but also those who may have difficulty hearing or understanding audio content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Captions provide additional context and make multimedia content accessible to a broader audience.",
+                            "points": 3,
+                            "explanation": "Correct! Captions enhance accessibility by providing context and making multimedia content accessible to a broader audience."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Captions are only required for videos longer than 10 minutes.",
+                            "points": 0,
+                            "explanation": "Not accurate. The need for captions depends on accessibility considerations, not a specific duration."
+                        }
+                    ]
+                },
+                {
+                    "id": "4d1fc4e5-86fb-4f19-aa25-1ac96da2a197",
+                    "question": "What is the purpose of the 'role' attribute in HTML?",
+                    "description": "Examine the role of the 'role' attribute in enhancing accessibility.",
+                    "hint": "Consider how it helps define the purpose of an element for assistive technologies.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the background color of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'role' is not used for styling but for defining the purpose of an element for assistive technologies."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the visual appearance of an element.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'role' is not primarily for defining visual appearance but for accessibility purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the purpose or role of an element for assistive technologies.",
+                            "points": 3,
+                            "explanation": "Correct! 'role' is used to define the purpose or role of an element, enhancing accessibility for assistive technologies."
+                        }
+                    ]
+                },
+                {
+                    "id": "6a67c769-5541-40c9-901c-2e3b2927260c",
+                    "question": "How does proper HTML structure contribute to screen reader accessibility?",
+                    "description": "Explore the impact of well-structured HTML on users who rely on screen readers.",
+                    "hint": "Consider how proper structure aids in conveying information accurately.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Screen readers do not benefit from HTML structure.",
+                            "points": 0,
+                            "explanation": "Incorrect. Proper HTML structure is essential for screen readers to accurately convey information to users."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Well-structured HTML provides meaningful information and improves the experience for screen reader users.",
+                            "points": 3,
+                            "explanation": "Correct! Well-structured HTML enhances the experience for screen reader users by providing meaningful information."
+                        },
+                        {
+                            "label": "C",
+                            "description": "HTML structure is only relevant for visual design.",
+                            "points": 0,
+                            "explanation": "Not accurate. HTML structure is crucial for both visual design and accessibility, especially for users relying on screen readers."
+                        }
+                    ]
+                },
+                {
+                    "id": "bdb01336-5b22-4cb3-bd74-59aeebcbfd77",
+                    "question": "What is the 'alt' attribute used for in the context of web accessibility?",
+                    "description": "Explain the role of the 'alt' attribute for certain HTML elements.",
+                    "hint": "Consider its purpose in providing alternative information for users.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the background color of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'alt' is not used for styling but for providing alternative text for certain HTML elements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It provides alternative text for images, enhancing accessibility for users who cannot see them.",
+                            "points": 3,
+                            "explanation": "Correct! The 'alt' attribute is used to provide alternative text for images, improving accessibility for users who cannot see them."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the alignment of an element on the page.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'alt' is not related to the alignment of elements but to alternative text for certain HTML elements."
+                        }
+                    ]
+                },
+                {
+                    "id": "5a09ee51-5cf7-4ecb-924a-27355cecd195",
+                    "question": "Why is it important to use semantic HTML headings in a document?",
+                    "description": "Examine the significance of using semantic headings for accessibility.",
+                    "hint": "Consider how headings contribute to the structure and navigation of a document.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Headings have no impact on accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Semantic headings play a crucial role in improving accessibility by providing structure and navigation cues."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Semantic headings help screen reader users understand the document structure.",
+                            "points": 3,
+                            "explanation": "Correct! Semantic headings are essential for screen reader users to understand the structure of a document."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Headings are only relevant for visual design.",
+                            "points": 0,
+                            "explanation": "Not accurate. Headings contribute to both visual design and accessibility, especially for screen reader users."
+                        }
+                    ]
+                },
+                {
+                    "id": "68895376-c038-47f8-8a5b-6844e1e75ef4",
+                    "question": "How can the 'lang' attribute in HTML contribute to accessibility?",
+                    "description": "Explore the role of the 'lang' attribute in making web content accessible to a diverse audience.",
+                    "hint": "Consider how it specifies the language of the document.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'lang' attribute is only relevant for aesthetic purposes.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'lang' attribute is important for indicating the language of the document, aiding accessibility for users who rely on language-specific tools."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'lang' attribute helps screen readers pronounce words correctly.",
+                            "points": 0,
+                            "explanation": "Not accurate. While pronunciation is important, the primary role of the 'lang' attribute is to specify the language of the document for accessibility."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'lang' attribute assists assistive technologies in adapting to users' language preferences.",
+                            "points": 3,
+                            "explanation": "Correct! The 'lang' attribute helps assistive technologies adapt to users' language preferences, enhancing accessibility."
+                        }
+                    ]
+                },
+                {
+                    "id": "4f7e3189-924c-4c9a-909d-b7403a5c051f",
+                    "question": "What is the purpose of the 'alt' attribute in the context of web accessibility?",
+                    "description": "Explain the role of the 'alt' attribute for certain HTML elements.",
+                    "hint": "Consider its purpose in providing alternative information for users.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the background color of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'alt' is not used for styling but for providing alternative text for certain HTML elements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It provides alternative text for images, enhancing accessibility for users who cannot see them.",
+                            "points": 3,
+                            "explanation": "Correct! The 'alt' attribute is used to provide alternative text for images, improving accessibility for users who cannot see them."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the alignment of an element on the page.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'alt' is not related to the alignment of elements but to alternative text for certain HTML elements."
+                        }
+                    ]
+                },
+                {
+                    "id": "7583b48d-7f72-4b4d-ba3e-f242a7e0e14c",
+                    "question": "How can the 'aria-hidden' attribute be used to improve accessibility?",
+                    "description": "Explore the role of the 'aria-hidden' attribute in hiding elements from assistive technologies.",
+                    "hint": "Consider scenarios where certain content is presented visually but should be hidden from screen readers.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It has no impact on accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'aria-hidden' is crucial for hiding content that may be visually present but should not be announced by screen readers."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It hides an element visually but is irrelevant for screen readers.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'aria-hidden' specifically addresses the visibility of content to assistive technologies, including screen readers."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It hides an element from assistive technologies, ensuring it is not announced to screen reader users.",
+                            "points": 3,
+                            "explanation": "Correct! 'aria-hidden' is used to hide elements from assistive technologies, ensuring they are not announced to screen reader users."
+                        }
+                    ]
+                },
+                {
+                    "id": "b349677d-fdd6-44c5-b1a2-1099c8169395",
+                    "question": "Why is it important to provide a skip navigation link in a web page?",
+                    "description": "Examine the significance of skip navigation links for users with screen readers.",
+                    "hint": "Consider how skip navigation links improve navigation for screen reader users.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Skip navigation links are only relevant for mobile users.",
+                            "points": 0,
+                            "explanation": "Incorrect. Skip navigation links benefit users with screen readers, not exclusively mobile users."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Skip navigation links allow users to bypass repetitive content and jump to the main content.",
+                            "points": 3,
+                            "explanation": "Correct! Skip navigation links improve accessibility by enabling users to bypass repetitive content and directly access the main content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Skip navigation links are unnecessary for users with visual impairments.",
+                            "points": 0,
+                            "explanation": "Not accurate. Skip navigation links are specifically beneficial for users with visual impairments who rely on screen readers."
+                        }
+                    ]
+                },
+                {
+                    "id": "c74f7bfa-0bc8-4b36-a53d-2a43d875a50b",
+                    "question": "How does providing text alternatives contribute to web accessibility?",
+                    "description": "Explore the importance of offering text alternatives for non-text content.",
+                    "hint": "Consider the needs of users who may not be able to perceive non-text content.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Text alternatives are irrelevant for accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Text alternatives are essential for making non-text content accessible to users who cannot perceive it."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Text alternatives provide additional decoration to enhance visual appeal.",
+                            "points": 0,
+                            "explanation": "Not accurate. Text alternatives serve the purpose of providing information for users who may not be able to see the content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Text alternatives ensure that non-text content is accessible to users, including those with visual impairments.",
+                            "points": 3,
+                            "explanation": "Correct! Text alternatives are crucial for ensuring accessibility by providing information for users who may not be able to perceive non-text content."
+                        }
+                    ]
+                },
+                {
+                    "id": "b13bf430-97ab-4c7c-9c07-8b7c93f81922",
+                    "question": "What is the purpose of the 'role' attribute in HTML?",
+                    "description": "Examine the role of the 'role' attribute in enhancing accessibility.",
+                    "hint": "Consider how it helps define the purpose of an element for assistive technologies.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It sets the background color of an element.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'role' is not used for styling but for defining the purpose of an element for assistive technologies."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It defines the visual appearance of an element.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'role' is not primarily for defining visual appearance but for accessibility purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It defines the purpose or role of an element for assistive technologies.",
+                            "points": 3,
+                            "explanation": "Correct! 'role' is used to define the purpose or role of an element, enhancing accessibility for assistive technologies."
+                        }
+                    ]
+                },
+                {
+                    "id": "f7a7cc20-cd08-4a16-b4ec-88bcf193c548",
+                    "question": "How does providing a text description for form elements improve accessibility?",
+                    "description": "Explore the impact of including descriptive text for form elements in web accessibility.",
+                    "hint": "Consider the needs of users who may rely on screen readers to navigate and understand forms.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Descriptive text for form elements has no impact on accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Descriptive text is crucial for users, especially those relying on screen readers, to understand and complete form fields."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Descriptive text helps in styling form elements for a better visual appearance.",
+                            "points": 0,
+                            "explanation": "Not accurate. The primary purpose of descriptive text for form elements is to improve accessibility, not visual appearance."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Descriptive text provides information about form elements, aiding users in understanding and completing forms.",
+                            "points": 3,
+                            "explanation": "Correct! Descriptive text for form elements is essential for accessibility, providing information to users, especially those using screen readers."
+                        }
+                    ]
+                },
+                {
+                    "id": "d5de5ad1-8751-49e8-bc13-2cb58e9a365e",
+                    "question": "What role does the 'tabindex' attribute play in making interactive elements accessible?",
+                    "description": "Examine the significance of the 'tabindex' attribute in improving accessibility for interactive elements.",
+                    "hint": "Consider how it affects the tab order and navigation of interactive elements.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'tabindex' attribute is irrelevant for interactive elements.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'tabindex' is crucial for specifying the tab order and making interactive elements accessible for keyboard navigation."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'tabindex' attribute only affects the visual appearance of interactive elements.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'tabindex' primarily affects the tab order and accessibility of interactive elements, not their visual appearance."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'tabindex' attribute is used to specify the tab order of interactive elements, making keyboard navigation more accessible.",
+                            "points": 3,
+                            "explanation": "Correct! 'tabindex' is used to specify the tab order of interactive elements, enhancing accessibility for keyboard navigation."
+                        }
+                    ]
+                },
+                {
+                    "id": "bc14eecd-c1bb-4ed2-a229-45f0ee2f8b10",
+                    "question": "Why is it important to test web accessibility with real users, including those with disabilities?",
+                    "description": "Examine the significance of user testing for ensuring web accessibility.",
+                    "hint": "Consider the diverse needs and experiences of users, especially those with disabilities.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "User testing is only relevant for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Incorrect. User testing, especially with users with disabilities, is crucial for identifying and addressing accessibility issues."
+                        },
+                        {
+                            "label": "B",
+                            "description": "User testing helps ensure that web content is accessible to a diverse audience, including those with disabilities.",
+                            "points": 3,
+                            "explanation": "Correct! User testing is essential for ensuring that web content meets the diverse needs of users, including those with disabilities."
+                        },
+                        {
+                            "label": "C",
+                            "description": "User testing is only necessary for large-scale websites.",
+                            "points": 0,
+                            "explanation": "Not accurate. User testing is valuable for websites of all sizes, as it helps uncover accessibility issues that might otherwise go unnoticed."
+                        }
+                    ]
+                },
+                {
+                    "id": "c9016d8c-19e1-42a3-b5a9-7d35e8a1d88b",
+                    "question": "Explain the importance of ARIA landmarks in web accessibility.",
+                    "description": "Explore the significance of ARIA landmarks in providing navigation cues for screen reader users.",
+                    "hint": "Consider how ARIA landmarks enhance the navigational experience for users with visual impairments.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "ARIA landmarks are only relevant for aesthetic purposes.",
+                            "points": 0,
+                            "explanation": "Incorrect. ARIA landmarks play a crucial role in providing navigation cues for screen reader users, enhancing accessibility."
+                        },
+                        {
+                            "label": "B",
+                            "description": "ARIA landmarks help define regions of a page, making it easier for screen reader users to navigate.",
+                            "points": 3,
+                            "explanation": "Correct! ARIA landmarks are used to define regions of a page, improving navigation for users with visual impairments."
+                        },
+                        {
+                            "label": "C",
+                            "description": "ARIA landmarks are only useful for touch screen devices.",
+                            "points": 0,
+                            "explanation": "Not accurate. ARIA landmarks benefit users with visual impairments and are not limited to specific device types."
+                        }
+                    ]
+                },
+                {
+                    "id": "eea67a34-7b8e-4428-a161-5d9d6cf62c34",
+                    "question": "How does the 'aria-live' attribute contribute to real-time updates for screen reader users?",
+                    "description": "Examine the role of the 'aria-live' attribute in enhancing accessibility for dynamic content.",
+                    "hint": "Consider scenarios where content is dynamically updated without requiring a page refresh.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "The 'aria-live' attribute is irrelevant for dynamic content.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'aria-live' is crucial for announcing real-time updates to screen reader users, especially for dynamically changing content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "The 'aria-live' attribute should only be used for static content.",
+                            "points": 0,
+                            "explanation": "Not accurate. 'aria-live' is specifically designed for dynamic content that changes without requiring a page refresh."
+                        },
+                        {
+                            "label": "C",
+                            "description": "The 'aria-live' attribute announces updates in real-time for screen reader users, making dynamic content accessible.",
+                            "points": 3,
+                            "explanation": "Correct! 'aria-live' is used to announce updates in real-time, ensuring accessibility for dynamic content."
+                        }
+                    ]
+                },
+                {
+                    "id": "a8c8dce1-8d32-4e53-8e95-3a418e0dd4b8",
+                    "question": "Examine the role of focus management in web accessibility.",
+                    "description": "Explore how proper focus management enhances the user experience for individuals with disabilities.",
+                    "hint": "Consider scenarios where users navigate a website using keyboard controls.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Focus management is only relevant for touch screen devices.",
+                            "points": 0,
+                            "explanation": "Incorrect. Focus management is crucial for users who navigate using keyboard controls, enhancing accessibility for various devices."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Focus management has no impact on web accessibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. Proper focus management is essential for ensuring a smooth and accessible user experience, especially for keyboard navigation."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Proper focus management ensures that keyboard and screen reader users can navigate and interact with content effectively.",
+                            "points": 3,
+                            "explanation": "Correct! Focus management is essential for facilitating effective navigation and interaction for users, particularly those relying on keyboard and screen reader navigation."
+                        }
+                    ]
+                },
+                {
+                    "id": "4b228236-977d-4f09-af24-30a8a49524f1",
+                    "question": "Why is it important to provide sufficient color contrast in web design for accessibility?",
+                    "description": "Examine the significance of color contrast in ensuring content is visually accessible to all users.",
+                    "hint": "Consider users with visual impairments who may have difficulty distinguishing certain colors.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Color contrast is only important for users with perfect vision.",
+                            "points": 0,
+                            "explanation": "Incorrect. Sufficient color contrast is crucial for users with visual impairments, ensuring content is legible and distinguishable."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Color contrast is irrelevant for web accessibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. Color contrast is a fundamental aspect of web accessibility, impacting the legibility of content for all users."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Providing sufficient color contrast ensures that content is visually accessible to users, including those with visual impairments.",
+                            "points": 3,
+                            "explanation": "Correct! Sufficient color contrast is essential for making content visually accessible to a diverse audience, including those with visual impairments."
+                        }
+                    ]
+                },
+                {
+                    "id": "b79f2cf7-e2cb-4a01-b268-6e54d52992b1",
+                    "question": "How can keyboard accessibility be enhanced in web forms?",
+                    "description": "Explore strategies for improving keyboard accessibility within web forms.",
+                    "hint": "Consider the needs of users who navigate and interact with forms using keyboard controls.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Keyboard accessibility is not relevant for web forms.",
+                            "points": 0,
+                            "explanation": "Incorrect. Keyboard accessibility is crucial for users who navigate and interact with web forms using keyboard controls."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Providing clear instructions in the form is sufficient for keyboard accessibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. While clear instructions are important, there are additional strategies to enhance keyboard accessibility in web forms."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Ensuring proper focus management, logical tab order, and accessible form controls enhances keyboard accessibility in web forms.",
+                            "points": 3,
+                            "explanation": "Correct! Proper focus management, logical tab order, and accessible form controls are key strategies for enhancing keyboard accessibility in web forms."
+                        }
+                    ]
+                },
+                {
+                    "id": "3ecf78f1-558a-4c02-a096-48c258d38d33",
+                    "question": "Examine the role of semantic HTML in improving accessibility.",
+                    "description": "Explore how using semantic HTML elements contributes to a more accessible web.",
+                    "hint": "Consider how semantic elements provide meaningful structure to content.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Semantic HTML has no impact on accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Semantic HTML plays a crucial role in improving accessibility by providing meaningful structure to content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Semantic HTML is only relevant for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Not accurate. Semantic HTML goes beyond visual design and is essential for providing structure and context for assistive technologies."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Using semantic HTML elements contributes to a more accessible web by providing meaningful structure and context for assistive technologies.",
+                            "points": 3,
+                            "explanation": "Correct! Semantic HTML is fundamental for accessibility as it provides meaningful structure and context for assistive technologies."
+                        }
+                    ]
+                },
+                {
+                    "id": "d53089d0-9166-46cf-aa9e-dc5e10ce43c3",
+                    "question": "How can accessible error messages improve the user experience for individuals with disabilities?",
+                    "description": "Explore the importance of providing accessible error messages in web forms.",
+                    "hint": "Consider users who may rely on screen readers or have other disabilities that impact their interaction with web forms.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Accessible error messages have no impact on the user experience.",
+                            "points": 0,
+                            "explanation": "Incorrect. Accessible error messages are crucial for providing clear information to users, especially those with disabilities."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Accessible error messages help in styling web forms for a better visual appearance.",
+                            "points": 0,
+                            "explanation": "Not accurate. The primary purpose of accessible error messages is to provide clear information and improve the user experience, not visual appearance."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Accessible error messages provide clear information and improve the user experience for individuals with disabilities.",
+                            "points": 3,
+                            "explanation": "Correct! Accessible error messages play a crucial role in providing clear information and enhancing the user experience, especially for individuals with disabilities."
+                        }
+                    ]
+                },
+                {
+                    "id": "07b8f557-4f4a-4c9d-a2dd-ff722466dfcd",
+                    "question": "Why is it important to ensure that form controls have visible labels for accessibility?",
+                    "description": "Examine the significance of visible labels for form controls in enhancing accessibility.",
+                    "hint": "Consider users who rely on screen readers or have cognitive disabilities.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Visible labels for form controls are only necessary for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Incorrect. Visible labels for form controls are essential for providing information to all users, including those with disabilities."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Visible labels are irrelevant for form controls in terms of accessibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. Visible labels are crucial for accessibility, providing information and context for users interacting with form controls."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Visible labels for form controls are important for providing information and enhancing accessibility, especially for users who rely on screen readers.",
+                            "points": 3,
+                            "explanation": "Correct! Visible labels are important for accessibility as they provide information and context, particularly for users who rely on screen readers."
+                        }
+                    ]
+                },
+                {
+                    "id": "72b70e88-d3a2-42c8-b22f-110125313824",
+                    "question": "How can semantic HTML tables contribute to accessibility?",
+                    "description": "Explore the role of semantic HTML tables in providing accessible data representation.",
+                    "hint": "Consider how screen reader users perceive and navigate tables.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Semantic HTML tables have no impact on accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Semantic HTML tables play a crucial role in providing meaningful data representation for accessibility."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Semantic HTML tables are only relevant for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Not accurate. Semantic HTML tables go beyond visual design and are essential for providing accessible data representation."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Using semantic HTML tables contributes to accessible data representation, providing meaningful structure for assistive technologies.",
+                            "points": 3,
+                            "explanation": "Correct! Semantic HTML tables are essential for accessibility as they provide meaningful structure for assistive technologies when interpreting data."
+                        }
+                    ]
+                },
+                {
+                    "id": "fd785982-9a43-4a23-a82e-6c7eeff3e39f",
+                    "question": "Why is it important to consider mobile accessibility in web design?",
+                    "description": "Examine the significance of ensuring web content is accessible on mobile devices.",
+                    "hint": "Consider the diverse ways users interact with web content on mobile devices.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Mobile accessibility is only relevant for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Incorrect. Mobile accessibility is crucial for ensuring a positive user experience for individuals accessing web content on mobile devices."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Mobile accessibility is irrelevant as users can always switch to desktop view.",
+                            "points": 0,
+                            "explanation": "Not accurate. Mobile accessibility is essential, and users should not be required to switch to desktop view for an accessible experience."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Considering mobile accessibility is important for providing an inclusive user experience, accommodating diverse ways users interact with web content on mobile devices.",
+                            "points": 3,
+                            "explanation": "Correct! Mobile accessibility is crucial for providing an inclusive user experience, considering the various ways users interact with web content on mobile devices."
+                        }
+                    ]
+                },
+                {
+                    "id": "fb9d5f62-c82b-4e6f-9e89-3c5d24a2c1f7",
+                    "question": "Explain the concept of keyboard traps in web accessibility.",
+                    "description": "Explore the challenges posed by keyboard traps and their impact on user navigation.",
+                    "hint": "Consider scenarios where users may become stuck in a particular focus state without the ability to navigate away using the keyboard.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Keyboard traps are not a concern in web accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Keyboard traps can be a significant accessibility concern, impacting users who navigate using keyboards."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Keyboard traps only affect users with certain types of disabilities.",
+                            "points": 0,
+                            "explanation": "Not accurate. Keyboard traps can affect a broad range of users who rely on keyboard navigation, regardless of disability type."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Keyboard traps occur when focus becomes trapped within a particular element, hindering users' ability to navigate away using the keyboard.",
+                            "points": 3,
+                            "explanation": "Correct! Keyboard traps can occur when focus becomes trapped, posing a challenge for users who navigate using keyboards."
+                        }
+                    ]
+                },
+                {
+                    "id": "ba5b1087-92f1-4ea4-b7c7-1043c7b176df",
+                    "question": "Examine the importance of providing alternative content for complex interactive elements.",
+                    "description": "Explore the challenges posed by complex interactive elements and the need for alternative content for accessibility.",
+                    "hint": "Consider users who may not be able to interact with or understand complex interactive elements.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Providing alternative content for complex interactive elements is optional.",
+                            "points": 0,
+                            "explanation": "Incorrect. Providing alternative content is essential for ensuring accessibility, especially for users who may not interact with complex elements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Complex interactive elements do not pose challenges for accessibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. Complex interactive elements can pose challenges for users with disabilities, emphasizing the need for alternative content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Providing alternative content for complex interactive elements ensures that users with disabilities can access and understand the content.",
+                            "points": 3,
+                            "explanation": "Correct! Alternative content is crucial for making complex interactive elements accessible to users with disabilities who may not interact with the elements in the same way."
+                        }
+                    ]
+                },
+                {
+                    "id": "047c066e-e774-4a24-9eaf-2fbb95a2e8f5",
+                    "question": "Examine the challenges posed by CAPTCHA in web accessibility.",
+                    "description": "Explore the accessibility challenges associated with CAPTCHA and potential alternatives.",
+                    "hint": "Consider users with visual impairments or cognitive disabilities who may find traditional CAPTCHAs difficult to solve.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "CAPTCHAs pose no challenges for web accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Traditional CAPTCHAs can pose significant challenges for users with disabilities, particularly those with visual impairments or cognitive disabilities."
+                        },
+                        {
+                            "label": "B",
+                            "description": "CAPTCHAs are essential for security and can be ignored in terms of accessibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. While security is important, considering accessible alternatives to traditional CAPTCHAs is crucial for inclusive web design."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Traditional CAPTCHAs can be challenging for users with disabilities, and accessible alternatives should be considered to ensure inclusivity.",
+                            "points": 3,
+                            "explanation": "Correct! Traditional CAPTCHAs can pose challenges for users with disabilities, and it's important to explore accessible alternatives to ensure inclusivity."
+                        }
+                    ]
+                },
+                {
+                    "id": "dc6b3995-6f92-4d99-8e69-b08d058c6753",
+                    "question": "Examine the role of focus visible styles in enhancing keyboard navigation.",
+                    "description": "Explore the significance of ensuring focus visible styles for interactive elements in web accessibility.",
+                    "hint": "Consider users who navigate using keyboards and rely on visible focus indicators.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Focus visible styles are irrelevant for keyboard navigation.",
+                            "points": 0,
+                            "explanation": "Incorrect. Focus visible styles are crucial for users who navigate using keyboards, providing a clear indication of the focused element."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Visible focus indicators are only necessary for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Not accurate. Visible focus indicators serve a functional purpose, aiding users who navigate using keyboards."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Ensuring focus visible styles for interactive elements is essential for keyboard navigation and improves the overall accessibility of a website.",
+                            "points": 3,
+                            "explanation": "Correct! Focus visible styles are crucial for keyboard navigation, enhancing accessibility by providing a visible indicator of the focused element."
+                        }
+                    ]
+                },
+                {
+                    "id": "c1845e57-8873-4a9b-afbf-e0963dd36ea0",
+                    "question": "Examine the challenges associated with automatically playing audio and video on a website.",
+                    "description": "Explore the accessibility challenges posed by autoplaying multimedia content and potential considerations.",
+                    "hint": "Consider users who may be sensitive to audio, users with cognitive disabilities, and those with limited bandwidth.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Autoplaying multimedia content poses no accessibility challenges.",
+                            "points": 0,
+                            "explanation": "Incorrect. Autoplaying content can pose accessibility challenges, particularly for users who may find it disruptive or have specific sensitivities."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Autoplaying multimedia is essential for user engagement and can be ignored in terms of accessibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. While engagement is important, considering user preferences and providing controls is crucial for accessibility."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Autoplaying multimedia content can be disruptive for users, and providing user controls and alternatives is important for accessibility.",
+                            "points": 3,
+                            "explanation": "Correct! Autoplaying multimedia can be disruptive, and providing user controls and alternatives is crucial for accommodating diverse user needs and preferences."
+                        }
+                    ]
+                },
+                {
+                    "id": "7e5a1e71-d2f9-4150-a6d3-c13a33d1c328",
+                    "question": "Why is it important to consider cognitive accessibility in web design?",
+                    "description": "Examine the significance of addressing cognitive accessibility for a more inclusive web design.",
+                    "hint": "Consider users who may have difficulty processing information or may experience cognitive challenges.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Cognitive accessibility is only relevant for a small minority of users.",
+                            "points": 0,
+                            "explanation": "Incorrect. Cognitive accessibility is important for a broad range of users who may experience challenges in processing information."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Cognitive accessibility has no impact on user experience.",
+                            "points": 0,
+                            "explanation": "Not accurate. Cognitive accessibility significantly impacts the user experience, and addressing it is crucial for inclusivity."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Considering cognitive accessibility is important for creating a more inclusive web design, accommodating users with diverse cognitive abilities.",
+                            "points": 3,
+                            "explanation": "Correct! Addressing cognitive accessibility is crucial for creating a more inclusive web design that accommodates users with diverse cognitive abilities."
+                        }
+                    ]
+                },
+                {
+                    "id": "9e4da4b0-6f1b-4b6a-9dd2-1d5de39e390c",
+                    "question": "Examine the role of skip navigation links in web accessibility.",
+                    "description": "Explore how skip navigation links contribute to a more accessible user experience.",
+                    "hint": "Consider users who navigate using screen readers and may benefit from skipping repetitive content.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Skip navigation links are irrelevant for web accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Skip navigation links play a crucial role in improving accessibility for users who navigate using screen readers."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Skip navigation links are only necessary for extremely long web pages.",
+                            "points": 0,
+                            "explanation": "Not accurate. Skip navigation links are beneficial for various users, especially those who use screen readers and need to skip repetitive content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Skip navigation links improve the accessibility of a website by allowing users to skip repetitive content and navigate more efficiently.",
+                            "points": 3,
+                            "explanation": "Correct! Skip navigation links enhance accessibility by allowing users to skip repetitive content and navigate more efficiently, particularly when using screen readers."
+                        }
+                    ]
+                },
+                {
+                    "id": "e7f7cb2d-b134-4f5b-982d-28215487f476",
+                    "question": "Why is it important to provide text alternatives for non-text content in web accessibility?",
+                    "description": "Examine the significance of providing descriptive text alternatives for images and other non-text content.",
+                    "hint": "Consider users who rely on screen readers and those who may have difficulty interpreting non-text content.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Text alternatives for non-text content are optional and don't impact accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Text alternatives for non-text content are essential for providing information to users who rely on screen readers or may have difficulty interpreting visual content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Providing text alternatives is only necessary for images and not for other non-text content.",
+                            "points": 0,
+                            "explanation": "Not accurate. Text alternatives are important for all non-text content, including audio and video elements."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Providing descriptive text alternatives for non-text content is crucial for accessibility, ensuring that all users can access and understand the content.",
+                            "points": 3,
+                            "explanation": "Correct! Descriptive text alternatives for non-text content are crucial for accessibility, enabling users, including those who rely on screen readers, to access and understand the content."
+                        }
+                    ]
+                },
+                {
+                    "id": "42de4d7d-76b1-4eb2-bc1d-6cfa7bc6e6d5",
+                    "question": "Examine the challenges associated with tooltips in web accessibility.",
+                    "description": "Explore the potential challenges posed by tooltips and considerations for improving accessibility.",
+                    "hint": "Consider users who may not interact with content using a mouse or have difficulty perceiving tooltips.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Tooltips pose no challenges for web accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Tooltips can pose challenges, especially for users who may not interact with content using a mouse or have difficulty perceiving tooltips."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Tooltips are not important for web accessibility.",
+                            "points": 0,
+                            "explanation": "Not accurate. Tooltips can be important, and addressing accessibility challenges associated with them is crucial for inclusivity."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Considerations for keyboard and screen reader users are important to address the challenges associated with tooltips in web accessibility.",
+                            "points": 3,
+                            "explanation": "Correct! Addressing considerations for keyboard and screen reader users is crucial to overcome challenges associated with tooltips in web accessibility."
+                        }
+                    ]
+                },
+                {
+                    "id": "16d6d8f2-fad8-47da-8b0c-2a905791c3d1",
+                    "question": "Examine the challenges associated with responsive design in the context of web accessibility.",
+                    "description": "Explore the challenges posed by responsive design and considerations for ensuring accessibility on diverse devices.",
+                    "hint": "Consider users who access web content on various devices with different screen sizes and capabilities.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Responsive design has no impact on web accessibility.",
+                            "points": 0,
+                            "explanation": "Incorrect. Responsive design can impact accessibility, and considerations for diverse devices are essential for inclusivity."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Responsive design is only relevant for visual design purposes.",
+                            "points": 0,
+                            "explanation": "Not accurate. Responsive design goes beyond visual design and is important for ensuring a positive user experience on diverse devices."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Challenges associated with responsive design can be addressed to ensure web accessibility on diverse devices, considering factors such as navigation, readability, and interaction methods.",
+                            "points": 3,
+                            "explanation": "Correct! Addressing challenges associated with responsive design is crucial for ensuring web accessibility on diverse devices, taking into account factors such as navigation, readability, and interaction methods."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

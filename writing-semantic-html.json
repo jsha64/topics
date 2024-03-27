@@ -1,0 +1,1394 @@
+{
+    "skill": {
+        "writingSemanticHtml": {
+            "id": "writing-semantic-html",
+            "description": "Semantic element clearly describes its meaning to both the browser and the developer. In HTML, semantic element are the type of elements that can be used to define different parts of a web page such as <form>, <table>, <article>, <header>, <footer>, etc.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Guide to Writing Semantic HTML",
+                    "link": "https://cs.fyi/guide/writing-semantic-html"
+                },
+                {
+                    "name": "W3Schools: Semantic HTML",
+                    "link": "https://www.w3schools.com/html/html5_semantic_elements.asp"
+                },
+                {
+                    "name": "How To Write Semantic HTML",
+                    "link": "https://hackernoon.com/how-to-write-semantic-html-dkq3ulo"
+                },
+                {
+                    "name": "HTML Best Practices - How to Build a Better HTML-Based Website",
+                    "link": "https://www.freecodecamp.org/news/html-best-practices/"
+                },
+                {
+                    "name": "Semantic HTML: What It Is and How It Improves Your Site",
+                    "link": "https://blog.hubspot.com/website/semantic-html"
+                },
+                {
+                    "name": "Semantic Markup",
+                    "link": "https://html.com/semantic-markup"
+                },
+                {
+                    "name": "Semantic HTML - web.dev",
+                    "link": "https://web.dev/learn/html/semantic-html/"
+                }
+            ],
+            "parents": [
+                "html"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "e8d56b3a-0652-4e2a-a5f7-53da0751e16f",
+                    "question": "What does the HTML <main> tag represent?",
+                    "description": "Understand the purpose of the HTML <main> tag in marking the main content of a document.",
+                    "hint": "Consider the element used for marking the main content of a document in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <main> tag is not used for creating hyperlinks; its purpose is to mark the main content of a document."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <main> tag is not used for indicating superscript text; its purpose is to mark the main content of a document."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark the main content of a document.",
+                            "points": 3,
+                            "explanation": "Correct! The <main> tag is used to mark the main content of a document in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "41a86415-2da2-4c6d-b7c4-694ee0c39f0c",
+                    "question": "What is the purpose of the HTML <article> tag?",
+                    "description": "Understand the role of the HTML <article> tag in marking up independent, self-contained content.",
+                    "hint": "Consider the element used for marking up content that can be distributed and reused independently.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To define a block of text from another source.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <article> tag is not used for defining blocks of text from another source; its purpose is to mark up independent, self-contained content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <article> tag is not used for indicating superscript text; its purpose is to mark up independent, self-contained content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark up independent, self-contained content.",
+                            "points": 3,
+                            "explanation": "Correct! The <article> tag is used to mark up content that can be distributed and reused independently in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "2d6d9c5a-1b68-4881-9f91-82c0d96a64d1",
+                    "question": "What does the HTML <header> tag represent?",
+                    "description": "Understand the purpose of the HTML <header> tag in marking the header of a document or section.",
+                    "hint": "Consider the element used for marking the header of a document or section in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To define a block of text from another source.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <header> tag is not used for defining blocks of text from another source; its purpose is to mark the header of a document or section."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <header> tag is not used for indicating superscript text; its purpose is to mark the header of a document or section."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark the header of a document or section.",
+                            "points": 3,
+                            "explanation": "Correct! The <header> tag is used to mark the header of a document or section in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "acbcf328-5c7d-41a2-8d44-eb6da7bf9462",
+                    "question": "What is the purpose of the HTML <nav> tag?",
+                    "description": "Understand the role of the HTML <nav> tag in marking a section for navigation links.",
+                    "hint": "Consider the element used for marking a section that contains navigation links in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <nav> tag is not used for creating hyperlinks; its purpose is to mark a section for navigation links."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To define a block of text from another source.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <nav> tag is not used for defining blocks of text from another source; its purpose is to mark a section for navigation links."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark a section for navigation links.",
+                            "points": 3,
+                            "explanation": "Correct! The <nav> tag is used to mark a section that contains navigation links in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "efb3b95f-9b80-4a48-8d4e-cd3d725d4db5",
+                    "question": "What does the HTML <section> tag represent?",
+                    "description": "Understand the purpose of the HTML <section> tag in marking a generic section of a document.",
+                    "hint": "Consider the element used for marking a generic section of a document in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To define a block of text from another source.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <section> tag is not used for defining blocks of text from another source; its purpose is to mark a generic section of a document."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <section> tag is not used for indicating superscript text; its purpose is to mark a generic section of a document."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark a generic section of a document.",
+                            "points": 3,
+                            "explanation": "Correct! The <section> tag is used to mark a generic section of a document in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "2bf002fc-3404-4212-8cf9-dcd4df303cc1",
+                    "question": "What is the purpose of the HTML <aside> tag?",
+                    "description": "Understand the role of the HTML <aside> tag in marking content that is related but outside the main content flow.",
+                    "hint": "Consider the element used for marking content that is related but outside the main content flow in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <aside> tag is not used for creating hyperlinks; its purpose is to mark content that is related but outside the main content flow."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <aside> tag is not used for indicating superscript text; its purpose is to mark content that is related but outside the main content flow."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark content that is related but outside the main content flow.",
+                            "points": 3,
+                            "explanation": "Correct! The <aside> tag is used to mark content that is related but outside the main content flow in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "25a8c80b-d5c9-4f88-9d8a-8ff8c732ab25",
+                    "question": "What does the HTML <footer> tag represent?",
+                    "description": "Understand the purpose of the HTML <footer> tag in marking the footer of a document or section.",
+                    "hint": "Consider the element used for marking the footer of a document or section in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To define a block of text from another source.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <footer> tag is not used for defining blocks of text from another source; its purpose is to mark the footer of a document or section."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <footer> tag is not used for indicating superscript text; its purpose is to mark the footer of a document or section."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark the footer of a document or section.",
+                            "points": 3,
+                            "explanation": "Correct! The <footer> tag is used to mark the footer of a document or section in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "96c2eb43-12dd-4e94-b52c-3ebc2a20bc7f",
+                    "question": "What is the purpose of the HTML <figure> tag?",
+                    "description": "Understand the role of the HTML <figure> tag in marking any content that is referenced from the main content.",
+                    "hint": "Consider the element used for marking content, such as images or diagrams, that is referenced from the main content in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <figure> tag is not used for creating hyperlinks; its purpose is to mark content that is referenced from the main content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <figure> tag is not used for indicating superscript text; its purpose is to mark content that is referenced from the main content."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark content that is referenced from the main content.",
+                            "points": 3,
+                            "explanation": "Correct! The <figure> tag is used to mark any content, such as images or diagrams, that is referenced from the main content in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "e31641d0-2385-4d41-b978-88b64898fc27",
+                    "question": "What does the HTML <time> tag represent?",
+                    "description": "Understand the purpose of the HTML <time> tag in marking a specific period in time.",
+                    "hint": "Consider the element used for marking a specific period in time in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To define a block of text from another source.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <time> tag is not used for defining blocks of text from another source; its purpose is to mark a specific period in time."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <time> tag is not used for creating hyperlinks; its purpose is to mark a specific period in time."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark a specific period in time.",
+                            "points": 3,
+                            "explanation": "Correct! The <time> tag is used to mark a specific period in time in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "a2f42d56-20da-4d6a-982a-1a2dd081f3ea",
+                    "question": "What is the purpose of the HTML <mark> tag?",
+                    "description": "Understand the role of the HTML <mark> tag in marking text that should be highlighted or marked.",
+                    "hint": "Consider the element used for marking text that should be highlighted or marked in HTML.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <mark> tag is not used for creating hyperlinks; its purpose is to mark text that should be highlighted or marked."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To define a block of text from another source.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <mark> tag is not used for defining blocks of text from another source; its purpose is to mark text that should be highlighted or marked."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark text that should be highlighted or marked.",
+                            "points": 3,
+                            "explanation": "Correct! The <mark> tag is used to mark text that should be highlighted or marked in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "7864932e-3660-447c-8ad7-1efc21e99f54",
+                    "question": "What is the purpose of the HTML <abbr> tag?",
+                    "description": "Understand the role of the HTML <abbr> tag in marking an abbreviation or acronym.",
+                    "hint": "Consider the element used for marking an abbreviation or acronym in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <abbr> tag is not used for indicating superscript text; its purpose is to mark an abbreviation or acronym."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <abbr> tag is not used for creating hyperlinks; its purpose is to mark an abbreviation or acronym."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark an abbreviation or acronym.",
+                            "points": 2,
+                            "explanation": "Correct! The <abbr> tag is used to mark an abbreviation or acronym in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "c8766e6f-4ec8-49e1-9094-0925f49b6d86",
+                    "question": "What is the purpose of the HTML <kbd> tag?",
+                    "description": "Understand the role of the HTML <kbd> tag in marking text that represents user input.",
+                    "hint": "Consider the element used for marking text that represents user input in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text representing user input.",
+                            "points": 2,
+                            "explanation": "Correct! The <kbd> tag is used to mark text representing user input in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text that should be rendered smaller.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <kbd> tag is not used for marking text that should be rendered smaller; its purpose is to mark text representing user input."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <kbd> tag is not used for creating hyperlinks; its purpose is to mark text representing user input."
+                        }
+                    ]
+                },
+                {
+                    "id": "d5dd246a-5713-4d07-8d61-5ee7ec4eb2a2",
+                    "question": "What does the HTML <samp> tag represent?",
+                    "description": "Understand the purpose of the HTML <samp> tag in marking text that represents output from a program or script.",
+                    "hint": "Consider the element used for marking text that represents output from a program or script in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text representing program or script output.",
+                            "points": 2,
+                            "explanation": "Correct! The <samp> tag is used to mark text representing output from a program or script in HTML."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text that should be emphasized.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <samp> tag is not used for marking text that should be emphasized; its purpose is to mark text representing program or script output."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <samp> tag is not used for creating hyperlinks; its purpose is to mark text representing program or script output."
+                        }
+                    ]
+                },
+                {
+                    "id": "5d327d87-42fc-4f72-9349-6e164550232b",
+                    "question": "What is the purpose of the HTML <time> tag?",
+                    "description": "Understand the role of the HTML <time> tag in marking a specific period in time.",
+                    "hint": "Consider the element used for marking a specific period in time in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <time> tag is not used for creating hyperlinks; its purpose is to mark a specific period in time."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark a specific period in time.",
+                            "points": 2,
+                            "explanation": "Correct! The <time> tag is used to mark a specific period in time in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <time> tag is not used for indicating superscript text; its purpose is to mark a specific period in time."
+                        }
+                    ]
+                },
+                {
+                    "id": "6c3f204a-6d7c-4a4c-9da0-7aeb07dd2f66",
+                    "question": "What does the HTML <var> tag represent?",
+                    "description": "Understand the purpose of the HTML <var> tag in marking a variable in computer programming.",
+                    "hint": "Consider the element used for marking a variable in computer programming in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text representing program or script output.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <var> tag is not used for marking text representing program or script output; its purpose is to mark a variable in computer programming."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark a variable in computer programming.",
+                            "points": 2,
+                            "explanation": "Correct! The <var> tag is used to mark a variable in computer programming in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <var> tag is not used for creating hyperlinks; its purpose is to mark a variable in computer programming."
+                        }
+                    ]
+                },
+                {
+                    "id": "dbb62296-2b7e-4c98-9ee9-eb189ae8f1b1",
+                    "question": "What is the purpose of the HTML <mark> tag?",
+                    "description": "Understand the role of the HTML <mark> tag in marking text that should be highlighted or marked.",
+                    "hint": "Consider the element used for marking text that should be highlighted or marked in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <mark> tag is not used for creating hyperlinks; its purpose is to mark text that should be highlighted or marked."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text representing program or script output.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <mark> tag is not used for marking text representing program or script output; its purpose is to mark text that should be highlighted or marked."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark text that should be highlighted or marked.",
+                            "points": 2,
+                            "explanation": "Correct! The <mark> tag is used to mark text that should be highlighted or marked in HTML."
+                        }
+                    ]
+                },
+                {
+                    "id": "f6038dc6-71cd-46bd-b878-8b34112d60f6",
+                    "question": "What does the HTML <bdi> tag represent?",
+                    "description": "Understand the purpose of the HTML <bdi> tag in isolating a part of text that might be formatted in a different direction from other text outside it.",
+                    "hint": "Consider the element used for isolating a part of text that might be formatted in a different direction in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that should be rendered smaller.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <bdi> tag is not used for marking text that should be rendered smaller; its purpose is to isolate text that might be formatted differently."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To isolate text that might be formatted differently.",
+                            "points": 2,
+                            "explanation": "Correct! The <bdi> tag is used to isolate a part of text that might be formatted differently from other text outside it in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To indicate superscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <bdi> tag is not used for indicating superscript text; its purpose is to isolate text that might be formatted differently."
+                        }
+                    ]
+                },
+                {
+                    "id": "1c3735e5-73cc-44c3-84e5-f29eb15cf91f",
+                    "question": "What does the HTML <wbr> tag represent?",
+                    "description": "Understand the purpose of the HTML <wbr> tag in specifying a word break opportunity within a word.",
+                    "hint": "Consider the element used for specifying a word break opportunity within a word in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that should be emphasized.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <wbr> tag is not used for marking text that should be emphasized; its purpose is to specify a word break opportunity within a word."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To specify a word break opportunity within a word.",
+                            "points": 2,
+                            "explanation": "Correct! The <wbr> tag is used to specify a word break opportunity within a word in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <wbr> tag is not used for creating hyperlinks; its purpose is to specify a word break opportunity within a word."
+                        }
+                    ]
+                },
+                {
+                    "id": "22845a4d-5fdd-43ac-a457-3d5d93f36d3f",
+                    "question": "What is the purpose of the HTML <bdo> tag?",
+                    "description": "Understand the role of the HTML <bdo> tag in specifying the direction of the text.",
+                    "hint": "Consider the element used for specifying the direction of the text in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <bdo> tag is not used for creating hyperlinks; its purpose is to specify the direction of the text."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To specify the direction of the text.",
+                            "points": 2,
+                            "explanation": "Correct! The <bdo> tag is used to specify the direction of the text in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To mark text that should be rendered smaller.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <bdo> tag is not used for marking text that should be rendered smaller; its purpose is to specify the direction of the text."
+                        }
+                    ]
+                },
+                {
+                    "id": "0dcc6cad-f227-48a5-aee6-90183ad3d702",
+                    "question": "What does the HTML <s> tag represent?",
+                    "description": "Understand the purpose of the HTML <s> tag in marking text that is no longer accurate or relevant.",
+                    "hint": "Consider the element used for marking text that is no longer accurate or relevant in HTML.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that should be emphasized.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <s> tag is not used for marking text that should be emphasized; its purpose is to mark text that is no longer accurate or relevant."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text that is no longer accurate or relevant.",
+                            "points": 2,
+                            "explanation": "Correct! The <s> tag is used to mark text that is no longer accurate or relevant in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <s> tag is not used for creating hyperlinks; its purpose is to mark text that is no longer accurate or relevant."
+                        }
+                    ]
+                },
+                {
+                    "id": "1a0f4342-d10c-4654-b573-faa830dbac85",
+                    "question": "What does the HTML <meter> tag represent?",
+                    "description": "Understand the purpose of the HTML <meter> tag in representing a scalar measurement within a known range.",
+                    "hint": "Consider the element used for representing a scalar measurement within a known range in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that should be rendered smaller.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <meter> tag is not used for marking text that should be rendered smaller; its purpose is to represent a scalar measurement within a known range."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To represent a scalar measurement within a known range.",
+                            "points": 3,
+                            "explanation": "Correct! The <meter> tag is used to represent a scalar measurement within a known range in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <meter> tag is not used for creating hyperlinks; its purpose is to represent a scalar measurement within a known range."
+                        }
+                    ]
+                },
+                {
+                    "id": "729af97a-71b0-4dd5-ab1f-7837553ff485",
+                    "question": "What is the purpose of the HTML <code> tag?",
+                    "description": "Understand the role of the HTML <code> tag in marking text that represents a short piece of code.",
+                    "hint": "Consider the element used for marking text that represents a short piece of code in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that should be emphasized.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <code> tag is not used for marking text that should be emphasized; its purpose is to mark text that represents a short piece of code."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text that represents a short piece of code.",
+                            "points": 3,
+                            "explanation": "Correct! The <code> tag is used to mark text that represents a short piece of code in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <code> tag is not used for creating hyperlinks; its purpose is to mark text that represents a short piece of code."
+                        }
+                    ]
+                },
+                {
+                    "id": "e344be1f-e846-47c4-a181-3d1c128ad3ff",
+                    "question": "What does the HTML <figcaption> tag represent?",
+                    "description": "Understand the purpose of the HTML <figcaption> tag in representing a caption or legend for a <figure> element.",
+                    "hint": "Consider the element used for representing a caption or legend for a <figure> element in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To represent a scalar measurement within a known range.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <figcaption> tag is not used for representing a scalar measurement within a known range; its purpose is to represent a caption or legend for a <figure> element."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To represent a caption or legend for a <figure> element.",
+                            "points": 3,
+                            "explanation": "Correct! The <figcaption> tag is used to represent a caption or legend for a <figure> element in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <figcaption> tag is not used for creating hyperlinks; its purpose is to represent a caption or legend for a <figure> element."
+                        }
+                    ]
+                },
+                {
+                    "id": "bedc14bd-c192-4529-bf07-24f8369426cb",
+                    "question": "What is the purpose of the HTML <address> tag?",
+                    "description": "Understand the role of the HTML <address> tag in representing contact information for the nearest <article> or <body> ancestor.",
+                    "hint": "Consider the element used for representing contact information for the nearest <article> or <body> ancestor in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To represent a caption or legend for a <figure> element.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <address> tag is not used for representing a caption or legend for a <figure> element; its purpose is to represent contact information for the nearest <article> or <body> ancestor."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To represent contact information for the nearest <article> or <body> ancestor.",
+                            "points": 3,
+                            "explanation": "Correct! The <address> tag is used to represent contact information for the nearest <article> or <body> ancestor in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <address> tag is not used for creating hyperlinks; its purpose is to represent contact information for the nearest <article> or <body> ancestor."
+                        }
+                    ]
+                },
+                {
+                    "id": "9d00e5b4-6aef-44a9-bf55-865071b78a32",
+                    "question": "What does the HTML <samp> tag represent?",
+                    "description": "Understand the purpose of the HTML <samp> tag in marking text that represents output from a program or script.",
+                    "hint": "Consider the element used for marking text that represents output from a program or script in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that should be rendered smaller.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <samp> tag is not used for marking text that should be rendered smaller; its purpose is to mark text representing output from a program or script."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text representing output from a program or script.",
+                            "points": 3,
+                            "explanation": "Correct! The <samp> tag is used to mark text representing output from a program or script in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <samp> tag is not used for creating hyperlinks; its purpose is to mark text representing output from a program or script."
+                        }
+                    ]
+                },
+                {
+                    "id": "89b5a085-6bdf-46be-aa31-b97228600de8",
+                    "question": "What is the purpose of the HTML <sub> tag?",
+                    "description": "Understand the role of the HTML <sub> tag in marking subscript text.",
+                    "hint": "Consider the element used for marking subscript text in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To represent contact information for the nearest <article> or <body> ancestor.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <sub> tag is not used for representing contact information for the nearest <article> or <body> ancestor; its purpose is to mark subscript text."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark subscript text.",
+                            "points": 3,
+                            "explanation": "Correct! The <sub> tag is used to mark subscript text in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <sub> tag is not used for creating hyperlinks; its purpose is to mark subscript text."
+                        }
+                    ]
+                },
+                {
+                    "id": "cbb04bda-a43c-429e-aec8-de2d512069cc",
+                    "question": "What does the HTML <u> tag represent?",
+                    "description": "Understand the purpose of the HTML <u> tag in marking text that should be underlined.",
+                    "hint": "Consider the element used for marking text that should be underlined in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark subscript text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <u> tag is not used for marking subscript text; its purpose is to mark text that should be underlined."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text that should be underlined.",
+                            "points": 3,
+                            "explanation": "Correct! The <u> tag is used to mark text that should be underlined in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <u> tag is not used for creating hyperlinks; its purpose is to mark text that should be underlined."
+                        }
+                    ]
+                },
+                {
+                    "id": "5190de0f-af04-462d-a6bf-bfb9e2b73474",
+                    "question": "What is the purpose of the HTML <ins> tag?",
+                    "description": "Understand the role of the HTML <ins> tag in marking text that has been inserted into a document.",
+                    "hint": "Consider the element used for marking text that has been inserted into a document in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that should be underlined.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <ins> tag is not used for marking text that should be underlined; its purpose is to mark text that has been inserted into a document."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text that has been inserted into a document.",
+                            "points": 3,
+                            "explanation": "Correct! The <ins> tag is used to mark text that has been inserted into a document in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <ins> tag is not used for creating hyperlinks; its purpose is to mark text that has been inserted into a document."
+                        }
+                    ]
+                },
+                {
+                    "id": "364524e8-6ddb-4a6f-bd30-95216179c9ba",
+                    "question": "What does the HTML <abbr> tag represent?",
+                    "description": "Understand the purpose of the HTML <abbr> tag in marking an abbreviation or acronym.",
+                    "hint": "Consider the element used for marking an abbreviation or acronym in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that has been inserted into a document.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <abbr> tag is not used for marking text that has been inserted into a document; its purpose is to mark an abbreviation or acronym."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark an abbreviation or acronym.",
+                            "points": 3,
+                            "explanation": "Correct! The <abbr> tag is used to mark an abbreviation or acronym in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <abbr> tag is not used for creating hyperlinks; its purpose is to mark an abbreviation or acronym."
+                        }
+                    ]
+                },
+                {
+                    "id": "095034e0-47ee-4aa0-bada-b26be83c6146",
+                    "question": "What is the purpose of the HTML <cite> tag?",
+                    "description": "Understand the role of the HTML <cite> tag in marking the title of a creative work.",
+                    "hint": "Consider the element used for marking the title of a creative work in HTML.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark an abbreviation or acronym.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <cite> tag is not used for marking an abbreviation or acronym; its purpose is to mark the title of a creative work."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark the title of a creative work.",
+                            "points": 3,
+                            "explanation": "Correct! The <cite> tag is used to mark the title of a creative work in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <cite> tag is not used for creating hyperlinks; its purpose is to mark the title of a creative work."
+                        }
+                    ]
+                },
+                {
+                    "id": "3d9840bc-a5d6-477e-a2b6-0137655972f3",
+                    "question": "What is the purpose of the HTML <time> tag?",
+                    "description": "Understand the role of the HTML <time> tag in representing a specific period in time or a range of time.",
+                    "hint": "Consider the element used for representing a specific period in time or a range of time in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To represent a scalar measurement within a known range.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <time> tag is not used for representing a scalar measurement within a known range; its purpose is to represent a specific period in time or a range of time."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To represent a specific period in time or a range of time.",
+                            "points": 3,
+                            "explanation": "Correct! The <time> tag is used to represent a specific period in time or a range of time in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <time> tag is not used for creating hyperlinks; its purpose is to represent a specific period in time or a range of time."
+                        }
+                    ]
+                },
+                {
+                    "id": "1430b164-a320-4ff9-a5a6-9310537ed652",
+                    "question": "What does the HTML <mark> tag represent?",
+                    "description": "Understand the purpose of the HTML <mark> tag in highlighting or marking portions of text.",
+                    "hint": "Consider the element used for highlighting or marking portions of text in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To represent a specific period in time or a range of time.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <mark> tag is not used for representing a specific period in time or a range of time; its purpose is to highlight or mark portions of text."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To highlight or mark portions of text.",
+                            "points": 3,
+                            "explanation": "Correct! The <mark> tag is used to highlight or mark portions of text in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <mark> tag is not used for creating hyperlinks; its purpose is to highlight or mark portions of text."
+                        }
+                    ]
+                },
+                {
+                    "id": "e5d385ff-81e6-41de-af4f-1c010aa2c427",
+                    "question": "What is the purpose of the HTML <pre> tag?",
+                    "description": "Understand the role of the HTML <pre> tag in preserving both spaces and line breaks.",
+                    "hint": "Consider the element used for preserving both spaces and line breaks in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To highlight or mark portions of text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <pre> tag is not used for highlighting or marking portions of text; its purpose is to preserve both spaces and line breaks."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To preserve both spaces and line breaks.",
+                            "points": 3,
+                            "explanation": "Correct! The <pre> tag is used to preserve both spaces and line breaks in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <pre> tag is not used for creating hyperlinks; its purpose is to preserve both spaces and line breaks."
+                        }
+                    ]
+                },
+                {
+                    "id": "10ba2d78-a344-4f48-9058-c3d9d394b913",
+                    "question": "What does the HTML <var> tag represent?",
+                    "description": "Understand the purpose of the HTML <var> tag in marking the name of a variable.",
+                    "hint": "Consider the element used for marking the name of a variable in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To preserve both spaces and line breaks.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <var> tag is not used for preserving both spaces and line breaks; its purpose is to mark the name of a variable."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark the name of a variable.",
+                            "points": 3,
+                            "explanation": "Correct! The <var> tag is used to mark the name of a variable in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <var> tag is not used for creating hyperlinks; its purpose is to mark the name of a variable."
+                        }
+                    ]
+                },
+                {
+                    "id": "c6fa781f-b3b3-42ab-8a41-9c383d9cd42d",
+                    "question": "What is the purpose of the HTML <kbd> tag?",
+                    "description": "Understand the role of the HTML <kbd> tag in marking text that represents user input.",
+                    "hint": "Consider the element used for marking text that represents user input in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark the name of a variable.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <kbd> tag is not used for marking the name of a variable; its purpose is to mark text that represents user input."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text that represents user input.",
+                            "points": 3,
+                            "explanation": "Correct! The <kbd> tag is used to mark text that represents user input in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <kbd> tag is not used for creating hyperlinks; its purpose is to mark text that represents user input."
+                        }
+                    ]
+                },
+                {
+                    "id": "0eed7c79-729b-4cd8-83e3-12b6289c5fe2",
+                    "question": "What does the HTML <dfn> tag represent?",
+                    "description": "Understand the purpose of the HTML <dfn> tag in marking the defining instance of a term.",
+                    "hint": "Consider the element used for marking the defining instance of a term in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that represents user input.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <dfn> tag is not used for marking text that represents user input; its purpose is to mark the defining instance of a term."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark the defining instance of a term.",
+                            "points": 3,
+                            "explanation": "Correct! The <dfn> tag is used to mark the defining instance of a term in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <dfn> tag is not used for creating hyperlinks; its purpose is to mark the defining instance of a term."
+                        }
+                    ]
+                },
+                {
+                    "id": "acc2f1b7-6cd4-48db-af99-322adaa03537",
+                    "question": "What is the purpose of the HTML <s> tag?",
+                    "description": "Understand the role of the HTML <s> tag in marking text that is no longer accurate or relevant.",
+                    "hint": "Consider the element used for marking text that is no longer accurate or relevant in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark the defining instance of a term.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <s> tag is not used for marking the defining instance of a term; its purpose is to mark text that is no longer accurate or relevant."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark text that is no longer accurate or relevant.",
+                            "points": 3,
+                            "explanation": "Correct! The <s> tag is used to mark text that is no longer accurate or relevant in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <s> tag is not used for creating hyperlinks; its purpose is to mark text that is no longer accurate or relevant."
+                        }
+                    ]
+                },
+                {
+                    "id": "54092d9b-167d-44cd-96aa-743e51bd032c",
+                    "question": "What does the HTML <small> tag represent?",
+                    "description": "Understand the purpose of the HTML <small> tag in marking text that is smaller and might be fine print.",
+                    "hint": "Consider the element used for marking smaller text, often indicating fine print, in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark text that is no longer accurate or relevant.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <small> tag is not used for marking text that is no longer accurate or relevant; its purpose is to mark smaller text, often indicating fine print."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark smaller text, often indicating fine print.",
+                            "points": 3,
+                            "explanation": "Correct! The <small> tag is used to mark smaller text, often indicating fine print, in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <small> tag is not used for creating hyperlinks; its purpose is to mark smaller text, often indicating fine print."
+                        }
+                    ]
+                },
+                {
+                    "id": "b08ce7f3-0b9c-4e4d-bd3e-b049b4f27b55",
+                    "question": "What is the purpose of the HTML <bdi> tag?",
+                    "description": "Understand the role of the HTML <bdi> tag in isolating a part of text that might be formatted in a different direction from other text outside it.",
+                    "hint": "Consider the element used for isolating a part of text that might be formatted in a different direction from other text outside it in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark smaller text, often indicating fine print.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <bdi> tag is not used for marking smaller text; its purpose is to isolate a part of text that might be formatted in a different direction."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To isolate a part of text that might be formatted in a different direction.",
+                            "points": 3,
+                            "explanation": "Correct! The <bdi> tag is used to isolate a part of text that might be formatted in a different direction from other text outside it in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <bdi> tag is not used for creating hyperlinks; its purpose is to isolate a part of text that might be formatted in a different direction."
+                        }
+                    ]
+                },
+                {
+                    "id": "42e671ab-5eda-44b9-912b-72feaa13112d",
+                    "question": "What does the HTML <wbr> tag represent?",
+                    "description": "Understand the purpose of the HTML <wbr> tag in specifying where in a text it would be ok to add a line break.",
+                    "hint": "Consider the element used for specifying where in a text it would be ok to add a line break in HTML.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To isolate a part of text that might be formatted in a different direction.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <wbr> tag is not used for isolating a part of text that might be formatted in a different direction; its purpose is to specify where in a text it would be ok to add a line break."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To specify where in a text it would be ok to add a line break.",
+                            "points": 3,
+                            "explanation": "Correct! The <wbr> tag is used to specify where in a text it would be ok to add a line break in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <wbr> tag is not used for creating hyperlinks; its purpose is to specify where in a text it would be ok to add a line break."
+                        }
+                    ]
+                },
+                {
+                    "id": "678d999a-02fd-4ceb-8fa1-3622ae6a0927",
+                    "question": "What is the purpose of the HTML <figure> and <figcaption> combination?",
+                    "description": "Understand the role of the <figure> and <figcaption> combination in HTML for grouping media content and its caption.",
+                    "hint": "Consider the elements used for grouping media content and its caption in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To specify where in a text it would be ok to add a line break.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <figure> and <figcaption> combination is not used to specify where in a text it would be ok to add a line break; its purpose is to group media content and its caption."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To group media content and its caption.",
+                            "points": 3,
+                            "explanation": "Correct! The <figure> and <figcaption> combination is used to group media content and its caption in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <figure> and <figcaption> combination is not used for creating hyperlinks; its purpose is to group media content and its caption."
+                        }
+                    ]
+                },
+                {
+                    "id": "4dde1b12-718b-466c-8657-8da1d0a0c176",
+                    "question": "What does the HTML <progress> tag represent?",
+                    "description": "Understand the purpose of the HTML <progress> tag in representing the completion progress of a task.",
+                    "hint": "Consider the element used for representing the completion progress of a task in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To group media content and its caption.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <progress> tag is not used to group media content and its caption; its purpose is to represent the completion progress of a task."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To represent the completion progress of a task.",
+                            "points": 3,
+                            "explanation": "Correct! The <progress> tag is used to represent the completion progress of a task in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <progress> tag is not used for creating hyperlinks; its purpose is to represent the completion progress of a task."
+                        }
+                    ]
+                },
+                {
+                    "id": "44b64466-c106-4b8a-8558-8fad888ea19b",
+                    "question": "What is the purpose of the HTML <details> and <summary> combination?",
+                    "description": "Understand the role of the <details> and <summary> combination in HTML for creating a disclosure widget from which the user can obtain additional information.",
+                    "hint": "Consider the elements used for creating a disclosure widget in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To represent the completion progress of a task.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <details> and <summary> combination is not used to represent the completion progress of a task; its purpose is to create a disclosure widget."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To create a disclosure widget from which the user can obtain additional information.",
+                            "points": 3,
+                            "explanation": "Correct! The <details> and <summary> combination is used to create a disclosure widget in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <details> and <summary> combination is not used for creating hyperlinks; its purpose is to create a disclosure widget."
+                        }
+                    ]
+                },
+                {
+                    "id": "4071f315-e386-4301-834d-bf3d4bcff0ec",
+                    "question": "What does the HTML <nav> tag represent?",
+                    "description": "Understand the purpose of the HTML <nav> tag in marking a section of navigation links.",
+                    "hint": "Consider the element used for marking a section of navigation links in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a disclosure widget from which the user can obtain additional information.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <nav> tag is not used to create a disclosure widget; its purpose is to mark a section of navigation links."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark a section of navigation links.",
+                            "points": 3,
+                            "explanation": "Correct! The <nav> tag is used to mark a section of navigation links in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <nav> tag is not used for creating hyperlinks; its purpose is to mark a section of navigation links."
+                        }
+                    ]
+                },
+                {
+                    "id": "da921dbf-d967-4320-8d8b-7c4726238c4b",
+                    "question": "What is the purpose of the HTML <canvas> tag?",
+                    "description": "Understand the role of the HTML <canvas> tag in providing a drawing surface for graphics on a web page.",
+                    "hint": "Consider the element used for providing a drawing surface for graphics in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark a section of navigation links.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <canvas> tag is not used to mark a section of navigation links; its purpose is to provide a drawing surface for graphics."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To provide a drawing surface for graphics on a web page.",
+                            "points": 3,
+                            "explanation": "Correct! The <canvas> tag is used to provide a drawing surface for graphics on a web page in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <canvas> tag is not used for creating hyperlinks; its purpose is to provide a drawing surface for graphics."
+                        }
+                    ]
+                },
+                {
+                    "id": "8a1ddaf1-26e8-4040-9cda-4e45ee396f45",
+                    "question": "What does the HTML <article> tag represent?",
+                    "description": "Understand the purpose of the HTML <article> tag in marking a self-contained piece of content that could be distributed and reused independently.",
+                    "hint": "Consider the element used for marking a self-contained piece of content that could be distributed and reused independently in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To provide a drawing surface for graphics on a web page.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <article> tag is not used to provide a drawing surface for graphics; its purpose is to mark a self-contained piece of content."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark a self-contained piece of content that could be distributed and reused independently.",
+                            "points": 3,
+                            "explanation": "Correct! The <article> tag is used to mark a self-contained piece of content that could be distributed and reused independently in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <article> tag is not used for creating hyperlinks; its purpose is to mark a self-contained piece of content."
+                        }
+                    ]
+                },
+                {
+                    "id": "280875f6-fd24-4f83-9a92-9ee872861875",
+                    "question": "What is the purpose of the HTML <time> tag?",
+                    "description": "Understand the role of the HTML <time> tag in representing a specific period in time or a range of time.",
+                    "hint": "Consider the element used for representing a specific period in time or a range of time in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To mark a self-contained piece of content that could be distributed and reused independently.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <time> tag is not used to mark a self-contained piece of content; its purpose is to represent a specific period in time or a range of time."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To represent a specific period in time or a range of time.",
+                            "points": 3,
+                            "explanation": "Correct! The <time> tag is used to represent a specific period in time or a range of time in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <time> tag is not used for creating hyperlinks; its purpose is to represent a specific period in time or a range of time."
+                        }
+                    ]
+                },
+                {
+                    "id": "f6dd3895-0799-4f20-b9cf-c63e1637f8e4",
+                    "question": "What does the HTML <mark> tag represent?",
+                    "description": "Understand the purpose of the HTML <mark> tag in highlighting or marking portions of text.",
+                    "hint": "Consider the element used for highlighting or marking portions of text in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To represent a specific period in time or a range of time.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <mark> tag is not used to represent a specific period in time or a range of time; its purpose is to highlight or mark portions of text."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To highlight or mark portions of text.",
+                            "points": 3,
+                            "explanation": "Correct! The <mark> tag is used to highlight or mark portions of text in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <mark> tag is not used for creating hyperlinks; its purpose is to highlight or mark portions of text."
+                        }
+                    ]
+                },
+                {
+                    "id": "20d6e307-84b7-4fe8-8159-50ad336ed6c1",
+                    "question": "What is the purpose of the HTML <pre> tag?",
+                    "description": "Understand the role of the HTML <pre> tag in preserving both spaces and line breaks.",
+                    "hint": "Consider the element used for preserving both spaces and line breaks in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To highlight or mark portions of text.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <pre> tag is not used for highlighting or marking portions of text; its purpose is to preserve both spaces and line breaks."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To preserve both spaces and line breaks.",
+                            "points": 3,
+                            "explanation": "Correct! The <pre> tag is used to preserve both spaces and line breaks in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <pre> tag is not used for creating hyperlinks; its purpose is to preserve both spaces and line breaks."
+                        }
+                    ]
+                },
+                {
+                    "id": "04eee7eb-0775-4f3f-9960-b7e3c81ac468",
+                    "question": "What does the HTML <var> tag represent?",
+                    "description": "Understand the purpose of the HTML <var> tag in marking the name of a variable.",
+                    "hint": "Consider the element used for marking the name of a variable in HTML.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To preserve both spaces and line breaks.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <var> tag is not used for preserving both spaces and line breaks; its purpose is to mark the name of a variable."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark the name of a variable.",
+                            "points": 3,
+                            "explanation": "Correct! The <var> tag is used to mark the name of a variable in HTML."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a hyperlink.",
+                            "points": 0,
+                            "explanation": "Incorrect. The <var> tag is not used for creating hyperlinks; its purpose is to mark the name of a variable."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

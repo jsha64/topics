@@ -1,0 +1,1322 @@
+{
+    "skill": {
+        "Git": {
+            "id": "git",
+            "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Git & GitHub Crash Course For Beginners",
+                    "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc"
+                },
+                {
+                    "name": "Learn Git with Tutorials, News and Tips - Atlassian",
+                    "link": "https://www.atlassian.com/git"
+                },
+                {
+                    "name": "Git Cheat Sheet",
+                    "link": "https://cs.fyi/guide/git-cheatsheet"
+                },
+                {
+                    "name": "Tutorial: Git for Absolutely Everyone",
+                    "link": "https://thenewstack.io/tutorial-git-for-absolutely-everyone/"
+                }
+            ],
+            "parents": [
+                "version-control-system"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "835e6c4c-c44c-4a35-88c5-2e5b145d5c3b",
+                    "question": "What is Git?",
+                    "description": "Provide a brief definition of Git.",
+                    "hint": "Think about version control systems.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A text editor.",
+                            "points": 0,
+                            "explanation": "Incorrect. Git is a version control system, not a text editor."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A version control system.",
+                            "points": 3,
+                            "explanation": "Correct! Git is a distributed version control system."
+                        }
+                    ]
+                },
+                {
+                    "id": "33eaf42a-19f2-4bb2-b8ef-9d4d1d22b9aa",
+                    "question": "What is the purpose of Git?",
+                    "description": "Explain why Git is commonly used in software development.",
+                    "hint": "Consider collaboration and version tracking.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To make coffee.",
+                            "points": 0,
+                            "explanation": "Incorrect. Git is not related to making coffee."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To track changes in code and collaborate on projects.",
+                            "points": 3,
+                            "explanation": "Correct! Git is widely used for version control and collaboration in software development."
+                        }
+                    ]
+                },
+                {
+                    "id": "d3b41f9f-97a0-44a2-b0ac-67ef981982c2",
+                    "question": "What is a repository in Git?",
+                    "description": "Define the concept of a Git repository.",
+                    "hint": "Think about where Git stores versioned files.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A place to store coffee beans.",
+                            "points": 0,
+                            "explanation": "Incorrect. A Git repository is not for storing coffee beans."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A storage location for versioned files and Git history.",
+                            "points": 3,
+                            "explanation": "Correct! A Git repository is where Git stores versioned files and their history."
+                        }
+                    ]
+                },
+                {
+                    "id": "8b0b9c44-baab-4eae-af49-8e64f7f48b2b",
+                    "question": "What is a commit in Git?",
+                    "description": "Explain the concept of a Git commit.",
+                    "hint": "Consider saving changes and creating a snapshot.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A financial transaction.",
+                            "points": 0,
+                            "explanation": "Incorrect. A Git commit is not a financial transaction."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A snapshot of changes made to files in a Git repository.",
+                            "points": 3,
+                            "explanation": "Correct! A Git commit represents a snapshot of changes made to files in a repository."
+                        }
+                    ]
+                },
+                {
+                    "id": "a9cf3f3a-5f47-4b2d-a3f1-9b4d28282d2d",
+                    "question": "What command is used to initialize a new Git repository?",
+                    "description": "Provide the command to start a new Git project.",
+                    "hint": "Consider the initial step in creating a Git repository.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "git start",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is different."
+                        },
+                        {
+                            "label": "B",
+                            "description": "git init",
+                            "points": 3,
+                            "explanation": "Correct! `git init` is used to initialize a new Git repository."
+                        }
+                    ]
+                },
+                {
+                    "id": "9a876cd9-baf6-4f90-9e15-dbd62d3c77f0",
+                    "question": "What is a branch in Git?",
+                    "description": "Define the purpose of using branches in Git.",
+                    "hint": "Consider parallel development and isolation of changes.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A tree branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. A Git branch is not a tree branch."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A parallel line of development that allows isolation of changes.",
+                            "points": 3,
+                            "explanation": "Correct! A Git branch is a parallel line of development that allows isolation of changes."
+                        }
+                    ]
+                },
+                {
+                    "id": "3c0b76cd-154d-47ec-8ea4-1e0c95bf02c2",
+                    "question": "What command is used to see the status of changes in a Git repository?",
+                    "description": "Provide the command to check the status of files in a Git project.",
+                    "hint": "Consider checking what has been modified.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "git check",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct command is different."
+                        },
+                        {
+                            "label": "B",
+                            "description": "git status",
+                            "points": 3,
+                            "explanation": "Correct! `git status` is used to see the status of changes in a Git repository."
+                        }
+                    ]
+                },
+                {
+                    "id": "3d0bc864-0bf5-41b8-8bb3-62f5a73bcb5e",
+                    "question": "What is the purpose of the .gitignore file?",
+                    "description": "Explain why the .gitignore file is used in Git projects.",
+                    "hint": "Consider ignoring files and directories in version control.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To hide important files.",
+                            "points": 0,
+                            "explanation": "Incorrect. The purpose is different."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To specify files and directories that should be ignored in version control.",
+                            "points": 3,
+                            "explanation": "Correct! The .gitignore file is used to specify files and directories that should be ignored in version control."
+                        }
+                    ]
+                },
+                {
+                    "id": "98f1a7a0-e2e8-4cc0-a4d2-dc71d0e5e78d",
+                    "question": "What command is used to stage changes in Git?",
+                    "description": "Provide the command to prepare changes for a commit in Git.",
+                    "hint": "Consider adding changes to the staging area.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "git add",
+                            "points": 3,
+                            "explanation": "Correct! `git add` is used to stage changes in Git."
+                        },
+                        {
+                            "label": "B",
+                            "description": "git commit",
+                            "points": 0,
+                            "explanation": "Incorrect. `git commit` is used for a different purpose."
+                        }
+                    ]
+                },
+                {
+                    "id": "790e6e84-65ea-417c-9a1a-183a11b12b9f",
+                    "question": "What is the purpose of the Git pull command?",
+                    "description": "Explain the function of the `git pull` command in Git.",
+                    "hint": "Consider fetching changes from a remote repository.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To push changes to a remote repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. `git pull` is used for a different purpose."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To fetch changes from a remote repository and merge them into the current branch.",
+                            "points": 3,
+                            "explanation": "Correct! The `git pull` command fetches changes from a remote repository and merges them into the current branch."
+                        }
+                    ]
+                },
+                {
+                    "id": "f1a017d4-b3ae-45bf-9f2e-862a2b18f870",
+                    "question": "What does the command 'git add .' do?",
+                    "description": "Explain the purpose of 'git add .' in Git.",
+                    "hint": "Consider adding all changes to the staging area.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It creates a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. The command has a different purpose."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It stages all changes in the current directory for the next commit.",
+                            "points": 3,
+                            "explanation": "Correct! 'git add .' stages all changes in the current directory for the next commit."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It discards all changes in the current branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. The command doesn't discard changes."
+                        }
+                    ]
+                },
+                {
+                    "id": "03d17a32-2b1c-48f7-a541-722a38e29e6e",
+                    "question": "What is the purpose of 'git branch' command?",
+                    "description": "Explain what 'git branch' is used for in Git.",
+                    "hint": "Consider listing and creating branches.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To commit changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git branch' is not used for committing changes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To list existing branches or create a new branch.",
+                            "points": 3,
+                            "explanation": "Correct! 'git branch' is used to list existing branches or create a new branch."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To merge branches.",
+                            "points": 0,
+                            "explanation": "Incorrect. Merging is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "80c39d56-66f9-48f4-a5d6-60528cfc1c23",
+                    "question": "What is a merge conflict in Git?",
+                    "description": "Define what happens when a merge conflict occurs.",
+                    "hint": "Consider conflicting changes in different branches.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A conflict between team members.",
+                            "points": 0,
+                            "explanation": "Incorrect. It's related to code conflicts, not interpersonal conflicts."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A situation where Git cannot automatically merge changes.",
+                            "points": 3,
+                            "explanation": "Correct! A merge conflict occurs when Git cannot automatically merge changes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A conflict within a single branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Merge conflicts involve changes in different branches."
+                        }
+                    ]
+                },
+                {
+                    "id": "8c0de7e2-187c-4f44-9ba4-1782dcded2f4",
+                    "question": "What does 'git log' display?",
+                    "description": "Explain the output of the 'git log' command.",
+                    "hint": "Consider viewing commit history.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A log of user login times.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git log' is not related to user login times."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A chronological list of commits in the repository.",
+                            "points": 3,
+                            "explanation": "Correct! 'git log' displays a chronological list of commits in the repository."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A summary of changes made in the working directory.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git log' focuses on commit history, not changes in the working directory."
+                        }
+                    ]
+                },
+                {
+                    "id": "4a678c32-5f76-4f2e-8318-8b914d6d52da",
+                    "question": "What is the purpose of the 'git push' command?",
+                    "description": "Explain the function of the 'git push' command in Git.",
+                    "hint": "Consider updating a remote repository.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To pull changes from a remote repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git push' is used for a different purpose."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To update a remote repository with changes made locally.",
+                            "points": 3,
+                            "explanation": "Correct! 'git push' updates a remote repository with local changes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To revert the last commit.",
+                            "points": 0,
+                            "explanation": "Incorrect. Reverting commits is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "4d50dd80-1a98-4b65-8e38-d7293e2a7e8a",
+                    "question": "What is the purpose of the 'git pull' command?",
+                    "description": "Explain the function of the 'git pull' command in Git.",
+                    "hint": "Consider fetching changes from a remote repository.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To push changes to a remote repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git pull' is used for a different purpose."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To fetch changes from a remote repository and merge them into the current branch.",
+                            "points": 3,
+                            "explanation": "Correct! The 'git pull' command fetches changes from a remote repository and merges them into the current branch."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating a new branch is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "22b465b0-68a5-4640-8e18-6f10ed47e5a3",
+                    "question": "What is a Git remote?",
+                    "description": "Define the concept of a Git remote.",
+                    "hint": "Consider external repositories and collaboration.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A local branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. A remote is not a local branch."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A reference to a repository on another server.",
+                            "points": 3,
+                            "explanation": "Correct! A Git remote is a reference to a repository on another server."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A commit message.",
+                            "points": 0,
+                            "explanation": "Incorrect. A remote is not a commit message"
+                        }
+                    ]
+                },
+                {
+                    "id": "7e946546-8b5a-4d2e-a3d8-3cde6c7b1ac4",
+                    "question": "What does the 'git clone' command do?",
+                    "description": "Explain the purpose of the 'git clone' command in Git.",
+                    "hint": "Consider creating a copy of a repository.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To delete a Git repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git clone' does not delete repositories."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To create a copy of a remote repository locally.",
+                            "points": 3,
+                            "explanation": "Correct! 'git clone' is used to create a copy of a remote repository locally."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To rename a branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Renaming branches is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "f8b51ad9-4dbb-44ed-8f1d-b36f62eebe79",
+                    "question": "What is the purpose of the 'git reset' command?",
+                    "description": "Explain the function of the 'git reset' command in Git.",
+                    "hint": "Consider undoing changes and resetting the staging area.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git reset' is not used for creating branches."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To reset the staging area and unstage changes.",
+                            "points": 3,
+                            "explanation": "Correct! 'git reset' is used to reset the staging area and unstage changes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To push changes to a remote repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Pushing changes is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "a2e76c8e-e20d-4f48-8f64-08e8a0017c1b",
+                    "question": "What is a Git tag?",
+                    "description": "Define the concept of a Git tag.",
+                    "hint": "Consider marking specific commits.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A label for a specific commit.",
+                            "points": 3,
+                            "explanation": "Correct! A Git tag is a label for a specific commit, often used to mark releases."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A branch that is always up to date.",
+                            "points": 0,
+                            "explanation": "Incorrect. Tags are not branches."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A file in the Git repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Tags are not files."
+                        }
+                    ]
+                },
+                {
+                    "id": "11e777a7-98a3-43f1-8f12-56b6f41a77aa",
+                    "question": "What is the difference between 'git merge' and 'git rebase'?",
+                    "description": "Explain the distinctions between 'git merge' and 'git rebase' in Git.",
+                    "hint": "Consider the commit history and branch integration.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Both commands merge changes but in different branches.",
+                            "points": 0,
+                            "explanation": "Incorrect. The difference involves more than just branches."
+                        },
+                        {
+                            "label": "B",
+                            "description": "'git merge' integrates changes by creating a new merge commit, while 'git rebase' rewrites the commit history.",
+                            "points": 3,
+                            "explanation": "Correct! 'git merge' creates a new merge commit, while 'git rebase' rewrites the commit history."
+                        },
+                        {
+                            "label": "C",
+                            "description": "'git merge' is used for branches, and 'git rebase' is used for tags.",
+                            "points": 0,
+                            "explanation": "Incorrect. The usage of 'git rebase' is not limited to tags."
+                        }
+                    ]
+                },
+                {
+                    "id": "c3d3a927-4745-4e2d-874b-9c2e24d53b8a",
+                    "question": "What is a detached HEAD in Git?",
+                    "description": "Define the concept of a detached HEAD state.",
+                    "hint": "Consider the HEAD pointer and commit references.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A state where the HEAD is attached to a specific branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. The definition involves detachment from a branch."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A state where the HEAD is pointing directly to a specific commit, not a branch.",
+                            "points": 3,
+                            "explanation": "Correct! A detached HEAD is when it points directly to a commit, not a branch."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A state where multiple branches are merged.",
+                            "points": 0,
+                            "explanation": "Incorrect. Detached HEAD is not related to merging multiple branches."
+                        }
+                    ]
+                },
+                {
+                    "id": "bcb62d47-6451-4f94-a93e-9a6d041f65e9",
+                    "question": "What is the purpose of 'git stash'?",
+                    "description": "Explain the function of the 'git stash' command in Git.",
+                    "hint": "Consider saving changes without committing them.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To permanently delete changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git stash' does not delete changes permanently."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To temporarily save changes that are not ready for commit.",
+                            "points": 3,
+                            "explanation": "Correct! 'git stash' is used to temporarily save changes that are not ready for commit."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a backup of the entire repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git stash' does not create a backup of the entire repository."
+                        }
+                    ]
+                },
+                {
+                    "id": "20b9e6f7-27c9-45b0-9095-ea87a1d8c1d7",
+                    "question": "What is the purpose of the 'git cherry-pick' command?",
+                    "description": "Explain the function of the 'git cherry-pick' command in Git.",
+                    "hint": "Consider applying specific commits to a branch.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To undo the last commit.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git cherry-pick' is not used for undoing commits."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To apply specific commits from one branch to another.",
+                            "points": 3,
+                            "explanation": "Correct! 'git cherry-pick' is used to apply specific commits from one branch to another."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating a new branch is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "1204bf15-c40d-44a4-8f0a-b1562ce55896",
+                    "question": "What is the purpose of the 'git fetch' command?",
+                    "description": "Explain the function of the 'git fetch' command in Git.",
+                    "hint": "Consider updating the remote repository without merging.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To update the local repository with changes from the remote.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git fetch' does not update the local repository with remote changes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To fetch changes from the remote repository without merging.",
+                            "points": 3,
+                            "explanation": "Correct! 'git fetch' fetches changes from the remote repository without merging them."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To merge changes from the remote repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Merging is a separate step after fetching."
+                        }
+                    ]
+                },
+                {
+                    "id": "95c2bcea-c36d-4c2b-8748-87531e064607",
+                    "question": "What is the purpose of 'git submodule'?",
+                    "description": "Explain the function of 'git submodule' in Git.",
+                    "hint": "Consider managing external dependencies.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To merge branches.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git submodule' is not used for merging branches."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage external repositories as submodules.",
+                            "points": 3,
+                            "explanation": "Correct! 'git submodule' is used to manage external repositories as submodules within a Git repository."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "5eb08863-1fb2-49bf-9b2d-bd542b31fcb7",
+                    "question": "What is a Git hook?",
+                    "description": "Define the concept of a Git hook.",
+                    "hint": "Consider automation and customization of Git actions.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A type of commit message.",
+                            "points": 0,
+                            "explanation": "Incorrect. Git hooks are not related to commit messages."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A script or program triggered by Git events.",
+                            "points": 3,
+                            "explanation": "Correct! A Git hook is a script or program triggered by specific Git events, allowing customization and automation."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A type of branch in Git.",
+                            "points": 0,
+                            "explanation": "Incorrect. Git hooks are not related to branches."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f743bfe-14f7-4395-8c09-9a04a6e0923b",
+                    "question": "What is the purpose of the 'git log --graph' command?",
+                    "description": "Explain the function of 'git log --graph' in Git.",
+                    "hint": "Consider visualizing the commit history graph.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To display a detailed log with commit messages.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git log --graph' provides additional visual information."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To display a concise log without commit messages.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git log --graph' includes commit messages."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To display a visual representation of the commit history graph.",
+                            "points": 3,
+                            "explanation": "Correct! 'git log --graph' visualizes the commit history graph in the terminal."
+                        }
+                    ]
+                },
+                {
+                    "id": "90c6c23d-91d3-49b7-8f72-6e54ad2e9ee4",
+                    "question": "What is the purpose of the 'git bisect' command?",
+                    "description": "Explain the function of 'git bisect' in Git.",
+                    "hint": "Consider binary searching for a specific commit.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is done with a different command."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To interactively rebase commits.",
+                            "points": 0,
+                            "explanation": "Incorrect. Interactive rebasing is a different Git feature."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To find a specific commit using binary search.",
+                            "points": 3,
+                            "explanation": "Correct! 'git bisect' helps find a specific commit using binary search."
+                        }
+                    ]
+                },
+                {
+                    "id": "d890cfa5-62a8-4c46-89a9-9d1b867d593e",
+                    "question": "What is the purpose of 'git blame'?",
+                    "description": "Explain the function of 'git blame' in Git.",
+                    "hint": "Consider tracking changes to specific lines of code.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To merge branches.",
+                            "points": 0,
+                            "explanation": "Incorrect. Merging branches is not the purpose of 'git blame'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To view a list of all commits in the repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git blame' focuses on tracking changes to specific lines of code."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To display who last modified each line of a file and when.",
+                            "points": 3,
+                            "explanation": "Correct! 'git blame' displays who last modified each line of a file and when the change occurred."
+                        }
+                    ]
+                },
+                {
+                    "id": "7f6dbca9-dc79-4d65-a579-159ff18d0ce6",
+                    "question": "Explain the 'git rebase -i' command.",
+                    "description": "Describe the purpose and usage of 'git rebase -i' in Git.",
+                    "hint": "Consider interactive rebasing and commit manipulation.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To fetch changes from a remote repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git rebase -i' is not used for fetching changes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To interactively rebase commits, allowing for rewording, editing, and squashing.",
+                            "points": 3,
+                            "explanation": "Correct! 'git rebase -i' allows for interactive rebasing, including rewording, editing, and squashing commits."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating a new branch is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "c0b8e5e8-e7ec-4685-8270-52cb7f7d1cf0",
+                    "question": "What is the purpose of 'git reflog'?",
+                    "description": "Explain the function of 'git reflog' in Git.",
+                    "hint": "Consider recovering lost commits and branch references.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To display the commit history of a branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git reflog' serves a different purpose."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To show the history of changes to branch references, including lost commits.",
+                            "points": 3,
+                            "explanation": "Correct! 'git reflog' displays the history of changes to branch references, helping recover lost commits."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To synchronize local and remote repositories.",
+                            "points": 0,
+                            "explanation": "Incorrect. Synchronization is not the primary purpose of 'git reflog'."
+                        }
+                    ]
+                },
+                {
+                    "id": "a1870367-4f0f-4ea5-a6a3-0711f77ed7d8",
+                    "question": "What is a Git rebase conflict?",
+                    "description": "Define what happens when a conflict occurs during a Git rebase.",
+                    "hint": "Consider conflicting changes in the commit history.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A conflict between users attempting to rebase simultaneously.",
+                            "points": 0,
+                            "explanation": "Incorrect. Rebase conflicts involve changes in the commit history, not simultaneous rebasing."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A situation where Git cannot automatically apply commits, requiring manual resolution.",
+                            "points": 3,
+                            "explanation": "Correct! A rebase conflict occurs when Git cannot automatically apply commits, requiring manual resolution."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A conflict within a single branch during regular development.",
+                            "points": 0,
+                            "explanation": "Incorrect. Rebase conflicts are specific to the rebase operation, not regular development."
+                        }
+                    ]
+                },
+                {
+                    "id": "6a092ed1-0f95-43e7-aaee-79cc04a92c6e",
+                    "question": "Explain the purpose of 'git rebase --onto'.",
+                    "description": "Describe the function of 'git rebase --onto' in Git.",
+                    "hint": "Consider rebasing a specific range of commits onto a new base.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To rebase the entire commit history of a branch onto a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git rebase --onto' is more specific."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To skip the first few commits during a rebase.",
+                            "points": 0,
+                            "explanation": "Incorrect. Skipping commits is not the primary purpose of 'git rebase --onto'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To rebase a specific range of commits onto a new base.",
+                            "points": 3,
+                            "explanation": "Correct! 'git rebase --onto' is used to rebase a specific range of commits onto a new base commit."
+                        }
+                    ]
+                },
+                {
+                    "id": "9d53c41c-098f-4e32-b37e-bd1bf2d9bce6",
+                    "question": "What is 'git squash'?",
+                    "description": "Explain the concept of 'git squash' and how it differs from regular commits.",
+                    "hint": "Consider combining multiple commits into a single commit.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A Git command for creating lightweight branches.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git squash' is not a standalone command for creating branches."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A way to combine multiple commits into a single commit during interactive rebase.",
+                            "points": 3,
+                            "explanation": "Correct! 'git squash' allows combining multiple commits into a single commit during interactive rebase."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A command for reverting the last commit.",
+                            "points": 0,
+                            "explanation": "Incorrect. Reverting commits is a different Git operation."
+                        }
+                    ]
+                },
+                {
+                    "id": "36a92471-0715-4b5d-9b6c-ea1ff71e8de1",
+                    "question": "What is 'git rebase --preserve-merges'?",
+                    "description": "Describe the purpose of 'git rebase --preserve-merges' in Git.",
+                    "hint": "Consider preserving merge commits during rebase.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To exclude merge commits during a regular rebase.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git rebase --preserve-merges' is about preserving merge commits."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To rebase a branch while preserving merge commits from the original history.",
+                            "points": 3,
+                            "explanation": "Correct! 'git rebase --preserve-merges' is used to rebase a branch while preserving merge commits."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To merge branches without creating a new commit.",
+                            "points": 0,
+                            "explanation": "Incorrect. Merging branches without creating a new commit is a different Git operation."
+                        }
+                    ]
+                },
+                {
+                    "id": "648f34e4-088a-4fc7-b354-0f0570504e54",
+                    "question": "Explain the purpose of 'git worktree'.",
+                    "description": "Describe the functionality provided by 'git worktree' in Git.",
+                    "hint": "Consider multiple working trees for a single repository.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git worktree' is not used for creating new repositories."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage multiple working trees for a single repository.",
+                            "points": 3,
+                            "explanation": "Correct! 'git worktree' allows managing multiple working trees for a single repository, each with its own branch and modifications."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To synchronize changes between local and remote repositories.",
+                            "points": 0,
+                            "explanation": "Incorrect. Synchronization is not the primary purpose of 'git worktree'."
+                        }
+                    ]
+                },
+                {
+                    "id": "61d9f6b5-b917-41fe-ba08-82226cf83202",
+                    "question": "What is 'git rebase -x'?",
+                    "description": "Explain the functionality of 'git rebase -x' in Git.",
+                    "hint": "Consider executing a custom command for each commit during rebase.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To exit the current rebase operation.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git rebase -x' is not used for exiting a rebase."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To execute a custom command for each commit during rebase.",
+                            "points": 3,
+                            "explanation": "Correct! 'git rebase -x' allows executing a custom command for each commit during rebase."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To revert the changes introduced by the previous commit during rebase.",
+                            "points": 0,
+                            "explanation": "Incorrect. Reverting changes is a different operation in Git."
+                        }
+                    ]
+                },
+                {
+                    "id": "5ed5d3b8-3b2d-417f-a051-54e1b81f8da4",
+                    "question": "What is 'git bisect' used for?",
+                    "description": "Explain the purpose of 'git bisect' in Git.",
+                    "hint": "Consider binary searching for a specific commit.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is done with a different command."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To interactively rebase commits.",
+                            "points": 0,
+                            "explanation": "Incorrect. Interactive rebasing is a different Git feature."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To find a specific commit using binary search.",
+                            "points": 3,
+                            "explanation": "Correct! 'git bisect' helps find a specific commit using binary search."
+                        }
+                    ]
+                },
+                {
+                    "id": "64db71df-90a8-46fc-92cf-96b4ff0e71b9",
+                    "question": "What is 'git cherry-pick' used for?",
+                    "description": "Explain the purpose of 'git cherry-pick' in Git.",
+                    "hint": "Consider applying specific commits to a branch.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To undo the last commit.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git cherry-pick' is not used for undoing commits."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To apply specific commits from one branch to another.",
+                            "points": 3,
+                            "explanation": "Correct! 'git cherry-pick' is used to apply specific commits from one branch to another."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating a new branch is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "79094ef9-8e04-4a32-8d84-e9d2e429a414",
+                    "question": "Explain the concept of 'git rebase --onto'.",
+                    "description": "Provide a detailed explanation of how 'git rebase --onto' works in Git.",
+                    "hint": "Consider rebasing a specific range of commits onto a new base.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To rebase the entire commit history of a branch onto a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git rebase --onto' is more specific."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To skip the first few commits during a rebase.",
+                            "points": 0,
+                            "explanation": "Incorrect. Skipping commits is not the primary purpose of 'git rebase --onto'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To rebase a specific range of commits onto a new base.",
+                            "points": 3,
+                            "explanation": "Correct! 'git rebase --onto' is used to rebase a specific range of commits onto a new base commit."
+                        }
+                    ]
+                },
+                {
+                    "id": "51d29b05-527b-4606-bad8-bf8f727ca74a",
+                    "question": "What is 'git filter-branch' used for?",
+                    "description": "Explain the purpose and risks associated with 'git filter-branch' in Git.",
+                    "hint": "Consider rewriting commit history and its potential impact.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is done with a different command."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To rewrite commit history by applying filters.",
+                            "points": 3,
+                            "explanation": "Correct! 'git filter-branch' is used to rewrite commit history by applying filters."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To merge branches without creating a new commit.",
+                            "points": 0,
+                            "explanation": "Incorrect. Merging branches without creating a new commit is a different Git operation."
+                        }
+                    ]
+                },
+                {
+                    "id": "a5e05c4a-b8a1-4685-8d85-95631e02f1b2",
+                    "question": "Explain the purpose of 'git reflog' and its role in recovering lost commits.",
+                    "description": "Provide a detailed explanation of how 'git reflog' works and its significance in recovering lost commits.",
+                    "hint": "Consider the history of branch references and commit recovery.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To display the commit history of a branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git reflog' serves a different purpose."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To show the history of changes to branch references, including lost commits.",
+                            "points": 3,
+                            "explanation": "Correct! 'git reflog' displays the history of changes to branch references, helping recover lost commits."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To synchronize local and remote repositories.",
+                            "points": 0,
+                            "explanation": "Incorrect. Synchronization is not the primary purpose of 'git reflog'."
+                        }
+                    ]
+                },
+                {
+                    "id": "2991e05d-666c-4ac7-9ad5-7000f60fc893",
+                    "question": "What is 'git rerere' and how does it help in resolving conflicts?",
+                    "description": "Provide a detailed explanation of 'git rerere' and its role in conflict resolution.",
+                    "hint": "Consider reusing recorded resolution of conflicted merges.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To revert the changes introduced by the previous commit during rebase.",
+                            "points": 0,
+                            "explanation": "Incorrect. Reverting changes is a different operation in Git."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To record and reuse resolutions of conflicted merges.",
+                            "points": 3,
+                            "explanation": "Correct! 'git rerere' records and reuses resolutions of conflicted merges to simplify future conflict resolutions."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To merge branches without creating a new commit.",
+                            "points": 0,
+                            "explanation": "Incorrect. Merging branches without creating a new commit is a different Git operation."
+                        }
+                    ]
+                },
+                {
+                    "id": "a7c93629-1ba6-4c8d-8b8e-2f97f930c1aa",
+                    "question": "What is 'git bisect' used for?",
+                    "description": "Explain the purpose of 'git bisect' in Git.",
+                    "hint": "Consider binary searching for a specific commit.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is done with a different command."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To interactively rebase commits.",
+                            "points": 0,
+                            "explanation": "Incorrect. Interactive rebasing is a different Git feature."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To find a specific commit using binary search.",
+                            "points": 3,
+                            "explanation": "Correct! 'git bisect' helps find a specific commit using binary search."
+                        }
+                    ]
+                },
+                {
+                    "id": "c936db23-d163-403b-9a29-49e1cf4531a9",
+                    "question": "Explain the purpose of 'git worktree' and how it facilitates multiple working trees.",
+                    "description": "Provide a detailed explanation of 'git worktree' and its role in managing multiple working trees for a single repository.",
+                    "hint": "Consider the advantages of having separate working trees.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git worktree' is not used for creating new repositories."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage multiple working trees for a single repository.",
+                            "points": 3,
+                            "explanation": "Correct! 'git worktree' allows managing multiple working trees for a single repository, each with its own branch and modifications."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To synchronize changes between local and remote repositories.",
+                            "points": 0,
+                            "explanation": "Incorrect. Synchronization is not the primary purpose of 'git worktree'."
+                        }
+                    ]
+                },
+                {
+                    "id": "5a2be40c-e0e1-40fe-a20b-15e907678205",
+                    "question": "What is 'git reflog' and how does it aid in repository maintenance?",
+                    "description": "Provide a comprehensive explanation of 'git reflog' and its role in maintaining a Git repository.",
+                    "hint": "Consider the history of branch references and its usefulness in undoing actions.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To display the commit history of a branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git reflog' serves a different purpose."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To show the history of changes to branch references, including lost commits.",
+                            "points": 3,
+                            "explanation": "Correct! 'git reflog' displays the history of changes to branch references, aiding in undoing actions and recovering lost commits."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To synchronize local and remote repositories.",
+                            "points": 0,
+                            "explanation": "Incorrect. Synchronization is not the primary purpose of 'git reflog'."
+                        }
+                    ]
+                },
+                {
+                    "id": "dde5e3cb-09e3-4cd8-9637-30522ea34938",
+                    "question": "Explain the purpose of 'git stash' and how it facilitates temporary changes.",
+                    "description": "Provide a detailed explanation of 'git stash' and its role in managing temporary changes in a Git repository.",
+                    "hint": "Consider scenarios where you want to save changes without committing.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To permanently remove changes from the working directory.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git stash' is about temporarily saving changes, not removing them permanently."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is done with a different command."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To temporarily save changes in the working directory without committing.",
+                            "points": 3,
+                            "explanation": "Correct! 'git stash' is used to temporarily save changes in the working directory without committing them."
+                        }
+                    ]
+                },
+                {
+                    "id": "0b7910ac-8230-41a9-8c08-c5abf62b8c8f",
+                    "question": "Explain the purpose of 'git cherry-pick' and potential considerations when using it.",
+                    "description": "Provide a comprehensive explanation of 'git cherry-pick' and considerations for its usage in Git.",
+                    "hint": "Consider scenarios where you want to apply specific commits from one branch to another.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To undo the last commit.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git cherry-pick' is not used for undoing commits."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To apply specific commits from one branch to another.",
+                            "points": 3,
+                            "explanation": "Correct! 'git cherry-pick' is used to apply specific commits from one branch to another."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating a new branch is done with a different command."
+                        }
+                    ]
+                },
+                {
+                    "id": "d2c76969-3f23-4d24-918c-7000e7033ea6",
+                    "question": "Explain the purpose of 'git rebase -i' and its role in interactive history rewriting.",
+                    "description": "Provide a detailed explanation of 'git rebase -i' and how it facilitates interactive history rewriting in Git.",
+                    "hint": "Consider scenarios where you want to reword, edit, or squash commits interactively.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To fetch changes from a remote repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'git rebase -i' is not used for fetching changes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To interactively rebase commits, allowing for rewording, editing, and squashing.",
+                            "points": 3,
+                            "explanation": "Correct! 'git rebase -i' allows for interactive rebasing, including rewording, editing, and squashing commits."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating a new branch is done with a different command."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

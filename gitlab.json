@@ -1,0 +1,1328 @@
+{
+    "skill": {
+        "Gitlab": {
+            "id": "gitlab",
+            "description": "GitLab is a provider of internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.Visit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "GitLab Documentation",
+                    "link": "https://docs.gitlab.com/"
+                },
+                {
+                    "name": "GitLab Website",
+                    "link": "https://gitlab.com/"
+                },
+                {
+                    "name": "Development: Connect git to GitLab for Small Projects",
+                    "link": "https://thenewstack.io/development-connect-git-to-gitlab-for-small-projects/"
+                }
+            ],
+            "parents": [
+                "vcs-hosting"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "e0b3a62d-5a29-45b1-83a1-488dd26bb7a6",
+                    "question": "What is GitLab?",
+                    "description": "Provide a brief definition of GitLab.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A version control system.",
+                            "points": 0,
+                            "explanation": "Incorrect. GitLab is more than just a version control system; it also includes collaboration and CI/CD features."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A web-based platform for DevOps lifecycle.",
+                            "points": 3,
+                            "explanation": "Correct! GitLab is a web-based platform that provides a complete DevOps lifecycle solution."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A programming language.",
+                            "points": 0,
+                            "explanation": "Incorrect. GitLab is not a programming language."
+                        }
+                    ]
+                },
+                {
+                    "id": "c0d5d68b-0a2b-4ab3-8bb7-5f2e6c7a8e0f",
+                    "question": "What does CI/CD stand for in the context of GitLab?",
+                    "description": "Explain the meaning of CI/CD in GitLab.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Customer Interaction/Collaborative Development.",
+                            "points": 0,
+                            "explanation": "Incorrect. CI/CD stands for Continuous Integration/Continuous Deployment in GitLab."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Code Inspection/Code Distribution.",
+                            "points": 0,
+                            "explanation": "Incorrect. CI/CD stands for Continuous Integration/Continuous Deployment in GitLab."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Continuous Integration/Continuous Deployment.",
+                            "points": 3,
+                            "explanation": "Correct! CI/CD stands for Continuous Integration/Continuous Deployment in the context of GitLab."
+                        }
+                    ]
+                },
+                {
+                    "id": "26f2a488-8c0d-4e47-9f7e-86c6db1a5293",
+                    "question": "Which of the following is a GitLab repository hosting service?",
+                    "description": "Identify the correct GitLab hosting service.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "GitHub",
+                            "points": 0,
+                            "explanation": "Incorrect. GitHub is a separate platform for hosting Git repositories, not GitLab."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Bitbucket",
+                            "points": 0,
+                            "explanation": "Incorrect. Bitbucket is a different repository hosting service, not GitLab."
+                        },
+                        {
+                            "label": "C",
+                            "description": "GitLab.com",
+                            "points": 3,
+                            "explanation": "Correct! GitLab.com is a GitLab repository hosting service."
+                        }
+                    ]
+                },
+                {
+                    "id": "dfe245b5-8e6b-4a41-b5f4-55ea12b4b874",
+                    "question": "What is the purpose of the 'merge request' feature in GitLab?",
+                    "description": "Explain the function of 'merge request' in GitLab.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Merge request' in GitLab is not for creating new branches."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To request changes to the main branch.",
+                            "points": 3,
+                            "explanation": "Correct! A 'merge request' is used to propose changes to the main branch and request their integration."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To delete a branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Merge request' is not used for deleting branches in GitLab."
+                        }
+                    ]
+                },
+                {
+                    "id": "b61aee0e-5345-4ac9-b09d-4a06e587d3cf",
+                    "question": "Which programming language is primarily used for GitLab CI/CD pipelines?",
+                    "description": "Identify the programming language used for GitLab CI/CD pipelines.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Java",
+                            "points": 0,
+                            "explanation": "Incorrect. Java is not the primary language for GitLab CI/CD pipelines."
+                        },
+                        {
+                            "label": "B",
+                            "description": "JavaScript",
+                            "points": 0,
+                            "explanation": "Incorrect. JavaScript is not the primary language for GitLab CI/CD pipelines."
+                        },
+                        {
+                            "label": "C",
+                            "description": "YAML",
+                            "points": 3,
+                            "explanation": "Correct! YAML is the primary language for defining CI/CD pipelines in GitLab."
+                        }
+                    ]
+                },
+                {
+                    "id": "48af1307-d3a9-4a37-8b26-81056b0b9db4",
+                    "question": "What is the purpose of the GitLab 'issue' tracker?",
+                    "description": "Explain the role of the 'issue' tracker in GitLab.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To track changes made in the repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'issue' tracker in GitLab is not used to track changes but rather to manage tasks, enhancements, and bugs."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage and track tasks, enhancements, and bugs.",
+                            "points": 3,
+                            "explanation": "Correct! The 'issue' tracker in GitLab is designed for managing tasks, enhancements, and bugs associated with a project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create new branches in the repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is not the primary purpose of the 'issue' tracker in GitLab."
+                        }
+                    ]
+                },
+                {
+                    "id": "1899b42d-757a-45f1-83b1-83eb8cb1700a",
+                    "question": "What does GitLab CI/CD stand for?",
+                    "description": "Provide the full expansion of CI/CD in GitLab.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Common Integration/Continuous Deployment.",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct expansion for CI/CD in GitLab is Continuous Integration/Continuous Deployment."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Complete Integration/Continuous Distribution.",
+                            "points": 0,
+                            "explanation": "Incorrect. The correct expansion for CI/CD in GitLab is Continuous Integration/Continuous Deployment."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Continuous Integration/Continuous Deployment.",
+                            "points": 3,
+                            "explanation": "Correct! CI/CD in GitLab stands for Continuous Integration/Continuous Deployment."
+                        }
+                    ]
+                },
+                {
+                    "id": "6b8b188d-0b3f-49b0-8c89-9a9b0f44e7d5",
+                    "question": "Which GitLab feature allows you to automate the testing and delivery of your code?",
+                    "description": "Identify the GitLab feature associated with automating testing and delivery.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Merge Requests",
+                            "points": 0,
+                            "explanation": "Incorrect. Merge Requests are about proposing changes, not automating testing and delivery."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Issues",
+                            "points": 0,
+                            "explanation": "Incorrect. Issues are for tracking tasks, enhancements, and bugs, not for automating testing and delivery."
+                        },
+                        {
+                            "label": "C",
+                            "description": "CI/CD Pipelines",
+                            "points": 3,
+                            "explanation": "Correct! CI/CD Pipelines in GitLab automate the testing and delivery processes of code changes."
+                        }
+                    ]
+                },
+                {
+                    "id": "42b2435f-5054-4a4f-b13a-e20d2d18e4e3",
+                    "question": "In GitLab, what is the purpose of a 'protected branch'?",
+                    "description": "Explain the role of a 'protected branch' in GitLab.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To hide the branch from other developers.",
+                            "points": 0,
+                            "explanation": "Incorrect. A 'protected branch' in GitLab is not about hiding the branch but about controlling who can make changes to it."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To prevent accidental or unauthorized changes.",
+                            "points": 3,
+                            "explanation": "Correct! A 'protected branch' is used to prevent accidental or unauthorized changes to the branch."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To merge branches automatically.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Protected branches' do not merge branches automatically; they control who can merge changes."
+                        }
+                    ]
+                },
+                {
+                    "id": "019a3ce1-97d7-4598-b0b1-660e0ff369bb",
+                    "question": "Which GitLab feature allows you to visualize the history of changes in a repository?",
+                    "description": "Identify the GitLab feature associated with visualizing the history of changes.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Merge Requests",
+                            "points": 0,
+                            "explanation": "Incorrect. Merge Requests are for proposing and reviewing changes, not for visualizing the history of changes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Issues",
+                            "points": 0,
+                            "explanation": "Incorrect. Issues are for tracking tasks, enhancements, and bugs, not for visualizing the history of changes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Repository Graph",
+                            "points": 3,
+                            "explanation": "Correct! The 'Repository Graph' feature in GitLab allows you to visualize the history of changes in a repository."
+                        }
+                    ]
+                },
+                {
+                    "id": "e20e8c7a-6b0d-4a84-83b1-5180793ebfb4",
+                    "question": "What is the purpose of a GitLab 'tag'?",
+                    "description": "Explain the role of a 'tag' in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create a new branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. A 'tag' in GitLab is not used for creating branches."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To mark a specific point in the Git history.",
+                            "points": 3,
+                            "explanation": "Correct! A 'tag' is used to mark a specific point in the Git history, often for versioning purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To request changes to the main branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Tags' are not used for requesting changes."
+                        }
+                    ]
+                },
+                {
+                    "id": "d47e53a2-3529-4a08-9502-2b39a204d174",
+                    "question": "In GitLab, what does the term 'fork' refer to?",
+                    "description": "Define the concept of 'fork' in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "A branch created for experimental changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. A 'fork' in GitLab is a copy of a repository, not an experimental branch."
+                        },
+                        {
+                            "label": "B",
+                            "description": "A copy of a repository owned by another user or organization.",
+                            "points": 3,
+                            "explanation": "Correct! A 'fork' is a personal copy of another user or organization's repository in GitLab."
+                        },
+                        {
+                            "label": "C",
+                            "description": "A tool for merging branches.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Fork' is not a tool for merging branches; it's about repository copying."
+                        }
+                    ]
+                },
+                {
+                    "id": "8ce63490-8e2c-421f-b7ad-7699932c61f2",
+                    "question": "What does the GitLab 'Wiki' feature allow you to do?",
+                    "description": "Describe the functionality of the 'Wiki' feature in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Track code changes in a repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'Wiki' feature is not for tracking code changes; it's for collaborative documentation."
+                        },
+                        {
+                            "label": "B",
+                            "description": "Collaboratively document and share information.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Wiki' feature in GitLab is used for collaboratively documenting and sharing information related to a project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Manage tasks and issues.",
+                            "points": 0,
+                            "explanation": "Incorrect. Managing tasks and issues is the role of the 'Issues' feature, not the 'Wiki'."
+                        }
+                    ]
+                },
+                {
+                    "id": "13c14d4f-36b8-46b7-8361-23c9eb8a00e8",
+                    "question": "What is the purpose of GitLab's 'Group' feature?",
+                    "description": "Explain the role of the 'Group' feature in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To organize code into smaller modules.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Groups' in GitLab are not for organizing code into smaller modules; they are for managing multiple projects together."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage multiple projects together.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Group' feature in GitLab is used to manage multiple projects together, providing a way to organize and collaborate at a higher level."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create new branches in the repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is not the primary purpose of the 'Group' feature in GitLab."
+                        }
+                    ]
+                },
+                {
+                    "id": "2c551460-3e0a-495d-b49e-c0f178d8b887",
+                    "question": "What is the GitLab 'Snippets' feature used for?",
+                    "description": "Describe the purpose of the 'Snippets' feature in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To organize code into smaller modules.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Snippets' in GitLab are not for organizing code into smaller modules; they are for sharing and managing pieces of code or text."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To share and manage pieces of code or text.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Snippets' feature in GitLab is used for sharing and managing small pieces of code or text."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create new branches in the repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is not the primary purpose of the 'Snippets' feature in GitLab."
+                        }
+                    ]
+                },
+                {
+                    "id": "b089f6b8-ae68-4563-9e8d-7dfdfcc24421",
+                    "question": "What is the default branching strategy in GitLab called?",
+                    "description": "Identify the default branching strategy in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "Feature Branching",
+                            "points": 0,
+                            "explanation": "Incorrect. Feature Branching is a common branching strategy, but it's not the default in GitLab."
+                        },
+                        {
+                            "label": "B",
+                            "description": "GitFlow",
+                            "points": 0,
+                            "explanation": "Incorrect. GitFlow is another branching strategy, but it's not the default in GitLab."
+                        },
+                        {
+                            "label": "C",
+                            "description": "Master/Main Branch",
+                            "points": 3,
+                            "explanation": "Correct! The default branching strategy in GitLab uses a 'Master' or 'Main' branch as the primary development branch."
+                        }
+                    ]
+                },
+                {
+                    "id": "a9e4b4f8-2189-4a9f-89cd-d76b545c06b9",
+                    "question": "What is the purpose of the GitLab 'Dashboard'?",
+                    "description": "Explain the role of the 'Dashboard' in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To view and manage project settings.",
+                            "points": 0,
+                            "explanation": "Incorrect. Project settings are usually managed in project settings, not the 'Dashboard'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To get an overview of recent activity across multiple projects.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Dashboard' in GitLab provides an overview of recent activity across multiple projects in one place."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create new branches in the repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is not the primary purpose of the 'Dashboard' in GitLab."
+                        }
+                    ]
+                },
+                {
+                    "id": "470fd8c4-8ed1-48d7-aa1a-d26ff4e55d65",
+                    "question": "What is the purpose of the 'Contributors' graph in GitLab?",
+                    "description": "Explain the role of the 'Contributors' graph.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To track individual file contributions.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'Contributors' graph tracks contributions by individual contributors, not individual files."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To visualize contributions over time by different contributors.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Contributors' graph in GitLab visualizes contributions over time by different contributors to a repository."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create new branches in the repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Creating branches is not the purpose of the 'Contributors' graph."
+                        }
+                    ]
+                },
+                {
+                    "id": "c6a2625a-73b2-45bd-9ea7-dae0e5e0bc02",
+                    "question": "What is the significance of the GitLab 'Forked From' information?",
+                    "description": "Explain the significance of 'Forked From' in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It indicates the origin of a specific branch.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Forked From' is not about indicating the origin of a specific branch but rather the source repository of a fork."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It indicates the source repository from which a fork was created.",
+                            "points": 3,
+                            "explanation": "Correct! 'Forked From' in GitLab indicates the source repository from which a fork was created."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It indicates the most recent commit in a repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Forked From' does not indicate the most recent commit but rather the source repository of a fork."
+                        }
+                    ]
+                },
+                {
+                    "id": "8bcb6d20-df50-42af-a03e-1b6e0d542856",
+                    "question": "What is the GitLab 'Web IDE' used for?",
+                    "description": "Describe the purpose of the 'Web IDE' in GitLab.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage project settings.",
+                            "points": 0,
+                            "explanation": "Incorrect. Project settings are typically managed in the settings section, not the 'Web IDE'."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To visualize the project's commit history.",
+                            "points": 0,
+                            "explanation": "Incorrect. Visualizing commit history is not the primary purpose of the 'Web IDE'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To edit files directly within the GitLab interface.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Web IDE' in GitLab allows users to edit files directly within the GitLab interface."
+                        }
+                    ]
+                },
+                {
+                    "id": "52b666fd-57aa-4c34-bdab-7f362e2c4b77",
+                    "question": "What is the purpose of the 'GitLab Runner' in CI/CD?",
+                    "description": "Explain the role of the 'GitLab Runner' in the CI/CD process.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control in GitLab.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Runner' is not related to user access control; it is involved in executing CI/CD jobs."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To execute CI/CD jobs on local development machines.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Runner' typically runs jobs on separate machines, not local development machines."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To run CI/CD jobs in isolated environments.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Runner' is responsible for running CI/CD jobs in isolated environments, ensuring consistency and reproducibility."
+                        }
+                    ]
+                },
+                {
+                    "id": "a257d018-22bb-4b72-8048-778eeec3f6ea",
+                    "question": "What is the purpose of the 'Pages' feature in GitLab?",
+                    "description": "Describe the functionality of the 'Pages' feature.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create new pages within a Wiki.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Pages' is not about creating pages within a Wiki; it is for publishing static web pages associated with a project."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To publish static web pages associated with a project.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Pages' feature in GitLab allows you to publish static web pages associated with a project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To track code changes in a repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. Tracking code changes is not the purpose of the 'Pages' feature."
+                        }
+                    ]
+                },
+                {
+                    "id": "42f09e2b-d9bf-4a38-9f4c-2953564db571",
+                    "question": "What is the significance of the 'Changelog' in GitLab?",
+                    "description": "Explain the role of the 'Changelog' in a GitLab project.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To track recent code changes in a repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'Changelog' is not about tracking recent code changes; it is a file summarizing significant changes for users."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage project settings.",
+                            "points": 0,
+                            "explanation": "Incorrect. Managing project settings is not the purpose of the 'Changelog'."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To provide a summary of significant changes for users.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Changelog' in GitLab provides a summary of significant changes made to a project, making it easier for users to understand updates."
+                        }
+                    ]
+                },
+                {
+                    "id": "8d6c558d-010a-4f8a-8a1b-6e8c429a8b2b",
+                    "question": "In GitLab CI/CD, what is the purpose of the 'script' keyword in a job definition?",
+                    "description": "Explain the role of the 'script' keyword in a CI/CD job definition.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To define the overall job configuration.",
+                            "points": 0,
+                            "explanation": "Incorrect. The 'script' keyword is specific to defining the script or commands to be executed during a job, not the overall job configuration."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To specify the GitLab Runner version to use.",
+                            "points": 0,
+                            "explanation": "Incorrect. Specifying the GitLab Runner version is not the purpose of the 'script' keyword."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To define the script or commands to be executed during a job.",
+                            "points": 3,
+                            "explanation": "Correct! The 'script' keyword is used to specify the script or commands that will be executed during a CI/CD job in GitLab."
+                        }
+                    ]
+                },
+                {
+                    "id": "31b5f85c-6d3b-4a22-8e5d-1f64a0638ec9",
+                    "question": "What is the GitLab 'Review Apps' feature used for?",
+                    "description": "Describe the purpose of the 'Review Apps' feature in GitLab.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create new branches for code reviews.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Review Apps' is not about creating new branches but creating temporary environments for reviewing code changes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To automatically review code changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Review Apps' does not automatically review code changes; it provides temporary environments for manual review."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To create temporary environments for reviewing code changes.",
+                            "points": 3,
+                            "explanation": "Correct! 'Review Apps' in GitLab creates temporary environments for reviewing code changes, facilitating collaborative code review."
+                        }
+                    ]
+                },
+                {
+                    "id": "c7ac4611-1b02-4b6e-82db-3dfdf899a5c7",
+                    "question": "What is the purpose of the 'Service Desk' in GitLab?",
+                    "description": "Explain the role of the 'Service Desk' feature in GitLab.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Service Desk' is not about managing user access control; it is for facilitating communication with external users."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To automate CI/CD pipelines.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Service Desk' is not related to automating CI/CD pipelines; it is for communication purposes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To facilitate communication with external users.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Service Desk' feature in GitLab is designed to facilitate communication between GitLab users and external users via email."
+                        }
+                    ]
+                },
+                {
+                    "id": "53a89b5b-7477-41cf-a529-25d6f6f9d18c",
+                    "question": "What is the purpose of the 'Burndown Charts' in GitLab?",
+                    "description": "Explain the role of 'Burndown Charts' in GitLab.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the distribution of code changes in a repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Burndown Charts' do not visualize the distribution of code changes; they are related to project management and progress tracking."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To track the total lines of code in a repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Burndown Charts' are not about tracking the total lines of code; they are used for tracking project completion over time."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To track project completion over time and manage work in Agile projects.",
+                            "points": 3,
+                            "explanation": "Correct! 'Burndown Charts' in GitLab are used to track project completion over time, especially in Agile projects, and help manage work accordingly."
+                        }
+                    ]
+                },
+                {
+                    "id": "6957b6bf-3ea7-4bd2-8c5f-6db8b0e2b6f3",
+                    "question": "What is the significance of the 'Protected Environment' feature in GitLab?",
+                    "description": "Explain the role of the 'Protected Environment' feature.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To hide specific branches from contributors.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Protected Environment' is not about hiding branches but about controlling access to specific environments."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To control access to specific environments and prevent unauthorized deployments.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Protected Environment' feature in GitLab is used to control access to specific environments and prevent unauthorized deployments."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the deployment of code changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Protected Environment' is not about automating deployments but about controlling access to environments."
+                        }
+                    ]
+                },
+                {
+                    "id": "d0d46f98-11e4-490b-81c1-0bb90d0c6ed8",
+                    "question": "What is the purpose of the 'Container Registry' in GitLab?",
+                    "description": "Explain the role of the 'Container Registry' feature.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control in GitLab.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'Container Registry' is not about managing user access control but about storing and managing Docker images."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To store and manage Docker images associated with a project.",
+                            "points": 3,
+                            "explanation": "Correct! The 'Container Registry' feature in GitLab is used to store and manage Docker images associated with a project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To visualize the history of code changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. Visualizing the history of code changes is not the purpose of the 'Container Registry'."
+                        }
+                    ]
+                },
+                {
+                    "id": "22bd2f6d-9d6b-4a94-b25e-e5758f165da3",
+                    "question": "In GitLab CI/CD, what is the purpose of the 'only' and 'except' keywords in job definitions?",
+                    "description": "Explain the role of the 'only' and 'except' keywords in CI/CD job definitions.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To specify the GitLab Runner version for job execution.",
+                            "points": 0,
+                            "explanation": "Incorrect. Specifying the GitLab Runner version is not the purpose of 'only' and 'except' keywords."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To define the overall job configuration.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'only' and 'except' keywords are not about defining the overall job configuration but about specifying when a job should run."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To specify when a job should run based on branch or tag conditions.",
+                            "points": 3,
+                            "explanation": "Correct! 'only' and 'except' keywords in GitLab CI/CD job definitions are used to specify when a job should run based on branch or tag conditions."
+                        }
+                    ]
+                },
+                {
+                    "id": "f05152e7-89a1-4e34-82f7-79d883a30fc5",
+                    "question": "What is the purpose of the 'GitLab Geo' feature?",
+                    "description": "Explain the role of the 'GitLab Geo' feature.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control in distributed GitLab instances.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Geo' is not about managing user access control; it's focused on improving performance and redundancy in distributed instances."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To improve performance and redundancy in distributed GitLab instances.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Geo' is a feature designed to enhance performance and redundancy in distributed GitLab instances."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate CI/CD pipelines across multiple GitLab instances.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Geo' is not about automating CI/CD pipelines; it focuses on distribution and scalability."
+                        }
+                    ]
+                },
+                {
+                    "id": "8b82e4b3-1b4a-4c88-9b4b-0f61a2a11627",
+                    "question": "What is the 'GitLab Cluster' used for?",
+                    "description": "Describe the purpose of the 'GitLab Cluster'.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control in GitLab.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Cluster' is not about managing user access control; it's related to high availability and performance."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To provide high availability and improved performance for GitLab instances.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Cluster' is designed to provide high availability and improved performance for GitLab instances by distributing the load across multiple nodes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate CI/CD pipelines in a clustered GitLab environment.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Cluster' is not about automating CI/CD pipelines; it's focused on scalability and availability."
+                        }
+                    ]
+                },
+                {
+                    "id": "d86b1517-2f37-4e45-8eb0-012c8b8679e8",
+                    "question": "What is the purpose of the 'GitLab Service Templates' feature?",
+                    "description": "Explain the role of 'GitLab Service Templates'.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To create new branches based on predefined templates.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Service Templates' is not about creating branches; it's related to CI/CD configuration and pipeline customization."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To automate the deployment of predefined services in CI/CD pipelines.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Service Templates' is used to automate the deployment of predefined services in CI/CD pipelines, improving customization and efficiency."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To manage user access control in GitLab.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Service Templates' is not about managing user access control; it's focused on CI/CD processes."
+                        }
+                    ]
+                },
+                {
+                    "id": "31d3a7f2-13a8-4e18-a8f8-4c1a00f2fada",
+                    "question": "What is the purpose of 'GitLab Package Registry'?",
+                    "description": "Explain the role of 'GitLab Package Registry'.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the history of changes in a GitLab repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Package Registry' is not about visualizing the history of changes; it's related to managing and distributing packages."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage and distribute packages associated with a GitLab project.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Package Registry' is used to manage and distribute packages, such as Docker images, Maven artifacts, and more, associated with a GitLab project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the creation of new branches in GitLab.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Package Registry' is not about automating branch creation but focuses on package management."
+                        }
+                    ]
+                },
+                {
+                    "id": "069a1539-2c7b-4ae3-a139-7b7dd529cc80",
+                    "question": "What is the purpose of 'GitLab Dependency Scanning'?",
+                    "description": "Explain the role of 'GitLab Dependency Scanning'.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the history of code changes in a GitLab repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Dependency Scanning' is not about visualizing the history of changes but focuses on identifying and managing dependencies for security purposes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To identify and manage dependencies for security purposes in a GitLab project.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Dependency Scanning' is used to identify and manage dependencies for security purposes in a GitLab project."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the creation of new branches in GitLab.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Dependency Scanning' is not about automating branch creation but is focused on security scanning."
+                        }
+                    ]
+                },
+                {
+                    "id": "11ee460c-8a8e-4a38-b0a3-926c2057d523",
+                    "question": "What is the purpose of 'GitLab Container Network Policies'?",
+                    "description": "Explain the role of 'GitLab Container Network Policies'.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control in GitLab.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Container Network Policies' is not about managing user access control; it's related to defining network policies for containerized applications."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To automate CI/CD pipelines for containerized applications.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Container Network Policies' is not about automating CI/CD pipelines; it's focused on network policy management."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To define network policies for containerized applications.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Container Network Policies' is used to define network policies for containerized applications, enhancing security and communication control."
+                        }
+                    ]
+                },
+                {
+                    "id": "eabf7d10-4c15-43bf-9f69-aafe5f684d18",
+                    "question": "What does 'GitLab Code Quality' analyze in a GitLab project?",
+                    "description": "Describe what 'GitLab Code Quality' analyzes in a GitLab project.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It analyzes the project's Git history and commit messages.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Code Quality' is not focused on analyzing Git history or commit messages; it's related to code quality metrics and analysis."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It analyzes code quality based on defined metrics and rules.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Code Quality' analyzes code quality in a GitLab project based on predefined metrics and rules, helping identify areas for improvement."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It analyzes the project's test coverage.",
+                            "points": 0,
+                            "explanation": "Incorrect. Analyzing test coverage is typically associated with other tools or features, not 'GitLab Code Quality'."
+                        }
+                    ]
+                },
+                {
+                    "id": "3f78b5c5-dcc4-42cb-9c46-58782abf1373",
+                    "question": "What is the purpose of 'GitLab Instance-Level Variables'?",
+                    "description": "Explain the role of 'GitLab Instance-Level Variables'.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control at the instance level.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Instance-Level Variables' is not about managing user access control; it's related to CI/CD pipeline configuration at the instance level."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To define environment variables that apply to all projects within a GitLab instance.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Instance-Level Variables' allow you to define environment variables that apply to all projects within a GitLab instance, simplifying configuration management."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate CI/CD pipelines at the instance level.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Instance-Level Variables' is not about automating CI/CD pipelines; it's about centralizing environment variables."
+                        }
+                    ]
+                },
+                {
+                    "id": "9892fc4d-83d4-4db5-98ec-2091b80b91d4",
+                    "question": "What is the purpose of 'GitLab Compliance Dashboard'?",
+                    "description": "Explain the role of 'GitLab Compliance Dashboard'.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the history of changes in a GitLab repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Compliance Dashboard' is not about visualizing the history of changes; it's focused on providing a centralized view of compliance-related activities."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage user access control for compliance-related activities.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Compliance Dashboard' is not about managing user access control; it's about compliance tracking and reporting."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To provide a centralized view of compliance-related activities.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Compliance Dashboard' provides a centralized view of compliance-related activities, helping organizations track and demonstrate compliance efforts."
+                        }
+                    ]
+                },
+                {
+                    "id": "a2a27a44-e9aa-41e9-868b-cdb881d0f631",
+                    "question": "How does 'GitLab DORA Metrics' contribute to CI/CD improvement?",
+                    "description": "Explain how 'GitLab DORA Metrics' contributes to CI/CD improvement.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "It focuses on optimizing code review processes.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab DORA Metrics' is not specifically focused on code review processes; it's related to broader CI/CD performance metrics."
+                        },
+                        {
+                            "label": "B",
+                            "description": "It provides metrics to assess software delivery performance, such as lead time and deployment frequency.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab DORA Metrics' provides key metrics, including lead time and deployment frequency, to assess and improve software delivery performance in CI/CD processes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "It automates the generation of performance reports for CI/CD pipelines.",
+                            "points": 0,
+                            "explanation": "Incorrect. While 'GitLab DORA Metrics' provides metrics, it is not focused on automating the generation of performance reports."
+                        }
+                    ]
+                },
+                {
+                    "id": "726e12b2-702e-4e0e-9db6-7e08d3f64e5d",
+                    "question": "Explain the role of 'GitLab Container Host Security' in a containerized environment.",
+                    "description": "Provide insights into the purpose and function of 'GitLab Container Host Security' in a containerized environment.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control for container hosts.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Container Host Security' is not primarily about managing user access control but focuses on securing the underlying container host infrastructure."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To secure and monitor the underlying container host infrastructure for vulnerabilities and compliance.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Container Host Security' is designed to secure and monitor the underlying container host infrastructure, addressing vulnerabilities and ensuring compliance in a containerized environment."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the deployment of containers on host machines.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Container Host Security' is not about automating container deployment but focuses on security measures."
+                        }
+                    ]
+                },
+                {
+                    "id": "d3a77bd0-1693-4323-b7c9-efacfd6344ad",
+                    "question": "Describe the purpose of 'GitLab Multi-Project Pipeline Graphs' in a CI/CD environment.",
+                    "description": "Explain how 'GitLab Multi-Project Pipeline Graphs' contributes to visualization and management in a CI/CD environment.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize individual project pipelines.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Multi-Project Pipeline Graphs' is focused on visualizing and managing pipelines across multiple projects, not individual project pipelines."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To visualize and manage interconnected pipelines across multiple projects.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Multi-Project Pipeline Graphs' is designed to visualize and manage interconnected pipelines across multiple projects, providing a holistic view of CI/CD processes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the creation of pipelines for multiple projects.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Multi-Project Pipeline Graphs' is not about automating pipeline creation but focuses on visualization and management."
+                        }
+                    ]
+                },
+                {
+                    "id": "e8c22a6f-d9f4-4b15-bb6e-f68eb26ad098",
+                    "question": "What is the significance of 'GitLab Project Templates'?",
+                    "description": "Explain the purpose and use of 'GitLab Project Templates' in the context of GitLab projects.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize project activity and contributions.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Project Templates' is not focused on visualizing project activity but on providing predefined project structures."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To provide predefined project structures and configurations for specific use cases.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Project Templates' are designed to offer predefined project structures and configurations, streamlining the setup of projects for specific use cases."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the creation of new projects.",
+                            "points": 0,
+                            "explanation": "Incorrect. While 'GitLab Project Templates' facilitates project creation, it's not about full automation but about predefined structures."
+                        }
+                    ]
+                },
+                {
+                    "id": "408d6b0f-c8d4-4fe3-b71a-01a39d0e69b6",
+                    "question": "In the context of GitLab CI/CD, what is the role of 'GitLab CI/CD Parent-Child Pipelines'?",
+                    "description": "Explain how 'GitLab CI/CD Parent-Child Pipelines' facilitate CI/CD processes.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the individual stages of a single pipeline.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab CI/CD Parent-Child Pipelines' go beyond visualizing individual stages; they are about orchestrating relationships between different pipelines."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To orchestrate relationships between multiple pipelines, enabling dependencies and parallel execution.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab CI/CD Parent-Child Pipelines' facilitate relationships between multiple pipelines, allowing for dependencies and parallel execution to streamline CI/CD processes."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the creation of child pipelines based on parent pipeline configurations.",
+                            "points": 0,
+                            "explanation": "Incorrect. While 'GitLab CI/CD Parent-Child Pipelines' involve relationships, they aren't primarily about automating child pipeline creation based on parent configurations."
+                        }
+                    ]
+                },
+                {
+                    "id": "27b6a8db-87a1-4df4-baac-4dbd862e55a5",
+                    "question": "Explain the purpose of 'GitLab Merge Request Approvals' in the context of code collaboration.",
+                    "description": "Describe how 'GitLab Merge Request Approvals' contribute to the code review and collaboration process.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the history of code changes in a GitLab repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Merge Request Approvals' are not about visualizing the history of changes; they are focused on the approval process during code review."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To enforce a specific code review process and require approvals before merging changes.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Merge Request Approvals' are designed to enforce a code review process by requiring approvals before merging changes, enhancing collaboration and code quality."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the creation of merge requests based on predefined criteria.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Merge Request Approvals' focus on the approval process and are not about automating merge request creation based on predefined criteria."
+                        }
+                    ]
+                },
+                {
+                    "id": "fad5ef16-29a8-40fe-8b33-fdf7f5482622",
+                    "question": "What is the significance of 'GitLab CI/CD Resource Groups'?",
+                    "description": "Explain the role of 'GitLab CI/CD Resource Groups' in optimizing CI/CD resource allocation.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control for CI/CD resources.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab CI/CD Resource Groups' is not primarily about managing user access control but focuses on optimizing resource allocation for CI/CD processes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To optimize resource allocation by grouping jobs that require similar resources in CI/CD pipelines.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab CI/CD Resource Groups' allow for the optimization of resource allocation by grouping jobs that require similar resources in CI/CD pipelines."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the scaling of CI/CD resources based on pipeline demands.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab CI/CD Resource Groups' focus on grouping jobs and optimizing allocation, not on automating resource scaling based on pipeline demands."
+                        }
+                    ]
+                },
+                {
+                    "id": "d80b1b5f-322e-4b17-9bd8-6d7d5dd07ea7",
+                    "question": "Explain the purpose of 'GitLab Code Insights' and how it enhances code quality.",
+                    "description": "Describe the role of 'GitLab Code Insights' in providing insights into code quality and enhancing development processes.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the history of code changes in a GitLab repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Code Insights' is not primarily about visualizing the history of changes; it focuses on providing actionable insights into code quality."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To provide actionable insights into code quality by analyzing metrics and trends.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Code Insights' enhances code quality by providing actionable insights through the analysis of metrics and trends in a GitLab repository."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the generation of code documentation based on code changes.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Code Insights' is not about automating code documentation but about providing insights for code quality improvement."
+                        }
+                    ]
+                },
+                {
+                    "id": "893b1fcf-3e18-4072-b631-04d0a5cf7582",
+                    "question": "What role does 'GitLab Auto DevOps' play in streamlining the CI/CD process?",
+                    "description": "Explain how 'GitLab Auto DevOps' contributes to streamlining the CI/CD process.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To manage user access control for CI/CD pipelines.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Auto DevOps' is not primarily about managing user access control but about automating and streamlining CI/CD processes."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To automate and streamline the CI/CD process by providing predefined CI/CD configurations.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Auto DevOps' automates and streamlines the CI/CD process by offering predefined CI/CD configurations and best practices."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To optimize resource allocation for CI/CD pipelines.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Auto DevOps' is not primarily focused on resource allocation but on automating and improving the CI/CD process."
+                        }
+                    ]
+                },
+                {
+                    "id": "1d3030e8-d764-4d26-8362-e87486e5c3f3",
+                    "question": "Explain the role of 'GitLab CI/CD Triggers' in orchestrating CI/CD processes across repositories.",
+                    "description": "Describe how 'GitLab CI/CD Triggers' facilitate coordination and execution of CI/CD processes across multiple repositories.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the individual stages of a single repository's CI/CD pipeline.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab CI/CD Triggers' go beyond visualizing individual stages; they are about coordinating CI/CD processes across multiple repositories."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To facilitate the coordination and execution of CI/CD processes across multiple repositories.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab CI/CD Triggers' enable the coordination and execution of CI/CD processes across multiple repositories, promoting efficient cross-repository workflows."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To automate the creation of CI/CD pipelines based on predefined triggers.",
+                            "points": 0,
+                            "explanation": "Incorrect. While 'GitLab CI/CD Triggers' involve triggers, they are not primarily about automating pipeline creation but about coordinating processes."
+                        }
+                    ]
+                },
+                {
+                    "id": "9fb22171-57fc-48c2-90a2-d7e917c8d2a2",
+                    "question": "Describe the purpose of 'GitLab Compliance Management' and how it supports organizational compliance.",
+                    "description": "Explain the role of 'GitLab Compliance Management' in addressing compliance requirements within an organization.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "A",
+                            "description": "To visualize the history of changes in a GitLab repository.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Compliance Management' is not about visualizing the history of changes; it focuses on addressing compliance requirements."
+                        },
+                        {
+                            "label": "B",
+                            "description": "To manage user access control for compliance-related activities.",
+                            "points": 0,
+                            "explanation": "Incorrect. 'GitLab Compliance Management' is not primarily about managing user access control but about addressing compliance needs."
+                        },
+                        {
+                            "label": "C",
+                            "description": "To support organizational compliance by providing tools and features for compliance management.",
+                            "points": 3,
+                            "explanation": "Correct! 'GitLab Compliance Management' supports organizational compliance by offering tools and features for managing and demonstrating compliance efforts."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

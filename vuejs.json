@@ -1,0 +1,1691 @@
+{
+    "skill": {
+        "Vuejs": {
+            "id": "vuejs",
+            "description": "Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It is mainly focused on front end developmentVisit the following resources to learn more:",
+            "resources": [
+                {
+                    "name": "Visit Dedicated Vue Roadmap",
+                    "link": "https://roadmap.sh/vue"
+                },
+                {
+                    "name": "Vue.js Website",
+                    "link": "https://vuejs.org/"
+                },
+                {
+                    "name": "Official Getting Started",
+                    "link": "https://vuejs.org/v2/guide/"
+                },
+                {
+                    "name": "Vue.js Course for Beginners",
+                    "link": "https://www.youtube.com/watch?v=FXpIoQ_rT_c"
+                },
+                {
+                    "name": "Vue.js Crash Course",
+                    "link": "https://www.youtube.com/watch?v=qZXt1Aom3Cs"
+                },
+                {
+                    "name": "Meet Vue.js, the Flexible JavaScript Framework",
+                    "link": "https://thenewstack.io/meet-vue-js-flexible-javascript-framework/"
+                }
+            ],
+            "parents": [
+                "pick-a-framework",
+                "server-side-rendering"
+            ],
+            "children": [],
+            "questions": [
+                {
+                    "id": "afea1cf6-268e-490e-9ac5-4ec77a414eea",
+                    "question": "What is Vue.js primarily focused on?",
+                    "description": "Identify the primary focus of Vue.js in the context of web development.",
+                    "hint": "Consider the core purpose and primary use case of Vue.js in the realm of front-end development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side development",
+                            "description": "Incorrect. Vue.js is primarily focused on front-end development, not server-side development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not primarily focused on back-end development but on front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js is primarily focused on front-end development, allowing developers to build user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Correctly identifying the primary focus of Vue.js as front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not primarily focused on database management but on front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "afea1cf6-268e-490e-9ac5-4ec77a414eea",
+                    "question": "What is Vue.js primarily focused on?",
+                    "description": "Identify the primary focus of Vue.js in the context of web development.",
+                    "hint": "Consider the core purpose and primary use case of Vue.js in the realm of front-end development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side development",
+                            "description": "Incorrect. Vue.js is primarily focused on front-end development, not server-side development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not primarily focused on back-end development but on front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js is primarily focused on front-end development, allowing developers to build user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Correctly identifying the primary focus of Vue.js as front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not primarily focused on database management but on front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "637aa18e-7431-4381-a8db-bd5df1011777",
+                    "question": "Where is Vue.js primarily focused?",
+                    "description": "Identify the primary focus and domain of application for Vue.js.",
+                    "hint": "Consider the primary purpose and use cases of Vue.js in the field of web development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side development",
+                            "description": "Incorrect. Vue.js is primarily focused on front-end development, not server-side development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not primarily focused on back-end development but on front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js is primarily focused on front-end development, allowing developers to build user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Correctly identifying the primary focus of Vue.js as front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not primarily focused on database management but on front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fa9e200d-2b99-4f2f-b1c1-7430f0fe9f5a",
+                    "question": "What type of framework is Vue.js?",
+                    "description": "Identify the category or type of framework that Vue.js belongs to in the context of web development.",
+                    "hint": "Consider the nature and purpose of Vue.js as a framework used in building user interfaces and single-page applications.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Backend framework",
+                            "description": "Incorrect. Vue.js is not a backend framework but is primarily focused on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing Vue.js as a front-end framework is crucial for this question."
+                        },
+                        {
+                            "label": "Full-stack framework",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end framework",
+                            "description": "Correct! Vue.js is a front-end framework designed for building user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying Vue.js as a front-end framework contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management framework",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2ecf0517-b422-4f14-961c-c91d03b0068d",
+                    "question": "What does Vue.js mainly focus on?",
+                    "description": "Identify the primary focus and purpose of Vue.js in the field of web development.",
+                    "hint": "Consider the core use cases and strengths of Vue.js as a framework for building user interfaces and single-page applications.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side development",
+                            "description": "Incorrect. Vue.js is primarily focused on front-end development, not server-side development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not primarily focused on back-end development but on front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js mainly focuses on front-end development, allowing developers to build user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Correctly identifying the primary focus of Vue.js as front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not primarily focused on database management but on front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2ebf57d9-3c1f-44fb-a5e4-28e6ef25381c",
+                    "question": "In what area does Vue.js provide its primary functionality?",
+                    "description": "Identify the domain or area where Vue.js offers its primary functionality and features.",
+                    "hint": "Consider the core purpose and application of Vue.js in the development of web-based user interfaces and applications.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side processing",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side processing but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not designed for back-end development but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js provides its primary functionality in front-end development, facilitating the creation of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary functionality of Vue.js in front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "35c15a1e-8245-4d2d-a19e-1d01a0d2493b",
+                    "question": "Where does Vue.js excel in providing its primary functionality?",
+                    "description": "Identify the domain or area where Vue.js excels in offering its primary functionality and features.",
+                    "hint": "Consider the core purpose and application of Vue.js in the development of web-based user interfaces and applications.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side processing",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side processing but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not designed for back-end development but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js excels in providing its primary functionality in front-end development, facilitating the creation of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying that Vue.js excels in front-end development contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "f6c4c0cd-1954-4a3b-85e5-dab2b2e24e4d",
+                    "question": "For which type of applications is Vue.js most suitable?",
+                    "description": "Identify the category or type of applications for which Vue.js is most suitable.",
+                    "hint": "Consider the common use cases and strengths of Vue.js in the context of application development.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side applications",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side applications but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Database management applications",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management applications but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Client-side applications",
+                            "description": "Correct! Vue.js is most suitable for building client-side applications, focusing on the front-end development of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying that Vue.js is most suitable for client-side applications contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Full-stack applications",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is not limited to full-stack applications and is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1d7c749b-bcfc-4c65-8f5d-7e0d26ac3362",
+                    "question": "In what aspect does Vue.js provide its primary functionality?",
+                    "description": "Identify the specific aspect or domain where Vue.js offers its primary functionality and features.",
+                    "hint": "Consider the core purpose and application of Vue.js in the development of web-based user interfaces and applications.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side processing",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side processing but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not designed for back-end development but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js provides its primary functionality in front-end development, facilitating the creation of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary functionality of Vue.js in front-end development contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "7a68a93c-89a4-4b94-a126-24a8f91a0f38",
+                    "question": "For which part of web development is Vue.js primarily designed?",
+                    "description": "Identify the specific aspect or role for which Vue.js is primarily designed in the field of web development.",
+                    "hint": "Consider the core purpose and application of Vue.js in the development of web-based user interfaces and applications.",
+                    "difficulty": 0,
+                    "options": [
+                        {
+                            "label": "Server-side scripting",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side scripting but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js is primarily designed for front-end development, facilitating the creation of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary purpose of Vue.js in front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Full-stack development",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "12c2a9c5-cfe2-4a37-b6f0-d1f2ba8db1cc",
+                    "question": "Which type of applications is Vue.js most suitable for?",
+                    "description": "Identify the category or type of applications for which Vue.js is most suitable.",
+                    "hint": "Consider the common use cases and strengths of Vue.js in the context of application development.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Server-side applications",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side applications but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Client-side applications",
+                            "description": "Correct! Vue.js is most suitable for building client-side applications, focusing on the front-end development of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying that Vue.js is most suitable for client-side applications contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management applications",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management applications but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Full-stack applications",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is not limited to full-stack applications and is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b8b37a36-16e0-4ce5-9680-cf5ba94bf3ea",
+                    "question": "For what purpose is Vue.js primarily designed?",
+                    "description": "Identify the primary purpose or use case for which Vue.js is designed in the field of web development.",
+                    "hint": "Consider the core strengths and applications of Vue.js, especially in the context of user interface development.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Server-side scripting",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side scripting but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js is primarily designed for front-end development, facilitating the creation of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary purpose of Vue.js in front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Full-stack development",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c8ea719a-ef2d-4c06-bf3d-ee667aa8e446",
+                    "question": "In which part of web development does Vue.js excel?",
+                    "description": "Identify the specific domain or area where Vue.js excels in providing its primary functionality and features.",
+                    "hint": "Consider the core purpose and application of Vue.js in the development of web-based user interfaces and applications.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Server-side processing",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side processing but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not designed for back-end development but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js excels in providing its primary functionality in front-end development, facilitating the creation of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying that Vue.js excels in front-end development contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "96f4b6d2-226b-4c35-bf6f-14667447d1c3",
+                    "question": "Which area of web development is Vue.js specifically designed for?",
+                    "description": "Identify the specific area or domain for which Vue.js is designed in the field of web development.",
+                    "hint": "Consider the core purpose and application of Vue.js in the development of web-based user interfaces and applications.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Server-side scripting",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side scripting but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js is specifically designed for front-end development, facilitating the creation of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the specific area of web development for which Vue.js is designed contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Full-stack development",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fd1f8b0a-40f4-401b-88f3-3c28c46bda51",
+                    "question": "For what type of applications is Vue.js most suitable?",
+                    "description": "Identify the category or type of applications for which Vue.js is most suitable.",
+                    "hint": "Consider the common use cases and strengths of Vue.js in the context of application development.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Server-side applications",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side applications but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Client-side applications",
+                            "description": "Correct! Vue.js is most suitable for building client-side applications, focusing on the front-end development of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying that Vue.js is most suitable for client-side applications contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management applications",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management applications but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Full-stack applications",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is not limited to full-stack applications and is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "fd1f8b0a-40f4-401b-88f3-3c28c46bda51",
+                    "question": "For what type of applications is Vue.js most suitable?",
+                    "description": "Identify the category or type of applications for which Vue.js is most suitable.",
+                    "hint": "Consider the common use cases and strengths of Vue.js in the context of application development.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Server-side applications",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side applications but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Client-side applications",
+                            "description": "Correct! Vue.js is most suitable for building client-side applications, focusing on the front-end development of user interfaces and single-page applications.",
+                            "points": 3,
+                            "explanation": "Accurately identifying that Vue.js is most suitable for client-side applications contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management applications",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management applications but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Full-stack applications",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is not limited to full-stack applications and is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "63e8a794-d2b2-4a1a-89a4-9c74c5b8c350",
+                    "question": "What is the main focus of Vue.js in the context of web development?",
+                    "description": "Identify the central emphasis or focus of Vue.js in the field of web development.",
+                    "hint": "Consider the key strengths and applications of Vue.js, especially in the context of creating interactive user interfaces.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not designed for back-end development but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Server-side scripting",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side scripting but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js is primarily focused on front-end development, allowing for the creation of interactive and dynamic user interfaces.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the main focus of Vue.js in front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "99c1a127-3f6e-4b9f-b7e3-63dfcb837a20",
+                    "question": "What kind of applications can benefit the most from using Vue.js?",
+                    "description": "Identify the category or type of applications that can derive the most benefit from utilizing Vue.js.",
+                    "hint": "Consider the strengths and features of Vue.js, especially in the context of enhancing user interfaces and creating dynamic web applications.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Server-side applications",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side applications but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Client-side applications",
+                            "description": "Correct! Vue.js is most suitable for building client-side applications, emphasizing front-end development.",
+                            "points": 3,
+                            "explanation": "Accurately identifying that Vue.js is most beneficial for client-side applications contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management applications",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management applications but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Full-stack applications",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is not limited to full-stack applications and is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "1d1cb7f7-f4f2-4c5d-801a-581343e72a35",
+                    "question": "Which area of web development is Vue.js most focused on?",
+                    "description": "Identify the specific area or aspect of web development that Vue.js places the most emphasis on.",
+                    "hint": "Consider the core strengths and applications of Vue.js, especially in the context of creating interactive and responsive user interfaces.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Back-end development",
+                            "description": "Incorrect. Vue.js is not designed for back-end development but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Server-side scripting",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side scripting but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js is most focused on front-end development, providing tools for building interactive and dynamic user interfaces.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the specific area of web development that Vue.js focuses on contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "78a2f7e5-04f1-4a10-920a-2d25bf02a3a1",
+                    "question": "In the context of web development, what is the primary role of Vue.js?",
+                    "description": "Identify the central role or purpose that Vue.js serves in the field of web development.",
+                    "hint": "Consider the key functionalities and applications of Vue.js, especially in the context of enhancing the user experience.",
+                    "difficulty": 1,
+                    "options": [
+                        {
+                            "label": "Server-side scripting",
+                            "description": "Incorrect. Vue.js is not primarily focused on server-side scripting but on front-end development.",
+                            "points": 0,
+                            "explanation": "Recognizing the primary focus of Vue.js as front-end development is crucial for this question."
+                        },
+                        {
+                            "label": "Database management",
+                            "description": "Incorrect. Vue.js is not specifically designed for database management but for front-end development.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        },
+                        {
+                            "label": "Front-end development",
+                            "description": "Correct! Vue.js plays a central role in front-end development, providing tools for creating interactive and dynamic user interfaces.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary role of Vue.js in enhancing front-end development contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Full-stack development",
+                            "description": "Incorrect. While Vue.js can be used in full-stack development, it is primarily a front-end framework.",
+                            "points": 0,
+                            "explanation": "Understanding that Vue.js is mainly for front-end development is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "82250e4c-586b-4167-b80c-7c0eeed76aa9",
+                    "question": "Which of the following Vue.js features allows for the reusability of code components?",
+                    "description": "Identify the specific Vue.js feature that facilitates the reuse of code components in web development.",
+                    "hint": "Consider the key features of Vue.js, especially those that promote component-based development and code reusability.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Scoped styles",
+                            "description": "Incorrect. Scoped styles in Vue.js are designed to limit the scope of styles to a specific component, but they do not directly promote code component reusability.",
+                            "points": 0,
+                            "explanation": "Understanding that scoped styles are more related to styling and encapsulation in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Mixins",
+                            "description": "Correct! Mixins in Vue.js allow for the reuse of component logic by combining it with multiple components, promoting code reusability.",
+                            "points": 3,
+                            "explanation": "Accurately identifying mixins as a Vue.js feature for code component reusability contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Vue Router",
+                            "description": "Incorrect. Vue Router is primarily used for navigation and routing in Vue.js applications, not specifically for code component reusability.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of Vue Router in navigation is important for this question."
+                        },
+                        {
+                            "label": "Vuex",
+                            "description": "Incorrect. Vuex is a state management library for Vue.js and is not directly related to code component reusability.",
+                            "points": 0,
+                            "explanation": "Understanding the role of Vuex in managing state in Vue.js applications is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "b9aee6c2-05cc-40de-8ea3-df8f0ea2b0cb",
+                    "question": "Which lifecycle hook in Vue.js is triggered after a component and its children are destroyed?",
+                    "description": "Identify the specific lifecycle hook in Vue.js that is executed after a component and its child components have been destroyed.",
+                    "hint": "Consider the Vue.js lifecycle hooks and their order, especially those related to component destruction.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "beforeCreate",
+                            "description": "Incorrect. The beforeCreate hook is triggered at the very early stage of a component's lifecycle, before data observation and event/watcher setup.",
+                            "points": 0,
+                            "explanation": "Understanding the order of lifecycle hooks and their specific roles is important for this question."
+                        },
+                        {
+                            "label": "destroyed",
+                            "description": "Correct! The destroyed hook is called after a component and its child components have been destroyed, providing an opportunity for cleanup.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the destroyed hook as the one executed after component destruction contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "beforeDestroy",
+                            "description": "Incorrect. The beforeDestroy hook is triggered just before a component is destroyed, not after the destruction process.",
+                            "points": 0,
+                            "explanation": "Understanding the order of lifecycle hooks and their specific roles is important for this question."
+                        },
+                        {
+                            "label": "destroy",
+                            "description": "Incorrect. There is no lifecycle hook named 'destroy' in Vue.js.",
+                            "points": 0,
+                            "explanation": "Recognizing the correct names of Vue.js lifecycle hooks is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e4f3c826-3d9a-4207-8324-97db7e0b1321",
+                    "question": "What is the primary purpose of the Vue Router in a Vue.js application?",
+                    "description": "Identify the central function or purpose served by the Vue Router in the context of a Vue.js application.",
+                    "hint": "Consider the role of Vue Router in managing navigation and routing within a Vue.js application.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "State management",
+                            "description": "Incorrect. State management is typically handled by Vuex in Vue.js applications, not by the Vue Router.",
+                            "points": 0,
+                            "explanation": "Understanding the distinct roles of Vue Router and Vuex in a Vue.js application is important for this question."
+                        },
+                        {
+                            "label": "Component reusability",
+                            "description": "Incorrect. While Vue Router facilitates navigation between components, its primary role is not centered on component reusability.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific role of Vue Router in navigation is important for this question."
+                        },
+                        {
+                            "label": "Navigation and routing",
+                            "description": "Correct! The primary purpose of Vue Router is to manage navigation and routing within a Vue.js application, allowing for seamless transitions between views.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of Vue Router in handling navigation and routing contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Data fetching",
+                            "description": "Incorrect. While Vue Router can be used in conjunction with data fetching, it is not its primary purpose but rather a role handled by components or other libraries.",
+                            "points": 0,
+                            "explanation": "Understanding the specific role of Vue Router in a Vue.js application is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "9d38451e-e8e9-4b23-8d3a-52232b334d77",
+                    "question": "Which directive in Vue.js is used to conditionally render an element based on a specified expression?",
+                    "description": "Identify the Vue.js directive that allows for the conditional rendering of an element based on the evaluation of a given expression.",
+                    "hint": "Consider the Vue.js directives related to conditional rendering, especially those used to control the visibility of elements based on conditions.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "v-show",
+                            "description": "Correct! The v-show directive is used in Vue.js to conditionally render an element based on the truthiness of a specified expression.",
+                            "points": 3,
+                            "explanation": "Accurately identifying v-show as the directive for conditional rendering contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "v-if",
+                            "description": "Incorrect. While v-if is another directive for conditional rendering, v-show is specifically designed for toggling visibility without removing the element from the DOM.",
+                            "points": 0,
+                            "explanation": "Understanding the differences between v-show and v-if in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "v-bind",
+                            "description": "Incorrect. The v-bind directive is used for binding an attribute or property to an expression, but it is not primarily focused on conditional rendering.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of v-bind in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "v-for",
+                            "description": "Incorrect. The v-for directive is used for rendering a list of items but is not specifically designed for conditional rendering based on an expression.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of v-for in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "96fb7a19-5ee1-41e9-8c22-d74a53a63e5c",
+                    "question": "What is the purpose of the Vue.js directive v-bind?",
+                    "description": "Identify the primary purpose or functionality of the Vue.js directive v-bind.",
+                    "hint": "Consider the role of v-bind in Vue.js and its use in manipulating HTML attributes and properties based on data.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Conditional rendering",
+                            "description": "Incorrect. Conditional rendering in Vue.js is typically handled by directives like v-show or v-if, while v-bind is primarily used for binding values to HTML attributes or properties.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of v-bind in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "List rendering",
+                            "description": "Incorrect. List rendering is typically handled by the v-for directive in Vue.js, not by v-bind.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of v-for in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Two-way data binding",
+                            "description": "Incorrect. Two-way data binding in Vue.js is achieved through the v-model directive, not v-bind.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of v-model in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Binding values to HTML attributes or properties",
+                            "description": "Correct! The primary purpose of the v-bind directive in Vue.js is to bind values to HTML attributes or properties, allowing dynamic manipulation based on data.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary use of v-bind in Vue.js contributes to the correctness of the answer."
+                        }
+                    ]
+                },
+                {
+                    "id": "06568c25-ee4c-49db-aa0e-49db51ac508a",
+                    "question": "In Vue.js, what is the primary function of the v-model directive?",
+                    "description": "Identify the central function or purpose served by the v-model directive in Vue.js applications.",
+                    "hint": "Consider the role of v-model in Vue.js and how it is used to achieve two-way data binding.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Conditional rendering",
+                            "description": "Incorrect. Conditional rendering in Vue.js is typically handled by directives like v-show or v-if, not by v-model.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of v-model in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Two-way data binding",
+                            "description": "Correct! The primary function of the v-model directive in Vue.js is to achieve two-way data binding, allowing synchronization between a form input and a data property.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary role of v-model in achieving two-way data binding contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "List rendering",
+                            "description": "Incorrect. List rendering is typically handled by the v-for directive in Vue.js, not by v-model.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of v-for in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. While v-model is associated with handling user input events, its primary function is to achieve two-way data binding.",
+                            "points": 0,
+                            "explanation": "Understanding the central role of v-model in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "47d1f235-19e2-4f3b-8a3f-b836bfe3db56",
+                    "question": "What is the purpose of the `v-for` directive in Vue.js?",
+                    "description": "Identify the primary purpose or functionality of the `v-for` directive in Vue.js applications.",
+                    "hint": "Consider the role of `v-for` in Vue.js and how it is used for rendering lists based on data.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "Two-way data binding",
+                            "description": "Incorrect. Two-way data binding in Vue.js is achieved through the `v-model` directive, not `v-for`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-model` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "List rendering",
+                            "description": "Correct! The primary purpose of the `v-for` directive in Vue.js is to render lists based on data, iterating over an array or an object.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary use of `v-for` in Vue.js for rendering lists contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Conditional rendering",
+                            "description": "Incorrect. Conditional rendering in Vue.js is typically handled by directives like `v-show` or `v-if`, not `v-for`.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-for` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. Event handling in Vue.js is associated with directives like `v-on`, not `v-for`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-on` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ac058df8-6b60-4f87-a732-5b69c5df967f",
+                    "question": "Which Vue.js lifecycle hook is called after a component's DOM has been updated?",
+                    "description": "Identify the specific Vue.js lifecycle hook that is triggered after the DOM of a component has been updated.",
+                    "hint": "Consider the Vue.js lifecycle hooks and their order, especially those related to the updating of the component's DOM.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "beforeUpdate",
+                            "description": "Incorrect. The `beforeUpdate` hook is triggered just before the DOM of a component is updated, not after.",
+                            "points": 0,
+                            "explanation": "Understanding the order of lifecycle hooks and their specific roles is important for this question."
+                        },
+                        {
+                            "label": "updated",
+                            "description": "Correct! The `updated` hook is called after the DOM of a component has been updated, providing an opportunity for post-update actions.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the `updated` hook as the one executed after the component's DOM has been updated contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "beforeCreate",
+                            "description": "Incorrect. The `beforeCreate` hook is triggered at the very early stage of a component's lifecycle, before data observation and event/watcher setup.",
+                            "points": 0,
+                            "explanation": "Understanding the order of lifecycle hooks and their specific roles is important for this question."
+                        },
+                        {
+                            "label": "mounted",
+                            "description": "Incorrect. The `mounted` hook is called when a component has been inserted into the DOM, not after its DOM has been updated.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of the `mounted` hook in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "87c18751-67ac-4ff6-91e4-03fdd36e2e0a",
+                    "question": "What is the primary purpose of the `v-if` directive in Vue.js?",
+                    "description": "Identify the central function or purpose served by the `v-if` directive in Vue.js applications.",
+                    "hint": "Consider the role of `v-if` in Vue.js and how it is used for conditional rendering based on a specified expression.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "List rendering",
+                            "description": "Incorrect. List rendering in Vue.js is typically handled by the `v-for` directive, not `v-if`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-for` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Incorrect. Event handling in Vue.js is associated with directives like `v-on`, not `v-if`.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-on` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Conditional rendering",
+                            "description": "Correct! The primary purpose of the `v-if` directive in Vue.js is to conditionally render an element based on the truthiness of a specified expression.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of `v-if` in achieving conditional rendering contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Two-way data binding",
+                            "description": "Incorrect. Two-way data binding in Vue.js is achieved through the `v-model` directive, not `v-if`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-model` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "8a8a36f3-9c48-4a2f-bf8a-3634f85047d1",
+                    "question": "What is the purpose of the `v-on` directive in Vue.js?",
+                    "description": "Identify the primary purpose or functionality of the `v-on` directive in Vue.js applications.",
+                    "hint": "Consider the role of `v-on` in Vue.js and how it is used to listen for and handle DOM events.",
+                    "difficulty": 2,
+                    "options": [
+                        {
+                            "label": "List rendering",
+                            "description": "Incorrect. List rendering in Vue.js is typically handled by the `v-for` directive, not `v-on`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-for` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Event handling",
+                            "description": "Correct! The primary purpose of the `v-on` directive in Vue.js is to listen for and handle DOM events, such as click, input, or custom events.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of `v-on` in handling DOM events contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Two-way data binding",
+                            "description": "Incorrect. Two-way data binding in Vue.js is achieved through the `v-model` directive, not `v-on`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-model` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Conditional rendering",
+                            "description": "Incorrect. Conditional rendering in Vue.js is typically handled by directives like `v-if` or `v-show`, not `v-on`.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-if` and `v-show` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "422edbd8-93a4-4120-ba5b-98b63609a6a7",
+                    "question": "What is the purpose of the `computed` property in Vue.js?",
+                    "description": "Identify the primary purpose or functionality of the `computed` property in Vue.js components.",
+                    "hint": "Consider the role of `computed` properties in Vue.js and how they differ from methods and data properties.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Handling DOM events",
+                            "description": "Incorrect. Handling DOM events in Vue.js is typically done using the `v-on` directive, not `computed` properties.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-on` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Data manipulation and filtering",
+                            "description": "Incorrect. While `computed` properties can perform data manipulation, their primary purpose is not filtering data. They are used for caching and deriving values based on reactive dependencies.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `computed` properties in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Derived data and caching",
+                            "description": "Correct! The primary purpose of the `computed` property in Vue.js is to calculate and cache derived values based on reactive dependencies.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of `computed` properties in calculating and caching derived data contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "List rendering",
+                            "description": "Incorrect. List rendering in Vue.js is typically handled by the `v-for` directive, not `computed` properties.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-for` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "aae67a7f-6e3d-4ef4-aa66-cb0c895d9ef6",
+                    "question": "In Vue.js, what is the primary role of the `watch` option?",
+                    "description": "Identify the primary purpose or functionality of the `watch` option in Vue.js components.",
+                    "hint": "Consider the role of the `watch` option in Vue.js and how it allows you to respond to changes in specific data properties.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Handling DOM events",
+                            "description": "Incorrect. Handling DOM events in Vue.js is typically done using the `v-on` directive, not the `watch` option.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-on` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "List rendering",
+                            "description": "Incorrect. List rendering in Vue.js is typically handled by the `v-for` directive, not the `watch` option.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-for` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Reacting to changes in specific data properties",
+                            "description": "Correct! The primary role of the `watch` option in Vue.js is to react to changes in specific data properties, enabling custom logic when those properties are modified.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `watch` option in responding to changes in specific data properties contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Conditional rendering",
+                            "description": "Incorrect. Conditional rendering in Vue.js is typically handled by directives like `v-if` or `v-show`, not the `watch` option.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-if` and `v-show` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "5869293a-099c-4ef3-810e-7f5ccbe3b185",
+                    "question": "What is the primary role of the `beforeDestroy` lifecycle hook in Vue.js?",
+                    "description": "Identify the primary purpose or functionality of the `beforeDestroy` lifecycle hook in Vue.js components.",
+                    "hint": "Consider the order of Vue.js lifecycle hooks and the specific actions or clean-up tasks performed by `beforeDestroy`.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Handling DOM events",
+                            "description": "Incorrect. Handling DOM events in Vue.js is typically done using the `v-on` directive, not the `beforeDestroy` hook.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-on` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Reacting to changes in specific data properties",
+                            "description": "Incorrect. Reacting to changes in specific data properties is often handled by the `watch` option, not the `beforeDestroy` hook.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of the `watch` option in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Clean-up tasks before a component is destroyed",
+                            "description": "Correct! The primary role of the `beforeDestroy` lifecycle hook in Vue.js is to perform clean-up tasks or actions just before a component is destroyed.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `beforeDestroy` hook in executing clean-up tasks contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "List rendering",
+                            "description": "Incorrect. List rendering in Vue.js is typically handled by the `v-for` directive, not the `beforeDestroy` hook.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-for` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a12a95c0-b48a-42a9-84cc-300a5701f282",
+                    "question": "Which directive in Vue.js is used for two-way data binding?",
+                    "description": "Identify the directive in Vue.js that facilitates two-way data binding between a form input and a data property.",
+                    "hint": "Consider the Vue.js directives related to data binding and their specific roles.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "v-bind",
+                            "description": "Incorrect. The `v-bind` directive is used for one-way data binding in Vue.js, not two-way data binding.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-bind` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "v-model",
+                            "description": "Correct! The `v-model` directive in Vue.js is used for two-way data binding, allowing synchronization between form input values and data properties.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the directive responsible for two-way data binding in Vue.js contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "v-if",
+                            "description": "Incorrect. The `v-if` directive is used for conditional rendering in Vue.js, not for two-way data binding.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-if` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "v-on",
+                            "description": "Incorrect. The `v-on` directive is used for handling DOM events in Vue.js, not for two-way data binding.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-on` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "a12a95c0-b48a-42a9-84cc-300a5701f282",
+                    "question": "Which directive in Vue.js is used for two-way data binding?",
+                    "description": "Identify the directive in Vue.js that facilitates two-way data binding between a form input and a data property.",
+                    "hint": "Consider the Vue.js directives related to data binding and their specific roles.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "v-bind",
+                            "description": "Incorrect. The `v-bind` directive is used for one-way data binding in Vue.js, not two-way data binding.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-bind` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "v-model",
+                            "description": "Correct! The `v-model` directive in Vue.js is used for two-way data binding, allowing synchronization between form input values and data properties.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the directive responsible for two-way data binding in Vue.js contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "v-if",
+                            "description": "Incorrect. The `v-if` directive is used for conditional rendering in Vue.js, not for two-way data binding.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-if` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "v-on",
+                            "description": "Incorrect. The `v-on` directive is used for handling DOM events in Vue.js, not for two-way data binding.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-on` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "c43b3d4b-22fc-431f-b3fe-1743e6fbfc14",
+                    "question": "How does the `v-show` directive differ from the `v-if` directive in Vue.js?",
+                    "description": "Identify the key difference between the `v-show` and `v-if` directives in Vue.js.",
+                    "hint": "Consider the conditions under which elements are displayed or hidden using `v-show` and `v-if`.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "They have the same functionality and can be used interchangeably.",
+                            "description": "Incorrect. While both directives control the visibility of elements, they have distinct functionality related to rendering and reactivity in Vue.js.",
+                            "points": 0,
+                            "explanation": "Recognizing the differences in functionality between `v-show` and `v-if` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "v-show is used for conditional rendering, and v-if is used for toggling visibility.",
+                            "description": "Correct! The key difference is that `v-show` is used for toggling visibility by changing the CSS display property, while `v-if` is used for conditional rendering by adding or removing elements from the DOM.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the difference in functionality between `v-show` and `v-if` contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "v-if is used for animations, and v-show is used for data binding.",
+                            "description": "Incorrect. Animations in Vue.js are typically handled using the `transition` wrapper or other animation-related features, not directly by `v-if`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of animations in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "They both serve the same purpose and are interchangeable.",
+                            "description": "Incorrect. While both directives control the visibility of elements, they have distinct functionality related to rendering and reactivity in Vue.js.",
+                            "points": 0,
+                            "explanation": "Recognizing the differences in functionality between `v-show` and `v-if` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "69c2a7da-042f-44f5-bf2b-3cfe3f87f2b2",
+                    "question": "What is the purpose of the `beforeCreate` lifecycle hook in Vue.js?",
+                    "description": "Identify the primary purpose or functionality of the `beforeCreate` lifecycle hook in Vue.js components.",
+                    "hint": "Consider the order of Vue.js lifecycle hooks and the specific actions or tasks performed by the `beforeCreate` hook.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Setting up data observation and events",
+                            "description": "Correct! The `beforeCreate` lifecycle hook in Vue.js is used for setting up data observation and events before the instance is created.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `beforeCreate` hook in setting up data observation and events contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Handling DOM events",
+                            "description": "Incorrect. Handling DOM events in Vue.js is typically done using the `v-on` directive, not the `beforeCreate` hook.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use case of `v-on` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Executing tasks when a component is destroyed",
+                            "description": "Incorrect. Executing tasks when a component is destroyed is typically handled by the `beforeDestroy` lifecycle hook, not `beforeCreate`.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific role of the `beforeDestroy` hook in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Defining computed properties",
+                            "description": "Incorrect. Computed properties in Vue.js are defined using the `computed` property option, not directly by the `beforeCreate` hook.",
+                            "points": 0,
+                            "explanation": "Understanding how computed properties are defined in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "da2d7e3e-48f4-4d33-b032-b813b53ea45e",
+                    "question": "In Vue.js, what is the purpose of the `v-for` directive?",
+                    "description": "Identify the primary purpose or functionality of the `v-for` directive in Vue.js.",
+                    "hint": "Consider how the `v-for` directive is used to iterate over data and generate dynamic content in Vue.js templates.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Defining computed properties",
+                            "description": "Incorrect. Computed properties in Vue.js are defined using the `computed` property option, not the `v-for` directive.",
+                            "points": 0,
+                            "explanation": "Understanding how computed properties are defined in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Handling DOM events",
+                            "description": "Incorrect. Handling DOM events in Vue.js is typically done using the `v-on` directive, not the `v-for` directive.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-on` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Iterating over a list and rendering elements",
+                            "description": "Correct! The primary purpose of the `v-for` directive in Vue.js is to iterate over a list and dynamically render elements based on the data.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `v-for` directive in iterating over data and generating dynamic content contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Toggling visibility of elements",
+                            "description": "Incorrect. Toggling visibility of elements is typically done using the `v-show` or `v-if` directives, not the `v-for` directive.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use cases of `v-show` and `v-if` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7ceeece8-757f-45a5-ba2e-3328d06446a1",
+                    "question": "What is the purpose of the `mounted` lifecycle hook in Vue.js?",
+                    "description": "Identify the primary purpose or functionality of the `mounted` lifecycle hook in Vue.js components.",
+                    "hint": "Consider the order of Vue.js lifecycle hooks and the specific actions or tasks performed by the `mounted` hook.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Executing tasks before a component is rendered",
+                            "description": "Incorrect. Executing tasks before a component is rendered is typically handled by the `beforeCreate` or `created` lifecycle hooks, not `mounted`.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific roles of the `beforeCreate` and `created` hooks in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Setting up data observation and events",
+                            "description": "Incorrect. Setting up data observation and events is typically done in the `beforeCreate` or `created` lifecycle hooks, not `mounted`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific roles of the `beforeCreate` and `created` hooks in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Executing tasks after a component is inserted into the DOM",
+                            "description": "Correct! The primary purpose of the `mounted` lifecycle hook in Vue.js is to execute tasks or actions after a component is inserted into the DOM.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `mounted` hook in executing tasks after DOM insertion contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Handling DOM events",
+                            "description": "Incorrect. Handling DOM events in Vue.js is typically done using the `v-on` directive, not the `mounted` lifecycle hook.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-on` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "bd9b01de-8f0d-4c6a-8c9f-16db2cb74b16",
+                    "question": "What is the purpose of the `v-bind` directive in Vue.js?",
+                    "description": "Identify the primary purpose or functionality of the `v-bind` directive in Vue.js.",
+                    "hint": "Consider how the `v-bind` directive is used to bind an attribute or property to an expression in Vue.js templates.",
+                    "difficulty": 3,
+                    "options": [
+                        {
+                            "label": "Defining computed properties",
+                            "description": "Incorrect. Computed properties in Vue.js are defined using the `computed` property option, not the `v-bind` directive.",
+                            "points": 0,
+                            "explanation": "Understanding how computed properties are defined in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Handling DOM events",
+                            "description": "Incorrect. Handling DOM events in Vue.js is typically done using the `v-on` directive, not the `v-bind` directive.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-on` in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Binding an attribute or property to an expression",
+                            "description": "Correct! The primary purpose of the `v-bind` directive in Vue.js is to bind an attribute or property to an expression, allowing dynamic values in templates.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `v-bind` directive in binding attributes or properties contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Iterating over a list and rendering elements",
+                            "description": "Incorrect. Iterating over a list and rendering elements is typically done using the `v-for` directive, not the `v-bind` directive.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-for` in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "51b05a04-8bda-42a3-aa33-66a8e208d947",
+                    "question": "What is the purpose of the `nextTick` function in Vue.js?",
+                    "description": "Identify the primary purpose or functionality of the `nextTick` function in Vue.js.",
+                    "hint": "Consider how the `nextTick` function is used to defer the execution of a callback until the DOM has been updated after a reactivity-triggering operation.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Controlling the flow of asynchronous code",
+                            "description": "Incorrect. While `nextTick` is related to asynchronous code, its primary purpose is not to control the flow but to handle callbacks after DOM updates.",
+                            "points": 0,
+                            "explanation": "Understanding the specific purpose of `nextTick` in Vue.js is crucial for this question."
+                        },
+                        {
+                            "label": "Handling cross-component communication",
+                            "description": "Incorrect. Cross-component communication in Vue.js is typically achieved using events or a state management pattern like Vuex, not the `nextTick` function.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific methods for cross-component communication in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Deferring the execution of a callback until after DOM updates",
+                            "description": "Correct! The primary purpose of the `nextTick` function in Vue.js is to defer the execution of a callback until the DOM has been updated after a reactivity-triggering operation.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `nextTick` function in handling callbacks after DOM updates contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Optimizing rendering performance",
+                            "description": "Incorrect. While `nextTick` may indirectly contribute to performance optimizations, its primary purpose is not directly related to rendering performance.",
+                            "points": 0,
+                            "explanation": "Understanding the specific aspects of performance optimization in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "d871315a-6201-4b89-81ed-33bc2d2d0c9a",
+                    "question": "How does Vue.js handle reactivity in its data?",
+                    "description": "Explain how Vue.js achieves reactivity in its data and state management.",
+                    "hint": "Consider the mechanisms and concepts within Vue.js, such as the reactivity system, getters and setters, and the virtual DOM.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "By using a central state management store",
+                            "description": "Incorrect. Vue.js does provide a state management pattern called Vuex for centralized state, but reactivity is achieved through the reactivity system without requiring a central store.",
+                            "points": 0,
+                            "explanation": "Understanding the distinction between state management and reactivity in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "By employing a two-way data binding system",
+                            "description": "Incorrect. While Vue.js does support two-way data binding, its reactivity is primarily achieved through a reactive data system and not exclusively through two-way binding.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of two-way data binding in Vue.js and its relation to reactivity is important for this question."
+                        },
+                        {
+                            "label": "By using a reactivity system with getters and setters",
+                            "description": "Correct! Vue.js achieves reactivity in its data by employing a reactivity system that utilizes JavaScript getters and setters to track and react to changes in the data.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the mechanism of Vue.js's reactivity system with getters and setters contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "By relying on a manual event-driven approach",
+                            "description": "Incorrect. While events can be used in Vue.js, the primary mechanism for reactivity is not based on a manual event-driven approach.",
+                            "points": 0,
+                            "explanation": "Understanding the primary mechanisms for reactivity in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "82206ba6-695b-4a6a-8c53-9f4ef93d7a2d",
+                    "question": "What is the purpose of the `scoped` attribute in Vue.js style blocks?",
+                    "description": "Explain the purpose and functionality of the `scoped` attribute when used in style blocks in Vue.js components.",
+                    "hint": "Consider how the `scoped` attribute affects the styling of Vue.js components and its impact on the encapsulation of styles.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Enabling global styles for the entire application",
+                            "description": "Incorrect. The `scoped` attribute in Vue.js style blocks is designed to encapsulate styles within the component, not to enable global styles.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of the `scoped` attribute in Vue.js style blocks is important for this question."
+                        },
+                        {
+                            "label": "Disabling all styles within the component",
+                            "description": "Incorrect. The `scoped` attribute does not disable styles; instead, it scopes the styles to the specific component, preventing global style leakage.",
+                            "points": 0,
+                            "explanation": "Recognizing the impact of the `scoped` attribute on styling within Vue.js components is important for this question."
+                        },
+                        {
+                            "label": "Encapsulating styles to affect only the component's elements",
+                            "description": "Correct! The primary purpose of the `scoped` attribute in Vue.js style blocks is to encapsulate styles, ensuring that styles only affect the elements within the specific component.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `scoped` attribute in encapsulating styles for component-specific elements contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Optimizing rendering performance",
+                            "description": "Incorrect. While styling can impact performance, the `scoped` attribute is not directly related to optimizing rendering performance.",
+                            "points": 0,
+                            "explanation": "Understanding the specific aspects of performance optimization in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "f8edaa15-6c34-439e-81b9-4e24eaa63f3b",
+                    "question": "In Vue.js, what is the purpose of the `v-show` directive?",
+                    "description": "Identify the primary purpose or functionality of the `v-show` directive in Vue.js.",
+                    "hint": "Consider how the `v-show` directive is used to conditionally show or hide elements based on a Boolean value.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Binding class names dynamically",
+                            "description": "Incorrect. Binding class names dynamically is typically done using the `v-bind` directive, not the `v-show` directive.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-bind` in Vue.js for dynamic class binding is important for this question."
+                        },
+                        {
+                            "label": "Conditionally rendering elements based on a Boolean value",
+                            "description": "Correct! The primary purpose of the `v-show` directive in Vue.js is to conditionally show or hide elements based on a Boolean value.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `v-show` directive in conditionally rendering elements contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Iterating over a list and rendering elements",
+                            "description": "Incorrect. Iterating over a list and rendering elements is typically done using the `v-for` directive, not the `v-show` directive.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-for` in Vue.js for iterating over lists is important for this question."
+                        },
+                        {
+                            "label": "Handling user input events",
+                            "description": "Incorrect. Handling user input events is typically done using the `v-on` directive, not the `v-show` directive.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific use case of `v-on` in Vue.js for handling events is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "ca0ce63e-b5f8-49e7-9efb-4ce69b2c56fc",
+                    "question": "How does Vue.js handle component communication in a parent-child relationship?",
+                    "description": "Explain the mechanisms and options available in Vue.js for components to communicate with each other in a parent-child relationship.",
+                    "hint": "Consider concepts such as props, custom events, and the $emit method for communication between parent and child components.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "By using a central event bus for all components",
+                            "description": "Incorrect. While an event bus is a global communication mechanism in Vue.js, it is not specific to parent-child relationships and may lead to a less structured architecture.",
+                            "points": 0,
+                            "explanation": "Understanding the distinctions between various communication mechanisms in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "By relying solely on props for all communication",
+                            "description": "Incorrect. While props are a key mechanism for passing data from parent to child components, they are not the sole means of communication, and custom events are often needed.",
+                            "points": 0,
+                            "explanation": "Recognizing the role of both props and custom events in Vue.js component communication is important for this question."
+                        },
+                        {
+                            "label": "By using props for data down and custom events for events up",
+                            "description": "Correct! Vue.js encourages a unidirectional data flow in parent-child relationships, using props to pass data down and custom events to emit events up.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the recommended approach of using props for data down and custom events for events up in Vue.js contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "By relying solely on the Vuex state management pattern",
+                            "description": "Incorrect. While Vuex is a powerful state management pattern, it is not the primary mechanism for communication in parent-child relationships and is typically used for broader application state.",
+                            "points": 0,
+                            "explanation": "Understanding the role of Vuex and its use cases in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "0797e7e1-1803-4a2f-9c8a-46bc1c4dfc35",
+                    "question": "What is the purpose of the `v-pre` directive in Vue.js templates?",
+                    "description": "Explain the purpose and functionality of the `v-pre` directive when used in Vue.js templates.",
+                    "hint": "Consider how the `v-pre` directive affects the rendering and compilation of elements in Vue.js templates.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Enabling strict mode for the entire application",
+                            "description": "Incorrect. The `v-pre` directive does not enable strict mode; it affects the rendering and compilation of specific elements.",
+                            "points": 0,
+                            "explanation": "Understanding the purpose of the `v-pre` directive in Vue.js templates is important for this question."
+                        },
+                        {
+                            "label": "Preventing specific elements from being compiled",
+                            "description": "Correct! The primary purpose of the `v-pre` directive in Vue.js templates is to prevent specific elements and their children from being compiled.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `v-pre` directive in preventing the compilation of elements contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Forcing immediate re-rendering of the component",
+                            "description": "Incorrect. The `v-pre` directive does not force immediate re-rendering; it affects the compilation step during template parsing.",
+                            "points": 0,
+                            "explanation": "Understanding the specific impact of the `v-pre` directive on rendering in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Optimizing rendering performance globally",
+                            "description": "Incorrect. While rendering performance is a consideration, the `v-pre` directive is not intended for global optimization but for specific elements.",
+                            "points": 0,
+                            "explanation": "Understanding the specific aspects of performance optimization in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "6c93512c-26cd-4201-90e3-0f56c0e80e02",
+                    "question": "What is the purpose of the `computed` property in a Vue.js component?",
+                    "description": "Explain the role and functionality of the `computed` property in Vue.js components.",
+                    "hint": "Consider how the `computed` property differs from methods and how it can be used to derive values based on reactive data.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Executing asynchronous operations in a component",
+                            "description": "Incorrect. Asynchronous operations are typically handled using methods or other lifecycle hooks, not the `computed` property.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use cases for methods and the `computed` property in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Storing and managing global state in a component",
+                            "description": "Incorrect. While `computed` properties can be based on global state, their primary role is in deriving values based on reactive data, not in managing global state.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinctions between managing global state and the role of `computed` properties in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Deriving values based on reactive data",
+                            "description": "Correct! The primary purpose of the `computed` property in Vue.js is to derive values based on reactive data, allowing for automatic updates when dependent data changes.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `computed` property in deriving values based on reactive data contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Defining lifecycle hooks for a component",
+                            "description": "Incorrect. Lifecycle hooks are separate from computed properties and are used for different purposes in Vue.js components.",
+                            "points": 0,
+                            "explanation": "Understanding the distinctions between computed properties and lifecycle hooks in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "e95391a4-064f-4b69-b702-3d3ddde7e3c6",
+                    "question": "What does the `v-cloak` directive in Vue.js help to prevent?",
+                    "description": "Explain the purpose of the `v-cloak` directive in Vue.js and the issue it helps to prevent.",
+                    "hint": "Consider scenarios where template rendering may be delayed, and how the `v-cloak` directive addresses potential issues.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Preventing memory leaks in Vue.js components",
+                            "description": "Incorrect. The `v-cloak` directive is not related to preventing memory leaks; it addresses a different issue related to template rendering.",
+                            "points": 0,
+                            "explanation": "Understanding the specific purpose of the `v-cloak` directive in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Preventing reactivity issues with data binding",
+                            "description": "Incorrect. Reactivity issues with data binding are typically addressed through proper data initialization and reactivity in Vue.js, not the `v-cloak` directive.",
+                            "points": 0,
+                            "explanation": "Recognizing the specific scenarios where reactivity issues may occur in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Preventing the display of uncompiled template markup",
+                            "description": "Correct! The `v-cloak` directive in Vue.js helps prevent the display of uncompiled template markup while components are being initialized or before data is available.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `v-cloak` directive in preventing the display of uncompiled template markup contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Preventing unauthorized access to API endpoints",
+                            "description": "Incorrect. The `v-cloak` directive is not related to preventing unauthorized access to API endpoints; it addresses template rendering concerns.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use cases of the `v-cloak` directive in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "7f11bbae-c94c-478b-b527-9df0bb8cc926",
+                    "question": "What is the primary purpose of the `v-model` directive in Vue.js?",
+                    "description": "Explain the central functionality and use case of the `v-model` directive in Vue.js components.",
+                    "hint": "Consider scenarios where bidirectional data binding is beneficial and how the `v-model` directive simplifies two-way data binding.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Styling components based on user interactions",
+                            "description": "Incorrect. Styling components based on user interactions is typically handled through CSS or dynamic class bindings, not the `v-model` directive.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use cases of the `v-model` directive in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Managing global state in a Vuex store",
+                            "description": "Incorrect. While Vuex is used for managing global state in Vue.js applications, the `v-model` directive is more focused on local component state.",
+                            "points": 0,
+                            "explanation": "Recognizing the distinctions between managing local component state and global state in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Implementing two-way data binding in form elements",
+                            "description": "Correct! The primary purpose of the `v-model` directive in Vue.js is to simplify the implementation of two-way data binding in form elements, allowing for easy synchronization of data between the component and the template.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the central function of the `v-model` directive in implementing two-way data binding for form elements contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Optimizing rendering performance for large datasets",
+                            "description": "Incorrect. Optimizing rendering performance for large datasets is typically addressed through techniques such as virtual scrolling, not the `v-model` directive.",
+                            "points": 0,
+                            "explanation": "Understanding the specific considerations for rendering performance in Vue.js is important for this question."
+                        }
+                    ]
+                },
+                {
+                    "id": "2f633ea1-b6c7-4e6e-84ec-6cd45c014a19",
+                    "question": "In Vue.js, what is the purpose of the `key` attribute when using `v-for`?",
+                    "description": "Explain the significance and use case of the `key` attribute in conjunction with the `v-for` directive in Vue.js.",
+                    "hint": "Consider the impact on Vue.js reactivity and component rendering when using the `key` attribute with `v-for`.",
+                    "difficulty": 4,
+                    "options": [
+                        {
+                            "label": "Specifying the font size for text elements",
+                            "description": "Incorrect. Specifying font size is typically done through CSS styles, not the `key` attribute with `v-for`.",
+                            "points": 0,
+                            "explanation": "Understanding the specific use cases of the `key` attribute in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Ensuring proper ordering of array elements",
+                            "description": "Incorrect. While the `key` attribute can impact ordering, its primary role is related to Vue.js reactivity and efficient rendering.",
+                            "points": 0,
+                            "explanation": "Recognizing the central functionality of the `key` attribute in Vue.js is important for this question."
+                        },
+                        {
+                            "label": "Providing a unique identifier for each rendered element",
+                            "description": "Correct! The `key` attribute in Vue.js, when used with `v-for`, provides a unique identifier for each rendered element. This aids in Vue.js reactivity and efficient DOM updates.",
+                            "points": 3,
+                            "explanation": "Accurately identifying the primary purpose of the `key` attribute in Vue.js reactivity and rendering contributes to the correctness of the answer."
+                        },
+                        {
+                            "label": "Defining custom transitions for animated elements",
+                            "description": "Incorrect. Custom transitions for animated elements are typically defined using Vue.js transition classes, not the `key` attribute.",
+                            "points": 0,
+                            "explanation": "Understanding the specific mechanisms for defining custom transitions in Vue.js is important for this question."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
